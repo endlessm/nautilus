@@ -35,12 +35,14 @@
     <value nick="small" value="0"/>
     <value nick="standard" value="1"/>
     <value nick="large" value="2"/>
+    <value nick="larger" value="3"/>
   </enum>
 
   <enum id="org.gnome.nautilus.ListZoomLevel">
     <value nick="small" value="0"/>
     <value nick="standard" value="1"/>
     <value nick="large" value="2"/>
+    <value nick="larger" value="3"/>
   </enum>
 
   <enum id="org.gnome.nautilus.TabPosition">
@@ -194,7 +196,7 @@
       "group", "permissions", and "mime_type".</_description>
     </key>
     <key name="default-zoom-level" enum="org.gnome.nautilus.CanvasZoomLevel">
-      <default>'standard'</default>
+      <default>'large'</default>
       <_summary>Default icon zoom level</_summary>
       <_description>Default zoom level used by the icon view.</_description>
     </key>
