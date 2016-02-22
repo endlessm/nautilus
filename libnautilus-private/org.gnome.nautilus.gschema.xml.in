@@ -203,7 +203,8 @@
     <key name="thumbnail-size" type="i">
       <default>64</default>
       <_summary>Default Thumbnail Icon Size</_summary>
-      <_description>The default size of an icon for a thumbnail in the icon view when using NAUTILUS_ICON_SIZE_SMALL size.</_description>
+      <_description>The default size of an icon for a thumbnail in the icon view when using NAUTILUS_ICON_SIZE_STANDARD 
+size.</_description>
     </key>
     <key name="text-ellipsis-limit" type="as">
       <default>[ '3' ]</default>
