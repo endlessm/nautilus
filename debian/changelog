@@ -1,3 +1,9 @@
+nautilus (3.18.5-0) unstable; urgency=medium
+
+  * Forcing package version to 0 for Jenkins.
+
+ -- Georges Basile Stavracas Neto <georges@endlessm.com>  Thu, 25 Feb 2016 00:37:53 -0300
+
 nautilus (3.18.5-1) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
