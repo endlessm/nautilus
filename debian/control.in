@@ -49,7 +49,6 @@ Depends: ${shlibs:Depends},
          gsettings-desktop-schemas (>= 3.8.0)
 Recommends: librsvg2-common,
             gvfs-backends,
-            gnome-icon-theme-symbolic,
             gnome-sushi
 Suggests: brasero (>= 2.26),
           eog,
