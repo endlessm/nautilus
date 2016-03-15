@@ -38,6 +38,7 @@ Standards-Version: 3.9.6
 
 Package: nautilus
 Architecture: any
+XCBS-EOS-AppId: org.gnome.Nautilus
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          nautilus-data (>= ${gnome:Version}),
