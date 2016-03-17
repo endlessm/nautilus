@@ -327,7 +327,7 @@ build_tab_label (NautilusNotebook   *nb,
     gtk_button_set_relief (GTK_BUTTON (close_button),
                            GTK_RELIEF_NONE);
     /* don't allow focus on the close button */
-    gtk_widget_set_focus_on_click (close_button, FALSE);
+    gtk_widget_set_focus_on_click (GTK_WIDGET (close_button), FALSE);
 
     gtk_widget_set_name (close_button, "nautilus-tab-close-button");
 
