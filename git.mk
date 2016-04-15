@@ -148,7 +148,6 @@ $(srcdir)/.gitignore: Makefile.am $(top_srcdir)/git.mk
 				po/.intltool-merge-cache \
 				"po/*.gmo" \
 				"po/*.mo" \
-				po/$(GETTEXT_PACKAGE).pot \
 				intltool-extract.in \
 				intltool-merge.in \
 				intltool-update.in \
