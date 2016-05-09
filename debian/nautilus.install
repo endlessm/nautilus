@@ -1,5 +1,4 @@
 usr/bin
-usr/lib/nautilus/nautilus-convert-metadata
 usr/lib/nautilus/extensions-3.0/*.so
 usr/share/appdata
 usr/share/applications

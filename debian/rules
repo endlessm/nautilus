@@ -15,13 +15,22 @@ else
 ENABLE_TRACKER := --disable-tracker
 endif
 
+ifeq ($(DEB_HOST_ARCH_OS),linux)
+ENABLE_SELINUX := --enable-selinux
+else
+ENABLE_SELINUX := --disable-selinux
+endif
+
 DEB_CONFIGURE_EXTRA_FLAGS += --libexecdir=/usr/lib/nautilus \
                              --disable-update-mimedb \
                              --enable-packagekit \
                              --enable-introspection \
+                             $(ENABLE_SELINUX) \
                              $(ENABLE_TRACKER)
 LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
 DEB_DH_MAKESHLIBS_ARGS_libnautilus-extension1a += -V 'libnautilus-extension1a (>= 2.91)'
 DEB_DH_MAKESHLIBS_ARGS_nautilus += -Xusr/lib/nautilus/extensions-3.0/
+
+DEB_DH_STRIP_ARGS = --dbgsym-migration='nautilus-dbg (<< 3.20.0-1~)'
 
 common-binary-post-install-arch:: list-missing

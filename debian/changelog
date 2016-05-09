@@ -1,8 +1,40 @@
-nautilus (3.18.5-0) unstable; urgency=medium
+nautilus (3.20.1-2) unstable; urgency=medium
 
-  * Forcing package version to 0 for Jenkins.
+  * Only enable SELinux on Linux architectures, should fix FTBFS on other ones
 
- -- Georges Basile Stavracas Neto <georges@endlessm.com>  Thu, 25 Feb 2016 00:37:53 -0300
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 04 May 2016 08:57:48 +0200
+
+nautilus (3.20.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop obsolete Breaks, Conflicts and Replaces from pre-wheezy.
+  * Bump Standards-Version to 3.9.8.
+  * Fix format string handling in show_unhandled_type_error(), patch taken
+    from bgo#765918.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 03 May 2016 22:56:15 +0200
+
+nautilus (3.20.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop nautilus-dbg package now that we have automatic dbgsym packages.
+  * Ensure proper upgrade from nautilus-dbg to new dbgsym packages by using
+    dh_strip --dbgsym-migration. Bump Build-Depends on debhelper accordingly.
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 17:32:23 +0200
+
+nautilus (3.19.93-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump (build-)dependencies according to configure.ac changes:
+    - libgtk-3-dev (>= 3.19.12)
+    - intltool (>= 0.50.0)
+  * Stop shipping GConf->gsettings and metadata conversion files
+    - now dropped upstream and we've converted a long time ago already.
+  * Bump Standards-Version to 3.9.7
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 17 Mar 2016 23:58:05 +0100
 
 nautilus (3.18.5-1) unstable; urgency=medium
 
