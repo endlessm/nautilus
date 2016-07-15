@@ -3,9 +3,10 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Aron Xu <happyaron.xu@gmail.com>, 2009-2012
+# Aron Xu <happyaron.xu@gmail.com>, 2009-2012,2015
 # Cheng Lu <chenglu1990@gmail.com>, 2012
 # Funda Wang <fundawang@gmail.com>, 2003,2009
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015-2016
 # Lele Long <schemacs@gmail.com>, 2011
 # Richard Ma <richard.ma.19850509@gmail.com>, 2009
 # Sarah Smith <sarahs@redhat.com>, 2002
@@ -20,7 +21,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-15 14:39-0700\n"
-"PO-Revision-Date: 2016-07-15 21:48+0000\n"
+"PO-Revision-Date: 2016-07-15 21:52+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/nautilus/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +32,7 @@ msgstr ""
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
-msgstr ""
+msgstr "Nautilus"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:2
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:2
@@ -66,15 +67,15 @@ msgstr "文件"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:3
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "目录;文件夹;管理;浏览;磁盘;硬盘;文件系统;folder;manager;explore;disk;filesystem;"
+msgstr "folder;manager;explore;disk;filesystem;目录;文件夹;管理;浏览;磁盘;硬盘;文件系统;"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:4
 msgid "New Window"
-msgstr ""
+msgstr "新建窗口"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:1
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "在浏览器窗口中应如何放置新打开的标签页"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
@@ -95,48 +96,48 @@ msgstr "如果设为 true，Nautilus 浏览器将在位置工具栏中总是使�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:5
 msgid "Where to perform recursive search"
-msgstr ""
+msgstr "是否进行递归搜索"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:6
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr ""
+msgstr "Nautilus 应在哪些位置对子目录进行搜索。可用值为“local-only”，“always”，“never”。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:7
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
+msgstr "使用最近使用或最近修改筛选搜索日期"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:8
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
+msgstr "使用最近使用或最近修改筛选搜索日期。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:9
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
+msgstr "是否显示永久删除的右键菜单项。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:10
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
+msgstr "如果设为 true，Nautilus 将显示永久删除的右键菜单项。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:11
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
+msgstr "是否显示用于从复制或选中的文件创建链接的右键菜单项。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:12
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
+msgstr "如果设为 true，Nautilus 将显示用于从复制或选中的文件创建链接的右键菜单项。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
+msgstr "是否在删除文件或清空回收站时请求确认"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
@@ -180,24 +181,24 @@ msgstr "(单击或双击)激活可执行的文本文件时如何操作。可供�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "对于未知 MIME 类型，显示包安装程序"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
+msgstr "当打开一个未知 MIME 类型的文件时，是否要显示一个软件包安装程序的对话框来查找一个能处理它的应用程序。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:23
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
+msgstr "显示一个警告对话框，提示移动到回收站的快捷键已更改"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:24
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
+msgstr "显示一个警告对话框，提示移动到回收站的快捷键已从 control + delete 更改为只按 delete 。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:25
 msgid "Use extra mouse button events in Nautilus' browser window"
@@ -244,7 +245,7 @@ msgid ""
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "根据速度考虑何时显示文件缩略图。如果设为“always”，将始终显示缩略图，即使文件夹位于远程服务器上。如果设为“local-only”，则只会对本地文件系统上的文件创建缩略图。如果设为“never”，则不预览文件，而使用通用图标。缩略图会应用到任何可预览的文件类型上，与键值的含义无关。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -287,7 +288,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "如果为 true，新窗口中的文件将以逆序排序。即如果是按照名称排序的话，会将“z”排在最前面，将“a”排在最后面；如果是按照大小排序的话，会将最大的文件排在最前面，将最小的文件排在最后面。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -312,12 +313,12 @@ msgstr "该键已作废并忽略。现在使用的是“org.gtk.Settings.FileCho
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:45
 msgid "What viewer should be used when searching"
-msgstr ""
+msgstr "搜索时使用的视图"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:46
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
+msgstr "搜索时 Nautilus 会转为设置中定义的视图。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:47
 msgid "Bulk rename utility"
@@ -330,7 +331,7 @@ msgid ""
 "themselves in this key by setting the key to a space-separated string of "
 "their executable name and any command line options. If the executable name "
 "is not set to a full path, it will be searched for in the search path."
-msgstr " 如果设置此项，Nautilus 将追加选中文件的 URI ，并且将得到的结果作为重命名的命令行。批量重命名应用程序可以用此键来注册，将其设置为可执行文件名和其他命令行选项，用空格分隔即可。如果可执行文件名不是完整路径，将从搜索路径中搜索。"
+msgstr "如果设置此项，Nautilus 将追加选中文件的 URI ，并且将得到的结果作为重命名的命令行。批量重命名应用程序可以用此键来注册，将其设置为可执行文件名和其他命令行选项，用空格分隔即可。如果可执行文件名不是完整路径，将从搜索路径中搜索。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:49
 msgid ""
@@ -342,7 +343,7 @@ msgstr "是否在当执行拖拽操作超时后打开正拖放的文件夹"
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
+msgstr "如果设为 true，则执行拖拽操作超过一段时间后，被拖放的文件夹将自动打开。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:51
 msgid "List of possible captions on icons"
@@ -372,7 +373,7 @@ msgstr "默认缩略图大小"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
+msgstr "使用 NAUTILUS_ICON_SIZE_SMALL 大小时，图标视图中缩略图的默认图标大小。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -393,7 +394,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr ""
+msgstr "一个字符串，指定超长文件名的多余部分如何通过省略号取代，依赖于缩放级别。每个列表的条目形式都是“缩放级别：整数”。对于每一个指定的缩放级别，如果给定的整数大于 0，那么文件名称将不会超过给定的行数。如果这个整数为 0 或者小于 0 ，那么在指定的缩放级别上没有限制。一个默认条目的形式“整数“而没有任何指定的缩放级别也是允许的。它定义了所有其他缩放级别的最大行数。例如：0 - 一直显示超长文件名称；3 - 如果文件名称超过了 3 行那么缩短它们；smallest:5,smaller:4,0 - 如果文件名称在缩放级别“最小”下超过了 5 行，那么缩短它们。如果文件名称在缩放级别“比较小”下超过了 4 行，那么缩短它们。对于其他缩放级别不缩短文件名称。可用的缩放解别：small(小)，standard(标准)，large(大)。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:59
 msgid "Default list zoom level"
@@ -427,12 +428,12 @@ msgstr "使用树状视图"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
+msgstr "是否用树状图代替平面列表进行列表视图导航。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:67
 msgctxt "desktop-font"
 msgid "''"
-msgstr ""
+msgstr "''"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:68
 msgid "Desktop font"
@@ -460,7 +461,7 @@ msgstr "在桌面上显示回收站图标"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "如果设为 true，会在桌面上放置一个链接到垃圾箱的图标。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -485,7 +486,7 @@ msgstr "如果设为 true，会在桌面上放置一个链接到网络服务器�
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "'主文件夹'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:79
 msgid "Desktop home icon name"
@@ -500,22 +501,22 @@ msgstr "如果您想要为桌面上的主文件夹图标指定自定义名称，
 #: ../data/org.gnome.nautilus.gschema.xml.h:81
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "'回收站'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:82
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "桌面垃圾箱图标名"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:83
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
+msgstr "如果您想为桌面上的垃圾箱图标指定自定义名称，请设置这一名称。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr ""
+msgstr "'网络服务'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:85
 msgid "Network servers icon name"
@@ -547,7 +548,7 @@ msgstr "如果设为 true，Nautilus 更改桌面背景时将使用渐变效果�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:90
 msgid "The geometry string for a navigation window"
-msgstr ""
+msgstr "导航窗口的几何形状字符串。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:91
 msgid ""
@@ -557,7 +558,7 @@ msgstr "一个包含已保存的导航窗口形状和坐标的字符串。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "是否使导航窗口最大化。"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
@@ -621,7 +622,7 @@ msgstr "你可以点击取消停止这个操作。"
 
 #: ../eel/eel-vfs-extensions.c:98
 msgid " (invalid Unicode)"
-msgstr " (无效的 Unicode)"
+msgstr "(无效的 Unicode)"
 
 #: ../libnautilus-private/nautilus-bookmark.c:107
 #: ../libnautilus-private/nautilus-file-utilities.c:283
@@ -723,7 +724,7 @@ msgstr "MIME 类型"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr ""
+msgstr "文件的 MIME 类型。"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:129
 #: ../src/nautilus-image-properties-page.c:415
@@ -736,7 +737,7 @@ msgstr "文件的位置。"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:136
 msgid "Modified - Time"
-msgstr "修改时间"
+msgstr "更改时间"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:179
 msgid "Trashed On"
@@ -865,7 +866,7 @@ msgstr "昨天 %H:%M"
 #: ../libnautilus-private/nautilus-file.c:4798
 #, no-c-format
 msgid "Yesterday %l:%M %p"
-msgstr "昨天 %p %l:%M"
+msgstr "昨天%p %l:%M"
 
 #: ../libnautilus-private/nautilus-file.c:4806
 #, no-c-format
@@ -891,7 +892,7 @@ msgstr "%a %p %l:%M"
 #: ../libnautilus-private/nautilus-file.c:4825
 #, no-c-format
 msgid "%-e %b"
-msgstr "%b%e日"
+msgstr "%b %e 日"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -899,7 +900,7 @@ msgstr "%b%e日"
 #: ../libnautilus-private/nautilus-file.c:4832
 #, no-c-format
 msgid "%-e %b %H:%M"
-msgstr "%b%e日 %H:%M"
+msgstr "%b %e 日 %H:%M"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -907,14 +908,14 @@ msgstr "%b%e日 %H:%M"
 #: ../libnautilus-private/nautilus-file.c:4838
 #, no-c-format
 msgid "%-e %b %l:%M %p"
-msgstr "%b%e日 %p %l:%M"
+msgstr "%b %e 日 %p %l:%M"
 
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
 #: ../libnautilus-private/nautilus-file.c:4846
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr "%Y年%b%e日"
+msgstr "%Y 年 %b %e 日"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -922,7 +923,7 @@ msgstr "%Y年%b%e日"
 #: ../libnautilus-private/nautilus-file.c:4853
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
-msgstr "%Y年%b%e日 %H:%M"
+msgstr "%Y 年 %b %e 日 %H:%M"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -930,7 +931,7 @@ msgstr "%Y年%b%e日 %H:%M"
 #: ../libnautilus-private/nautilus-file.c:4859
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
-msgstr "%Y年%b%e日 %p %l:%M"
+msgstr "%Y 年 %b %e 日 %p %l:%M"
 
 #: ../libnautilus-private/nautilus-file.c:4868
 #, no-c-format
@@ -1343,12 +1344,12 @@ msgstr "到 %2$s 的第 %1$'d 个链接"
 #. localizers: tag used to detect the first copy of a file
 #: ../libnautilus-private/nautilus-file-operations.c:452
 msgid " (copy)"
-msgstr " (复件)"
+msgstr "(复件)"
 
 #. localizers: tag used to detect the second copy of a file
 #: ../libnautilus-private/nautilus-file-operations.c:454
 msgid " (another copy)"
-msgstr " (另一个复件)"
+msgstr "(另一个复件)"
 
 #. localizers: tag used to detect the x11th copy of a file
 #. localizers: tag used to detect the x12th copy of a file
@@ -1380,13 +1381,13 @@ msgstr "复件)"
 #: ../libnautilus-private/nautilus-file-operations.c:485
 #, c-format
 msgid "%s (copy)%s"
-msgstr "%s (复件)%s"
+msgstr "%s(复件)%s"
 
 #. localizers: appended to second file copy
 #: ../libnautilus-private/nautilus-file-operations.c:487
 #, c-format
 msgid "%s (another copy)%s"
-msgstr "%s (另一个复件)%s"
+msgstr "%s(另一个复件)%s"
 
 #. localizers: appended to x11th file copy
 #. localizers: appended to x12th file copy
@@ -1398,7 +1399,7 @@ msgstr "%s (另一个复件)%s"
 #: ../libnautilus-private/nautilus-file-operations.c:508
 #, c-format
 msgid "%s (%'dth copy)%s"
-msgstr "%s (第%'d个复件)%s"
+msgstr "%s(第 %'d 个复件)%s"
 
 #. localizers: if in your language there's no difference between 1st, 2nd, 3rd
 #. and nth
@@ -1409,30 +1410,30 @@ msgstr "%s (第%'d个复件)%s"
 #: ../libnautilus-private/nautilus-file-operations.c:502
 #, c-format
 msgid "%s (%'dst copy)%s"
-msgstr "%s (第%'d个复件)%s"
+msgstr "%s(第 %'d 个复件)%s"
 
 #. localizers: appended to x2nd file copy
 #: ../libnautilus-private/nautilus-file-operations.c:504
 #, c-format
 msgid "%s (%'dnd copy)%s"
-msgstr "%s (第%'d个复件)%s"
+msgstr "%s(第 %'d 个复件)%s"
 
 #. localizers: appended to x3rd file copy
 #: ../libnautilus-private/nautilus-file-operations.c:506
 #, c-format
 msgid "%s (%'drd copy)%s"
-msgstr "%s (第%'d个复件)%s"
+msgstr "%s(第 %'d 个复件)%s"
 
 #. localizers: opening parentheses to match the "th copy)" string
 #: ../libnautilus-private/nautilus-file-operations.c:607
 msgid " ("
-msgstr " ("
+msgstr "("
 
 #. localizers: opening parentheses of the "th copy)" string
 #: ../libnautilus-private/nautilus-file-operations.c:615
 #, c-format
 msgid " (%'d"
-msgstr " (第%'d个"
+msgstr "(第 %'d 个"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1388
 msgid "Are you sure you want to permanently delete “%B” from the trash?"
@@ -1648,19 +1649,19 @@ msgstr "无法访问 %s"
 #, c-format
 msgid "Preparing to copy %'d file (%S)"
 msgid_plural "Preparing to copy %'d files (%S)"
-msgstr[0] "准备复制 %'d 个文件(%S)"
+msgstr[0] "准备复制 %'d 个文件 (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2718
 #, c-format
 msgid "Preparing to move %'d file (%S)"
 msgid_plural "Preparing to move %'d files (%S)"
-msgstr[0] "准备移动 %'d 个文件(%S)"
+msgstr[0] "准备移动 %'d 个文件 (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2724
 #, c-format
 msgid "Preparing to delete %'d file (%S)"
 msgid_plural "Preparing to delete %'d files (%S)"
-msgstr[0] "准备删除 %'d 个文件(%S)"
+msgstr[0] "准备删除 %'d 个文件 (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2730
 #, c-format
@@ -1814,7 +1815,7 @@ msgstr "%S / %S"
 #: ../libnautilus-private/nautilus-file-operations.c:3348
 msgid "%S / %S — %T left (%S/sec)"
 msgid_plural "%S / %S — %T left (%S/sec)"
-msgstr[0] "%S / %S — 剩余 %T (%S/秒)"
+msgstr[0] "%S / %S — 剩余 %T(%S/秒)"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -1825,7 +1826,7 @@ msgstr[0] "%S / %S — 剩余 %T (%S/秒)"
 #: ../libnautilus-private/nautilus-file-operations.c:3367
 msgid "%'d / %'d — %T left (%S/sec)"
 msgid_plural "%'d / %'d — %T left (%S/sec)"
-msgstr[0] "%'d / %'d — 剩余 %T (%S/秒)"
+msgstr[0] "%'d / %'d — 剩余 %T(%S/秒)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3880
 msgid ""
@@ -2002,7 +2003,7 @@ msgstr "清空回收站"
 #: ../libnautilus-private/nautilus-file-operations.c:7089
 #: ../libnautilus-private/nautilus-file-operations.c:7124
 msgid "Unable to mark launcher trusted (executable)"
-msgstr "无法将启动器标记为 信任(可执行)"
+msgstr "无法为启动器标记信任(可执行)"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:133
 #: ../src/nautilus-window.c:461 ../src/resources/ui/nautilus-window.ui.h:2
@@ -2506,7 +2507,7 @@ msgstr "已取消"
 #: ../libnautilus-private/nautilus-progress-info.c:360
 #: ../libnautilus-private/nautilus-progress-info.c:378
 msgid "Preparing"
-msgstr "准备中"
+msgstr "正在准备"
 
 #: ../libnautilus-private/nautilus-query.c:470
 #: ../libnautilus-private/nautilus-search-directory-file.c:159
@@ -3151,7 +3152,7 @@ msgstr "警告"
 
 #: ../src/nautilus-image-properties-page.c:369
 msgid "Source"
-msgstr "源"
+msgstr "来源"
 
 #: ../src/nautilus-image-properties-page.c:384
 msgid "Camera Brand"
@@ -3259,7 +3260,7 @@ msgstr[0] "这将打开 %d 个独立的窗口。"
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
 msgid "Anything"
-msgstr ""
+msgstr "所有"
 
 #: ../src/nautilus-mime-actions.c:106 ../src/nautilus-properties-window.c:4200
 msgid "Folders"
@@ -3279,7 +3280,7 @@ msgstr "音乐"
 
 #: ../src/nautilus-mime-actions.c:158
 msgid "PDF / PostScript"
-msgstr ""
+msgstr "PDF/Postscript"
 
 #: ../src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -3349,7 +3350,7 @@ msgstr "文件是未知类型"
 #: ../src/nautilus-mime-actions.c:1138
 #, c-format
 msgid "There is no application installed for “%s” files"
-msgstr "没有安装处理“%s”文件的应用程序"
+msgstr "没有安装用于“%s”文件的应用程序"
 
 #: ../src/nautilus-mime-actions.c:1151
 msgid "_Select Application"
@@ -3387,7 +3388,7 @@ msgstr "仍然启动(_L)"
 
 #: ../src/nautilus-mime-actions.c:1483
 msgid "Mark as _Trusted"
-msgstr "标记为 信任(_T)"
+msgstr "标记为信任(_T)"
 
 #: ../src/nautilus-mime-actions.c:1713
 #, c-format
@@ -3672,7 +3673,7 @@ msgstr "允许作为程序执行文件(_E)"
 
 #: ../src/nautilus-properties-window.c:4186
 msgid "Change Permissions for Enclosed Files"
-msgstr "更改所含文件的权限"
+msgstr "更改包含文件的权限"
 
 #: ../src/nautilus-properties-window.c:4190
 msgid "Change"
@@ -3709,7 +3710,7 @@ msgstr "打开方式"
 
 #: ../src/nautilus-properties-window.c:4894
 msgid "Creating Properties window."
-msgstr "创建属性 窗口。"
+msgstr "正在创建属性窗口。"
 
 #: ../src/nautilus-properties-window.c:5178
 msgid "Select Custom Icon"
@@ -3727,32 +3728,32 @@ msgstr "打开(_O)"
 
 #: ../src/nautilus-query-editor.c:122
 msgid "Searching locations only"
-msgstr ""
+msgstr "仅搜索位置"
 
 #: ../src/nautilus-query-editor.c:124
 msgid "Searching devices only"
-msgstr ""
+msgstr "仅搜索设备"
 
 #: ../src/nautilus-query-editor.c:126
 msgid "Searching network locations only"
-msgstr ""
+msgstr "仅搜索网络位置"
 
 #: ../src/nautilus-query-editor.c:129
 msgid "Remote location - only searching the current folder"
-msgstr ""
+msgstr "远程位置 — 仅在当前文件夹搜索"
 
 #: ../src/nautilus-query-editor.c:131
 msgid "Only searching the current folder"
-msgstr ""
+msgstr "仅在当前文件夹搜索"
 
 #: ../src/nautilus-search-popover.c:284
 msgid "Show a list to select the date"
-msgstr ""
+msgstr "显示列表以选择日期"
 
 #: ../src/nautilus-search-popover.c:290
 #: ../src/resources/ui/nautilus-search-popover.ui.h:5
 msgid "Show a calendar to select the date"
-msgstr ""
+msgstr "显示日历以选择日期"
 
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
@@ -3828,7 +3829,7 @@ msgstr "已删除“%s”"
 #, c-format
 msgid "%d file deleted"
 msgid_plural "%d files deleted"
-msgstr[0] "%d 个文件已删除"
+msgstr[0] "已删除 %d 个文件"
 
 #: ../src/nautilus-window.c:1691
 #, c-format
@@ -3853,14 +3854,14 @@ msgstr "关闭标签页(_C)"
 
 #: ../src/nautilus-window.c:2728
 msgid "Access and organize your files."
-msgstr "访问和管理你的文件。"
+msgstr "访问和组织你的文件。"
 
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
 #. * box to give credit to the translator(s).
 #: ../src/nautilus-window.c:2737
 msgid "translator-credits"
-msgstr "Wang Jian <lark@linux.net.cn>\nSarah Smith <sarahs@redhat.com>\nFunda Wang <fundawang@linux.net.cn>\nRichard Ma <richard.ma.19850509@gmail.com>\nXhacker Liu <liu.dongyuan@gmail.com>\n朱涛 <bill_zt@sina.com>\nLele Long <schemacs@gmail.com>\nYunQiang Su <wzssyqa@gmail.com>\nAron Xu <happyaron.xu@gmail.com>\nCheng Lu <chenglu1990@gmail.com>\nWylmer Wang <wantinghard@gmail.com>\neternalhui <www.eternalhui@gmail.com>\nTong Hui <tonghuix@gmail.com>"
+msgstr "Wang Jian <lark@linux.net.cn>\nSarah Smith <sarahs@redhat.com>\nFunda Wang <fundawang@linux.net.cn>\nRichard Ma <richard.ma.19850509@gmail.com>\nXhacker Liu <liu.dongyuan@gmail.com>\n朱涛 <bill_zt@sina.com>\nLele Long <schemacs@gmail.com>\nYunQiang Su <wzssyqa@gmail.com>\nAron Xu <happyaron.xu@gmail.com>\nCheng Lu <chenglu1990@gmail.com>\nWylmer Wang <wantinghard@gmail.com>\neternalhui <www.eternalhui@gmail.com>\nTong Hui <tonghuix@gmail.com>\nMingye Wang <arthur2e5@gmail.com>\nJeff Bai <jeffbai@aosc.xyz>"
 
 #: ../src/nautilus-window-slot.c:1148
 msgid "Unable to display the contents of this folder."
@@ -3873,12 +3874,12 @@ msgstr "该位置似乎不是文件夹。"
 #: ../src/nautilus-window-slot.c:1155
 msgid ""
 "Unable to find the requested file. Please check the spelling and try again."
-msgstr "无法找到需要的文件。请检查拼写后重试。"
+msgstr "无法找到请求的文件。请检查拼写后重试。"
 
 #: ../src/nautilus-window-slot.c:1160
 #, c-format
 msgid "“%s” locations are not supported."
-msgstr "不支持位置“%s”"
+msgstr "不支持位置“%s”。"
 
 #: ../src/nautilus-window-slot.c:1163
 msgid "Unable to handle this kind of location."
@@ -3886,7 +3887,7 @@ msgstr "无法处理这种类型的位置。"
 
 #: ../src/nautilus-window-slot.c:1168
 msgid "Unable to access the requested location."
-msgstr "无法访问要求的位置"
+msgstr "无法访问请求的位置。"
 
 #: ../src/nautilus-window-slot.c:1171
 msgid "Don't have permission to access the requested location."
@@ -3900,12 +3901,12 @@ msgstr "没有访问所要求文件夹的权限。"
 msgid ""
 "Unable to find the requested location. Please check the spelling or the "
 "network settings."
-msgstr "无法找到要求的位置。请检查拼写或网络设置。"
+msgstr "无法找到请求的位置。请检查拼写或网络设置。"
 
 #: ../src/nautilus-window-slot.c:1190
 #, c-format
 msgid "Unhandled error message: %s"
-msgstr "未处理的错误消息：%s"
+msgstr "无法处理的错误消息：%s"
 
 #: ../src/nautilus-window-slot.c:1338
 #, c-format
@@ -3919,272 +3920,272 @@ msgstr "打开方式："
 #: ../src/resources/gtk/help-overlay.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: ../src/resources/gtk/help-overlay.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "新建窗口"
 
 #: ../src/resources/gtk/help-overlay.ui.h:3
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr ""
+msgstr "关闭窗口或标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:4
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../src/resources/gtk/help-overlay.ui.h:5
 msgctxt "shortcut window"
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 #: ../src/resources/gtk/help-overlay.ui.h:6
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr ""
+msgstr "将当前位置加入书签"
 
 #: ../src/resources/gtk/help-overlay.ui.h:7
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "显示帮助"
 
 #: ../src/resources/gtk/help-overlay.ui.h:8
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "快捷键"
 
 #: ../src/resources/gtk/help-overlay.ui.h:9
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr ""
+msgstr "正在打开"
 
 #: ../src/resources/gtk/help-overlay.ui.h:10
 msgctxt "shortcut window"
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #: ../src/resources/gtk/help-overlay.ui.h:11
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr ""
+msgstr "在新标签页中打开"
 
 #: ../src/resources/gtk/help-overlay.ui.h:12
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr ""
+msgstr "在新窗口中打开"
 
 #: ../src/resources/gtk/help-overlay.ui.h:13
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr ""
+msgstr "打开项目位置(仅包含搜索和最近打开)"
 
 #: ../src/resources/gtk/help-overlay.ui.h:14
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr ""
+msgstr "打开文件并关闭窗口"
 
 #: ../src/resources/gtk/help-overlay.ui.h:15
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr ""
+msgstr "使用默认应用打开"
 
 #: ../src/resources/gtk/help-overlay.ui.h:16
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr ""
+msgstr "标签"
 
 #: ../src/resources/gtk/help-overlay.ui.h:17
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "新建标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:18
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr ""
+msgstr "前往上一个标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:19
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr ""
+msgstr "前往下一个标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:20
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr ""
+msgstr "打开标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:21
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr ""
+msgstr "左移标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:22
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr ""
+msgstr "右移标签页"
 
 #: ../src/resources/gtk/help-overlay.ui.h:23
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "导航"
 
 #: ../src/resources/gtk/help-overlay.ui.h:24
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "后退"
 
 #: ../src/resources/gtk/help-overlay.ui.h:25
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr ""
+msgstr "前进"
 
 #: ../src/resources/gtk/help-overlay.ui.h:26
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "向上"
 
 #: ../src/resources/gtk/help-overlay.ui.h:27
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "向下"
 
 #: ../src/resources/gtk/help-overlay.ui.h:28
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr ""
+msgstr "前往主文件夹"
 
 #: ../src/resources/gtk/help-overlay.ui.h:29
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "输入位置"
 
 #: ../src/resources/gtk/help-overlay.ui.h:30
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "以根目录作为位置栏起点"
 
 #: ../src/resources/gtk/help-overlay.ui.h:31
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "以主目录作为位置栏起点"
 
 #: ../src/resources/gtk/help-overlay.ui.h:32
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "视图"
 
 #: ../src/resources/gtk/help-overlay.ui.h:33
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "放大"
 
 #: ../src/resources/gtk/help-overlay.ui.h:34
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "缩小"
 
 #: ../src/resources/gtk/help-overlay.ui.h:35
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "重置缩放"
 
 #: ../src/resources/gtk/help-overlay.ui.h:36
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "刷新视图"
 
 #: ../src/resources/gtk/help-overlay.ui.h:37
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr ""
+msgstr "显示/隐藏隐藏文件"
 
 #: ../src/resources/gtk/help-overlay.ui.h:38
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "显示/隐藏侧边栏"
 
 #: ../src/resources/gtk/help-overlay.ui.h:39
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "显示/隐藏操作菜单"
 
 #: ../src/resources/gtk/help-overlay.ui.h:40
 msgctxt "shortcut window"
 msgid "List view"
-msgstr ""
+msgstr "列表视图"
 
 #: ../src/resources/gtk/help-overlay.ui.h:41
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr ""
+msgstr "网格视图"
 
 #: ../src/resources/gtk/help-overlay.ui.h:42
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr ""
+msgstr "正在编辑"
 
 #: ../src/resources/gtk/help-overlay.ui.h:43
 msgctxt "shortcut window"
 msgid "Create folder"
-msgstr ""
+msgstr "创建文件夹"
 
 #: ../src/resources/gtk/help-overlay.ui.h:44
 msgctxt "shortcut window"
 msgid "Rename"
-msgstr ""
+msgstr "重命名"
 
 #: ../src/resources/gtk/help-overlay.ui.h:45
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr ""
+msgstr "移动到回收站"
 
 #: ../src/resources/gtk/help-overlay.ui.h:46
 msgctxt "shortcut window"
 msgid "Delete permanently"
-msgstr ""
+msgstr "永久删除"
 
 #: ../src/resources/gtk/help-overlay.ui.h:47
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "复制"
 
 #: ../src/resources/gtk/help-overlay.ui.h:48
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "粘贴"
 
 #: ../src/resources/gtk/help-overlay.ui.h:49
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr ""
+msgstr "全选"
 
 #: ../src/resources/gtk/help-overlay.ui.h:50
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr ""
+msgstr "反选"
 
 #: ../src/resources/gtk/help-overlay.ui.h:51
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr ""
+msgstr "选择匹配项"
 
 #: ../src/resources/gtk/help-overlay.ui.h:52
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr ""
+msgstr "撤消"
 
 #: ../src/resources/gtk/help-overlay.ui.h:53
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "重做"
 
 #: ../src/resources/gtk/help-overlay.ui.h:54
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr ""
+msgstr "显示项目属性"
 
 #: ../src/resources/gtk/menus.ui.h:1
 msgid "New _Window"
@@ -4200,7 +4201,7 @@ msgstr "首选项(_N)"
 
 #: ../src/resources/gtk/menus.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键(_K)"
 
 #: ../src/resources/gtk/menus.ui.h:5
 msgid "_Help"
@@ -4229,7 +4230,7 @@ msgstr "粘贴(_P)"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:4
 msgid "Create _Link"
-msgstr ""
+msgstr "创建链接(_L)"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:5
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:3
@@ -4474,7 +4475,7 @@ msgstr "4 GB"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:25
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:26
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:1
@@ -4487,17 +4488,17 @@ msgstr "将文件夹放在文件前(_F)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:28
 msgid "Allow folders to be _expanded"
-msgstr ""
+msgstr "所有文件夹均可展开(_E)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:29
 msgid "Icon View Captions"
-msgstr ""
+msgstr "图标视图标题"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:30
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr ""
+msgstr "选择文件和文件夹名称下显示的信息。\n信息量会随着缩放级别变化。"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
@@ -4520,7 +4521,7 @@ msgstr "视图"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:36
 msgid "Open Action"
-msgstr ""
+msgstr "打开操作"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
@@ -4532,11 +4533,11 @@ msgstr "双击打开项目(_D)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
-msgstr ""
+msgstr "创建链接"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr ""
+msgstr "显示创建符号链接的操作(_L)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
@@ -4544,23 +4545,23 @@ msgstr "可执行文本文件"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:42
 msgid "_Display them"
-msgstr ""
+msgstr "显示(_D)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:43
 msgid "_Run them"
-msgstr ""
+msgstr "运行(_R)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:44
 msgid "_Ask what to do"
-msgstr ""
+msgstr "询问动作(_A)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:46
 msgid "Ask before _emptying the Trash"
-msgstr ""
+msgstr "清空回收站前询问(_E)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:47
 msgid "Show action to _permanently delete files and folders"
-msgstr ""
+msgstr "显示永久删除文件或文件夹的动作(_P)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:48
 msgid "Behavior"
@@ -4576,67 +4577,67 @@ msgstr "列表列"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:52
 msgid "Search in subfolders:"
-msgstr ""
+msgstr "搜索子目录："
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:53
 msgid "_On this computer only"
-msgstr ""
+msgstr "仅本机(_O)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:54
 msgid "_All locations"
-msgstr ""
+msgstr "所有位置(_A)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:55
 msgid "_Never"
-msgstr ""
+msgstr "从不(_N)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:56
 msgid "Thumbnails"
-msgstr ""
+msgstr "缩略图"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:57
 msgid "Show thumbnails:"
-msgstr ""
+msgstr "显示缩略图："
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr ""
+msgstr "仅本机文件(_F)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
-msgstr ""
+msgstr "所有文件(_L)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:60
 msgid "N_ever"
-msgstr ""
+msgstr "从不(_E)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:61
 msgid "Onl_y for files smaller than:"
-msgstr ""
+msgstr "仅小于此大小的文件(_Y)："
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:62
 msgid "File count"
-msgstr ""
+msgstr "文件数量"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:63
 msgid "Count number of files in folders:"
-msgstr ""
+msgstr "文件夹中的文件数量："
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:64
 msgid "F_olders in this computer only"
-msgstr ""
+msgstr "仅本机文件夹(_O)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:65
 msgid "All folder_s"
-msgstr ""
+msgstr "所有文件夹(_S)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:66
 msgid "Ne_ver"
-msgstr ""
+msgstr "从不(_V)"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:67
 msgid "Search & Preview"
-msgstr ""
+msgstr "搜索和预览"
 
 #: ../src/resources/ui/nautilus-rename-file-popover.ui.h:2
 msgid "_Rename"
@@ -4644,15 +4645,15 @@ msgstr "重命名(_R)"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:1
 msgid "When"
-msgstr ""
+msgstr "时间范围"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:2
 msgid "Select a date"
-msgstr ""
+msgstr "选择日期"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr ""
+msgstr "清除当前选定的日期"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
@@ -4660,35 +4661,35 @@ msgstr ""
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:7
 msgid "Last _modified"
-msgstr ""
+msgstr "最近修改(_M)"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:8
 msgid "Last _used"
-msgstr ""
+msgstr "最近使用(_U)"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:9
 msgid "What"
-msgstr ""
+msgstr "搜索类型"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:10
 msgid "Which file types will be searched"
-msgstr ""
+msgstr "要搜索的文件类型"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:13
 msgid "Full Text"
-msgstr ""
+msgstr "全文"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:14
 msgid "Search on the file content and name"
-msgstr ""
+msgstr "搜索文件内容和名称"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:15
 msgid "File Name"
-msgstr ""
+msgstr "文件名"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:16
 msgid "Search only on the file name"
-msgstr ""
+msgstr "仅搜索文件名"
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:2
 msgid "New _Tab"
@@ -4724,11 +4725,11 @@ msgstr "搜索文件"
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:7
 msgid "Operations in progress"
-msgstr "进行中的操作"
+msgstr "正在进行的操作"
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:8
 msgid "Open operations in progress"
-msgstr "打开操作正在进行"
+msgstr "正在进行打开操作"
 
 #. This is used to sort by name in the toolbar view menu
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:3

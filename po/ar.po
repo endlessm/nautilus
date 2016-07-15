@@ -5,6 +5,7 @@
 # Translators:
 # Abdelmonam Kouka <abdelmonam.kouka@ubuntume.com>, 2008
 # abderrahim <a.kitouni@gmail.com>, 2012
+# abderrahim <a.kitouni@gmail.com>, 2012
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
 # Arafat Medini <lumina@silverpen.de>, 2003-2004
 # Ayman Hourieh <aymanh@gmail.com>, 2004

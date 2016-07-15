@@ -7,6 +7,8 @@
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008
 # runa <runabh@gmail.com>, 2006
 # runab <runab@redhat.com>, 2009
+# runab <runab@redhat.com>, 2009
+# runa <runabh@gmail.com>, 2006
 # Sadia Afroz <sadia@ankur.org.bd>, 2010
 # Ummey Salma <snigdha@ankur.org.bd>, 2011
 msgid ""
@@ -14,7 +16,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-15 14:39-0700\n"
-"PO-Revision-Date: 2016-07-15 21:48+0000\n"
+"PO-Revision-Date: 2016-07-15 21:50+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/nautilus/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +27,7 @@ msgstr ""
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
-msgstr ""
+msgstr "Nautilus"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:2
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:2
