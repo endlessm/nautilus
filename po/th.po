@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-15 14:39-0700\n"
-"PO-Revision-Date: 2016-07-15 21:52+0000\n"
+"PO-Revision-Date: 2016-07-16 02:06+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/nautilus/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -827,7 +827,7 @@ msgstr "ไม่สามารถเปลี่ยนชื่อไอคอ
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
+msgstr "เนื้อหาของไฟล์อาจเป็น format ไฟล์ของเดสก์ท็อปที่ไม่สามารถใช้งานได้"
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
@@ -1153,12 +1153,12 @@ msgstr "มีอีกแฟ้มหนึ่งที่มีชื่อเ
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:255
 msgid "Original folder"
-msgstr ""
+msgstr "โฟลเดอร์ดั้งเดิม"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr ""
+msgstr "ไอเทม:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1183,7 +1183,7 @@ msgstr "แก้ไขล่าสุด:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr ""
+msgstr "รวมเข้ากับ"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1207,7 +1207,7 @@ msgstr "กลับค่าเดิม"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "ใช้การกระทำนี้กับทุกไฟล์และโฟลเดอร์"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1224,12 +1224,12 @@ msgstr "เขียนทับ"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr ""
+msgstr "รวมโฟลเดอร์"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "การชนกันของไฟล์และโฟลเดอร์"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -2523,28 +2523,28 @@ msgstr "ไม่สามารถค้นหาตามที่ร้อง
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
+msgstr[0] "%d วันที่แล้ว"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
+msgstr[0] "%d สัปดาห์ที่แล้ว"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] ""
+msgstr[0] "%d เดือนที่แล้ว"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
+msgstr[0] "%d ปีที่แล้ว"
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -3748,7 +3748,7 @@ msgstr "แสดงปฏิทินเพื่อเลือกวันท
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
 msgid "Any time"
-msgstr ""
+msgstr "ทุกเวลา"
 
 #. Other types
 #: ../src/nautilus-search-popover.c:476
@@ -4493,17 +4493,17 @@ msgstr "เพิ่มข้อมูลที่จะแสดงใต้ช
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr ""
+msgstr "วินาที"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr ""
+msgstr "อันดับสาม"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr ""
+msgstr "อันดับแรก"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:35
 msgid "Views"
@@ -4829,7 +4829,7 @@ msgstr "ในคอมพิวเตอร์นี้"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] ""
+msgstr[0] "ใช้งานได้ %s / %s"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
