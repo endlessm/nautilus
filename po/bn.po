@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Aditi Kabir <aditi.kabir@gmail.com>, 2016
 # Maruf Ovee <maruf@ankur.org.bd>, 2009
 # Runa Bhattacharjee <runab@fedoraproject.org>, 2008
 # runa <runabh@gmail.com>, 2006
@@ -15,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-15 14:39-0700\n"
-"PO-Revision-Date: 2016-07-15 21:50+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-07-26 04:42+0000\n"
+"PO-Revision-Date: 2016-08-02 05:36+0000\n"
+"Last-Translator: Aditi Kabir <aditi.kabir@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/nautilus/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +28,7 @@ msgstr ""
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
-msgstr "Nautilus"
+msgstr "নটিলাস"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:2
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:2
@@ -39,7 +40,7 @@ msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr ""
+msgstr "নটিলাস ফাইল হিসেবেও পরিচিত, এটি জিনোম ডেস্কটপের স্থিরকৃত ফাইল ব্যবস্থাপক। আপনার ফাইল ব্যবস্থাপনা ও ফাইল খোঁজাকে করে সহজ ও সংহত। "
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:4
 msgid ""
@@ -48,11 +49,11 @@ msgid ""
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr ""
+msgstr "কোন ফাইল ব্যবস্থাপনার মূল কাজ এবং অন্যান্যকে নটিলাস সাহায্য করে। এটি আপনার ফাইল ও ফোল্ডারগুলোকে খুঁজতে ও ব্যবস্থাপনা করতে পারে স্থানীয় এবং নেটওয়ার্কে দু’ভাবেই, অপসারণযোগ্য মাধ্যম থেকে লিখতে ও পড়তে পারে, স্ক্রিপ্ট চালাতে পারে এবং অ্যাপ্লিকেশন আরম্ভ করতে পারে। এটা তিনভাবে দেখা যায়:  আইকন গ্রিড, আইকন তালিকা এবং শাখার তালিকা। প্লাগিন ও স্ক্রিপ্ট দিয়ে এর কাজকে বাড়িয়ে নেয়া যায়।  "
 
 #: ../data/nautilus-autorun-software.desktop.in.in.h:1
 msgid "Run Software"
-msgstr ""
+msgstr "সফটওয়্যার চালান"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:1
 #: ../src/nautilus-mime-actions.c:99 ../src/nautilus-properties-window.c:4198
@@ -62,15 +63,15 @@ msgstr "ফাইল"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:3
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr ""
+msgstr "ফোল্ডার;ব্যবস্থাপক;এক্সপ্লোর;ডিস্ক;ফাইলপ্রক্রিয়া;"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:4
 msgid "New Window"
-msgstr ""
+msgstr "নতুন উইন্ডো "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:1
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "নতুন খোলা ট্যাবগুলো ব্রাউজার উইন্ডোর কোন দিকে থাকবে "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
@@ -91,48 +92,48 @@ msgstr "মান সত্য (true) হলে পাথ নির্দেশ�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:5
 msgid "Where to perform recursive search"
-msgstr ""
+msgstr "কোথায় সম্পূর্ণ অনুসন্ধান করা হবে "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:6
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr ""
+msgstr "কোন স্থানে নটিলাস সাবফোল্ডারে অনুসন্ধান করবে। প্রাপ্ত মূল্যমানগুলো হল 'শুধু-স্থানীয়', \"সবসময়', 'কখনও নয়'। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:7
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
+msgstr "তারিখের অনুসন্ধান ফিল্টার করুন শেষতম ব্যবহার বা শেষ পরিবর্তন দিয়ে "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:8
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
+msgstr "তারিখের অনুসন্ধান ফিল্টার করুন হয় শেষতম ব্যবহার নয় শেষ পরিবর্তন দিয়ে"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:9
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
+msgstr "কন্টেক্সট মেনু তালিকা দেখাবে নাকি চিরকালের জন্য মুছে দেয়া হবে"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:10
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
+msgstr "সত্য বল স্থির হলে নটিলাস চিরকালের জন্য মুছের ফেলার একটি কন্টেক্সট মেনু তালিকা দেখাবে আবর্জনাকে এড়াবার জন্য। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:11
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
+msgstr "কপিকৃত বা নির্বাচিত ফাইল থেকে লিঙ্ক তৈরি করতে কন্টেনক্সট মেনু তালিকা দেখাতে হবে কি  "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:12
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
+msgstr "সত্য বল স্থির হলে নটিলাস কপিকৃত বা নির্বাচিত ফাইল থেকে লিঙ্ক তৈরি করতে কন্টেনক্সট মেনু তালিকা দেখাবে। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
+msgstr "নিশ্চিতকরণ হবে কিনা কোন ফাইল মুছবার বা আবর্জনা খালি করার সময় "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
@@ -176,24 +177,24 @@ msgstr "এক্সেকিউটেবল টেক্সট ফাইল ক
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "অজানা মিম ধরনের জন্য প্যাকেজ ইনস্টলার প্রদর্শন করা হবে কি না "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
+msgstr "অপরিচিত ধরনের মিম ভুলক্রমে খুলে গেলে প্যাকেজ ইনস্টলার ডায়ালগ দেখান হবে কিনা এটি সামলাতে কোন অ্যাপ্লিকেশন খুঁজে বের করতে। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:23
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
+msgstr "কোন শর্টকাট আবর্জনায় সরাবার সময় একটি সতর্কবাণী দেখান।  "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:24
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
+msgstr "কোন শর্টকাট পরিবর্তন করে কন্ট্রোল+ডিলিট থেকে শুধু  আবর্জনায় সরাবার সময় একটি সতর্কবাণী দেখান। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:25
 msgid "Use extra mouse button events in Nautilus' browser window"
@@ -230,7 +231,7 @@ msgstr "\"পরবর্তী\" ও \"পূর্ববর্তী\" বো�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:31
 msgid "When to show thumbnails of files"
-msgstr ""
+msgstr "কখন ফাইলের থাম্বনেল দেখাতে হবে"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:32
 msgid ""
@@ -240,7 +241,7 @@ msgid ""
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "যখন ফাইল থাম্বনেল দেখাতে হবে তখন কম ভুল করা। যদি “সবসময়” স্থির করা থাকে তবে সবসময়ে থাম্বনেল, এমনকি ফোল্ডার দূরের কোন সার্ভারে থাকলেও। যদি “শুধু-স্থানীয়” স্থিরকৃত থাকে তবে শুধু স্থানীয় ফাইল প্রক্রিয়ার জন্য থাম্বনেল দেখান। যদি “কখনও নয়” স্থিরকৃত থাকে তবে থাম্বনেল নিয়ে ঝামেলা করার দরকার নেই, যেকোন একটা আইকন ব্যবহার করুন। যে নামই পরামর্শ দেয়া হোক না কেন, এটি যে কোন পূর্ব-দর্শন যোগ্য ফাইলের ক্ষেত্রে প্রযোজ্য হবে।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -283,7 +284,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "যদি সত্য হয়, নতুন উইন্ডোতে ফাইলগুলো বাছাই হবে উল্টো দিক থেকে। যেমন- যদি নাম ধরে বাছাই হয়, তবে \"a\" থেকে \"z\"- এর পরিবর্তে তা \"z\" থেকে \"a\" বাছাই হবে। যদি আকার ধরে বাছাই হয়, তবে বড় থেকে ছোট নয়, ছোট থেকে বড় হবে।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -294,7 +295,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
 "and \"icon-view\"."
-msgstr ""
+msgstr "যখন ফোল্ডার দেখা হ্য় তখন এই ভিউয়ার ব্যবহার করা হয় যদি না আপনি এই নির্দিষ্ট ফোল্ডারের জন্য অন্য কোন ভিউ নির্বাচন করেন। সম্ভাব্য মূল্যমানগুলো “তালিকা-ভিউ” ও “আইকন-ভিউ”। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:43
 msgid "Whether to show hidden files"
@@ -304,16 +305,16 @@ msgstr "আড়াল করা ফাইল প্রদর্শিত হব�
 msgid ""
 "This key is deprecated and ignored. The \"show-hidden\" key from "
 "\"org.gtk.Settings.FileChooser\" is now used instead."
-msgstr ""
+msgstr "এই বোতামটি অননুমোদিত এবং অগ্রাহ্যকৃত। এর পরিবর্তে “ওআরজি.জিটিকে.সেটিংস.ফাইলচুজার”-এর “শো-হিডেন” বোতাম ব্যবহৃত হচ্ছে।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:45
 msgid "What viewer should be used when searching"
-msgstr ""
+msgstr "অনুসন্ধানের সময় কোন ভিউয়ার ব্যবহার করা হবে "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:46
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
+msgstr "অনুসন্ধানকালে নটিলাস সেটিংসে ঠিক করা ভিউয়ে চলবে। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:47
 msgid "Bulk rename utility"
@@ -332,13 +333,13 @@ msgstr "যদি নির্ধারণ করা হয় তবে, নটি
 msgid ""
 "Whether to open the hovered folder after a timeout when drag and drop "
 "operation"
-msgstr ""
+msgstr "বুলিয়ে যাওয়া ফোল্ডার টেনে ভেতরে নেবার কাজের কিছু সময় পরে "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:50
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
+msgstr "যদি এটি সত্য বলে স্থিরকৃত হয়, টেনে ভেতরে নেবার কিছু সময় পরে ফোল্ডার আপনা থেকেই খুলে যাবে।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:51
 msgid "List of possible captions on icons"
@@ -350,7 +351,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: \"size\", \"type\", \"date_modified\", \"owner\", \"group\", "
 "\"permissions\", and \"mime_type\"."
-msgstr ""
+msgstr "আইকন ভিউ ও ডেস্কটপে কোন আইকনের নিচে একটি শিরোনামের তালিকা। শিরোনামের প্রকৃত সংখ্যা নির্ভর করবে জুম মাত্রার ওপর। কিছু সম্ভাব্য মূল্যমান হচ্ছে: “আকার”। “ধরন”, “পরিবর্তনের_তারিখ”, “স্বত্বাধিকারী”, “দল”, “অনুমতিসমূহ”, এবং “মিম_ধরন”।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:53
 msgid "Default icon zoom level"
@@ -368,7 +369,7 @@ msgstr "থাম্বনেইল প্রতীকের ডিফল্ট 
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
+msgstr "নটিলাস_আইকন_আকার_সাধারণ আকার ব্যবহারের সময় আইকন ভিউয়ে একটি থাম্বনেলের জন্য কোন আইকনের প্রকৃত আকার। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -389,7 +390,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr ""
+msgstr "একটি সূত্র নির্দিষ্ট করবে অতি দীর্ঘ ফাইল নাম কিভাবে এলিপসেস দিয়ে স্থানান্তর হবে, জুম করার ওপর নির্ভর করে। তালিকার প্রতিটি নাম “জুম মাত্রা:ইন্টেগার”-এর রকম। প্রতিটি জুম মাত্রায়, যদি প্রদত্ত ইন্টেগার  0-এর চাইতে বড় হয়, তাহলে ফাইলের নাম প্রদত্ত লাইনকে ছাড়াবে না। যদি ইন্টেগার  0 বা তার কম হয়, তবে নির্দিষ্ট জুম মাত্রায় কোন সীমা থাকবে না। কোন নির্দিষ্ট জুম মাত্রা ছাড়াই “ইন্টেগার”-এর একটি ডিফল্ট এন্ট্রি অনুমোদিত। এটি অন্যান্য জুম মাত্রার সর্বোচ্চ সংখ্যক লাইন ঠিক করে দেয়। যেমন- ০- সবসময় দেখাবে অতি দীর্ঘ ফাইল নামগুলো; 3- তিন লাইনের বেশি হলে ফাইলের নাম ছোট করে দেবে;smallest:5,smaller:4,0 - পাঁচ লাইনের বেশি হলে ফাইলের নাম ছোট করে দেবে জুম মাত্রার জন্য “সবচে’ ছোট”। “ছোট” চার লাইনের বেশি হলে ফাইল নাম ছোট করে দেবে। অন্য জুম মাত্রার জন্য ফাইল না, ছোট করবেন না। প্রাপ্ত জুম মাত্রা: ছোট, সাধারণ, বড়। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:59
 msgid "Default list zoom level"
@@ -417,18 +418,18 @@ msgstr "তালিকা-ভিত্তিক প্রদর্শনে ড
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:65
 msgid "Use tree view"
-msgstr ""
+msgstr "ট্রি ভিউ ব্যবহার করুন  "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:66
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
+msgstr "কোন সাদামাটা তালিকার পরিবর্তে তালিকা দেখার সময় ট্রি ব্যবহার করা হবে কিনা। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:67
 msgctxt "desktop-font"
 msgid "''"
-msgstr ""
+msgstr "'' "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:68
 msgid "Desktop font"
@@ -436,7 +437,7 @@ msgstr "ডেস্কটপে ব্যবহৃত ফন্ট"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:69
 msgid "The font description used for the icons on the desktop."
-msgstr ""
+msgstr "অক্ষরের বর্ণনা ব্যবহার করা হয়েছে ডেস্কটপের আইকনগুলোর জন্য। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:70
 msgid "Home icon visible on desktop"
@@ -456,7 +457,7 @@ msgstr "আবর্জনার বাক্সের আইকন ডেস্
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "এটি যদি সত্য বলে স্থিরকৃত হয়, তবে আবর্জনার সাথে যুক্ত একটি আইকন ডেস্কটপে থাকবে। "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -481,7 +482,7 @@ msgstr "মান সত্য (true) হলে ডেস্কটপের উ�
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "‘নীড়’ "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:79
 msgid "Desktop home icon name"
@@ -496,22 +497,22 @@ msgstr "ডেস্কটপে অবস্থিত ব্যক্তিগ�
 #: ../data/org.gnome.nautilus.gschema.xml.h:81
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "‘আবর্জনা’ "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:82
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "ডেস্কটপের আবর্জনার আইকনের নাম"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:83
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
+msgstr "আপনি যদি ডেস্কটপে আবর্জনার আইকনের জন্য একটি নাম দিতে চান, তবে এই নামটি দেয়া যাবে।"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr ""
+msgstr "‘নেটওয়ার্ক সার্ভারসমূহ’ "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:85
 msgid "Network servers icon name"
@@ -543,7 +544,7 @@ msgstr "ট্রু নির্ধারন করা হলে, ডেস্�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:90
 msgid "The geometry string for a navigation window"
-msgstr ""
+msgstr "অনুসন্ধানের উইন্ডোর জন্য জ্যামিতিক সূত্র "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:91
 msgid ""
@@ -553,7 +554,7 @@ msgstr "একটি স্ট্রিং যেখানে ন্যাভি
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "অনুসন্ধান উইন্ডো বড় হবে কিনা "
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
@@ -609,7 +610,7 @@ msgstr "অতিরিক্ত বিবরণ প্রদর্শন কর
 #: ../src/nautilus-properties-window.c:5181
 #: ../src/nautilus-search-popover.c:539
 msgid "_Cancel"
-msgstr ""
+msgstr "_বাতিল "
 
 #: ../eel/eel-stock-dialogs.c:204
 msgid "You can stop this operation by clicking cancel."
@@ -623,7 +624,7 @@ msgstr " (অকার্যকর ইউনিকোড)"
 #: ../libnautilus-private/nautilus-file-utilities.c:283
 #: ../src/nautilus-pathbar.c:413
 msgid "Other Locations"
-msgstr ""
+msgstr "অন্য স্থানগুলো"
 
 #: ../libnautilus-private/nautilus-bookmark.c:109
 #: ../libnautilus-private/nautilus-desktop-link.c:129
@@ -639,11 +640,11 @@ msgstr "নির্বাচন করতে ব্যবহৃত চতুর
 
 #: ../libnautilus-private/nautilus-column-chooser.c:416
 msgid "Reset to De_fault"
-msgstr ""
+msgstr "প্র_কৃততে ফিরে যাওয়া "
 
 #: ../libnautilus-private/nautilus-column-chooser.c:418
 msgid "Replace the current List Columns settings with the default settings"
-msgstr ""
+msgstr "বর্তমান তালিকা কলাম সেটিংস থেকে প্রকৃত সেটিংসে স্থানান্তর "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:57
 #: ../src/nautilus-list-view.c:1716
@@ -673,7 +674,7 @@ msgstr "ফাইলের ধরন।"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:78
 msgid "Modified"
-msgstr ""
+msgstr "পরিবর্তিত "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:79
 #: ../libnautilus-private/nautilus-column-utilities.c:137
@@ -682,7 +683,7 @@ msgstr "ফাইল পরিবর্তনের তারিখ।"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:87
 msgid "Accessed"
-msgstr ""
+msgstr "প্রবেশ করা "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:88
 msgid "The date the file was accessed."
@@ -719,7 +720,7 @@ msgstr "MIME-এর ধরন"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr ""
+msgstr "ফাইলের মিমের ধরন "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:129
 #: ../src/nautilus-image-properties-page.c:415
@@ -732,7 +733,7 @@ msgstr "ফাইলের অবস্থান।"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:136
 msgid "Modified - Time"
-msgstr ""
+msgstr "পরিবির্তিত- সময় "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:179
 msgid "Trashed On"
@@ -752,11 +753,11 @@ msgstr "ট্র্যাশে সরানোর আগে ফাইলে �
 
 #: ../libnautilus-private/nautilus-column-utilities.c:205
 msgid "Relevance"
-msgstr ""
+msgstr "সামঞ্জস্যতা "
 
 #: ../libnautilus-private/nautilus-column-utilities.c:206
 msgid "Relevance rank for search"
-msgstr ""
+msgstr "অনুসন্ধানের সামঞ্জস্যতা স্তর "
 
 #: ../libnautilus-private/nautilus-desktop-directory-file.c:433
 #: ../libnautilus-private/nautilus-desktop-icon-file.c:149
@@ -832,62 +833,62 @@ msgstr "ডেস্কটপ আইকনের নাম পরিবর্ত
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
+msgstr "ফাইলের বস্তু সম্ভবত অকার্যকর ডেস্কটপ ফাইল ফরমেটে আছে "
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M "
 
 #. Translators: Time in 12h format
 #: ../libnautilus-private/nautilus-file.c:4780
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p "
 
 #: ../libnautilus-private/nautilus-file.c:4787
 #, no-c-format
 msgid "Yesterday"
-msgstr ""
+msgstr "গতকাল "
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 24h format. i.e. "Yesterday 23:04"
 #: ../libnautilus-private/nautilus-file.c:4793
 #, no-c-format
 msgid "Yesterday %H:%M"
-msgstr ""
+msgstr "গতকাল%H:%M "
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 12h format. i.e. "Yesterday 9:04 PM"
 #: ../libnautilus-private/nautilus-file.c:4798
 #, no-c-format
 msgid "Yesterday %l:%M %p"
-msgstr ""
+msgstr "গতকাল  %l:%M %p"
 
 #: ../libnautilus-private/nautilus-file.c:4806
 #, no-c-format
 msgid "%a"
-msgstr ""
+msgstr "%a "
 
 #. Translators: this is the name of the week day followed by
 #. * a time in 24h format. i.e. "Monday 23:04"
 #: ../libnautilus-private/nautilus-file.c:4812
 #, no-c-format
 msgid "%a %H:%M"
-msgstr ""
+msgstr "%a %H:%M "
 
 #. Translators: this is the week day name followed by
 #. * a time in 12h format. i.e. "Monday 9:04 PM"
 #: ../libnautilus-private/nautilus-file.c:4817
 #, no-c-format
 msgid "%a %l:%M %p"
-msgstr ""
+msgstr "%a %l:%M %p "
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name i.e. "3 Feb"
 #: ../libnautilus-private/nautilus-file.c:4825
 #, no-c-format
 msgid "%-e %b"
-msgstr ""
+msgstr "%-e %b "
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -895,7 +896,7 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file.c:4832
 #, no-c-format
 msgid "%-e %b %H:%M"
-msgstr ""
+msgstr "%-e %b %H:%M "
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -903,14 +904,14 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file.c:4838
 #, no-c-format
 msgid "%-e %b %l:%M %p"
-msgstr ""
+msgstr "%-e %b %l:%M %p "
 
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
 #: ../libnautilus-private/nautilus-file.c:4846
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr ""
+msgstr "%-e %b %Y "
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -918,7 +919,7 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file.c:4853
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
-msgstr ""
+msgstr "%-e %b %Y %H:%M "
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -926,12 +927,12 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file.c:4859
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
-msgstr ""
+msgstr "%-e %b %Y %l:%M %p "
 
 #: ../libnautilus-private/nautilus-file.c:4868
 #, no-c-format
 msgid "%c"
-msgstr ""
+msgstr "%c "
 
 #: ../libnautilus-private/nautilus-file.c:5267
 #, c-format
@@ -962,7 +963,7 @@ msgstr "'%s' নাম চিহ্নিত দল অনুপস্থিত"
 #. user)
 #: ../libnautilus-private/nautilus-file.c:5997
 msgid "Me"
-msgstr ""
+msgstr "আমি "
 
 #: ../libnautilus-private/nautilus-file.c:6021
 #, c-format
@@ -999,7 +1000,7 @@ msgstr "? বাইট"
 #: ../libnautilus-private/nautilus-file.c:6447
 #: ../libnautilus-private/nautilus-file.c:6528
 msgid "Unknown"
-msgstr ""
+msgstr "অপরিচিত "
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
@@ -1012,15 +1013,15 @@ msgstr "অজানা"
 #: ../libnautilus-private/nautilus-file.c:6500
 #: ../libnautilus-private/nautilus-file.c:6551
 msgid "Program"
-msgstr ""
+msgstr "প্রোগ্রাম "
 
 #: ../libnautilus-private/nautilus-file.c:6493
 msgid "Audio"
-msgstr ""
+msgstr "শব্দ "
 
 #: ../libnautilus-private/nautilus-file.c:6494
 msgid "Font"
-msgstr ""
+msgstr "অক্ষর "
 
 #: ../libnautilus-private/nautilus-file.c:6495
 #: ../src/nautilus-image-properties-page.c:769
@@ -1029,11 +1030,11 @@ msgstr "ছবি"
 
 #: ../libnautilus-private/nautilus-file.c:6496
 msgid "Archive"
-msgstr ""
+msgstr "অভিলেখ "
 
 #: ../libnautilus-private/nautilus-file.c:6497
 msgid "Markup"
-msgstr ""
+msgstr "মার্কআপ "
 
 #: ../libnautilus-private/nautilus-file.c:6498
 #: ../libnautilus-private/nautilus-file.c:6499
@@ -1047,15 +1048,15 @@ msgstr "ভিডিও"
 
 #: ../libnautilus-private/nautilus-file.c:6502
 msgid "Contacts"
-msgstr ""
+msgstr "যোগাযোগ তালিকা "
 
 #: ../libnautilus-private/nautilus-file.c:6503
 msgid "Calendar"
-msgstr ""
+msgstr "দিনপঞ্জী "
 
 #: ../libnautilus-private/nautilus-file.c:6504
 msgid "Document"
-msgstr ""
+msgstr "ডকুমেন্ট "
 
 #: ../libnautilus-private/nautilus-file.c:6505
 #: ../src/nautilus-mime-actions.c:186
@@ -1069,15 +1070,15 @@ msgstr "স্প্রেডশিট"
 
 #: ../libnautilus-private/nautilus-file.c:6553
 msgid "Binary"
-msgstr ""
+msgstr "বাইনারি "
 
 #: ../libnautilus-private/nautilus-file.c:6557
 msgid "Folder"
-msgstr ""
+msgstr "ফোল্ডার "
 
 #: ../libnautilus-private/nautilus-file.c:6588
 msgid "Link"
-msgstr ""
+msgstr "লিঙ্ক "
 
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
@@ -1093,12 +1094,12 @@ msgstr "%s নির্দেশক লিংক"
 #: ../libnautilus-private/nautilus-file.c:6610
 #: ../libnautilus-private/nautilus-file.c:6624
 msgid "Link (broken)"
-msgstr ""
+msgstr "লিঙ্ক (ভাঙা) "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:141
 #, c-format
 msgid "Merge folder “%s”?"
-msgstr ""
+msgstr "মার্জ ফোল্ডার “%s”? "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:145
 msgid ""
@@ -1109,17 +1110,17 @@ msgstr "সংযোজন করার জন্য যে ফাইল অন�
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:150
 #, c-format
 msgid "An older folder with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে একটি পুরোনো ফোল্ডার “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:154
 #, c-format
 msgid "A newer folder with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে একটি নবতম ফোল্ডার “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:158
 #, c-format
 msgid "Another folder with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে আরেকটি ফোল্ডার আগে থেকেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:163
 msgid "Replacing it will remove all files in the folder."
@@ -1128,17 +1129,17 @@ msgstr "এটা প্রতিস্থাপন করলে ফোল্ড
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:165
 #, c-format
 msgid "Replace folder “%s”?"
-msgstr ""
+msgstr "“%s” ফোল্ডার স্থানাতর? "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:167
 #, c-format
 msgid "A folder with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে একটি ফোল্ডার আগে থেকেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:172
 #, c-format
 msgid "Replace file “%s”?"
-msgstr ""
+msgstr "“%s” ফাইলটি স্থানান্তর করা হোক? "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:174
 msgid "Replacing it will overwrite its content."
