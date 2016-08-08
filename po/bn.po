@@ -16,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-26 04:42+0000\n"
-"PO-Revision-Date: 2016-08-02 05:36+0000\n"
+"POT-Creation-Date: 2016-08-02 05:37+0000\n"
+"PO-Revision-Date: 2016-08-04 03:12+0000\n"
 "Last-Translator: Aditi Kabir <aditi.kabir@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/nautilus/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -1110,12 +1110,12 @@ msgstr "সংযোজন করার জন্য যে ফাইল অন�
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:150
 #, c-format
 msgid "An older folder with the same name already exists in “%s”."
-msgstr "একই নামে একটি পুরোনো ফোল্ডার “%s”- তে আছে। "
+msgstr "একই নামে একটি পুরোনো ফোল্ডার আগে হতেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:154
 #, c-format
 msgid "A newer folder with the same name already exists in “%s”."
-msgstr "একই নামে একটি নবতম ফোল্ডার “%s”- তে আছে। "
+msgstr "একই নামে একটি নবতম ফোল্ডার আগে হতেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:158
 #, c-format
@@ -1148,26 +1148,26 @@ msgstr "এটা প্রতিস্থাপন করলে এর কন�
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:178
 #, c-format
 msgid "An older file with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে একটি পুরোনো ফাইল আগে হতেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:182
 #, c-format
 msgid "A newer file with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে একটি ণোবোটোম ফাইল আগে হতেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:186
 #, c-format
 msgid "Another file with the same name already exists in “%s”."
-msgstr ""
+msgstr "একই নামে আরেকটি ফাইল আগে থেকেই “%s”- তে আছে। "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:255
 msgid "Original folder"
-msgstr ""
+msgstr "প্রকৃত ফোল্ডার "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr ""
+msgstr "আইটেমসমূহ "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1192,7 +1192,7 @@ msgstr "শেষ যে তারিখে পরিবর্তিত:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr ""
+msgstr "সাথে মার্জ "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1216,7 +1216,7 @@ msgstr "পুনরায় নির্ধারণ"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "এই কাজটি সব ফাইল এবং ফোল্ডারে প্রয়োগ করা "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1233,12 +1233,12 @@ msgstr "প্রতিস্থাপন"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr ""
+msgstr "ফোল্ডার মার্জ "
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "ফাইল ও ফোল্ডারে দ্বন্দ্ব"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -1440,7 +1440,7 @@ msgstr " (%'d"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1388
 msgid "Are you sure you want to permanently delete “%B” from the trash?"
-msgstr ""
+msgstr "আপনি কি নিশ্চিত যে আবর্জনার থেকে“%B”  স্থায়ীভাবে মুছে ফেলতে চান?"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1391
 #, c-format
@@ -1474,7 +1474,7 @@ msgstr "আবর্জনার বাক্স ফাঁকা করুন (_
 
 #: ../libnautilus-private/nautilus-file-operations.c:1455
 msgid "Are you sure you want to permanently delete “%B”?"
-msgstr ""
+msgstr "আপনি কি নিশ্চিত যে “%B” স্থায়ীভাবে মুছে ফেলতে চান?"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1458
 #, c-format
@@ -1486,25 +1486,25 @@ msgstr[1] "আপনি কি নিশ্চিতরূপে নির্ব
 
 #: ../libnautilus-private/nautilus-file-operations.c:1511
 msgid "Deleted “%B”"
-msgstr ""
+msgstr " “%B” মুছে ফেলা হয়েছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1513
 msgid "Deleting “%B”"
-msgstr ""
+msgstr "“%B” মুছে ফেলা হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1521
 #, c-format
 msgid "Deleted %'d file"
 msgid_plural "Deleted %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল মুছে ফেলা হয়েছে "
+msgstr[1] "%'d ফাইলসমূহ মুছে ফেলা হয়েছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1525
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল মুছে ফেলা হচ্ছে "
+msgstr[1] "%'d ফাইলসমূহ মুছে ফেলা হচ্ছে "
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1519,7 +1519,7 @@ msgstr[1] ""
 #: ../libnautilus-private/nautilus-file-operations.c:3376
 #, c-format
 msgid "%'d / %'d"
-msgstr ""
+msgstr "%'d / %'d "
 
 #. To translators: %T will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left (4
@@ -1531,16 +1531,16 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file-operations.c:1964
 msgid "%'d / %'d — %T left"
 msgid_plural "%'d / %'d — %T left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %T বাকী "
+msgstr[1] "%'d / %'d — %T বাকী "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1571
 #: ../libnautilus-private/nautilus-file-operations.c:1967
 #, c-format
 msgid "(%d file/sec)"
 msgid_plural "(%d files/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%d ফাইল/সেক)"
+msgstr[1] "(%d ফাইলসমূহ/সেক)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1653
 #: ../libnautilus-private/nautilus-file-operations.c:1687
@@ -1554,14 +1554,14 @@ msgstr "মুছে ফেলতে ত্রুটি।"
 msgid ""
 "Files in the folder “%B” cannot be deleted because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসমূহ মোছা যাবে না কেননা ওগুলা দেখার অনুমতি নেই আপনার। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1660
 #: ../libnautilus-private/nautilus-file-operations.c:2824
 #: ../libnautilus-private/nautilus-file-operations.c:4016
 msgid ""
 "There was an error getting information about the files in the folder “%B”."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসুলো সম্পর্কে তথ্য পাওয়ায় একটি ভুল দেখা দিয়েছে। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1669
 #: ../libnautilus-private/nautilus-file-operations.c:4025
@@ -1572,13 +1572,13 @@ msgstr "ফাইল উপেক্ষা করা হবে (_S)"
 msgid ""
 "The folder “%B” cannot be deleted because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসমূহ মোছা যাবে না কেননা ওগুলা পড়ার অনুমতি নেই আপনার। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1693
 #: ../libnautilus-private/nautilus-file-operations.c:2863
 #: ../libnautilus-private/nautilus-file-operations.c:4061
 msgid "There was an error reading the folder “%B”."
-msgstr ""
+msgstr " “%B” ফোল্ডার পড়ায় একটি ভুল দেখা দিয়েছে। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1727
 msgid "Could not remove the folder %B."
@@ -1590,34 +1590,34 @@ msgstr "%B মুছে ফেলতে ত্রুটি।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1906
 msgid "Trashing “%B”"
-msgstr ""
+msgstr " “%B” ফেলা হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1908
 msgid "Trashed “%B”"
-msgstr ""
+msgstr " “%B” ফেলা হয়েছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1916
 #, c-format
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল ফেলা হচ্ছে "
+msgstr[1] " %'d ফাইলসমূহ ফেলা হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:1920
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল ফেলা হয়েছে "
+msgstr[1] "%'d ফাইলসমূহ ফেলা হয়েছে "
 
 #. Translators: %B is a file name
 #: ../libnautilus-private/nautilus-file-operations.c:2043
 msgid "“%B” can't be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "“%B” আবর্জনায় নেয়া যাচ্ছে না। আপনি কি এটি এখনই মুছতে চান? "
 
 #: ../libnautilus-private/nautilus-file-operations.c:2049
 msgid "This remote location does not support sending items to the trash."
-msgstr ""
+msgstr "এই দূরবর্তী স্থানটি আইটেম আবর্জনায় পাঠান সহায়তা করে না। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:2252
 msgid "Trashing Files"
@@ -1654,7 +1654,7 @@ msgstr "আবর্জনার বাক্স ফাঁকা করা হ�
 #: ../src/nautilus-files-view.c:5724
 #, c-format
 msgid "Unable to access “%s”"
-msgstr ""
+msgstr "“%s”- এ প্রবেশ করতে ব্যর্থ "
 
 #: ../libnautilus-private/nautilus-file-operations.c:2712
 #, c-format
@@ -1705,30 +1705,30 @@ msgstr "আবর্জনার বাক্সে ফাইল স্থান
 msgid ""
 "Files in the folder “%B” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসমূহ পরিচালনা করা যাবে না কেননা ওগুলো দেখার অনুমতি নেই আপনার।  "
 
 #: ../libnautilus-private/nautilus-file-operations.c:2860
 msgid ""
 "The folder “%B” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "“%B” ফোল্ডারটি পরিচালনা করা যাবে না কেননা ওগুলো পড়ার অনুমতি নেই আপনার।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2937
 msgid ""
 "The file “%B” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "“%B” ফাইলটি পরিচালনা করা যাবে না কেননা ওগুলো পড়ার অনুমতি নেই আপনার।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2940
 msgid "There was an error getting information about “%B”."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসুলো সম্পর্কে তথ্য পাওয়ায় একটি ভুল দেখা দিয়েছে। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3042
 #: ../libnautilus-private/nautilus-file-operations.c:3090
 #: ../libnautilus-private/nautilus-file-operations.c:3129
 #: ../libnautilus-private/nautilus-file-operations.c:3159
 msgid "Error while copying to “%B”."
-msgstr ""
+msgstr "“%B”- এ অনুলিপি করতে ত্রুটি।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3046
 msgid "You do not have permissions to access the destination folder."
@@ -1751,7 +1751,7 @@ msgstr "গন্তব্যস্থলে পর্যাপ্ত স্থ�
 #: ../libnautilus-private/nautilus-file-operations.c:3132
 #, c-format
 msgid "%S more space is required to copy to the destination."
-msgstr ""
+msgstr "%S আরও বেশি জায়গা প্রয়োজন নির্দিষ্ট স্থানে কপি করতে হলে। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3160
 msgid "The destination is read-only."
@@ -1759,63 +1759,63 @@ msgstr "গন্তব্যস্থল রূপে চিহ্নিত স
 
 #: ../libnautilus-private/nautilus-file-operations.c:3225
 msgid "Moving “%B” to “%B”"
-msgstr ""
+msgstr "“%B”  থেকে “%B”  সরানো হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3227
 msgid "Moved “%B” to “%B”"
-msgstr ""
+msgstr "“%B” থেকে “%B”  সরানো হয়েছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3231
 msgid "Copying “%B” to “%B”"
-msgstr ""
+msgstr "“%B” থেকে “%B”  অনুলিপি হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3233
 msgid "Copied “%B” to “%B”"
-msgstr ""
+msgstr "“%B” থেকে “%B”  অনুলিপি হয়েছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3244
 msgid "Duplicating “%B”"
-msgstr ""
+msgstr " “%B” দ্বৈতকরণ হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3246
 msgid "Duplicated “%B”"
-msgstr ""
+msgstr "“%B” দ্বৈতকরণ হয়েছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3256
 msgid "Moving %'d file to “%B”"
 msgid_plural "Moving %'d files to “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ফাইল %'d থেকে “%B” সরানো হচ্ছে "
+msgstr[1] "%'d ফাইলসমূহ “%B”-তে সরানো হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3260
 msgid "Copying %'d file to “%B”"
 msgid_plural "Copying %'d files to “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ফাইল %'d থেকে “%B” অনুলিপি হচ্ছে  "
+msgstr[1] "%'d ফাইলসমূহ “%B”-তে অনুলিপি হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3270
 msgid "Moved %'d file to “%B”"
 msgid_plural "Moved %'d files to “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল “%B”-তে সরানো হয়েছে"
+msgstr[1] "%'d ফাইলসমূহ “%B”-তে সরানো হয়েছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3274
 msgid "Copied %'d file to “%B”"
 msgid_plural "Copied %'d files to “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল “%B”-তে  অনুলিপি হয়েছে"
+msgstr[1] "%'d ফাইলসমূহ “%B”-তে  অনুলিপি হয়েছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3288
 msgid "Duplicating %'d file in “%B”"
 msgid_plural "Duplicating %'d files in “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল “%B”-এ দ্বৈতকরণ হচ্ছে"
+msgstr[1] "%'d ফাইলসমূহ “%B”-এ দ্বৈতকরণ হচ্ছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3296
 msgid "Duplicated %'d file in “%B”"
 msgid_plural "Duplicated %'d files in “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ফাইল “%B”-এ দ্বৈতকরণ হয়েছে"
+msgstr[1] "%'d ফাইলসমূহ “%B”-এ দ্বৈতকরণ হয়েছে "
 
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -1824,7 +1824,7 @@ msgstr[1] ""
 #: ../libnautilus-private/nautilus-file-operations.c:3356
 #, c-format
 msgid "%S / %S"
-msgstr ""
+msgstr "%S / %S "
 
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a
 #. time duration like
@@ -1836,8 +1836,8 @@ msgstr ""
 #: ../libnautilus-private/nautilus-file-operations.c:3348
 msgid "%S / %S — %T left (%S/sec)"
 msgid_plural "%S / %S — %T left (%S/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%S / %S — %T বাকী (%S/সেক)"
+msgstr[1] "%S / %S — %T বাকী (%S/সেক)"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -1848,36 +1848,36 @@ msgstr[1] ""
 #: ../libnautilus-private/nautilus-file-operations.c:3367
 msgid "%'d / %'d — %T left (%S/sec)"
 msgid_plural "%'d / %'d — %T left (%S/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %T বাকী (%S/সেক)"
+msgstr[1] "%'d / %'d — %T বাকী (%S/সেক)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3880
 msgid ""
 "The folder “%B” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "“%B” ফোল্ডার অনুলিপি করা যাবে না কেননা ওগুলো লক্ষ্যে তৈরি করার অনুমতি নেই আপনার। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:3883
 msgid "There was an error creating the folder “%B”."
-msgstr ""
+msgstr "“%B” ফোল্ডার তৈরি করায় একটি ভুল দেখা দিয়েছে।  "
 
 #: ../libnautilus-private/nautilus-file-operations.c:4013
 msgid ""
 "Files in the folder “%B” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসমূহ অনুলিপি করা যাবে না কেননা ওগুলা দেখার অনুমতি নেই আপনার। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:4058
 msgid ""
 "The folder “%B” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "“%B” ফোল্ডারের ফাইলসমূহ অনুলিপি করা যাবে না কেননা ওগুলো পড়ার অনুমতি নেই আপনার। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:4103
 #: ../libnautilus-private/nautilus-file-operations.c:4832
 #: ../libnautilus-private/nautilus-file-operations.c:5446
 msgid "Error while moving “%B”."
-msgstr ""
+msgstr "“%B”- এ সরাতে ত্রুটি। "
 
 #: ../libnautilus-private/nautilus-file-operations.c:4104
 msgid "Could not remove the source folder."
@@ -1888,7 +1888,7 @@ msgstr "মূল ফোল্ডার মুছে ফেলা সম্ভ�
 #: ../libnautilus-private/nautilus-file-operations.c:4834
 #: ../libnautilus-private/nautilus-file-operations.c:4905
 msgid "Error while copying “%B”."
-msgstr ""
+msgstr "%B”- এ অনুলিপি করতে ত্রুটি।"
 
 #: ../libnautilus-private/nautilus-file-operations.c:4189
 #, c-format
@@ -1946,7 +1946,7 @@ msgstr "ফাইল অনুলিপি করা হচ্ছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:5199
 msgid "Preparing to move to “%B”"
-msgstr ""
+msgstr " “%B”-তে সরানোর প্রস্তুতি "
 
 #: ../libnautilus-private/nautilus-file-operations.c:5203
 #, c-format
@@ -1966,7 +1966,7 @@ msgstr "ফাইল স্থানান্তর করা হচ্ছে"
 
 #: ../libnautilus-private/nautilus-file-operations.c:5741
 msgid "Creating links in “%B”"
-msgstr ""
+msgstr "“%B”-এ লিঙ্ক তৈরি হচ্ছে "
 
 #: ../libnautilus-private/nautilus-file-operations.c:5745
 #, c-format
@@ -2033,369 +2033,369 @@ msgstr "লঞ্চারকে বিশ্বস্ত রূপে চিহ
 #: ../libnautilus-private/nautilus-file-undo-operations.c:133
 #: ../src/nautilus-window.c:461 ../src/resources/ui/nautilus-window.ui.h:2
 msgid "Undo"
-msgstr ""
+msgstr "পূর্বাবস্থায় ফিরিয়ে আনা "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:136
 msgid "Undo last action"
-msgstr ""
+msgstr "শেষ কাজটি পূর্বাবস্থায় ফিরিয়ে আনা "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:140
 #: ../src/nautilus-window.c:462
 msgid "Redo"
-msgstr ""
+msgstr "পুনরায় করা "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:143
 msgid "Redo last undone action"
-msgstr ""
+msgstr "শেষ পূর্বাবস্থায় ফিরিয়ে আনা কাজটি পুনরায় করা "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:366
 #, c-format
 msgid "Move %d item back to '%s'"
 msgid_plural "Move %d items back to '%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম সরিয়ে আবার '%s'-তে "
+msgstr[1] "%d আইটেমগুলো সরিয়ে আবার '%s'-তে "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:369
 #, c-format
 msgid "Move %d item to '%s'"
 msgid_plural "Move %d items to '%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম সরিয়ে '%s'-তে "
+msgstr[1] "%d আইটেমগুলো সরিয়ে '%s'-তে "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:373
 #, c-format
 msgid "_Undo Move %d item"
 msgid_plural "_Undo Move %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_%d আইটেম সরানো পূর্বাবস্থায় নেয়া"
+msgstr[1] "_%d আইটেমসমূহ সরানো পূর্বাবস্থায় নেয়া"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:376
 #, c-format
 msgid "_Redo Move %d item"
 msgid_plural "_Redo Move %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_পুনরায় %d আইটেম সরানো"
+msgstr[1] "_পুনরায় %d আইটেমসমূহ সরানো"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:380
 #, c-format
 msgid "Move '%s' back to '%s'"
-msgstr ""
+msgstr "'%s'-কে '%s'-এ ফিরিয়ে নেয়া "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:381
 #, c-format
 msgid "Move '%s' to '%s'"
-msgstr ""
+msgstr "'%s'-কে '%s'-এ সরানো "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:383
 msgid "_Undo Move"
-msgstr ""
+msgstr "_সরানোটি পূর্বাবস্থায় নেয়া  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:384
 msgid "_Redo Move"
-msgstr ""
+msgstr "_আবার সরানো  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:387
 msgid "_Undo Restore from Trash"
-msgstr ""
+msgstr "_আবর্জনা থেকে পুনর্স্থাপন পূর্বাবস্থায় নেয়া"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:388
 msgid "_Redo Restore from Trash"
-msgstr ""
+msgstr "_ আবার আবর্জনা থেকে পুনর্স্থাপন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:391
 #, c-format
 msgid "Move %d item back to trash"
 msgid_plural "Move %d items back to trash"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম আবার আবর্জনায় নেয়া"
+msgstr[1] "%d আইটেমসমূহ আবার আবর্জনায় নেয়া"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:394
 #: ../libnautilus-private/nautilus-file-undo-operations.c:990
 #, c-format
 msgid "Restore %d item from trash"
 msgid_plural "Restore %d items from trash"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেমকে আবর্জনা থেকে পুনর্স্থাপন করুন"
+msgstr[1] "%d আইটেমসমূহকে আবর্জনা থেকে পুনর্স্থাপন করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:398
 #, c-format
 msgid "Move '%s' back to trash"
-msgstr ""
+msgstr "'%s'-কে আবার আবর্জনায় সরান "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:399
 #, c-format
 msgid "Restore '%s' from trash"
-msgstr ""
+msgstr "'%s' আবর্জনা থেকে পুনর্স্থাপন করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:403
 #, c-format
 msgid "Delete %d copied item"
 msgid_plural "Delete %d copied items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d অনুলিপিকৃত আইটেম মুছুন"
+msgstr[1] "%d অনুলিপিকৃত আইটেমসমূহ মুছুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:406
 #, c-format
 msgid "Copy %d item to '%s'"
 msgid_plural "Copy %d items to '%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম '%s'-এ অনুলিপি করুন"
+msgstr[1] "%d আইটেমসমূহ '%s'-এ অনুলিপি করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:410
 #, c-format
 msgid "_Undo Copy %d item"
 msgid_plural "_Undo Copy %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_%d আইটেম আবার অনুলিপি পূর্বাবস্থায় নিন"
+msgstr[1] "_%d আইটেমসমূহ আবার অনুলিপি পূর্বাবস্থায় নিন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "_Redo Copy %d item"
 msgid_plural "_Redo Copy %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_%d আইটেম আবার অনুলিপি করুন"
+msgstr[1] "_%d আইটেমসমূহ আবার অনুলিপি করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:417
 #: ../libnautilus-private/nautilus-file-undo-operations.c:439
 #: ../libnautilus-private/nautilus-file-undo-operations.c:672
 #, c-format
 msgid "Delete '%s'"
-msgstr ""
+msgstr "'%s' মুছুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:418
 #, c-format
 msgid "Copy '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s' অনুলিপি  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:420
 msgid "_Undo Copy"
-msgstr ""
+msgstr "_অনুলিপি পূর্বাবস্থায় নেয়া "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:421
 msgid "_Redo Copy"
-msgstr ""
+msgstr "_আবার অনুলিপি করণ "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:425
 #, c-format
 msgid "Delete %d duplicated item"
 msgid_plural "Delete %d duplicated items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d দ্বৈতকরা আইটেম মুছুন"
+msgstr[1] "%d দ্বৈতকরা আইটেমসমূহ মুছুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:428
 #, c-format
 msgid "Duplicate %d item in '%s'"
 msgid_plural "Duplicate %d items in '%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম আছে '%s'"
+msgstr[1] "%d আইটেমসমূহ আছে '%s'"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:432
 #, c-format
 msgid "_Undo Duplicate %d item"
 msgid_plural "_Undo Duplicate %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_ দ্বৈতকরা %d আইটেম পূর্বাবস্থায় নেয়া"
+msgstr[1] "_ দ্বৈতকরা %d আইটেমসমূহ পূর্বাবস্থায় নেয়া"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:435
 #, c-format
 msgid "_Redo Duplicate %d item"
 msgid_plural "_Redo Duplicate %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "_ দ্বৈতকরা %d আইটেম আবার করা"
+msgstr[1] "_ দ্বৈতকরা %d আইটেমসমূহ আবার করা"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:440
 #, c-format
 msgid "Duplicate '%s' in '%s'"
-msgstr ""
+msgstr "'%s' '%s'-তে দ্বৈতকরা "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:443
 msgid "_Undo Duplicate"
-msgstr ""
+msgstr "_ দ্বৈতকরণ পূর্বাবস্থায় নেয়া "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:444
 msgid "_Redo Duplicate"
-msgstr ""
+msgstr "_পুনঃ দ্বৈতকরণ"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:448
 #, c-format
 msgid "Delete links to %d item"
 msgid_plural "Delete links to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেমের লিঙ্কগুলো মুছুন"
+msgstr[1] "%d আইটেমসমূহের লিঙ্কগুলো মুছুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:451
 #, c-format
 msgid "Create links to %d item"
 msgid_plural "Create links to %d items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম্যা লিঙ্ক তৈরি করুন "
+msgstr[1] "%d আইটেমসমূহে লিঙ্ক তৈরি করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:455
 #, c-format
 msgid "Delete link to '%s'"
-msgstr ""
+msgstr "'%s' –এর লিঙ্ক মুছুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:456
 #, c-format
 msgid "Create link to '%s'"
-msgstr ""
+msgstr "'%s'-র লিঙ্ক তৈরি করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:458
 msgid "_Undo Create Link"
-msgstr ""
+msgstr "_ লিঙ্ক তৈরি পূর্বাবস্থায় নিন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:459
 msgid "_Redo Create Link"
-msgstr ""
+msgstr "_পুনরায় লিঙ্ক তৈরি করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:675
 #, c-format
 msgid "Create an empty file '%s'"
-msgstr ""
+msgstr "খালি ফাইল '%s' তৈরি করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:677
 msgid "_Undo Create Empty File"
-msgstr ""
+msgstr "_খালি ফাইল তৈরি করার পূর্বাবস্থায় যান "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:678
 msgid "_Redo Create Empty File"
-msgstr ""
+msgstr "_খালি ফাইল আবার তৈরি করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:680
 #, c-format
 msgid "Create a new folder '%s'"
-msgstr ""
+msgstr "নতুন '%s' ফোল্ডার বানান  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:682
 msgid "_Undo Create Folder"
-msgstr ""
+msgstr "_ফাইল তৈরি করার পূর্বাবস্থায় যান "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:683
 msgid "_Redo Create Folder"
-msgstr ""
+msgstr "_ফাইল আবার তৈরি করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:685
 #, c-format
 msgid "Create new file '%s' from template "
-msgstr ""
+msgstr "নতুন '%s' ফোল্ডার বানান নমুনা থেকে "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:687
 msgid "_Undo Create from Template"
-msgstr ""
+msgstr "_নমুনা থেকে সৃষ্টকে পূর্বাবস্থায় আনুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:688
 msgid "_Redo Create from Template"
-msgstr ""
+msgstr "_নমুনা থেকে সৃষ্টকে আবার করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:873
 #: ../libnautilus-private/nautilus-file-undo-operations.c:874
 #, c-format
 msgid "Rename '%s' as '%s'"
-msgstr ""
+msgstr "'%s'-কে নতুন নাম '%s' করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:876
 msgid "_Undo Rename"
-msgstr ""
+msgstr "_নতুন নাম করণ পূর্বাবস্থায় আনুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:877
 msgid "_Redo Rename"
-msgstr ""
+msgstr "_নতুন নাম করণ আবার করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:993
 #, c-format
 msgid "Move %d item to trash"
 msgid_plural "Move %d items to trash"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d আইটেম আবর্জনায় নিন"
+msgstr[1] "%d আইটেমসমূহ আবর্জনায় নিন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1005
 #, c-format
 msgid "Restore '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s' পুনঃস্থাপন করুন"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1012
 #, c-format
 msgid "Move '%s' to trash"
-msgstr ""
+msgstr "'%s'-কে আবর্জনায় নিন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1017
 msgid "_Undo Trash"
-msgstr ""
+msgstr "_আবর্জনায় নেয়া পূর্বাবস্থায় আনুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1018
 msgid "_Redo Trash"
-msgstr ""
+msgstr " _আবর্জনায় নেয়া আবার করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1297
 #, c-format
 msgid "Restore original permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "'%s'–এ রাখামূল আইটেমের অনুমতি পুনঃস্থাপন করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1298
 #, c-format
 msgid "Set permissions of items enclosed in '%s'"
-msgstr ""
+msgstr "'%s'–এ রাখা আইটেমের অনুমতি স্থির করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1300
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1451
 msgid "_Undo Change Permissions"
-msgstr ""
+msgstr "_অনুমতি বদল পূর্বাবস্থায় আনুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1301
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1452
 msgid "_Redo Change Permissions"
-msgstr ""
+msgstr "_অনুমতি বদল আবার করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1448
 #, c-format
 msgid "Restore original permissions of '%s'"
-msgstr ""
+msgstr "'%s'–এর মূল অনুমতি পুনঃস্থাপন করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1449
 #, c-format
 msgid "Set permissions of '%s'"
-msgstr ""
+msgstr "'%s'–এর অনুমতি স্থির করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1559
 #, c-format
 msgid "Restore group of '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s'-এর দলের পুনঃস্থাপন করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1561
 #, c-format
 msgid "Set group of '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s'-এর দল স্থির করুন  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1564
 msgid "_Undo Change Group"
-msgstr ""
+msgstr "_দল বদল পূর্বাবস্থায় আনুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1565
 msgid "_Redo Change Group"
-msgstr ""
+msgstr "_দল বদল আবার করুন  "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1567
 #, c-format
 msgid "Restore owner of '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s'-এর মালিকানা পুনঃস্থাপন করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1569
 #, c-format
 msgid "Set owner of '%s' to '%s'"
-msgstr ""
+msgstr "'%s' থেকে '%s'-এর মালিকানা স্থির করুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1572
 msgid "_Undo Change Owner"
-msgstr ""
+msgstr "_মালিকানা বদল পূর্বাবস্থায় আনুন "
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1573
 msgid "_Redo Change Owner"
-msgstr ""
+msgstr "__মালিকানা বদল আবার করুন "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:915
 #, c-format
 msgid "Could not determine original location of “%s” "
-msgstr ""
+msgstr "“%s”–এর মূল স্থান নির্ধারণ করা যাচ্ছে না "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:919
 msgid "The item cannot be restored from trash"
@@ -2403,63 +2403,63 @@ msgstr "বস্তুটি আবর্জনার বাক্সে থে
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1023
 msgid "Audio CD"
-msgstr ""
+msgstr "অডিও সিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1025
 msgid "Audio DVD"
-msgstr ""
+msgstr "অডিও ডিভিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1027
 msgid "Video DVD"
-msgstr ""
+msgstr "ভিডিও ডিভিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1029
 msgid "Video CD"
-msgstr ""
+msgstr "ভিডিও সিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1031
 msgid "Super Video CD"
-msgstr ""
+msgstr "সুপার ভিডিও সিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1033
 msgid "Photo CD"
-msgstr ""
+msgstr "ফটো সিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1035
 msgid "Picture CD"
-msgstr ""
+msgstr "ছবি সিডি "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1037
 #: ../libnautilus-private/nautilus-file-utilities.c:1070
 msgid "Contains digital photos"
-msgstr ""
+msgstr "ডিজিটাল ফটো রাখা আছে"
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1039
 msgid "Contains music"
-msgstr ""
+msgstr "গান রাখা আছে "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1041
 msgid "Contains software"
-msgstr ""
+msgstr "সফটওয়্যার রাখা আছে "
 
 #. fallback to generic greeting
 #: ../libnautilus-private/nautilus-file-utilities.c:1044
 #, c-format
 msgid "Detected as “%s”"
-msgstr ""
+msgstr "“%s”-হিসেবে চিহ্নিত "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1066
 msgid "Contains music and photos"
-msgstr ""
+msgstr "গান ও ফটো রাখা আছে "
 
 #: ../libnautilus-private/nautilus-file-utilities.c:1068
 msgid "Contains photos and music"
-msgstr ""
+msgstr "ফটো ও গান রাখা আছে "
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:80
 #, c-format
 msgid "Error while adding “%s”: %s"
-msgstr ""
+msgstr "“%s”: %s যোগ করার সময় ভুল হয়েছে "
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:82
 msgid "Could not add application"
@@ -2476,7 +2476,7 @@ msgstr "সংযুক্তি মনে রাখা হয় না"
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:172
 #, c-format
 msgid "Error while setting “%s” as default application: %s"
-msgstr ""
+msgstr "“%s”-কে স্থিরকৃত অ্যাপ্লিকেশন: %s হিসেবে স্থির করার সময় ভুল হয়েছে "
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:174
 msgid "Could not set as default"
@@ -2492,17 +2492,17 @@ msgstr "%s নথি"
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:259
 #, c-format
 msgid "Open all files of type “%s” with"
-msgstr ""
+msgstr "সব ধরনের ফাইল খুলুন “%s” দিয়ে "
 
 #. Translators: first %s is filename, second %s is mime-type description
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:266
 #, c-format
 msgid "Select an application to open “%s” and other files of type “%s”"
-msgstr ""
+msgstr "“%s” এবং অন্য “%s” ধরনের ফাইল খোলার জন্য একটি অ্যাপ্লিকেশন ঠিক করুন "
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:325
 msgid "_Add"
-msgstr ""
+msgstr "_যোগ "
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:333
 msgid "Set as default"
@@ -2544,7 +2544,7 @@ msgstr "বিবরণ: "
 
 #: ../libnautilus-private/nautilus-progress-info.c:297
 msgid "Cancelled"
-msgstr ""
+msgstr "বাতিলকৃত "
 
 #: ../libnautilus-private/nautilus-progress-info.c:360
 #: ../libnautilus-private/nautilus-progress-info.c:378
@@ -2564,75 +2564,75 @@ msgstr "অনুসন্ধান"
 #: ../libnautilus-private/nautilus-query.c:473
 #, c-format
 msgid "Search for “%s”"
-msgstr ""
+msgstr "“%s” অনুসন্ধান করুন "
 
 #: ../libnautilus-private/nautilus-search-engine.c:201
 msgid "Unable to complete the requested search"
-msgstr ""
+msgstr "অনুরোধকৃত অনুসন্ধান সম্পন্ন করা যায়নি "
 
 #. days
 #: ../libnautilus-private/nautilus-ui-utilities.c:365
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d দিন আগে "
+msgstr[1] "%d দিনসমূহ আগে "
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d সপ্তাহ আগে "
+msgstr[1] "%d সপ্তাহসমূহ আগে"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d মাস আগে "
+msgstr[1] "%d মাসগুলো আগে"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d বছর আগে "
+msgstr[1] "%d বছরগুলো আগে "
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
 msgid "Send to…"
-msgstr ""
+msgstr "পাঠান… "
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:97
 msgid "Send file by mail…"
-msgstr ""
+msgstr "মেইলের মাধ্যমে ফাইল পাঠান… "
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:102
 msgid "Send files by mail…"
-msgstr ""
+msgstr "মেইলের মাধ্যমে ফাইলগুলো পাঠান… "
 
 #. Some sort of failure occurred. How 'bout we tell the user?
 #: ../src/nautilus-application.c:168 ../src/nautilus-window-slot.c:1144
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "উপস! কোন একটা ভুল হয়েছে। "
 
 #: ../src/nautilus-application.c:170
 #, c-format
 msgid ""
 "Unable to create a required folder. Please create the following folder, or set permissions such that it can be created:\n"
 "%s"
-msgstr ""
+msgstr "অনুরোধকৃত ফোল্ডার তৈরি করা যায়নি। অনুগ্রহ করে নিচের ফোল্ডার তৈরি করুন, বা অথবা তা তৈরি করার অনুমতি স্থির করুন:%s "
 
 #: ../src/nautilus-application.c:175
 #, c-format
 msgid ""
 "Unable to create required folders. Please create the following folders, or set permissions such that they can be created:\n"
 "%s"
-msgstr ""
+msgstr "অনুরোধকৃত ফোল্ডারগুলো তৈরি করা যায়নি। অনুগ্রহ করে নিচের ফোল্ডারগুলো তৈরি করুন, বা অথবা সেগুলো তৈরি করার অনুমতি স্থির করুন:\n %s"
 
 #: ../src/nautilus-application.c:572
 msgid "--check cannot be used with other options."
@@ -2644,11 +2644,11 @@ msgstr "--বন্ধ করা URIs দিয়ে ব্যবহার কর�
 
 #: ../src/nautilus-application.c:587
 msgid "--select must be used with at least an URI."
-msgstr ""
+msgstr "--নির্বাচিতটিতে অবশ্যই অন্তত একটি ইউআরএল ব্যবহার হবে। "
 
 #: ../src/nautilus-application.c:594
 msgid "--no-desktop and --force-desktop cannot be used together."
-msgstr ""
+msgstr "--কোন ডেস্কটপ এবং –ফোর্স-ডেস্কটপ একসাথে ব্যবহার করা যাবে না। "
 
 #: ../src/nautilus-application.c:707
 #, c-format
@@ -2675,7 +2675,7 @@ msgstr "প্রোগ্রামের সংস্করণ সংখ্য�
 
 #: ../src/nautilus-application.c:857
 msgid "Always open a new window for browsing specified URIs"
-msgstr ""
+msgstr "নির্দিষ্ট কোন ইউআরএলগুলো দেখতে সবসময় নতুন উইন্ডো খুলুন "
 
 #: ../src/nautilus-application.c:859
 msgid "Only create windows for explicitly specified URIs."
@@ -2683,11 +2683,11 @@ msgstr "শুধুমাত্র সুনির্দিষ্ট URI-এর
 
 #: ../src/nautilus-application.c:861
 msgid "Never manage the desktop (ignore the GSettings preference)."
-msgstr ""
+msgstr "ডেস্কটপ কখনও সামলাবেন না (জিসেটিংস পছন্দকে অগ্রাহ্য করুন)। "
 
 #: ../src/nautilus-application.c:863
 msgid "Always manage the desktop (ignore the GSettings preference)."
-msgstr ""
+msgstr "ডেস্কটপ সবসময় সামলাবেন (জিসেটিংস পছন্দকে অগ্রাহ্য করুন)। "
 
 #: ../src/nautilus-application.c:865
 msgid "Quit Nautilus."
@@ -2695,7 +2695,7 @@ msgstr "Nautilus থেকে প্রস্থান।"
 
 #: ../src/nautilus-application.c:867
 msgid "Select specified URI in parent folder."
-msgstr ""
+msgstr "মূল ফোল্ডারে নির্দিষ্ট ইউআরএল নির্বাচন করুন। "
 
 #: ../src/nautilus-application.c:868
 msgid "[URI...]"
@@ -2707,27 +2707,27 @@ msgstr "[URI...]"
 msgid ""
 "Unable to start the program:\n"
 "%s"
-msgstr ""
+msgstr "প্রোগ্রাম শুরু করতে অসমর্থ:\n%s"
 
 #: ../src/nautilus-autorun-software.c:148
 #, c-format
 msgid "Unable to locate the program"
-msgstr ""
+msgstr "প্রোগ্রাম চিহ্নিত করতে অসমর্থ "
 
 #: ../src/nautilus-autorun-software.c:170
 msgid "Oops! There was a problem running this software."
-msgstr ""
+msgstr "উপস! এই সফটওয়্যারে একটি সমস্যা হচ্ছে। "
 
 #: ../src/nautilus-autorun-software.c:200
 #, c-format
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr ""
+msgstr "“%s”-তে আপনা থেকে শুরু হয় এমন সফট্যায় আছে। আপনি কি এটা চালাতে চান? "
 
 #: ../src/nautilus-autorun-software.c:204
 msgid "If you don't trust this location or aren't sure, press Cancel."
-msgstr ""
+msgstr "আপনি যদি এই স্থানটিকে বিশ্বাস না করেন না নিশ্চিত না হন, বাতিলে চাপ দিন। "
 
 #: ../src/nautilus-autorun-software.c:235 ../src/nautilus-mime-actions.c:637
 msgid "_Run"
@@ -2768,32 +2768,32 @@ msgstr "ডেস্কটপ"
 #, c-format
 msgid ""
 "You do not have the permissions necessary to view the contents of “%s”."
-msgstr ""
+msgstr "“%s”-এর জিনিষ দেখবার জন্য আপনার প্রয়োজনীয় অনুমতি নেই "
 
 #: ../src/nautilus-error-reporting.c:71
 #, c-format
 msgid "“%s” could not be found. Perhaps it has recently been deleted."
-msgstr ""
+msgstr "“%s” পাওয়া যাচ্ছে না। হয়ত এটি সম্প্রতি মুছে ফেলা হয়েছে। "
 
 #: ../src/nautilus-error-reporting.c:75
 #, c-format
 msgid "Sorry, could not display all the contents of “%s”: %s"
-msgstr ""
+msgstr "দুঃখিত, “%s”: %s-এর সমস্ত জিনিষ প্রদর্শন করা যাচ্ছে না "
 
 #: ../src/nautilus-error-reporting.c:82
 msgid "This location could not be displayed."
-msgstr ""
+msgstr "এই স্থানটি প্রদর্শন করা যাবে না। "
 
 #: ../src/nautilus-error-reporting.c:106
 #, c-format
 msgid "You do not have the permissions necessary to change the group of “%s”."
-msgstr ""
+msgstr "“%s”-এর দল বদল করা জন্য আপনার প্রয়োজনীয় অনুমতি নেই । "
 
 #. fall through
 #: ../src/nautilus-error-reporting.c:119
 #, c-format
 msgid "Sorry, could not change the group of “%s”: %s"
-msgstr ""
+msgstr "দুঃখিত,  “%s”: %s  দল পরিবর্তন করা যাচ্ছে না "
 
 #: ../src/nautilus-error-reporting.c:124
 msgid "The group could not be changed."
@@ -2802,7 +2802,7 @@ msgstr "দল পরিবর্তন করতে ব্যর্থ।"
 #: ../src/nautilus-error-reporting.c:144
 #, c-format
 msgid "Sorry, could not change the owner of “%s”: %s"
-msgstr ""
+msgstr "দুঃখিত, “%s”: %s-এর মালিকানা পরিবর্তন করা যাচ্ছে না "
 
 #: ../src/nautilus-error-reporting.c:146
 msgid "The owner could not be changed."
@@ -2811,7 +2811,7 @@ msgstr "মালিকানা পরিবর্তন করতে ব্য
 #: ../src/nautilus-error-reporting.c:166
 #, c-format
 msgid "Sorry, could not change the permissions of “%s”: %s"
-msgstr ""
+msgstr "দুঃখিত, “%s”: %s-এর অনুমতি পরিবর্তন করা যাচ্ছে না "
 
 #: ../src/nautilus-error-reporting.c:168
 msgid "The permissions could not be changed."
@@ -2821,41 +2821,41 @@ msgstr "অনুমতি পরিবর্তন করতে ব্যর্
 #, c-format
 msgid ""
 "The name “%s” is already used in this location. Please use a different name."
-msgstr ""
+msgstr "“%s” নামটি আগেই এই স্থানে ব্যবহৃত হয়েছে। অনুগ্রহ করে অন্য নাম ব্যবহার করুন। "
 
 #: ../src/nautilus-error-reporting.c:208
 #, c-format
 msgid ""
 "There is no “%s” in this location. Perhaps it was just moved or deleted?"
-msgstr ""
+msgstr "এই স্থানে কোন “%s” নেই। হয়তো এখুনি সরানো বা মুছে ফেলা হয়েছে? "
 
 #: ../src/nautilus-error-reporting.c:213
 #, c-format
 msgid "You do not have the permissions necessary to rename “%s”."
-msgstr ""
+msgstr "“%s” -র নাম পরিবর্তন করবার জন্য আপনার প্রয়োজনীয় অনুমতি নেই। "
 
 #: ../src/nautilus-error-reporting.c:218
 #, c-format
 msgid ""
 "The name “%s” is not valid because it contains the character “/”. Please use"
 " a different name."
-msgstr ""
+msgstr "“%s” নামটি অকার্যকর কারণ এটিতে “/” চিহ্নটি আছে। অনুগ্রহ করে অন্য একটি নাম ব্যবহার করুন। "
 
 #: ../src/nautilus-error-reporting.c:222
 #, c-format
 msgid "The name “%s” is not valid. Please use a different name."
-msgstr ""
+msgstr "“%s” নামটি অকার্যকর। অনুগ্রহ করে অন্য একটি নাম ব্যবহার করুন। "
 
 #: ../src/nautilus-error-reporting.c:228
 #, c-format
 msgid "The name “%s” is too long. Please use a different name."
-msgstr ""
+msgstr "“%s” নামটি বেশি লম্বা। অনুগ্রহ করে অন্য একটি নাম ব্যবহার করুন। "
 
 #. fall through
 #: ../src/nautilus-error-reporting.c:242
 #, c-format
 msgid "Sorry, could not rename “%s” to “%s”: %s"
-msgstr ""
+msgstr "দুঃখিত, নামটি “%s” থেকে  “%s”: %s করা যাচ্ছে না "
 
 #: ../src/nautilus-error-reporting.c:250
 msgid "The item could not be renamed."
@@ -2864,17 +2864,17 @@ msgstr "চিহ্নিত বস্তুর নাম পরিবর্ত
 #: ../src/nautilus-error-reporting.c:347
 #, c-format
 msgid "Renaming “%s” to “%s”."
-msgstr ""
+msgstr "নাম বদলে “%s” থেকে  “%s” করা হচ্ছে।  "
 
 #: ../src/nautilus-files-view.c:378
 msgid "Searching…"
-msgstr ""
+msgstr "অনুসন্ধান করা হচ্ছে... "
 
 #: ../src/nautilus-files-view.c:378
 #: ../src/nautilus-image-properties-page.c:708
 #: ../src/nautilus-list-model.c:375 ../src/nautilus-window-slot.c:657
 msgid "Loading…"
-msgstr ""
+msgstr "লোড হচ্ছে... "
 
 #: ../src/nautilus-files-view.c:1046 ../src/nautilus-mime-actions.c:970
 #: ../src/nautilus-mime-actions.c:1712
@@ -2899,7 +2899,7 @@ msgstr[1] "এর ফলে %'d -টি পৃথক উইন্ডো খো�
 #: ../src/nautilus-mime-actions.c:979 ../src/nautilus-mime-actions.c:1153
 #: ../src/nautilus-mime-actions.c:1716
 msgid "_OK"
-msgstr ""
+msgstr "_ওকে "
 
 #: ../src/nautilus-files-view.c:1527
 msgid "Select Items Matching"
@@ -2907,7 +2907,7 @@ msgstr "সমতূল্য বস্তু নির্বাচন করু
 
 #: ../src/nautilus-files-view.c:1532 ../src/nautilus-files-view.c:5299
 msgid "_Select"
-msgstr ""
+msgstr "_নির্বাচন "
 
 #: ../src/nautilus-files-view.c:1540
 msgid "_Pattern:"
@@ -2919,62 +2919,62 @@ msgstr "উদাহরণ:"
 
 #: ../src/nautilus-files-view.c:1761
 msgid "A folder with that name already exists."
-msgstr ""
+msgstr "একই নামে একটি ফোল্ডার আগে থেকেই আছে। "
 
 #: ../src/nautilus-files-view.c:1763
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "একই নামে একটি ফাইল আগে থেকেই আছে। "
 
 #: ../src/nautilus-files-view.c:1778
 msgid "Folder names cannot contain “/”."
-msgstr ""
+msgstr "ফোল্ডারের নামে “/” থাকতে পারবে না। "
 
 #: ../src/nautilus-files-view.c:1780
 msgid "Files names cannot contain “/”."
-msgstr ""
+msgstr "ফাইলের নামে “/” থাকতে পারবে না। "
 
 #: ../src/nautilus-files-view.c:1783
 msgid "A folder can not be called “.”."
-msgstr ""
+msgstr "ফোল্ডারকে  “.” নামে ডাকা যাবে না। "
 
 #: ../src/nautilus-files-view.c:1785
 msgid "A file can not be called “.”."
-msgstr ""
+msgstr "কোন ফাইলকে  “.” ডাকা যাবে না। "
 
 #: ../src/nautilus-files-view.c:1788
 msgid "A folder can not be called “..”."
-msgstr ""
+msgstr "কোন ফোল্ডারকে  “.” ডাকা যাবে না। "
 
 #: ../src/nautilus-files-view.c:1790
 msgid "A file can not be called “..”."
-msgstr ""
+msgstr "কোন ফাইলকে  “.” ডাকা যাবে না। "
 
 #: ../src/nautilus-files-view.c:2024 ../src/nautilus-files-view.c:2092
 msgid "Folder name"
-msgstr ""
+msgstr "ফোল্ডার নাম "
 
 #: ../src/nautilus-files-view.c:2026
 msgid "File name"
-msgstr ""
+msgstr "ফাইল নাম "
 
 #: ../src/nautilus-files-view.c:2091
 msgid "Create"
-msgstr ""
+msgstr "তৈরি "
 
 #: ../src/nautilus-files-view.c:2093
 msgid "New Folder"
-msgstr ""
+msgstr "নতুন ফোল্ডার "
 
 #: ../src/nautilus-files-view.c:2534
 msgid ""
 "Nautilus 3.6 deprecated this directory and tried migrating this "
 "configuration to ~/.local/share/nautilus"
-msgstr ""
+msgstr "নটিলাস 3.6 এই গ্রন্থে ছোট হয়ে আছে এবং ~/.local/share/nautilus এই কনফিগারেশনে চলে যাবার চেষ্টা করছে  "
 
 #: ../src/nautilus-files-view.c:2962 ../src/nautilus-files-view.c:2997
 #, c-format
 msgid "“%s” selected"
-msgstr ""
+msgstr "“%s” নির্বাচিত  "
 
 #: ../src/nautilus-files-view.c:2964
 #, c-format
@@ -2987,8 +2987,8 @@ msgstr[1] "%'d-টি ফোল্ডার নির্বাচিত হয়�
 #, c-format
 msgid "(containing %'d item)"
 msgid_plural "(containing %'d items)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%'d আইটেম আছে)"
+msgstr[1] "(%'d আইটেমসমূহ আছে)"
 
 #. translators: this is preceded with a string of form 'N folders' (N more
 #. than 1)
@@ -2996,8 +2996,8 @@ msgstr[1] ""
 #, c-format
 msgid "(containing a total of %'d item)"
 msgid_plural "(containing a total of %'d items)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%'d- এর সমস্ত আইটেম আছে)"
+msgstr[1] "(%'d- এর সমস্ত আইটেমসমূহ আছে)"
 
 #: ../src/nautilus-files-view.c:3000
 #, c-format
@@ -3020,7 +3020,7 @@ msgstr[1] "অন্যান্য %'d-টি বস্তু নির্ব�
 #: ../src/nautilus-files-view.c:3021
 #, c-format
 msgid "(%s)"
-msgstr ""
+msgstr "(%s) "
 
 #. This is marked for translation in case a localizer
 #. * needs to change ", " to something else. The comma
@@ -3031,27 +3031,27 @@ msgstr ""
 #: ../src/nautilus-files-view.c:3045
 #, c-format
 msgid "%s %s, %s %s"
-msgstr ""
+msgstr "%s %s, %s %s "
 
 #: ../src/nautilus-files-view.c:5288
 msgid "Select Move Destination"
-msgstr ""
+msgstr "সরানোর গন্তব্য নির্বাচন করুন "
 
 #: ../src/nautilus-files-view.c:5290
 msgid "Select Copy Destination"
-msgstr ""
+msgstr "অনুলিপির গন্তব্য নির্বাচন করুন "
 
 #. Translators: %s is a file name formatted for display
 #: ../src/nautilus-files-view.c:5751
 #, c-format
 msgid "Unable to remove “%s”"
-msgstr ""
+msgstr "“%s” প্রত্যাহারে অসমর্থ "
 
 #. Translators: %s is a file name formatted for display
 #: ../src/nautilus-files-view.c:5778
 #, c-format
 msgid "Unable to eject “%s”"
-msgstr ""
+msgstr "“%s” খুলে ফেলতে অসমর্থ "
 
 #: ../src/nautilus-files-view.c:5800
 msgid "Unable to stop drive"
@@ -3061,14 +3061,14 @@ msgstr "ড্রাইভ থামাতে ব্যর্থ"
 #: ../src/nautilus-files-view.c:5905
 #, c-format
 msgid "Unable to start “%s”"
-msgstr ""
+msgstr "“%s” শুরু করতে অসমর্থ "
 
 #: ../src/nautilus-files-view.c:6648
 #, c-format
 msgid "New Folder with Selection (%'d Item)"
 msgid_plural "New Folder with Selection (%'d Items)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "নতুন ফোল্ডারের সাথে নির্বাচন (%'d আইটেম)"
+msgstr[1] "নতুন ফোল্ডারের সাথে নির্বাচন (%'d আইটেমসমূহ)"
 
 #: ../src/nautilus-files-view.c:6696
 #, c-format
@@ -3077,11 +3077,11 @@ msgstr "%s সহযোগে খুলুন"
 
 #: ../src/nautilus-files-view.c:6705
 msgid "Run"
-msgstr ""
+msgstr "চালানো "
 
 #: ../src/nautilus-files-view.c:6707
 msgid "Open"
-msgstr ""
+msgstr "খুলুন "
 
 #: ../src/nautilus-files-view.c:6758
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:19
@@ -3102,7 +3102,7 @@ msgstr "ড্রাইভ অনবরুদ্ধ করুন (_n)"
 
 #: ../src/nautilus-files-view.c:6783
 msgid "Stop Drive"
-msgstr ""
+msgstr "ড্রাইভ থামান "
 
 #: ../src/nautilus-files-view.c:6786
 msgid "_Safely Remove Drive"
@@ -3144,7 +3144,7 @@ msgstr "টেনে আনার সময় ভুল পদ্ধতি অব�
 #. Translator: This is the filename used for when you dnd text to a directory
 #: ../src/nautilus-files-view-dnd.c:385
 msgid "Dropped Text.txt"
-msgstr ""
+msgstr "অপসারিত Text.txt "
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
@@ -3154,33 +3154,33 @@ msgstr "ড্রপ করা ডাটা"
 
 #: ../src/nautilus-image-properties-page.c:331
 msgid "Image Type"
-msgstr ""
+msgstr "ছবির ধরন  "
 
 #: ../src/nautilus-image-properties-page.c:333
 #: ../src/nautilus-image-properties-page.c:339
 #, c-format
 msgid "%d pixel"
 msgid_plural "%d pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d পিক্সেল"
+msgstr[1] "%d পিক্সেলগুলো"
 
 #: ../src/nautilus-image-properties-page.c:337
 msgid "Width"
-msgstr ""
+msgstr "প্রস্থ "
 
 #: ../src/nautilus-image-properties-page.c:343
 msgid "Height"
-msgstr ""
+msgstr "উচ্চতা "
 
 #: ../src/nautilus-image-properties-page.c:356
 #: ../src/nautilus-image-properties-page.c:357
 msgid "Title"
-msgstr ""
+msgstr "শিরোনাম  "
 
 #: ../src/nautilus-image-properties-page.c:358
 #: ../src/nautilus-image-properties-page.c:359
 msgid "Author"
-msgstr ""
+msgstr "লেখক "
 
 #: ../src/nautilus-image-properties-page.c:362
 #: ../src/nautilus-image-properties-page.c:419
@@ -3189,25 +3189,25 @@ msgstr "স্বত্বাধিকার"
 
 #: ../src/nautilus-image-properties-page.c:363
 msgid "Created On"
-msgstr ""
+msgstr "তৈরি হয়েছিল "
 
 #: ../src/nautilus-image-properties-page.c:364
 msgid "Created By"
-msgstr ""
+msgstr "তৈরি করেছেন "
 
 #. Translators: this refers to a legal disclaimer string embedded in
 #. * the metadata of an image
 #: ../src/nautilus-image-properties-page.c:367
 msgid "Disclaimer"
-msgstr ""
+msgstr "অস্বীকারক "
 
 #: ../src/nautilus-image-properties-page.c:368
 msgid "Warning"
-msgstr ""
+msgstr "সতর্কবাণী "
 
 #: ../src/nautilus-image-properties-page.c:369
 msgid "Source"
-msgstr ""
+msgstr "উৎস "
 
 #: ../src/nautilus-image-properties-page.c:384
 msgid "Camera Brand"
@@ -3284,7 +3284,7 @@ msgstr "(ফাঁকা)"
 
 #: ../src/nautilus-list-view.c:1268
 msgid "Use Default"
-msgstr ""
+msgstr "মূল ব্যবহার করুন  "
 
 #: ../src/nautilus-list-view.c:1821
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:8
@@ -3317,11 +3317,11 @@ msgstr[1] "এর ফলে %d-টি পৃথক উইন্ডো খোল�
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
 msgid "Anything"
-msgstr ""
+msgstr "যে কোন কিছু  "
 
 #: ../src/nautilus-mime-actions.c:106 ../src/nautilus-properties-window.c:4200
 msgid "Folders"
-msgstr ""
+msgstr "ফোল্ডারসমূহ "
 
 #: ../src/nautilus-mime-actions.c:111
 msgid "Documents"
@@ -3337,7 +3337,7 @@ msgstr "সংগীত"
 
 #: ../src/nautilus-mime-actions.c:158
 msgid "PDF / PostScript"
-msgstr ""
+msgstr "পিডিএফ/পোস্টস্ক্রিপ্ট "
 
 #: ../src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -3350,21 +3350,21 @@ msgstr "টেক্সট ফাইল"
 #: ../src/nautilus-mime-actions.c:545
 #, c-format
 msgid "The link “%s” is broken. Move it to Trash?"
-msgstr ""
+msgstr "“%s” লিঙ্কটি ভাঙা। আবর্জনায় সরাবেন? "
 
 #: ../src/nautilus-mime-actions.c:547
 #, c-format
 msgid "The link “%s” is broken."
-msgstr ""
+msgstr "“%s” লিঙ্কটি ভাঙা। "
 
 #: ../src/nautilus-mime-actions.c:553
 msgid "This link cannot be used because it has no target."
-msgstr ""
+msgstr "এই লিঙ্কটি ব্যবহার করা যাবে না কেননা এটির কোন লক্ষ্য নেই।  "
 
 #: ../src/nautilus-mime-actions.c:555
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn't exist."
-msgstr ""
+msgstr "এই লিঙ্কটি ব্যবহার করা যাবে না কেননা এটির লক্ষ্য “%s” – অস্তিত্ব নেই। "
 
 #: ../src/nautilus-mime-actions.c:565
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:27
@@ -3374,12 +3374,12 @@ msgstr "আবর্জনার বাক্সে স্থানান্ত�
 #: ../src/nautilus-mime-actions.c:625
 #, c-format
 msgid "Do you want to run “%s”, or display its contents?"
-msgstr ""
+msgstr "আপনি কি “%s” চালাতে চান, বা এর বিষয়গুলো দেখাতে চান? "
 
 #: ../src/nautilus-mime-actions.c:627
 #, c-format
 msgid "“%s” is an executable text file."
-msgstr ""
+msgstr "“%s” সম্পন্নযোগ্য টেক্সট ফাইল। "
 
 #: ../src/nautilus-mime-actions.c:633
 msgid "Run in _Terminal"
@@ -3399,7 +3399,7 @@ msgstr[1] "এর ফলে %d-টি পৃথক ট্যাব খোলা 
 #: ../src/nautilus-mime-actions.c:1037
 #, c-format
 msgid "Could not display “%s”."
-msgstr ""
+msgstr "“%s” দেখানো যাচ্ছে না। "
 
 #: ../src/nautilus-mime-actions.c:1135
 msgid "The file is of an unknown type"
@@ -3408,7 +3408,7 @@ msgstr "অজানা ধরনের ফাইল"
 #: ../src/nautilus-mime-actions.c:1138
 #, c-format
 msgid "There is no application installed for “%s” files"
-msgstr ""
+msgstr "“%s” ফাইলের জন্য কোন অ্যাপ্লিকেশন ইন্সটল করা নেই  "
 
 #: ../src/nautilus-mime-actions.c:1151
 msgid "_Select Application"
@@ -3427,7 +3427,7 @@ msgstr "অ্যাপ্লিকেশন অনুসন্ধান কর�
 msgid ""
 "There is no application installed for “%s” files.\n"
 "Do you want to search for an application to open this file?"
-msgstr ""
+msgstr "There is no application installed for “%s” files. \nDo you want to search for an application to open this file? "
 
 #: ../src/nautilus-mime-actions.c:1462
 msgid "Untrusted application launcher"
@@ -3438,7 +3438,7 @@ msgstr "অ্যাপ্লিকেশন প্রারম্ভকার�
 msgid ""
 "The application launcher “%s” has not been marked as trusted. If you do not "
 "know the source of this file, launching it may be unsafe."
-msgstr ""
+msgstr "অ্যাপ্লিকেশন শুরু করার “%s” বিশ্বাসযোগ্য চিহ্নিত। আপনি যদি এই ফাইলের উৎস না জেনে থাকেন, তবে এটি শুরু করা সম্ভবত অনিরাপদ।  "
 
 #: ../src/nautilus-mime-actions.c:1480
 msgid "_Launch Anyway"
@@ -3460,7 +3460,7 @@ msgstr[1] "এর ফলে %d-টি পৃথক অ্যাপ্লিক�
 #: ../src/gtk/nautilusgtkplacesview.c:1162
 #: ../src/gtk/nautilusgtkplacesview.c:1235
 msgid "Unable to access location"
-msgstr ""
+msgstr "স্থানে প্রবেশ করতে অসমর্থ  "
 
 #: ../src/nautilus-mime-actions.c:2133
 msgid "Unable to start location"
@@ -3469,7 +3469,7 @@ msgstr "অবস্থান আরম্ভ করতে ব্যর্থ"
 #: ../src/nautilus-mime-actions.c:2217
 #, c-format
 msgid "Opening “%s”."
-msgstr ""
+msgstr "“%s” খোলা হচ্ছে। "
 
 #: ../src/nautilus-mime-actions.c:2220
 #, c-format
@@ -3516,7 +3516,7 @@ msgstr "একই সময়ে একাধিক স্বনির্ধার
 
 #: ../src/nautilus-properties-window.c:493
 msgid "Please drop just one image to set a custom icon."
-msgstr ""
+msgstr "অনুগ্রহ করে শুধু একটি ছবি ছাড়ুন কাস্টম আইকনের জন্য। "
 
 #: ../src/nautilus-properties-window.c:504
 msgid "The file that you dropped is not local."
@@ -3547,14 +3547,14 @@ msgstr "বিবিধ বৈশিষ্ট্য"
 #, c-format
 msgctxt "folder"
 msgid "%s Properties"
-msgstr ""
+msgstr "“%s” বিষয়াদি  "
 
 #. To translators: %s is the name of the file.
 #: ../src/nautilus-properties-window.c:833
 #, c-format
 msgctxt "file"
 msgid "%s Properties"
-msgstr ""
+msgstr "%s বিষয়াদি "
 
 #: ../src/nautilus-properties-window.c:1227
 #, c-format
@@ -3626,7 +3626,7 @@ msgstr "লিংক দ্বারা চিহ্নিত বস্তু:"
 
 #: ../src/nautilus-properties-window.c:3006
 msgid "Parent Folder:"
-msgstr ""
+msgstr "উৎস ফোল্ডার: "
 
 #: ../src/nautilus-properties-window.c:3014
 msgid "Volume:"
@@ -3736,11 +3736,11 @@ msgstr "প্রোগ্রাম রূপে ফাইল সঞ্চাল
 
 #: ../src/nautilus-properties-window.c:4186
 msgid "Change Permissions for Enclosed Files"
-msgstr ""
+msgstr "সংযুক্ত ফাইলের অনুমতি পরিবর্তন "
 
 #: ../src/nautilus-properties-window.c:4190
 msgid "Change"
-msgstr ""
+msgstr "পরিবর্তন "
 
 #: ../src/nautilus-properties-window.c:4231
 msgid "Others:"
@@ -3752,16 +3752,16 @@ msgstr "আপনার মালিকানাধীন না হওয়ার
 
 #: ../src/nautilus-properties-window.c:4287
 msgid "Security context:"
-msgstr ""
+msgstr "নিরাপত্তার অবস্থা: "
 
 #: ../src/nautilus-properties-window.c:4302
 msgid "Change Permissions for Enclosed Files…"
-msgstr ""
+msgstr "সংযুক্ত ফাইলের অনুমতি পরিবর্তন.. "
 
 #: ../src/nautilus-properties-window.c:4312
 #, c-format
 msgid "The permissions of “%s” could not be determined."
-msgstr ""
+msgstr "“%s”-এর অনুমতিগুলো ঠিক করা যায়নি। "
 
 #: ../src/nautilus-properties-window.c:4315
 msgid "The permissions of the selected file could not be determined."
@@ -3781,7 +3781,7 @@ msgstr "স্বনির্বাচিত আইকন বেছে নিন
 
 #: ../src/nautilus-properties-window.c:5180
 msgid "_Revert"
-msgstr ""
+msgstr "_প্রত্যাবর্তন "
 
 #. Open item is always present
 #: ../src/nautilus-properties-window.c:5182
@@ -3791,42 +3791,42 @@ msgstr "খুলুন (_O)"
 
 #: ../src/nautilus-query-editor.c:122
 msgid "Searching locations only"
-msgstr ""
+msgstr "শুধু স্থান খুঁজছে "
 
 #: ../src/nautilus-query-editor.c:124
 msgid "Searching devices only"
-msgstr ""
+msgstr "শুধু ডিভাইস খুঁজছে "
 
 #: ../src/nautilus-query-editor.c:126
 msgid "Searching network locations only"
-msgstr ""
+msgstr "শুধু নেটওয়ার্ক স্থান খুঁজছে "
 
 #: ../src/nautilus-query-editor.c:129
 msgid "Remote location - only searching the current folder"
-msgstr ""
+msgstr "দূরবর্তী স্থান- শুধু চলতি ফোল্ডার খুঁজছে  "
 
 #: ../src/nautilus-query-editor.c:131
 msgid "Only searching the current folder"
-msgstr ""
+msgstr "শুধু চলতি ফোল্ডার খুঁজছে "
 
 #: ../src/nautilus-search-popover.c:284
 msgid "Show a list to select the date"
-msgstr ""
+msgstr "তারিখ নির্বাচন করবার জন্য একটি তালিকা দেখান "
 
 #: ../src/nautilus-search-popover.c:290
 #: ../src/resources/ui/nautilus-search-popover.ui.h:5
 msgid "Show a calendar to select the date"
-msgstr ""
+msgstr "তারিখ নির্বাচন করবার জন্য একটি দিনপঞ্জী দেখান "
 
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
 msgid "Any time"
-msgstr ""
+msgstr "যে কোন সময় "
 
 #. Other types
 #: ../src/nautilus-search-popover.c:476
 msgid "Other Type…"
-msgstr ""
+msgstr "অন্য ধরনের... "
 
 #: ../src/nautilus-search-popover.c:536
 msgid "Select type"
@@ -3834,12 +3834,12 @@ msgstr "ধরন নির্বাচন করুন"
 
 #: ../src/nautilus-search-popover.c:540
 msgid "Select"
-msgstr ""
+msgstr "নির্বাচন "
 
 #: ../src/nautilus-search-popover.c:625
 #: ../src/resources/ui/nautilus-search-popover.ui.h:3
 msgid "Select Dates…"
-msgstr ""
+msgstr "তারিখ নির্বাচন...  "
 
 #. trash
 #: ../src/nautilus-shell-search-provider.c:297 ../src/nautilus-trash-bar.c:198
@@ -3849,11 +3849,11 @@ msgstr "আবর্জনার বাক্স"
 
 #: ../src/nautilus-special-location-bar.c:51
 msgid "Files in this folder will appear in the New Document menu."
-msgstr ""
+msgstr "এই ফোল্ডারের ফাইলগুলো নতুন ডকুমেন্ট তালিকায় দেখা যাবে। "
 
 #: ../src/nautilus-special-location-bar.c:54
 msgid "Executable files in this folder will appear in the Scripts menu."
-msgstr ""
+msgstr "এই ফোল্ডারের সম্পন্নযোগ্য ফাইলগুলো স্ক্রিপ্ট তালিকায় দেখা যাবে। "
 
 #: ../src/nautilus-trash-bar.c:206
 msgid "_Restore"
@@ -3866,7 +3866,7 @@ msgstr "নির্বাচিতআইটেম মূল অবস্থা�
 #. Translators: "Empty" is an action (for the trash) , not a state
 #: ../src/nautilus-trash-bar.c:213
 msgid "_Empty"
-msgstr ""
+msgstr "_খালি  "
 
 #: ../src/nautilus-trash-bar.c:216
 msgid "Delete all items in the Trash"
@@ -3878,13 +3878,13 @@ msgstr "বৈশিষ্ট্য (_P)"
 
 #: ../src/nautilus-window.c:1328
 msgid "_Format…"
-msgstr ""
+msgstr "_ফর্ম্যাট... "
 
 #. Translators: only one item has been deleted and %s is its name.
 #: ../src/nautilus-window.c:1584
 #, c-format
 msgid "“%s” deleted"
-msgstr ""
+msgstr "“%s” মুছে দেয়া হয়েছে "
 
 #. Translators: one or more items might have been deleted, and %d
 #. * is the count.
@@ -3892,8 +3892,8 @@ msgstr ""
 #, c-format
 msgid "%d file deleted"
 msgid_plural "%d files deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ফাইল মুছে দেয়া হয়েছে"
+msgstr[1] "%d ফাইলগুলো মুছে দেয়া হয়েছে"
 
 #: ../src/nautilus-window.c:1691
 #, c-format
@@ -3918,7 +3918,7 @@ msgstr "ট্যাব বন্ধ করুন (_C)"
 
 #: ../src/nautilus-window.c:2728
 msgid "Access and organize your files."
-msgstr ""
+msgstr "ঢুকুন ও আপনার ফাইলগুলো গোছান "
 
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
@@ -3929,33 +3929,33 @@ msgstr "অঙ্কুর প্রকল্পের পক্ষে, প্�
 
 #: ../src/nautilus-window-slot.c:1148
 msgid "Unable to display the contents of this folder."
-msgstr ""
+msgstr "এই ফোল্ডারের বিষয় প্রদর্শনে অসমর্থ।  "
 
 #: ../src/nautilus-window-slot.c:1150
 msgid "This location doesn't appear to be a folder."
-msgstr ""
+msgstr "স্থানটি ফোল্ডারের মত দেখাচ্ছে না। "
 
 #: ../src/nautilus-window-slot.c:1155
 msgid ""
 "Unable to find the requested file. Please check the spelling and try again."
-msgstr ""
+msgstr "অনুরোধকৃত ফাইলটি খুঁজতে অসমর্থ। অনুগ্রহ করে বানান দেখুন এবং আবার চেষ্টা করুন।  "
 
 #: ../src/nautilus-window-slot.c:1160
 #, c-format
 msgid "“%s” locations are not supported."
-msgstr ""
+msgstr "“%s” স্থানগুলো সমর্থিত নয়।  "
 
 #: ../src/nautilus-window-slot.c:1163
 msgid "Unable to handle this kind of location."
-msgstr ""
+msgstr "এধরনের স্থান সামলাতে অসমর্থ।  "
 
 #: ../src/nautilus-window-slot.c:1168
 msgid "Unable to access the requested location."
-msgstr ""
+msgstr "অনুরোধকৃত স্থানে প্রবেশ করতে অসমর্থ। "
 
 #: ../src/nautilus-window-slot.c:1171
 msgid "Don't have permission to access the requested location."
-msgstr ""
+msgstr "অনুরোধকৃত স্থানে প্রবেশ করার অনুমতি নেই। "
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -3965,291 +3965,291 @@ msgstr ""
 msgid ""
 "Unable to find the requested location. Please check the spelling or the "
 "network settings."
-msgstr ""
+msgstr "অনুরোধকৃত স্থান খুঁজে পেতে অসমর্থ। অনুগ্রহ করে বানান দেখুন বা নেটওয়ার্ক সেটিংস।  "
 
 #: ../src/nautilus-window-slot.c:1190
 #, c-format
 msgid "Unhandled error message: %s"
-msgstr ""
+msgstr "সমস্যার বার্তা সামলানো নেই :%s  "
 
 #: ../src/nautilus-window-slot.c:1338
 #, c-format
 msgid "Unable to load location"
-msgstr ""
+msgstr "স্থান লোড করতে অসমর্থ  "
 
 #: ../src/nautilus-x-content-bar.c:124
 msgid "Open with:"
-msgstr ""
+msgstr "দিয়ে খুলুন: "
 
 #: ../src/resources/gtk/help-overlay.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "সাধারণ "
 
 #: ../src/resources/gtk/help-overlay.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "নতুন উইন্ডো "
 
 #: ../src/resources/gtk/help-overlay.ui.h:3
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr ""
+msgstr "উইন্ডো বা ট্যাব বন্ধ করুন "
 
 #: ../src/resources/gtk/help-overlay.ui.h:4
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "অনুসন্ধান করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:5
 msgctxt "shortcut window"
 msgid "Bookmarks"
-msgstr ""
+msgstr "বুকমার্কগুলো  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:6
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr ""
+msgstr "বর্তমান স্থানটি বুকমার্ক করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:7
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "সাহায্য দেখান "
 
 #: ../src/resources/gtk/help-overlay.ui.h:8
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "শর্টকাট  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:9
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr ""
+msgstr "খোলা হচ্ছে "
 
 #: ../src/resources/gtk/help-overlay.ui.h:10
 msgctxt "shortcut window"
 msgid "Open"
-msgstr ""
+msgstr "খোলা "
 
 #: ../src/resources/gtk/help-overlay.ui.h:11
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr ""
+msgstr "নতুন ট্যাবে খুলুন "
 
 #: ../src/resources/gtk/help-overlay.ui.h:12
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr ""
+msgstr "নতুন উইন্ডোতে খুলুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:13
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr ""
+msgstr "আইটেমের স্থান খুলুন (শুধু অনুসন্ধান ও সাম্প্রতিক)  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:14
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr ""
+msgstr "ফাইল খুলুন ও উইন্ডো বন্ধ করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:15
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr ""
+msgstr "মূল অ্যাপ্লিকেশন দিয়ে খুলুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:16
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr ""
+msgstr "ট্যাবগুলো  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:17
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "নতুন ট্যাব  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:18
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr ""
+msgstr "আগের ট্যাবে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:19
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr ""
+msgstr "পরের ট্যাবে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:20
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr ""
+msgstr "ট্যাব খুলুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:21
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr ""
+msgstr "ট্যাব বামদিকে সরান "
 
 #: ../src/resources/gtk/help-overlay.ui.h:22
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr ""
+msgstr "ট্যাব ডানদিকে সরান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:23
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "ঘুরে দেখা  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:24
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "পেছনে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:25
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr ""
+msgstr "সামনে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:26
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "ওপরে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:27
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "নিচে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:28
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr ""
+msgstr "নীড় ফোল্ডারে যান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:29
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "স্থান বসান   "
 
 #: ../src/resources/gtk/help-overlay.ui.h:30
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "উৎস স্থান সহ স্থান বার  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:31
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "নীড় স্থান সহ স্থান বার  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:32
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "দেখা "
 
 #: ../src/resources/gtk/help-overlay.ui.h:33
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "কাছে নিন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:34
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "দূরে নিন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:35
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "কাছে দূরে ঠিক করুন   "
 
 #: ../src/resources/gtk/help-overlay.ui.h:36
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "দেখা সতেজ করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:37
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr ""
+msgstr "দেখান/লুকান গোপন ফাইলগুলো  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:38
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "দেখান/লুকান পাশেরবার  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:39
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "দেখান/লুকান কাজের তালিকা  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:40
 msgctxt "shortcut window"
 msgid "List view"
-msgstr ""
+msgstr "তালিকাবদ্ধভাবে দেখা  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:41
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr ""
+msgstr "পাশাপাশি দেখা  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:42
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr ""
+msgstr "সম্পাদনা "
 
 #: ../src/resources/gtk/help-overlay.ui.h:43
 msgctxt "shortcut window"
 msgid "Create folder"
-msgstr ""
+msgstr "ফোল্ডার তৈরি করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:44
 msgctxt "shortcut window"
 msgid "Rename"
-msgstr ""
+msgstr "নতুন নাম দিন "
 
 #: ../src/resources/gtk/help-overlay.ui.h:45
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr ""
+msgstr "আবর্জনায় সরান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:46
 msgctxt "shortcut window"
 msgid "Delete permanently"
-msgstr ""
+msgstr "চিরকালের জন্য মুছুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:47
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "অনুলিপি "
 
 #: ../src/resources/gtk/help-overlay.ui.h:48
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "পেস্ট "
 
 #: ../src/resources/gtk/help-overlay.ui.h:49
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr ""
+msgstr "সব নির্বাচন করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:50
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr ""
+msgstr "নির্বাচন ওল্টান  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:51
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr ""
+msgstr "একরকম আইটেম নির্বাচন করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:52
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr ""
+msgstr "পূর্বাবস্থায় আনুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:53
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "আবার করুন  "
 
 #: ../src/resources/gtk/help-overlay.ui.h:54
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr ""
+msgstr "আইটেমের বিষয়াদী দেখান  "
 
 #: ../src/resources/gtk/menus.ui.h:1
 msgid "New _Window"
@@ -4265,7 +4265,7 @@ msgstr "পছন্দ (_n)"
 
 #: ../src/resources/gtk/menus.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_কীবোর্ড শর্টকাট  "
 
 #: ../src/resources/gtk/menus.ui.h:5
 msgid "_Help"
@@ -4277,24 +4277,24 @@ msgstr "পরিচিতি (_A)"
 
 #: ../src/resources/gtk/menus.ui.h:7
 msgid "_Quit"
-msgstr ""
+msgstr "_বের হন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:1
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:1
 msgid "New _Folder"
-msgstr ""
+msgstr "নতুন _ফোল্ডার  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:2
 msgid "New _Document"
-msgstr ""
+msgstr "নতুন _ডকুমেন্ট  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:3
 msgid "_Paste"
-msgstr ""
+msgstr "_Paste  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:4
 msgid "Create _Link"
-msgstr ""
+msgstr "লিঙ্ক _তৈরি করুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:5
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:3
@@ -4304,19 +4304,19 @@ msgstr "সব নির্বাচন (_A)"
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:6
 #: ../src/resources/ui/nautilus-pathbar-context-menu.ui.h:3
 msgid "P_roperties"
-msgstr ""
+msgstr "বি _ষয়াদী  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:7
 msgid "_Keep aligned"
-msgstr ""
+msgstr "_এক লাইনে রাখুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:8
 msgid "Organize _Desktop by Name"
-msgstr ""
+msgstr "নামানুসারে _ডেস্কটপ গোছান  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:9
 msgid "Change _Background"
-msgstr ""
+msgstr "পেছন _পরিবর্তন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:10
 msgid "_Scripts"
@@ -4328,21 +4328,21 @@ msgstr "স্ক্রিপ্ট ধারণকারী ফোল্ডা�
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:12
 msgid "_Open Item Location"
-msgstr ""
+msgstr "_আইটেমের স্থান খুলুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:13
 #: ../src/resources/ui/nautilus-pathbar-context-menu.ui.h:1
 msgid "Open In New _Tab"
-msgstr ""
+msgstr "নতুন _ট্যাবে খুলুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:14
 #: ../src/resources/ui/nautilus-pathbar-context-menu.ui.h:2
 msgid "Open In New _Window"
-msgstr ""
+msgstr "নতুন _উইন্ডোতে খুলুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:15
 msgid "Open With Other _Application"
-msgstr ""
+msgstr "অন্য _অ্যাপ্লিকেশন দিয়ে খুলুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:16
 #: ../src/gtk/nautilusgtkplacesview.c:1632
@@ -4368,11 +4368,11 @@ msgstr "মিডিয়া সনাক্ত করুন (_D)"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:22
 msgid "Cu_t"
-msgstr ""
+msgstr "কা_টুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:23
 msgid "_Copy"
-msgstr ""
+msgstr "_অনুলিপি  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:24
 msgid "_Paste Into Folder"
@@ -4380,15 +4380,15 @@ msgstr "ফোল্ডারের মধ্যে প্রতিলেপন 
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:25
 msgid "Move to…"
-msgstr ""
+msgstr "ওখানে সরান...  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:26
 msgid "Copy to…"
-msgstr ""
+msgstr "ওখানে অনুলিপি করুন... "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:28
 msgid "_Delete from Trash"
-msgstr ""
+msgstr "_আবর্জনা থেকে মুছুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:29
 msgid "_Delete Permanently"
@@ -4400,54 +4400,54 @@ msgstr "আবর্জনার বাক্স ফাঁকা করুন"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:31
 msgid "_Restore From Trash"
-msgstr ""
+msgstr "_ আবর্জনা থেকে পুনঃস্থাপন করুন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:32
 msgid "Resize Icon…"
-msgstr ""
+msgstr "আইকনের আকার ঠিক করুন...  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:33
 msgid "Restore Icon's Original Size"
-msgstr ""
+msgstr "আইকনের প্রকৃত আকার ফেরান  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:34
 msgid "Rena_me"
-msgstr ""
+msgstr "নতুন_নাম দিন  "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:35
 msgid "Set As Wallpaper"
-msgstr ""
+msgstr "ওয়ালপেপার হিসেবে রাখুন "
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:36
 msgid "_Remove from Recent"
-msgstr ""
+msgstr "_সাম্প্রতিক থেকে সরান "
 
 #: ../src/resources/ui/nautilus-folder-is-empty.ui.h:1
 msgid "Folder is Empty"
-msgstr ""
+msgstr "ফোল্ডার খালি  "
 
 #: ../src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui.h:1
 msgid "Delete Shortcuts Have Changed"
-msgstr ""
+msgstr "মুছে ফেলা শর্টকাট বদল হয়েছে  "
 
 #: ../src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui.h:2
 msgid ""
 "With the latest version of Files, you no longer need to hold Ctrl to delete "
 "— the Delete key will work when pressed on its own."
-msgstr ""
+msgstr "ফাইলের নতুন সংস্করণে আপনাকে মুছতে হলে আর Ctrl ধরে রাখতে হবে না —মুছুন বোতাম কাজ করবে তা চেপে ধরলে। "
 
 #: ../src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui.h:3
 msgid "Got it"
-msgstr ""
+msgstr "বুঝেছি  "
 
 #: ../src/resources/ui/nautilus-no-search-results.ui.h:1
 msgid "No Results Found"
-msgstr ""
+msgstr "কোন ফলাফল পাওয়া যায়নি  "
 
 #: ../src/resources/ui/nautilus-no-search-results.ui.h:2
 #: ../src/gtk/nautilusgtkplacesview.ui.h:5
 msgid "Try a different search"
-msgstr ""
+msgstr "অন্যরকম অনুসন্ধান চেষ্টা করুন  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:1
 msgid "Always"
@@ -4463,15 +4463,15 @@ msgstr "কখনো না"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:4
 msgid "Small"
-msgstr ""
+msgstr "ছোট "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:5
 msgid "Standard"
-msgstr ""
+msgstr "সাধারণ  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:6
 msgid "Large"
-msgstr ""
+msgstr "বড়  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:9
 msgid "By Name"
@@ -4539,12 +4539,12 @@ msgstr "৪ গিগাবাইট"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:25
 msgid "Preferences"
-msgstr ""
+msgstr "পছন্দ  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:26
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:1
 msgid "Sort"
-msgstr ""
+msgstr "বাছাই  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:27
 msgid "Sort _folders before files"
@@ -4552,32 +4552,32 @@ msgstr "ক্রমবিন্যাসে ফাইলের পূর্ব�
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:28
 msgid "Allow folders to be _expanded"
-msgstr ""
+msgstr "ফোল্ডারগুলোকে _বাড়তে দিন "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:29
 msgid "Icon View Captions"
-msgstr ""
+msgstr "আইকন দেখার শিরোনাম  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:30
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr ""
+msgstr "ফাইল ও ফোল্ডার নামের পেছনে দেখার জন্য তথ্য যোগ করুন। \nকাছে নিলে আরও তথ্য সামনে আসবে। "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr ""
+msgstr "দ্বিতীয়  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr ""
+msgstr "তৃতীয় "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr ""
+msgstr "প্রথম "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:35
 msgid "Views"
@@ -4585,7 +4585,7 @@ msgstr "প্রদর্শন বিন্যাস"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:36
 msgid "Open Action"
-msgstr ""
+msgstr "কাজ খুলুন  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
@@ -4597,35 +4597,35 @@ msgstr "আরম্ভ করার জন্য দুইবার ক্ল�
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
-msgstr ""
+msgstr "লিঙ্ক তৈরিকরণ  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr ""
+msgstr "সাঙ্কেতিক _লিঙ্ক তৈরির কাজ দেখান  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
-msgstr ""
+msgstr "প্রয়োগযোগ্য টেক্সট ফাইলসমূহ  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:42
 msgid "_Display them"
-msgstr ""
+msgstr "_তাদের প্রদর্শন করুন  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:43
 msgid "_Run them"
-msgstr ""
+msgstr "_তাদের চালান  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:44
 msgid "_Ask what to do"
-msgstr ""
+msgstr "_কি করবেন জিজ্ঞেস করুন  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:46
 msgid "Ask before _emptying the Trash"
-msgstr ""
+msgstr "আবর্জনা _খালি করার আগে জিজ্ঞেস করুন  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:47
 msgid "Show action to _permanently delete files and folders"
-msgstr ""
+msgstr "_চিরকালের মত ফাইল ও ফোল্ডার মোছা দেখান  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:48
 msgid "Behavior"
@@ -4641,119 +4641,119 @@ msgstr "কলামের তালিকা"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:52
 msgid "Search in subfolders:"
-msgstr ""
+msgstr "উপফোল্ডারে খুঁজুন:  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:53
 msgid "_On this computer only"
-msgstr ""
+msgstr "_শুধু এই কম্পিউটারেই  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:54
 msgid "_All locations"
-msgstr ""
+msgstr "_সব স্থানসমূহ  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:55
 msgid "_Never"
-msgstr ""
+msgstr "_কখনো নয়  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:56
 msgid "Thumbnails"
-msgstr ""
+msgstr "থাম্বনেলগুলো  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:57
 msgid "Show thumbnails:"
-msgstr ""
+msgstr "থাম্বনেল দেখান:  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr ""
+msgstr "_শুধু এই কম্পিউটারের ফাইলগুলো  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
-msgstr ""
+msgstr "স_ব ফাইলগুলো "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:60
 msgid "N_ever"
-msgstr ""
+msgstr "ক_খনো নয়  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:61
 msgid "Onl_y for files smaller than:"
-msgstr ""
+msgstr "শু_ধু চাইতে ছোট ফাইলগুলো:  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:62
 msgid "File count"
-msgstr ""
+msgstr "ফাইল গোণা  "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:63
 msgid "Count number of files in folders:"
-msgstr ""
+msgstr "ফোল্ডারে ফাইলের সংখ্যা গোণা: "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:64
 msgid "F_olders in this computer only"
-msgstr ""
+msgstr "_শুধু এই কম্পিউটারের ফো_ল্ডারগুলো "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:65
 msgid "All folder_s"
-msgstr ""
+msgstr "সব ফো_ল্ডারগুলো "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:66
 msgid "Ne_ver"
-msgstr ""
+msgstr "কখ_নো নয় "
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:67
 msgid "Search & Preview"
-msgstr ""
+msgstr "অনুসন্ধান ও পূর্বদর্শন  "
 
 #: ../src/resources/ui/nautilus-rename-file-popover.ui.h:2
 msgid "_Rename"
-msgstr ""
+msgstr "_নতুন নামকরণ  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:1
 msgid "When"
-msgstr ""
+msgstr "কখন  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:2
 msgid "Select a date"
-msgstr ""
+msgstr "তারিখ নির্বাচন করুন  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr ""
+msgstr "Clear the currently selected date  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
-msgstr ""
+msgstr "থেকে...  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:7
 msgid "Last _modified"
-msgstr ""
+msgstr "শেষ _পরিবর্তিত  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:8
 msgid "Last _used"
-msgstr ""
+msgstr "শেষ_ব্যবহৃত  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:9
 msgid "What"
-msgstr ""
+msgstr "কী  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:10
 msgid "Which file types will be searched"
-msgstr ""
+msgstr "কোন ধরনের ফাইল অনুসন্ধান করা হবে  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:13
 msgid "Full Text"
-msgstr ""
+msgstr "সম্পূর্ণ টেক্সট  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:14
 msgid "Search on the file content and name"
-msgstr ""
+msgstr "ফাইলের বিষয় ও নামে অনুসন্ধান করুন  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:15
 msgid "File Name"
-msgstr ""
+msgstr "ফাইল নাম  "
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:16
 msgid "Search only on the file name"
-msgstr ""
+msgstr "শুধু ফাইল নাম খুঁজুন  "
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:2
 msgid "New _Tab"
@@ -4761,73 +4761,73 @@ msgstr "নতুন ট্যাব (_T)"
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:4
 msgid "Enter _Location"
-msgstr ""
+msgstr "_স্থানের নাম বসান  "
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:5
 msgid "_Bookmark this Location"
-msgstr ""
+msgstr "স্থানটি _বুকমার্ক করুন  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:1
 msgid "Action menu"
-msgstr ""
+msgstr "কাজের তালিকা  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:2
 msgid "Open action menu"
-msgstr ""
+msgstr "কাজের তালিকা খুলুন  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:3
 msgid "View menu"
-msgstr ""
+msgstr "দেখার তালিকা  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:4
 msgid "Open view menu"
-msgstr ""
+msgstr "দেখার তালিকা খুলুন  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:6
 msgid "Search files"
-msgstr ""
+msgstr "ফাইল খুঁজুন  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:7
 msgid "Operations in progress"
-msgstr ""
+msgstr "কাজ চলছে  "
 
 #: ../src/resources/ui/nautilus-toolbar.ui.h:8
 msgid "Open operations in progress"
-msgstr ""
+msgstr "চলতি কাজ খুলুন  "
 
 #. This is used to sort by name in the toolbar view menu
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:3
 msgctxt "Sort Criterion"
 msgid "_Name"
-msgstr ""
+msgstr "_নাম  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:4
 msgid "_Size"
-msgstr ""
+msgstr "_আকার  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:5
 msgid "_Type"
-msgstr ""
+msgstr "_ধরন  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:6
 msgid "Last _Modified"
-msgstr ""
+msgstr "শেষ_পরিবর্তিত  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:7
 msgid "Last _Trashed"
-msgstr ""
+msgstr "শেষ_আবর্জনায় ফেলা  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:8
 msgid "Search _Relevance"
-msgstr ""
+msgstr "সামঞ্জস্যতা_অনুসন্ধান  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:9
 msgid "Re_verse Order"
-msgstr ""
+msgstr "উ_ল্টো দিকে সাজান  "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:10
 msgid "_Visible Columns…"
-msgstr ""
+msgstr "_দেখা যাওয়া কলামগুলো... "
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:11
 msgid "Show _Hidden Files"
@@ -4839,19 +4839,19 @@ msgstr "পুনরায় লোড করুন (_R)"
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:13
 msgid "St_op"
-msgstr ""
+msgstr "থা_মুন  "
 
 #: ../src/resources/ui/nautilus-window.ui.h:1
 msgid "_Files"
-msgstr ""
+msgstr "_ফাইলগুলো  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:880
 msgid "Searching for network locations"
-msgstr ""
+msgstr "নেটওয়ার্ক স্থান খোঁজা  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:887
 msgid "No network locations found"
-msgstr ""
+msgstr "কোন নেটওয়ার্ক স্থান পাওয়া যায়নি  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:1052
 msgid "Computer"
@@ -4861,17 +4861,17 @@ msgstr "কম্পিউটার"
 #: ../src/gtk/nautilusgtkplacesview.c:1179
 #: ../src/gtk/nautilusgtkplacesview.ui.h:7
 msgid "Con_nect"
-msgstr ""
+msgstr "সং_যোগ  "
 
 #. if it wasn't cancelled show a dialog
 #: ../src/gtk/nautilusgtkplacesview.c:1298
 msgid "Unable to unmount volume"
-msgstr ""
+msgstr "আনমাউন্ট ভল্যুম করতে অসমর্থ "
 
 #. Allow to cancel the operation
 #: ../src/gtk/nautilusgtkplacesview.c:1380
 msgid "Cance_l"
-msgstr ""
+msgstr "বা_তিল  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:1587
 msgid "Open in New _Tab"
@@ -4883,17 +4883,17 @@ msgstr "নতুন উইন্ডোর মধ্যে আরম্ভ ক�
 
 #: ../src/gtk/nautilusgtkplacesview.c:1797
 msgid "Unable to get remote server location"
-msgstr ""
+msgstr "দূরবর্তী সার্ভার স্থান পেতে অসমর্থ  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:1934
 #: ../src/gtk/nautilusgtkplacesview.c:1943
 msgid "Networks"
-msgstr ""
+msgstr "নেটওয়ার্কগুলো  "
 
 #: ../src/gtk/nautilusgtkplacesview.c:1934
 #: ../src/gtk/nautilusgtkplacesview.c:1943
 msgid "On This Computer"
-msgstr ""
+msgstr "এই কম্পিউটারে  "
 
 #. Translators: respectively, free and total space of the drive. The plural
 #. form
@@ -4903,35 +4903,35 @@ msgstr ""
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s পাওয়া যাবে "
+msgstr[1] "%s / %s পাওয়া যাবে "
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
-msgstr ""
+msgstr "সংযোগ বিচ্ছিন্ন  "
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 #: ../src/gtk/nautilusgtkplacesviewrow.ui.h:1
 msgid "Unmount"
-msgstr ""
+msgstr "আনমাউন্ট "
 
 #. Translators: Server as any successfully connected network address
 #: ../src/gtk/nautilusgtkplacesview.ui.h:2
 msgid "No recent servers found"
-msgstr ""
+msgstr "কোন সাম্প্রতিক সার্ভারসমূহ পাওয়া যায়নি  "
 
 #: ../src/gtk/nautilusgtkplacesview.ui.h:3
 msgid "Recent Servers"
-msgstr ""
+msgstr "সাম্প্রতিক সার্ভারসমূহ "
 
 #: ../src/gtk/nautilusgtkplacesview.ui.h:4
 msgid "No results found"
-msgstr ""
+msgstr "কোন ফলাফল পাওয়া যায়নি  "
 
 #: ../src/gtk/nautilusgtkplacesview.ui.h:6
 msgid "Connect to _Server"
-msgstr ""
+msgstr "সার্ভারের_সাথে সংযোগ করুন  "
 
 #: ../src/gtk/nautilusgtkplacesview.ui.h:8
 msgid "Enter server address…"
-msgstr ""
+msgstr "সার্ভার ঠিকানা বসান...   "
