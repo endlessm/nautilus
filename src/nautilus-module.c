@@ -260,6 +260,7 @@ nautilus_module_setup (void)
         initialized = TRUE;
 
         load_module_dir (NAUTILUS_EXTENSIONDIR);
+        load_module_dir ("/usr/lib/nautilus/extensions-3.0");
 
         eel_debug_call_at_shutdown (free_module_objects);
     }
