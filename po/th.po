@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-02 05:37+0000\n"
-"PO-Revision-Date: 2016-07-16 02:06+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:54+0000\n"
+"PO-Revision-Date: 2016-10-04 23:49+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/nautilus/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -363,7 +363,7 @@ msgstr "ขนาดไอคอนภาพย่อโดยปริยาย
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr "ขนาดเริ่มต้นของไอคอนสำหรับธัมบ์เนลในการดูไอคอนขณะใช้ขนาด NAUTILUS_ICON_SIZE_STANDARD"
+msgstr "ขนาดโดยปริยายของไอคอนสำหรับภาพย่อในมุมมองไอคอนเมื่อใช้ขนาด NAUTILUS_ICON_SIZE_STANDARD"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -827,7 +827,7 @@ msgstr "ไม่สามารถเปลี่ยนชื่อไอคอ
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "เนื้อหาของไฟล์อาจเป็น format ไฟล์ของเดสก์ท็อปที่ไม่สามารถใช้งานได้"
+msgstr "เป็นไปได้ว่าเนื้อหาของแฟ้มเป็นรูปแบบแฟ้มพื้นโต๊ะที่ไม่ถูกต้อง"
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
@@ -1153,12 +1153,12 @@ msgstr "มีอีกแฟ้มหนึ่งที่มีชื่อเ
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:255
 msgid "Original folder"
-msgstr "โฟลเดอร์ดั้งเดิม"
+msgstr "โฟลเดอร์เดิม"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr "ไอเทม:"
+msgstr "รายการ:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1183,7 +1183,7 @@ msgstr "แก้ไขล่าสุด:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr "รวมเข้ากับ"
+msgstr "ผสานกับ"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1207,7 +1207,7 @@ msgstr "กลับค่าเดิม"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr "ใช้การกระทำนี้กับทุกไฟล์และโฟลเดอร์"
+msgstr "ปรับใช้การกระทำนี้กับแฟ้มและโฟลเดอร์ทั้งหมด"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1224,12 +1224,12 @@ msgstr "เขียนทับ"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr "รวมโฟลเดอร์"
+msgstr "ผสานโฟลเดอร์"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr "การชนกันของไฟล์และโฟลเดอร์"
+msgstr "แฟ้มและโฟลเดอร์ขัดแย้งกัน"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -2523,28 +2523,28 @@ msgstr "ไม่สามารถค้นหาตามที่ร้อง
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "%d วันที่แล้ว"
+msgstr[0] "%d วันก่อน"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "%d สัปดาห์ที่แล้ว"
+msgstr[0] "%d สัปดาห์ก่อน"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "%d เดือนที่แล้ว"
+msgstr[0] "%d เดือนก่อน"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] "%d ปีที่แล้ว"
+msgstr[0] "%d ปีก่อน"
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -4493,17 +4493,17 @@ msgstr "เพิ่มข้อมูลที่จะแสดงใต้ช
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr "วินาที"
+msgstr "รายการที่สอง"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr "อันดับสาม"
+msgstr "รายการที่สาม"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr "อันดับแรก"
+msgstr "รายการแรก"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:35
 msgid "Views"
@@ -4737,7 +4737,7 @@ msgstr "_ชนิด"
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:6
 msgid "Last _Modified"
-msgstr "แ_ก้ไขล่าสุด:"
+msgstr "แก้ไข_ล่าสุด"
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:7
 msgid "Last _Trashed"
@@ -4829,7 +4829,7 @@ msgstr "ในคอมพิวเตอร์นี้"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "ใช้งานได้ %s / %s"
+msgstr[0] "พื้นที่ว่าง %s / %s"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"

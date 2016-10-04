@@ -4,18 +4,21 @@
 # 
 # Translators:
 # herophuong <herophuong93@gmail.com>, 2011
+# herophuong <herophuong93@gmail.com>, 2011
 # Lê Trường An <truongan@linuxmail.org>, 2011
 # Vu Hung Nguyen <vuhung16plus@gmail.com>, 2011
 # Pham Thanh Long <lngt@ngonngu.net>, 2007
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2013-2015
+# Pham Thanh Long <lngt@ngonngu.net>, 2007
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013-2016
 # Trinh Minh Thanh <tmthanh@yahoo.com>, 2002-2003, 2005
+# Vu Hung Nguyen <vuhung16plus@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-02 05:37+0000\n"
-"PO-Revision-Date: 2016-07-16 02:05+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:54+0000\n"
+"PO-Revision-Date: 2016-10-04 23:49+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/endless-mobile-inc/nautilus/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,15 +63,15 @@ msgstr "Tập tin"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:3
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "folder;thư;mục;thu;muc;manager;quản;lý;quan;ly;explore;khám;phá;kham;pha;disk;đĩa;dia;filesystem;hệ;thống;tập;tin;he;thong;tap;tin;"
+msgstr "folder;thư;mục;thu;muc;manager;quản;lý;quan;ly;explore;khám;phá;kham;pha;disk;đĩa;dia;filesystem;hệ;thống;tập;tin;he;thong;tap;"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:4
 msgid "New Window"
-msgstr "Cửa sổ Mới"
+msgstr "Cửa sổ mới"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:1
 msgid "Where to position newly open tabs in browser windows"
-msgstr "Đặt các tab mới mở ở chỗ nào trong cửa sổ trình duyệt"
+msgstr "Nơi đặt thanh mới trong cửa sổ duyệt"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
@@ -89,48 +92,48 @@ msgstr "Nếu được đặt, cửa sổ duyệt Nautilus sẽ luôn dùng trư
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:5
 msgid "Where to perform recursive search"
-msgstr "Có thực hiện tìm kiếm đệ quy hay không"
+msgstr "Nơi nào cho phép tìm kiếm đệ quy"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:6
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr "Nautilus nên tìm kiếm các thư mục phụ ở những địa điểm nào. Các giá trị sẵn có là 'chỉ cục bộ', 'luôn luôn', và 'không bao giờ'."
+msgstr "Ở vị trí nào thì Nautilus nên tìm kiếm trên thư mục con. Các giá trị sẵn dùng là 'local-only', 'always', 'never'."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:7
 msgid "Filter the search dates using either last used or last modified"
-msgstr "Lọc ngày tìm kiếm theo lần sử dụng gần nhất hoặc lần sửa gần nhất"
+msgstr "Bộ lọc thời gian cho tìm kiếm được dùng hoặc là dùng lần cuối hoặc là lần sửa cuối"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:8
 msgid "Filter the search dates using either last used or last modified."
-msgstr "Lọc ngày tìm kiếm theo lần sử dụng gần nhất hoặc lần sửa gần nhất."
+msgstr "Bộ lọc thời gian cho tìm kiếm được dùng hoặc là dùng lần cuối hoặc là lần sửa cuối."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:9
 msgid "Whether to show a context menu item to delete permanently"
-msgstr "Có hiển thị một mục menu ngữ cảnh để xóa vĩnh viễn hay không"
+msgstr "Có nên hiển thị mục trình đơn người cảnh để xóa vĩnh viễn hay không"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:10
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr "Nếu đặt là đúng, thì Nautilus sẽ hiển thị một mục menu ngữ cảnh xóa vĩnh viễn để bỏ qua thùng rác."
+msgstr "Đúng thì Nautilus sẽ hiển thị mục trình đơn ngữ cảnh xóa vĩnh viễn tránh đưa vào thùng rác."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:11
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr "Có hiển thị các mục menu ngữ cảnh để tạo các liên kết từ các tệp sao chép hoặc đã chọn hay không"
+msgstr "Có nên hiển thị các mục trình đơn ngữ cảnh để tạo các liên kết từ các tập tin đã chép hay chọn không"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:12
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr "Nếu đặt là đúng, thì Nautilus sẽ hiển thị các mục menu ngữ cảnh để tạo các liên kết từ các tệp sao chép hoặc đã chọn."
+msgstr "Nếu được đặt thì Nautilus sẽ hiển thị mục trình đơn ngữ cảnh để tạo liên kết từ các tập tin đã chép hay chọn."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr "Có yêu cầu xác nhận khi xóa tệp, hoặc làm rỗng Thùng rác hay không"
+msgstr "Có nên hỏi xác nhận khi xóa tập tin hay đổ thùng rác hay không"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
@@ -174,24 +177,24 @@ msgstr "Làm gì với các tập tin văn bản có thể thực thi khi nó đ
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
 msgid "Show the package installer for unknown MIME types"
-msgstr "Hiển thị trình cài đặt gói cho các loại MINE chưa biết"
+msgstr "Hiển thị bộ cài đặt gói cho những kiểu MIME không biết"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr "Có hiển thị cho người dùng thấy một hộp thoại trình cài đặt gói trong trường hợp một tệp MINE chưa biết được mở ra hay không, để tìm kiếm ứng dụng xử lý tệp đó."
+msgstr "Có hay không hiển thị cho người dùng một hộp thoại trình cài đặt gói trong trường hợp một kiểu MINE không biết được mở, để tìm kiếm ứng dụng xử lý nó."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:23
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr "Hiển thị hộp thoại cảnh báo về việc thay đổi phím tắt cho thao tác bỏ vào Thùng rác"
+msgstr "Hiển thị hộp thoại cảnh báo cho việc thay đổi của phím tắt để chuyển vào thùng rác"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:24
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr "Hiển thị một hộp thoại cảnh báo về việc thay đổi phím tắt cho thao tác bỏ vào Thùng rác, từ cụm phím Control + Delete thành phím Delete."
+msgstr "Hiển thị hộp thoại cảnh báo cho việc thay đổi của phím tắt để chuyển vào thùng rác từ Control + Delete chỉ để xóa."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:25
 msgid "Use extra mouse button events in Nautilus' browser window"
@@ -238,7 +241,7 @@ msgid ""
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr "Thỏa hiệp tốc độ khi cần hiển thị một tệp dưới dạng hình thu nhỏ. Nếu đặt là \"luôn luôn\", thì sẽ luôn luôn là hình thu nhỏ, ngay cả khi thư mục đang ở một máy chủ từ xa. Nếu đặt là \"chỉ cục bộ\", thì sẽ chỉ hiển thị hình thu nhỏ cho hệ thống tệp cục bộ. Nếu đặt là \"không bao giờ\" thì sẽ không bao giờ tạo hình thu nhỏ cho tệp, chỉ dùng biểu tượng chung. Bất kể tên gọi có thể gợi ý điều gì, quy tắc này áp dụng cho mọi kiểu tệp có thể xem trước."
+msgstr "Thỏa hiệp tốc độ khi hiển thị tập tin dạng ảnh thu nhỏ. Đặt là \"always\" (luôn luôn) thì luôn luôn tạo ảnh dạng thu nhỏ, kể cả nếu thư mục ở trên máy mạng. Đặt \"local-only\" (chỉ tập tin cục bộ) thì chỉ hiển thị ảnh dạng thu nhỏ đối với hệ thống tập tin cục bộ. Đặt \"never\" (không bao giờ) sẽ không bao giờ tạo ảnh thu nhỏ, chỉ dùng ảnh biểu tượng chung chung. Mặc dù rằng tên có thể gợi ý nội dung, các cài đặt này áp dụng cho tất cả kiểu tập tin xem thử được."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -281,7 +284,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr "Nếu đúng, các tệp trong cửa sổ mới sẽ được sắp xếp theo thứ tự đảo ngược. Tức là nếu sắp xếp theo tên thì thay vì xếp theo thứ tự từ \"a\" đến \"z\", chúng sẽ được sắp xếp theo thứ tự từ \"z\" đến \"a\"; nếu sắp xếp theo kích thước, thì thay vì sắp xếp tăng dần chúng sẽ được sắp xếp giảm dần."
+msgstr "Nếu đúng, tập tin với những cửa sổ mới sẽ được sắp xếp theo thứ tự ngược. Vd: nếu sắp theo tên thì sắp từ \"z\" đến \"a\" thay vì từ \"a\" đến \"z\"; nếu sắp theo kích cỡ, sắp theo thứ tự giảm thay vì tăng."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -306,12 +309,12 @@ msgstr "Khóa này không còn tiếp tục được dùng nữa và sẽ bị b
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:45
 msgid "What viewer should be used when searching"
-msgstr "Cần sử dụng trình xem nào khi tìm kiếm"
+msgstr "Bộ xem nào sẽ được dùng khi tìm kiếm"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:46
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr "Khi tìm kiếm, Nautilus sẽ chuyển sang kiểu dạng xem trong cài đặt này."
+msgstr "Khi nào Nautilus tìm kiếm sẽ chuyển sang kiểu của trình bày trong cài đặt này."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:47
 msgid "Bulk rename utility"
@@ -336,7 +339,7 @@ msgstr "Có cho phép mở thư mục khi con trỏ di chuyển qua sau khi ch�
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr "Nếu điều này được đặt là đúng, thì khi thực hiện thao tác kéo và thả, thư mục được di chuột sẽ tự động mở sau khi một khoảng thời gian chờ."
+msgstr "Nếu được đặt, khi thực hiện thao tác kéo thả thư mục có con chuột di chuyển qua sẽ tự động mở sau một khoảng thời gian nhất định."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:51
 msgid "List of possible captions on icons"
@@ -366,7 +369,7 @@ msgstr "Cỡ biểu tượng ảnh dạng thu nhỏ mặc định"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr "Kích thước biểu tượng mặc định đối với ảnh thu nhỏ trong giao diện biểu tượng khi sử dụng kích thước NAUTILUS_ICON_SIZE_STANDARD."
+msgstr "Kích cỡ mặc định của biểu tượng cho ảnh dạng thu nhỏ trong bộ trình bày khi dùng cỡ NAUTILUS_ICON_SIZE_STANDARD."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -387,7 +390,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr "Một chuỗi chỉ rõ cách thức thay thế các phần của tên tệp quá dài bằng dấu chấm lửng, tùy thuộc vào mức thu phóng. Mỗi mục trong danh sách có dạng \"Mức Thu Phóng:số nguyên\". Đối với mỗi mức thu phóng cụ thể, nếu số nguyên đã cho lớn hơn 0, thì tên tệp sẽ không vượt quá số dòng đã cho. Nếu số nguyên đã cho bằng 0 hoặc nhỏ hơn, thì không có giới hạn nào được áp dụng đối với mức thu phóng cụ thể đó. Một nhập mục mặc định của dạng \"Số nguyên\" mà không có mức thu phóng cụ thể nào cũng được cho phép. Nó xác định số dòng tối đa cho tất cả các mức thu phóng khác. Ví dụ: 0 - luôn hiển thị tên tệp quá dài; 3 - rút ngắn tên tệp nếu chúng vượt quá ba dòng; nhỏ nhất:5,nhỏ hơn:4,0 - rút ngắn tên tệp nếu chúng vượt quá năm dòng đối với mức thu phóng \"nhỏ nhất\". Rút ngắn tên tệp nếu chúng vượt quá bốn dòng đối với mức thu phòng \"nhỏ hơn\". Không rút ngắn tên tệp đối với các mức thu phóng khác. Các mức thu phóng sẵn có: nhỏ, tiêu chuẩn, lớn."
+msgstr "Một chuỗi xác định phần nào của tên tập tin dài cần được thay bằng dấu chấm lửng, tùy vào độ phóng to. Mỗi mục trong danh sách tuân theo mẫu \"Mức phóng:Số\". Với mỗi mức phóng, nếu số được cho lớn hơn 0, tên tập tin sẽ không vượt qua số dòng cho phép. Nếu số là 0 hoặc nhỏ hơn, không đặt ra giới hạn ở mức phóng đó. Mục mặc định theo dạng \"Số\" không có mức phóng cũng có thể được dùng. Nó định nghĩa số lượng dòng lớn nhất cho mọi mức phóng còn lại. Ví dụ: 0 - luôn luôn hiện tên tập tin quá dài; 3 - cắt tên tập tin nếu vượt quá 3 dòng; smallest:5,smaller:4,0 - cắt tên tập tin nếu vượt quá 5 dòng ở mức phóng \"smallest\". Cắt tên tập tin nếu vượt quá 4 dòng ở mức phóng \"smaller\". Không cắt ngắn với các mức phóng to còn lại. Các mức phóng có thể dùng là: small, standard, large."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:59
 msgid "Default list zoom level"
@@ -421,7 +424,7 @@ msgstr "Xem dạng cây"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr "Có sử dụng cây cho dẫn hướng dạng xem danh sách thay vì danh sách phẳng hay không."
+msgstr "Có để một cây sẽ được dùng cho bộ điều hướng hiển thị danh sách thay vì sử dụng danh sách dạng phẳng hay không"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:67
 msgctxt "desktop-font"
@@ -454,7 +457,7 @@ msgstr "Hiện thùng rác trên màn hình nền"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr "Nếu điều này được đặt là đúng, thì một biểu tượng liên kết đến Thùng rác sẽ được đặt trên màn hình nền"
+msgstr "Nếu đặt là true thì biểu tượng liên kết với Thùng rác sẽ được đặt lên màn hình nền."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -479,7 +482,7 @@ msgstr "Nếu đặt là true (đúng) thì biểu tượng liên kết đến m
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr "'Trang chủ'"
+msgstr "'Thư mục riêng'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:79
 msgid "Desktop home icon name"
@@ -498,18 +501,18 @@ msgstr "'Thùng rác'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:82
 msgid "Desktop Trash icon name"
-msgstr "Tên biểu tượng Thùng rác Màn hình nền"
+msgstr "Tên biểu tượng “Thùng rác” trên màn hình nền"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:83
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr "Có thể đặt tên này nếu bạn muốn một tên tùy chỉnh cho biểu tượng Thùng rác trên màn hình nền."
+msgstr "Tên này có thể đặt nếu bạn muốn tự chọn tên cho biểu tượng “Thùng rác” trên màn hình nền."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr "'Máy chủ Mạng'"
+msgstr "'Network Servers'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:85
 msgid "Network servers icon name"
@@ -541,7 +544,7 @@ msgstr "Nếu được đặt, thì Nautilus sẽ dùng hiệu ứng mờ để 
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:90
 msgid "The geometry string for a navigation window"
-msgstr "Chuỗi hình học cho cửa sổ dẫn hướng"
+msgstr "Chuỗi tọa độ cho cửa sổ điều hướng"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:91
 msgid ""
@@ -551,7 +554,7 @@ msgstr "Chuỗi chứa tọa độ và kích thước đã lưu của cửa sổ
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
-msgstr "Có thu nhỏ cửa sổ dẫn hướng hay không"
+msgstr "Có để cửa sổ điều hướng phóng to hết cỡ không"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
@@ -688,7 +691,7 @@ msgstr "Ngày mà tập tin được truy cập."
 
 #: ../libnautilus-private/nautilus-column-utilities.c:97
 msgid "Owner"
-msgstr "Chủ"
+msgstr "Chủ sở hữu"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:98
 msgid "The owner of the file."
@@ -717,7 +720,7 @@ msgstr "Kiểu MIME"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr "Loại tệp MINE."
+msgstr "Kiểu MIME của tập tin."
 
 #: ../libnautilus-private/nautilus-column-utilities.c:129
 #: ../src/nautilus-image-properties-page.c:415
@@ -830,7 +833,7 @@ msgstr "Không thể thay đổi tên của biểu tượng màn hình nền"
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "Có thể nội dung của tệp là một định dạng tệp màn hình nền không hợp lệ"
+msgstr "Gần như chắc chắn là nội dung của tập tin không phải ở định dạng tập tin desktop hợp lệ"
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
@@ -1033,7 +1036,7 @@ msgstr "Mã đánh dấu"
 #: ../libnautilus-private/nautilus-file.c:6498
 #: ../libnautilus-private/nautilus-file.c:6499
 msgid "Text"
-msgstr "Chữ"
+msgstr "Văn bản thường"
 
 #: ../libnautilus-private/nautilus-file.c:6501
 #: ../src/nautilus-mime-actions.c:216
@@ -1161,7 +1164,7 @@ msgstr "Thư mục gốc"
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr "Các mục:"
+msgstr "Mục:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1186,7 +1189,7 @@ msgstr "Lần sửa cuối:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr "Hợp nhất với"
+msgstr "Hòa trộn với"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1210,7 +1213,7 @@ msgstr "Đặt lại"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr "Áp dụng hành động này cho tất cả các tệp và thư mục"
+msgstr "Áp dụng thao tác này cho mọi tập tin và thư mục"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1227,12 +1230,12 @@ msgstr "Thay thế"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr "Hợp nhất Thư mục"
+msgstr "Hòa trộn thư mục"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr "Xung đột Tệp và Thư mục"
+msgstr "Xung đột tập tin và thư mục"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -2070,7 +2073,7 @@ msgstr "_Làm lại phục hồi tự thùng rác"
 #, c-format
 msgid "Move %d item back to trash"
 msgid_plural "Move %d items back to trash"
-msgstr[0] "Di chuyển %d mục ngược về thùng rác"
+msgstr[0] "Di chuyển %d mục trở về thùng rác"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:394
 #: ../libnautilus-private/nautilus-file-undo-operations.c:990
@@ -2082,7 +2085,7 @@ msgstr[0] "Lấy lại %d thứ từ thùng rác"
 #: ../libnautilus-private/nautilus-file-undo-operations.c:398
 #, c-format
 msgid "Move '%s' back to trash"
-msgstr "Chuyển “%s” ngược về thùng rác"
+msgstr "Chuyển “%s” trở về thùng rác"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:399
 #, c-format
@@ -2526,21 +2529,21 @@ msgstr "Không thể hoàn tất yêu cầu tìm kiếm"
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "%d ngày trước đây"
+msgstr[0] "%d ngày trước"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "%d  tuần trước đây"
+msgstr[0] "%d tuần trước"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "%d tháng trước đây"
+msgstr[0] "%d tháng trước"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
@@ -3253,7 +3256,7 @@ msgstr[0] "Hành động này sẽ mở %d cửa sổ riêng."
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
 msgid "Anything"
-msgstr "Bất kỳ thứ gì"
+msgstr "Mọi thứ"
 
 #: ../src/nautilus-mime-actions.c:106 ../src/nautilus-properties-window.c:4200
 msgid "Folders"
@@ -3721,19 +3724,19 @@ msgstr "_Mở"
 
 #: ../src/nautilus-query-editor.c:122
 msgid "Searching locations only"
-msgstr "Chỉ tìm kiếm các vị trí"
+msgstr "Chỉ tìm vị trí xác định"
 
 #: ../src/nautilus-query-editor.c:124
 msgid "Searching devices only"
-msgstr "Chỉ các thiết bị tìm kiếm"
+msgstr "Chỉ tìm trên các thiết bị"
 
 #: ../src/nautilus-query-editor.c:126
 msgid "Searching network locations only"
-msgstr "Chỉ tìm kiếm các địa điểm trên mạng"
+msgstr "Chỉ tìm kiếm các máy xác định trên mạng"
 
 #: ../src/nautilus-query-editor.c:129
 msgid "Remote location - only searching the current folder"
-msgstr "Địa điểm từ xa - chỉ tìm kiếm thư mục hiện tại"
+msgstr "Vị trí máy trên mạng - chỉ tìm kiếm thư mục hiện tại"
 
 #: ../src/nautilus-query-editor.c:131
 msgid "Only searching the current folder"
@@ -3751,7 +3754,7 @@ msgstr "Hiển thị lịch để chọn ngày"
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
 msgid "Any time"
-msgstr "Bất kỳ lúc nào"
+msgstr "Bất kỳ thời gian nào"
 
 #. Other types
 #: ../src/nautilus-search-popover.c:476
@@ -3769,7 +3772,7 @@ msgstr "Chọn"
 #: ../src/nautilus-search-popover.c:625
 #: ../src/resources/ui/nautilus-search-popover.ui.h:3
 msgid "Select Dates…"
-msgstr "Chọn Ngày..."
+msgstr "Chọn ngày…"
 
 #. trash
 #: ../src/nautilus-shell-search-provider.c:297 ../src/nautilus-trash-bar.c:198
@@ -3923,7 +3926,7 @@ msgstr "Cửa sổ mới"
 #: ../src/resources/gtk/help-overlay.ui.h:3
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr "Đóng cửa sổ hoặc tab"
+msgstr "Đóng cửa sổ hay thanh"
 
 #: ../src/resources/gtk/help-overlay.ui.h:4
 msgctxt "shortcut window"
@@ -3933,12 +3936,12 @@ msgstr "Tìm kiếm"
 #: ../src/resources/gtk/help-overlay.ui.h:5
 msgctxt "shortcut window"
 msgid "Bookmarks"
-msgstr "Dấu trang"
+msgstr "Đánh dấu"
 
 #: ../src/resources/gtk/help-overlay.ui.h:6
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr "Đánh dấu địa điểm hiện tại"
+msgstr "Thêm đánh dấu cho vị trí hiện thời"
 
 #: ../src/resources/gtk/help-overlay.ui.h:7
 msgctxt "shortcut window"
@@ -3963,22 +3966,22 @@ msgstr "Mở"
 #: ../src/resources/gtk/help-overlay.ui.h:11
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr "Mở trong tab mới"
+msgstr "Mở trong thanh mới"
 
 #: ../src/resources/gtk/help-overlay.ui.h:12
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr "Mở trong cửa sổ mới "
+msgstr "Mở trong cửa sổ mới"
 
 #: ../src/resources/gtk/help-overlay.ui.h:13
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr "Mở địa điểm mục (chỉ riêng tìm kiếm và gần đây)"
+msgstr "Mở vị trí của mục tin (tìm kiếm và chỉ danh sách mới dùng)"
 
 #: ../src/resources/gtk/help-overlay.ui.h:14
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr "Mở tệp và đóng cửa sổ"
+msgstr "Mở tập tin và đóng cửa sổ"
 
 #: ../src/resources/gtk/help-overlay.ui.h:15
 msgctxt "shortcut window"
@@ -3988,7 +3991,7 @@ msgstr "Mở bằng ứng dụng mặc định"
 #: ../src/resources/gtk/help-overlay.ui.h:16
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "Tab"
+msgstr "Thanh"
 
 #: ../src/resources/gtk/help-overlay.ui.h:17
 msgctxt "shortcut window"
@@ -3998,47 +4001,47 @@ msgstr "Tab mới"
 #: ../src/resources/gtk/help-overlay.ui.h:18
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr "Đi đến tab trước đây"
+msgstr "Chuyển sang thanh kế trước"
 
 #: ../src/resources/gtk/help-overlay.ui.h:19
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr "Đi tới tab kế tiếp"
+msgstr "Chuyển sang thanh kế tiếp"
 
 #: ../src/resources/gtk/help-overlay.ui.h:20
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr "Mở tab"
+msgstr "Mở thanh"
 
 #: ../src/resources/gtk/help-overlay.ui.h:21
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr "Di chuyển tab sang trái"
+msgstr "Chuyển thanh sang trái"
 
 #: ../src/resources/gtk/help-overlay.ui.h:22
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr "Di chuyển tab sang phải"
+msgstr "Chuyển thanh sang phải"
 
 #: ../src/resources/gtk/help-overlay.ui.h:23
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "Dẫn hướng"
+msgstr "Điều hướng"
 
 #: ../src/resources/gtk/help-overlay.ui.h:24
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr "Trở lại"
+msgstr "Quay lại"
 
 #: ../src/resources/gtk/help-overlay.ui.h:25
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr "Tiến lên"
+msgstr "Đi tiếp"
 
 #: ../src/resources/gtk/help-overlay.ui.h:26
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr "Đi lên"
+msgstr "Lên trên"
 
 #: ../src/resources/gtk/help-overlay.ui.h:27
 msgctxt "shortcut window"
@@ -4048,27 +4051,27 @@ msgstr "Đi xuống"
 #: ../src/resources/gtk/help-overlay.ui.h:28
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr "Đi tới thư mục gốc"
+msgstr "Đến thư mục riêng"
 
 #: ../src/resources/gtk/help-overlay.ui.h:29
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "Nhập địa điểm"
+msgstr "Nhập vị trí"
 
 #: ../src/resources/gtk/help-overlay.ui.h:30
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr "Thanh địa điểm với địa điểm gốc"
+msgstr "Thanh vị trí với vị trí gốc"
 
 #: ../src/resources/gtk/help-overlay.ui.h:31
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr "Thanh vị trí với địa điểm gốc"
+msgstr "Thanh vị trí với vị trí thư mục riêng"
 
 #: ../src/resources/gtk/help-overlay.ui.h:32
 msgctxt "shortcut window"
 msgid "View"
-msgstr "Xem"
+msgstr "Trình bày"
 
 #: ../src/resources/gtk/help-overlay.ui.h:33
 msgctxt "shortcut window"
@@ -4083,42 +4086,42 @@ msgstr "Thu nhỏ"
 #: ../src/resources/gtk/help-overlay.ui.h:35
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr "Đặt lại thu phóng"
+msgstr "Đặt lại mức phóng to"
 
 #: ../src/resources/gtk/help-overlay.ui.h:36
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr "Làm mới dạng xem"
+msgstr "Làm mới bộ trình bày"
 
 #: ../src/resources/gtk/help-overlay.ui.h:37
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr "Hiện/Ẩn các tệp ẩn"
+msgstr "Hiện/ẩn các tập tin ẩn"
 
 #: ../src/resources/gtk/help-overlay.ui.h:38
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr "Hiển/Ẩn thanh bên"
+msgstr "Hiện/ẩn khung bên"
 
 #: ../src/resources/gtk/help-overlay.ui.h:39
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr "Hiện/Ẩn menu hành động"
+msgstr "Hiện/ẩn trình đơn hành động"
 
 #: ../src/resources/gtk/help-overlay.ui.h:40
 msgctxt "shortcut window"
 msgid "List view"
-msgstr "Dạng xem danh sách"
+msgstr "Danh sách"
 
 #: ../src/resources/gtk/help-overlay.ui.h:41
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr "Dạng xem hiển thị theo ô"
+msgstr "Dạng lưới"
 
 #: ../src/resources/gtk/help-overlay.ui.h:42
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr "Đang sửa"
+msgstr "Sửa"
 
 #: ../src/resources/gtk/help-overlay.ui.h:43
 msgctxt "shortcut window"
@@ -4133,7 +4136,7 @@ msgstr "Đổi tên"
 #: ../src/resources/gtk/help-overlay.ui.h:45
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr "Bỏ vào thùng rác"
+msgstr "Chuyển vào thùng rác"
 
 #: ../src/resources/gtk/help-overlay.ui.h:46
 msgctxt "shortcut window"
@@ -4143,7 +4146,7 @@ msgstr "Xóa vĩnh viễn"
 #: ../src/resources/gtk/help-overlay.ui.h:47
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr "Sao chép"
+msgstr "Chép"
 
 #: ../src/resources/gtk/help-overlay.ui.h:48
 msgctxt "shortcut window"
@@ -4158,12 +4161,12 @@ msgstr "Chọn tất cả"
 #: ../src/resources/gtk/help-overlay.ui.h:50
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr "Lựa chọn Đảo ngược"
+msgstr "Đảo vùng chọn"
 
 #: ../src/resources/gtk/help-overlay.ui.h:51
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr "Chọn các mục khớp"
+msgstr "Chọn các mục khớp mẫu"
 
 #: ../src/resources/gtk/help-overlay.ui.h:52
 msgctxt "shortcut window"
@@ -4173,12 +4176,12 @@ msgstr "Hoàn tác"
 #: ../src/resources/gtk/help-overlay.ui.h:53
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr "Hoàn tác"
+msgstr "Làm lại"
 
 #: ../src/resources/gtk/help-overlay.ui.h:54
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr "Hiển thị thuộc tính mục"
+msgstr "Hiện thuộc tính của mục"
 
 #: ../src/resources/gtk/menus.ui.h:1
 msgid "New _Window"
@@ -4194,7 +4197,7 @@ msgstr "Tù_y thích"
 
 #: ../src/resources/gtk/menus.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr "_Phím tắt trên Bàn phím"
+msgstr "_Phím tắt"
 
 #: ../src/resources/gtk/menus.ui.h:5
 msgid "_Help"
@@ -4223,7 +4226,7 @@ msgstr "_Dán"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:4
 msgid "Create _Link"
-msgstr "Tạo Liên kết"
+msgstr "Tạo _liên kết"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:5
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:3
@@ -4468,7 +4471,7 @@ msgstr "4 GB"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:25
 msgid "Preferences"
-msgstr "Ưa thích"
+msgstr "Tùy thích"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:26
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:1
@@ -4481,17 +4484,17 @@ msgstr "Sắp _thư mục trước tập tin"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:28
 msgid "Allow folders to be _expanded"
-msgstr "Cho phép mở rộng thư mục"
+msgstr "Cho phép các thư mục được _khai triển"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:29
 msgid "Icon View Captions"
-msgstr "Chú thích Dạng xem Biểu tượng"
+msgstr "Nhãn bên cạnh biểu tượng"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:30
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr "Thêm thông tin để hiển thị bên dưới tên tệp và thư mục.\nThông tin bổ sung sẽ xuất hiện khi phóng to hơn."
+msgstr "Thêm thông tin muốn hiển thị dưới tên của tập tin và thư mục.\nHiển thị nhiều thông tin hơn khi phóng to hơn."
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
@@ -4506,7 +4509,7 @@ msgstr "Thứ ba"
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr "Thứ nhất"
+msgstr "Đầu tiên"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:35
 msgid "Views"
@@ -4514,7 +4517,7 @@ msgstr "Trình bày"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:36
 msgid "Open Action"
-msgstr "Hành động Mở"
+msgstr "Mở trình đơn hành động"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
@@ -4526,11 +4529,11 @@ msgstr "Nhấn đú_p để mở mục"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
-msgstr "Tạo Liên kết"
+msgstr "Tạo liên kết"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr "Hiển thị hành động để tạo liên kết dạng biểu tượng"
+msgstr "Hiển thị hành vi tạo _liên kết mềm."
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
@@ -4546,15 +4549,15 @@ msgstr "_Chạy chúng"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:44
 msgid "_Ask what to do"
-msgstr "_Hỏi xem cần làm gì"
+msgstr "_Hỏi cần phải làm gì"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:46
 msgid "Ask before _emptying the Trash"
-msgstr "Hỏi trước khi làm rỗng thùng rác"
+msgstr "_Hỏi trước khi đổ rác"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:47
 msgid "Show action to _permanently delete files and folders"
-msgstr "Hiển thị thành động xóa vĩnh viễn các tệp và thư mục"
+msgstr "Hiển thị hành động để xóa các tập tin và thư mục _vĩnh viễn"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:48
 msgid "Behavior"
@@ -4570,7 +4573,7 @@ msgstr "Cột danh sách"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:52
 msgid "Search in subfolders:"
-msgstr "Tim kiếm trong thư mục con:"
+msgstr "Tìm trong thư mục con:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:53
 msgid "_On this computer only"
@@ -4578,7 +4581,7 @@ msgstr "_Chỉ trên máy tính này"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:54
 msgid "_All locations"
-msgstr "_Tất cả địa điểm"
+msgstr "_Mọi vị trí"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:55
 msgid "_Never"
@@ -4590,47 +4593,47 @@ msgstr "Hình thu nhỏ"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:57
 msgid "Show thumbnails:"
-msgstr "Hiển thị hình thu nhỏ:"
+msgstr "Hiển thị ảnh thu nhỏ:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr "_Chỉ các tệp trên máy tính này"
+msgstr "_Chỉ các tập tin trên máy tính này thôi"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
-msgstr "Tất cả tệp"
+msgstr "_Mọi tập tin"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:60
 msgid "N_ever"
-msgstr "Không bao giờ"
+msgstr "K_hông bao giờ"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:61
 msgid "Onl_y for files smaller than:"
-msgstr "Chỉ riêng những tệp nhỏ hơn:"
+msgstr "Chỉ với tập tin _nhỏ hơn:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:62
 msgid "File count"
-msgstr "Số tệp"
+msgstr "Đếm số lượng tập tin"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:63
 msgid "Count number of files in folders:"
-msgstr "Đếm số lượng tệp trong thư mục:"
+msgstr "Đếm số lượng tập tin trong thư mục:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:64
 msgid "F_olders in this computer only"
-msgstr "Chỉ những thư mục trong máy tính này"
+msgstr "Chỉ _thư mục trên máy tính này"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:65
 msgid "All folder_s"
-msgstr "Tất cả thư mục"
+msgstr "Mọi thư _mục"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:66
 msgid "Ne_ver"
-msgstr "Không bao giờ"
+msgstr "Không _bao giờ"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:67
 msgid "Search & Preview"
-msgstr "Tìm kiếm & Xem trước"
+msgstr "Tìm & Xem thử"
 
 #: ../src/resources/ui/nautilus-rename-file-popover.ui.h:2
 msgid "_Rename"
@@ -4638,27 +4641,27 @@ msgstr "Đổ_i tên"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:1
 msgid "When"
-msgstr "Khi nào"
+msgstr "Khi"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:2
 msgid "Select a date"
-msgstr "Chọn ngày"
+msgstr "Chọn một ngày"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr "Xóa dữ liệu đã chọn hiện tại"
+msgstr "Xóa ngày hiện đang được chọn"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
-msgstr "Kể từ..."
+msgstr "Kể từ…"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:7
 msgid "Last _modified"
-msgstr "Thay đổi gần nhất"
+msgstr "Lần _sửa cuối:"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:8
 msgid "Last _used"
-msgstr "Sử dụng gần nhất"
+msgstr "Lần _dùng cuối"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:9
 msgid "What"
@@ -4666,23 +4669,23 @@ msgstr "Cái gì"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:10
 msgid "Which file types will be searched"
-msgstr "Những loại tệp nào sẽ được tìm kiếm"
+msgstr "Kiểu tập tin nào sẽ được tìm kiếm"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:13
 msgid "Full Text"
-msgstr "Văn bản Đầy đủ"
+msgstr "Toàn văn bản"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:14
 msgid "Search on the file content and name"
-msgstr "Tìm kiếm nội dung và tên tệp"
+msgstr "Tìm kiếm dựa trên nội dung và tên của tập tin"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:15
 msgid "File Name"
-msgstr "Tên Tệp"
+msgstr "Tên tập tin"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:16
 msgid "Search only on the file name"
-msgstr "Chỉ tìm kiếm trên tên tệp"
+msgstr "Chỉ tìm theo tên tập tin"
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:2
 msgid "New _Tab"
@@ -4832,7 +4835,7 @@ msgstr "Trên máy tính này"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "%s / %s sẵn có"
+msgstr[0] "%s / %s sẵn dùng được"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"

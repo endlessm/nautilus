@@ -1,35 +1,31 @@
-# translation of nautilus to Russian
-# Copyright (C) 2000-2009, 2010 Free Software Foundation, Inc.
-#
-# Valek Filippov <frob@df.ru>, 2000-2002.
-# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
-# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
-# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003.
-# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007.
-# Vasiliy Faronov <qvvx@yandex.ru>, 2008.
-# Alexander Sigachov <alexander.sigachov@gmail.com>, 2006.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010.
-# Dmitry Shachnev <mitya57@ubuntu.com>, 2012.
-# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012, 2013, 2015.
-# Ivan Komaritsyn <vantu5z@mail.ru>, 2015.
-# Stas Solovey <whats_up@tut.by>, 2011, 2013, 2014, 2015, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexander Sigachov <alexander.sigachov@gmail.com>, 2006
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
+# Dmitry Shachnev <mitya57@ubuntu.com>, 2012
+# Иван <vantu5z@mail.ru>, 2015
+# Leonid Kanter <leon@asplinux.ru>, 2003-2007
+# Stas Solovey <whats_up@tut.by>, 2011,2013-2016
+# Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002
+# Vasiliy Faronov <qvvx@yandex.ru>, 2008
+# Yuri Kozlov <yuray@komyakino.ru>, 2010
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2013,2015
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus trunk\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus&keywords=I18N+L10N&component=Internationalization (i18n)\n"
-"POT-Creation-Date: 2016-03-15 09:33+0000\n"
-"PO-Revision-Date: 2016-03-15 14:27+0300\n"
-"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
-"Language-Team: Русский <gnome-cyr@gnome.org>\n"
-"Language: ru\n"
+"Project-Id-Version: nautilus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-04 03:54+0000\n"
+"PO-Revision-Date: 2016-10-04 23:48+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Russian (http://www.transifex.com/endless-mobile-inc/nautilus/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Gtranslator 2.91.7\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
@@ -45,26 +41,16 @@ msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr ""
-"Nautilus — файловый менеджер по умолчанию для рабочего стола GNOME. "
-"Предоставляет простой способ для управления файлами и навигации по файловой "
-"системе."
+msgstr "Nautilus — файловый менеджер по умолчанию для рабочего стола GNOME. Предоставляет простой способ для управления файлами и навигации по файловой системе."
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:4
 msgid ""
-"Nautilus supports all the basic functions of a file manager and more. It can "
-"search and manage your files and folders, both locally and on a network, "
+"Nautilus supports all the basic functions of a file manager and more. It can"
+" search and manage your files and folders, both locally and on a network, "
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr ""
-"Nautilus поддерживает все базовые функции файловых менеджеров. С помощью "
-"Nautilus можно управлять файлами и папками, выполнять поиск файлов и папок "
-"как локально, так и по сети, читать и записывать данные на съёмные "
-"устройства, выполнять сценарии и запускать приложения. Nautilus предлагает "
-"три режима просмотра: сетка из значков, список из значков и древовидный "
-"список. Функциональность Nautilus можно расширять с помощью модулей и "
-"сценариев."
+msgstr "Nautilus поддерживает все базовые функции файловых менеджеров. С помощью Nautilus можно управлять файлами и папками, выполнять поиск файлов и папок как локально, так и по сети, читать и записывать данные на съёмные устройства, выполнять сценарии и запускать приложения. Nautilus предлагает три режима просмотра: сетка из значков, список из значков и древовидный список. Функциональность Nautilus можно расширять с помощью модулей и сценариев."
 
 #: ../data/nautilus-autorun-software.desktop.in.in.h:1
 msgid "Run Software"
@@ -72,7 +58,7 @@ msgstr "Запуск приложения"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:1
 #: ../src/nautilus-mime-actions.c:99 ../src/nautilus-properties-window.c:4198
-#: ../src/nautilus-window.c:2727
+#: ../src/nautilus-window.c:2726
 msgid "Files"
 msgstr "Nautilus"
 
@@ -91,11 +77,9 @@ msgstr "Расположение открываемых вкладок в окн
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
 "If set to \"after-current-tab\", then new tabs are inserted after the "
-"current tab. If set to \"end\", then new tabs are appended to the end of the "
-"tab list."
-msgstr ""
-"Если ключ имеет значение «after_current_tab», новые вкладки создаются после "
-"текущей; если «end» — новые вкладки добавляются в конец списка вкладок."
+"current tab. If set to \"end\", then new tabs are appended to the end of the"
+" tab list."
+msgstr "Если ключ имеет значение «after_current_tab», новые вкладки создаются после текущей; если «end» — новые вкладки добавляются в конец списка вкладок."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:3
 msgid "Always use the location entry, instead of the pathbar"
@@ -105,9 +89,7 @@ msgstr "Всегда использовать адресную строку вм
 msgid ""
 "If set to true, then Nautilus browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
-msgstr ""
-"Если этот ключ установлен, в окнах Nautilus всегда будет использоваться "
-"текстовая строка адреса вместо панели кнопок."
+msgstr "Если этот ключ установлен, в окнах Nautilus всегда будет использоваться текстовая строка адреса вместо панели кнопок."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:5
 msgid "Where to perform recursive search"
@@ -117,72 +99,48 @@ msgstr "Определяет выполнение рекурсивного по�
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr ""
-"Определяет в каких местах Nautilus следует искать во вложенных папках. "
-"Доступные значения: «local-only» (только локальные), «always» (всегда), "
-"«never» (никогда)."
+msgstr "Определяет в каких местах Nautilus следует искать во вложенных папках. Доступные значения: «local-only» (только локальные), «always» (всегда), «never» (никогда)."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:7
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
-"Фильтр дат поиска с использованием последнего использования или последнего "
-"изменения"
+msgstr "Фильтр дат поиска с использованием последнего использования или последнего изменения"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:8
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
-"Фильтр дат поиска с использованием последнего использования или последнего "
-"изменения."
+msgstr "Фильтр дат поиска с использованием последнего использования или последнего изменения."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:9
 msgid "Whether to show a context menu item to delete permanently"
 msgstr "Определяет отображение контекстного меню безвозвратного удаления"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:10
-#| msgid ""
-#| "If set to true Nautilus will show a delete permanently context menu item "
-#| "to bypass the trash."
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
-"Если установлено значение «true», Nautilus будет показывать контекстное меню "
-"безвозвратного удаления объектов минуя корзину."
+msgstr "Если установлено значение «true», Nautilus будет показывать контекстное меню безвозвратного удаления объектов минуя корзину."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:11
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
-"Определяет отображение контекстного меню создания ссылок скопированных или "
-"выделенных файлов"
+msgstr "Определяет отображение контекстного меню создания ссылок скопированных или выделенных файлов"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:12
-#| msgid ""
-#| "If set to true Nautilus will show context menu items to create links from "
-#| "the copied or selected files"
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
-"Если установлено значение «true», Nautilus будет показывать контекстное меню "
-"создания ссылок скопированных или выделенных файлов."
+msgstr "Если установлено значение «true», Nautilus будет показывать контекстное меню создания ссылок скопированных или выделенных файлов."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
-#| msgid ""
-#| "Whether to ask for confirmation when deleting files, or emptying Trash"
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
-"Определяет отображение подтверждения при удалении файлов или очистке корзины"
+msgstr "Определяет отображение подтверждения при удалении файлов или очистке корзины"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
 "If set to true, then Nautilus will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
-msgstr ""
-"Если установлено значение «true», Nautilus будет запрашивать подтверждение "
-"при попытке удалить файлы и при очистке корзины."
+msgstr "Если установлено значение «true», Nautilus будет запрашивать подтверждение при попытке удалить файлы и при очистке корзины."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:15
 msgid "When to show number of items in a folder"
@@ -194,12 +152,7 @@ msgid ""
 "\"always\" then always show item counts, even if the folder is on a remote "
 "server. If set to \"local-only\" then only show counts for local file "
 "systems. If set to \"never\" then never bother to compute item counts."
-msgstr ""
-"Критерий отображения количества объектов в папке. Если установлено «always», "
-"количество объектов будет подсчитываться всегда, даже если папка находится "
-"на удалённом сервере. Если установлено «local_only», количество объектов "
-"будет подсчитываться только для локальных файловых систем. Если установлено "
-"«never», количество объектов никогда не будет подсчитываться."
+msgstr "Критерий отображения количества объектов в папке. Если установлено «always», количество объектов будет подсчитываться всегда, даже если папка находится на удалённом сервере. Если установлено «local_only», количество объектов будет подсчитываться только для локальных файловых систем. Если установлено «never», количество объектов никогда не будет подсчитываться."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:17
 msgid "Type of click used to launch/open files"
@@ -207,11 +160,9 @@ msgstr "Тип нажатия, используемый для запуска/о
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:18
 msgid ""
-"Possible values are \"single\" to launch files on a single click, or \"double"
-"\" to launch them on a double click."
-msgstr ""
-"Допустимыми значениями являются: «single» для запуска файлов одинарным "
-"нажатием и «double» для запуска файлов двойным нажатием."
+"Possible values are \"single\" to launch files on a single click, or "
+"\"double\" to launch them on a double click."
+msgstr "Допустимыми значениями являются: «single» для запуска файлов одинарным нажатием и «double» для запуска файлов двойным нажатием."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:19
 msgid "What to do with executable text files when activated"
@@ -223,48 +174,28 @@ msgid ""
 "double clicked). Possible values are \"launch\" to launch them as programs, "
 "\"ask\" to ask what to do via a dialog, and \"display\" to display them as "
 "text files."
-msgstr ""
-"Что делать с исполняемыми текстовыми файлами при их активизации (одиночным "
-"или двойным щелчком). Допустимые значения: «launch» — запускать их как "
-"программы; «ask» — запрашивать нужное действие через диалог; «display» — "
-"показывать их как текстовые файлы."
+msgstr "Что делать с исполняемыми текстовыми файлами при их активизации (одиночным или двойным щелчком). Допустимые значения: «launch» — запускать их как программы; «ask» — запрашивать нужное действие через диалог; «display» — показывать их как текстовые файлы."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
-#| msgid "Show the package installer for unknown mime types"
 msgid "Show the package installer for unknown MIME types"
 msgstr "Показывать программу установки пакетов для неизвестных типов MIME"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
-#| msgid ""
-#| "Whether to show the user a package installer dialog in case an unknown "
-#| "mime type is opened, in order to search for an application to handle it."
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
-"Определяет отображение диалогового окна программы управления пакетами, в "
-"случае открытия файла с неизвестным типом MIME, для поиска приложения "
-"работающего с ним."
+msgstr "Определяет отображение диалогового окна программы управления пакетами, в случае открытия файла с неизвестным типом MIME, для поиска приложения работающего с ним."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:23
-#| msgid ""
-#| "Show a warning dialog for the change of the shortcut for move to trash"
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
-"Показывать диалоговое окно с предупреждением о смене комбинации клавиш для "
-"удаления в корзину"
+msgstr "Показывать диалоговое окно с предупреждением о смене комбинации клавиш для удаления в корзину"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:24
-#| msgid ""
-#| "Show a warning dialog for the change of the shortcut for move to trash "
-#| "from control + delete to just delete."
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
-"Показывать диалоговое окно с предупреждением о смене комбинации клавиш для "
-"удаления в корзину с «Сtrl+Delete» на просто «Delete»."
+msgstr "Показывать диалоговое окно с предупреждением о смене комбинации клавиш для удаления в корзину с «Сtrl+Delete» на просто «Delete»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:25
 msgid "Use extra mouse button events in Nautilus' browser window"
@@ -275,10 +206,7 @@ msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Nautilus when either is "
 "pressed."
-msgstr ""
-"Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр "
-"определяет, будет ли выполняться какое-нибудь действие в Nautilus, если "
-"любая из кнопок нажата."
+msgstr "Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр определяет, будет ли выполняться какое-нибудь действие в Nautilus, если любая из кнопок нажата."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:27
 msgid "Mouse button to activate the \"Forward\" command in browser window"
@@ -286,13 +214,10 @@ msgstr "Кнопка мыши для запуска команды «Вперё�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:28
 msgid ""
-"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
-"will set which button activates the \"Forward\" command in a browser window. "
-"Possible values range between 6 and 14."
-msgstr ""
-"Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр "
-"определяет, по какой из кнопок в окне обозревателя нужно выполнить команду "
-"«Вперёд». Возможные значения лежат в диапазоне от 6 до 14."
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key"
+" will set which button activates the \"Forward\" command in a browser "
+"window. Possible values range between 6 and 14."
+msgstr "Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр определяет, по какой из кнопок в окне обозревателя нужно выполнить команду «Вперёд». Возможные значения лежат в диапазоне от 6 до 14."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:29
 msgid "Mouse button to activate the \"Back\" command in browser window"
@@ -300,13 +225,10 @@ msgstr "Кнопка мыши для запуска команды «Назад�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:30
 msgid ""
-"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
-"will set which button activates the \"Back\" command in a browser window. "
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key"
+" will set which button activates the \"Back\" command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
-"Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр "
-"определяет, по какой из кнопок в окне обозревателя нужно выполнить команду "
-"«Назад». Возможные значения лежат в диапазоне от 6 до 14."
+msgstr "Для пользователей мышей с кнопками «Вперёд» и «Назад» этот параметр определяет, по какой из кнопок в окне обозревателя нужно выполнить команду «Назад». Возможные значения лежат в диапазоне от 6 до 14."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:31
 msgid "When to show thumbnails of files"
@@ -314,18 +236,13 @@ msgstr "Когда показывать миниатюры файл"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:32
 msgid ""
-"Speed trade-off for when to show a file as a thumbnail. If set to \"always\" "
-"then always thumbnail, even if the folder is on a remote server. If set to "
+"Speed trade-off for when to show a file as a thumbnail. If set to \"always\""
+" then always thumbnail, even if the folder is on a remote server. If set to "
 "\"local-only\" then only show thumbnails for local file systems. If set to "
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
-"Despite what the name may suggest, this applies to any previewable file type."
-msgstr ""
-"Критерий отображения миниатюр. Если установлено «always», миниатюры будут "
-"отображаться всегда, даже если папка находится на удалённом сервере. Если "
-"установлено «local-only», миниатюры будут создаваться только для файлов на "
-"локальных файловых системах. Если установлено «never», вместо миниатюр "
-"всегда будет использоваться значок типа файла. Применяется ко всем типам "
-"файлов, для которых возможен предварительный просмотр."
+"Despite what the name may suggest, this applies to any previewable file "
+"type."
+msgstr "Критерий отображения миниатюр. Если установлено «always», миниатюры будут отображаться всегда, даже если папка находится на удалённом сервере. Если установлено «local-only», миниатюры будут создаваться только для файлов на локальных файловых системах. Если установлено «never», вместо миниатюр всегда будет использоваться значок типа файла. Применяется ко всем типам файлов, для которых возможен предварительный просмотр."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -336,11 +253,7 @@ msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
-"Для изображений, чей размер превышает заданный здесь (в байтах), файлы "
-"миниатюр создаваться не будут. Цель этого параметра — избежать построения "
-"миниатюр для больших изображений, для которых может потребоваться много "
-"времени на загрузку или много памяти."
+msgstr "Для изображений, чей размер превышает заданный здесь (в байтах), файлы миниатюр создаваться не будут. Цель этого параметра — избежать построения миниатюр для больших изображений, для которых может потребоваться много времени на загрузку или много памяти."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:35
 msgid "Show folders first in windows"
@@ -350,9 +263,7 @@ msgstr "Показывать папки перед файлами в окнах"
 msgid ""
 "If set to true, then Nautilus shows folders prior to showing files in the "
 "icon and list views."
-msgstr ""
-"Если этот ключ установлен, Nautilus будет показывать папки перед файлами в "
-"режимах просмотра в виде значков и в виде списка."
+msgstr "Если этот ключ установлен, Nautilus будет показывать папки перед файлами в режимах просмотра в виде значков и в виде списка."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:37
 msgid "Default sort order"
@@ -360,34 +271,21 @@ msgstr "Порядок сортировки по умолчанию"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:38
 msgid ""
-"The default sort-order for items in the icon view. Possible values are \"name"
-"\", \"size\", \"type\" and \"mtime\"."
-msgstr ""
-"Порядок сортировки объектов по умолчанию в режиме просмотра значков. "
-"Допустимые значения: «name», «size», «type» и «mtime»."
+"The default sort-order for items in the icon view. Possible values are "
+"\"name\", \"size\", \"type\" and \"mtime\"."
+msgstr "Порядок сортировки объектов по умолчанию в режиме просмотра значков. Допустимые значения: «name», «size», «type» и «mtime»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:39
 msgid "Reverse sort order in new windows"
 msgstr "Использовать обратный порядок сортировки для новых окон"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:40
-#| msgid ""
-#| "If true, files in new windows will be sorted in reverse order. ie, if "
-#| "sorted by name, then instead of sorting the files from \"a\" to \"z\", "
-#| "they will be sorted from \"z\" to \"a\"; if sorted by size, instead of "
-#| "being incrementally they will be sorted decrementally."
 msgid ""
 "If true, files in new windows will be sorted in reverse order. I.e., if "
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
-"Если установлено значение «true», файлы в новых окнах будут сортироваться в "
-"обратном порядке. Например, если включена сортировка по имени, то вместо "
-"сортировки файлов в порядке от «а» до «я», файлы будут отсортированы в "
-"порядке от «я» до «а»; если же включена сортировка по размеру, то вместо "
-"порядка от меньшего к большему будет использован порядок от большего к "
-"меньшему."
+msgstr "Если установлено значение «true», файлы в новых окнах будут сортироваться в обратном порядке. Например, если включена сортировка по имени, то вместо сортировки файлов в порядке от «а» до «я», файлы будут отсортированы в порядке от «я» до «а»; если же включена сортировка по размеру, то вместо порядка от меньшего к большему будет использован порядок от большего к меньшему."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -398,10 +296,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
 "and \"icon-view\"."
-msgstr ""
-"При посещении папки будет использоваться этот режим просмотра, если именно "
-"для этой папки не выбран другой режим просмотра. Возможные варианты: "
-"«list_view», «icon_view»."
+msgstr "При посещении папки будет использоваться этот режим просмотра, если именно для этой папки не выбран другой режим просмотра. Возможные варианты: «list_view», «icon_view»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:43
 msgid "Whether to show hidden files"
@@ -409,11 +304,9 @@ msgstr "Показывать ли скрытые файлы"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:44
 msgid ""
-"This key is deprecated and ignored. The \"show-hidden\" key from \"org.gtk."
-"Settings.FileChooser\" is now used instead."
-msgstr ""
-"Этот параметр устарел и игнорируется. Вместо него используется параметр "
-"«show-hidden» в «org.gtk.Settings.FileChooser»."
+"This key is deprecated and ignored. The \"show-hidden\" key from "
+"\"org.gtk.Settings.FileChooser\" is now used instead."
+msgstr "Этот параметр устарел и игнорируется. Вместо него используется параметр «show-hidden» в «org.gtk.Settings.FileChooser»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:45
 msgid "What viewer should be used when searching"
@@ -422,8 +315,7 @@ msgstr "Тип вида используемый при поиске"
 #: ../data/org.gnome.nautilus.gschema.xml.h:46
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
-"При поиске Nautilus переключает вид на тип, указанный в этом параметре."
+msgstr "При поиске Nautilus переключает вид на тип, указанный в этом параметре."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:47
 msgid "Bulk rename utility"
@@ -436,31 +328,19 @@ msgid ""
 "themselves in this key by setting the key to a space-separated string of "
 "their executable name and any command line options. If the executable name "
 "is not set to a full path, it will be searched for in the search path."
-msgstr ""
-"Если этот ключ установлен, Nautilus добавит адреса URI выделенных файлов и "
-"обработает результат как командную строку для массового переименования. "
-"Приложения для массового переименования можно зарегистрировать в этом ключе, "
-"присвоив значению ключа строку, состоящую из имён исполняемых файлов и любых "
-"параметров командной строки, разделённых пробелами. Если имя исполняемого "
-"файла указано не по полному пути, поиск файла будет осуществляться в пути "
-"поиска."
+msgstr "Если этот ключ установлен, Nautilus добавит адреса URI выделенных файлов и обработает результат как командную строку для массового переименования. Приложения для массового переименования можно зарегистрировать в этом ключе, присвоив значению ключа строку, состоящую из имён исполняемых файлов и любых параметров командной строки, разделённых пробелами. Если имя исполняемого файла указано не по полному пути, поиск файла будет осуществляться в пути поиска."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:49
 msgid ""
 "Whether to open the hovered folder after a timeout when drag and drop "
 "operation"
-msgstr ""
-"Определяет открытие перемещаемой папки после тайм-аута при выполнении "
-"операции перетаскивания"
+msgstr "Определяет открытие перемещаемой папки после тайм-аута при выполнении операции перетаскивания"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:50
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
-"Если установлено значение «true», при выполнении операции перетаскивания, "
-"папка, над которой помещён перетаскиваемый объект, откроется автоматически "
-"после тайм-аута."
+msgstr "Если установлено значение «true», при выполнении операции перетаскивания, папка, над которой помещён перетаскиваемый объект, откроется автоматически после тайм-аута."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:51
 msgid "List of possible captions on icons"
@@ -472,11 +352,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: \"size\", \"type\", \"date_modified\", \"owner\", \"group\", "
 "\"permissions\", and \"mime_type\"."
-msgstr ""
-"Список подписей к значкам для режима просмотра в виде значков и для рабочего "
-"стола. Количество подписей зависит от используемого масштаба. Возможные "
-"значения: «size», «type», «date_modified», «owner», «group», «permissions» и "
-"«mime_type»."
+msgstr "Список подписей к значкам для режима просмотра в виде значков и для рабочего стола. Количество подписей зависит от используемого масштаба. Возможные значения: «size», «type», «date_modified», «owner», «group», «permissions» и «mime_type»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:53
 msgid "Default icon zoom level"
@@ -494,9 +370,7 @@ msgstr "Размер значков-миниатюр по умолчанию"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
-"Размер значка по умолчанию для создания миниатюр при просмотре в виде "
-"значков, когда используется размер NAUTILUS_ICON_SIZE_STANDARD."
+msgstr "Размер значка по умолчанию для создания миниатюр при просмотре в виде значков, когда используется размер NAUTILUS_ICON_SIZE_STANDARD."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -517,19 +391,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr ""
-"Строка, определяющая, как будут опускаться части слишком длинных имён "
-"файлов, в зависимости от масштаба. Каждый элемент списка имеет вид «Масштаб:"
-"Число». Для каждого масштаба, если это число больше нуля, имя файла не будет "
-"превышать заданное число строк. Если число меньше или равно 0, предел для "
-"данного масштаба не устанавливается. Значение по умолчанию (вида «Число», "
-"без указания масштаба) также допускается. Оно определяет максимальное число "
-"строк для всех остальных масштабов. Например: 0 — всегда отображать имя файла целиком; "
-"3 — укорачивать имена файлов, если они не вмещаются в три строки, smallest:5,"
-"smaller:4,0 — укорачивать имена файлов, не вмещающихся в пять строк для "
-"масштаба «smallest», укорачивать имена файлов, не вмещающихся в четыре "
-"строки для масштаба «smaller» и не ограничивать длину имён файлов в других "
-"масштабах. Доступные масштабы: small, standard, large."
+msgstr "Строка, определяющая, как будут опускаться части слишком длинных имён файлов, в зависимости от масштаба. Каждый элемент списка имеет вид «Масштаб:Число». Для каждого масштаба, если это число больше нуля, имя файла не будет превышать заданное число строк. Если число меньше или равно 0, предел для данного масштаба не устанавливается. Значение по умолчанию (вида «Число», без указания масштаба) также допускается. Оно определяет максимальное число строк для всех остальных масштабов. Например: 0 — всегда отображать имя файла целиком; 3 — укорачивать имена файлов, если они не вмещаются в три строки, smallest:5,smaller:4,0 — укорачивать имена файлов, не вмещающихся в пять строк для масштаба «smallest», укорачивать имена файлов, не вмещающихся в четыре строки для масштаба «smaller» и не ограничивать длину имён файлов в других масштабах. Доступные масштабы: small, standard, large."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:59
 msgid "Default list zoom level"
@@ -545,8 +407,7 @@ msgstr "Перечень столбцов списка по умолчанию"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:62
 msgid "Default list of columns visible in the list view."
-msgstr ""
-"Перечень столбцов, показываемых по умолчанию при просмотре в виде списка."
+msgstr "Перечень столбцов, показываемых по умолчанию при просмотре в виде списка."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:63
 msgid "Default column order in the list view"
@@ -564,13 +425,12 @@ msgstr "Использовать просмотр в виде дерева"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
-"Определяет использование дерева папок для просмотра вместо обычного списка."
+msgstr "Определяет использование дерева папок для просмотра вместо обычного списка."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:67
 msgctxt "desktop-font"
 msgid "''"
-msgstr "«»"
+msgstr "''"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:68
 msgid "Desktop font"
@@ -578,8 +438,7 @@ msgstr "Шрифт рабочего стола"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:69
 msgid "The font description used for the icons on the desktop."
-msgstr ""
-"Описание шрифта, используемого для подписей к значкам на рабочем столе."
+msgstr "Описание шрифта, используемого для подписей к значкам на рабочем столе."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:70
 msgid "Home icon visible on desktop"
@@ -589,9 +448,7 @@ msgstr "Значок домашней папки присутствует на �
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
-msgstr ""
-"Если этот ключ установлен, на рабочий стол будет помещён значок, ссылающийся "
-"на домашнюю папку."
+msgstr "Если этот ключ установлен, на рабочий стол будет помещён значок, ссылающийся на домашнюю папку."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:72
 msgid "Trash icon visible on desktop"
@@ -601,9 +458,7 @@ msgstr "Значок корзины присутствует на рабочем
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
-"Если установлено значение «true», на рабочем столе будет помещён значок, "
-"ссылающийся на корзину."
+msgstr "Если установлено значение «true», на рабочем столе будет помещён значок, ссылающийся на корзину."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -613,9 +468,7 @@ msgstr "Показывать подключённые тома на рабоче
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
-msgstr ""
-"Если установлено значение «true», на рабочий стол будут помещаться значки, "
-"ссылающиеся на присоединённые тома."
+msgstr "Если установлено значение «true», на рабочий стол будут помещаться значки, ссылающиеся на присоединённые тома."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:76
 msgid "Network Servers icon visible on the desktop"
@@ -625,9 +478,7 @@ msgstr "Значок «Сетевые серверы» присутствует 
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
-msgstr ""
-"Если установлено значение «true», на рабочий стол будет помещён значок, "
-"ссылающийся на «Сетевые серверы»."
+msgstr "Если установлено значение «true», на рабочий стол будет помещён значок, ссылающийся на «Сетевые серверы»."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
@@ -642,9 +493,7 @@ msgstr "Имя значка «Домашняя папка» на рабочем 
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
-msgstr ""
-"Это имя может быть установлено, если необходимо переименовать значок "
-"домашней папки на рабочем столе."
+msgstr "Это имя может быть установлено, если необходимо переименовать значок домашней папки на рабочем столе."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:81
 msgctxt "trash-icon-name"
@@ -659,9 +508,7 @@ msgstr "Имя значка «Корзина» на рабочем столе"
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
-"Это имя может быть установлено, если необходимо переименовать значок корзины "
-"на рабочем столе."
+msgstr "Это имя может быть установлено, если необходимо переименовать значок корзины на рабочем столе."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
@@ -676,21 +523,15 @@ msgstr "Имя значка сетевых серверов"
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
-msgstr ""
-"Это имя может быть установлено, если необходимо переименовать значок сетевых "
-"серверов на рабочем столе."
+msgstr "Это имя может быть установлено, если необходимо переименовать значок сетевых серверов на рабочем столе."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:87
 msgid ""
-"An integer specifying how parts of overlong file names should be replaced by "
-"ellipses on the desktop. If the number is larger than 0, the file name will "
-"not exceed the given number of lines. If the number is 0 or smaller, no "
+"An integer specifying how parts of overlong file names should be replaced by"
+" ellipses on the desktop. If the number is larger than 0, the file name will"
+" not exceed the given number of lines. If the number is 0 or smaller, no "
 "limit is imposed on the number of displayed lines."
-msgstr ""
-"Целое число, определяющее, как будут опускаться части слишком длинных имён "
-"файлов на рабочем столе. Если это число больше нуля, то имя файла не будет "
-"превышать заданное число строк. Если число меньше или равно нулю, "
-"ограничение на число строк не устанавливается."
+msgstr "Целое число, определяющее, как будут опускаться части слишком длинных имён файлов на рабочем столе. Если это число больше нуля, то имя файла не будет превышать заданное число строк. Если число меньше или равно нулю, ограничение на число строк не устанавливается."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:88
 msgid "Fade the background on change"
@@ -700,9 +541,7 @@ msgstr "Использовать плавное затухание при сме
 msgid ""
 "If set to true, then Nautilus will use a fade effect to change the desktop "
 "background."
-msgstr ""
-"Если этот ключ установлен, Nautilus будет использовать плавное затухание при "
-"смене фона."
+msgstr "Если этот ключ установлен, Nautilus будет использовать плавное затухание при смене фона."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:90
 msgid "The geometry string for a navigation window"
@@ -710,10 +549,9 @@ msgstr "Строка геометрии для окна обозревателя
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:91
 msgid ""
-"A string containing the saved geometry and coordinates string for navigation "
-"windows."
-msgstr ""
-"Строка, содержащая сохранённую геометрию и координаты для окон обозревателя."
+"A string containing the saved geometry and coordinates string for navigation"
+" windows."
+msgstr "Строка, содержащая сохранённую геометрию и координаты для окон обозревателя."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
@@ -721,8 +559,7 @@ msgstr "Должно ли окно обозревателя иметь макс�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
-msgstr ""
-"Должно ли окно обозревателя иметь по умолчанию максимально возможный размер"
+msgstr "Должно ли окно обозревателя иметь по умолчанию максимально возможный размер."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:94
 msgid "Width of the side pane"
@@ -739,9 +576,7 @@ msgstr "Показывать строку адреса в новых окнах"
 #: ../data/org.gnome.nautilus.gschema.xml.h:97
 msgid ""
 "If set to true, newly opened windows will have the location bar visible."
-msgstr ""
-"Если этот ключ установлен, во вновь создаваемых окнах будет видна строка "
-"адреса."
+msgstr "Если этот ключ установлен, во вновь создаваемых окнах будет видна строка адреса."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:98
 msgid "Show side pane in new windows"
@@ -749,9 +584,7 @@ msgstr "Показывать боковую панель в новых окна�
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:99
 msgid "If set to true, newly opened windows will have the side pane visible."
-msgstr ""
-"Если этот ключ установлен, во вновь создаваемых окнах будет видна боковая "
-"панель."
+msgstr "Если этот ключ установлен, во вновь создаваемых окнах будет видна боковая панель."
 
 #: ../eel/eel-canvas.c:1254 ../eel/eel-canvas.c:1255
 msgid "X"
@@ -767,13 +600,13 @@ msgstr "Показать _подробности"
 
 #. Put up the timed wait window.
 #: ../eel/eel-stock-dialogs.c:195
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:558
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:555
 #: ../libnautilus-private/nautilus-file-operations.c:182
-#: ../src/nautilus-files-view.c:1056 ../src/nautilus-files-view.c:1530
-#: ../src/nautilus-files-view.c:5276 ../src/nautilus-location-entry.c:270
-#: ../src/nautilus-mime-actions.c:560 ../src/nautilus-mime-actions.c:564
-#: ../src/nautilus-mime-actions.c:635 ../src/nautilus-mime-actions.c:978
-#: ../src/nautilus-mime-actions.c:1488 ../src/nautilus-mime-actions.c:1717
+#: ../src/nautilus-files-view.c:1055 ../src/nautilus-files-view.c:1530
+#: ../src/nautilus-files-view.c:5298 ../src/nautilus-location-entry.c:270
+#: ../src/nautilus-mime-actions.c:561 ../src/nautilus-mime-actions.c:565
+#: ../src/nautilus-mime-actions.c:636 ../src/nautilus-mime-actions.c:979
+#: ../src/nautilus-mime-actions.c:1486 ../src/nautilus-mime-actions.c:1716
 #: ../src/nautilus-properties-window.c:4189
 #: ../src/nautilus-properties-window.c:5181
 #: ../src/nautilus-search-popover.c:539
@@ -789,15 +622,15 @@ msgid " (invalid Unicode)"
 msgstr " (недопустимая последовательность Юникод)"
 
 #: ../libnautilus-private/nautilus-bookmark.c:107
-#: ../libnautilus-private/nautilus-file-utilities.c:273
-#: ../src/nautilus-pathbar.c:408
+#: ../libnautilus-private/nautilus-file-utilities.c:283
+#: ../src/nautilus-pathbar.c:413
 msgid "Other Locations"
 msgstr "Другие места"
 
 #: ../libnautilus-private/nautilus-bookmark.c:109
 #: ../libnautilus-private/nautilus-desktop-link.c:129
-#: ../libnautilus-private/nautilus-file-utilities.c:265
-#: ../src/nautilus-list-view.c:1490 ../src/nautilus-pathbar.c:406
+#: ../libnautilus-private/nautilus-file-utilities.c:267
+#: ../src/nautilus-list-view.c:1491 ../src/nautilus-pathbar.c:411
 #: ../src/nautilus-shell-search-provider.c:292
 msgid "Home"
 msgstr "Домашняя папка"
@@ -1001,60 +834,59 @@ msgstr "Не удалось переименовать desktop-значок"
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "Содержимое файла имеет неверный формат файла рабочего стола"
+msgstr "Вероятно, содержимое файла, это неверный файл формата .desktop"
 
 #. Translators: Time in 24h format
-#: ../libnautilus-private/nautilus-file.c:4769
+#: ../libnautilus-private/nautilus-file.c:4777
 msgid "%H:%M"
 msgstr "%H:%M"
 
 #. Translators: Time in 12h format
-#: ../libnautilus-private/nautilus-file.c:4772
+#: ../libnautilus-private/nautilus-file.c:4780
 msgid "%l:%M %p"
 msgstr "%l:%M %p"
 
-#: ../libnautilus-private/nautilus-file.c:4779
+#: ../libnautilus-private/nautilus-file.c:4787
 #, no-c-format
 msgid "Yesterday"
 msgstr "Вчера"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 24h format. i.e. "Yesterday 23:04"
-#: ../libnautilus-private/nautilus-file.c:4785
+#: ../libnautilus-private/nautilus-file.c:4793
 #, no-c-format
 msgid "Yesterday %H:%M"
 msgstr "Вчера %H:%M"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 12h format. i.e. "Yesterday 9:04 PM"
-#: ../libnautilus-private/nautilus-file.c:4790
+#: ../libnautilus-private/nautilus-file.c:4798
 #, no-c-format
 msgid "Yesterday %l:%M %p"
 msgstr "Вчера %l:%M %p"
 
-#: ../libnautilus-private/nautilus-file.c:4798
+#: ../libnautilus-private/nautilus-file.c:4806
 #, no-c-format
 msgid "%a"
 msgstr "%a"
 
 #. Translators: this is the name of the week day followed by
 #. * a time in 24h format. i.e. "Monday 23:04"
-#: ../libnautilus-private/nautilus-file.c:4804
+#: ../libnautilus-private/nautilus-file.c:4812
 #, no-c-format
 msgid "%a %H:%M"
 msgstr "%a %H:%M"
 
 #. Translators: this is the week day name followed by
 #. * a time in 12h format. i.e. "Monday 9:04 PM"
-#: ../libnautilus-private/nautilus-file.c:4809
+#: ../libnautilus-private/nautilus-file.c:4817
 #, no-c-format
 msgid "%a %l:%M %p"
 msgstr "%a %l:%M %p"
 
-# точка нужна (3 фев.)
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name i.e. "3 Feb"
-#: ../libnautilus-private/nautilus-file.c:4817
+#: ../libnautilus-private/nautilus-file.c:4825
 #, no-c-format
 msgid "%-e %b"
 msgstr "%-e %b."
@@ -1062,214 +894,212 @@ msgstr "%-e %b."
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
 #. * 24h format i.e. "3 Feb 23:04"
-#: ../libnautilus-private/nautilus-file.c:4824
+#: ../libnautilus-private/nautilus-file.c:4832
 #, no-c-format
 msgid "%-e %b %H:%M"
 msgstr "%-e %b. %H:%M"
 
-# исправление даты
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
 #. * 12h format i.e. "3 Feb 9:04"
-#: ../libnautilus-private/nautilus-file.c:4830
+#: ../libnautilus-private/nautilus-file.c:4838
 #, no-c-format
 msgid "%-e %b %l:%M %p"
 msgstr "%-e %b. %l:%M %p"
 
-# исправление даты
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
-#: ../libnautilus-private/nautilus-file.c:4838
+#: ../libnautilus-private/nautilus-file.c:4846
 #, no-c-format
 msgid "%-e %b %Y"
 msgstr "%-e %b. %Y"
 
-# исправление даты
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
 #. * by a time in 24h format i.e. "3 Feb 2015 23:04"
-#: ../libnautilus-private/nautilus-file.c:4845
+#: ../libnautilus-private/nautilus-file.c:4853
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
 msgstr "%-e %b. %Y %H:%M"
 
-# исправление даты
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
 #. * by a time in 12h format i.e. "3 Feb 2015 9:04 PM"
-#: ../libnautilus-private/nautilus-file.c:4851
+#: ../libnautilus-private/nautilus-file.c:4859
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
 msgstr "%-e %b. %Y %l:%M %p"
 
-#: ../libnautilus-private/nautilus-file.c:4860
+#: ../libnautilus-private/nautilus-file.c:4868
 #, no-c-format
 msgid "%c"
 msgstr "%c"
 
-#: ../libnautilus-private/nautilus-file.c:5259
+#: ../libnautilus-private/nautilus-file.c:5267
 #, c-format
 msgid "Not allowed to set permissions"
 msgstr "Установка прав доступа запрещена"
 
-#: ../libnautilus-private/nautilus-file.c:5554
+#: ../libnautilus-private/nautilus-file.c:5562
 #, c-format
 msgid "Not allowed to set owner"
 msgstr "Установка владельца запрещена"
 
-#: ../libnautilus-private/nautilus-file.c:5572
+#: ../libnautilus-private/nautilus-file.c:5580
 #, c-format
 msgid "Specified owner '%s' doesn't exist"
 msgstr "Указанный владелец «%s» не существует"
 
-#: ../libnautilus-private/nautilus-file.c:5836
+#: ../libnautilus-private/nautilus-file.c:5844
 #, c-format
 msgid "Not allowed to set group"
 msgstr "Установка группы запрещена"
 
-#: ../libnautilus-private/nautilus-file.c:5854
+#: ../libnautilus-private/nautilus-file.c:5862
 #, c-format
 msgid "Specified group '%s' doesn't exist"
 msgstr "Указанная группа «%s» не существует"
 
-#. Translators: "Me" is used to indicate the file is owned by me (the current user)
-#: ../libnautilus-private/nautilus-file.c:5989
+#. Translators: "Me" is used to indicate the file is owned by me (the current
+#. user)
+#: ../libnautilus-private/nautilus-file.c:5997
 msgid "Me"
 msgstr "Текущий пользователь"
 
-#: ../libnautilus-private/nautilus-file.c:6013
+#: ../libnautilus-private/nautilus-file.c:6021
 #, c-format
 msgid "%'u item"
 msgid_plural "%'u items"
-msgstr[0] "%'u объект"
-msgstr[1] "%'u объекта"
-msgstr[2] "%'u объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../libnautilus-private/nautilus-file.c:6014
+#: ../libnautilus-private/nautilus-file.c:6022
 #, c-format
 msgid "%'u folder"
 msgid_plural "%'u folders"
-msgstr[0] "%'u папка"
-msgstr[1] "%'u папки"
-msgstr[2] "%'u папок"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../libnautilus-private/nautilus-file.c:6015
+#: ../libnautilus-private/nautilus-file.c:6023
 #, c-format
 msgid "%'u file"
 msgid_plural "%'u files"
-msgstr[0] "%'u файл"
-msgstr[1] "%'u файла"
-msgstr[2] "%'u файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. This means no contents at all were readable
-#: ../libnautilus-private/nautilus-file.c:6416
-#: ../libnautilus-private/nautilus-file.c:6432
+#: ../libnautilus-private/nautilus-file.c:6424
+#: ../libnautilus-private/nautilus-file.c:6440
 msgid "? items"
 msgstr "? объектов"
 
 #. This means no contents at all were readable
-#: ../libnautilus-private/nautilus-file.c:6422
+#: ../libnautilus-private/nautilus-file.c:6430
 msgid "? bytes"
 msgstr "? байт"
 
-#: ../libnautilus-private/nautilus-file.c:6439
-#: ../libnautilus-private/nautilus-file.c:6520
+#: ../libnautilus-private/nautilus-file.c:6447
+#: ../libnautilus-private/nautilus-file.c:6528
 msgid "Unknown"
 msgstr "Неизвестно"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
-#.
-#: ../libnautilus-private/nautilus-file.c:6453
+#: ../libnautilus-private/nautilus-file.c:6461
 #: ../src/nautilus-properties-window.c:1186
 msgid "unknown"
 msgstr "неизвестно"
 
-#: ../libnautilus-private/nautilus-file.c:6484
 #: ../libnautilus-private/nautilus-file.c:6492
-#: ../libnautilus-private/nautilus-file.c:6543
+#: ../libnautilus-private/nautilus-file.c:6500
+#: ../libnautilus-private/nautilus-file.c:6551
 msgid "Program"
 msgstr "Программа"
 
-#: ../libnautilus-private/nautilus-file.c:6485
+#: ../libnautilus-private/nautilus-file.c:6493
 msgid "Audio"
 msgstr "Аудио"
 
-#: ../libnautilus-private/nautilus-file.c:6486
+#: ../libnautilus-private/nautilus-file.c:6494
 msgid "Font"
 msgstr "Шрифт"
 
-#: ../libnautilus-private/nautilus-file.c:6487
+#: ../libnautilus-private/nautilus-file.c:6495
 #: ../src/nautilus-image-properties-page.c:769
 msgid "Image"
 msgstr "Изображение"
 
-#: ../libnautilus-private/nautilus-file.c:6488
+#: ../libnautilus-private/nautilus-file.c:6496
 msgid "Archive"
 msgstr "Архив"
 
-#: ../libnautilus-private/nautilus-file.c:6489
+#: ../libnautilus-private/nautilus-file.c:6497
 msgid "Markup"
 msgstr "Разметка"
 
-#: ../libnautilus-private/nautilus-file.c:6490
-#: ../libnautilus-private/nautilus-file.c:6491
+#: ../libnautilus-private/nautilus-file.c:6498
+#: ../libnautilus-private/nautilus-file.c:6499
 msgid "Text"
 msgstr "Текст"
 
-#: ../libnautilus-private/nautilus-file.c:6493
+#: ../libnautilus-private/nautilus-file.c:6501
 #: ../src/nautilus-mime-actions.c:216
 msgid "Video"
 msgstr "Видео"
 
-#: ../libnautilus-private/nautilus-file.c:6494
+#: ../libnautilus-private/nautilus-file.c:6502
 msgid "Contacts"
 msgstr "Контакты"
 
-#: ../libnautilus-private/nautilus-file.c:6495
+#: ../libnautilus-private/nautilus-file.c:6503
 msgid "Calendar"
 msgstr "Календарь"
 
-#: ../libnautilus-private/nautilus-file.c:6496
+#: ../libnautilus-private/nautilus-file.c:6504
 msgid "Document"
 msgstr "Документ"
 
-#: ../libnautilus-private/nautilus-file.c:6497
+#: ../libnautilus-private/nautilus-file.c:6505
 #: ../src/nautilus-mime-actions.c:186
 msgid "Presentation"
 msgstr "Презентация"
 
-#: ../libnautilus-private/nautilus-file.c:6498
+#: ../libnautilus-private/nautilus-file.c:6506
 #: ../src/nautilus-mime-actions.c:195
 msgid "Spreadsheet"
 msgstr "Электронная таблица"
 
-#: ../libnautilus-private/nautilus-file.c:6545
+#: ../libnautilus-private/nautilus-file.c:6553
 msgid "Binary"
 msgstr "Двоичный файл"
 
-#: ../libnautilus-private/nautilus-file.c:6549
+#: ../libnautilus-private/nautilus-file.c:6557
 msgid "Folder"
 msgstr "Папка"
 
-#: ../libnautilus-private/nautilus-file.c:6580
+#: ../libnautilus-private/nautilus-file.c:6588
 msgid "Link"
 msgstr "Ссылка"
 
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
 #. * to that kind of file (e.g. "link to folder").
-#.
 #. appended to new link file
-#: ../libnautilus-private/nautilus-file.c:6586
+#: ../libnautilus-private/nautilus-file.c:6594
 #: ../libnautilus-private/nautilus-file-operations.c:381
 #: ../src/nautilus-files-view-dnd.c:125
 #, c-format
 msgid "Link to %s"
 msgstr "Ссылка на %s"
 
-#: ../libnautilus-private/nautilus-file.c:6602
-#: ../libnautilus-private/nautilus-file.c:6616
+#: ../libnautilus-private/nautilus-file.c:6610
+#: ../libnautilus-private/nautilus-file.c:6624
 msgid "Link (broken)"
 msgstr "Ссылка (испорченная)"
 
@@ -1282,9 +1112,7 @@ msgstr "Совместить папку «%s»?"
 msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
-msgstr ""
-"Слияние потребует подтверждения перед заменой каких-либо файлов в папке, "
-"которые конфликтуют с копируемыми."
+msgstr "Слияние потребует подтверждения перед заменой каких-либо файлов в папке, которые конфликтуют с копируемыми."
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:150
 #, c-format
@@ -1383,43 +1211,43 @@ msgid "Merge"
 msgstr "Совместить"
 
 #. Setup the expander for the rename action
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:522
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:519
 msgid "_Select a new name for the destination"
 msgstr "_Выбрать новое имя для назначения"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:536
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:533
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:317
 msgid "Reset"
 msgstr "Сбросить"
 
 #. Setup the checkbox to apply the action to all files
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:548
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
 msgstr "Применить это действие ко всем файлам и папкам"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:560
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
 msgid "_Skip"
 msgstr "_Пропустить"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:565
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:562
 msgid "Re_name"
 msgstr "Переи_меновать"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:571
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:568
 msgid "Replace"
 msgstr "Заменить"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:654
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
 msgstr "Совместить папку"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:654
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:660
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr "Конфликт файлов и папок"
+msgstr "Конфликт каталогов и файлов"
 
-#: ../libnautilus-private/nautilus-file-conflict-dialog.c:660
+#: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
 msgstr "Конфликт файлов"
 
@@ -1463,34 +1291,38 @@ msgstr "Копировать _всё равно"
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
-msgstr[0] "%'d секунда"
-msgstr[1] "%'d секунды"
-msgstr[2] "%'d секунд"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:287
 #: ../libnautilus-private/nautilus-file-operations.c:298
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
-msgstr[0] "%'d минута"
-msgstr[1] "%'d минуты"
-msgstr[2] "%'d минут"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:297
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
-msgstr[0] "%'d час"
-msgstr[1] "%'d часа"
-msgstr[2] "%'d часов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:305
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
-msgstr[0] "примерно %'d час"
-msgstr[1] "примерно %'d часа"
-msgstr[2] "примерно %'d часов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. appended to new link file
 #: ../libnautilus-private/nautilus-file-operations.c:385
@@ -1501,7 +1333,6 @@ msgstr "Другая ссылка на %s"
 #. Localizers: Feel free to leave out the "st" suffix
 #. * if there's no way to do that nicely for a
 #. * particular language.
-#.
 #: ../libnautilus-private/nautilus-file-operations.c:401
 #, c-format
 msgid "%'dst link to %s"
@@ -1528,7 +1359,6 @@ msgstr "%'d-я ссылка на %s"
 #. Localizers:
 #. * Feel free to leave out the st, nd, rd and th suffix or
 #. * make some or all of them match.
-#.
 #. localizers: tag used to detect the first copy of a file
 #: ../libnautilus-private/nautilus-file-operations.c:452
 msgid " (copy)"
@@ -1589,10 +1419,11 @@ msgstr "%s (другая копия)%s"
 msgid "%s (%'dth copy)%s"
 msgstr "%s (%'d-я копия)%s"
 
-#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
-#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd
+#. and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the
+#. translated
 #. * strings look like "%s (copy %'d)%s".
-#.
 #. localizers: appended to x1st file copy
 #: ../libnautilus-private/nautilus-file-operations.c:502
 #, c-format
@@ -1635,11 +1466,9 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
 msgstr[0] ""
-"Действительно окончательно удалить %'d выделенный объект из корзины?"
 msgstr[1] ""
-"Действительно окончательно удалить %'d выделенных объекта из корзины?"
 msgstr[2] ""
-"Действительно окончательно удалить %'d выделенных объектов из корзины?"
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1401
 #: ../libnautilus-private/nautilus-file-operations.c:1467
@@ -1656,7 +1485,7 @@ msgstr "Все объекты, находящиеся в корзине, буд�
 
 #: ../libnautilus-private/nautilus-file-operations.c:1428
 #: ../libnautilus-private/nautilus-file-operations.c:2504
-#: ../src/nautilus-window.c:1301
+#: ../src/nautilus-window.c:1300
 msgid "Empty _Trash"
 msgstr "О_чистить корзину"
 
@@ -1669,9 +1498,10 @@ msgstr "Действительно безвозвратно удалить «%B�
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
-msgstr[0] "Действительно безвозвратно удалить %'d выделенный объект?"
-msgstr[1] "Действительно безвозвратно удалить %'d выделенных объекта?"
-msgstr[2] "Действительно безвозвратно удалить %'d выделенных объектов?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1511
 msgid "Deleted “%B”"
@@ -1685,17 +1515,19 @@ msgstr "Удаляется «%B»"
 #, c-format
 msgid "Deleted %'d file"
 msgid_plural "Deleted %'d files"
-msgstr[0] "Удалён %'d файл"
-msgstr[1] "Удалено %'d файла"
-msgstr[2] "Удалено %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1525
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
-msgstr[0] "Удаляется %'d файл"
-msgstr[1] "Удаляется %'d файла"
-msgstr[2] "Удаляется %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1713,26 +1545,29 @@ msgid "%'d / %'d"
 msgstr "%'d из %'d"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
-#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4 files/sec)"
+#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4
+#. files/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: ../libnautilus-private/nautilus-file-operations.c:1568
 #: ../libnautilus-private/nautilus-file-operations.c:1964
 msgid "%'d / %'d — %T left"
 msgid_plural "%'d / %'d — %T left"
-msgstr[0] "%'d из %'d — осталось %T"
-msgstr[1] "%'d из %'d — осталось %T"
-msgstr[2] "%'d из %'d — осталось %T"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1571
 #: ../libnautilus-private/nautilus-file-operations.c:1967
 #, c-format
 msgid "(%d file/sec)"
 msgid_plural "(%d files/sec)"
-msgstr[0] "(%d файл/с)"
-msgstr[1] "(%d файла/с)"
-msgstr[2] "(%d файлов/с)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1653
 #: ../libnautilus-private/nautilus-file-operations.c:1687
@@ -1746,8 +1581,7 @@ msgstr "Произошла ошибка при удалении."
 msgid ""
 "Files in the folder “%B” cannot be deleted because you do not have "
 "permissions to see them."
-msgstr ""
-"Нельзя удалить файлы в папке «%B», потому что у вас нет прав на их просмотр."
+msgstr "Нельзя удалить файлы в папке «%B», потому что у вас нет прав на их просмотр."
 
 #: ../libnautilus-private/nautilus-file-operations.c:1660
 #: ../libnautilus-private/nautilus-file-operations.c:2824
@@ -1793,17 +1627,19 @@ msgstr "Перемещено в корзину «%B»"
 #, c-format
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
-msgstr[0] "Перемещение в корзину %'d файл"
-msgstr[1] "Перемещение в корзину %'d файла"
-msgstr[2] "Перемещение в корзину %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:1920
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
-msgstr[0] "Перемещён в корзину %'d файл"
-msgstr[1] "Перемещено в корзину %'d файла"
-msgstr[2] "Перемещено в корзину %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: %B is a file name
 #: ../libnautilus-private/nautilus-file-operations.c:2043
@@ -1812,8 +1648,7 @@ msgstr "Не удалось переместить «%B» в корзину. У�
 
 #: ../libnautilus-private/nautilus-file-operations.c:2049
 msgid "This remote location does not support sending items to the trash."
-msgstr ""
-"Это удалённое местоположение не поддерживает отправку объектов в корзину."
+msgstr "Это удалённое местоположение не поддерживает отправку объектов в корзину."
 
 #: ../libnautilus-private/nautilus-file-operations.c:2252
 msgid "Trashing Files"
@@ -1839,9 +1674,7 @@ msgstr "Очистить корзину перед отсоединением?"
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
-msgstr ""
-"Чтобы освободить место на этом томе, нужно очистить корзину. При этом все "
-"объекты, находящиеся в корзине на этом томе, будут безвозвратно утеряны."
+msgstr "Чтобы освободить место на этом томе, нужно очистить корзину. При этом все объекты, находящиеся в корзине на этом томе, будут безвозвратно утеряны."
 
 #: ../libnautilus-private/nautilus-file-operations.c:2502
 msgid "Do _not Empty Trash"
@@ -1849,7 +1682,7 @@ msgstr "Не о_чищать корзину"
 
 #. Translators: %s is a file name formatted for display
 #: ../libnautilus-private/nautilus-file-operations.c:2636
-#: ../src/nautilus-files-view.c:5697
+#: ../src/nautilus-files-view.c:5724
 #, c-format
 msgid "Unable to access “%s”"
 msgstr "Не удалось получить доступ к «%s»"
@@ -1858,33 +1691,37 @@ msgstr "Не удалось получить доступ к «%s»"
 #, c-format
 msgid "Preparing to copy %'d file (%S)"
 msgid_plural "Preparing to copy %'d files (%S)"
-msgstr[0] "Идёт подготовка к копированию %'d файла (%S)"
-msgstr[1] "Идёт подготовка к копированию %'d файлов (%S)"
-msgstr[2] "Идёт подготовка к копированию %'d файлов (%S)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:2718
 #, c-format
 msgid "Preparing to move %'d file (%S)"
 msgid_plural "Preparing to move %'d files (%S)"
-msgstr[0] "Идёт подготовка к перемещению %'d файла (%S)"
-msgstr[1] "Идёт подготовка к перемещению %'d файлов (%S)"
-msgstr[2] "Идёт подготовка к перемещению %'d файлов (%S)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:2724
 #, c-format
 msgid "Preparing to delete %'d file (%S)"
 msgid_plural "Preparing to delete %'d files (%S)"
-msgstr[0] "Идёт подготовка к удалению %'d файла (%S)"
-msgstr[1] "Идёт подготовка к удалению %'d файлов (%S)"
-msgstr[2] "Идёт подготовка к удалению %'d файлов (%S)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:2730
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
-msgstr[0] "Идёт подготовка к удалению %'d файла в корзину"
-msgstr[1] "Идёт подготовка к удалению %'d файлов в корзину"
-msgstr[2] "Идёт подготовка к удалению %'d файлов в корзину"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:2761
 #: ../libnautilus-private/nautilus-file-operations.c:3876
@@ -1907,9 +1744,7 @@ msgstr "Произошла ошибка при удалении файлов в 
 msgid ""
 "Files in the folder “%B” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
-"Нельзя обработать файлы в папке «%B», потому что у вас нет прав на их "
-"просмотр."
+msgstr "Невозможно обработать файлы в папке «%B», нет прав на просмотр данных файлов."
 
 #: ../libnautilus-private/nautilus-file-operations.c:2860
 msgid ""
@@ -1950,15 +1785,12 @@ msgstr "Место назначения не является папкой."
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
-msgstr ""
-"Недостаточно места на устройстве назначения. Попробуйте удалить какие-нибудь "
-"файлы, чтобы освободить место."
+msgstr "Недостаточно места на устройстве назначения. Попробуйте удалить какие-нибудь файлы, чтобы освободить место."
 
 #: ../libnautilus-private/nautilus-file-operations.c:3132
 #, c-format
 msgid "%S more space is required to copy to the destination."
-msgstr ""
-"Требуется ещё %S свободного места для копирования в устройство назначения."
+msgstr "Требуется ещё %S свободного места для копирования в устройство назначения."
 
 #: ../libnautilus-private/nautilus-file-operations.c:3160
 msgid "The destination is read-only."
@@ -1991,46 +1823,53 @@ msgstr "Дублировано «%B»"
 #: ../libnautilus-private/nautilus-file-operations.c:3256
 msgid "Moving %'d file to “%B”"
 msgid_plural "Moving %'d files to “%B”"
-msgstr[0] "Перемещение %'d файла в «%B»"
-msgstr[1] "Перемещение %'d файлов в «%B»"
-msgstr[2] "Перемещение %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3260
 msgid "Copying %'d file to “%B”"
 msgid_plural "Copying %'d files to “%B”"
-msgstr[0] "Копирование файла (%'d из %'d) в «%B»"
-msgstr[1] "Копирование %'d файлов в «%B»"
-msgstr[2] "Копирование %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3270
 msgid "Moved %'d file to “%B”"
 msgid_plural "Moved %'d files to “%B”"
-msgstr[0] "Перемещён %'d файл в «%B»"
-msgstr[1] "Перемещено %'d файла в «%B»"
-msgstr[2] "Перемещено %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3274
 msgid "Copied %'d file to “%B”"
 msgid_plural "Copied %'d files to “%B”"
-msgstr[0] "Скопирован %'d файл в «%B»"
-msgstr[1] "Скопировано %'d файла в «%B»"
-msgstr[2] "Скопировано %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3288
 msgid "Duplicating %'d file in “%B”"
 msgid_plural "Duplicating %'d files in “%B”"
-msgstr[0] "Дублирование %'d файла в «%B»"
-msgstr[1] "Дублирование %'d файлов в «%B»"
-msgstr[2] "Дублирование %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3296
 msgid "Duplicated %'d file in “%B”"
 msgid_plural "Duplicated %'d files in “%B”"
-msgstr[0] "Дублирован %'d файл в «%B»"
-msgstr[1] "Дублировано %'d файла в «%B»"
-msgstr[2] "Дублирование %'d файлов в «%B»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb / 4 MB"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so
+#. something like "4 kb / 4 MB"
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB".
 #: ../libnautilus-private/nautilus-file-operations.c:3324
 #: ../libnautilus-private/nautilus-file-operations.c:3356
@@ -2038,37 +1877,40 @@ msgstr[2] "Дублирование %'d файлов в «%B»"
 msgid "%S / %S"
 msgstr "%S из %S"
 
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
-#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2 hours left (4kb/sec)"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a
+#. time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2
+#. hours left (4kb/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: ../libnautilus-private/nautilus-file-operations.c:3348
 msgid "%S / %S — %T left (%S/sec)"
 msgid_plural "%S / %S — %T left (%S/sec)"
-msgstr[0] "%S из %S — осталось %T (%S/с)"
-msgstr[1] "%S из %S — осталось %T (%S/с)"
-msgstr[2] "%S из %S — осталось %T (%S/с)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. To translators: %T will expand to a time duration like "2 minutes".
-#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4kb/sec)"
+#. * So the whole thing will be something like "1 / 5 -- 2 hours left
+#. (4kb/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: ../libnautilus-private/nautilus-file-operations.c:3367
 msgid "%'d / %'d — %T left (%S/sec)"
 msgid_plural "%'d / %'d — %T left (%S/sec)"
-msgstr[0] "%'d из %'d — осталось %T (%S/с)"
-msgstr[1] "%'d из %'d — осталось %T (%S/с)"
-msgstr[2] "%'d из %'d — осталось %T (%S/с)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:3880
 msgid ""
 "The folder “%B” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
-"Нельзя скопировать папку «%B», потому что у вас нет прав на создание папки в "
-"месте назначения."
+msgstr "Нельзя скопировать папку «%B», потому что у вас нет прав на создание папки в месте назначения."
 
 #: ../libnautilus-private/nautilus-file-operations.c:3883
 msgid "There was an error creating the folder “%B”."
@@ -2078,14 +1920,12 @@ msgstr "Произошла ошибка при создании папки «%B�
 msgid ""
 "Files in the folder “%B” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
-"Нельзя скопировать файлы из папки «%B», потому что у вас нет прав на их "
-"просмотр."
+msgstr "Нельзя скопировать файлы из папки «%B», потому что у вас нет прав на их просмотр."
 
 #: ../libnautilus-private/nautilus-file-operations.c:4058
 msgid ""
-"The folder “%B” cannot be copied because you do not have permissions to read "
-"it."
+"The folder “%B” cannot be copied because you do not have permissions to read"
+" it."
 msgstr "Нельзя скопировать папку «%B», потому что у вас нет прав на её чтение."
 
 #: ../libnautilus-private/nautilus-file-operations.c:4103
@@ -2167,9 +2007,10 @@ msgstr "Подготовка к перемещению в «%B»"
 #, c-format
 msgid "Preparing to move %'d file"
 msgid_plural "Preparing to move %'d files"
-msgstr[0] "Идёт подготовка к перемещению %'d файла"
-msgstr[1] "Идёт подготовка к перемещению %'d файлов"
-msgstr[2] "Идёт подготовка к перемещению %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:5447
 #, c-format
@@ -2188,9 +2029,10 @@ msgstr "Создание ссылок в «%B»"
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
-msgstr[0] "Создание ссылки на %'d файл"
-msgstr[1] "Создание ссылок на %'d файла"
-msgstr[2] "Создание ссылок на %'d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-operations.c:5880
 msgid "Error while creating link to %B."
@@ -2269,33 +2111,37 @@ msgstr "Повторить последнее отменённое действ�
 #, c-format
 msgid "Move %d item back to '%s'"
 msgid_plural "Move %d items back to '%s'"
-msgstr[0] "Переместить %d объект обратно в «%s»"
-msgstr[1] "Переместить %d объекта обратно в «%s»"
-msgstr[2] "Переместить %d объектов обратно в «%s»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:369
 #, c-format
 msgid "Move %d item to '%s'"
 msgid_plural "Move %d items to '%s'"
-msgstr[0] "Переместить %d объект в «%s»"
-msgstr[1] "Переместить %d объекта в «%s»"
-msgstr[2] "Переместить %d объектов в «%s»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:373
 #, c-format
 msgid "_Undo Move %d item"
 msgid_plural "_Undo Move %d items"
-msgstr[0] "_Отменить перемещение %d объекта"
-msgstr[1] "_Отменить перемещение %d объектов"
-msgstr[2] "_Отменить перемещение %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:376
 #, c-format
 msgid "_Redo Move %d item"
 msgid_plural "_Redo Move %d items"
-msgstr[0] "_Повторить перемещение %d объекта"
-msgstr[1] "_Повторить перемещение %d объектов"
-msgstr[2] "_Повторить перемещение %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:380
 #, c-format
@@ -2327,18 +2173,20 @@ msgstr "_Повторить восстановление из корзины"
 #, c-format
 msgid "Move %d item back to trash"
 msgid_plural "Move %d items back to trash"
-msgstr[0] "Переместить %d объект обратно в корзину"
-msgstr[1] "Переместить %d объекта обратно в корзину"
-msgstr[2] "Переместить %d объектов обратно в корзину"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:394
 #: ../libnautilus-private/nautilus-file-undo-operations.c:990
 #, c-format
 msgid "Restore %d item from trash"
 msgid_plural "Restore %d items from trash"
-msgstr[0] "Восстановить %d объект из корзины"
-msgstr[1] "Восстановить %d объекта из корзины"
-msgstr[2] "Восстановить %d объектов из корзины"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:398
 #, c-format
@@ -2354,33 +2202,37 @@ msgstr "Восстановить «%s» из корзины"
 #, c-format
 msgid "Delete %d copied item"
 msgid_plural "Delete %d copied items"
-msgstr[0] "Удалить %d скопированный объект"
-msgstr[1] "Удалить %d скопированных объекта"
-msgstr[2] "Удалить %d скопированных объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:406
 #, c-format
 msgid "Copy %d item to '%s'"
 msgid_plural "Copy %d items to '%s'"
-msgstr[0] "Копировать %d объект в «%s»"
-msgstr[1] "Копировать %d объекта в «%s»"
-msgstr[2] "Копировать %d объектов в «%s»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:410
 #, c-format
 msgid "_Undo Copy %d item"
 msgid_plural "_Undo Copy %d items"
-msgstr[0] "_Отменить копирование %d объекта"
-msgstr[1] "_Отменить копирование %d объектов"
-msgstr[2] "_Отменить копирование %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "_Redo Copy %d item"
 msgid_plural "_Redo Copy %d items"
-msgstr[0] "_Повторить копирование %d объекта"
-msgstr[1] "_Повторить копирование %d объектов"
-msgstr[2] "_Повторить копирование %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:417
 #: ../libnautilus-private/nautilus-file-undo-operations.c:439
@@ -2406,33 +2258,37 @@ msgstr "_Повторить копирование"
 #, c-format
 msgid "Delete %d duplicated item"
 msgid_plural "Delete %d duplicated items"
-msgstr[0] "Удалить %d продублированный объект"
-msgstr[1] "Удалить %d продублированных объекта"
-msgstr[2] "Удалить %d продублированных объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:428
 #, c-format
 msgid "Duplicate %d item in '%s'"
 msgid_plural "Duplicate %d items in '%s'"
-msgstr[0] "Дублировать %d объект в «%s»"
-msgstr[1] "Дублировать %d объекта в «%s»"
-msgstr[2] "Дублировать %d объектов в «%s»"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:432
 #, c-format
 msgid "_Undo Duplicate %d item"
 msgid_plural "_Undo Duplicate %d items"
-msgstr[0] "_Отменить дублирование %d объекта"
-msgstr[1] "_Отменить дублирование %d объектов"
-msgstr[2] "_Отменить дублирование %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:435
 #, c-format
 msgid "_Redo Duplicate %d item"
 msgid_plural "_Redo Duplicate %d items"
-msgstr[0] "_Повторить дублирование %d объекта"
-msgstr[1] "_Повторить дублирование %d объектов"
-msgstr[2] "_Повторить дублирование %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:440
 #, c-format
@@ -2451,17 +2307,19 @@ msgstr "_Повторить дублирование"
 #, c-format
 msgid "Delete links to %d item"
 msgid_plural "Delete links to %d items"
-msgstr[0] "Удалить ссылки на %d объект"
-msgstr[1] "Удалить ссылки на %d объекта"
-msgstr[2] "Удалить ссылки на %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:451
 #, c-format
 msgid "Create links to %d item"
 msgid_plural "Create links to %d items"
-msgstr[0] "Создать ссылки на %d объект"
-msgstr[1] "Создать ссылки на %d объекта"
-msgstr[2] "Создать ссылки на %d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:455
 #, c-format
@@ -2538,9 +2396,10 @@ msgstr "_Повторить переименование"
 #, c-format
 msgid "Move %d item to trash"
 msgid_plural "Move %d items to trash"
-msgstr[0] "Переместить %d объект в корзину"
-msgstr[1] "Переместить %d объекта в корзину"
-msgstr[2] "Переместить %d объектов в корзину"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1005
 #, c-format
@@ -2626,67 +2485,67 @@ msgstr "_Отменить изменение владельца"
 msgid "_Redo Change Owner"
 msgstr "_Повторить изменение владельца"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:896
+#: ../libnautilus-private/nautilus-file-utilities.c:915
 #, c-format
 msgid "Could not determine original location of “%s” "
 msgstr "Не удалось определить исходное расположение «%s» "
 
-#: ../libnautilus-private/nautilus-file-utilities.c:900
+#: ../libnautilus-private/nautilus-file-utilities.c:919
 msgid "The item cannot be restored from trash"
 msgstr "Объект не может быть восстановлен из корзины"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1004
+#: ../libnautilus-private/nautilus-file-utilities.c:1023
 msgid "Audio CD"
 msgstr "Audio CD"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1006
+#: ../libnautilus-private/nautilus-file-utilities.c:1025
 msgid "Audio DVD"
 msgstr "DVD-Audio"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1008
+#: ../libnautilus-private/nautilus-file-utilities.c:1027
 msgid "Video DVD"
 msgstr "DVD-Video"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1010
+#: ../libnautilus-private/nautilus-file-utilities.c:1029
 msgid "Video CD"
 msgstr "Video CD"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1012
+#: ../libnautilus-private/nautilus-file-utilities.c:1031
 msgid "Super Video CD"
 msgstr "Super Video CD"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1014
+#: ../libnautilus-private/nautilus-file-utilities.c:1033
 msgid "Photo CD"
 msgstr "Photo CD"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1016
+#: ../libnautilus-private/nautilus-file-utilities.c:1035
 msgid "Picture CD"
 msgstr "Picture CD"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1018
-#: ../libnautilus-private/nautilus-file-utilities.c:1051
+#: ../libnautilus-private/nautilus-file-utilities.c:1037
+#: ../libnautilus-private/nautilus-file-utilities.c:1070
 msgid "Contains digital photos"
 msgstr "Содержит оцифрованные фотографии"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1020
+#: ../libnautilus-private/nautilus-file-utilities.c:1039
 msgid "Contains music"
 msgstr "Содержит музыку"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1022
+#: ../libnautilus-private/nautilus-file-utilities.c:1041
 msgid "Contains software"
 msgstr "Содержит программное обеспечение"
 
 #. fallback to generic greeting
-#: ../libnautilus-private/nautilus-file-utilities.c:1025
+#: ../libnautilus-private/nautilus-file-utilities.c:1044
 #, c-format
 msgid "Detected as “%s”"
 msgstr "Определено как «%s»"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1047
+#: ../libnautilus-private/nautilus-file-utilities.c:1066
 msgid "Contains music and photos"
 msgstr "Содержит музыку и фотографии"
 
-#: ../libnautilus-private/nautilus-file-utilities.c:1049
+#: ../libnautilus-private/nautilus-file-utilities.c:1068
 msgid "Contains photos and music"
 msgstr "Содержит фотографии и музыку"
 
@@ -2710,8 +2569,7 @@ msgstr "Забыть ассоциацию"
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:172
 #, c-format
 msgid "Error while setting “%s” as default application: %s"
-msgstr ""
-"Ошибка при установке приложения «%s» в качестве приложения по умолчанию: %s"
+msgstr "Ошибка при установке приложения «%s» в качестве приложения по умолчанию: %s"
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:174
 msgid "Could not set as default"
@@ -2763,18 +2621,15 @@ msgstr "Цель для перетаскивания поддерживает т
 
 #: ../libnautilus-private/nautilus-program-choosing.c:351
 msgid ""
-"To open non-local files copy them to a local folder and then drop them again."
-msgstr ""
-"Чтобы открыть так файлы с сетевого ресурса, скопируйте их в локальную папку "
-"и перетащите их снова."
+"To open non-local files copy them to a local folder and then drop them "
+"again."
+msgstr "Чтобы открыть так файлы с сетевого ресурса, скопируйте их в локальную папку и перетащите их снова."
 
 #: ../libnautilus-private/nautilus-program-choosing.c:362
 msgid ""
 "To open non-local files copy them to a local folder and then drop them "
 "again. The local files you dropped have already been opened."
-msgstr ""
-"Чтобы открыть так файлы с сетевого ресурса, скопируйте их в локальную папку "
-"и перетащите их снова. Перетащенные вами локальные файлы уже открыты."
+msgstr "Чтобы открыть так файлы с сетевого ресурса, скопируйте их в локальную папку и перетащите их снова. Перетащенные вами локальные файлы уже открыты."
 
 #: ../libnautilus-private/nautilus-program-choosing.c:391
 msgid "Details: "
@@ -2813,36 +2668,40 @@ msgstr "Не удалось выполнить поисковый запрос"
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "%d день назад"
-msgstr[1] "%d дня назад"
-msgstr[2] "%d дней назад"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "%d неделя назад"
-msgstr[1] "%d недели назад"
-msgstr[2] "%d недель назад"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "%d месяц назад"
-msgstr[1] "%d месяца назад"
-msgstr[2] "%d месяцев назад"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] "%d год назад"
-msgstr[1] "%d года назад"
-msgstr[2] "%d лет назад"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -2858,100 +2717,88 @@ msgid "Send files by mail…"
 msgstr "Отправить файлы по электронной почте…"
 
 #. Some sort of failure occurred. How 'bout we tell the user?
-#: ../src/nautilus-application.c:160 ../src/nautilus-window-slot.c:1144
+#: ../src/nautilus-application.c:168 ../src/nautilus-window-slot.c:1144
 msgid "Oops! Something went wrong."
 msgstr "Ой! Что-то пошло не так."
 
-#: ../src/nautilus-application.c:162
+#: ../src/nautilus-application.c:170
 #, c-format
 msgid ""
-"Unable to create a required folder. Please create the following folder, or "
-"set permissions such that it can be created:\n"
+"Unable to create a required folder. Please create the following folder, or set permissions such that it can be created:\n"
 "%s"
-msgstr ""
-"Не удалось создать требуемую папку. Создайте следующую папку или установите "
-"такие права доступа, чтобы было возможно создать папку:\n"
-"%s"
+msgstr "Не удалось создать требуемую папку. Создайте следующую папку или установите такие права доступа, чтобы было возможно создать папку:\n%s"
 
-#: ../src/nautilus-application.c:167
+#: ../src/nautilus-application.c:175
 #, c-format
 msgid ""
-"Unable to create required folders. Please create the following folders, or "
-"set permissions such that they can be created:\n"
+"Unable to create required folders. Please create the following folders, or set permissions such that they can be created:\n"
 "%s"
-msgstr ""
-"Не удалось создать требуемые папки. Создайте следующие папки или установите "
-"такие права доступа, чтобы было возможно создать папки:\n"
-"%s"
+msgstr "Не удалось создать требуемые папки. Создайте следующие папки или установите такие права доступа, чтобы было возможно создать папки:\n%s"
 
-#: ../src/nautilus-application.c:552
+#: ../src/nautilus-application.c:572
 msgid "--check cannot be used with other options."
 msgstr "параметр --check нельзя использовать вместе с другими параметрами."
 
-#: ../src/nautilus-application.c:559
+#: ../src/nautilus-application.c:579
 msgid "--quit cannot be used with URIs."
 msgstr "параметр --quit нельзя использовать с адресами URI."
 
-#: ../src/nautilus-application.c:567
+#: ../src/nautilus-application.c:587
 msgid "--select must be used with at least an URI."
 msgstr "--select должен использоваться по крайней мере с одним адресом URI."
 
-#: ../src/nautilus-application.c:574
+#: ../src/nautilus-application.c:594
 msgid "--no-desktop and --force-desktop cannot be used together."
-msgstr ""
-"параметры --no-desktop и --force-desktop нельзя использовать одновременно."
+msgstr "параметры --no-desktop и --force-desktop нельзя использовать одновременно."
 
-#: ../src/nautilus-application.c:687
+#: ../src/nautilus-application.c:707
 #, c-format
 msgid ""
 "There was an error displaying help: \n"
 "%s"
-msgstr ""
-"При попытке показать справку произошла ошибка: \n"
-"%s"
+msgstr "При попытке показать справку произошла ошибка: \n%s"
 
-#: ../src/nautilus-application.c:826
+#: ../src/nautilus-application.c:846
 msgid "Perform a quick set of self-check tests."
 msgstr "Выполнить быструю самопроверку."
 
-#: ../src/nautilus-application.c:833
+#: ../src/nautilus-application.c:853
 msgid "Create the initial window with the given geometry."
 msgstr "Создать исходное окно с заданной геометрией."
 
-#: ../src/nautilus-application.c:833
+#: ../src/nautilus-application.c:853
 msgid "GEOMETRY"
 msgstr "ГЕОМЕТРИЯ"
 
-#: ../src/nautilus-application.c:835
+#: ../src/nautilus-application.c:855
 msgid "Show the version of the program."
 msgstr "Показать версию программы."
 
-#: ../src/nautilus-application.c:837
+#: ../src/nautilus-application.c:857
 msgid "Always open a new window for browsing specified URIs"
 msgstr "Всегда открывать новое окно, если указывается адрес URI"
 
-#: ../src/nautilus-application.c:839
+#: ../src/nautilus-application.c:859
 msgid "Only create windows for explicitly specified URIs."
 msgstr "Создавать окна только для заданных явно адресов URI."
 
-#: ../src/nautilus-application.c:841
+#: ../src/nautilus-application.c:861
 msgid "Never manage the desktop (ignore the GSettings preference)."
-msgstr ""
-"Никогда не управлять рабочим столом (игнорировать параметры GSettings)."
+msgstr "Никогда не управлять рабочим столом (игнорировать параметры GSettings)."
 
-#: ../src/nautilus-application.c:843
+#: ../src/nautilus-application.c:863
 msgid "Always manage the desktop (ignore the GSettings preference)."
 msgstr "Всегда не управлять рабочим столом (игнорировать параметры GSettings)."
 
-#: ../src/nautilus-application.c:845
+#: ../src/nautilus-application.c:865
 msgid "Quit Nautilus."
 msgstr "Завершить Nautilus."
 
-#: ../src/nautilus-application.c:847
+#: ../src/nautilus-application.c:867
 msgid "Select specified URI in parent folder."
 msgstr "Выбрать указанный URI в родительской папке."
 
-#: ../src/nautilus-application.c:848
+#: ../src/nautilus-application.c:868
 msgid "[URI...]"
 msgstr "[URI…]"
 
@@ -2961,9 +2808,7 @@ msgstr "[URI…]"
 msgid ""
 "Unable to start the program:\n"
 "%s"
-msgstr ""
-"Не удалось запустить программу:\n"
-"%s"
+msgstr "Не удалось запустить программу:\n%s"
 
 #: ../src/nautilus-autorun-software.c:148
 #, c-format
@@ -2974,20 +2819,18 @@ msgstr "Не удалось найти программу"
 msgid "Oops! There was a problem running this software."
 msgstr "Ой! При запуске этого приложения произошла ошибка."
 
-#: ../src/nautilus-autorun-software.c:201
+#: ../src/nautilus-autorun-software.c:200
 #, c-format
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr ""
-"На носителе «%s» есть приложение, предназначенное для автоматического "
-"запуска. Запустить это приложение?"
+msgstr "На носителе «%s» есть приложение, предназначенное для автоматического запуска. Запустить это приложение?"
 
-#: ../src/nautilus-autorun-software.c:205
+#: ../src/nautilus-autorun-software.c:204
 msgid "If you don't trust this location or aren't sure, press Cancel."
 msgstr "Если вы не доверяете этому носителю или не уверены, нажмите «Отмена»."
 
-#: ../src/nautilus-autorun-software.c:240 ../src/nautilus-mime-actions.c:636
+#: ../src/nautilus-autorun-software.c:235 ../src/nautilus-mime-actions.c:637
 msgid "_Run"
 msgstr "_Запустить"
 
@@ -3018,13 +2861,14 @@ msgid "Command"
 msgstr "Команда"
 
 #. hardcode "Desktop"
-#: ../src/nautilus-desktop-window.c:195 ../src/nautilus-desktop-window.c:364
+#: ../src/nautilus-desktop-window.c:200 ../src/nautilus-desktop-window.c:369
 msgid "Desktop"
 msgstr "Рабочий стол"
 
 #: ../src/nautilus-error-reporting.c:67
 #, c-format
-msgid "You do not have the permissions necessary to view the contents of “%s”."
+msgid ""
+"You do not have the permissions necessary to view the contents of “%s”."
 msgstr "Недостаточно прав для просмотра содержимого объекта «%s»."
 
 #: ../src/nautilus-error-reporting.c:71
@@ -3084,9 +2928,7 @@ msgstr "Имя «%s» уже используется в этой папке. В
 #, c-format
 msgid ""
 "There is no “%s” in this location. Perhaps it was just moved or deleted?"
-msgstr ""
-"Объект «%s» отсутствует в этой папке. Возможно, он был только что перемещён "
-"или удалён?"
+msgstr "Объект «%s» отсутствует в этой папке. Возможно, он был только что перемещён или удалён?"
 
 #: ../src/nautilus-error-reporting.c:213
 #, c-format
@@ -3096,11 +2938,9 @@ msgstr "Недостаточно прав для переименования о
 #: ../src/nautilus-error-reporting.c:218
 #, c-format
 msgid ""
-"The name “%s” is not valid because it contains the character “/”. Please use "
-"a different name."
-msgstr ""
-"Недопустимое имя объекта «%s»: в имени содержится символ «/». Выберите "
-"другое имя."
+"The name “%s” is not valid because it contains the character “/”. Please use"
+" a different name."
+msgstr "Недопустимое имя объекта «%s»: в имени содержится символ «/». Выберите другое имя."
 
 #: ../src/nautilus-error-reporting.c:222
 #, c-format
@@ -3127,39 +2967,42 @@ msgstr "Не удалось переименовать объект."
 msgid "Renaming “%s” to “%s”."
 msgstr "Переименование «%s» в «%s»."
 
-#: ../src/nautilus-files-view.c:377
+#: ../src/nautilus-files-view.c:378
 msgid "Searching…"
 msgstr "Поиск…"
 
-#: ../src/nautilus-files-view.c:377 ../src/nautilus-image-properties-page.c:708
+#: ../src/nautilus-files-view.c:378
+#: ../src/nautilus-image-properties-page.c:708
 #: ../src/nautilus-list-model.c:375 ../src/nautilus-window-slot.c:657
 msgid "Loading…"
 msgstr "Загрузка…"
 
-#: ../src/nautilus-files-view.c:1047 ../src/nautilus-mime-actions.c:969
-#: ../src/nautilus-mime-actions.c:1713
+#: ../src/nautilus-files-view.c:1046 ../src/nautilus-mime-actions.c:970
+#: ../src/nautilus-mime-actions.c:1712
 msgid "Are you sure you want to open all files?"
 msgstr "Действительно открыть все файлы?"
 
-#: ../src/nautilus-files-view.c:1049
+#: ../src/nautilus-files-view.c:1048
 #, c-format
 msgid "This will open %'d separate tab."
 msgid_plural "This will open %'d separate tabs."
-msgstr[0] "Будет открыто %'d отдельная вкладка."
-msgstr[1] "Будет открыто %'d отдельные вкладки."
-msgstr[2] "Будет открыто %'d отдельных вкладок."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-files-view.c:1052
+#: ../src/nautilus-files-view.c:1051
 #, c-format
 msgid "This will open %'d separate window."
 msgid_plural "This will open %'d separate windows."
-msgstr[0] "Будет открыто %'d отдельное окно."
-msgstr[1] "Будет открыто %'d отдельных окна."
-msgstr[2] "Будет открыто %'d отдельных окон."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-files-view.c:1056 ../src/nautilus-location-entry.c:270
-#: ../src/nautilus-mime-actions.c:978 ../src/nautilus-mime-actions.c:1155
-#: ../src/nautilus-mime-actions.c:1717
+#: ../src/nautilus-files-view.c:1055 ../src/nautilus-location-entry.c:270
+#: ../src/nautilus-mime-actions.c:979 ../src/nautilus-mime-actions.c:1153
+#: ../src/nautilus-mime-actions.c:1716
 msgid "_OK"
 msgstr "_ОК"
 
@@ -3167,7 +3010,7 @@ msgstr "_ОК"
 msgid "Select Items Matching"
 msgstr "Выделить объекты по шаблону"
 
-#: ../src/nautilus-files-view.c:1532 ../src/nautilus-files-view.c:5277
+#: ../src/nautilus-files-view.c:1532 ../src/nautilus-files-view.c:5299
 msgid "_Select"
 msgstr "_Выбрать"
 
@@ -3179,114 +3022,117 @@ msgstr "_Шаблон:"
 msgid "Examples: "
 msgstr "Примеры:"
 
-#: ../src/nautilus-files-view.c:1787
+#: ../src/nautilus-files-view.c:1761
 msgid "A folder with that name already exists."
 msgstr "Папка с таким именем уже существует."
 
-#: ../src/nautilus-files-view.c:1789
+#: ../src/nautilus-files-view.c:1763
 msgid "A file with that name already exists."
 msgstr "Файл с таким именем уже существует."
 
-#: ../src/nautilus-files-view.c:1804
+#: ../src/nautilus-files-view.c:1778
 msgid "Folder names cannot contain “/”."
 msgstr "Имена папок не могут содержать «/»."
 
-#: ../src/nautilus-files-view.c:1806
+#: ../src/nautilus-files-view.c:1780
 msgid "Files names cannot contain “/”."
 msgstr "Имена файлов не могут содержать «/»"
 
-#: ../src/nautilus-files-view.c:1809
+#: ../src/nautilus-files-view.c:1783
 msgid "A folder can not be called “.”."
 msgstr "Папка не может быть названа «.»."
 
-#: ../src/nautilus-files-view.c:1811
+#: ../src/nautilus-files-view.c:1785
 msgid "A file can not be called “.”."
 msgstr "Файл не может быть назван «.»."
 
-#: ../src/nautilus-files-view.c:1814
+#: ../src/nautilus-files-view.c:1788
 msgid "A folder can not be called “..”."
 msgstr "Папка не может быть названа «..»."
 
-#: ../src/nautilus-files-view.c:1816
+#: ../src/nautilus-files-view.c:1790
 msgid "A file can not be called “..”."
 msgstr "Файл не может быть назван «..»."
 
-#: ../src/nautilus-files-view.c:2047 ../src/nautilus-files-view.c:2115
+#: ../src/nautilus-files-view.c:2024 ../src/nautilus-files-view.c:2092
 msgid "Folder name"
 msgstr "Имя папки"
 
-#: ../src/nautilus-files-view.c:2049
+#: ../src/nautilus-files-view.c:2026
 msgid "File name"
 msgstr "Имя файла"
 
-#: ../src/nautilus-files-view.c:2114
+#: ../src/nautilus-files-view.c:2091
 msgid "Create"
 msgstr "Создать"
 
-#: ../src/nautilus-files-view.c:2116
+#: ../src/nautilus-files-view.c:2093
 msgid "New Folder"
 msgstr "Создать папку"
 
-#: ../src/nautilus-files-view.c:2557
+#: ../src/nautilus-files-view.c:2534
 msgid ""
 "Nautilus 3.6 deprecated this directory and tried migrating this "
 "configuration to ~/.local/share/nautilus"
-msgstr ""
-"В Nautilus 3.6 этот каталог считается устаревшим, этот параметр был "
-"перенесён в ~/.config/nautilus"
+msgstr "В Nautilus 3.6 этот каталог считается устаревшим, этот параметр был перенесён в ~/.config/nautilus"
 
-#: ../src/nautilus-files-view.c:2984 ../src/nautilus-files-view.c:3019
+#: ../src/nautilus-files-view.c:2962 ../src/nautilus-files-view.c:2997
 #, c-format
 msgid "“%s” selected"
 msgstr "Выделен объект «%s»"
 
-#: ../src/nautilus-files-view.c:2986
+#: ../src/nautilus-files-view.c:2964
 #, c-format
 msgid "%'d folder selected"
 msgid_plural "%'d folders selected"
-msgstr[0] "Выделена %'d папка"
-msgstr[1] "Выделено %'d папки"
-msgstr[2] "Выделено %'d папок"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-files-view.c:2996
+#: ../src/nautilus-files-view.c:2974
 #, c-format
 msgid "(containing %'d item)"
 msgid_plural "(containing %'d items)"
-msgstr[0] "(внутри %'d объект)"
-msgstr[1] "(внутри %'d объекта)"
-msgstr[2] "(внутри %'d объектов)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#. translators: this is preceded with a string of form 'N folders' (N more than 1)
-#: ../src/nautilus-files-view.c:3007
+#. translators: this is preceded with a string of form 'N folders' (N more
+#. than 1)
+#: ../src/nautilus-files-view.c:2985
 #, c-format
 msgid "(containing a total of %'d item)"
 msgid_plural "(containing a total of %'d items)"
-msgstr[0] "(внутри всего %'d объект)"
-msgstr[1] "(внутри всего %'d объекта)"
-msgstr[2] "(внутри всего %'d объектов)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-files-view.c:3022
+#: ../src/nautilus-files-view.c:3000
 #, c-format
 msgid "%'d item selected"
 msgid_plural "%'d items selected"
-msgstr[0] "Выделен %'d объект"
-msgstr[1] "Выделено %'d объекта"
-msgstr[2] "Выделено %'d объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Folders selected also, use "other" terminology
-#: ../src/nautilus-files-view.c:3029
+#: ../src/nautilus-files-view.c:3007
 #, c-format
 msgid "%'d other item selected"
 msgid_plural "%'d other items selected"
-msgstr[0] "Выделен %'d другой объект"
-msgstr[1] "Выделено %'d других объекта"
-msgstr[2] "Выделено %'d других объектов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
 #. * the message in parentheses is the size of the selected items.
-#.
-#: ../src/nautilus-files-view.c:3043
+#: ../src/nautilus-files-view.c:3021
 #, c-format
 msgid "(%s)"
 msgstr "(%s)"
@@ -3297,108 +3143,105 @@ msgstr "(%s)"
 #. * and the number of items in those folders and the
 #. * message about the number of other items and the
 #. * total size of those items.
-#.
-#: ../src/nautilus-files-view.c:3067
+#: ../src/nautilus-files-view.c:3045
 #, c-format
 msgid "%s %s, %s %s"
 msgstr "%s %s, %s %s"
 
-#: ../src/nautilus-files-view.c:5266
+#: ../src/nautilus-files-view.c:5288
 msgid "Select Move Destination"
 msgstr "Выбрать место для перемещения"
 
-#: ../src/nautilus-files-view.c:5268
+#: ../src/nautilus-files-view.c:5290
 msgid "Select Copy Destination"
 msgstr "Выбрать место для копирования"
 
 #. Translators: %s is a file name formatted for display
-#: ../src/nautilus-files-view.c:5724
+#: ../src/nautilus-files-view.c:5751
 #, c-format
 msgid "Unable to remove “%s”"
 msgstr "Не удалось удалить «%s»"
 
 #. Translators: %s is a file name formatted for display
-#: ../src/nautilus-files-view.c:5751
+#: ../src/nautilus-files-view.c:5778
 #, c-format
 msgid "Unable to eject “%s”"
 msgstr "Не удалось извлечь «%s»"
 
-#: ../src/nautilus-files-view.c:5773
+#: ../src/nautilus-files-view.c:5800
 msgid "Unable to stop drive"
 msgstr "Не удалось остановить привод"
 
 #. Translators: %s is a file name formatted for display
-#: ../src/nautilus-files-view.c:5878
+#: ../src/nautilus-files-view.c:5905
 #, c-format
 msgid "Unable to start “%s”"
 msgstr "Не удалось запустить «%s»"
 
-# Может быть "создать папку из выделенных объектов"
-#: ../src/nautilus-files-view.c:6637
+#: ../src/nautilus-files-view.c:6648
 #, c-format
 msgid "New Folder with Selection (%'d Item)"
 msgid_plural "New Folder with Selection (%'d Items)"
-msgstr[0] "Создать папку из выделенного (%'d объект)"
-msgstr[1] "Создать папку из выделенного (%'d объекта)"
-msgstr[2] "Создать папку из выделенного (%'d объектов)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-# "Открыть с помощью программы "%s" -- это слишком длинно и не помешается
-# на боковую панель даже без распаковки `%s'.
-#: ../src/nautilus-files-view.c:6685
+#: ../src/nautilus-files-view.c:6696
 #, c-format
 msgid "Open With %s"
 msgstr "Открыть с помощью «%s»"
 
-#: ../src/nautilus-files-view.c:6694
+#: ../src/nautilus-files-view.c:6705
 msgid "Run"
 msgstr "Запустить"
 
-#: ../src/nautilus-files-view.c:6696
+#: ../src/nautilus-files-view.c:6707
 msgid "Open"
 msgstr "Открыть"
 
-#: ../src/nautilus-files-view.c:6747
+#: ../src/nautilus-files-view.c:6758
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:19
 msgid "_Start"
 msgstr "_Запустить"
 
-#: ../src/nautilus-files-view.c:6750 ../src/gtk/nautilusgtkplacesview.c:1632
+#: ../src/nautilus-files-view.c:6761 ../src/gtk/nautilusgtkplacesview.c:1632
 msgid "_Connect"
 msgstr "_Подключиться"
 
-#: ../src/nautilus-files-view.c:6753
+#: ../src/nautilus-files-view.c:6764
 msgid "_Start Multi-disk Drive"
 msgstr "_Запустить мультидисковый привод"
 
-#: ../src/nautilus-files-view.c:6756
+#: ../src/nautilus-files-view.c:6767
 msgid "U_nlock Drive"
 msgstr "_Разблокировать привод"
 
-#: ../src/nautilus-files-view.c:6772
+#: ../src/nautilus-files-view.c:6783
 msgid "Stop Drive"
 msgstr "Остановить привод"
 
-#: ../src/nautilus-files-view.c:6775
+#: ../src/nautilus-files-view.c:6786
 msgid "_Safely Remove Drive"
 msgstr "_Безопасно удалить привод"
 
-#: ../src/nautilus-files-view.c:6778 ../src/gtk/nautilusgtkplacesview.c:1622
+#: ../src/nautilus-files-view.c:6789 ../src/gtk/nautilusgtkplacesview.c:1622
 msgid "_Disconnect"
 msgstr "_Отсоединить"
 
-#: ../src/nautilus-files-view.c:6781
+#: ../src/nautilus-files-view.c:6792
 msgid "_Stop Multi-disk Drive"
 msgstr "_Остановить мультидисковый привод"
 
-#: ../src/nautilus-files-view.c:6784
+#: ../src/nautilus-files-view.c:6795
 msgid "_Lock Drive"
 msgstr "Б_локировать привод"
 
-#: ../src/nautilus-files-view.c:8253
+#: ../src/nautilus-files-view.c:8281
 msgid "Content View"
 msgstr "Просмотр содержимого"
 
-#: ../src/nautilus-files-view.c:8254
+#: ../src/nautilus-files-view.c:8282
 msgid "View of the current folder"
 msgstr "Просмотр текущей папки"
 
@@ -3422,7 +3265,6 @@ msgstr "Брошенный Текст.txt"
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
-#.
 #: ../src/nautilus-files-view-dnd.c:483
 msgid "dropped data"
 msgstr "брошенные данные"
@@ -3436,9 +3278,10 @@ msgstr "Тип изображения"
 #, c-format
 msgid "%d pixel"
 msgid_plural "%d pixels"
-msgstr[0] "%d пиксел"
-msgstr[1] "%d пиксела"
-msgstr[2] "%d пикселов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/nautilus-image-properties-page.c:337
 msgid "Width"
@@ -3558,7 +3401,7 @@ msgstr "Не удалось получить сведения об изобра�
 msgid "(Empty)"
 msgstr "(Пусто)"
 
-#: ../src/nautilus-list-view.c:1267
+#: ../src/nautilus-list-view.c:1268
 msgid "Use Default"
 msgstr "Использовать по умолчанию"
 
@@ -3567,7 +3410,6 @@ msgstr "Использовать по умолчанию"
 msgid "List View"
 msgstr "Просмотр в виде списка"
 
-# Заголовок диалогового окна.
 #: ../src/nautilus-list-view.c:2642
 #, c-format
 msgid "%s Visible Columns"
@@ -3581,19 +3423,20 @@ msgstr "Выберите порядок сведений, которые буд�
 #, c-format
 msgid "Do you want to view %d location?"
 msgid_plural "Do you want to view %d locations?"
-msgstr[0] "Хотите просмотреть %d адрес?"
-msgstr[1] "Хотите просмотреть %d адреса?"
-msgstr[2] "Хотите просмотреть %d адресов?"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-location-entry.c:259 ../src/nautilus-mime-actions.c:974
+#: ../src/nautilus-location-entry.c:259 ../src/nautilus-mime-actions.c:975
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
-msgstr[0] "Откроется %d отдельное окно."
-msgstr[1] "Откроется %d отдельных окна."
-msgstr[2] "Откроется %d отдельных окон."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-# Описание к содержанию объекта
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
 msgid "Anything"
@@ -3627,62 +3470,63 @@ msgstr "Изображение"
 msgid "Text File"
 msgstr "Текстовый файл"
 
-#: ../src/nautilus-mime-actions.c:544
+#: ../src/nautilus-mime-actions.c:545
 #, c-format
 msgid "The link “%s” is broken. Move it to Trash?"
 msgstr "Ссылка «%s» испорчена. Удалить её в корзину?"
 
-#: ../src/nautilus-mime-actions.c:546
+#: ../src/nautilus-mime-actions.c:547
 #, c-format
 msgid "The link “%s” is broken."
 msgstr "Ссылка «%s» испорчена."
 
-#: ../src/nautilus-mime-actions.c:552
+#: ../src/nautilus-mime-actions.c:553
 msgid "This link cannot be used because it has no target."
 msgstr "Эту ссылку нельзя использовать, потому что она не имеет цели."
 
-#: ../src/nautilus-mime-actions.c:554
+#: ../src/nautilus-mime-actions.c:555
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn't exist."
 msgstr "Эту ссылку нельзя использовать, потому что её цель «%s» не существует."
 
-#: ../src/nautilus-mime-actions.c:564
+#: ../src/nautilus-mime-actions.c:565
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:27
 msgid "Mo_ve to Trash"
 msgstr "_Переместить в корзину"
 
-#: ../src/nautilus-mime-actions.c:624
+#: ../src/nautilus-mime-actions.c:625
 #, c-format
 msgid "Do you want to run “%s”, or display its contents?"
 msgstr "Запустить файл «%s» или показать его содержимое?"
 
-#: ../src/nautilus-mime-actions.c:626
+#: ../src/nautilus-mime-actions.c:627
 #, c-format
 msgid "“%s” is an executable text file."
 msgstr "Файл «%s» является исполняемым текстовым файлом."
 
-#: ../src/nautilus-mime-actions.c:632
+#: ../src/nautilus-mime-actions.c:633
 msgid "Run in _Terminal"
 msgstr "Запустить в _терминале"
 
-#: ../src/nautilus-mime-actions.c:633
+#: ../src/nautilus-mime-actions.c:634
 msgid "_Display"
 msgstr "По_казать"
 
-#: ../src/nautilus-mime-actions.c:971
+#: ../src/nautilus-mime-actions.c:972
 #, c-format
 msgid "This will open %d separate tab."
 msgid_plural "This will open %d separate tabs."
-msgstr[0] "Откроется %d отдельная вкладка."
-msgstr[1] "Откроется %d отдельные вкладки."
-msgstr[2] "Откроется %d отдельных вкладок."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-mime-actions.c:1036
+#: ../src/nautilus-mime-actions.c:1037
 #, c-format
 msgid "Could not display “%s”."
 msgstr "Не удалось показать «%s»."
 
-#: ../src/nautilus-mime-actions.c:1134
+#: ../src/nautilus-mime-actions.c:1135
 msgid "The file is of an unknown type"
 msgstr "Неизвестный тип файла"
 
@@ -3691,81 +3535,79 @@ msgstr "Неизвестный тип файла"
 msgid "There is no application installed for “%s” files"
 msgstr "Для файлов типа «%s» не установлено ни одного приложения"
 
-#: ../src/nautilus-mime-actions.c:1153
+#: ../src/nautilus-mime-actions.c:1151
 msgid "_Select Application"
 msgstr "_Выбрать приложение"
 
-#: ../src/nautilus-mime-actions.c:1189
+#: ../src/nautilus-mime-actions.c:1187
 msgid "There was an internal error trying to search for applications:"
 msgstr "Произошла ошибка при попытке поиска приложений:"
 
-#: ../src/nautilus-mime-actions.c:1191
+#: ../src/nautilus-mime-actions.c:1189
 msgid "Unable to search for application"
 msgstr "Не удалось выполнить поиск приложения"
 
-#: ../src/nautilus-mime-actions.c:1314
+#: ../src/nautilus-mime-actions.c:1312
 #, c-format
 msgid ""
 "There is no application installed for “%s” files.\n"
 "Do you want to search for an application to open this file?"
-msgstr ""
-"Для файлов типа «%s» не установлено каких-либо приложений.\n"
-"Найти подходящее приложение для открытия этого файла?"
+msgstr "Для файлов типа «%s» не установлено каких-либо приложений.\nНайти подходящее приложение для открытия этого файла?"
 
-#: ../src/nautilus-mime-actions.c:1464
+#: ../src/nautilus-mime-actions.c:1462
 msgid "Untrusted application launcher"
 msgstr "Сомнительный значок запуска"
 
-#: ../src/nautilus-mime-actions.c:1467
+#: ../src/nautilus-mime-actions.c:1465
 #, c-format
 msgid ""
 "The application launcher “%s” has not been marked as trusted. If you do not "
 "know the source of this file, launching it may be unsafe."
-msgstr ""
-"Значок запуска «%s» не проверен на безопасность. Если вы знаете, откуда "
-"появился этот файл, его запуск может нарушить безопасность системы."
+msgstr "Значок запуска «%s» не проверен на безопасность. Если вы знаете, откуда появился этот файл, его запуск может нарушить безопасность системы."
 
-#: ../src/nautilus-mime-actions.c:1482
+#: ../src/nautilus-mime-actions.c:1480
 msgid "_Launch Anyway"
 msgstr "_Запустить всё равно"
 
-#: ../src/nautilus-mime-actions.c:1485
+#: ../src/nautilus-mime-actions.c:1483
 msgid "Mark as _Trusted"
 msgstr "_Считать проверенным"
 
-#: ../src/nautilus-mime-actions.c:1714
+#: ../src/nautilus-mime-actions.c:1713
 #, c-format
 msgid "This will open %d separate application."
 msgid_plural "This will open %d separate applications."
-msgstr[0] "Откроется %d отдельное приложение."
-msgstr[1] "Откроется %d отдельных приложения."
-msgstr[2] "Откроется %d отдельных приложений."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. if it wasn't cancelled show a dialog
-#: ../src/nautilus-mime-actions.c:1791 ../src/nautilus-mime-actions.c:2055
+#: ../src/nautilus-mime-actions.c:1790 ../src/nautilus-mime-actions.c:2054
 #: ../src/gtk/nautilusgtkplacesview.c:1162
 #: ../src/gtk/nautilusgtkplacesview.c:1235
 msgid "Unable to access location"
 msgstr "Не удалось получить доступ к местоположению"
 
-#: ../src/nautilus-mime-actions.c:2134
+#: ../src/nautilus-mime-actions.c:2133
 msgid "Unable to start location"
 msgstr "Не удалось открыть местоположение"
 
-#: ../src/nautilus-mime-actions.c:2218
+#: ../src/nautilus-mime-actions.c:2217
 #, c-format
 msgid "Opening “%s”."
 msgstr "Открывается «%s»."
 
-#: ../src/nautilus-mime-actions.c:2221
+#: ../src/nautilus-mime-actions.c:2220
 #, c-format
 msgid "Opening %d item."
 msgid_plural "Opening %d items."
-msgstr[0] "Открывается %d объект."
-msgstr[1] "Открывается %d объекта."
-msgstr[2] "Открывается %d объектов."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-#: ../src/nautilus-notebook.c:340
+#: ../src/nautilus-notebook.c:321
 msgid "Close tab"
 msgstr "Закрыть вкладку"
 
@@ -3790,9 +3632,10 @@ msgstr "Показать подробности"
 #, c-format
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
-msgstr[0] "Идёт %'d действие над файлами"
-msgstr[1] "Идут %'d действия над файлами"
-msgstr[2] "Идёт %'d действий над файлами"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/nautilus-progress-persistence-handler.c:203
 msgid "All file operations have been successfully completed"
@@ -3804,8 +3647,7 @@ msgstr "Нельзя назначить более одного пользова
 
 #: ../src/nautilus-properties-window.c:493
 msgid "Please drop just one image to set a custom icon."
-msgstr ""
-"Перетащите только одно изображение, чтобы установить пользовательский значок."
+msgstr "Перетащите только одно изображение, чтобы установить пользовательский значок."
 
 #: ../src/nautilus-properties-window.c:504
 msgid "The file that you dropped is not local."
@@ -3823,16 +3665,16 @@ msgstr "Файл, который вы перетащили, не являетс�
 #: ../src/nautilus-properties-window.c:625
 msgid "_Name:"
 msgid_plural "_Names:"
-msgstr[0] "_Имя:"
-msgstr[1] "_Имена:"
-msgstr[2] "_Имена:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/nautilus-properties-window.c:820
 #, c-format
 msgid "Properties"
 msgstr "Свойства"
 
-# Заголовок диалогового окна. С кавычками смотрится лучше.
 #. To translators: %s is the name of the folder.
 #: ../src/nautilus-properties-window.c:830
 #, c-format
@@ -3840,7 +3682,6 @@ msgctxt "folder"
 msgid "%s Properties"
 msgstr "Свойства %s"
 
-# Заголовок диалогового окна. С кавычками смотрится лучше.
 #. To translators: %s is the name of the file.
 #: ../src/nautilus-properties-window.c:833
 #, c-format
@@ -3862,7 +3703,6 @@ msgstr "Отменить изменение группы?"
 msgid "Cancel Owner Change?"
 msgstr "Отменить изменение владельца?"
 
-# Описание к содержанию объекта
 #: ../src/nautilus-properties-window.c:2125
 msgid "nothing"
 msgstr "пустой объект"
@@ -3875,9 +3715,10 @@ msgstr "нечитаемо"
 #, c-format
 msgid "%'d item, with size %s"
 msgid_plural "%'d items, totalling %s"
-msgstr[0] "%'d объект, всего %s"
-msgstr[1] "%'d объекта, всего %s"
-msgstr[2] "%'d объектов, всего %s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/nautilus-properties-window.c:2144
 msgid "(some contents unreadable)"
@@ -3888,7 +3729,6 @@ msgstr "(некоторое содержимое нечитаемо)"
 #. * "Contents:" title to line up with the first line of the
 #. * 2-line value. Maybe there's a better way to do this, but I
 #. * couldn't think of one.
-#.
 #: ../src/nautilus-properties-window.c:2161
 msgid "Contents:"
 msgstr "Содержание:"
@@ -3941,7 +3781,6 @@ msgstr "Свободное место:"
 
 #. translators: this gets concatenated to "no read",
 #. * "no access", etc. (see following strings)
-#.
 #: ../src/nautilus-properties-window.c:3690
 #: ../src/nautilus-properties-window.c:3701
 #: ../src/nautilus-properties-window.c:3713
@@ -4117,7 +3956,7 @@ msgstr "Показать календарь для выбора даты"
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
 msgid "Any time"
-msgstr "За всё время"
+msgstr "Без даты"
 
 #. Other types
 #: ../src/nautilus-search-popover.c:476
@@ -4153,7 +3992,7 @@ msgstr "Исполняемые файлы из этой папки появят�
 
 #: ../src/nautilus-trash-bar.c:206
 msgid "_Restore"
-msgstr "Восс_тановить"
+msgstr "_Восстановить"
 
 #: ../src/nautilus-trash-bar.c:209
 msgid "Restore selected items to their original position"
@@ -4168,67 +4007,62 @@ msgstr "_Очистить"
 msgid "Delete all items in the Trash"
 msgstr "Удалить все объекты из корзины"
 
-#: ../src/nautilus-window.c:1319
+#: ../src/nautilus-window.c:1318
 msgid "_Properties"
 msgstr "_Свойства"
 
-#: ../src/nautilus-window.c:1329
+#: ../src/nautilus-window.c:1328
 msgid "_Format…"
 msgstr "_Форматировать…"
 
 #. Translators: only one item has been deleted and %s is its name.
-#: ../src/nautilus-window.c:1585
+#: ../src/nautilus-window.c:1584
 #, c-format
 msgid "“%s” deleted"
 msgstr "Удалён объект «%s»"
 
 #. Translators: one or more items might have been deleted, and %d
 #. * is the count.
-#: ../src/nautilus-window.c:1590
+#: ../src/nautilus-window.c:1589
 #, c-format
 msgid "%d file deleted"
 msgid_plural "%d files deleted"
-msgstr[0] "Удалён %d файл"
-msgstr[1] "Удалено %d файла"
-msgstr[2] "Удалено %d файлов"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
-# "Открыть с помощью программы "%s" -- это слишком длинно и не помешается
-# на боковую панель даже без распаковки `%s'.
-#: ../src/nautilus-window.c:1692
+#: ../src/nautilus-window.c:1691
 #, c-format
 msgid "Open %s"
 msgstr "Открыть %s"
 
-#: ../src/nautilus-window.c:1780
+#: ../src/nautilus-window.c:1779
 msgid "_New Tab"
 msgstr "Создать _вкладку"
 
-#: ../src/nautilus-window.c:1790
+#: ../src/nautilus-window.c:1789
 msgid "Move Tab _Left"
 msgstr "Переместить вкладку в_лево"
 
-#: ../src/nautilus-window.c:1798
+#: ../src/nautilus-window.c:1797
 msgid "Move Tab _Right"
 msgstr "Переместить вкладку в_право"
 
-#: ../src/nautilus-window.c:1809
+#: ../src/nautilus-window.c:1808
 msgid "_Close Tab"
 msgstr "_Закрыть вкладку"
 
-#: ../src/nautilus-window.c:2729
+#: ../src/nautilus-window.c:2728
 msgid "Access and organize your files."
 msgstr "Доступ и управление файлами."
 
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
 #. * box to give credit to the translator(s).
-#.
-#: ../src/nautilus-window.c:2738
+#: ../src/nautilus-window.c:2737
 msgid "translator-credits"
-msgstr ""
-"Юрий Козлов <yuray@komyakino.ru>, 2010.\n"
-"Юрий Мясоедов <ymyasoedov@yandex.ru>, 2012-2013.\n"
-"Станислав Соловей <whats_up@tut.by>, 2011-2016."
+msgstr "Станислав Соловей <whats_up@tut.by>, 2011-2016.\nЮрий Мясоедов <ymyasoedov@yandex.ru>, 2012-2013."
 
 #: ../src/nautilus-window-slot.c:1148
 msgid "Unable to display the contents of this folder."
@@ -4241,9 +4075,7 @@ msgstr "Этот адрес не является папкой."
 #: ../src/nautilus-window-slot.c:1155
 msgid ""
 "Unable to find the requested file. Please check the spelling and try again."
-msgstr ""
-"Не удалось найти запрошенный файл. Проверьте правильность ввода и повторите "
-"попытку."
+msgstr "Не удалось найти запрошенный файл. Проверьте правильность ввода и повторите попытку."
 
 #: ../src/nautilus-window-slot.c:1160
 #, c-format
@@ -4266,14 +4098,11 @@ msgstr "Недостаточно прав для получения доступ
 #. * the code that guesses web addresses when there's no initial "/".
 #. * But this case is also hit for legitimate web addresses when
 #. * the proxy is set up wrong.
-#.
 #: ../src/nautilus-window-slot.c:1179
 msgid ""
 "Unable to find the requested location. Please check the spelling or the "
 "network settings."
-msgstr ""
-"Не удалось найти запрошенный адрес. Проверьте сетевые параметры и "
-"правильность ввода."
+msgstr "Не удалось найти запрошенный адрес. Проверьте сетевые параметры и правильность ввода."
 
 #: ../src/nautilus-window-slot.c:1190
 #, c-format
@@ -4327,7 +4156,7 @@ msgstr "Показать справку"
 #: ../src/resources/gtk/help-overlay.ui.h:8
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr "Быстрый доступ"
+msgstr "Комбинации"
 
 #: ../src/resources/gtk/help-overlay.ui.h:9
 msgctxt "shortcut window"
@@ -4742,9 +4571,7 @@ msgstr "Изменилась комбинация клавиш для удале
 msgid ""
 "With the latest version of Files, you no longer need to hold Ctrl to delete "
 "— the Delete key will work when pressed on its own."
-msgstr ""
-"В последней версии Nautilus, при удалении больше не нужно удерживать клавишу "
-"«Ctrl», теперь достаточно просто нажать клавишу «Delete»."
+msgstr "В последней версии Nautilus, при удалении больше не нужно удерживать клавишу «Ctrl», теперь достаточно просто нажать клавишу «Delete»."
 
 #: ../src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui.h:3
 msgid "Got it"
@@ -4872,24 +4699,19 @@ msgstr "Подписи к значкам"
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr ""
-"Добавить информацию, которая будет отображаться под именами файлов и папок.\n"
-"Более подробная информация будет появляться при увеличении масштаба."
+msgstr "Добавить информацию, которая будет отображаться под именами файлов и папок.\nБолее подробная информация будет появляться при увеличении масштаба.\""
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
-#| msgid "Second"
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
 msgstr "Второй"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
-#| msgid "Third"
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
 msgstr "Третий"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
-#| msgid "First"
 msgctxt "the n-th position of an icon caption"
 msgid "First"
 msgstr "Первый"
@@ -4904,11 +4726,11 @@ msgstr "Действие открытия"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
-msgstr "Отк_рывать объекты одинарным нажатием"
+msgstr "Отк_рывать объекты одним щелчком"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:38
 msgid "_Double click to open items"
-msgstr "Открывать объекты _двойным нажатием"
+msgstr "Открывать объекты _двойным щелчком"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
@@ -4916,7 +4738,7 @@ msgstr "Создание ссылки"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr "Показать действие для создания символических ссылок"
+msgstr "Показать действие для создания _символических ссылок"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
@@ -4948,9 +4770,7 @@ msgstr "Поведение"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:49
 msgid "Choose the order of information to appear in the list view."
-msgstr ""
-"Выберите порядок сведений, которые будут показаны при просмотре в виде "
-"списка."
+msgstr "Выберите порядок сведений, которые будут показаны при просмотре в виде списка."
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:50
 msgid "List Columns"
@@ -4982,7 +4802,7 @@ msgstr "Отображение миниатюр:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr "Только для файлов на этом компьютере"
+msgstr "_Только для файлов на этом компьютере"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
@@ -5034,7 +4854,7 @@ msgstr "Выбрать дату"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr "Очистить выбранную дату"
+msgstr "Очистить текущую выбранную дату"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
@@ -5128,7 +4948,7 @@ msgstr "_Тип"
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:6
 msgid "Last _Modified"
-msgstr "Последнее _изменённое"
+msgstr "Последнее _изменение"
 
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:7
 msgid "Last _Trashed"
@@ -5212,18 +5032,18 @@ msgstr "Сети"
 msgid "On This Computer"
 msgstr "На этом компьютере"
 
-#. Translators: respectively, free and total space of the drive. The plural form
+#. Translators: respectively, free and total space of the drive. The plural
+#. form
 #. * should be based on the free space available.
 #. * i.e. 1 GB / 24 GB available.
-#.
 #: ../src/gtk/nautilusgtkplacesviewrow.c:134
 #, c-format
-#| msgid "%s / %s available"
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "%s / %s доступно"
-msgstr[1] "%s / %s доступно"
-msgstr[2] "%s / %s доступно"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
@@ -5247,7 +5067,6 @@ msgstr "Недавние серверы"
 msgid "No results found"
 msgstr "Результатов не найдено"
 
-# заголовок диалогового окна
 #: ../src/gtk/nautilusgtkplacesview.ui.h:6
 msgid "Connect to _Server"
 msgstr "Подключиться к _серверу"
@@ -5255,96 +5074,3 @@ msgstr "Подключиться к _серверу"
 #: ../src/gtk/nautilusgtkplacesview.ui.h:8
 msgid "Enter server address…"
 msgstr "Ввести адрес сервера…"
-
-#~ msgid "Untitled %s"
-#~ msgstr "Безымянный %s"
-
-#~ msgid "Enables or disables recursive search in Nautilus."
-#~ msgstr "Включает или отключает рекурсивный поиск в Nautilus."
-
-#~ msgid "Whether to switch to the list view on search"
-#~ msgstr ""
-#~ "Определяет переключение режима просмотра при поиске на вид в виде списка"
-
-#~ msgid ""
-#~ "If this is set to true, view mode will be switched to the list view while "
-#~ "searching. However, if the user changes the mode manually, this will be "
-#~ "disabled."
-#~ msgstr ""
-#~ "Если этот параметр установлен в значение «true», режим просмотра при "
-#~ "поиске будет переключаться на вид в виде списка. Тем не менее, если "
-#~ "пользователь изменяет режим вручную, эта опция будет отключена."
-
-#~ msgid "The mime type of the file."
-#~ msgstr "Тип MIME этого файла."
-
-#~ msgid "Unable to rename desktop file"
-#~ msgstr "Не удалось переименовать desktop-файл"
-
-#~ msgid "File Type"
-#~ msgstr "Тип файла"
-
-#~ msgid "Any"
-#~ msgstr "Любой"
-
-#~ msgid "Remove this criterion from the search"
-#~ msgstr "Удалить этот критерий из поиска"
-
-#~ msgid "Current"
-#~ msgstr "Текущие"
-
-#~ msgid "Add a new criterion to this search"
-#~ msgstr "Добавить новый критерий в этот поиск"
-
-#~ msgid "Files Preferences"
-#~ msgstr "Параметры приложения"
-
-#~ msgid "Default View"
-#~ msgstr "Вид по умолчанию"
-
-#~ msgid "_Arrange items:"
-#~ msgstr "_Выстраивать объекты:"
-
-#~ msgid "Show context menu item to create links from copied files"
-#~ msgstr "Показывать контекстное меню создания ссылок скопированных файлов"
-
-#~ msgid "_Run executable text files when they are opened"
-#~ msgstr "_Запускать исполняемые текстовые файлы при открытии"
-
-#~ msgid "_View executable text files when they are opened"
-#~ msgstr "_Показывать содержимое исполняемых текстовых файлов при открытии"
-
-#~ msgid "_Ask each time"
-#~ msgstr "_Каждый раз спрашивать"
-
-#~ msgid "Navigate folders in a tree"
-#~ msgstr "Показывать папки в виде дерева"
-
-#~ msgid "Display"
-#~ msgstr "Просмотр"
-
-#~ msgid "Preview"
-#~ msgstr "Миниатюры"
-
-#~ msgid ""
-#~ "Nautilus 3.0 deprecated this directory and tried migrating this "
-#~ "configuration to ~/.config/nautilus"
-#~ msgstr ""
-#~ "Nautilus 3.0 считает этот каталог устаревшим и попытался перенести эту "
-#~ "конфигурацию в ~/.config/nautilus"
-
-#~ msgid "No bookmarks defined"
-#~ msgstr "Закладки не найдены"
-
-#~ msgid "Remove"
-#~ msgstr "Удалить"
-
-#~ msgid "Move Up"
-#~ msgstr "Переместить вверх"
-
-#~ msgid "Move Down"
-#~ msgstr "Переместить вниз"
-
-#~ msgctxt "Bookmark"
-#~ msgid "_Name"
-#~ msgstr "_Имя"
