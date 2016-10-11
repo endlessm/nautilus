@@ -12,16 +12,16 @@
 # Djihed Afifi <djihed@gmail.com>, 2006
 # Ibrahim Saed <ibraheem5000@gmail.com>, 2012
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
-# Khaled Hosny <khaledhosny@eglug.org>, 2006-2015
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2016
 # Mohammed Gamal <f2c2001@yahoo.com>, 2001
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002,2004
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-02 05:37+0000\n"
-"PO-Revision-Date: 2016-07-16 07:04+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:54+0000\n"
+"PO-Revision-Date: 2016-10-04 23:43+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/nautilus/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
-msgstr "نوتيلوس/Nautilus"
+msgstr "نوتلس"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:2
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:2
@@ -43,7 +43,7 @@ msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr "Nautilus، والمعروف كذلك بالملفات، هو مدير الملفات الافتراضي لسطح المكتب جنوم. وهو يوفر طريقة بسيطة ومتكاملة لإدارة ملفاتك وتصفح نظام ملفاتك."
+msgstr "نوتلس، أو الملفات، هو مدير الملفات المبدئي لسطح مكتب جنوم. يوفر طريقة سهلة و متكاملة مع سطح المكتب لتصفح نظام الملفات."
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:4
 msgid ""
@@ -52,7 +52,7 @@ msgid ""
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr "يدعم Nautilus كل الوظائف الأساسية لمدير ملف وأكثر. فيمكن أن يبحث ويدير ملفاتك وحافظاتك، محلياً وعلى شبكة، ويقرأ ويكتب البيانات إلى ومن الوسائط القابلة للفصل، وتشغيل البرامج النصية، وإطلاق التطبيقات. ولديه ثلاث طرق عرض: شبكة أيقونات، وقائمة أيقونات، وقائمة شجرة. ويمكن تمديد وظائفه بمكونات إضافية وبرامج نصية."
+msgstr "يدعم نوتلس كل الوظائف الأساسية لمدير سطح المكتب بالإضافة إلى خصائص أخرى. يمكنك البحث في ملفاتك و مجلداتك و إدارتها، محليًا أو عبر الشبكة، و قراءة و كتابة البيانات من و إلى الوسائط المنفصلة، و تشغيل البرامج. لنوتلس ثلاث منظورات: شبكة الأيقونات، و قائمة الأيقونات، و القائمة الشجرية. يمكنك توسيع خصائصه باستخدام الملحقات."
 
 #: ../data/nautilus-autorun-software.desktop.in.in.h:1
 msgid "Run Software"
@@ -74,7 +74,7 @@ msgstr "نافذة جديدة"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:1
 msgid "Where to position newly open tabs in browser windows"
-msgstr "أين يتم وضع علامات التبويب المفتوحة حديثاً في نوافذ المتصفح"
+msgstr "أين ستوضع الألسنة المفتوحة حديثا في نوافذ المتصفح"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
@@ -136,7 +136,7 @@ msgstr "إذا تم التعيين كصحيح، ثم سوف يقوم Nautilus /�
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr "سواء لطلب تأكيد عند حذف الملفات أو عند إفراغ سلة المهملات"
+msgstr "فيما إذا كان سيسأل عن التأكيد عند نقل الملفات إلى المهملات أو إفراغ سلة المهملات"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
@@ -180,7 +180,7 @@ msgstr "ما الذي سيفعل بالملفات التنفيذية عند تن
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
 msgid "Show the package installer for unknown MIME types"
-msgstr "عرض مثبت الحزمة لأنواع MIME غير المعروفة"
+msgstr "اعرض مثبت الحزم لأنواع MIME المجهولة"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
 msgid ""
@@ -244,7 +244,7 @@ msgid ""
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr "تبادل سريع لحين عرض ملف ما كصورة مصغرة. إذا تم تعيين\"دائماً\" ثم صورة مصغرة دائماً، حتى إذا كان المجلد موجود على خادم بعيد. إذا تم تعيين \"محلي فقط\" ثم عرض الصور المصغرة فقط لأنظمة الملفات المحلية. إذا تم تعيين \"أبداً\" ولم يزعجك أبداً مظهر الصور المصغرة للملفات، استخدم فقط أيقونة عامة. على عكس ما قد يوحي به الاسم، وهذا ينطبق على أي نوع ملف قابل للمعاينة."
+msgstr "عند عرض ملف كمُصغّرة. إذا ضبط ل‍ \"always\" فستعرض مُصغّرة دائما حتى و إن كان المجلد عند خادوم عن بعد. إذا ضبط ل‍ \"local-only\" فلن تعرض مُصغّرات إلا على نظم الملفات المحلية أما إذا ضبط ل‍ \"never\" فلن تُعرض مُصغّرات أبد، استخدم فقط أيقونة عامة."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -287,7 +287,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr "إذا كان هذا صحيحاً، سوف يتم فرز الملفات في نافذة جديدة في ترتيب عكسي. بمعنى أنه إذا تم فرزها حسب الاسم، ثم بدلاً من فرز الملفات من \"أ\" إلى \"ي\"، سوف يتم فرزها من \"ي\" إلى \"أ\". إذا تم فرزها حسب الحجم، بدلاً من أن تكون بشكل تزايدي سوف يتم فرزها بشكل تناقصي."
+msgstr "إذا ضبط كصحيح، سترتب الملفات في النوافذ الجديدة بالإتجاه المعاكس. مثلا، عند الترتيب حسب الاسم سترتب الملفات من \"ي\" إلى \"ا\" عوض أن ترتّب من \"ا\" إلى \"ي\". إذا رتبت بحسب الحجم فسترتب تنازليتا عوضا عن أن ترتب تصاعديا."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -460,7 +460,7 @@ msgstr "أيقونة مهملات مرئية فوق سطح المكتب"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr "إذا تم تعيين هذا صحيح، سوف يتم وضع أيقونة مرتبطة بسلة المهملات على سطح المكتب."
+msgstr "إذا ضبط كصحيح، ستوضع أيقونة تصل بالمهملات فوق سطح المكتب."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -485,7 +485,7 @@ msgstr "إذا ضبط كصحيح، ستوضع أيقونة تصل بخواديم
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr "'الصفحة الرئيسية'"
+msgstr "'المنزل'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:79
 msgid "Desktop home icon name"
@@ -500,22 +500,22 @@ msgstr "يمكن ضبط هذا الاسم إذا كنت تريد اسما خاص
 #: ../data/org.gnome.nautilus.gschema.xml.h:81
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr "'سلة المهملات'"
+msgstr "'المهملات'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:82
 msgid "Desktop Trash icon name"
-msgstr "اسم أيقونة سلة المهملات الموجودة على سطح المكتب"
+msgstr "اسم أيقونة المهملات على سطح المكتب"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:83
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr "يمكن تعيين هذا الاسم إذا كنت ترغب في اسم مخصص لأيقونة سلة المهملات على سطح المكتب."
+msgstr "يمكن ضبط هذا الاسم إذا كنت تريد اسما خاصا لأيقونة المهملات على سطح المكتب."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr "'خدمات الشبكة'"
+msgstr "'خواديم الشبكة'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:85
 msgid "Network servers icon name"
@@ -557,7 +557,7 @@ msgstr "سلسلة تحتوي الهندسة التي تم حفظها وتنسق
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
-msgstr "إذا كان ينبغي تكبير نافذة التصفح"
+msgstr "ما إذا وجب أن تكون نافذة الإبحار مكبّرة"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
@@ -723,7 +723,7 @@ msgstr "نوع MIME"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr "نوع ملف MIME."
+msgstr "نوع MIME للملف."
 
 #: ../libnautilus-private/nautilus-column-utilities.c:129
 #: ../src/nautilus-image-properties-page.c:415
@@ -836,7 +836,7 @@ msgstr "تعذر تغيير اسم أيقونة سطح المكتب"
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "ربما يكون محتوى الملف غير مناسب لتنسيق ملفات سطح المكتب"
+msgstr "ربما محتويات الملف ليست بنسق ملفات سطح المكتب."
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
@@ -1182,7 +1182,7 @@ msgstr "المجلد الأصلي"
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr "العناصر:"
+msgstr "عناصر:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1207,7 +1207,7 @@ msgstr "آخر تعديل:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr "دمج مع"
+msgstr "ادمج مع"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1231,7 +1231,7 @@ msgstr "صفّر"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr "تطبيق هذا الإجراء على جميع الملفات والمجلدات"
+msgstr "طبق هذا الإجراء على كل المجلدات"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1248,12 +1248,12 @@ msgstr "استبدل"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr "دمج المجلد"
+msgstr "ادمج المجلد"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr "تعارض بين الملف والمجلد"
+msgstr "تعارض في الملفات و المجلدات"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -2762,48 +2762,48 @@ msgstr "تعذّر إكمال البحث المطلوب"
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "منذ %d أيام مضت"
-msgstr[1] "منذ %d يوم مضى"
-msgstr[2] "منذ %d أيام مضت"
-msgstr[3] "منذ %d أيام مضت"
-msgstr[4] "منذ %d أيام مضت"
-msgstr[5] "منذ %d أيام مضت"
+msgstr[0] "منذ أقل من يوم"
+msgstr[1] "منذ يوم"
+msgstr[2] "منذ يومين"
+msgstr[3] "منذ %d أيام"
+msgstr[4] "منذ %d يومًا"
+msgstr[5] "منذ %d يوم"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "منذ %d أسابيع مضت"
-msgstr[1] "الأسبوع الماضي"
-msgstr[2] "منذ %d أسابيع مضت"
-msgstr[3] "منذ %d أسابيع مضت"
-msgstr[4] "منذ %d أسابيع مضت"
-msgstr[5] "منذ %d أسابيع مضت"
+msgstr[0] "آخر أسبوع"
+msgstr[1] "آخر أسبوع"
+msgstr[2] "منذ أسبوعين"
+msgstr[3] "منذ %d أسابيع"
+msgstr[4] "منذ %d أسبوعًا"
+msgstr[5] "منذ %d أسبوع"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "منذ %d شهور مضت"
-msgstr[1] "الشهر السابق"
-msgstr[2] "منذ %d شهور مضت"
-msgstr[3] "منذ %d شهور مضت"
-msgstr[4] "منذ %d شهور مضت"
-msgstr[5] "منذ %d شهور مضت"
+msgstr[0] "الشهر الماضي"
+msgstr[1] "الشهر الماضي"
+msgstr[2] "منذ شهرين"
+msgstr[3] "منذ %d أشهر"
+msgstr[4] "منذ %d شهرًا"
+msgstr[5] "منذ %d شهر"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] "منذ %d سنوات مضت"
-msgstr[1] "السنه السابقة"
-msgstr[2] "منذ %d سنوات مضت"
-msgstr[3] "منذ %d سنوات مضت"
-msgstr[4] "منذ %d سنوات مضت"
-msgstr[5] "منذ %d  سنوات مضت"
+msgstr[0] "السنة الماضية"
+msgstr[1] "السنة الماضية"
+msgstr[2] "منذ سنتين"
+msgstr[3] "منذ %d سنوات"
+msgstr[4] "منذ %d سنة"
+msgstr[5] "منذ %d سنة"
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -2890,7 +2890,7 @@ msgstr "عدم إدارة سطح المكتب أبداً (إهمال تفضيل 
 
 #: ../src/nautilus-application.c:863
 msgid "Always manage the desktop (ignore the GSettings preference)."
-msgstr "إدارة المكتب دائماً (تجاهل تفضيل Gsettings)."
+msgstr "لا تدِر سطح المكتب (تجاهل تفضيلات GSettings)."
 
 #: ../src/nautilus-application.c:865
 msgid "Quit Nautilus."
@@ -3584,7 +3584,7 @@ msgstr "موسيقى"
 
 #: ../src/nautilus-mime-actions.c:158
 msgid "PDF / PostScript"
-msgstr "PDF / بوست سكريبت"
+msgstr "PDF / PostScript"
 
 #: ../src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -4062,32 +4062,32 @@ msgstr "ا_فتح"
 
 #: ../src/nautilus-query-editor.c:122
 msgid "Searching locations only"
-msgstr "جاري البحث عن المواقع فقط"
+msgstr "يبحث في الأماكن فقط"
 
 #: ../src/nautilus-query-editor.c:124
 msgid "Searching devices only"
-msgstr "جاري البحث عن الأجهزة فقط"
+msgstr "يبحث في الأجهزة فقط"
 
 #: ../src/nautilus-query-editor.c:126
 msgid "Searching network locations only"
-msgstr "البحث عن مواقع الشبكة فقط"
+msgstr "يبحث عن أماكن الشبكة فقط"
 
 #: ../src/nautilus-query-editor.c:129
 msgid "Remote location - only searching the current folder"
-msgstr "الموقع البعيد - البحث فقط في المجلد الحالي"
+msgstr "مكان بعيد – يبحث في المجلد الحالي فقط"
 
 #: ../src/nautilus-query-editor.c:131
 msgid "Only searching the current folder"
-msgstr "البحث فقط في المجلد الحالي"
+msgstr "يبحث في المجلد الحالي فقط"
 
 #: ../src/nautilus-search-popover.c:284
 msgid "Show a list to select the date"
-msgstr "عرض القائمة لتحديد التاريخ"
+msgstr "اعرض قائمة لاختيار التاريخ"
 
 #: ../src/nautilus-search-popover.c:290
 #: ../src/resources/ui/nautilus-search-popover.ui.h:5
 msgid "Show a calendar to select the date"
-msgstr "إظهار التقويم لتحديد التاريخ"
+msgstr "اعرض تقويم لاختيار التاريخ"
 
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
@@ -4110,7 +4110,7 @@ msgstr "اختر"
 #: ../src/nautilus-search-popover.c:625
 #: ../src/resources/ui/nautilus-search-popover.ui.h:3
 msgid "Select Dates…"
-msgstr "جاري تحديد التواريخ..."
+msgstr "اختر التواريخ…"
 
 #. trash
 #: ../src/nautilus-shell-search-provider.c:297 ../src/nautilus-trash-bar.c:198
@@ -4269,27 +4269,27 @@ msgstr "نافذة جديدة"
 #: ../src/resources/gtk/help-overlay.ui.h:3
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr "غلق النافذة أو علامة التبويب"
+msgstr "أغلق النافذة أو اللسان"
 
 #: ../src/resources/gtk/help-overlay.ui.h:4
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "بحث"
+msgstr "ابحث"
 
 #: ../src/resources/gtk/help-overlay.ui.h:5
 msgctxt "shortcut window"
 msgid "Bookmarks"
-msgstr "الإشارات المرجعية"
+msgstr "العلامات"
 
 #: ../src/resources/gtk/help-overlay.ui.h:6
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr "إضافة الموقع الحالي إلى الإشارات المرجعية"
+msgstr "علّم المكان الحاليّ"
 
 #: ../src/resources/gtk/help-overlay.ui.h:7
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr "عرض المساعدة"
+msgstr "اعرض المساعدة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:8
 msgctxt "shortcut window"
@@ -4299,87 +4299,87 @@ msgstr "الاختصارات"
 #: ../src/resources/gtk/help-overlay.ui.h:9
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr "جاري الفتح"
+msgstr "الفتح"
 
 #: ../src/resources/gtk/help-overlay.ui.h:10
 msgctxt "shortcut window"
 msgid "Open"
-msgstr "فتح"
+msgstr "افتح"
 
 #: ../src/resources/gtk/help-overlay.ui.h:11
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr "فتح في علامة تبويب جديدة"
+msgstr "افتح في لسان جديد"
 
 #: ../src/resources/gtk/help-overlay.ui.h:12
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr "فتح في نافذة جديدة"
+msgstr "افتح في نافذة جديدة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:13
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr "فتح موقع العنصر (البحث والحديث فقط)"
+msgstr "افتح مكان العنصر (البحث و الملفات الحديثة فقط)"
 
 #: ../src/resources/gtk/help-overlay.ui.h:14
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr "فتح ملف وغلق النافذة"
+msgstr "افتح الملف و أغلق النافذة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:15
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr "فتح باستخدام التطبيق الافتراضي"
+msgstr "افتح بالتطبيق المبدئي"
 
 #: ../src/resources/gtk/help-overlay.ui.h:16
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "علامات تبويب"
+msgstr "الألسنة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:17
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr "علامة تبويب جديدة"
+msgstr "لسان جديد"
 
 #: ../src/resources/gtk/help-overlay.ui.h:18
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr "انتقل إلى علامة التبويب السابقة"
+msgstr "اذهب إلى اللسان السابق"
 
 #: ../src/resources/gtk/help-overlay.ui.h:19
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr "الذهاب إلى علامة التبويب التالية"
+msgstr "اذهب إلى اللسان التالي"
 
 #: ../src/resources/gtk/help-overlay.ui.h:20
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr "افتح علامة تبويب"
+msgstr "افتح لسان"
 
 #: ../src/resources/gtk/help-overlay.ui.h:21
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr "حرك علامة التبويب يساراً"
+msgstr "انقل اللسان يسارا"
 
 #: ../src/resources/gtk/help-overlay.ui.h:22
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr "حرك علامة التبويب يميناً"
+msgstr "انقل اللسان يمينا"
 
 #: ../src/resources/gtk/help-overlay.ui.h:23
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "التصفح"
+msgstr "الإبحار"
 
 #: ../src/resources/gtk/help-overlay.ui.h:24
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr "العودة للخلف"
+msgstr "ارجع للخلف"
 
 #: ../src/resources/gtk/help-overlay.ui.h:25
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr "اذهب إلى الأمام"
+msgstr "اذهب للأمام"
 
 #: ../src/resources/gtk/help-overlay.ui.h:26
 msgctxt "shortcut window"
@@ -4394,22 +4394,22 @@ msgstr "اذهب للأسفل"
 #: ../src/resources/gtk/help-overlay.ui.h:28
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr "الذهاب إلى المجلد الرئيسي"
+msgstr "اذهب إلى مجلد المنزل"
 
 #: ../src/resources/gtk/help-overlay.ui.h:29
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr "إدخال الموقع"
+msgstr "أدخل مكانا"
 
 #: ../src/resources/gtk/help-overlay.ui.h:30
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr "شريط الموقع مع موقع الجذر"
+msgstr "شريط المكان مع الجذر"
 
 #: ../src/resources/gtk/help-overlay.ui.h:31
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr "شريط الموقع مع موقع الصفحة الرئيسية"
+msgstr "شريط المكان مع المنزل"
 
 #: ../src/resources/gtk/help-overlay.ui.h:32
 msgctxt "shortcut window"
@@ -4419,97 +4419,97 @@ msgstr "عرض"
 #: ../src/resources/gtk/help-overlay.ui.h:33
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "تكبير"
+msgstr "قرّب"
 
 #: ../src/resources/gtk/help-overlay.ui.h:34
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "تصغير"
+msgstr "بعّد"
 
 #: ../src/resources/gtk/help-overlay.ui.h:35
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr "إعادة تعيين التكبير"
+msgstr "صفّر التقريب"
 
 #: ../src/resources/gtk/help-overlay.ui.h:36
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr "تحديث العرض"
+msgstr "أنعش المنظور"
 
 #: ../src/resources/gtk/help-overlay.ui.h:37
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr "عرض/ إخفاء الملفات المخفية"
+msgstr "أظهر أو أخْف الملفات المخفيّة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:38
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr "عرض/إخفاء الشريط الجانبي"
+msgstr "أظهر أو أخْف الشريط الجانبي"
 
 #: ../src/resources/gtk/help-overlay.ui.h:39
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr "عرض/إخفاء قائمة الإجراءات"
+msgstr "افتح أو أغلق قائمة الإجراءات"
 
 #: ../src/resources/gtk/help-overlay.ui.h:40
 msgctxt "shortcut window"
 msgid "List view"
-msgstr "عرض القائمة"
+msgstr "منظور القائمة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:41
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr "عرض الشبكة"
+msgstr "منظور الشبكة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:42
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr "جاري التعديل"
+msgstr "التحرير"
 
 #: ../src/resources/gtk/help-overlay.ui.h:43
 msgctxt "shortcut window"
 msgid "Create folder"
-msgstr "إنشاء مجلد"
+msgstr "أنشئ مجلّدا"
 
 #: ../src/resources/gtk/help-overlay.ui.h:44
 msgctxt "shortcut window"
 msgid "Rename"
-msgstr "إعادة التسمية"
+msgstr "غيّر الاسم"
 
 #: ../src/resources/gtk/help-overlay.ui.h:45
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr "نقل إلى سلة المهملات"
+msgstr "انقل إلى المهملات"
 
 #: ../src/resources/gtk/help-overlay.ui.h:46
 msgctxt "shortcut window"
 msgid "Delete permanently"
-msgstr "حذف بشكل نهائي"
+msgstr "احذف نهائيا"
 
 #: ../src/resources/gtk/help-overlay.ui.h:47
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr "نسخ"
+msgstr "انسخ"
 
 #: ../src/resources/gtk/help-overlay.ui.h:48
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr "لصق"
+msgstr "ألصق"
 
 #: ../src/resources/gtk/help-overlay.ui.h:49
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr "تحديد الكل"
+msgstr "اختر الكل"
 
 #: ../src/resources/gtk/help-overlay.ui.h:50
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr "عكس الاختيار"
+msgstr "اعكس الاختيار"
 
 #: ../src/resources/gtk/help-overlay.ui.h:51
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr "تحديد تطابق العناصر"
+msgstr "اختر العناصر المطابقة"
 
 #: ../src/resources/gtk/help-overlay.ui.h:52
 msgctxt "shortcut window"
@@ -4519,12 +4519,12 @@ msgstr "تراجع"
 #: ../src/resources/gtk/help-overlay.ui.h:53
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr "إعادة"
+msgstr "أعِد"
 
 #: ../src/resources/gtk/help-overlay.ui.h:54
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr "عرض خصائص العنصر"
+msgstr "اعرض خصائص العنصر"
 
 #: ../src/resources/gtk/menus.ui.h:1
 msgid "New _Window"
@@ -4540,7 +4540,7 @@ msgstr "الت_فضيلات"
 
 #: ../src/resources/gtk/menus.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr "اختصارات لوحة المفاتيح"
+msgstr "ا_ختصارات لوحة المفاتيح"
 
 #: ../src/resources/gtk/menus.ui.h:5
 msgid "_Help"
@@ -4569,7 +4569,7 @@ msgstr "أل_صق"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:4
 msgid "Create _Link"
-msgstr "إنشاء_رابط"
+msgstr "أنشئ و_صلة"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:5
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:3
@@ -4827,22 +4827,22 @@ msgstr "رتّب ال_مجلدات قبل الملفات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:28
 msgid "Allow folders to be _expanded"
-msgstr "السماح للمجلدات بأن يتم تمديد مساحتها"
+msgstr "اسمح بتمديد المجلدا_ت"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:29
 msgid "Icon View Captions"
-msgstr "الصور التوضيحية لعرض الأيقونة"
+msgstr "عناوين منظور الأيقونات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:30
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr "إضافة معلومات لعرضها تحت أسماء الملفات والمجلدات. \nسوف تظهر معلومات أكثر عند التكبير والتقريب."
+msgstr "أضف معلومات لتظهر أسفل أسماء الملفات و المجلدات.\nستظهر المزيد من المعلومات عند التكبير."
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr "ثانية"
+msgstr "ثاني"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
 msgctxt "the n-th position of an icon caption"
@@ -4860,7 +4860,7 @@ msgstr "المشاهد"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:36
 msgid "Open Action"
-msgstr "فتح إجراء"
+msgstr "إجراء الفتح"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
@@ -4872,11 +4872,11 @@ msgstr "_نقر مزدوج لفتح العناصر"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
-msgstr "إنشاء الروابط"
+msgstr "إنشاء الوصلة"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr "عرض الإجراء لإنشاء روابط رمزية"
+msgstr "أظهر إجراء إنشاء الوصلات الر_مزية"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
@@ -4884,23 +4884,23 @@ msgstr "ملفات نصية تنفيذية"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:42
 msgid "_Display them"
-msgstr "_اعرضها"
+msgstr "ا_عرضهم"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:43
 msgid "_Run them"
-msgstr "_قُم بتشغيلها"
+msgstr "_شغّلهم"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:44
 msgid "_Ask what to do"
-msgstr "_اسأل ماذا يجب أن تفعل"
+msgstr "ا_سأل ما الذي يجب فعله"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:46
 msgid "Ask before _emptying the Trash"
-msgstr "اسأل قبل_إفراغ سلة المهملات"
+msgstr "اسأل قبل إ_فراغ المهملات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:47
 msgid "Show action to _permanently delete files and folders"
-msgstr "عرض الإجراء لحذف الملفات والمجلدات بشكل نهائي"
+msgstr "أظهر إجراء الحذف ال_نهائي للملفات و المجلدات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:48
 msgid "Behavior"
@@ -4916,67 +4916,67 @@ msgstr "أعمدة القوائم"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:52
 msgid "Search in subfolders:"
-msgstr "البحث في مجلد فرعي:"
+msgstr "ابحث في المجلّدات الفرعية:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:53
 msgid "_On this computer only"
-msgstr "_على هذا الكمبيوتر فقط"
+msgstr "_على هذا الحاسوب فقط"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:54
 msgid "_All locations"
-msgstr "جميع المواقع"
+msgstr "_كل الأماكن"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:55
 msgid "_Never"
-msgstr "_أبداً"
+msgstr "أب_دًا"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:56
 msgid "Thumbnails"
-msgstr "الصور المصغرة"
+msgstr "المُصغّرات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:57
 msgid "Show thumbnails:"
-msgstr "عرض الصور المصغرة"
+msgstr "أظهر المصغرات:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr "_ ملفات على هذا الكمبيوتر فقط"
+msgstr "_على هذا الحاسوب فقط"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
-msgstr "جميع الملفات"
+msgstr "_كل الملفات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:60
 msgid "N_ever"
-msgstr "أبداً"
+msgstr "أب_دًا"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:61
 msgid "Onl_y for files smaller than:"
-msgstr "فقط للملفات الأصغر في الحجم من:"
+msgstr "_فقط للملفات الأصغر من:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:62
 msgid "File count"
-msgstr "حصر الملفات"
+msgstr "عدد الملفات"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:63
 msgid "Count number of files in folders:"
-msgstr "حصر عدد الملفات في المجلدات:"
+msgstr "عُدّ الملفات في المجلدات:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:64
 msgid "F_olders in this computer only"
-msgstr "المجلدات الموجودة على هذا الكمبيوتر فقط"
+msgstr "ال_مجلدات على هذا الحاسوب فقط"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:65
 msgid "All folder_s"
-msgstr "جميع الملفات"
+msgstr "كل المجلدا_ت"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:66
 msgid "Ne_ver"
-msgstr "أبداً"
+msgstr "أ_بدًا"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:67
 msgid "Search & Preview"
-msgstr "البحث والمعاينة"
+msgstr "البحث و المعاينة"
 
 #: ../src/resources/ui/nautilus-rename-file-popover.ui.h:2
 msgid "_Rename"
@@ -4984,43 +4984,43 @@ msgstr "غيّر الا_سم"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:1
 msgid "When"
-msgstr "عندما"
+msgstr "متى"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:2
 msgid "Select a date"
-msgstr "تحديد تاريخ"
+msgstr "اختر تاريخًا"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr "محو التاريخ المحدد حالياً"
+msgstr "امسح التاريخ المحدد حاليا"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
-msgstr "منذ..."
+msgstr "منذ…"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:7
 msgid "Last _modified"
-msgstr "آخر_تعديل"
+msgstr "آخر _تعديل"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:8
 msgid "Last _used"
-msgstr "آخر_استخدام"
+msgstr "آخر ا_ستخدام"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:9
 msgid "What"
-msgstr "ماذا"
+msgstr "ما"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:10
 msgid "Which file types will be searched"
-msgstr "ما هي أنواع الملفات التي سوف يتم البحث عنها"
+msgstr "ما أنواع الملفات التي سيُبحث فيها"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:13
 msgid "Full Text"
-msgstr "كامل النص"
+msgstr "كل النّص"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:14
 msgid "Search on the file content and name"
-msgstr "البحث عن محتوى واسم الملف"
+msgstr "ابحث في اسم الملف و محتواه"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:15
 msgid "File Name"
@@ -5028,7 +5028,7 @@ msgstr "اسم الملف"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:16
 msgid "Search only on the file name"
-msgstr "البحث عن اسم الملف فقط"
+msgstr "ابحث في اسم الملف فقط"
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:2
 msgid "New _Tab"
@@ -5178,12 +5178,12 @@ msgstr "على هذا الحاسوب"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "%s / %s متاح"
-msgstr[1] "%s / %s متاح"
-msgstr[2] "%s / %s متاح"
-msgstr[3] "%s / %s متاح"
-msgstr[4] "%s / %s متاح"
-msgstr[5] "%s / %s متاح"
+msgstr[0] "متاح %s ‏\\ %s"
+msgstr[1] "متاح %s ‏\\ %s"
+msgstr[2] "متاح %s ‏\\ %s"
+msgstr[3] "متاح %s ‏\\ %s"
+msgstr[4] "متاح %s ‏\\ %s"
+msgstr[5] "متاح %s ‏\\ %s"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
