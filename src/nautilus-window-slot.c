@@ -3205,19 +3205,19 @@ nautilus_window_slot_get_icon (NautilusWindowSlot *self)
         }
         break;
 
-        case NAUTILUS_VIEW_GRID_ID:
+	case NAUTILUS_VIEW_GRID_ID:
         {
             return nautilus_view_get_icon (NAUTILUS_VIEW_LIST_ID);
         }
         break;
 
-        case NAUTILUS_VIEW_OTHER_LOCATIONS_ID:
+	case NAUTILUS_VIEW_OTHER_LOCATIONS_ID:
         {
             return nautilus_view_get_icon (NAUTILUS_VIEW_OTHER_LOCATIONS_ID);
         }
         break;
 
-        default:
+	default:
         {
             return NULL;
         }
