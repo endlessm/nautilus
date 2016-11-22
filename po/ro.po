@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-08 04:38+0000\n"
-"PO-Revision-Date: 2016-11-14 17:32+0000\n"
+"POT-Creation-Date: 2016-11-15 04:39+0000\n"
+"PO-Revision-Date: 2016-11-20 15:49+0000\n"
 "Last-Translator: georgian balan <braila222@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/nautilus/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
-msgstr ""
+msgstr "Nautilus"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:2
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:2
@@ -62,7 +62,7 @@ msgstr "Fișiere"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:3
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "folder;manager;explore;disk;filesystem;administrator;dosar;disc;sistem;"
+msgstr "folder;manager;explore;disk;filesystem;"
 
 #: ../data/org.gnome.Nautilus.desktop.in.in.h:4
 msgid "New Window"
@@ -70,7 +70,7 @@ msgstr "Fereastra noua"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:1
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "Unde se poziționeaza filele nou deschise în ferestrele de browser"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:2
 msgid ""
@@ -4708,67 +4708,67 @@ msgstr "Coloane listă"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:52
 msgid "Search in subfolders:"
-msgstr ""
+msgstr "Cauta in subfolder:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:53
 msgid "_On this computer only"
-msgstr ""
+msgstr "_Doar pe acest computer"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:54
 msgid "_All locations"
-msgstr ""
+msgstr "_Toate locatiile"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:55
 msgid "_Never"
-msgstr ""
+msgstr "_Niciodata"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:56
 msgid "Thumbnails"
-msgstr ""
+msgstr "Miniaturi"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:57
 msgid "Show thumbnails:"
-msgstr ""
+msgstr "Afișați miniaturi:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:58
 msgid "_Files on this computer only"
-msgstr ""
+msgstr "_Doar fisierele din acest computer"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:59
 msgid "A_ll files"
-msgstr ""
+msgstr "Toate fisierele"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:60
 msgid "N_ever"
-msgstr ""
+msgstr "Niciodata"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:61
 msgid "Onl_y for files smaller than:"
-msgstr ""
+msgstr "Doar pentru fisierele mai mici de:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:62
 msgid "File count"
-msgstr ""
+msgstr "Numarul de fisier"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:63
 msgid "Count number of files in folders:"
-msgstr ""
+msgstr "Numara fisierele din foldere:"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:64
 msgid "F_olders in this computer only"
-msgstr ""
+msgstr "Folderele doar din acest computer"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:65
 msgid "All folder_s"
-msgstr ""
+msgstr "Toate folderele"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:66
 msgid "Ne_ver"
-msgstr ""
+msgstr "Niciodata"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:67
 msgid "Search & Preview"
-msgstr ""
+msgstr "Cauta & Previzualizeaza"
 
 #: ../src/resources/ui/nautilus-rename-file-popover.ui.h:2
 msgid "_Rename"
@@ -4776,51 +4776,51 @@ msgstr "_Redenumește"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:1
 msgid "When"
-msgstr ""
+msgstr "Cand"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:2
 msgid "Select a date"
-msgstr ""
+msgstr "Selecteaza o data"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:4
 msgid "Clear the currently selected date"
-msgstr ""
+msgstr "Sterge data selectata"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:6
 msgid "Since…"
-msgstr ""
+msgstr "De cand..."
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:7
 msgid "Last _modified"
-msgstr ""
+msgstr "Ultima data modificat"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:8
 msgid "Last _used"
-msgstr ""
+msgstr "Folosit ultima data"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:9
 msgid "What"
-msgstr ""
+msgstr "Ce"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:10
 msgid "Which file types will be searched"
-msgstr ""
+msgstr "Ce tipuri de fisier vor fi selectate"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:13
 msgid "Full Text"
-msgstr ""
+msgstr "Text Complet"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:14
 msgid "Search on the file content and name"
-msgstr ""
+msgstr "Căutare cu privire la conținutul și numele fișierului"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:15
 msgid "File Name"
-msgstr ""
+msgstr "Nume fișier"
 
 #: ../src/resources/ui/nautilus-search-popover.ui.h:16
 msgid "Search only on the file name"
-msgstr ""
+msgstr "Cauta doar in numele fisierului"
 
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:2
 msgid "New _Tab"
