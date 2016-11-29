@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-15 04:39+0000\n"
-"PO-Revision-Date: 2016-11-20 15:49+0000\n"
+"POT-Creation-Date: 2016-11-22 04:37+0000\n"
+"PO-Revision-Date: 2016-11-27 15:51+0000\n"
 "Last-Translator: georgian balan <braila222@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/nautilus/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -91,48 +91,48 @@ msgstr "Dacă opțiunea este activată, ferestrele de navigare Nautilus vor util
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:5
 msgid "Where to perform recursive search"
-msgstr ""
+msgstr "valabil %s / %s"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:6
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr ""
+msgstr "In ce locatii sa caute Nautilus in subfoldere.Valorile disponibile sunt 'doar local', 'mereu', 'niciodata'."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:7
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
+msgstr "Filtrează datele de căutare folosind fie ultima oară folosite sau modificate ultima oară."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:8
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
+msgstr "Filtrează datele de căutare folosind fie ultima oară folosite sau modificate ultima oară."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:9
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
+msgstr "Dacă se afișaza un element de meniu contextual pentru a șterge definitiv"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:10
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
+msgstr "Dacă este activat, atunci Nautilus va afișa un element de a șterge definitiv meniu contextual pentru a ocoli coșul de gunoi."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:11
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
+msgstr "Daca se afișaza elementele de meniu de context pentru a crea link-uri de la fișiere copiate sau selectate"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:12
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
+msgstr "Dacă este setat la true, atunci Nautilus va afișa elemente de meniu contextual pentru a crea legături din fișierele copiate sau selectate."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:13
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
+msgstr "Daca se cere confirmare la ștergerea fișierelor sau golirea coșului de gunoi"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:14
 msgid ""
@@ -176,24 +176,24 @@ msgstr "Comportarea fișierelor text executabile la activare (clic sau dublu cli
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:21
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "Afișați programul de instalare pachet pentru tipurile MIME necunoscute"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:22
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
+msgstr "Dacă arată utilizatorului un dialog de instalare a pachetelor în cazul în care este deschis un tip MIME necunoscut, în scopul de a căuta o aplicație să-l ocupe."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:23
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
+msgstr "Afișați un dialog de avertizare pentru schimbarea comenzii rapide pentru mutare la coșul de gunoi"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:24
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
+msgstr "Afișați un dialog de avertizare pentru schimbarea comenzii rapide pentru mutarea la coșul de gunoi de la Control + Ștergere pentru a șterge pur și simplu."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:25
 msgid "Use extra mouse button events in Nautilus' browser window"
@@ -240,7 +240,7 @@ msgid ""
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "Compromisul de viteza pentru a arăta un fișier ca o miniatură. Dacă este setat la \"întotdeauna\", atunci întotdeauna miniatură, chiar dacă directorul este pe un server de la distanță. Dacă este setat la \"doar local\", va afișa numai miniaturi pentru sistemele de fișiere locale. Dacă este setat la \"niciodata\", atunci nu va arata niciodata miniatură, doar va utiliza o pictogramă generica. În ciuda ceea ce numele poate sugera, acest lucru se aplică oricărui tip de fișier previzualizabil."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:33
 msgid "Maximum image size for thumbnailing"
@@ -283,7 +283,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "Dacă este activat, fișierele în ferestre noi vor fi sortate în ordine inversă. De exemplu, în cazul în care sortate după nume, apoi în loc de sortare fișierele de la \"a\" la \"z\", acestea vor fi sortate de la \"Z\" la \"a\"; dacă sunt sortate după mărime, în loc să fie crescator acestea vor fi sortate descrescator."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:41
 msgid "Default folder viewer"
@@ -308,12 +308,12 @@ msgstr "Această cheie este depășită și ignorată. Cheia „show-hidden” d
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:45
 msgid "What viewer should be used when searching"
-msgstr ""
+msgstr "Ce vizualizare ar trebui să fie utilizata pentru căutare"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:46
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
+msgstr "Atunci când caută,Nautilus va comuta la tipul de vedere în această setare."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:47
 msgid "Bulk rename utility"
@@ -338,7 +338,7 @@ msgstr "Dacă să deschidă dosaul evidențiat după un timp limită când opera
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
+msgstr "Daca este activat, atunci când se efectuează o operație de tragere și plasați directorul planat se va deschide automat după un timeout."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:51
 msgid "List of possible captions on icons"
@@ -368,7 +368,7 @@ msgstr "Dimensiunea implicită pentru iconițe"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
+msgstr "Dimensiunea implicită a unei pictograme pentru o miniatură în vizualizarea pictogramă atunci când se utilizează dimensiunea NAUTILUS_ICON_SIZE_STANDARD."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:57
 msgid "Text Ellipsis Limit"
@@ -389,7 +389,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr ""
+msgstr "Un șir specificând modul în care părțile de nume de fișier prea lungi ar trebui să fie înlocuite cu elipse, în funcție de nivelul de zoom. Fiecare dintre intrările listă este de forma \"Zoom Level: Integer\". Pentru fiecare nivel de zoom specificat, daca un întreg este mai mare decât 0, numele fișierului nu va depăși numărul dat de linii. În cazul în care numărul întreg este 0 sau mai mic, nu exista nici o limită impusă de nivelul de zoom specificat. O intrare implicită a formularului \"Integer\", fără nici un nivel de zoom specificat este de asemenea permisă. Acesta definește numărul maxim de linii pentru toate celelalte niveluri de zoom. Exemple: 0 - afișează întotdeauna numele de fișier intreg; 3 - scurtați numele fișierelor în cazul în care acestea depășeste trei linii; cel mai mic: 5, mai mici: 4,0 - scurtați numele fișierelor în cazul în care acestea depășeste cinci linii pentru nivelul de zoom \"cel mai mic\". Scurtați nume de fișiere în cazul în care acestea depășesc patru linii pentru nivelul de zoom \"mai mic\". Nu scurtați nume de fișiere pentru alte niveluri de zoom. nivele disponibile zoom: mic, standard, de mari dimensiuni."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:59
 msgid "Default list zoom level"
@@ -423,12 +423,12 @@ msgstr "Vizualizare arborescentă"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
+msgstr "Dacă un copac ar trebui să fie utilizat pentru vizualizarea listei de navigare în locul unei liste plate."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:67
 msgctxt "desktop-font"
 msgid "''"
-msgstr ""
+msgstr "\""
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:68
 msgid "Desktop font"
@@ -456,7 +456,7 @@ msgstr "Iconița Coș de gunoi vizibilă pe desktop"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "Dacă opțiunea este activată, pe desktop va fi afișată o iconiță care permite afișarea Cosului de Gunoi."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:74
 msgid "Show mounted volumes on the desktop"
@@ -481,7 +481,7 @@ msgstr "Dacă opțiunea este activată, pe desktop va fi afișată o iconiță c
 #: ../data/org.gnome.nautilus.gschema.xml.h:78
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "'Acasa'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:79
 msgid "Desktop home icon name"
@@ -496,22 +496,22 @@ msgstr "Acest nume poate fi definit dacă doriți un nume personalizat pentru ic
 #: ../data/org.gnome.nautilus.gschema.xml.h:81
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "'Cos de gunoi'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:82
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "Nume pictograma coș de gunoi"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:83
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
+msgstr "Acest nume poate fi setat dacă doriți un nume particularizat pentru pictograma coș de gunoi de pe desktop."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:84
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr ""
+msgstr "'Servere Retea'"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:85
 msgid "Network servers icon name"
@@ -543,7 +543,7 @@ msgstr "Dacă opțiunea este activată, Nautilus va folosi un efect de atenuare 
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:90
 msgid "The geometry string for a navigation window"
-msgstr ""
+msgstr "Șirul de geometrie pentru o fereastra de navigare"
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:91
 msgid ""
@@ -553,7 +553,7 @@ msgstr "Un text conținând geometria salvată și textul de coordonate pentru f
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:92
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "Dacă fereastra de navigare să fie maximizată."
 
 #: ../data/org.gnome.nautilus.gschema.xml.h:93
 msgid "Whether the navigation window should be maximized by default."
@@ -719,7 +719,7 @@ msgstr "Tip MIME"
 
 #: ../libnautilus-private/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr ""
+msgstr "Tipul MIME al fișierului."
 
 #: ../libnautilus-private/nautilus-column-utilities.c:129
 #: ../src/nautilus-image-properties-page.c:415
@@ -832,7 +832,7 @@ msgstr "Nu s-a putut redenumi iconița desktop"
 #: ../libnautilus-private/nautilus-file.c:1944
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
+msgstr "Probabil conținutul fișierului este in format de fișier nevalid pentru desktop"
 
 #. Translators: Time in 24h format
 #: ../libnautilus-private/nautilus-file.c:4777
@@ -1164,12 +1164,12 @@ msgstr "Există deja un fișier cu același nume în „%s”."
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:255
 msgid "Original folder"
-msgstr ""
+msgstr "Dosar original"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:256
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:293
 msgid "Items:"
-msgstr ""
+msgstr "Elemente:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:259
 msgid "Original file"
@@ -1194,7 +1194,7 @@ msgstr "Data ultimei modificări:"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 msgid "Merge with"
-msgstr ""
+msgstr "Combina cu"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:292
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:296
@@ -1218,7 +1218,7 @@ msgstr "Restabilește"
 #. Setup the checkbox to apply the action to all files
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:545
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "Aplica aceasta actiune la toate fisierele si dosarele"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:557
 #: ../libnautilus-private/nautilus-file-operations.c:183
@@ -1235,12 +1235,12 @@ msgstr "Înlocuiește"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 msgid "Merge Folder"
-msgstr ""
+msgstr "Combinati dosarul"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:651
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "Conflict de fisier si dosar"
 
 #: ../libnautilus-private/nautilus-file-conflict-dialog.c:657
 msgid "File conflict"
@@ -2620,36 +2620,36 @@ msgstr "Nu s-a putut completa căutarea dorită"
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Acum %d zi"
+msgstr[1] "Acum %d zi"
+msgstr[2] "Acum %d zile"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Saptamana trecuta"
+msgstr[1] "Saptamana trecuta"
+msgstr[2] "Acum %d saptamani"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Luna trecuta"
+msgstr[1] "Luna trecuta"
+msgstr[2] "Acum %d luni"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Anul trecut"
+msgstr[1] "Anut trecut"
+msgstr[2] "Acum %d ani"
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -3377,7 +3377,7 @@ msgstr[2] "Aceasta va deschide %d de ferestre separate."
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
 msgid "Anything"
-msgstr ""
+msgstr "Orice"
 
 #: ../src/nautilus-mime-actions.c:106 ../src/nautilus-properties-window.c:4200
 msgid "Folders"
@@ -3397,7 +3397,7 @@ msgstr "Muzică"
 
 #: ../src/nautilus-mime-actions.c:158
 msgid "PDF / PostScript"
-msgstr ""
+msgstr "PDF / PostScript"
 
 #: ../src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -3857,37 +3857,37 @@ msgstr "_Deschide"
 
 #: ../src/nautilus-query-editor.c:122
 msgid "Searching locations only"
-msgstr ""
+msgstr "Doar căutare locații"
 
 #: ../src/nautilus-query-editor.c:124
 msgid "Searching devices only"
-msgstr ""
+msgstr "Doar dispozitive care caută"
 
 #: ../src/nautilus-query-editor.c:126
 msgid "Searching network locations only"
-msgstr ""
+msgstr "Doar cautare locatie retea"
 
 #: ../src/nautilus-query-editor.c:129
 msgid "Remote location - only searching the current folder"
-msgstr ""
+msgstr "Locație de la distanță  - numai în căutarea directorului curent"
 
 #: ../src/nautilus-query-editor.c:131
 msgid "Only searching the current folder"
-msgstr ""
+msgstr "Se cauta doar dosarul curent"
 
 #: ../src/nautilus-search-popover.c:284
 msgid "Show a list to select the date"
-msgstr ""
+msgstr "Arata o lista pentru a selecta data"
 
 #: ../src/nautilus-search-popover.c:290
 #: ../src/resources/ui/nautilus-search-popover.ui.h:5
 msgid "Show a calendar to select the date"
-msgstr ""
+msgstr "Arata un calendar pentru a selecta data"
 
 #. Add the no date filter element first
 #: ../src/nautilus-search-popover.c:387
 msgid "Any time"
-msgstr ""
+msgstr "Orice timp"
 
 #. Other types
 #: ../src/nautilus-search-popover.c:476
@@ -3905,7 +3905,7 @@ msgstr "Selectează"
 #: ../src/nautilus-search-popover.c:625
 #: ../src/resources/ui/nautilus-search-popover.ui.h:3
 msgid "Select Dates…"
-msgstr ""
+msgstr "Selecteaza date"
 
 #. trash
 #: ../src/nautilus-shell-search-provider.c:297 ../src/nautilus-trash-bar.c:198
@@ -4051,272 +4051,272 @@ msgstr "Deschide cu:"
 #: ../src/resources/gtk/help-overlay.ui.h:1
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../src/resources/gtk/help-overlay.ui.h:2
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Fereastra noua"
 
 #: ../src/resources/gtk/help-overlay.ui.h:3
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr ""
+msgstr "Inchide fereastra sau tab"
 
 #: ../src/resources/gtk/help-overlay.ui.h:4
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Caută"
 
 #: ../src/resources/gtk/help-overlay.ui.h:5
 msgctxt "shortcut window"
 msgid "Bookmarks"
-msgstr ""
+msgstr "Insemnari"
 
 #: ../src/resources/gtk/help-overlay.ui.h:6
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr ""
+msgstr "Locatie curenta insemnari"
 
 #: ../src/resources/gtk/help-overlay.ui.h:7
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "Arata ajutor"
 
 #: ../src/resources/gtk/help-overlay.ui.h:8
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Scurtaturi"
 
 #: ../src/resources/gtk/help-overlay.ui.h:9
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr ""
+msgstr "Se deschide"
 
 #: ../src/resources/gtk/help-overlay.ui.h:10
 msgctxt "shortcut window"
 msgid "Open"
-msgstr ""
+msgstr "Deschide"
 
 #: ../src/resources/gtk/help-overlay.ui.h:11
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr ""
+msgstr "Deschide intr-un tab nou"
 
 #: ../src/resources/gtk/help-overlay.ui.h:12
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr ""
+msgstr "Deschide intr-o fereastra noua"
 
 #: ../src/resources/gtk/help-overlay.ui.h:13
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr ""
+msgstr "Deschideți locație produs (căutare și doar recente)"
 
 #: ../src/resources/gtk/help-overlay.ui.h:14
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr ""
+msgstr "Deschide fila si inchide fereastra"
 
 #: ../src/resources/gtk/help-overlay.ui.h:15
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr ""
+msgstr "Deschide cu aplicatie implicita"
 
 #: ../src/resources/gtk/help-overlay.ui.h:16
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr ""
+msgstr "Taburi"
 
 #: ../src/resources/gtk/help-overlay.ui.h:17
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "Tab nou"
 
 #: ../src/resources/gtk/help-overlay.ui.h:18
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr ""
+msgstr "Anteriorul tab"
 
 #: ../src/resources/gtk/help-overlay.ui.h:19
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr ""
+msgstr "Urmatorul tab"
 
 #: ../src/resources/gtk/help-overlay.ui.h:20
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr ""
+msgstr "Deschide tabul"
 
 #: ../src/resources/gtk/help-overlay.ui.h:21
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr ""
+msgstr "Muta tabul in stanga"
 
 #: ../src/resources/gtk/help-overlay.ui.h:22
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr ""
+msgstr "Muta tabul in dreapta"
 
 #: ../src/resources/gtk/help-overlay.ui.h:23
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Navigare"
 
 #: ../src/resources/gtk/help-overlay.ui.h:24
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "Inapoi"
 
 #: ../src/resources/gtk/help-overlay.ui.h:25
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr ""
+msgstr "Inainte"
 
 #: ../src/resources/gtk/help-overlay.ui.h:26
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "In sus"
 
 #: ../src/resources/gtk/help-overlay.ui.h:27
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "In jos"
 
 #: ../src/resources/gtk/help-overlay.ui.h:28
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr ""
+msgstr "Dute la dosarul acasa"
 
 #: ../src/resources/gtk/help-overlay.ui.h:29
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Introdu locatia"
 
 #: ../src/resources/gtk/help-overlay.ui.h:30
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "Locul de amplasare bar cu locație radacina"
 
 #: ../src/resources/gtk/help-overlay.ui.h:31
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "Locul de amplasare bar cu locație acasă"
 
 #: ../src/resources/gtk/help-overlay.ui.h:32
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Vizualizare"
 
 #: ../src/resources/gtk/help-overlay.ui.h:33
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Mareste"
 
 #: ../src/resources/gtk/help-overlay.ui.h:34
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Micsoreaza"
 
 #: ../src/resources/gtk/help-overlay.ui.h:35
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "Reseteaza zoom"
 
 #: ../src/resources/gtk/help-overlay.ui.h:36
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "Vizualizare reîmprospătare"
 
 #: ../src/resources/gtk/help-overlay.ui.h:37
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr ""
+msgstr "Arata/ascunde fisiere ascunse"
 
 #: ../src/resources/gtk/help-overlay.ui.h:38
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "Arata/ascunde bara laterală"
 
 #: ../src/resources/gtk/help-overlay.ui.h:39
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "Arata/ascunde meniu actiune"
 
 #: ../src/resources/gtk/help-overlay.ui.h:40
 msgctxt "shortcut window"
 msgid "List view"
-msgstr ""
+msgstr "Vizualizare listă"
 
 #: ../src/resources/gtk/help-overlay.ui.h:41
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr ""
+msgstr "Vizualizare grilă"
 
 #: ../src/resources/gtk/help-overlay.ui.h:42
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr ""
+msgstr "Editare"
 
 #: ../src/resources/gtk/help-overlay.ui.h:43
 msgctxt "shortcut window"
 msgid "Create folder"
-msgstr ""
+msgstr "Creeaza dosar"
 
 #: ../src/resources/gtk/help-overlay.ui.h:44
 msgctxt "shortcut window"
 msgid "Rename"
-msgstr ""
+msgstr "Redenumeste"
 
 #: ../src/resources/gtk/help-overlay.ui.h:45
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr ""
+msgstr "Muta la cosul de gunoi"
 
 #: ../src/resources/gtk/help-overlay.ui.h:46
 msgctxt "shortcut window"
 msgid "Delete permanently"
-msgstr ""
+msgstr "Sterge permanent"
 
 #: ../src/resources/gtk/help-overlay.ui.h:47
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "Copiaza"
 
 #: ../src/resources/gtk/help-overlay.ui.h:48
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "Lipeste"
 
 #: ../src/resources/gtk/help-overlay.ui.h:49
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr ""
+msgstr "Selecteaza tot"
 
 #: ../src/resources/gtk/help-overlay.ui.h:50
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr ""
+msgstr "Inverseaza selectia"
 
 #: ../src/resources/gtk/help-overlay.ui.h:51
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr ""
+msgstr "Alegeți elemente care potrivesc"
 
 #: ../src/resources/gtk/help-overlay.ui.h:52
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr ""
+msgstr "Anulează"
 
 #: ../src/resources/gtk/help-overlay.ui.h:53
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "Refă"
 
 #: ../src/resources/gtk/help-overlay.ui.h:54
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr ""
+msgstr "Arata proprietati element"
 
 #: ../src/resources/gtk/menus.ui.h:1
 msgid "New _Window"
@@ -4332,7 +4332,7 @@ msgstr "_Preferințe"
 
 #: ../src/resources/gtk/menus.ui.h:4
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Scurtaturi tastatura"
 
 #: ../src/resources/gtk/menus.ui.h:5
 msgid "_Help"
@@ -4361,7 +4361,7 @@ msgstr "Li_pește"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:4
 msgid "Create _Link"
-msgstr ""
+msgstr "Creeaza _Link"
 
 #: ../src/resources/ui/nautilus-files-view-context-menus.ui.h:5
 #: ../src/resources/ui/nautilus-toolbar-action-menu.ui.h:3
@@ -4606,7 +4606,7 @@ msgstr "4 GO"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:25
 msgid "Preferences"
-msgstr ""
+msgstr "Preferinte"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:26
 #: ../src/resources/ui/nautilus-toolbar-view-menu.ui.h:1
@@ -4619,32 +4619,32 @@ msgstr "Dosarele înaintea _fișierelor"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:28
 msgid "Allow folders to be _expanded"
-msgstr ""
+msgstr "Permite dosarelor sa se _extinda"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:29
 msgid "Icon View Captions"
-msgstr ""
+msgstr "Vezi transcrieri pictograma"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:30
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr ""
+msgstr "Adăugați informații care urmează să fie afișate sub fișier și numele folderului.\nMai multe informații vor apărea atunci când faceti zoom."
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:32
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr ""
+msgstr "Al doilea"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:33
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr ""
+msgstr "Al treilea"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:34
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr ""
+msgstr "Primul"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:35
 msgid "Views"
@@ -4652,7 +4652,7 @@ msgstr "Vizualizări"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:36
 msgid "Open Action"
-msgstr ""
+msgstr "Deschide actiune"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:37
 msgid "_Single click to open items"
@@ -4664,11 +4664,11 @@ msgstr "Clic _dublu pentru a deschide elementele"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:39
 msgid "Link Creation"
-msgstr ""
+msgstr "Creeare legatura"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:40
 msgid "Show action to create symbolic _links"
-msgstr ""
+msgstr "Arata actiunea pentru a creea _legaturi simbolice"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:41
 msgid "Executable Text Files"
@@ -4676,23 +4676,23 @@ msgstr "Fișiere text executabile"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:42
 msgid "_Display them"
-msgstr ""
+msgstr "_Arata"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:43
 msgid "_Run them"
-msgstr ""
+msgstr "_Executa"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:44
 msgid "_Ask what to do"
-msgstr ""
+msgstr "_Intreaba ce sa faci"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:46
 msgid "Ask before _emptying the Trash"
-msgstr ""
+msgstr "Intreaba inainte sa golesti Cosul de Gunoi"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:47
 msgid "Show action to _permanently delete files and folders"
-msgstr ""
+msgstr "Arata actiune pentru _a sterge definitiv fisiere si foldere"
 
 #: ../src/resources/ui/nautilus-preferences-window.ui.h:48
 msgid "Behavior"
@@ -4970,9 +4970,9 @@ msgstr "Pe Acest Calculator"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s / %s disponibil"
+msgstr[1] "%s / %s disponibil"
+msgstr[2] "%s / %s disponibil"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
