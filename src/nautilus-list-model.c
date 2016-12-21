@@ -1405,7 +1405,7 @@ nautilus_list_model_class_init (NautilusListModelClass *klass)
 
 	attribute_name_q = g_quark_from_static_string ("name");
 	attribute_modification_date_q = g_quark_from_static_string ("modification_date");
-	attribute_date_modified_q = g_quark_from_static_string ("date_modified");
+	attribute_date_modified_q = g_quark_from_static_string ("date_modified_full");
 	
 	object_class = (GObjectClass *)klass;
 	object_class->finalize = nautilus_list_model_finalize;
