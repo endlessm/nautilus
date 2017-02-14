@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-22 04:37+0000\n"
+"POT-Creation-Date: 2017-02-07 04:50+0000\n"
 "PO-Revision-Date: 2016-10-04 23:48+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Polish (http://www.transifex.com/endless-mobile-inc/nautilus/language/pl/)\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: ../data/org.gnome.Nautilus.appdata.xml.in.h:1
 msgid "Nautilus"
@@ -966,6 +966,7 @@ msgid_plural "%'u items"
 msgstr[0] "%'u element"
 msgstr[1] "%'u elementy"
 msgstr[2] "%'u elementów"
+msgstr[3] "%'u elementów"
 
 #: ../libnautilus-private/nautilus-file.c:6022
 #, c-format
@@ -974,6 +975,7 @@ msgid_plural "%'u folders"
 msgstr[0] "%'u katalog"
 msgstr[1] "%'u katalogi"
 msgstr[2] "%'u katalogów"
+msgstr[3] "%'u katalogów"
 
 #: ../libnautilus-private/nautilus-file.c:6023
 #, c-format
@@ -982,6 +984,7 @@ msgid_plural "%'u files"
 msgstr[0] "%'u plik"
 msgstr[1] "%'u pliki"
 msgstr[2] "%'u plików"
+msgstr[3] "%'u plików"
 
 #. This means no contents at all were readable
 #: ../libnautilus-private/nautilus-file.c:6424
@@ -1284,6 +1287,7 @@ msgid_plural "%'d seconds"
 msgstr[0] "%'d sekunda"
 msgstr[1] "%'d sekundy"
 msgstr[2] "%'d sekund"
+msgstr[3] "%'d sekund"
 
 #: ../libnautilus-private/nautilus-file-operations.c:287
 #: ../libnautilus-private/nautilus-file-operations.c:298
@@ -1293,6 +1297,7 @@ msgid_plural "%'d minutes"
 msgstr[0] "%'d minuta"
 msgstr[1] "%'d minuty"
 msgstr[2] "%'d minut"
+msgstr[3] "%'d minut"
 
 #: ../libnautilus-private/nautilus-file-operations.c:297
 #, c-format
@@ -1301,6 +1306,7 @@ msgid_plural "%'d hours"
 msgstr[0] "%'d godzina"
 msgstr[1] "%'d godziny"
 msgstr[2] "%'d godzin"
+msgstr[3] "%'d godzin"
 
 #: ../libnautilus-private/nautilus-file-operations.c:305
 #, c-format
@@ -1309,6 +1315,7 @@ msgid_plural "approximately %'d hours"
 msgstr[0] "około %'d godzina"
 msgstr[1] "około %'d godziny"
 msgstr[2] "około %'d godzin"
+msgstr[3] "około %'d godzin"
 
 #. appended to new link file
 #: ../libnautilus-private/nautilus-file-operations.c:385
@@ -1454,6 +1461,7 @@ msgid_plural ""
 msgstr[0] "Na pewno trwale usunąć %'d zaznaczony element z kosza?"
 msgstr[1] "Na pewno trwale usunąć %'d zaznaczone elementy z kosza?"
 msgstr[2] "Na pewno trwale usunąć %'d zaznaczonych elementów z kosza?"
+msgstr[3] "Na pewno trwale usunąć %'d zaznaczonych elementów z kosza?"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1401
 #: ../libnautilus-private/nautilus-file-operations.c:1467
@@ -1486,6 +1494,7 @@ msgid_plural ""
 msgstr[0] "Na pewno trwale usunąć %'d zaznaczony element?"
 msgstr[1] "Na pewno trwale usunąć %'d zaznaczone elementy?"
 msgstr[2] "Na pewno trwale usunąć %'d zaznaczonych elementów?"
+msgstr[3] "Na pewno trwale usunąć %'d zaznaczonych elementów?"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1511
 msgid "Deleted “%B”"
@@ -1502,6 +1511,7 @@ msgid_plural "Deleted %'d files"
 msgstr[0] "Usunięto %'d plik"
 msgstr[1] "Usunięto %'d pliki"
 msgstr[2] "Usunięto %'d plików"
+msgstr[3] "Usunięto %'d plików"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1525
 #, c-format
@@ -1510,6 +1520,7 @@ msgid_plural "Deleting %'d files"
 msgstr[0] "Usuwanie %'d pliku"
 msgstr[1] "Usuwanie %'d plików"
 msgstr[2] "Usuwanie %'d plików"
+msgstr[3] "Usuwanie %'d plików"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1539,6 +1550,7 @@ msgid_plural "%'d / %'d — %T left"
 msgstr[0] "%'d z %'d — pozostała %T"
 msgstr[1] "%'d z %'d — pozostały %T"
 msgstr[2] "%'d z %'d — pozostało %T"
+msgstr[3] "%'d z %'d — pozostało %T"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1571
 #: ../libnautilus-private/nautilus-file-operations.c:1967
@@ -1548,6 +1560,7 @@ msgid_plural "(%d files/sec)"
 msgstr[0] "(%d plik/s)"
 msgstr[1] "(%d pliki/s)"
 msgstr[2] "(%d plików/s)"
+msgstr[3] "(%d plików/s)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1653
 #: ../libnautilus-private/nautilus-file-operations.c:1687
@@ -1610,6 +1623,7 @@ msgid_plural "Trashing %'d files"
 msgstr[0] "Przenoszenie %'d pliku do kosza"
 msgstr[1] "Przenoszenie %'d plików do kosza"
 msgstr[2] "Przenoszenie %'d plików do kosza"
+msgstr[3] "Przenoszenie %'d plików do kosza"
 
 #: ../libnautilus-private/nautilus-file-operations.c:1920
 #, c-format
@@ -1618,6 +1632,7 @@ msgid_plural "Trashed %'d files"
 msgstr[0] "Przeniesiono %'d plik do kosza"
 msgstr[1] "Przeniesiono %'d pliki do kosza"
 msgstr[2] "Przeniesiono %'d plików do kosza"
+msgstr[3] "Przeniesiono %'d plików do kosza"
 
 #. Translators: %B is a file name
 #: ../libnautilus-private/nautilus-file-operations.c:2043
@@ -1672,6 +1687,7 @@ msgid_plural "Preparing to copy %'d files (%S)"
 msgstr[0] "Przygotowywanie do skopiowania %'d pliku (%S)"
 msgstr[1] "Przygotowywanie do skopiowania %'d plików (%S)"
 msgstr[2] "Przygotowywanie do skopiowania %'d plików (%S)"
+msgstr[3] "Przygotowywanie do skopiowania %'d plików (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2718
 #, c-format
@@ -1680,6 +1696,7 @@ msgid_plural "Preparing to move %'d files (%S)"
 msgstr[0] "Przygotowywanie do przeniesienia %'d pliku (%S)"
 msgstr[1] "Przygotowywanie do przeniesienia %'d plików (%S)"
 msgstr[2] "Przygotowywanie do przeniesienia %'d plików (%S)"
+msgstr[3] "Przygotowywanie do przeniesienia %'d plików (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2724
 #, c-format
@@ -1688,6 +1705,7 @@ msgid_plural "Preparing to delete %'d files (%S)"
 msgstr[0] "Przygotowywanie do usunięcia %'d pliku (%S)"
 msgstr[1] "Przygotowywanie do usunięcia %'d plików (%S)"
 msgstr[2] "Przygotowywanie do usunięcia %'d plików (%S)"
+msgstr[3] "Przygotowywanie do usunięcia %'d plików (%S)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2730
 #, c-format
@@ -1696,6 +1714,7 @@ msgid_plural "Preparing to trash %'d files"
 msgstr[0] "Przygotowywanie do przeniesienia %'d pliku do kosza"
 msgstr[1] "Przygotowywanie do przeniesienia %'d plików do kosza"
 msgstr[2] "Przygotowywanie do przeniesienia %'d plików do kosza"
+msgstr[3] "Przygotowywanie do przeniesienia %'d plików do kosza"
 
 #: ../libnautilus-private/nautilus-file-operations.c:2761
 #: ../libnautilus-private/nautilus-file-operations.c:3876
@@ -1800,6 +1819,7 @@ msgid_plural "Moving %'d files to “%B”"
 msgstr[0] "Przenoszenie %'d pliku do „%B”"
 msgstr[1] "Przenoszenie %'d plików do „%B”"
 msgstr[2] "Przenoszenie %'d plików do „%B”"
+msgstr[3] "Przenoszenie %'d plików do „%B”"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3260
 msgid "Copying %'d file to “%B”"
@@ -1807,6 +1827,7 @@ msgid_plural "Copying %'d files to “%B”"
 msgstr[0] "Kopiowanie %'d pliku do „%B”"
 msgstr[1] "Kopiowanie %'d plików do „%B”"
 msgstr[2] "Kopiowanie %'d plików do „%B”"
+msgstr[3] "Kopiowanie %'d plików do „%B”"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3270
 msgid "Moved %'d file to “%B”"
@@ -1814,6 +1835,7 @@ msgid_plural "Moved %'d files to “%B”"
 msgstr[0] "Przeniesiono %'d plik do „%B”"
 msgstr[1] "Przeniesiono %'d pliki do „%B”"
 msgstr[2] "Przeniesiono %'d plików do „%B”"
+msgstr[3] "Przeniesiono %'d plików do „%B”"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3274
 msgid "Copied %'d file to “%B”"
@@ -1821,6 +1843,7 @@ msgid_plural "Copied %'d files to “%B”"
 msgstr[0] "Skopiowano %'d plik do „%B”"
 msgstr[1] "Skopiowano %'d pliki do „%B”"
 msgstr[2] "Skopiowano %'d plików do „%B”"
+msgstr[3] "Skopiowano %'d plików do „%B”"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3288
 msgid "Duplicating %'d file in “%B”"
@@ -1828,6 +1851,7 @@ msgid_plural "Duplicating %'d files in “%B”"
 msgstr[0] "Powielanie %'d pliku w „%B”"
 msgstr[1] "Powielanie %'d plików w „%B”"
 msgstr[2] "Powielanie %'d plików w „%B”"
+msgstr[3] "Powielanie %'d plików w „%B”"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3296
 msgid "Duplicated %'d file in “%B”"
@@ -1835,6 +1859,7 @@ msgid_plural "Duplicated %'d files in “%B”"
 msgstr[0] "Powielono %'d plik w „%B”"
 msgstr[1] "Powielono %'d pliki w „%B”"
 msgstr[2] "Powielono %'d plików w „%B”"
+msgstr[3] "Powielono %'d plików w „%B”"
 
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -1858,6 +1883,7 @@ msgid_plural "%S / %S — %T left (%S/sec)"
 msgstr[0] "%S z %S — pozostała %T (%S/s)"
 msgstr[1] "%S z %S — pozostały %T (%S/s)"
 msgstr[2] "%S z %S — pozostało %T (%S/s)"
+msgstr[3] "%S z %S — pozostało %T (%S/s)"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -1871,6 +1897,7 @@ msgid_plural "%'d / %'d — %T left (%S/sec)"
 msgstr[0] "%'d z %'d — pozostała %T (%S/s)"
 msgstr[1] "%'d z %'d — pozostały %T (%S/s)"
 msgstr[2] "%'d z %'d — pozostało %T (%S/s)"
+msgstr[3] "%'d z %'d — pozostało %T (%S/s)"
 
 #: ../libnautilus-private/nautilus-file-operations.c:3880
 msgid ""
@@ -1976,6 +2003,7 @@ msgid_plural "Preparing to move %'d files"
 msgstr[0] "Przygotowywanie do przeniesienia %'d pliku"
 msgstr[1] "Przygotowywanie do przeniesienia %'d plików"
 msgstr[2] "Przygotowywanie do przeniesienia %'d plików"
+msgstr[3] "Przygotowywanie do przeniesienia %'d plików"
 
 #: ../libnautilus-private/nautilus-file-operations.c:5447
 #, c-format
@@ -1997,6 +2025,7 @@ msgid_plural "Making links to %'d files"
 msgstr[0] "Tworzenie dowiązania do %'d pliku"
 msgstr[1] "Tworzenie dowiązań do %'d plików"
 msgstr[2] "Tworzenie dowiązań do %'d plików"
+msgstr[3] "Tworzenie dowiązań do %'d plików"
 
 #: ../libnautilus-private/nautilus-file-operations.c:5880
 msgid "Error while creating link to %B."
@@ -2078,6 +2107,7 @@ msgid_plural "Move %d items back to '%s'"
 msgstr[0] "Przenosi %d element z powrotem do „%s”"
 msgstr[1] "Przenosi %d elementy z powrotem do „%s”"
 msgstr[2] "Przenosi %d elementów z powrotem do „%s”"
+msgstr[3] "Przenosi %d elementów z powrotem do „%s”"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:369
 #, c-format
@@ -2086,6 +2116,7 @@ msgid_plural "Move %d items to '%s'"
 msgstr[0] "Przenosi %d element do „%s”"
 msgstr[1] "Przenosi %d elementy do „%s”"
 msgstr[2] "Przenosi %d elementów do „%s”"
+msgstr[3] "Przenosi %d elementów do „%s”"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:373
 #, c-format
@@ -2094,6 +2125,7 @@ msgid_plural "_Undo Move %d items"
 msgstr[0] "_Cofnij przeniesienie %d elementu"
 msgstr[1] "_Cofnij przeniesienie %d elementów"
 msgstr[2] "_Cofnij przeniesienie %d elementów"
+msgstr[3] "_Cofnij przeniesienie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:376
 #, c-format
@@ -2102,6 +2134,7 @@ msgid_plural "_Redo Move %d items"
 msgstr[0] "_Ponów przeniesienie %d elementu"
 msgstr[1] "_Ponów przeniesienie %d elementów"
 msgstr[2] "_Ponów przeniesienie %d elementów"
+msgstr[3] "_Ponów przeniesienie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:380
 #, c-format
@@ -2136,6 +2169,7 @@ msgid_plural "Move %d items back to trash"
 msgstr[0] "Przenosi %d element z powrotem do kosza"
 msgstr[1] "Przenosi %d elementy z powrotem do kosza"
 msgstr[2] "Przenosi %d elementów z powrotem do kosza"
+msgstr[3] "Przenosi %d elementów z powrotem do kosza"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:394
 #: ../libnautilus-private/nautilus-file-undo-operations.c:990
@@ -2145,6 +2179,7 @@ msgid_plural "Restore %d items from trash"
 msgstr[0] "Przywraca %d element z kosza"
 msgstr[1] "Przywraca %d elementy z kosza"
 msgstr[2] "Przywraca %d elementów z kosza"
+msgstr[3] "Przywraca %d elementów z kosza"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:398
 #, c-format
@@ -2163,6 +2198,7 @@ msgid_plural "Delete %d copied items"
 msgstr[0] "Usuwa %d skopiowany element"
 msgstr[1] "Usuwa %d skopiowane elementy"
 msgstr[2] "Usuwa %d skopiowanych elementów"
+msgstr[3] "Usuwa %d skopiowanych elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:406
 #, c-format
@@ -2171,6 +2207,7 @@ msgid_plural "Copy %d items to '%s'"
 msgstr[0] "Kopiuje %d element do „%s”"
 msgstr[1] "Kopiuje %d elementy do „%s”"
 msgstr[2] "Kopiuje %d elementów do „%s”"
+msgstr[3] "Kopiuje %d elementów do „%s”"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:410
 #, c-format
@@ -2179,6 +2216,7 @@ msgid_plural "_Undo Copy %d items"
 msgstr[0] "_Cofnij skopiowanie %d elementu"
 msgstr[1] "_Cofnij skopiowanie %d elementów"
 msgstr[2] "_Cofnij skopiowanie %d elementów"
+msgstr[3] "_Cofnij skopiowanie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:413
 #, c-format
@@ -2187,6 +2225,7 @@ msgid_plural "_Redo Copy %d items"
 msgstr[0] "_Ponów skopiowanie %d elementu"
 msgstr[1] "_Ponów skopiowanie %d elementów"
 msgstr[2] "_Ponów skopiowanie %d elementów"
+msgstr[3] "_Ponów skopiowanie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:417
 #: ../libnautilus-private/nautilus-file-undo-operations.c:439
@@ -2215,6 +2254,7 @@ msgid_plural "Delete %d duplicated items"
 msgstr[0] "Usuwa %d powielony element"
 msgstr[1] "Usuwa %d powielone elementy"
 msgstr[2] "Usuwa %d powielonych elementów"
+msgstr[3] "Usuwa %d powielonych elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:428
 #, c-format
@@ -2223,6 +2263,7 @@ msgid_plural "Duplicate %d items in '%s'"
 msgstr[0] "Powiela %d element w „%s”"
 msgstr[1] "Powiela %d elementy w „%s”"
 msgstr[2] "Powiela %d elementów w „%s”"
+msgstr[3] "Powiela %d elementów w „%s”"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:432
 #, c-format
@@ -2231,6 +2272,7 @@ msgid_plural "_Undo Duplicate %d items"
 msgstr[0] "_Cofnij powielenie %d elementu"
 msgstr[1] "_Cofnij powielenie %d elementów"
 msgstr[2] "_Cofnij powielenie %d elementów"
+msgstr[3] "_Cofnij powielenie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:435
 #, c-format
@@ -2239,6 +2281,7 @@ msgid_plural "_Redo Duplicate %d items"
 msgstr[0] "_Ponów powielenie %d elementu"
 msgstr[1] "_Ponów powielenie %d elementów"
 msgstr[2] "_Ponów powielenie %d elementów"
+msgstr[3] "_Ponów powielenie %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:440
 #, c-format
@@ -2260,6 +2303,7 @@ msgid_plural "Delete links to %d items"
 msgstr[0] "Usuwa dowiązania do %d elementu"
 msgstr[1] "Usuwa dowiązania do %d elementów"
 msgstr[2] "Usuwa dowiązania do %d elementów"
+msgstr[3] "Usuwa dowiązania do %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:451
 #, c-format
@@ -2268,6 +2312,7 @@ msgid_plural "Create links to %d items"
 msgstr[0] "Tworzy dowiązania do %d elementu"
 msgstr[1] "Tworzy dowiązania do %d elementów"
 msgstr[2] "Tworzy dowiązania do %d elementów"
+msgstr[3] "Tworzy dowiązania do %d elementów"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:455
 #, c-format
@@ -2347,6 +2392,7 @@ msgid_plural "Move %d items to trash"
 msgstr[0] "Przenosi %d element do kosza"
 msgstr[1] "Przenosi %d elementy do kosza"
 msgstr[2] "Przenosi %d elementów do kosza"
+msgstr[3] "Przenosi %d elementów do kosza"
 
 #: ../libnautilus-private/nautilus-file-undo-operations.c:1005
 #, c-format
@@ -2618,6 +2664,7 @@ msgid_plural "%d days ago"
 msgstr[0] "Wczoraj"
 msgstr[1] "%d dni temu"
 msgstr[2] "%d dni temu"
+msgstr[3] "%d dni temu"
 
 #. weeks
 #: ../libnautilus-private/nautilus-ui-utilities.c:370
@@ -2627,6 +2674,7 @@ msgid_plural "%d weeks ago"
 msgstr[0] "Ostatni tydzień"
 msgstr[1] "%d tygodnie temu"
 msgstr[2] "%d tygodni temu"
+msgstr[3] "%d tygodni temu"
 
 #. months
 #: ../libnautilus-private/nautilus-ui-utilities.c:375
@@ -2636,6 +2684,7 @@ msgid_plural "%d months ago"
 msgstr[0] "Ostatni miesiąc"
 msgstr[1] "%d miesiące temu"
 msgstr[2] "%d miesięcy temu"
+msgstr[3] "%d miesięcy temu"
 
 #. years
 #: ../libnautilus-private/nautilus-ui-utilities.c:380
@@ -2645,6 +2694,7 @@ msgid_plural "%d years ago"
 msgstr[0] "Ostatni rok"
 msgstr[1] "%d lata temu"
 msgstr[2] "%d lat temu"
+msgstr[3] "%d lat temu"
 
 #: ../nautilus-sendto-extension/nautilus-nste.c:96
 #: ../nautilus-sendto-extension/nautilus-nste.c:101
@@ -2932,6 +2982,7 @@ msgid_plural "This will open %'d separate tabs."
 msgstr[0] "Spowoduje to otwarcie %'d oddzielnej karty."
 msgstr[1] "Spowoduje to otwarcie %'d oddzielnych kart."
 msgstr[2] "Spowoduje to otwarcie %'d oddzielnych kart."
+msgstr[3] "Spowoduje to otwarcie %'d oddzielnych kart."
 
 #: ../src/nautilus-files-view.c:1051
 #, c-format
@@ -2940,6 +2991,7 @@ msgid_plural "This will open %'d separate windows."
 msgstr[0] "Spowoduje to otwarcie %'d oddzielnego okna."
 msgstr[1] "Spowoduje to otwarcie %'d oddzielnych okien."
 msgstr[2] "Spowoduje to otwarcie %'d oddzielnych okien."
+msgstr[3] "Spowoduje to otwarcie %'d oddzielnych okien."
 
 #: ../src/nautilus-files-view.c:1055 ../src/nautilus-location-entry.c:270
 #: ../src/nautilus-mime-actions.c:979 ../src/nautilus-mime-actions.c:1153
@@ -3029,6 +3081,7 @@ msgid_plural "%'d folders selected"
 msgstr[0] "Zaznaczono %'d katalog"
 msgstr[1] "Zaznaczono %'d katalogi"
 msgstr[2] "Zaznaczono %'d katalogów"
+msgstr[3] "Zaznaczono %'d katalogów"
 
 #: ../src/nautilus-files-view.c:2974
 #, c-format
@@ -3037,6 +3090,7 @@ msgid_plural "(containing %'d items)"
 msgstr[0] "(zawiera %'d element)"
 msgstr[1] "(zawiera %'d elementy)"
 msgstr[2] "(zawiera %'d elementów)"
+msgstr[3] "(zawiera %'d elementów)"
 
 #. translators: this is preceded with a string of form 'N folders' (N more
 #. than 1)
@@ -3047,6 +3101,7 @@ msgid_plural "(containing a total of %'d items)"
 msgstr[0] "(zawierających razem %'d element)"
 msgstr[1] "(zawierających razem %'d elementy)"
 msgstr[2] "(zawierających razem %'d elementów)"
+msgstr[3] "(zawierających razem %'d elementów)"
 
 #: ../src/nautilus-files-view.c:3000
 #, c-format
@@ -3055,6 +3110,7 @@ msgid_plural "%'d items selected"
 msgstr[0] "Zaznaczono %'d element"
 msgstr[1] "Zaznaczono %'d elementy"
 msgstr[2] "Zaznaczono %'d elementów"
+msgstr[3] "Zaznaczono %'d elementów"
 
 #. Folders selected also, use "other" terminology
 #: ../src/nautilus-files-view.c:3007
@@ -3064,6 +3120,7 @@ msgid_plural "%'d other items selected"
 msgstr[0] "Zaznaczono %'d inny element"
 msgstr[1] "Zaznaczono %'d inne elementy"
 msgstr[2] "Zaznaczono %'d innych elementów"
+msgstr[3] "Zaznaczono %'d innych elementów"
 
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
@@ -3121,6 +3178,7 @@ msgid_plural "New Folder with Selection (%'d Items)"
 msgstr[0] "Nowy katalog za pomocą zaznaczenia (%'d element)"
 msgstr[1] "Nowy katalog za pomocą zaznaczenia (%'d elementy)"
 msgstr[2] "Nowy katalog za pomocą zaznaczenia (%'d elementów)"
+msgstr[3] "Nowy katalog za pomocą zaznaczenia (%'d elementów)"
 
 #: ../src/nautilus-files-view.c:6696
 #, c-format
@@ -3216,6 +3274,7 @@ msgid_plural "%d pixels"
 msgstr[0] "%d piksel"
 msgstr[1] "%d piksele"
 msgstr[2] "%d pikseli"
+msgstr[3] "%d pikseli"
 
 #: ../src/nautilus-image-properties-page.c:337
 msgid "Width"
@@ -3360,6 +3419,7 @@ msgid_plural "Do you want to view %d locations?"
 msgstr[0] "Wyświetlić %d położenie?"
 msgstr[1] "Wyświetlić %d położenia?"
 msgstr[2] "Wyświetlić %d położeń?"
+msgstr[3] "Wyświetlić %d położeń?"
 
 #: ../src/nautilus-location-entry.c:259 ../src/nautilus-mime-actions.c:975
 #, c-format
@@ -3368,6 +3428,7 @@ msgid_plural "This will open %d separate windows."
 msgstr[0] "Spowoduje to otwarcie %d oddzielnego okna."
 msgstr[1] "Spowoduje to otwarcie %d oddzielnych okien."
 msgstr[2] "Spowoduje to otwarcie %d oddzielnych okien."
+msgstr[3] "Spowoduje to otwarcie %d oddzielnych okien."
 
 #: ../src/nautilus-mime-actions.c:95
 #: ../src/resources/ui/nautilus-search-popover.ui.h:11
@@ -3451,6 +3512,7 @@ msgid_plural "This will open %d separate tabs."
 msgstr[0] "Spowoduje to otwarcie %d oddzielnej karty."
 msgstr[1] "Spowoduje to otwarcie %d oddzielnych kart."
 msgstr[2] "Spowoduje to otwarcie %d oddzielnych kart."
+msgstr[3] "Spowoduje to otwarcie %d oddzielnych kart."
 
 #: ../src/nautilus-mime-actions.c:1037
 #, c-format
@@ -3511,6 +3573,7 @@ msgid_plural "This will open %d separate applications."
 msgstr[0] "Spowoduje to otwarcie %d oddzielnego programu."
 msgstr[1] "Spowoduje to otwarcie %d oddzielnych programów."
 msgstr[2] "Spowoduje to otwarcie %d oddzielnych programów."
+msgstr[3] "Spowoduje to otwarcie %d oddzielnych programów."
 
 #. if it wasn't cancelled show a dialog
 #: ../src/nautilus-mime-actions.c:1790 ../src/nautilus-mime-actions.c:2054
@@ -3535,6 +3598,7 @@ msgid_plural "Opening %d items."
 msgstr[0] "Otwieranie %d elementu."
 msgstr[1] "Otwieranie %d elementów."
 msgstr[2] "Otwieranie %d elementów."
+msgstr[3] "Otwieranie %d elementów."
 
 #: ../src/nautilus-notebook.c:321
 msgid "Close tab"
@@ -3564,6 +3628,7 @@ msgid_plural "%'d file operations active"
 msgstr[0] "%'d aktywne działanie na plikach"
 msgstr[1] "%'d aktywne działania na plikach"
 msgstr[2] "%'d aktywnych działań na plikach"
+msgstr[3] "%'d aktywnych działań na plikach"
 
 #: ../src/nautilus-progress-persistence-handler.c:203
 msgid "All file operations have been successfully completed"
@@ -3596,6 +3661,7 @@ msgid_plural "_Names:"
 msgstr[0] "_Nazwa:"
 msgstr[1] "_Nazwy:"
 msgstr[2] "_Nazwy:"
+msgstr[3] "_Nazwy:"
 
 #: ../src/nautilus-properties-window.c:820
 #, c-format
@@ -3645,6 +3711,7 @@ msgid_plural "%'d items, totalling %s"
 msgstr[0] "%'d element o rozmiarze %s"
 msgstr[1] "%'d elementy o całkowitym rozmiarze %s"
 msgstr[2] "%'d elementów o całkowitym rozmiarze %s"
+msgstr[3] "%'d elementów o całkowitym rozmiarze %s"
 
 #: ../src/nautilus-properties-window.c:2144
 msgid "(some contents unreadable)"
@@ -3956,6 +4023,7 @@ msgid_plural "%d files deleted"
 msgstr[0] "Usunięto %d plik"
 msgstr[1] "Usunięto %d pliki"
 msgstr[2] "Usunięto %d plików"
+msgstr[3] "Usunięto %d plików"
 
 #: ../src/nautilus-window.c:1691
 #, c-format
@@ -4968,6 +5036,7 @@ msgid_plural "%s / %s available"
 msgstr[0] "Dostępne: %s/%s"
 msgstr[1] "Dostępne: %s/%s"
 msgstr[2] "Dostępne: %s/%s"
+msgstr[3] "Dostępne: %s/%s"
 
 #: ../src/gtk/nautilusgtkplacesviewrow.c:472
 msgid "Disconnect"
