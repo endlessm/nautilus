@@ -392,7 +392,9 @@ nautilus_gtk_places_view_finalize (GObject *object)
   NautilusGtkPlacesViewPrivate *priv = nautilus_gtk_places_view_get_instance_private (self);
 
   g_signal_handlers_disconnect_by_func (priv->volume_monitor, update_places, object);
-  g_signal_handlers_disconnect_by_func (priv->network_monitor, update_places, object);
+
+  if (priv->network_monitor)
+    g_signal_handlers_disconnect_by_func (priv->network_monitor, update_places, object);
 
   if (priv->entry_pulse_timeout_id > 0)
     g_source_remove (priv->entry_pulse_timeout_id);
