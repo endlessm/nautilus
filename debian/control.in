@@ -3,22 +3,22 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Build-Depends: debhelper (>= 9.20160114),
+Build-Depends: debhelper (>= 10),
                dpkg-dev (>= 1.17.14),
                dh-autoreconf,
                cdbs (>= 0.4.90),
                gnome-common,
                gnome-pkg-tools (>= 0.13),
-               libglib2.0-dev (>= 2.45.7),
+               libglib2.0-dev (>= 2.49.1),
                libatk1.0-dev (>= 1.32.0),
-               libgtk-3-dev (>= 3.19.12),
+               libgtk-3-dev (>= 3.21.6),
                libgail-3-dev,
+               libgnome-autoar-0-dev (>= 0.1),
                libgnome-desktop-3-dev (>= 3.10),
                libtracker-sparql-1.0-dev <!stage1>,
                libxml2-dev (>= 2.7.8),
                libexif-dev (>= 0.6.20),
                libexempi-dev (>= 2.1.0),
-               intltool (>= 0.50.0),
                gtk-doc-tools (>= 1.10),
                libxt-dev,
                libx11-dev,
@@ -32,7 +32,7 @@ Build-Depends: debhelper (>= 9.20160114),
                libglib2.0-doc,
                libgtk-3-doc,
                eos-shell-content-dev
-Homepage: http://www.gnome.org/projects/nautilus/
+Homepage: https://wiki.gnome.org/action/show/Apps/Nautilus
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/nautilus/
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/nautilus/
 Standards-Version: 3.9.8
@@ -42,8 +42,8 @@ Architecture: any
 XCBS-EOS-AppId: org.gnome.Nautilus
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         nautilus-data (>= ${gnome:Version}),
-         nautilus-data (<< ${gnome:NextVersion}),
+         nautilus-data (= ${source:Version}),
+         libnautilus-extension1a (= ${binary:Version}),
          shared-mime-info (>= 0.50),
          desktop-file-utils (>= 0.7),
          gvfs (>= 1.3.2),
@@ -57,6 +57,7 @@ Suggests: brasero (>= 2.26),
           eog,
           evince | pdf-viewer,
           totem | mp3-decoder,
+          nautilus-sendto,
           xdg-user-dirs,
           tracker
 Conflicts: eos-file-manager
@@ -74,6 +75,7 @@ Description: file manager and graphical shell for GNOME
 
 Package: libnautilus-extension1a
 Architecture: any
+Multi-Arch: same
 Section: libs
 Depends: ${misc:Depends},
          ${shlibs:Depends}
@@ -90,11 +92,12 @@ Description: libraries for nautilus components - runtime version
 
 Package: libnautilus-extension-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: libnautilus-extension1a (= ${binary:Version}),
          gir1.2-nautilus-3.0 (= ${binary:Version}),
-         libglib2.0-dev (>= 2.45.7),
-         libgtk-3-dev (>= 3.19.12),
+         libglib2.0-dev (>= 2.49.1),
+         libgtk-3-dev (>= 3.21.5),
          ${shlibs:Depends},
          ${misc:Depends}
 Conflicts: libeos-file-manager-extension-dev
@@ -109,6 +112,7 @@ Description: libraries for nautilus components - development version
 
 Package: gir1.2-nautilus-3.0
 Architecture: any
+Multi-Arch: same
 Section: introspection
 Depends: ${gir:Depends},
          ${shlibs:Depends},
@@ -127,6 +131,7 @@ Description: libraries for nautilus components - gir bindings
 
 Package: nautilus-data
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Recommends: nautilus
 Conflicts: eos-file-manager-data

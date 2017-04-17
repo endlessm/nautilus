@@ -1,1 +1,1 @@
-usr/lib/libnautilus-extension*.so.*
+usr/lib/*/libnautilus-extension*.so.*
