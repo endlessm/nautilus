@@ -1,36 +1,33 @@
-# Gaelic; Scottish translation for nautilus
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the gtk+3.0 package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-# GunChleoc <fios@foramnagaidhlig.net>, 2014, 2015, 2016, 2017.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the nautilus package.
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012
+# GunChleoc, 2014-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: gtk+3.0\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=nauti"
-"lus&keywords=I18N+L10N&component=Internationalization (i18n)\n"
-"POT-Creation-Date: 2017-02-22 21:44+0000\n"
-"PO-Revision-Date: 2017-03-07 12:22+0100\n"
-"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
-"Language-Team: Fòram na Gàidhlig\n"
-"Language: gd\n"
+"Project-Id-Version: nautilus\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
+"POT-Creation-Date: 2017-05-30 22:38-0700\n"
+"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Gaelic, Scottish (http://www.transifex.com/endless-mobile-inc/nautilus/language/gd/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
-"(n > 2 && n < 20) ? 2 : 3;\n"
-"X-Generator: Virtaal 0.7.1\n"
-"(n > 2 && n < 20) ? 2: 3;\n"
-"X-Launchpad-Export-Date: 2013-09-15 06:16+0000\n"
-"X-Project-Style: gnome\n"
+"Language: gd\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
 
 #: data/nautilus-autorun-software.desktop.in:3
 msgid "Run Software"
 msgstr "Ruith bathar-bog"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr "application-x-executable"
+msgstr ""
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -46,42 +43,33 @@ msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr ""
-"'S e am manaidsear fhaidhlichean tùsail aig an deasga GNOME a th' anns an "
-"Nautilus ris a chanar Faidhlichean cuideachd. Bheir e dòigh simplidh 's "
-"amalaichte dhut gus na faidhlichean agad a stiùireadh 's an siostam-"
-"fhaidhlichean a rùrachadh."
+msgstr "'S e am manaidsear fhaidhlichean tùsail aig an deasga GNOME a th' anns an Nautilus ris a chanar Faidhlichean cuideachd. Bheir e dòigh simplidh 's amalaichte dhut gus na faidhlichean agad a stiùireadh 's an siostam-fhaidhlichean a rùrachadh."
 
 #: data/org.gnome.Nautilus.appdata.xml.in:13
 msgid ""
-"Nautilus supports all the basic functions of a file manager and more. It can "
-"search and manage your files and folders, both locally and on a network, "
+"Nautilus supports all the basic functions of a file manager and more. It can"
+" search and manage your files and folders, both locally and on a network, "
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr ""
-"Bheir Nautilus taic do na h-uile foincsean bunasach aig manaidsear "
-"fhaidhlichean 's a bharrachd. Tha e comasach air lorg sna faidhlichean agus "
-"pasganan agad 's an stiùireadh, an dà chuid gu ionadail 's air lìonra, air "
-"dàta a leughadh 's a sgrìobhadh gu uidheaman so-ghiùlain, air sgriobtaichean "
-"a ruith agus air prògraman a thòiseachadh. Tha trì seallaidhean ri "
-"fhaighinn: griod de dh'ìomhaigheagan, liosta no craobh. Gabhaidh na feartan "
-"a leudachadh le plugain 's sgriobtaichean."
+msgstr "Bheir Nautilus taic do na h-uile foincsean bunasach aig manaidsear fhaidhlichean 's a bharrachd. Tha e comasach air lorg sna faidhlichean agus pasganan agad 's an stiùireadh, an dà chuid gu ionadail 's air lìonra, air dàta a leughadh 's a sgrìobhadh gu uidheaman so-ghiùlain, air sgriobtaichean a ruith agus air prògraman a thòiseachadh. Tha trì seallaidhean ri fhaighinn: griod de dh'ìomhaigheagan, liosta no craobh. Gabhaidh na feartan a leudachadh le plugain 's sgriobtaichean."
 
 #: data/org.gnome.Nautilus.desktop.in:3 src/nautilus-mime-actions.c:103
 #: src/nautilus-properties-window.c:4629 src/nautilus-window.c:2908
 msgid "Files"
 msgstr "Faidhlichean"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Nautilus.desktop.in:6
 msgid "folder;manager;explore;disk;filesystem;"
 msgstr "pasgan;manaidsear;rannsaich;diosg;siostam-faidhle;"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon
+#. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr "org.gnome.Nautilus"
+msgstr ""
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -89,19 +77,14 @@ msgstr "Uinneag ùr"
 
 #: data/org.gnome.nautilus.gschema.xml:80
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
-"Càit an dèid tabaichean a tha air ùr-fhosgladh a chur ann an uinneagan "
-"brabhsair"
+msgstr "Càit an dèid tabaichean a tha air ùr-fhosgladh a chur ann an uinneagan brabhsair"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid ""
 "If set to \"after-current-tab\", then new tabs are inserted after the "
-"current tab. If set to \"end\", then new tabs are appended to the end of the "
-"tab list."
-msgstr ""
-"Ma thaghas tu \"an dèidh an taba làithrich\", nochdaidh tabaichean ùra an "
-"dèidh an taba làithrich. Ma thaghas tu \"deireadh\", nochdaidh tabaichean "
-"ùra aig deireadh liosta nan tabaichean."
+"current tab. If set to \"end\", then new tabs are appended to the end of the"
+" tab list."
+msgstr "Ma thaghas tu \"an dèidh an taba làithrich\", nochdaidh tabaichean ùra an dèidh an taba làithrich. Ma thaghas tu \"deireadh\", nochdaidh tabaichean ùra aig deireadh liosta nan tabaichean."
 
 #: data/org.gnome.nautilus.gschema.xml:85
 msgid "Always use the location entry, instead of the pathbar"
@@ -111,9 +94,7 @@ msgstr "Cleachd ion-chur an ionaid an-còmhnaidh, na cleachd bàr na slighe"
 msgid ""
 "If set to true, then Nautilus browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, seallaidh uinneagan brabhsair Nautilus "
-"innteart teacsa airson bàr-inneal an ionaid seach bàr na slighe."
+msgstr "Ma thaghas tu \"true\" air a shon, seallaidh uinneagan brabhsair Nautilus innteart teacsa airson bàr-inneal an ionaid seach bàr na slighe."
 
 #: data/org.gnome.nautilus.gschema.xml:90
 msgid "Where to perform recursive search"
@@ -123,84 +104,60 @@ msgstr "Co-dhiù an dèid lorg ath-chùrsach a dhèanamh gus nach dèid"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are 'local-only', 'always', 'never'."
-msgstr ""
-"Na h-ionadan sam bu chòir dha Nautilus lorg sna fo-phasganan. Seo na luachan "
-"a tha ri fhaighinn: \"local-only\", \"always\", \"never\"."
+msgstr "Na h-ionadan sam bu chòir dha Nautilus lorg sna fo-phasganan. Seo na luachan a tha ri fhaighinn: \"local-only\", \"always\", \"never\"."
 
 #: data/org.gnome.nautilus.gschema.xml:95
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
-"Criathraich cinn-là an luirg a-rèir cleachdadh o chionn goirid no an t-"
-"atharrachadh mu dheireadh"
+msgstr "Criathraich cinn-là an luirg a-rèir cleachdadh o chionn goirid no an t-atharrachadh mu dheireadh"
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
-"Criathraich cinn-là an luirg a-rèir cleachdadh o chionn goirid no an t-"
-"atharrachadh mu dheireadh."
+msgstr "Criathraich cinn-là an luirg a-rèir cleachdadh o chionn goirid no an t-atharrachadh mu dheireadh."
 
 #: data/org.gnome.nautilus.gschema.xml:100
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
-"Co-dhiù an dèid nì clàir-thaice cho-theacsail a shealltainn airson sguabadh "
-"às gu buan gus nach dèid"
+msgstr "Co-dhiù an dèid nì clàir-thaice cho-theacsail a shealltainn airson sguabadh às gu buan gus nach dèid"
 
 #: data/org.gnome.nautilus.gschema.xml:101
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, seallaidh Nautilus nì air a' chlàr-taice "
-"co-theacsail gus rud a sguabadh às gun a bhith a' cleachdadh an Sgudal."
+msgstr "Ma thaghas tu \"true\" air a shon, seallaidh Nautilus nì air a' chlàr-taice co-theacsail gus rud a sguabadh às gun a bhith a' cleachdadh an Sgudal."
 
 #: data/org.gnome.nautilus.gschema.xml:105
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
-"Co-dhiù an dèid nithean clàir-thaice cho-theacsail a shealltainn gus "
-"ceanglaichean a dhèanamh o na faidhlichean a chaidh a thaghadh no lethbhreac "
-"a chur dhan stòr-bhòrd dhiubh"
+msgstr "Co-dhiù an dèid nithean clàir-thaice cho-theacsail a shealltainn gus ceanglaichean a dhèanamh o na faidhlichean a chaidh a thaghadh no lethbhreac a chur dhan stòr-bhòrd dhiubh"
 
 #: data/org.gnome.nautilus.gschema.xml:106
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, seallaidh Nautilus nì air a' chlàr-taice "
-"co-theacsail gus ceanglaichean a dhèanamh o na faidhlichean a chaidh a "
-"thaghadh no lethbhreac a chur dhan stòr-bhòrd dhiubh."
+msgstr "Ma thaghas tu \"true\" air a shon, seallaidh Nautilus nì air a' chlàr-taice co-theacsail gus ceanglaichean a dhèanamh o na faidhlichean a chaidh a thaghadh no lethbhreac a chur dhan stòr-bhòrd dhiubh."
 
 #: data/org.gnome.nautilus.gschema.xml:110
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
-"Co-dhùin an iarrar dearbhadh mus dèid faidhle a sguabadh às no an sgudal "
-"fhalamhachadh gus nach iarr"
+msgstr "Co-dhùin an iarrar dearbhadh mus dèid faidhle a sguabadh às no an sgudal fhalamhachadh gus nach iarr"
 
 #: data/org.gnome.nautilus.gschema.xml:111
 msgid ""
 "If set to true, then Nautilus will ask for confirmation when you attempt to "
 "delete files, or empty the Trash."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, faighnichidh Nautilus dhìot mus dèid "
-"faidhle a sguabadh às no mus dèid an sgudal fhalamhadh."
+msgstr "Ma thaghas tu \"true\" air a shon, faighnichidh Nautilus dhìot mus dèid faidhle a sguabadh às no mus dèid an sgudal fhalamhadh."
 
 #: data/org.gnome.nautilus.gschema.xml:115
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
 msgstr ""
-"Co-dhiù an dèid faidhlichean dùmhlaichte a dhì-dhùmhlachadh seach am "
-"fosgladh ann an aplacaid eile"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
 msgstr ""
-"Ma thaghas tu \"true\" air a shon, dì-dhùmhlaichidh Nautilus faidhlichean "
-"dùmhlaichte seach am fosgladh ann an aplacaid eile"
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -212,13 +169,7 @@ msgid ""
 "\"always\" then always show item counts, even if the folder is on a remote "
 "server. If set to \"local-only\" then only show counts for local file "
 "systems. If set to \"never\" then never bother to compute item counts."
-msgstr ""
-"Co-dhùin cuin a thèid àireamh de rudan ann am pasgan a shealltainn, rud aig "
-"a bheil buaidh air an astar. Ma thaghas tu \"an-còmhnaidh\", chithear an "
-"àireamh an-còmhnaidh fiù ma tha am pasgan air frithealaiche cèin. Ma thaghas "
-"tu \"feadhainn ionadail a-mhàin\", chan fhaicear an àireamh ach airson "
-"siostaman faidhle ionadail. Ma thaghas tu \"chan ann idir\", chan fhaicear "
-"àireamh nan nithean idir."
+msgstr "Co-dhùin cuin a thèid àireamh de rudan ann am pasgan a shealltainn, rud aig a bheil buaidh air an astar. Ma thaghas tu \"an-còmhnaidh\", chithear an àireamh an-còmhnaidh fiù ma tha am pasgan air frithealaiche cèin. Ma thaghas tu \"feadhainn ionadail a-mhàin\", chan fhaicear an àireamh ach airson siostaman faidhle ionadail. Ma thaghas tu \"chan ann idir\", chan fhaicear àireamh nan nithean idir."
 
 #: data/org.gnome.nautilus.gschema.xml:126
 msgid "Type of click used to launch/open files"
@@ -226,18 +177,13 @@ msgstr "Seòrsa a' bhriogaidh a dh'fhosglas no a chuireas gu dol faidhlicheanC"
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid ""
-"Possible values are \"single\" to launch files on a single click, or \"double"
-"\" to launch them on a double click."
-msgstr ""
-"'S urrainn dhut \"singilte\" a thaghadh airson 's gun dèid faidhlichean a "
-"chur gu dol le briogadh singilte no \"dùbailte\" gus an cur gu dol le "
-"briogadh dùbailte."
+"Possible values are \"single\" to launch files on a single click, or "
+"\"double\" to launch them on a double click."
+msgstr "'S urrainn dhut \"singilte\" a thaghadh airson 's gun dèid faidhlichean a chur gu dol le briogadh singilte no \"dùbailte\" gus an cur gu dol le briogadh dùbailte."
 
 #: data/org.gnome.nautilus.gschema.xml:131
 msgid "What to do with executable text files when activated"
-msgstr ""
-"Na nithear le faidhlichean teacsa so-ghnìomhaichte nuair a thèid an "
-"gnìomhachadh"
+msgstr "Na nithear le faidhlichean teacsa so-ghnìomhaichte nuair a thèid an gnìomhachadh"
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid ""
@@ -245,12 +191,7 @@ msgid ""
 "double clicked). Possible values are \"launch\" to launch them as programs, "
 "\"ask\" to ask what to do via a dialog, and \"display\" to display them as "
 "text files."
-msgstr ""
-"Na nithear le faidhlichean teacsa so-ghnìomhaichte nuair a thèid an "
-"gnìomhachadh (le briogadh singilte no dùbailte). Tha \"cuir gu dol\" (gus an "
-"cur gu dol mar phrògraman), \"faighnich\" (ma tha thu airson 's gum "
-"faighnichear dhìot dè bu toigh leat dèanamh) agus \"taisbean\" gus an "
-"taisbeanadh mar fhaidhlichean teacsa ri làimh ann."
+msgstr "Na nithear le faidhlichean teacsa so-ghnìomhaichte nuair a thèid an gnìomhachadh (le briogadh singilte no dùbailte). Tha \"cuir gu dol\" (gus an cur gu dol mar phrògraman), \"faighnich\" (ma tha thu airson 's gum faighnichear dhìot dè bu toigh leat dèanamh) agus \"taisbean\" gus an taisbeanadh mar fhaidhlichean teacsa ri làimh ann."
 
 #: data/org.gnome.nautilus.gschema.xml:136
 msgid "Show the package installer for unknown MIME types"
@@ -260,39 +201,29 @@ msgstr "Seall an stàlaichear pacaid airson seòrsaichean MIME neo-aithnichte"
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
-"Co-dhùin am faicear còmhradh stàlaichear pacaid ma thèid seòrsa MIME neo-"
-"aithnichte fhosgladh airson aplacaid a lorg a dh'fhosglas e."
+msgstr "Co-dhùin am faicear còmhradh stàlaichear pacaid ma thèid seòrsa MIME neo-aithnichte fhosgladh airson aplacaid a lorg a dh'fhosglas e."
 
 #: data/org.gnome.nautilus.gschema.xml:141
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
-"Seall còmhradh rabhaidh airson atharrachadh ath-ghoirid ri a gluasad dhan "
-"Sgudal"
+msgstr "Seall còmhradh rabhaidh airson atharrachadh ath-ghoirid ri a gluasad dhan Sgudal"
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
-"Seall còmhradh rabhaidh airson atharrachadh ath-ghoirid nuair a thèid "
-"gluasad dhan sgudal o Control + Delete no Delete a-mhàin."
+msgstr "Seall còmhradh rabhaidh airson atharrachadh ath-ghoirid nuair a thèid gluasad dhan sgudal o Control + Delete no Delete a-mhàin."
 
 #: data/org.gnome.nautilus.gschema.xml:146
 msgid "Use extra mouse button events in Nautilus' browser window"
-msgstr ""
-"Cleachd tachartasan a bharrachd airson putanan na luchaige ann an uinneag "
-"brabhsair Nautilus"
+msgstr "Cleachd tachartasan a bharrachd airson putanan na luchaige ann an uinneag brabhsair Nautilus"
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid ""
 "For users with mice that have \"Forward\" and \"Back\" buttons, this key "
 "will determine if any action is taken inside of Nautilus when either is "
 "pressed."
-msgstr ""
-"Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo an "
-"tachair dad am broinn Nautilus nuair a bhrùthar aon seach aon dhiubh."
+msgstr "Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo an tachair dad am broinn Nautilus nuair a bhrùthar aon seach aon dhiubh."
 
 #: data/org.gnome.nautilus.gschema.xml:151
 msgid "Mouse button to activate the \"Forward\" command in browser window"
@@ -300,13 +231,10 @@ msgstr "Putan na luchaige a bheir air adhart thu ann an uinneag a' bhrabhsair"
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid ""
-"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
-"will set which button activates the \"Forward\" command in a browser window. "
-"Possible values range between 6 and 14."
-msgstr ""
-"Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo dè am "
-"putan a ghluaisear air adhart thu ann an uinneag brabhsair. Bidh na luachan "
-"seo eadar 6 is 14."
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key"
+" will set which button activates the \"Forward\" command in a browser "
+"window. Possible values range between 6 and 14."
+msgstr "Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo dè am putan a ghluaisear air adhart thu ann an uinneag brabhsair. Bidh na luachan seo eadar 6 is 14."
 
 #: data/org.gnome.nautilus.gschema.xml:156
 msgid "Mouse button to activate the \"Back\" command in browser window"
@@ -314,13 +242,10 @@ msgstr "Putan na luchaige a bheir air ais thu ann an uinneag a' bhrabhsair"
 
 #: data/org.gnome.nautilus.gschema.xml:157
 msgid ""
-"For users with mice that have buttons for \"Forward\" and \"Back\", this key "
-"will set which button activates the \"Back\" command in a browser window. "
+"For users with mice that have buttons for \"Forward\" and \"Back\", this key"
+" will set which button activates the \"Back\" command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
-"Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo dè am "
-"putan a ghluaisear air ais thu ann an uinneag brabhsair. Bidh na luachan seo "
-"eadar 6 is 14."
+msgstr "Mas e luchag le putain \"Air adhart\" is \"Air ais\", suidhichidh seo dè am putan a ghluaisear air ais thu ann an uinneag brabhsair. Bidh na luachan seo eadar 6 is 14."
 
 #: data/org.gnome.nautilus.gschema.xml:162
 msgid "When to show thumbnails of files"
@@ -328,20 +253,13 @@ msgstr "Cuin a thèid dealbhagan de dh'fhaidhlichean a shealltainn"
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid ""
-"Speed trade-off for when to show a file as a thumbnail. If set to \"always\" "
-"then always thumbnail, even if the folder is on a remote server. If set to "
+"Speed trade-off for when to show a file as a thumbnail. If set to \"always\""
+" then always thumbnail, even if the folder is on a remote server. If set to "
 "\"local-only\" then only show thumbnails for local file systems. If set to "
 "\"never\" then never bother to thumbnail files, just use a generic icon. "
-"Despite what the name may suggest, this applies to any previewable file type."
-msgstr ""
-"Co-dhùin cuin a thèid faidhle deilbh a shealltainn mar dhealbhag, rud aig a "
-"bheil buaidh air an astar. Ma thaghas tu \"an-còmhnaidh\", chithear dealbhag "
-"an-còmhnaidh fiù ma tha am pasgan air frithealaiche cèin. Ma thaghas tu "
-"\"feadhainn ionadail a-mhàin\", chan fhaicear dealbhag ach airson siostaman "
-"faidhle ionadail. Ma thaghas tu \"chan ann idir\", cha dèanar dealbhag sam "
-"bith de dhealbhan idir is chithear ìomhaigheag bhunasach. A dh'aindeoin na "
-"tha an t-ainm a' cur 'nad shùil, bidh buaidh aige seo air faidhle de sheòrsa "
-"sam bith a ghabhas a ro-shealladh."
+"Despite what the name may suggest, this applies to any previewable file "
+"type."
+msgstr "Co-dhùin cuin a thèid faidhle deilbh a shealltainn mar dhealbhag, rud aig a bheil buaidh air an astar. Ma thaghas tu \"an-còmhnaidh\", chithear dealbhag an-còmhnaidh fiù ma tha am pasgan air frithealaiche cèin. Ma thaghas tu \"feadhainn ionadail a-mhàin\", chan fhaicear dealbhag ach airson siostaman faidhle ionadail. Ma thaghas tu \"chan ann idir\", cha dèanar dealbhag sam bith de dhealbhan idir is chithear ìomhaigheag bhunasach. A dh'aindeoin na tha an t-ainm a' cur 'nad shùil, bidh buaidh aige seo air faidhle de sheòrsa sam bith a ghabhas a ro-shealladh."
 
 #: data/org.gnome.nautilus.gschema.xml:167
 msgid "Maximum image size for thumbnailing"
@@ -352,10 +270,7 @@ msgid ""
 "Images over this size (in bytes) won't be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
-"Cha dèanar dealbhagan de dhealbhan a tha nas motha na seo (ann am byte). "
-"Cuiridh seo casg air dealbhagan de dhealbhan mòra a bheireadh ùine fhada "
-"'gan luchdadh no cus cuimhne."
+msgstr "Cha dèanar dealbhagan de dhealbhan a tha nas motha na seo (ann am byte). Cuiridh seo casg air dealbhagan de dhealbhan mòra a bheireadh ùine fhada 'gan luchdadh no cus cuimhne."
 
 #: data/org.gnome.nautilus.gschema.xml:175
 msgid "Default sort order"
@@ -363,11 +278,9 @@ msgstr "Òrdugh bunaiteach an t-seòrsachaidh"
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid ""
-"The default sort-order for items in the icon view. Possible values are \"name"
-"\", \"size\", \"type\" and \"mtime\"."
-msgstr ""
-"Òrdugh seòrsachaidh bunaiteach airson nithean san t-sealladh ìomhaigheagan. "
-"Tha na leanas ri làimh: \"name\", \"size\", \"type\" agus \"mtime\"."
+"The default sort-order for items in the icon view. Possible values are "
+"\"name\", \"size\", \"type\" and \"mtime\"."
+msgstr "Òrdugh seòrsachaidh bunaiteach airson nithean san t-sealladh ìomhaigheagan. Tha na leanas ri làimh: \"name\", \"size\", \"type\" agus \"mtime\"."
 
 #: data/org.gnome.nautilus.gschema.xml:180
 msgid "Reverse sort order in new windows"
@@ -379,12 +292,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from \"a\" to \"z\", they "
 "will be sorted from \"z\" to \"a\"; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, thèid faidhlichean ann an uinneagan ùra a "
-"sheòrsachadh ann an òrdugh contrarra. 'S e sin, ma sheòrsaicheas tu iad a-"
-"rèir ainm, bidh iad a' dol o \"z\" gu \"a\" seach an caochladh dòigh; ma "
-"sheòrsaicheas tu iad a-rèir meud, bidh an fheadhainn as motha aig an "
-"toiseach seach an fheadhainn as lugha."
+msgstr "Ma thaghas tu \"true\" air a shon, thèid faidhlichean ann an uinneagan ùra a sheòrsachadh ann an òrdugh contrarra. 'S e sin, ma sheòrsaicheas tu iad a-rèir ainm, bidh iad a' dol o \"z\" gu \"a\" seach an caochladh dòigh; ma sheòrsaicheas tu iad a-rèir meud, bidh an fheadhainn as motha aig an toiseach seach an fheadhainn as lugha."
 
 #: data/org.gnome.nautilus.gschema.xml:191
 msgid "Default folder viewer"
@@ -395,10 +303,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are \"list-view\", "
 "and \"icon-view\"."
-msgstr ""
-"Nuair thadhailear air pasgan, thèid an sealladair seo a chleachdadh mur an "
-"do thagh thu sealladh eile airson a' phasgain ud. Tha \"list-view\" agus "
-"\"icon-view\" ceadaichte air a dhon."
+msgstr "Nuair thadhailear air pasgan, thèid an sealladair seo a chleachdadh mur an do thagh thu sealladh eile airson a' phasgain ud. Tha \"list-view\" agus \"icon-view\" ceadaichte air a dhon."
 
 #: data/org.gnome.nautilus.gschema.xml:196
 msgid "Whether to show hidden files"
@@ -406,12 +311,9 @@ msgstr "Co-dhùin am faicear faidhlichean falaichte gus nach fhaic"
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid ""
-"This key is deprecated and ignored. The \"show-hidden\" key from \"org.gtk."
-"Settings.FileChooser\" is now used instead."
-msgstr ""
-"Cha mholar cleachdadh na h-iuchrach seo tuilleadh 's chaidh a leigeil "
-"seachad. Cleachdar an iuchair \"show-hidden\" o \"org.gtk.Settings."
-"FileChooser\" a-nis 'na àite."
+"This key is deprecated and ignored. The \"show-hidden\" key from "
+"\"org.gtk.Settings.FileChooser\" is now used instead."
+msgstr "Cha mholar cleachdadh na h-iuchrach seo tuilleadh 's chaidh a leigeil seachad. Cleachdar an iuchair \"show-hidden\" o \"org.gtk.Settings.FileChooser\" a-nis 'na àite."
 
 #: data/org.gnome.nautilus.gschema.xml:201
 msgid "What viewer should be used when searching"
@@ -420,9 +322,7 @@ msgstr "Dè an t-sealladair a bu chòir cleachdadh airson lorg"
 #: data/org.gnome.nautilus.gschema.xml:202
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
-"Atharraichidh Nautilus dhan t-seòrsa de shealladh san roghainn seo rè an "
-"luirg."
+msgstr "Atharraichidh Nautilus dhan t-seòrsa de shealladh san roghainn seo rè an luirg."
 
 #: data/org.gnome.nautilus.gschema.xml:206
 msgid "Bulk rename utility"
@@ -435,39 +335,27 @@ msgid ""
 "themselves in this key by setting the key to a space-separated string of "
 "their executable name and any command line options. If the executable name "
 "is not set to a full path, it will be searched for in the search path."
-msgstr ""
-"Ma thaghas tu seo, cuiridh Nautilus ris URIs nam faidhlichean a thagh thu "
-"agus cleachdaidh e na thig às mar loidhne àithne airson ainmean ùra a thoirt "
-"air àireamh mhòr de dh'fhaidhlichean aig an aon àm. 'S urrainn do "
-"dh'aplacaidean a bheir ainmean ùra mar seo an clàradh fhèin san iuchair seo "
-"'s iad a' taghadh sreath (air a sgaradh le àitichean bàna) dhen Executable "
-"Name aca agus roghainn command line sam bith. Mur an deach an Executable "
-"Name a shuidheachadh mar shlighe iomlan, thèid a lorg san t-slighe luirg."
+msgstr "Ma thaghas tu seo, cuiridh Nautilus ris URIs nam faidhlichean a thagh thu agus cleachdaidh e na thig às mar loidhne àithne airson ainmean ùra a thoirt air àireamh mhòr de dh'fhaidhlichean aig an aon àm. 'S urrainn do dh'aplacaidean a bheir ainmean ùra mar seo an clàradh fhèin san iuchair seo 's iad a' taghadh sreath (air a sgaradh le àitichean bàna) dhen Executable Name aca agus roghainn command line sam bith. Mur an deach an Executable Name a shuidheachadh mar shlighe iomlan, thèid a lorg san t-slighe luirg."
 
 #: data/org.gnome.nautilus.gschema.xml:211
 msgid ""
 "Whether to open the hovered folder after a timeout when drag and drop "
 "operation"
-msgstr ""
-"Co-dhiù an dèid am pasgan a thathar a' fantainn os a chionn fhosgladh às "
-"dèidh ùine stèidhichte le gnìomh slaodadh is leigeil às"
+msgstr "Co-dhiù an dèid am pasgan a thathar a' fantainn os a chionn fhosgladh às dèidh ùine stèidhichte le gnìomh slaodadh is leigeil às"
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, thèid am pasgan a bhios tu a' fantainn os "
-"a chionn fhosgladh às dèidh ùine stèidhichte nuair a nì thu slaodadh is "
-"leigeil às."
+msgstr "Ma thaghas tu \"true\" air a shon, thèid am pasgan a bhios tu a' fantainn os a chionn fhosgladh às dèidh ùine stèidhichte nuair a nì thu slaodadh is leigeil às."
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr "Am fòrmat tùsail airson faidhlichean dùmhlaichte"
+msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr "Am fòrmat a thèid a thaghadh airson dùmhlachadh fhaidhlichean."
+msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -479,11 +367,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: \"size\", \"type\", \"date_modified\", \"owner\", \"group\", "
 "\"permissions\", and \"mime_type\"."
-msgstr ""
-"Liosta de chaipseanan a chithear fo ìomhaigheag ann an sealladh nan "
-"ìomhaigheagan no an deasga. Tha uiread nan caipseanan a' crochadh air ìre an "
-"t-sùm. Tha iad a' gabhail a-steach: \"size\", \"type\", \"date_modified\", "
-"\"owner\", \"group\", \"permissions\" agus \"mime_type\"."
+msgstr "Liosta de chaipseanan a chithear fo ìomhaigheag ann an sealladh nan ìomhaigheagan no an deasga. Tha uiread nan caipseanan a' crochadh air ìre an t-sùm. Tha iad a' gabhail a-steach: \"size\", \"type\", \"date_modified\", \"owner\", \"group\", \"permissions\" agus \"mime_type\"."
 
 #: data/org.gnome.nautilus.gschema.xml:232
 msgid "Default icon zoom level"
@@ -491,8 +375,7 @@ msgstr "Ìre sùm bhunaiteach nan ìomhaigheagan"
 
 #: data/org.gnome.nautilus.gschema.xml:233
 msgid "Default zoom level used by the icon view."
-msgstr ""
-"Ìre sùm bhunaiteach a thèid a chleachdadh san t-sealladh ìomhaigheagan."
+msgstr "Ìre sùm bhunaiteach a thèid a chleachdadh san t-sealladh ìomhaigheagan."
 
 #: data/org.gnome.nautilus.gschema.xml:237
 msgid "Default Thumbnail Icon Size"
@@ -502,9 +385,7 @@ msgstr "Meud bunaiteach airson dealbhagan"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
-"Am meud bunaiteach aig ìomhaigheag dealbhaige san t-sealladh ìomhaigheagan "
-"nuair a bhios meud NAUTILUS_ICON_SIZE_STANDARD 'ga chleachdadh."
+msgstr "Am meud bunaiteach aig ìomhaigheag dealbhaige san t-sealladh ìomhaigheagan nuair a bhios meud NAUTILUS_ICON_SIZE_STANDARD 'ga chleachdadh."
 
 #: data/org.gnome.nautilus.gschema.xml:242
 #: data/org.gnome.nautilus.gschema.xml:313
@@ -526,22 +407,7 @@ msgid ""
 "Shorten file names if they exceed four lines for zoom level \"smaller\". Do "
 "not shorten file names for other zoom levels. Available zoom levels: small, "
 "standard, large."
-msgstr ""
-"Sreath a shònraicheas mar a thèid puingean a chur an àite ainmean "
-"fhaidhlichean a tha ro fhada, a' crochadh air ìre an t-sùm. Tha gach "
-"innteart air an liosta sa chruth \"Ìre an t-sùm:Àireamh\". Airson gach ìre "
-"dhen t-sùm a chaidh a shònrachadh, ma tha an àireamh shlàn nas motha na 0, "
-"cha dèid ainm an fhaidhle seachad air uiread a loidhnichean. Ma tha an "
-"àireamh shlàn 'na neoini no nas lugha, cha dèid cuingeachadh a chur air ìre "
-"an t-sùm ud. Tha innteart bunasach leithid \"Àireamh\" as aonais ìre "
-"shònraichte a shùm ceadaichte cuideachd. Sònraichidh e uiread as motha de "
-"loidhnichean airson gach ìre sùm eile. Mar eisimpleir: 0 – seall ainmean ro "
-"fhada an-còmhnaidh; 3 – giorraich ainmean fhaidhlichean ma tha iad nas "
-"fhaide na trì loidhnichean;smallest:5,smaller:4,0 – giorraich ainmean "
-"fhaidhlichean ma tha iad nas motha na còig loidhnichean aig an ìre sùm "
-"\"smallest\". Giorraich ainmean fhaidhlichean ma tha iad nas fhaide na "
-"ceithir loidhnichean aig an ìre sùm \"smaller\". Na giorraich ainmean aig "
-"ìre sam bith eile. Seo na h-ìrean a tha ri làimh: small, standard, large."
+msgstr "Sreath a shònraicheas mar a thèid puingean a chur an àite ainmean fhaidhlichean a tha ro fhada, a' crochadh air ìre an t-sùm. Tha gach innteart air an liosta sa chruth \"Ìre an t-sùm:Àireamh\". Airson gach ìre dhen t-sùm a chaidh a shònrachadh, ma tha an àireamh shlàn nas motha na 0, cha dèid ainm an fhaidhle seachad air uiread a loidhnichean. Ma tha an àireamh shlàn 'na neoini no nas lugha, cha dèid cuingeachadh a chur air ìre an t-sùm ud. Tha innteart bunasach leithid \"Àireamh\" as aonais ìre shònraichte a shùm ceadaichte cuideachd. Sònraichidh e uiread as motha de loidhnichean airson gach ìre sùm eile. Mar eisimpleir: 0 – seall ainmean ro fhada an-còmhnaidh; 3 – giorraich ainmean fhaidhlichean ma tha iad nas fhaide na trì loidhnichean;smallest:5,smaller:4,0 – giorraich ainmean fhaidhlichean ma tha iad nas motha na còig loidhnichean aig an ìre sùm \"smallest\". Giorraich ainmean fhaidhlichean ma tha iad nas fhaide na ceithir loidhnichean aig an ìre sùm \"smaller\". Na giorraich ainmean aig ìre sam bith eile. Seo na h-ìrean a tha ri làimh: small, standard, large."
 
 #: data/org.gnome.nautilus.gschema.xml:250
 msgid "Default list zoom level"
@@ -575,9 +441,7 @@ msgstr "Cleachd sealladh nan craobhan"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
-"Co-dhiù an dèid craobh a chleachdadh airson seòladaireachd na liosta seach "
-"liosta rèidh."
+msgstr "Co-dhiù an dèid craobh a chleachdadh airson seòladaireachd na liosta seach liosta rèidh."
 
 #: data/org.gnome.nautilus.gschema.xml:272
 msgctxt "desktop-font"
@@ -590,8 +454,7 @@ msgstr "Cruth-clò deasga"
 
 #: data/org.gnome.nautilus.gschema.xml:274
 msgid "The font description used for the icons on the desktop."
-msgstr ""
-"Tuairisgeul a' chruth-chlò a chleachdar airson ìomhaigheagan air an deasg."
+msgstr "Tuairisgeul a' chruth-chlò a chleachdar airson ìomhaigheagan air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:278
 msgid "Home icon visible on desktop"
@@ -601,9 +464,7 @@ msgstr "Chithear ìomhaigheag na dachaigh air an deasg"
 msgid ""
 "If this is set to true, an icon linking to the home folder will be put on "
 "the desktop."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ris a' "
-"phasgan-dachaigh air an deasg."
+msgstr "Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ris a' phasgan-dachaigh air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:283
 msgid "Trash icon visible on desktop"
@@ -613,9 +474,7 @@ msgstr "Chithear ìomhaigheag an sgudail air an deasg"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ris an "
-"Sgudal air an deasg."
+msgstr "Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ris an Sgudal air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:288
 msgid "Show mounted volumes on the desktop"
@@ -625,9 +484,7 @@ msgstr "Seall draibhean munntaichte air an deasg"
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ri draibhean "
-"munntaichte air an deasg."
+msgstr "Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ri draibhean munntaichte air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:293
 msgid "Network Servers icon visible on the desktop"
@@ -637,9 +494,7 @@ msgstr "Chithear ìomhaigheag nam frithealaichean lìonraidh air an deasg"
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ri sealladh "
-"nam frithealaichean lìonraidh air an deasg."
+msgstr "Ma thaghas tu \"true\" air a shon, bidh ìomhaigheag a cheanglas ri sealladh nam frithealaichean lìonraidh air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:297
 msgctxt "home-icon-name"
@@ -654,9 +509,7 @@ msgstr "Ainm na h-ìomhaigheige aig dachaigh an deasga"
 msgid ""
 "This name can be set if you want a custom name for the home icon on the "
 "desktop."
-msgstr ""
-"'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte "
-"air ìomhaigheag na dachaigh air an deasg."
+msgstr "'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte air ìomhaigheag na dachaigh air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:302
 msgctxt "trash-icon-name"
@@ -671,9 +524,7 @@ msgstr "Ainm na h-ìomhaigheige aig Sgudal an deasg"
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
-"'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte "
-"air ìomhaigheag an Sgudail air an deasg."
+msgstr "'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte air ìomhaigheag an Sgudail air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:307
 msgctxt "network-icon-name"
@@ -688,22 +539,15 @@ msgstr "Ainm ìomhaigheag nam frithealaichean lìonraidh"
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
-msgstr ""
-"'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte "
-"air ìomhaigheag nam frithealaichean lìonraidh air an deasg."
+msgstr "'S urrainn dhut-sa ainm a chur air ma tha thu ag iarraidh ainm gnàthaichte air ìomhaigheag nam frithealaichean lìonraidh air an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:314
 msgid ""
-"An integer specifying how parts of overlong file names should be replaced by "
-"ellipses on the desktop. If the number is larger than 0, the file name will "
-"not exceed the given number of lines. If the number is 0 or smaller, no "
+"An integer specifying how parts of overlong file names should be replaced by"
+" ellipses on the desktop. If the number is larger than 0, the file name will"
+" not exceed the given number of lines. If the number is 0 or smaller, no "
 "limit is imposed on the number of displayed lines."
-msgstr ""
-"Àireamh shlàn a shònraicheas mar a thèid puingean a chur an àite ainmean "
-"fhaidhlichean a tha ro fhada air an deasg. Ma tha an àireamh nas motha na 0, "
-"cha dèid ainm an fhaidhle seachad air uiread a loidhnichean. Ma tha an "
-"àireamh shlàn 'na neoini no nas lugha, cha dèid cuingeachadh a chur air "
-"àireamh nan loidhnichean a chithear."
+msgstr "Àireamh shlàn a shònraicheas mar a thèid puingean a chur an àite ainmean fhaidhlichean a tha ro fhada air an deasg. Ma tha an àireamh nas motha na 0, cha dèid ainm an fhaidhle seachad air uiread a loidhnichean. Ma tha an àireamh shlàn 'na neoini no nas lugha, cha dèid cuingeachadh a chur air àireamh nan loidhnichean a chithear."
 
 #: data/org.gnome.nautilus.gschema.xml:318
 msgid "Fade the background on change"
@@ -713,9 +557,7 @@ msgstr "Crìon an cùlaibh nuair a nithear atharrachadh"
 msgid ""
 "If set to true, then Nautilus will use a fade effect to change the desktop "
 "background."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, cleachdaidh Nautilus èifeachd crìonaidh "
-"nuair a dh'atharraicheas cùlaibh an deasg."
+msgstr "Ma thaghas tu \"true\" air a shon, cleachdaidh Nautilus èifeachd crìonaidh nuair a dh'atharraicheas cùlaibh an deasg."
 
 #: data/org.gnome.nautilus.gschema.xml:327
 msgid "The geometry string for a navigation window"
@@ -723,11 +565,9 @@ msgstr "An t-sreang geomatrais airson uinneag seòladaireachd ùr"
 
 #: data/org.gnome.nautilus.gschema.xml:328
 msgid ""
-"A string containing the saved geometry and coordinates string for navigation "
-"windows."
-msgstr ""
-"Sreath sa bheil an dàta geomatrais is na co-chomharran airson uinneagan "
-"seòladaireachd."
+"A string containing the saved geometry and coordinates string for navigation"
+" windows."
+msgstr "Sreath sa bheil an dàta geomatrais is na co-chomharran airson uinneagan seòladaireachd."
 
 #: data/org.gnome.nautilus.gschema.xml:332
 msgid "Whether the navigation window should be maximized"
@@ -735,8 +575,7 @@ msgstr "Co-dhùin am bi uinneag na seòladaireachd 'na làn-mheud gus nach bi"
 
 #: data/org.gnome.nautilus.gschema.xml:333
 msgid "Whether the navigation window should be maximized by default."
-msgstr ""
-"Co-dhùin am bi uinneag na seòladaireachd 'na làn-mheud a ghnàth gus nach bi."
+msgstr "Co-dhùin am bi uinneag na seòladaireachd 'na làn-mheud a ghnàth gus nach bi."
 
 #: data/org.gnome.nautilus.gschema.xml:337
 msgid "Width of the side pane"
@@ -753,9 +592,7 @@ msgstr "Seall bàr an ionaid ann an uinneagan ùra"
 #: data/org.gnome.nautilus.gschema.xml:343
 msgid ""
 "If set to true, newly opened windows will have the location bar visible."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, chithear bàr an ionaid ann an uinneagan a "
-"tha air ùr-fhosgladh."
+msgstr "Ma thaghas tu \"true\" air a shon, chithear bàr an ionaid ann an uinneagan a tha air ùr-fhosgladh."
 
 #: data/org.gnome.nautilus.gschema.xml:347
 msgid "Show side pane in new windows"
@@ -763,9 +600,7 @@ msgstr "Seall an leòsan-taoibh ann an uinneagan ùra"
 
 #: data/org.gnome.nautilus.gschema.xml:348
 msgid "If set to true, newly opened windows will have the side pane visible."
-msgstr ""
-"Ma thaghas tu \"true\" air a shon, chithear an leòsan-taoibh ann an "
-"uinneagan a tha air ùr-fhosgladh."
+msgstr "Ma thaghas tu \"true\" air a shon, chithear an leòsan-taoibh ann an uinneagan a tha air ùr-fhosgladh."
 
 #: eel/eel-canvas.c:1465 eel/eel-canvas.c:1466
 msgid "X"
@@ -848,24 +683,16 @@ msgstr "Ìoc! Chaidh rudeigin cearr."
 #: src/nautilus-application.c:178
 #, c-format
 msgid ""
-"Unable to create a required folder. Please create the following folder, or "
-"set permissions such that it can be created:\n"
+"Unable to create a required folder. Please create the following folder, or set permissions such that it can be created:\n"
 "%s"
-msgstr ""
-"Chan urrainn dhuinn pasgan a chruthachadh air a bheil feum. Cruthaich am "
-"pasgan a leanas no suidhich ceadan air dòigh 's gun gabh a chruthachadh:\n"
-"%s"
+msgstr "Chan urrainn dhuinn pasgan a chruthachadh air a bheil feum. Cruthaich am pasgan a leanas no suidhich ceadan air dòigh 's gun gabh a chruthachadh:\n%s"
 
 #: src/nautilus-application.c:185
 #, c-format
 msgid ""
-"Unable to create required folders. Please create the following folders, or "
-"set permissions such that they can be created:\n"
+"Unable to create required folders. Please create the following folders, or set permissions such that they can be created:\n"
 "%s"
-msgstr ""
-"Chan urrainn dhuinn pasgan a chruthachadh air a bheil feum. Cruthaich na "
-"pasganan a leanas no suidhich ceadan air dòigh 's gun gabh an cruthachadh:\n"
-"%s"
+msgstr "Chan urrainn dhuinn pasgan a chruthachadh air a bheil feum. Cruthaich na pasganan a leanas no suidhich ceadan air dòigh 's gun gabh an cruthachadh:\n%s"
 
 #: src/nautilus-application.c:629
 msgid "--check cannot be used with other options."
@@ -884,9 +711,7 @@ msgstr "Feumair --select a chleachdadh le co-dhiù aon URI."
 msgid ""
 "There was an error displaying help: \n"
 "%s"
-msgstr ""
-"Bha mearachd ann a' taisbeanadh na cobharach: \n"
-"%s"
+msgstr "Bha mearachd ann a' taisbeanadh na cobharach: \n%s"
 
 #: src/nautilus-application.c:883
 msgid "Perform a quick set of self-check tests."
@@ -894,8 +719,7 @@ msgstr "Dèan sgrùdadh beag."
 
 #: src/nautilus-application.c:892
 msgid "Create the initial window with the given geometry."
-msgstr ""
-"Cruthaich an uinneag thùsail leis a' gheomatras a chaidh a shònrachadh."
+msgstr "Cruthaich an uinneag thùsail leis a' gheomatras a chaidh a shònrachadh."
 
 #: src/nautilus-application.c:892
 msgid "GEOMETRY"
@@ -911,8 +735,7 @@ msgstr "Fosgail uinneag ùr airson brabhsadh de URIs sònraichte an-còmhnaidh"
 
 #: src/nautilus-application.c:898
 msgid "Only create windows for explicitly specified URIs."
-msgstr ""
-"Na cruthaich uinneagan ach airson URIs a chaidh a shònrachadh gu sònraichte."
+msgstr "Na cruthaich uinneagan ach airson URIs a chaidh a shònrachadh gu sònraichte."
 
 #: src/nautilus-application.c:900
 msgid "Quit Nautilus."
@@ -931,9 +754,7 @@ msgstr "[URI...]"
 msgid ""
 "Unable to start the program:\n"
 "%s"
-msgstr ""
-"Cha b' urrainn dhuinn am prògram a thòiseachadh:\n"
-"%s"
+msgstr "Cha b' urrainn dhuinn am prògram a thòiseachadh:\n%s"
 
 #: src/nautilus-autorun-software.c:164
 msgid "Unable to locate the program"
@@ -948,15 +769,11 @@ msgstr "Ìoc! Bha trioblaid ann a' ruith a' bhathair-bhog seo."
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr ""
-"Tha bathar-bog ann an \"%s\" a thòisicheas gu fèin-obrachail mar is trice. A "
-"bheil thu airson a chur gu dol?"
+msgstr "Tha bathar-bog ann an \"%s\" a thòisicheas gu fèin-obrachail mar is trice. A bheil thu airson a chur gu dol?"
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don't trust this location or aren't sure, press Cancel."
-msgstr ""
-"Mur eil earbsa agad san ionad seo no mur eil thu cinnteach, briog air "
-"\"Sguir dheth\"."
+msgstr "Mur eil earbsa agad san ionad seo no mur eil thu cinnteach, briog air \"Sguir dheth\"."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:657
 msgid "_Run"
@@ -965,91 +782,83 @@ msgstr "_Ruith"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr "Cha bhiodh “%s” 'na ainm àiridh ùr."
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr "Bhiodh còmhstri eadar “%s” agus faidhle a tha ann."
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
-#| msgid "Rename %d File"
-#| msgid_plural "Rename %d Files"
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] "Chaidh ainm ùr a chur air %d phasgan"
-msgstr[1] "Chaidh ainm ùr a chur air %d phasgan"
-msgstr[2] "Chaidh ainm ùr a chur air %d pasganan"
-msgstr[3] "Chaidh ainm ùr a chur air %d pasgan"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-batch-rename-dialog.c:2133
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] "Chaidh ainm ùr a chur air %d fhaidhle"
-msgstr[1] "Chaidh ainm ùr a chur air %d fhaidhle"
-msgstr[2] "Chaidh ainm ùr a chur air %d faidhlichean"
-msgstr[3] "Chaidh ainm ùr a chur air %d faidhle"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr "An t-ainm tùsail (a' dìreadh)"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr "An t-ainm tùsail (a' teàrnadh)"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr "A' chiad atharrachadh"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr "An t-atharrachadh mu dheireadh"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr "A' chiad chruthachadh"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr "An cruthachadh mu dheireadh"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:122
-#| msgid "Camera Model"
 msgid "Camera model"
-msgstr "Modail a' chamara"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:129
-#| msgid "Creation Date"
 msgid "Creation date"
-msgstr "Ceann-là a' chruthachaidh"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:136
-#| msgid "Season Number"
 msgid "Season number"
-msgstr "Àireamh an t-seusain"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:143
-#| msgid "Episode Number"
 msgid "Episode number"
-msgstr "Àireamh an eapasoid"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:150
-#| msgid "Track Number"
 msgid "Track number"
-msgstr "Àireamh an traca"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:157
-#| msgid "Artist Name"
 msgid "Artist name"
-msgstr "Ainm an neach-ciùil"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:382
@@ -1059,29 +868,24 @@ msgid "Title"
 msgstr "Tiotal"
 
 #: src/nautilus-batch-rename-dialog.h:171
-#| msgid "Album Name"
 msgid "Album name"
-msgstr "Ainm an albaim"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:178
-#| msgid "Original File Name"
 msgid "Original file name"
-msgstr "Ainm faidhle tùsail"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:189
-#| msgid "1, 2, 3, 4"
 msgid "1, 2, 3"
-msgstr "1, 2, 3"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:196
-#| msgid "01, 02, 03, 04"
 msgid "01, 02, 03"
-msgstr "01, 02, 03"
+msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:203
-#| msgid "001, 002, 003, 004"
 msgid "001, 002, 003"
-msgstr "001, 002, 003"
+msgstr ""
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -1103,9 +907,7 @@ msgstr "Ath-shuidhich gun _bhun-roghainn"
 
 #: src/nautilus-column-chooser.c:438
 msgid "Replace the current List Columns settings with the default settings"
-msgstr ""
-"Cuir na bun-roghainnean an àite nan roghainnean làithreach airson colbhan na "
-"liosta"
+msgstr "Cuir na bun-roghainnean an àite nan roghainnean làithreach airson colbhan na liosta"
 
 #: src/nautilus-column-utilities.c:56 src/nautilus-list-view.c:1947
 #: src/resources/ui/nautilus-rename-file-popover.ui:14
@@ -1180,7 +982,8 @@ msgstr "Seòrsa MIME"
 msgid "The MIME type of the file."
 msgstr "Seòrsa MIME an fhaidhle."
 
-#: src/nautilus-column-utilities.c:128 src/nautilus-image-properties-page.c:452
+#: src/nautilus-column-utilities.c:128
+#: src/nautilus-image-properties-page.c:452
 msgid "Location"
 msgstr "Ionad"
 
@@ -1218,15 +1021,15 @@ msgstr "Rangachadh a' bhuntainneis luirg"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr "Chan fhaod “/” a bhith ann an ainm tasglainn."
+msgstr ""
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr "Chan urrainn dhut “.” a thoirt air tasglann."
+msgstr ""
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr "Chan urrainn dhut “..” a thoirt air tasglann."
+msgstr ""
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1274,22 +1077,19 @@ msgstr "Sguir dheth"
 
 #: src/nautilus-error-reporting.c:72
 #, c-format
-msgid "You do not have the permissions necessary to view the contents of “%s”."
+msgid ""
+"You do not have the permissions necessary to view the contents of “%s”."
 msgstr "Chan eil cead agad an t-susbaint ann an \"%s\" fhaicinn."
 
 #: src/nautilus-error-reporting.c:79
 #, c-format
 msgid "“%s” could not be found. Perhaps it has recently been deleted."
-msgstr ""
-"Cha b' urrainn dhuinn \"%s\" a lorg. 'S dòcha gun deach a sguabadh às o "
-"chionn goirid."
+msgstr "Cha b' urrainn dhuinn \"%s\" a lorg. 'S dòcha gun deach a sguabadh às o chionn goirid."
 
 #: src/nautilus-error-reporting.c:85
 #, c-format
 msgid "Sorry, could not display all the contents of “%s”: %s"
-msgstr ""
-"Tha sinn duilich ach cha b' urrainn dhuinn an t-susbaint gu lèir ann an \"%s"
-"\" a thaisbeanadh: %s."
+msgstr "Tha sinn duilich ach cha b' urrainn dhuinn an t-susbaint gu lèir ann an \"%s\" a thaisbeanadh: %s."
 
 #: src/nautilus-error-reporting.c:94
 msgid "This location could not be displayed."
@@ -1304,9 +1104,7 @@ msgstr "Chan eil cead agad buidheann \"%s\" atharrachadh."
 #: src/nautilus-error-reporting.c:140
 #, c-format
 msgid "Sorry, could not change the group of “%s”: %s"
-msgstr ""
-"Tha sinn duilich ach cha b' urrainn dhuinn am buidheann \"%s\" atharrachadh: "
-"%s"
+msgstr "Tha sinn duilich ach cha b' urrainn dhuinn am buidheann \"%s\" atharrachadh: %s"
 
 #: src/nautilus-error-reporting.c:145
 msgid "The group could not be changed."
@@ -1315,9 +1113,7 @@ msgstr "Cha b' urrainn dhuinn am buidheann atharrachadh."
 #: src/nautilus-error-reporting.c:166
 #, c-format
 msgid "Sorry, could not change the owner of “%s”: %s"
-msgstr ""
-"Tha sinn duilich ach cha b' urrainn dhuinn sealbhadair \"%s\" atharrachadh: "
-"%s"
+msgstr "Tha sinn duilich ach cha b' urrainn dhuinn sealbhadair \"%s\" atharrachadh: %s"
 
 #: src/nautilus-error-reporting.c:168
 msgid "The owner could not be changed."
@@ -1336,16 +1132,13 @@ msgstr "Cha b' urrainn dhuinn na ceadan atharrachadh."
 #, c-format
 msgid ""
 "The name “%s” is already used in this location. Please use a different name."
-msgstr ""
-"Tha an t-ainm \"%s\" 'ga chleachdadh san ionad seo mu thràth. Cleachd ainm "
-"eile."
+msgstr "Tha an t-ainm \"%s\" 'ga chleachdadh san ionad seo mu thràth. Cleachd ainm eile."
 
 #: src/nautilus-error-reporting.c:238
 #, c-format
 msgid ""
 "There is no “%s” in this location. Perhaps it was just moved or deleted?"
-msgstr ""
-"Chan eil \"%s\" an-seo. 'S dòcha gun deach a ghluasad no a sguabadh às?"
+msgstr "Chan eil \"%s\" an-seo. 'S dòcha gun deach a ghluasad no a sguabadh às?"
 
 #: src/nautilus-error-reporting.c:246
 #, c-format
@@ -1355,11 +1148,9 @@ msgstr "Chan eil cead agad an t-ainm air \"%s\" atharrachadh."
 #: src/nautilus-error-reporting.c:255
 #, c-format
 msgid ""
-"The name “%s” is not valid because it contains the character “/”. Please use "
-"a different name."
-msgstr ""
-"Chan eil an t-ainm \"%s\" dligheach a chionn 's gu bheil an caractar \"/\" "
-"ann. Cleachd ainm eile."
+"The name “%s” is not valid because it contains the character “/”. Please use"
+" a different name."
+msgstr "Chan eil an t-ainm \"%s\" dligheach a chionn 's gu bheil an caractar \"/\" ann. Cleachd ainm eile."
 
 #: src/nautilus-error-reporting.c:261
 #, c-format
@@ -1375,8 +1166,7 @@ msgstr "Tha an t-ainm \"%s\" ro fhada. Cleachd ainm eile."
 #: src/nautilus-error-reporting.c:289
 #, c-format
 msgid "Sorry, could not rename “%s” to “%s”: %s"
-msgstr ""
-"Tha sinn duilich ach cha b' urrainn dhuinn \"%2s\" a thoirt air \"%1s\": %3s"
+msgstr "Tha sinn duilich ach cha b' urrainn dhuinn \"%2s\" a thoirt air \"%1s\": %3s"
 
 #: src/nautilus-error-reporting.c:297
 msgid "The item could not be renamed."
@@ -1413,14 +1203,11 @@ msgstr "Chan eil slaisichean ceadaichte ann an ainmean fhaidhlichean"
 
 #: src/nautilus-file.c:2116
 msgid "Toplevel files cannot be renamed"
-msgstr ""
-"Chan urrainn dhut ainmean ùra a thoirt air faidhlichean air an ìre as àirde"
+msgstr "Chan urrainn dhut ainmean ùra a thoirt air faidhlichean air an ìre as àirde"
 
 #: src/nautilus-file.c:2151
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
-"Cha sinn an dùil gu bheil susbaint an fhaidhle ann am fòrmat faidhle desktop "
-"nach eil dligheach"
+msgstr "Cha sinn an dùil gu bheil susbaint an fhaidhle ann am fòrmat faidhle desktop nach eil dligheach"
 
 #: src/nautilus-file.c:2203
 msgid "File not found"
@@ -1547,7 +1334,8 @@ msgstr "Chan eil e ceadaichte buidheann a shuidheachadh"
 msgid "Specified group '%s' doesn't exist"
 msgstr "Chan eil am buidheann \"%s\" a shònraich thu ann"
 
-#. Translators: "Me" is used to indicate the file is owned by me (the current user)
+#. Translators: "Me" is used to indicate the file is owned by me (the current
+#. user)
 #: src/nautilus-file.c:6992
 msgid "Me"
 msgstr "Mise"
@@ -1595,7 +1383,6 @@ msgstr "Neo-aithnichte"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
-#.
 #: src/nautilus-file.c:7530 src/nautilus-properties-window.c:1313
 msgid "unknown"
 msgstr "neo-aithnichte"
@@ -1667,7 +1454,6 @@ msgstr "Ceangal"
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
 #. * to that kind of file (e.g. "link to folder").
-#.
 #. appended to new link file
 #: src/nautilus-file.c:7683 src/nautilus-file-operations.c:451
 #: src/nautilus-files-view-dnd.c:131
@@ -1709,17 +1495,17 @@ msgstr "Cuir 'na àite"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr "Chan fhaod “/” a bhith ann an ainm faidhle."
+msgstr ""
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr "Chan urrainn dhut “.” a thoirt air faidhle."
+msgstr ""
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr "Chan urrainn dhut “..” a thoirt air faidhle."
+msgstr ""
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1810,7 +1596,6 @@ msgstr "Ceangal eile ri %s"
 #. Localizers: Feel free to leave out the "st" suffix
 #. * if there's no way to do that nicely for a
 #. * particular language.
-#.
 #: src/nautilus-file-operations.c:479
 #, c-format
 msgid "%'dst link to %s"
@@ -1837,7 +1622,6 @@ msgstr "%'dmh ceangal ri %s"
 #. Localizers:
 #. * Feel free to leave out the st, nd, rd and th suffix or
 #. * make some or all of them match.
-#.
 #. localizers: tag used to detect the first copy of a file
 #: src/nautilus-file-operations.c:552
 msgid " (copy)"
@@ -1894,10 +1678,11 @@ msgstr "%s (lethbhreac eile)%s"
 msgid "%s (%'dth copy)%s"
 msgstr "%s (%'dmh lethbhreac)%s"
 
-#. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
-#. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
+#. localizers: if in your language there's no difference between 1st, 2nd, 3rd
+#. and nth
+#. * plurals, you can leave the st, nd, rd suffixes out and just make all the
+#. translated
 #. * strings look like "%s (copy %'d)%s".
-#.
 #. localizers: appended to x1st file copy
 #: src/nautilus-file-operations.c:602
 #, c-format
@@ -1929,9 +1714,7 @@ msgstr " (%'d"
 
 #: src/nautilus-file-operations.c:1606
 msgid "Are you sure you want to permanently delete “%B” from the trash?"
-msgstr ""
-"A bheil thu cinnteach gu bheil thu airson \"%B\" a sguabadh às an sgudal gu "
-"buan?"
+msgstr "A bheil thu cinnteach gu bheil thu airson \"%B\" a sguabadh às an sgudal gu buan?"
 
 #: src/nautilus-file-operations.c:1611
 #, c-format
@@ -1941,18 +1724,10 @@ msgid ""
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
-msgstr[0] ""
-"A bheil thu cinnteach gu bheil thu airson an %'d nì a thagh thu a sguabadh "
-"às an sgudal gu buan?"
-msgstr[1] ""
-"A bheil thu cinnteach gu bheil thu airson an %'d nì a thagh thu a sguabadh "
-"às an sgudal gu buan?"
-msgstr[2] ""
-"A bheil thu cinnteach gu bheil thu airson na %'d nithean a thagh thu a "
-"sguabadh às an sgudal gu buan?"
-msgstr[3] ""
-"A bheil thu cinnteach gu bheil thu airson na %'d nì a thagh thu a sguabadh "
-"às an sgudal gu buan?"
+msgstr[0] "A bheil thu cinnteach gu bheil thu airson an %'d nì a thagh thu a sguabadh às an sgudal gu buan?"
+msgstr[1] "A bheil thu cinnteach gu bheil thu airson an %'d nì a thagh thu a sguabadh às an sgudal gu buan?"
+msgstr[2] "A bheil thu cinnteach gu bheil thu airson na %'d nithean a thagh thu a sguabadh às an sgudal gu buan?"
+msgstr[3] "A bheil thu cinnteach gu bheil thu airson na %'d nì a thagh thu a sguabadh às an sgudal gu buan?"
 
 #: src/nautilus-file-operations.c:1621 src/nautilus-file-operations.c:1693
 msgid "If you delete an item, it will be permanently lost."
@@ -1973,26 +1748,17 @@ msgstr "Falamhaich an _sgudal"
 
 #: src/nautilus-file-operations.c:1679
 msgid "Are you sure you want to permanently delete “%B”?"
-msgstr ""
-"A bheil thu cinnteach gu bheil thu airson \"%B\" a sguabadh às gu buan?"
+msgstr "A bheil thu cinnteach gu bheil thu airson \"%B\" a sguabadh às gu buan?"
 
 #: src/nautilus-file-operations.c:1684
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
-msgstr[0] ""
-"A bheil thu cinnteach gu bheil thu airson an  %'d nì a thagh thu a sguabadh "
-"às gu buan?"
-msgstr[1] ""
-"A bheil thu cinnteach gu bheil thu airson an  %'d nì a thagh thu a sguabadh "
-"às gu buan?"
-msgstr[2] ""
-"A bheil thu cinnteach gu bheil thu airson na %'d nithean a thagh thu a "
-"sguabadh às gu buan?"
-msgstr[3] ""
-"A bheil thu cinnteach gu bheil thu airson na %'d nì a thagh thu a sguabadh "
-"às gu buan?"
+msgstr[0] "A bheil thu cinnteach gu bheil thu airson an  %'d nì a thagh thu a sguabadh às gu buan?"
+msgstr[1] "A bheil thu cinnteach gu bheil thu airson an  %'d nì a thagh thu a sguabadh às gu buan?"
+msgstr[2] "A bheil thu cinnteach gu bheil thu airson na %'d nithean a thagh thu a sguabadh às gu buan?"
+msgstr[3] "A bheil thu cinnteach gu bheil thu airson na %'d nì a thagh thu a sguabadh às gu buan?"
 
 #: src/nautilus-file-operations.c:1741
 msgid "Deleted “%B”"
@@ -2033,10 +1799,11 @@ msgid "%'d / %'d"
 msgstr "%'d / %'d"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
-#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4 files/sec)"
+#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4
+#. files/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: src/nautilus-file-operations.c:1814 src/nautilus-file-operations.c:2189
 msgid "%'d / %'d — %T left"
 msgid_plural "%'d / %'d — %T left"
@@ -2060,19 +1827,19 @@ msgstr "Thachair mearachd nuair a bha sinn 'gan sguabadh às."
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr "Thachair mearachd le sguabadh às a' phasgain \"%B\"."
+msgstr ""
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr "Chan eil cead agad gus am pasgan \"%B\" a sguabadh às."
+msgstr ""
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr "Thachair mearachd le sguabadh às an fhaidhle \"%B\"."
+msgstr ""
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr "Chan eil cead agad gus am faidhle \"%B\" a sguabadh às."
+msgstr ""
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -2103,9 +1870,7 @@ msgstr[3] "Chaidh %'d faidhle a chur dhan sgudal"
 #. Translators: %B is a file name
 #: src/nautilus-file-operations.c:2277
 msgid "“%B” can't be put in the trash. Do you want to delete it immediately?"
-msgstr ""
-"Chan urrainn dhuinn \"%B\" a chur dhan sgudal. A bheil thu airson a sguabadh "
-"às sa bhad?"
+msgstr "Chan urrainn dhuinn \"%B\" a chur dhan sgudal. A bheil thu airson a sguabadh às sa bhad?"
 
 #: src/nautilus-file-operations.c:2286
 msgid "This remote location does not support sending items to the trash."
@@ -2135,9 +1900,7 @@ msgstr "A bheil thu airson an sgudal fhalamhadh mus dèan sinn dì-mhunntachadh?
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
-msgstr ""
-"Feumaidh sinn an sgudal fhalamhadh gus àite a shaoradh air an draibh seo. "
-"Thèid gach rud a tha san sgudal air an draibh sin a thoirt air falbh gu buan."
+msgstr "Feumaidh sinn an sgudal fhalamhadh gus àite a shaoradh air an draibh seo. Thèid gach rud a tha san sgudal air an draibh sin a thoirt air falbh gu buan."
 
 #: src/nautilus-file-operations.c:2828
 msgid "Do _not Empty Trash"
@@ -2189,10 +1952,10 @@ msgstr[3] "Ag ullachadh airson %'d faidhle a chur dhan sgudal"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] "Ag ullachadh airson %'d fhaidhle a dhùmhlachadh"
-msgstr[1] "Ag ullachadh airson %'d fhaidhle a dhùmhlachadh"
-msgstr[2] "Ag ullachadh airson %'d faidhlichean a dhùmhlachadh"
-msgstr[3] "Ag ullachadh airson %'d faidhle a dhùmhlachadh"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-operations.c:3121 src/nautilus-file-operations.c:4481
 #: src/nautilus-file-operations.c:4647 src/nautilus-file-operations.c:4708
@@ -2210,30 +1973,24 @@ msgstr "Thachair mearachd fhad a bha sinn a' gluasad faidhlichean dhan sgudal."
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr "Thachair mearachd nuair a bha sinn a' dùmhlachadh nam faidhlichean."
+msgstr ""
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
 "Files in the folder “%B” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
-"Chan urrainn dhuinn na faidhlichean sa phasgan \"%B\" a làimhseachadh a "
-"chionn 's nach eil cead agad am faicinn."
+msgstr "Chan urrainn dhuinn na faidhlichean sa phasgan \"%B\" a làimhseachadh a chionn 's nach eil cead agad am faicinn."
 
 #: src/nautilus-file-operations.c:3217 src/nautilus-file-operations.c:4658
 msgid ""
 "There was an error getting information about the files in the folder “%B”."
-msgstr ""
-"Thachair mearachd nuair a dh'fheuch sinn ri fiosrachadh fhaighinn mu na "
-"fhaidhlichean sa phasgan \"%B\"."
+msgstr "Thachair mearachd nuair a dh'fheuch sinn ri fiosrachadh fhaighinn mu na fhaidhlichean sa phasgan \"%B\"."
 
 #: src/nautilus-file-operations.c:3266
 msgid ""
 "The folder “%B” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
-"Chan urrainn dhuinn am pasgan \"%B\" a làimhseachadh a chionn 's nach eil "
-"cead agad a leughadh."
+msgstr "Chan urrainn dhuinn am pasgan \"%B\" a làimhseachadh a chionn 's nach eil cead agad a leughadh."
 
 #: src/nautilus-file-operations.c:3271 src/nautilus-file-operations.c:4719
 msgid "There was an error reading the folder “%B”."
@@ -2243,9 +2000,7 @@ msgstr "Bha mearachd ann a' leughadh a' phasgain \"%B\"."
 msgid ""
 "The file “%B” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
-"Chan urrainn dhuinn am faidhle \"%B\" a làimhseachadh a chionn 's nach eil "
-"cead agad a leughadh."
+msgstr "Chan urrainn dhuinn am faidhle \"%B\" a làimhseachadh a chionn 's nach eil cead agad a leughadh."
 
 #: src/nautilus-file-operations.c:3377
 msgid "There was an error getting information about “%B”."
@@ -2254,8 +2009,7 @@ msgstr "Bha mearachd ann a' faighinn fiosrachadh air \"%B\"."
 #: src/nautilus-file-operations.c:3499 src/nautilus-file-operations.c:3558
 #: src/nautilus-file-operations.c:3601 src/nautilus-file-operations.c:3639
 msgid "Error while copying to “%B”."
-msgstr ""
-"Thachair mearachd fad 's a bha sinn a' cur lethbhreac dheth dha \"%B\"."
+msgstr "Thachair mearachd fad 's a bha sinn a' cur lethbhreac dheth dha \"%B\"."
 
 #: src/nautilus-file-operations.c:3504
 msgid "You do not have permissions to access the destination folder."
@@ -2263,9 +2017,7 @@ msgstr "Chan eil na cead agad inntrigeadh a dhèanamh dhan phasgan ud."
 
 #: src/nautilus-file-operations.c:3508
 msgid "There was an error getting information about the destination."
-msgstr ""
-"Thachair mearachd nuair a dh'fheuch sinn ri fiosrachadh fhaighinn mun cheann-"
-"uidhe."
+msgstr "Thachair mearachd nuair a dh'fheuch sinn ri fiosrachadh fhaighinn mun cheann-uidhe."
 
 #: src/nautilus-file-operations.c:3559
 msgid "The destination is not a folder."
@@ -2275,15 +2027,12 @@ msgstr "Chan e pasgan tha sa cheann-uidhe."
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
-msgstr ""
-"Chan eil àite gu leòr sa cheann-uidhe. Feuch is thoir air falbh faidhlichean "
-"airson àite a shaoradh."
+msgstr "Chan eil àite gu leòr sa cheann-uidhe. Feuch is thoir air falbh faidhlichean airson àite a shaoradh."
 
 #: src/nautilus-file-operations.c:3604
 #, c-format
 msgid "%S more space is required to copy to the destination."
-msgstr ""
-"Tha feum air %S rum a bharrachd mus gabh lethbhreac dheth a chur an-sin."
+msgstr "Tha feum air %S rum a bharrachd mus gabh lethbhreac dheth a chur an-sin."
 
 #: src/nautilus-file-operations.c:3640
 msgid "The destination is read-only."
@@ -2361,12 +2110,13 @@ msgstr[1] "Chaidh %'d fhaidhle a dhùblachadh ann an “%B”"
 msgstr[2] "Chaidh %'d faidhlichean a dhùblachadh ann an “%B”"
 msgstr[3] "Chaidh %'d faidhle a dhùblachadh ann an “%B”"
 
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb / 4 MB"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so
+#. something like "4 kb / 4 MB"
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB".
 #. To translators: %S will expand to a size like "2 bytes" or
 #. * "3 MB", so something like "4 kb / 4 MB"
-#.
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so something like "4 kb / 4 MB"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", so
+#. something like "4 kb / 4 MB"
 #. To translators: %S will expand to a size like "2 bytes" or "3 MB".
 #: src/nautilus-file-operations.c:3845 src/nautilus-file-operations.c:3888
 #: src/nautilus-file-operations.c:8258 src/nautilus-file-operations.c:8372
@@ -2375,11 +2125,13 @@ msgstr[3] "Chaidh %'d faidhle a dhùblachadh ann an “%B”"
 msgid "%S / %S"
 msgstr "%S / %S"
 
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
-#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2 hours left (4kb/sec)"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a
+#. time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2
+#. hours left (4kb/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #. To translators: %S will expand to a size like "2 bytes" or
 #. * "3 MB", %T to a time duration like "2 minutes". So the whole
 #. * thing will be something like
@@ -2387,12 +2139,13 @@ msgstr "%S / %S"
 #. *
 #. * The singular/plural form will be used depending on the
 #. * remaining time (i.e. the %T argument).
-#.
-#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a time duration like
-#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2 hours left (4kb/sec)"
+#. To translators: %S will expand to a size like "2 bytes" or "3 MB", %T to a
+#. time duration like
+#. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2
+#. hours left (4kb/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: src/nautilus-file-operations.c:3878 src/nautilus-file-operations.c:8270
 #: src/nautilus-file-operations.c:8636
 msgid "%S / %S — %T left (%S/sec)"
@@ -2403,10 +2156,11 @@ msgstr[2] "%S / %S — %T air fhàgail (%S/diog)"
 msgstr[3] "%S / %S — %T air fhàgail (%S/diog)"
 
 #. To translators: %T will expand to a time duration like "2 minutes".
-#. * So the whole thing will be something like "1 / 5 -- 2 hours left (4kb/sec)"
+#. * So the whole thing will be something like "1 / 5 -- 2 hours left
+#. (4kb/sec)"
 #. *
-#. * The singular/plural form will be used depending on the remaining time (i.e. the %T argument).
-#.
+#. * The singular/plural form will be used depending on the remaining time
+#. (i.e. the %T argument).
 #: src/nautilus-file-operations.c:3902 src/nautilus-file-operations.c:8660
 msgid "%'d / %'d — %T left (%S/sec)"
 msgid_plural "%'d / %'d — %T left (%S/sec)"
@@ -2419,22 +2173,17 @@ msgstr[3] "%'d / %'d — %T air fhàgail (%S/diog)"
 msgid ""
 "The folder “%B” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
-"Chan urrainn dhuinn lethbhreac a dhèanamh dhen phasgan \"%B\" a chionn 's "
-"nach eil cead agad a chruthachadh sa chinn-uidhe."
+msgstr "Chan urrainn dhuinn lethbhreac a dhèanamh dhen phasgan \"%B\" a chionn 's nach eil cead agad a chruthachadh sa chinn-uidhe."
 
 #: src/nautilus-file-operations.c:4491
 msgid "There was an error creating the folder “%B”."
-msgstr ""
-"Thachair mearachd nuair a bha sinn airson am pasgan \"%B\" a chruthachadh."
+msgstr "Thachair mearachd nuair a bha sinn airson am pasgan \"%B\" a chruthachadh."
 
 #: src/nautilus-file-operations.c:4653
 msgid ""
 "Files in the folder “%B” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
-"Chan urrainn dhuinn lethbhreac dhe na faidhlichean sa phasgan \"%B\" a "
-"dhèanamh a chionn 's nach eil cead agad am faicinn."
+msgstr "Chan urrainn dhuinn lethbhreac dhe na faidhlichean sa phasgan \"%B\" a dhèanamh a chionn 's nach eil cead agad am faicinn."
 
 #: src/nautilus-file-operations.c:4667
 msgid "_Skip files"
@@ -2442,11 +2191,9 @@ msgstr "_Gearr leum thairis air na faidhlichean"
 
 #: src/nautilus-file-operations.c:4714
 msgid ""
-"The folder “%B” cannot be copied because you do not have permissions to read "
-"it."
-msgstr ""
-"Chan urrainn dhuinn lethbhreac dhen phasgan \"%B\" a dhèanamh a chionn 's "
-"nach eil cead agad a leughadh."
+"The folder “%B” cannot be copied because you do not have permissions to read"
+" it."
+msgstr "Chan urrainn dhuinn lethbhreac dhen phasgan \"%B\" a dhèanamh a chionn 's nach eil cead agad a leughadh."
 
 #: src/nautilus-file-operations.c:4772 src/nautilus-file-operations.c:5466
 #: src/nautilus-file-operations.c:6169
@@ -2466,13 +2213,11 @@ msgstr "Thachair mearachd nuair a rinn sinn lethbhreac de \"%B\"."
 #, c-format
 msgid "Could not remove the already existing folder %F."
 msgstr ""
-"Cha b' urrainn dhuinn am pasgan %F a tha an mu thràth a thoirt air falbh."
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
 msgid "Could not remove the already existing file %F."
-msgstr ""
-"Cha b' urrainn dhuinn am faidhle %F a tha an mu thràth a thoirt air falbh."
+msgstr "Cha b' urrainn dhuinn am faidhle %F a tha an mu thràth a thoirt air falbh."
 
 #. the run_warning() frees all strings passed in automatically
 #: src/nautilus-file-operations.c:5135 src/nautilus-file-operations.c:5977
@@ -2494,8 +2239,7 @@ msgstr "Chan urrainn dhut faidlhe a ghluasad os a chionn fhèin."
 
 #: src/nautilus-file-operations.c:5176
 msgid "You cannot copy a file over itself."
-msgstr ""
-"Chan urrainn dhut lethbhreac de dh'fhaidlhe a ghluasad os a chionn fhèin."
+msgstr "Chan urrainn dhut lethbhreac de dh'fhaidlhe a ghluasad os a chionn fhèin."
 
 #: src/nautilus-file-operations.c:5177
 msgid "The source file would be overwritten by the destination."
@@ -2504,15 +2248,12 @@ msgstr "Rachadh an ceann-uidhe a sgrìobhadh thairis air an fhaidhle tùsail."
 #: src/nautilus-file-operations.c:5472
 #, c-format
 msgid "Could not remove the already existing file with the same name in %F."
-msgstr ""
-"Cha b' urrainn dhuinn am faidhle làithreach air a bheil an aon ainm ann an "
-"%F a thoirt air falbh."
+msgstr "Cha b' urrainn dhuinn am faidhle làithreach air a bheil an aon ainm ann an %F a thoirt air falbh."
 
 #: src/nautilus-file-operations.c:5551
 #, c-format
 msgid "There was an error copying the file into %F."
-msgstr ""
-"Thachair mearachd nuair a chuir sinn lethbhreac dhan fhaidhle ann an %F."
+msgstr "Thachair mearachd nuair a chuir sinn lethbhreac dhan fhaidhle ann an %F."
 
 #: src/nautilus-file-operations.c:5811 src/nautilus-file-operations.c:5849
 msgid "Copying Files"
@@ -2559,8 +2300,7 @@ msgstr "Thachair mearachd nuair a bha sinn a' cruthachadh ceangal ri %B."
 
 #: src/nautilus-file-operations.c:6658
 msgid "Symbolic links only supported for local files"
-msgstr ""
-"Chan eil taic ri ceanglaichean samhlachail ach airson faidhlichean ionadail"
+msgstr "Chan eil taic ri ceanglaichean samhlachail ach airson faidhlichean ionadail"
 
 #: src/nautilus-file-operations.c:6663
 msgid "The target doesn't support symbolic links."
@@ -2569,9 +2309,7 @@ msgstr "Chan eil an targaid a' cur taic ri ceanglaichean samhlachail."
 #: src/nautilus-file-operations.c:6668
 #, c-format
 msgid "There was an error creating the symlink in %F."
-msgstr ""
-"Thachair mearachd nuair a bha sinn a' cruthachadh a' cheangail shamhlachail "
-"ann an %F."
+msgstr "Thachair mearachd nuair a bha sinn a' cruthachadh a' cheangail shamhlachail ann an %F."
 
 #: src/nautilus-file-operations.c:7022
 msgid "Setting permissions"
@@ -2598,8 +2336,7 @@ msgstr "Thachair mearachd nuair a bha sinn a' cruthachadh an fhaidhle \"%B\"."
 #: src/nautilus-file-operations.c:7594
 #, c-format
 msgid "There was an error creating the directory in %F."
-msgstr ""
-"Thachair mearachd nuair a bha sinn a' cruthachadh a' phasgain ann an %F."
+msgstr "Thachair mearachd nuair a bha sinn a' cruthachadh a' phasgain ann an %F."
 
 #: src/nautilus-file-operations.c:7881
 msgid "Emptying Trash"
@@ -2608,88 +2345,87 @@ msgstr "A' falamhadh an sgudail"
 #: src/nautilus-file-operations.c:7932 src/nautilus-file-operations.c:7983
 #: src/nautilus-file-operations.c:8026 src/nautilus-file-operations.c:8070
 msgid "Unable to mark launcher trusted (executable)"
-msgstr ""
-"Cha b' urrainn dhuinn comharra earbsa a chur ris an lòinsear (executable)"
+msgstr "Cha b' urrainn dhuinn comharra earbsa a chur ris an lòinsear (executable)"
 
 #: src/nautilus-file-operations.c:8179
 msgid "Verifying destination"
-msgstr "A' dearbhadh a' chinn-uidhe"
+msgstr ""
 
 #: src/nautilus-file-operations.c:8219
 msgid "Extracting “%B”"
-msgstr "A' dì-dhùmhlachadh \"%B\""
+msgstr ""
 
 #: src/nautilus-file-operations.c:8311
 msgid "Error extracting “%B”"
-msgstr "Thachair mearachd le dì-dhùmhlachadh \"%B\"."
+msgstr ""
 
 #: src/nautilus-file-operations.c:8315
 msgid "There was an error while extracting “%B”."
-msgstr "Thachair mearachd le dì-dhùmhlachadh \"%B\"."
+msgstr ""
 
 #: src/nautilus-file-operations.c:8356
 msgid "Extracted “%B” to “%B”"
-msgstr "Chaidh “%B” a dhì-dhùmhlachadh gu “%B”"
+msgstr ""
 
 #: src/nautilus-file-operations.c:8362
 msgid "Extracted %'d file to “%B”"
 msgid_plural "Extracted %'d files to “%B”"
-msgstr[0] "Chaidh %'d fhaidhle a dhì-dhùmhlachadh gu “%B”"
-msgstr[1] "Chaidh %'d fhaidhle a dhì-dhùmhlachadh gu “%B”"
-msgstr[2] "Chaidh %'d faidhlichean a dhì-dhùmhlachadh gu “%B”"
-msgstr[3] "Chaidh %'d faidhle a dhì-dhùmhlachadh gu “%B”"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-operations.c:8395
 msgid "Preparing to extract"
-msgstr "Ag ullachadh an dì-dhùmhlachaidh"
+msgstr ""
 
 #: src/nautilus-file-operations.c:8521
 msgid "Extracting Files"
-msgstr "A' dì-dhùmhlachadh nam faidhlichean"
+msgstr ""
 
 #: src/nautilus-file-operations.c:8576
 msgid "Compressing “%B” into “%B”"
-msgstr "A' dùmhlachadh \"%B\" dha \"%B\""
+msgstr ""
 
 #: src/nautilus-file-operations.c:8582
 msgid "Compressing %'d file into “%B”"
 msgid_plural "Compressing %'d files into “%B”"
-msgstr[0] "A' dùmhlachadh %'d fhaidhle dha “%B”"
-msgstr[1] "A' dùmhlachadh %'d fhaidhle dha “%B”"
-msgstr[2] "A' dùmhlachadh %'d faidhlichean dha “%B”"
-msgstr[3] "A' dùmhlachadh %'d faidhle dha “%B”"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-operations.c:8703
 msgid "Error compressing “%B” into “%B”"
-msgstr "Mearachd le dùmhlachadh \"%B\" dha \"%B\""
+msgstr ""
 
 #: src/nautilus-file-operations.c:8709
 msgid "Error compressing %'d file into “%B”"
 msgid_plural "Error compressing %'d files into “%B”"
-msgstr[0] "Mearachd le dùmhlachadh %'d fhaidhle dha “%B”"
-msgstr[1] "Mearachd le dùmhlachadh %'d fhaidhle dha “%B”"
-msgstr[2] "Mearachd le dùmhlachadh %'d faidhlichean dha “%B”"
-msgstr[3] "Mearachd le dùmhlachadh %'d faidhle dha “%B”"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-operations.c:8720
 msgid "There was an error while compressing files."
-msgstr "Thachair mearachd le dùmhlachadh nam faidhlichean."
+msgstr ""
 
 #: src/nautilus-file-operations.c:8740
 msgid "Compressed “%B” into “%B”"
-msgstr "Chaidh \"%B\" a dhùmhlachadh dha \"%B\""
+msgstr ""
 
 #: src/nautilus-file-operations.c:8746
 msgid "Compressed %'d file into “%B”"
 msgid_plural "Compressed %'d files into “%B”"
-msgstr[0] "Chaidh %'d fhaidhle a dhùmhlachadh dha “%B”"
-msgstr[1] "Chaidh %'d fhaidhle a dhùmhlachadh dha “%B”"
-msgstr[2] "Chaidh %'d faidhlichean a dhùmhlachadh dha “%B”"
-msgstr[3] "Chaidh %'d faidhle a dhùmhlachadh dha “%B”"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-operations.c:8837
 msgid "Compressing Files"
-msgstr "A' dùmhlachadh faidhlichean"
+msgstr ""
 
 #: src/nautilus-files-view.c:392
 msgid "Searching…"
@@ -2750,9 +2486,7 @@ msgstr "Buill-eisimpleir: "
 msgid ""
 "Nautilus 3.6 deprecated this directory and tried migrating this "
 "configuration to ~/.local/share/nautilus"
-msgstr ""
-"Cha mhol Nautilus 3.6 am pasgan seo tuilleadh agus dh'fheuch e ris an "
-"rèiteachadh seo a ghluasad gu ~/.local/share/nautilus"
+msgstr "Cha mhol Nautilus 3.6 am pasgan seo tuilleadh agus dh'fheuch e ris an rèiteachadh seo a ghluasad gu ~/.local/share/nautilus"
 
 #: src/nautilus-files-view.c:3156 src/nautilus-files-view.c:3203
 #, c-format
@@ -2777,7 +2511,8 @@ msgstr[1] "(sa bheil %'d nì)"
 msgstr[2] "(sa bheil %'d nithean)"
 msgstr[3] "(sa bheil %'d nì)"
 
-#. translators: this is preceded with a string of form 'N folders' (N more than 1)
+#. translators: this is preceded with a string of form 'N folders' (N more
+#. than 1)
 #: src/nautilus-files-view.c:3189
 #, c-format
 msgid "(containing a total of %'d item)"
@@ -2809,7 +2544,6 @@ msgstr[3] "%'d nì eile air a thaghadh"
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
 #. * the message in parentheses is the size of the selected items.
-#.
 #: src/nautilus-files-view.c:3232
 #, c-format
 msgid "(%s)"
@@ -2821,7 +2555,6 @@ msgstr "(%s)"
 #. * and the number of items in those folders and the
 #. * message about the number of other items and the
 #. * total size of those items.
-#.
 #: src/nautilus-files-view.c:3265
 #, c-format
 msgid "%s %s, %s %s"
@@ -2837,7 +2570,7 @@ msgstr "Tagh ceann-uidhe an lethbhric"
 
 #: src/nautilus-files-view.c:6154
 msgid "Select Extract Destination"
-msgstr "Tagh ceann-uidhe an dì-dhùmhlachaidh"
+msgstr ""
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6398
@@ -2881,11 +2614,11 @@ msgstr "Ruith"
 
 #: src/nautilus-files-view.c:7521
 msgid "Extract Here"
-msgstr "Dì-dhùmhlaich an-seo"
+msgstr ""
 
 #: src/nautilus-files-view.c:7522
 msgid "Extract to…"
-msgstr "Dì-dhùmhlaich gu…"
+msgstr ""
 
 #: src/nautilus-files-view.c:7526
 msgid "Open"
@@ -2943,8 +2676,7 @@ msgstr "Chan eil taic ri slaodadh is leigeil às."
 
 #: src/nautilus-files-view-dnd.c:180
 msgid "Drag and drop is only supported on local file systems."
-msgstr ""
-"Chan eil taic ri slaodadh is leigeil às ach air siostaman faidhle ionadail."
+msgstr "Chan eil taic ri slaodadh is leigeil às ach air siostaman faidhle ionadail."
 
 #: src/nautilus-files-view-dnd.c:222 src/nautilus-files-view-dnd.c:328
 msgid "An invalid drag type was used."
@@ -2957,7 +2689,6 @@ msgstr "Teacsa a leigeadh às.txt"
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
-#.
 #: src/nautilus-files-view-dnd.c:543
 msgid "dropped data"
 msgstr "dàta a chaidh a leigeil às"
@@ -3271,18 +3002,18 @@ msgstr "_Ath-dhèan an t-ath-ainmeachadh"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] "Thoir ainm ùr air grunn dhe %d fhaidhle"
-msgstr[1] "Thoir ainm ùr air grunn dhe %d fhaidhle"
-msgstr[2] "Thoir ainm ùr air grunn dhe %d faidhlichean"
-msgstr[3] "Thoir ainm ùr air grunn dhe %d faidhle"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-undo-operations.c:1121
 msgid "_Undo Batch Rename"
-msgstr "_Neo-dhèan ath-ainmeachadh a' ghrunna"
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:1122
 msgid "_Redo Batch Rename"
-msgstr "_Ath-dhèan ath-ainmeachadh a' ghrunna"
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:1334
 #, c-format
@@ -3379,56 +3110,56 @@ msgstr "_Ath-dhèan atharrachadh an t-seilbheadair"
 
 #: src/nautilus-file-undo-operations.c:2075
 msgid "_Undo Extract"
-msgstr "_Neo-dhèan an dì-dùmhlachadh"
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:2076
 msgid "_Redo Extract"
-msgstr "_Ath-dhèan an dì-dùmhlachadh"
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:2093
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] "Sguab às %d fhaidhle dì-dhùmhlaichte"
-msgstr[1] "Sguab às %d fhaidhle dì-dhùmhlaichte"
-msgstr[2] "Sguab às %d faidhlichean dì-dhùmhlaichte"
-msgstr[3] "Sguab às %d faidhle dì-dhùmhlaichte"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract '%s'"
-msgstr "Dì-dhùmhlaich \"%s\""
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:2111
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] "Dì-dhùmhlaich %'d fhaidhle"
-msgstr[1] "Dì-dhùmhlaich %'d fhaidhle"
-msgstr[2] "Dì-dhùmhlaich %'d faidhlichean"
-msgstr[3] "Dì-dhùmhlaich %'d faidhle"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress '%s'"
-msgstr "Dùmhlaich \"%s\""
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:2266
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] "Dùmhlaich %'d fhaidhle"
-msgstr[1] "Dùmhlaich %'d fhaidhle"
-msgstr[2] "Dùmhlaich %'d faidhlichean"
-msgstr[3] "Dùmhlaich %'d faidhle"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/nautilus-file-undo-operations.c:2272
 msgid "_Undo Compress"
-msgstr "_Neo-dhèan an dùmhlachadh"
+msgstr ""
 
 #: src/nautilus-file-undo-operations.c:2273
 msgid "_Redo Compress"
-msgstr "_Ath-dhèan an dùmhlachadh"
+msgstr ""
 
 #: src/nautilus-file-utilities.c:1004
 #, c-format
@@ -3638,8 +3369,7 @@ msgstr "%s colbhan ri am faicinn"
 
 #: src/nautilus-list-view.c:2976
 msgid "Choose the order of information to appear in this folder:"
-msgstr ""
-"Tagh an t-òrdugh anns an dèid am fiosrachadh a shealltainn sa phasgan seo:"
+msgstr "Tagh an t-òrdugh anns an dèid am fiosrachadh a shealltainn sa phasgan seo:"
 
 #: src/nautilus-location-entry.c:267
 #, c-format
@@ -3695,8 +3425,7 @@ msgstr "Faidhle teacsa"
 #: src/nautilus-mime-actions.c:548
 #, c-format
 msgid "The link “%s” is broken. Move it to Trash?"
-msgstr ""
-"Tha an ceangal \"%s\" briste. A bheil thu airson a ghluasad dhan sgudal?"
+msgstr "Tha an ceangal \"%s\" briste. A bheil thu airson a ghluasad dhan sgudal?"
 
 #: src/nautilus-mime-actions.c:552
 #, c-format
@@ -3705,15 +3434,12 @@ msgstr "Tha an ceangal \"%s\" briste."
 
 #: src/nautilus-mime-actions.c:559
 msgid "This link cannot be used because it has no target."
-msgstr ""
-"Cha ghabh an ceangal seo a chleachdadh a chionn 's nach eil targaid aige."
+msgstr "Cha ghabh an ceangal seo a chleachdadh a chionn 's nach eil targaid aige."
 
 #: src/nautilus-mime-actions.c:563
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn't exist."
-msgstr ""
-"Cha ghabh an ceangal seo a chleachdadh a chionn 's nach eil an targaid \"%s"
-"\" ann."
+msgstr "Cha ghabh an ceangal seo a chleachdadh a chionn 's nach eil an targaid \"%s\" ann."
 
 #: src/nautilus-mime-actions.c:574
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3778,9 +3504,7 @@ msgstr "Chan urrainn dhuinn aplacaidean a lorg"
 msgid ""
 "There is no application installed for “%s” files.\n"
 "Do you want to search for an application to open this file?"
-msgstr ""
-"Cha deach aplacaid a stàladh airson faidhlichean dhen t-seòrsa \"%s\"\n"
-"A bheil thu airson aplacaid a lorg a dh'fhosglas am faidhle seo?"
+msgstr "Cha deach aplacaid a stàladh airson faidhlichean dhen t-seòrsa \"%s\"\nA bheil thu airson aplacaid a lorg a dh'fhosglas am faidhle seo?"
 
 #: src/nautilus-mime-actions.c:1576
 msgid "Untrusted application launcher"
@@ -3791,10 +3515,7 @@ msgstr "Lòinsear aplacaid anns nach eil earbsa"
 msgid ""
 "The application launcher “%s” has not been marked as trusted. If you do not "
 "know the source of this file, launching it may be unsafe."
-msgstr ""
-"Cha deach comharra a chur gu bheil lòinsear nan aplacaidean \"%s\" earbsach. "
-"Mur eil fhios agad cò às a thàinig e, dh'fhaoidte nach bi e sàbhailte a chur "
-"gu dol."
+msgstr "Cha deach comharra a chur gu bheil lòinsear nan aplacaidean \"%s\" earbsach. Mur eil fhios agad cò às a thàinig e, dh'fhaoidte nach bi e sàbhailte a chur gu dol."
 
 #: src/nautilus-mime-actions.c:1594
 msgid "_Launch Anyway"
@@ -3857,9 +3578,7 @@ msgstr "Dìochuimhnich an co-cheangal"
 #: src/nautilus-mime-application-chooser.c:182
 #, c-format
 msgid "Error while setting “%s” as default application: %s"
-msgstr ""
-"Thachair mearachd fhad 's a bha sinn a' suidheachadh \"%s\" mar an aplacaid "
-"bhunaiteach: %s"
+msgstr "Thachair mearachd fhad 's a bha sinn a' suidheachadh \"%s\" mar an aplacaid bhunaiteach: %s"
 
 #: src/nautilus-mime-application-chooser.c:184
 msgid "Could not set as default"
@@ -3881,9 +3600,7 @@ msgstr "Fosgail gach faidhle dhen t-seòrsa \"%s\" le"
 #: src/nautilus-mime-application-chooser.c:285
 #, c-format
 msgid "Select an application to open “%s” and other files of type “%s”"
-msgstr ""
-"Tagh aplacaid a dh'fhosglas \"%s\" agus faidhlichean eile dhen t-seòrsa \"%s"
-"\""
+msgstr "Tagh aplacaid a dh'fhosglas \"%s\" agus faidhlichean eile dhen t-seòrsa \"%s\""
 
 #: src/nautilus-mime-application-chooser.c:344
 msgid "_Add"
@@ -3901,12 +3618,12 @@ msgstr "Chan fhaod “/” a bhith ann an ainm pasgain."
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:92
 msgid "A folder cannot be called “.”."
-msgstr "Chan urrainn dhut “.” a thoirt air pasgan."
+msgstr ""
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:103
 msgid "A folder cannot be called “..”."
-msgstr "Chan urrainn dhut “..” a thoirt air pasgan."
+msgstr ""
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3935,10 +3652,7 @@ msgstr "A bheil thu airson am pasgan \"%s\" a cho-aonadh?"
 msgid ""
 "Merging will ask for confirmation before replacing any files in the folder "
 "that conflict with the files being copied."
-msgstr ""
-"Ma nì thu co-aonadh, thèid faighneachd dhìot mus dèid faidhle sam bith a "
-"chur an àite nam faidhlichean sa phasgan a tha ann an còmhstri leis an "
-"fheadhainn a thig 'nan àite."
+msgstr "Ma nì thu co-aonadh, thèid faighneachd dhìot mus dèid faidhle sam bith a chur an àite nam faidhlichean sa phasgan a tha ann an còmhstri leis an fheadhainn a thig 'nan àite."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -3962,9 +3676,7 @@ msgstr "A bheil thu airson a chur an àite a' phasgai  \"%s\"?"
 
 #: src/nautilus-operations-ui-manager.c:168
 msgid "Replacing it will remove all files in the folder."
-msgstr ""
-"Ma chuireas tu 'nan àite iad, thèid gach faidhle sa phasgan a thoirt air "
-"falbh."
+msgstr "Ma chuireas tu 'nan àite iad, thèid gach faidhle sa phasgan a thoirt air falbh."
 
 #: src/nautilus-operations-ui-manager.c:169
 #, c-format
@@ -3978,8 +3690,7 @@ msgstr "A bheil thu airson a chur an àite an fhaidhle \"%s\"?"
 
 #: src/nautilus-operations-ui-manager.c:178
 msgid "Replacing it will overwrite its content."
-msgstr ""
-"Ma chuireas tu 'na àite e, thèid sgrìobhadh thairis air an t-susbaint ann."
+msgstr "Ma chuireas tu 'na àite e, thèid sgrìobhadh thairis air an t-susbaint ann."
 
 #: src/nautilus-operations-ui-manager.c:182
 #, c-format
@@ -4060,9 +3771,7 @@ msgstr "Chan eil gin"
 
 #: src/nautilus-program-choosing.c:329
 msgid "Sorry, but you cannot execute commands from a remote site."
-msgstr ""
-"Tha sinn duilich ach chan urrainn dhut àitheantan a chur an gnìomh o làrach "
-"iomallach."
+msgstr "Tha sinn duilich ach chan urrainn dhut àitheantan a chur an gnìomh o làrach iomallach."
 
 #: src/nautilus-program-choosing.c:331
 msgid "This is disabled due to security considerations."
@@ -4074,24 +3783,19 @@ msgstr "Thachair mearachd nuair a bha sinn a' cur gu dol am prògram."
 
 #: src/nautilus-program-choosing.c:372 src/nautilus-program-choosing.c:385
 msgid "This drop target only supports local files."
-msgstr ""
-"Chan eil an targaid leigeil seo a' cur taic ach ri faidhlichean ionadail."
+msgstr "Chan eil an targaid leigeil seo a' cur taic ach ri faidhlichean ionadail."
 
 #: src/nautilus-program-choosing.c:373
 msgid ""
-"To open non-local files copy them to a local folder and then drop them again."
-msgstr ""
-"Ma tha thu airson faidhle nach eil ionadail fhosgladh, dèan lethbhreac dheth "
-"is leig às iad a-rithist."
+"To open non-local files copy them to a local folder and then drop them "
+"again."
+msgstr "Ma tha thu airson faidhle nach eil ionadail fhosgladh, dèan lethbhreac dheth is leig às iad a-rithist."
 
 #: src/nautilus-program-choosing.c:386
 msgid ""
 "To open non-local files copy them to a local folder and then drop them "
 "again. The local files you dropped have already been opened."
-msgstr ""
-"Ma tha thu airson faidhle nach eil ionadail fhosgladh, dèan lethbhreac dheth "
-"is leig às iad a-rithist. Chaidh na faidhlichean a leig thu às fhosgladh mu "
-"thràth."
+msgstr "Ma tha thu airson faidhle nach eil ionadail fhosgladh, dèan lethbhreac dheth is leig às iad a-rithist. Chaidh na faidhlichean a leig thu às fhosgladh mu thràth."
 
 #: src/nautilus-program-choosing.c:419
 msgid "Details: "
@@ -4099,7 +3803,7 @@ msgstr "Mion-fiosrachadh: "
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr "Air a sgur dheth"
+msgstr ""
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -4129,14 +3833,11 @@ msgstr "Chaidh gach obrachadh faidhle a choileanadh"
 
 #: src/nautilus-properties-window.c:502
 msgid "You cannot assign more than one custom icon at a time!"
-msgstr ""
-"Chan urrainn dhut barrachd air aon ìomhaigheag ghnàthaichte iomruineadh aig "
-"an aon àm!"
+msgstr "Chan urrainn dhut barrachd air aon ìomhaigheag ghnàthaichte iomruineadh aig an aon àm!"
 
 #: src/nautilus-properties-window.c:503
 msgid "Please drop just one image to set a custom icon."
-msgstr ""
-"Na leig às ach aon ìomhaigh gus ìomhaigheag ghnàthaichte a shuidheachadh."
+msgstr "Na leig às ach aon ìomhaigh gus ìomhaigheag ghnàthaichte a shuidheachadh."
 
 #: src/nautilus-properties-window.c:520
 msgid "The file that you dropped is not local."
@@ -4144,9 +3845,7 @@ msgstr "Chan e faidhle ionadail a leig thu às."
 
 #: src/nautilus-properties-window.c:521 src/nautilus-properties-window.c:528
 msgid "You can only use local images as custom icons."
-msgstr ""
-"Chan urrainn dhut ach dealbhan ionadail a chleachdadh mar ìomhaigheagan "
-"gnàthaichte."
+msgstr "Chan urrainn dhut ach dealbhan ionadail a chleachdadh mar ìomhaigheagan gnàthaichte."
 
 #: src/nautilus-properties-window.c:527
 msgid "The file that you dropped is not an image."
@@ -4218,7 +3917,6 @@ msgstr "(tha cuid a shusbaint ann nach gabh a leughadh)"
 #. * "Contents:" title to line up with the first line of the
 #. * 2-line value. Maybe there's a better way to do this, but I
 #. * couldn't think of one.
-#.
 #: src/nautilus-properties-window.c:2372
 msgid "Contents:"
 msgstr "Susbaint:"
@@ -4271,7 +3969,6 @@ msgstr "Rum saor:"
 
 #. translators: this gets concatenated to "no read",
 #. * "no access", etc. (see following strings)
-#.
 #: src/nautilus-properties-window.c:4029 src/nautilus-properties-window.c:4044
 #: src/nautilus-properties-window.c:4061
 msgid "no "
@@ -4371,9 +4068,7 @@ msgstr "Eile:"
 
 #: src/nautilus-properties-window.c:4705
 msgid "You are not the owner, so you cannot change these permissions."
-msgstr ""
-"Cha tusa an sealbhadair agus chan urrainn dhut na ceadan seo atharrachadh "
-"air sgàth sin."
+msgstr "Cha tusa an sealbhadair agus chan urrainn dhut na ceadan seo atharrachadh air sgàth sin."
 
 #: src/nautilus-properties-window.c:4720
 msgid "Security context:"
@@ -4496,32 +4191,26 @@ msgstr "An sgudal"
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
 msgstr ""
-"Cuir faidhlichean sa phasgan seo gus an cleachdadh 'nan teamplaidean airson "
-"sgrìobhainnean ùra."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
-"<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates"
-"\">Learn more…</a>"
+"<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
+"templates\">Learn more…</a>"
 msgstr ""
-"<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates"
-"\">Barrachd fiosrachaidh…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
-msgstr ""
-"Nochdaidh faidhlichean so-ghnìomhaichte sa phasgan seo sa chlàr-taice "
-"\"Sgriobtaichan\"."
+msgstr "Nochdaidh faidhlichean so-ghnìomhaichte sa phasgan seo sa chlàr-taice \"Sgriobtaichan\"."
 
-#. Set the label of the undo and redo menu items, and activate them appropriately
-#.
+#. Set the label of the undo and redo menu items, and activate them
+#. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr "_Neo-dhèan"
+msgstr ""
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr "_Ath-dhèan"
+msgstr ""
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4633,13 +4322,9 @@ msgstr "Faigh cothrom air faidhlichean is rianaich iad"
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
 #. * box to give credit to the translator(s).
-#.
 #: src/nautilus-window.c:2919
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Akerbeltz https://launchpad.net/~fios\n"
-"  alasdair caimbeul https://launchpad.net/~alexd"
+msgstr "Launchpad Contributions:\n  Akerbeltz https://launchpad.net/~fios\n  alasdair caimbeul https://launchpad.net/~alexd"
 
 #: src/nautilus-window-slot.c:1354
 msgid "Unable to display the contents of this folder."
@@ -4652,9 +4337,7 @@ msgstr "Tha coltas nach eil an t-ionad seo 'na phasgan."
 #: src/nautilus-window-slot.c:1367
 msgid ""
 "Unable to find the requested file. Please check the spelling and try again."
-msgstr ""
-"Cha b' urrainn dhuinn am faidhle a dh'iarr thu a lorg, Thoir sùil air an "
-"litreachadh 's feuch ris a-rithist."
+msgstr "Cha b' urrainn dhuinn am faidhle a dh'iarr thu a lorg, Thoir sùil air an litreachadh 's feuch ris a-rithist."
 
 #: src/nautilus-window-slot.c:1376
 #, c-format
@@ -4677,14 +4360,11 @@ msgstr "Chan eil cead againn inntrigeadh a dhèanamh dhan ionad a dh'iarr thu."
 #. * the code that guesses web addresses when there's no initial "/".
 #. * But this case is also hit for legitimate web addresses when
 #. * the proxy is set up wrong.
-#.
 #: src/nautilus-window-slot.c:1406
 msgid ""
 "Unable to find the requested location. Please check the spelling or the "
 "network settings."
-msgstr ""
-"Cha b' urrainn dhuinn an t-ionad a dh'iarr thu a lorg. Thoir sùil air an "
-"litreachadh no roghainnean an lìonraidh."
+msgstr "Cha b' urrainn dhuinn an t-ionad a dh'iarr thu a lorg. Thoir sùil air an litreachadh no roghainnean an lìonraidh."
 
 #: src/nautilus-window-slot.c:1425
 #, c-format
@@ -4927,7 +4607,7 @@ msgstr "Sguab às gu buan"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr "Gearr às"
+msgstr ""
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -5004,106 +4684,105 @@ msgstr "Thoi_r ainm ùr air"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr "Thoir ainm ùr air _le taic teamplaide"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr "Lorg agus cuir _teacsa 'na àite"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr "Cuir ris"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr "Òrdugh nan àireamhan fèin-obrachail"
+msgstr ""
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr "Fòrmat"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr "An teacsa a tha ann"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr "Cuir na leanas 'na àite"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr "Cuir 'na àite"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr "Àireamhan fèin-obrachail"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr "1, 2, 3, 4"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr "01, 02, 03, 04"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr "001, 002, 003, 004"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr "Meata-dàta"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr "Ceann-là a' chruthachaidh"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr "Àireamh an t-seusain"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr "Àireamh an eapasoid"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr "Àireamh an traca"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr "Ainm an neach-ciùil"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr "Ainm an albaim"
+msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr "Ainm faidhle tùsail"
+msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
-#| msgid "Archive"
 msgid "Create Archive"
-msgstr "Cruthaich tasglann"
+msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr "Ainm na tasglainn"
+msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr "Co-chòrdail ri gach siostam-obrachaidh."
+msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr "Tasglannan nas lugha ach airson but Linux agus Mac a-mhàin."
+msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr "Tasglannan nas lugha ach bidh feum air stàladh air Windows agus Mac."
+msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -5239,7 +4918,7 @@ msgstr "Aisig meud tùsail na h-ìomhaigheige"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr "Th_oir ainm ùr air…"
+msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -5251,15 +4930,15 @@ msgstr "Thoi_r air falbh on fheadhainn o chionn goirid"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr "_Dì-dhùmhlaich an-seo"
+msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr "Dì-dhùmhlaich _gu…"
+msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr "Dùmhl_aich…"
+msgstr ""
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -5273,9 +4952,7 @@ msgstr "Chaidh ath-ghoiridean an sguabaidh às atharrachadh"
 msgid ""
 "With the latest version of Files, you no longer need to hold Ctrl to delete "
 "— the Delete key will work when pressed on its own."
-msgstr ""
-"Leis an tionndadh as ùire de Fhaidhlichean, cha leig thu leas Ctrl a cumail "
-"sìos airson sguabadh às — obraichidh an iuchair Delete leis fhèin."
+msgstr "Leis an tionndadh as ùire de Fhaidhlichean, cha leig thu leas Ctrl a cumail sìos airson sguabadh às — obraichidh an iuchair Delete leis fhèin."
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:15
 msgid "Got it"
@@ -5412,9 +5089,7 @@ msgstr "Caipseanan nan seallaidhean ìomhaigheagan"
 msgid ""
 "Add information to be displayed beneath file and folder names.\n"
 "More information will appear when zooming closer."
-msgstr ""
-"Cuir fiosrachadh ris a nochdas fo ainmean fhaidhlichean 's phasganan.\n"
-"Nochdaidh barrachd fiosrachaidh nuair a shùmar a-steach."
+msgstr "Cuir fiosrachadh ris a nochdas fo ainmean fhaidhlichean 's phasganan.\nNochdaidh barrachd fiosrachaidh nuair a shùmar a-steach."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:425
@@ -5484,11 +5159,11 @@ msgstr "Seall gnìomh gus na faidhlichean 's pasganan a sguabadh às gu _buan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:769
 msgid "Compressed Files"
-msgstr "Faidhlichean dùmhlaichte"
+msgstr ""
 
 #: src/resources/ui/nautilus-preferences-window.ui:783
 msgid "E_xtract the files on open"
-msgstr "_Dì-dhùmhlaich na faidhlichean leis an fhosgladh"
+msgstr ""
 
 #: src/resources/ui/nautilus-preferences-window.ui:815
 msgid "Behavior"
@@ -5616,15 +5291,15 @@ msgstr "Na lorg ach ann an ainm nam faidhle"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr "Pasgan ùr"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr "Dèan comharra-lìn dhen ionad seo"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr "Taba ùr"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5636,11 +5311,11 @@ msgstr "Fosgail clàr-taice nan gnìomhan"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr "Toglaich am modh seallaidh"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr "Toglaich eadar an sealladh griod is liosta"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5656,27 +5331,27 @@ msgstr "Tha obrachaidhean fosgailte a' dol air adhart"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr "Sùm a-mach"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr "Ath-shuidhich an sùm"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr "Sùm a-steach"
+msgstr ""
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr "_A-U"
+msgstr ""
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr "_U-A"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5684,7 +5359,7 @@ msgstr "An t-atharrachadh mu dheireadh"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr "A' _chiad atharrachadh"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5708,7 +5383,7 @@ msgstr "Seall faidhlichean _falaichte"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr "_Ath-luchdaich"
+msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5765,10 +5440,10 @@ msgstr "Lìonraidhean"
 msgid "On This Computer"
 msgstr "Air a' choimpiutair seo"
 
-#. Translators: respectively, free and total space of the drive. The plural form
+#. Translators: respectively, free and total space of the drive. The plural
+#. form
 #. * should be based on the free space available.
 #. * i.e. 1 GB / 24 GB available.
-#.
 #: src/gtk/nautilusgtkplacesviewrow.c:136
 #, c-format
 msgid "%s / %s available"
@@ -5789,70 +5464,67 @@ msgstr "Dì-mhunntaich"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr "Seòlaidhean frithealaiche"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
 msgstr ""
-"Tha ro-leasachan pròtacail agus seòladh air seòlaidhean frithealaiche. Mar "
-"eisimpleir:"
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr "smb://bad.ball-eisimpleir.com, ssh://192.168.0.1"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr "Pròtacalan ri am faighinn"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr "AppleTalk"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr "File Transfer Protocol"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr "Network File System"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr "Samba"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr "SSH File Transfer Protocol"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr "WebDAV"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr "Ro-leasachan"
+msgstr ""
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr "ftp:// no ftps://"
+msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr "smb://"
+msgstr ""
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
-#| msgid "ftp:// or ftps://"
 msgid "sftp:// or ssh://"
-msgstr "sftp:// or ssh://"
+msgstr ""
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr "dav:// no davs://"
+msgstr ""
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267
@@ -5874,1242 +5546,3 @@ msgstr "Ceangail ris an _fhrithealaiche"
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"
 msgstr "Cuir a-steach seòladh an fhrithealaiche…"
-
-#~ msgid "Show folders first in windows"
-#~ msgstr "Seall pasganan an toiseach ann an uinneagan"
-
-#~ msgid ""
-#~ "If set to true, then Nautilus shows folders prior to showing files in the "
-#~ "icon and list views."
-#~ msgstr ""
-#~ "Ma thaghas tu \"true\" air a shon, seallaidh Nautilus pasganan mus seall "
-#~ "e faidhlichean san t-sealladh ìomhaigheagan is liosta."
-
-#~ msgctxt "shortcut window"
-#~ msgid "Bookmarks"
-#~ msgstr "Comharran-leabhair"
-
-#~ msgid ""
-#~ "Files in the folder “%B” cannot be deleted because you do not have "
-#~ "permissions to see them."
-#~ msgstr ""
-#~ "Chan urrainn dhut faidhlichean sa phasgan \"%B\" a sguabadh às a chionn "
-#~ "'s nach eil cead agad am faicinn."
-
-#~ msgid ""
-#~ "The folder “%B” cannot be deleted because you do not have permissions to "
-#~ "read it."
-#~ msgstr ""
-#~ "Chan urrainn dhut am pasgan \"%B\" a sguabadh às a chionn 's nach eil "
-#~ "cead agad a leughadh."
-
-#~ msgid "Could not remove the folder %B."
-#~ msgstr "Cha b' urrainn dhuinn am pasgan \"%B\" a ghluasad."
-
-#~ msgid "Could not remove files from the already existing folder %F."
-#~ msgstr ""
-#~ "Cha b' urrainn dhuinn na faidhlichean a ghluasad às a' phasgan %F a tha "
-#~ "ann mu thràth."
-
-#~ msgid "--no-desktop and --force-desktop cannot be used together."
-#~ msgstr "Cha ghabh --no-desktop agus --force-desktop a chleachdadh còmhla."
-
-#~ msgid "Never manage the desktop (ignore the GSettings preference)."
-#~ msgstr "Na stiùirich an deasg idir (leig seachad an roghainn GSettings)."
-
-#~ msgid "Files in this folder will appear in the New Document menu."
-#~ msgstr ""
-#~ "Nochdaidh faidhlichean sa phasgan seo sa chlàr-taice \"Sgrìobhainn ùr\"."
-
-#~ msgid "Rena_me"
-#~ msgstr "Th_oir ainm ùr air"
-
-#~ msgid "New _Tab"
-#~ msgstr "_Taba ùr"
-
-#~ msgid "Enter _Location"
-#~ msgstr "Cuir a-steach iona_d"
-
-#~ msgid "View menu"
-#~ msgstr "Clàr-taice an t-seallaidh"
-
-#~ msgid "Open view menu"
-#~ msgstr "Fosgail clàr-taice an t-seallaidh"
-
-#~ msgctxt "Sort Criterion"
-#~ msgid "_Name"
-#~ msgstr "Ai_nm"
-
-#~ msgid "Search _Relevance"
-#~ msgstr "Buinteanas an lui_rg"
-
-#~ msgid "Re_verse Order"
-#~ msgstr "Òr_dugh contrarra"
-
-#~ msgid "The mime type of the file."
-#~ msgstr "Seòrsa MIME an fhaidhle."
-
-#~ msgid "Untitled %s"
-#~ msgstr "%s gun tiotal"
-
-#~ msgid "Enables or disables recursive search in Nautilus."
-#~ msgstr "Cuiridh seo an lorg ath-chùrsach ann an Nautilus air no dheth."
-
-#~ msgid "Whether to switch to the list view on search"
-#~ msgstr ""
-#~ "Co-dhiù an dèid atharrachadh gu sealladh an liosta leis an lorg gus nach "
-#~ "dèid"
-
-#~ msgid ""
-#~ "Nautilus 3.0 deprecated this directory and tried migrating this "
-#~ "configuration to ~/.config/nautilus"
-#~ msgstr ""
-#~ "Cha chleachd Nautilus 3.0 am pasgan seo tuilleadh agus dh'fheuch e ris an "
-#~ "rèiteachadh seo imrich gu ~/.config/nautilus"
-
-#~ msgid "No bookmarks defined"
-#~ msgstr "Ca deach comharran-lìn a shònrachadh"
-
-#~ msgid "File Type"
-#~ msgstr "Seòrsa an fhaidhle"
-
-#~ msgid "Any"
-#~ msgstr "Gin dhiubh"
-
-#~ msgid "Remove this criterion from the search"
-#~ msgstr "Thoir an cuspair-deuchainn seo air falbh on lorg"
-
-#~ msgid "Current"
-#~ msgstr "Làithreach"
-
-#~ msgid "Add a new criterion to this search"
-#~ msgstr "Cuir cuspair-deuchainn ris an lorg seo"
-
-#~ msgid "Remove"
-#~ msgstr "Thoir air falbh"
-
-#~ msgid "Move Up"
-#~ msgstr "Gluais suas"
-
-#~ msgid "Move Down"
-#~ msgstr "Gluais sìos"
-
-#~| msgid "_Name"
-#~ msgctxt "Bookmark"
-#~ msgid "_Name"
-#~ msgstr "Ai_nm"
-
-#~ msgid "Files Preferences"
-#~ msgstr "Roghainnean nam faidhlichean"
-
-#~ msgid "Default View"
-#~ msgstr "An sealladh bunaiteach"
-
-#~ msgid "_Arrange items:"
-#~ msgstr "C_uir na nithean air dòigh:"
-
-#~ msgid "_Run executable text files when they are opened"
-#~ msgstr ""
-#~ "_Ruith faidhlichean teacsa so-ghnìomhaichte nuair a thèid am fosgladh"
-
-#~ msgid "_View executable text files when they are opened"
-#~ msgstr ""
-#~ "_Seall faidhlichean teacsa so-ghnìomhaichte nuair a thèid am fosgladh"
-
-#~ msgid "_Ask each time"
-#~ msgstr "_Faighnich gach turas"
-
-#~ msgid "Navigate folders in a tree"
-#~ msgstr "Seòl na pasganan ann an craobh"
-
-#~ msgid "Display"
-#~ msgstr "Taisbeanadh"
-
-#~ msgid "Connect to Server"
-#~ msgstr "Ceangal ris an fhrithealaiche"
-
-#~ msgid "Saved search"
-#~ msgstr "Lorg a chaidh a shàbhaladh"
-
-#~ msgid "The text of the label."
-#~ msgstr "Teacsa na leubail."
-
-#~ msgid "Justification"
-#~ msgstr "Blocachadh"
-
-#~ msgid ""
-#~ "The alignment of the lines in the text of the label relative to each "
-#~ "other. This does NOT affect the alignment of the label within its "
-#~ "allocation. See GtkMisc::xalign for that."
-#~ msgstr ""
-#~ "Co-thaobhadh nan loidhnichean ann an teacsa na leubail an coimeas ris a "
-#~ "chèile. CHA DOIR seo buaidh air co-thaobhadh na leubail am broinn a' "
-#~ "chuibhrinn aige. Seall GtkMisc::xalign airson sin."
-
-#~ msgid "Line wrap"
-#~ msgstr "Pasgadh nan loidhnichean"
-
-#~ msgid "If set, wrap lines if the text becomes too wide."
-#~ msgstr ""
-#~ "Ma shuidhicheas tu seo, paisg na loidhnichean ma dh'fhàsas an teacsa ro "
-#~ "leathann."
-
-#~ msgid "Cursor Position"
-#~ msgstr "Ionad a' chùrsair"
-
-#~ msgid "The current position of the insertion cursor in chars."
-#~ msgstr "Ionad làithreach a' chùrsair ann an caractaran."
-
-#~ msgid "Selection Bound"
-#~ msgstr "Ceangailte ris an taghadh"
-
-#~ msgid ""
-#~ "The position of the opposite end of the selection from the cursor in "
-#~ "chars."
-#~ msgstr "Ionad ceann thall an taghaidh on chùrsair ann an caractaran."
-
-#~ msgid "Cut the selected text to the clipboard"
-#~ msgstr "Gearr an teacsa a thagh thu air an stòr-bhòrd"
-
-#~ msgid "Copy the selected text to the clipboard"
-#~ msgstr "Cuir lethbhreac dhen teacsa a thagh thu air an stòr-bhòrd"
-
-#~ msgid "Paste the text stored on the clipboard"
-#~ msgstr "Cuir an teacsa a tha air an stòr-bhòrd ann"
-
-#~ msgid "Select all the text in a text field"
-#~ msgstr "Tagh an teacsa air fad ann an raon teacsa"
-
-#~ msgid "Move _Up"
-#~ msgstr "Gluais s_uas"
-
-#~ msgid "Move Dow_n"
-#~ msgstr "Gluais sìo_s"
-
-#~ msgid "Use De_fault"
-#~ msgstr "Cleachd a' bhu_n-roghainn"
-
-#~ msgid "You cannot move the volume “%s” to the trash."
-#~ msgstr "Chan urrainn dhut an draibh \"%s\" a ghluasad dhan sgudal."
-
-#~ msgid ""
-#~ "If you want to eject the volume, please use Eject in the popup menu of "
-#~ "the volume."
-#~ msgstr ""
-#~ "Ma tha thu airson an draibh a ghluasad a-mach, cleachd \"Gluais a-mach\" "
-#~ "ann an clàr-taice an draibh."
-
-#~ msgid ""
-#~ "If you want to unmount the volume, please use Unmount Volume in the popup "
-#~ "menu of the volume."
-#~ msgstr ""
-#~ "Ma tha thu airson an draibh a dhì-mhunntachadh, cleachd \"Dì-mhunntaich "
-#~ "an draibh\" ann an clàr-taice an draibh."
-
-#~ msgid "%R"
-#~ msgstr "%R"
-
-#~ msgid "%b %-e"
-#~ msgstr "%-e %b"
-
-#~ msgid "%a, %b %e %Y %T"
-#~ msgstr "%a, %e %b %Y %T"
-
-#~ msgid "%T left"
-#~ msgid_plural "%T left"
-#~ msgstr[0] "%T air fhàgail"
-#~ msgstr[1] "%T air fhàgail"
-#~ msgstr[2] "%T air fhàgail"
-#~ msgstr[3] "%T air fhàgail"
-
-#~ msgid "Moving files to trash"
-#~ msgstr "A' gluasad nam faidhlichean dhan sgudal"
-
-#~ msgid "%'d file left to trash"
-#~ msgid_plural "%'d files left to trash"
-#~ msgstr[0] "%'d fhaidhle ri ghluasad dhan sgudal fhathast"
-#~ msgstr[1] "%'d fhaidhle ri ghluasad dhan sgudal fhathast"
-#~ msgstr[2] "%'d faidhlichean ri an gluasad dhan sgudal fhathast"
-#~ msgstr[3] "%'d faidhle ri an gluasad dhan sgudal fhathast"
-
-#~ msgid "Moving file %'d of %'d (in “%B”) to “%B”"
-#~ msgstr "A' gluasad faidhle %'d à %'d (ann an \"%B\") dha \"%B\""
-
-#~ msgid "Copying file %'d of %'d (in “%B”) to “%B”"
-#~ msgstr ""
-#~ "A' cur lethbhreac de dh'fhaidhle %'d à %'d (ann an \"%B\") dha \"%B\""
-
-#~ msgid "Duplicating file %'d of %'d"
-#~ msgstr "A' dùblachadh faidhle %'d à %'d"
-
-#~ msgid "%S of %S"
-#~ msgstr "%S de %S"
-
-#~ msgid ""
-#~ "If set to true, then Nautilus will have a feature allowing you to delete "
-#~ "a file immediately and in-place, instead of moving it to the trash. This "
-#~ "feature can be dangerous, so use caution."
-#~ msgstr ""
-#~ "Ma thaghas tu \"true\" air a shon, bidh feart aig Nautilus a leigeas leat "
-#~ "faidhle a sguabadh às sa bhad agus 'na àite fhèin seach a bhith 'ga "
-#~ "ghluasad dhan sgudal an toiseach. Faodaidh seo a bhith caran cunnartach - "
-#~ "bidh air d' fhaiceall leis."
-
-#~ msgid "Email…"
-#~ msgstr "Post-d..."
-
-#~ msgid "Could not register the application"
-#~ msgstr "Cha b' urrainn dhuinn an aplacaid a chlàradh"
-
-#~ msgid "Connect to _Server…"
-#~ msgstr "Cea_ngail ri frithealaiche..."
-
-#~ msgid "_Bookmarks"
-#~ msgstr "_Comharran-lìn"
-
-#~ msgid "Display icons in the opposite order"
-#~ msgstr "Taisbean na h-ìomhaigheagan ann an òrdugh contrarra"
-
-#~ msgid "Keep icons lined up on a grid"
-#~ msgstr "Co-thaobhaich na h-ìomhaigheagan a-rèir griod"
-
-#~ msgid "_Manually"
-#~ msgstr "_A làimh"
-
-#~ msgid "Leave icons wherever they are dropped"
-#~ msgstr "Fàg na h-ìomhaigheagan far an deach an leigeil às"
-
-#~ msgid "By _Name"
-#~ msgstr "A-rèir ainm"
-
-#~ msgid "Keep icons sorted by name in rows"
-#~ msgstr "Seòrsaich ìomhaigheagan a-rèir ainm ann an ràghan"
-
-#~ msgid "By _Size"
-#~ msgstr "A-rèir meud"
-
-#~ msgid "Keep icons sorted by size in rows"
-#~ msgstr "Seòrsaich ìomhaigheagan a-rèir meud ann an ràghan"
-
-#~ msgid "By _Type"
-#~ msgstr "A-rèir _seòrsa"
-
-#~ msgid "Keep icons sorted by type in rows"
-#~ msgstr "Seòrsaich ìomhaigheagan a-rèir seòrsa ann an ràghan"
-
-#~ msgid "By Modification _Date"
-#~ msgstr "A-rèir ceann-_là atharrachaidh"
-
-#~ msgid "Keep icons sorted by modification date in rows"
-#~ msgstr "Seòrsaich ìomhaigheagan a-rèir ceann-là atharrachaidh ann an ràghan"
-
-#~ msgid "By _Access Date"
-#~ msgstr "A-rèir ceann-là _inntrigidh"
-
-#~ msgid "Keep icons sorted by access date in rows"
-#~ msgstr ""
-#~ "Seòrsaich ìomhaigheagan a-rèir an ama a chaidh an inntrigeadh ann an "
-#~ "ràghan"
-
-#~ msgid "By T_rash Time"
-#~ msgstr "A-rèir an a_ma a chaidh a chur dhan sgudal"
-
-#~ msgid "Keep icons sorted by trash time in rows"
-#~ msgstr ""
-#~ "Seòrsaich ìomhaigheagan a-rèir an ama a chaidh a chur dhan sgudal ann an "
-#~ "ràghan"
-
-#~ msgid "Keep icons sorted by search relevance in rows"
-#~ msgstr ""
-#~ "Glèidh seòrsachadh nan ìomhaigheagan a-rèir buinteanas luirg ann an ràghan"
-
-#~ msgid "Unable to display location"
-#~ msgstr "Chan urrainn dhuinn an t-ionad a thaisbeanadh"
-
-#~ msgid "Print but do not open the URI"
-#~ msgstr "Dèan clò-bhualadh ach na fosgail an URI"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Add connect to server mount"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Cuir ceangal ris munntadh frithealaiche"
-
-#~ msgid "This file server type is not recognized."
-#~ msgstr "Cha deach seòrsa an fhrithealaiche fhaidhlichean aithneachadh."
-
-#~ msgid "This doesn't look like an address."
-#~ msgstr "Chan eil seo coltach ri seòladh."
-
-#~ msgid "For example, %s"
-#~ msgstr "Mar eisimpleir, %s"
-
-#~ msgid "_Remove"
-#~ msgstr "_Thoir air falbh"
-
-#~ msgid "_Clear All"
-#~ msgstr "_Falamh na h-uile"
-
-#~ msgid "E_mpty Trash"
-#~ msgstr "Falamhaich an sgudal"
-
-#~ msgid "Restore Icons' Original Si_zes"
-#~ msgstr "Aisig meud tùsail nan ìomhaigheagan"
-
-#~ msgid ""
-#~ "Show a window that lets you set your desktop background's pattern or color"
-#~ msgstr ""
-#~ "Seall uinneag a tha leigeas leat pàtran no dath a' chùlaibh an deasg agad "
-#~ "a shuidheachadh."
-
-#~ msgid "Reposition icons to better fit in the window and avoid overlapping"
-#~ msgstr ""
-#~ "Cuir air gleus ionadan nan ìomhaigheagan san uinneag agus na leig leotha "
-#~ "a dhol a-steach air a chèile"
-
-#~ msgid "Make the selected icons resizable"
-#~ msgstr "Dèan meud nan ìomhaigheagan so-atharrachail"
-
-#~ msgid "Restore each selected icon to its original size"
-#~ msgstr "Aisig gach ìomhaigheag a thagh thu dhan mheud tùsail"
-
-#~ msgid "View _new folders using:"
-#~ msgstr "Seall pasganan _ùra a' cleachdadh:"
-
-#~ msgid "Show hidden and _backup files"
-#~ msgstr "Seall faidhlichean falaichte agus leth_bhreacan-glèidhidh"
-
-#~ msgid "Icon View Defaults"
-#~ msgstr "Bun-roghainnean sealladh nan ìomhaigheagan"
-
-#~ msgid "Default _zoom level:"
-#~ msgstr "Ìre bhunaiteach an _t-sùm"
-
-#~ msgid "List View Defaults"
-#~ msgstr "Bun-roghainnean an t-seallaidh liosta"
-
-#~ msgid "D_efault zoom level:"
-#~ msgstr "Ìre bhunait_each an t-sùm"
-
-#~ msgid "I_nclude a Delete command that bypasses Trash"
-#~ msgstr "G_abh a-staigh àithne airson sguabadh às a sheachnas an sgudal"
-
-#~ msgid "33%"
-#~ msgstr "33%"
-
-#~ msgid "50%"
-#~ msgstr "50%"
-
-#~ msgid "66%"
-#~ msgstr "66%"
-
-#~ msgid "100%"
-#~ msgstr "100%"
-
-#~ msgid "150%"
-#~ msgstr "150%"
-
-#~ msgid "200%"
-#~ msgstr "200%"
-
-#~ msgid "400%"
-#~ msgstr "400%"
-
-#~ msgid "Select the columns visible in this folder"
-#~ msgstr "Tagh na colbhan a thèid a shealltainn sa phasgan seo"
-
-#~ msgid "Location:"
-#~ msgstr "Ionad:"
-
-#~ msgid "Location options"
-#~ msgstr "Roghainnen an ionaid"
-
-#~ msgid "View options"
-#~ msgstr "Roghainnean an t-seallaidh"
-
-#~ msgid "Restore"
-#~ msgstr "Aisig"
-
-#~ msgid "Save Search as"
-#~ msgstr "Sàbhail an lorg mar"
-
-#~ msgid "_Save"
-#~ msgstr "_Sàbhail"
-
-#~ msgid "Search _name:"
-#~ msgstr "_Ainm an luirg:"
-
-#~ msgid "_Folder:"
-#~ msgstr "_Pasgan:"
-
-#~ msgid "Select Folder to Save Search In"
-#~ msgstr "Tagh pasgan gus an lorg a shàbhaladh ann"
-
-#~ msgid "Use “%s” to open the selected item"
-#~ msgid_plural "Use “%s” to open the selected items"
-#~ msgstr[0] "Cleachd \"%s\" gus an nì a thagh thu fhosgladh"
-#~ msgstr[1] "Cleachd \"%s\" gus na nithean a thagh thu fhosgladh"
-#~ msgstr[2] "Cleachd \"%s\" gus na nithean a thagh thu fhosgladh"
-#~ msgstr[3] "Cleachd \"%s\" gus na nithean a thagh thu fhosgladh"
-
-#~ msgid "Run “%s” on any selected items"
-#~ msgstr "Ruith \"%s\" air nì sam bith a chaidh a thaghadh"
-
-#~ msgid "Create a new document from template “%s”"
-#~ msgstr "Cruthaich sgrìobhainn ùr dhen teamplaid \"%s\""
-
-#~ msgid "Open Wit_h"
-#~ msgstr "_Fosgail le"
-
-#~ msgid "Choose a program with which to open the selected item"
-#~ msgstr "Tagh prògram a dh'fhosglas an nì a thagh thu dhut"
-
-#~ msgid "View or modify the properties of each selected item"
-#~ msgstr "Seall no atharraich roghainnean a nì a thagh thu"
-
-#~ msgid "Create a new empty folder inside this folder"
-#~ msgstr "Cruthaich pasgan falamh ùr am broinn a' phasgain seo"
-
-#~ msgid "New Folder with Selection"
-#~ msgstr "Pasgan ùr leis na chaidh a thaghadh"
-
-#~ msgid "Create a new folder containing the selected items"
-#~ msgstr "Cruthaich pasgan ùr anns am bi na nithean a thagh thu"
-
-#~ msgid "Open the selected item in this window"
-#~ msgstr "Fosgail an nì a thagh thu san uinneag seo"
-
-#~ msgid "Open the selected item's location in this window"
-#~ msgstr "Fosgail ionad an nì a thagh thu san uinneag seo"
-
-#~ msgid "Open in Navigation Window"
-#~ msgstr "Foasgail ann an uinneag seòladaireachd"
-
-#~ msgid "Open each selected item in a navigation window"
-#~ msgstr "Fosgail gach nì a thagh thu ann an uinneag seòladaireachd"
-
-#~ msgid "Open each selected item in a new tab"
-#~ msgstr "Fosgail gach nì a thagh thu ann an taba ùr"
-
-#~ msgid "Other _Application…"
-#~ msgstr "_Aplacaid eile..."
-
-#~ msgid "Choose another application with which to open the selected item"
-#~ msgstr "Tagh aplacaid eile a dh'fhosglas an nì a thagh thu"
-
-#~ msgid "Show the folder containing the scripts that appear in this menu"
-#~ msgstr ""
-#~ "Seall am pasgan sa bheil na sgriobtaichean a tha a' nochdadh sa chlàr-"
-#~ "taice seo"
-
-#~ msgid "Prepare the selected files to be moved with a Paste command"
-#~ msgstr "Ullaich na faidhlichean gus an gluasad leis an àithne \"Cuir ann\""
-
-#~ msgid "Prepare the selected files to be copied with a Paste command"
-#~ msgstr ""
-#~ "Ullaich na faidhlichean gus lethbhreac a dhèanamh dhiubh leis an àithne "
-#~ "\"Cuir ann\""
-
-#~ msgid "Move or copy files previously selected by a Cut or Copy command"
-#~ msgstr ""
-#~ "Gluais no dèan lethbhreac de dh'fhaidhlichean a thagh thu roimhe leis an "
-#~ "àithne \"Gearr\" no \"Dèan lethbhreac\""
-
-#~ msgid ""
-#~ "Move or copy files previously selected by a Cut or Copy command into the "
-#~ "selected folder"
-#~ msgstr ""
-#~ "Gluais no cuir lethbhreac de dh'fhaidhlichean a thagh thu roimhe leis an "
-#~ "àithne \"Gearr\" no \"Dèan lethbhreac\" dhan phasgan a thagh thu"
-
-#~ msgid "Copy selected files to another location"
-#~ msgstr "Cuir lethbhreac dhe na faidhlichean a thagh thu dha ionad eile"
-
-#~ msgid "Move selected files to another location"
-#~ msgstr "Gluais na faidhlichean a thagh thu dha ionad eile"
-
-#~ msgid "Select all items in this window"
-#~ msgstr "Tagh a h-uile nì a tha san uinneag seo"
-
-#~ msgid "Select I_tems Matching…"
-#~ msgstr "_Tagh nithean a tha a' maidseadh ri..."
-
-#~ msgid "Select items in this window matching a given pattern"
-#~ msgstr "Tagh nithean san uinneag seo a tha a' maidseadh ri pàtran àraid"
-
-#~ msgid "Select all and only the items that are not currently selected"
-#~ msgstr "Na tagh ach na nithean nach eil air an taghadh an-dràsta fhèin"
-
-#~ msgid "Ma_ke Link"
-#~ msgid_plural "Ma_ke Links"
-#~ msgstr[0] "Dè_an ceangal"
-#~ msgstr[1] "Dè_an ceanglaichean"
-#~ msgstr[2] "Dè_an ceanglaichean"
-#~ msgstr[3] "Dè_an ceanglaichean"
-
-#~ msgid "Create a symbolic link for each selected item"
-#~ msgstr "Cruthaich ceangal samhlachail airson gach nì a thagh thu"
-
-#~ msgid "Make item the wallpaper"
-#~ msgstr "Dèan pàipear-balla dhen nì"
-
-#~ msgid "Move each selected item to the Trash"
-#~ msgstr "Gluais gach nì a thagh thu dhan sgudal"
-
-#~ msgid "Delete each selected item, without moving to the Trash"
-#~ msgstr "Shuab às gach nì a thagh thu gun a bhith 'gan gluasad dhan sgudal"
-
-#~ msgid "Undo the last action"
-#~ msgstr "Neo-dhèan an gnìomh mu dheireadh"
-
-#~ msgid "Redo the last undone action"
-#~ msgstr "Ath-dhèan an gnìomh mu dheireadh a chaidh a neo-dhèanamh"
-
-#~ msgid ""
-#~ "Reset sorting order and zoom level to match preferences for this view"
-#~ msgstr ""
-#~ "Ath-shuidhich òrdugh an t-seòrsachaidh agus ìre an t-sùm a-rèir "
-#~ "roghainnean an t-seallaidh seo"
-
-#~ msgid "Mount the selected volume"
-#~ msgstr "Munntaich an draibh a thagh thu"
-
-#~ msgid "Unmount the selected volume"
-#~ msgstr "Dì-mhunntaich an draibh a thagh thu"
-
-#~ msgid "Eject the selected volume"
-#~ msgstr "Gluais a-mach an draibh a thagh thu"
-
-#~ msgid "Start the selected volume"
-#~ msgstr "Tòisich an draibh a thagh thu"
-
-#~ msgid "Stop the selected volume"
-#~ msgstr "Cuir stad air an draibh a thagh thu"
-
-#~ msgid "Detect media in the selected drive"
-#~ msgstr "Mothaich do mheadhanan san draibh a thagh thu"
-
-#~ msgid "Mount the volume associated with the open folder"
-#~ msgstr "Munntaich an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Unmount the volume associated with the open folder"
-#~ msgstr ""
-#~ "Dì-mhunntaich an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Eject the volume associated with the open folder"
-#~ msgstr ""
-#~ "Gluais a-mach an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Start the volume associated with the open folder"
-#~ msgstr "Tòisich an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Stop the volume associated with the open folder"
-#~ msgstr ""
-#~ "Cuir stad air an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Sa_ve Search"
-#~ msgstr "Sà_bhail an lorg"
-
-#~ msgid "Save the edited search"
-#~ msgstr "Sàbhail an lorg deasaichte"
-
-#~ msgid "Sa_ve Search As…"
-#~ msgstr "Sà_bhail an lorg mar..."
-
-#~ msgid "Save the current search as a file"
-#~ msgstr "Sàbhail an lorg làithreach mar fhaidhle"
-
-#~ msgid "Open this folder in a navigation window"
-#~ msgstr "Fosgail am pasgan seo ann an uinneag seòladaireachd"
-
-#~ msgid "Open this folder in a new tab"
-#~ msgstr "Fosgail am pasgan seo ann an taba ùr"
-
-#~ msgid "Prepare this folder to be moved with a Paste command"
-#~ msgstr "Ullaich am pasgan seo gus a ghluasad leis an àithne \"Cuir ann\""
-
-#~ msgid "Prepare this folder to be copied with a Paste command"
-#~ msgstr ""
-#~ "Ullaich am pasgan seo gus lethbhreac a dhèanamh dheth leis an àithne "
-#~ "\"Cuir ann\""
-
-#~ msgid ""
-#~ "Move or copy files previously selected by a Cut or Copy command into this "
-#~ "folder"
-#~ msgstr ""
-#~ "Gluais no cuir lethbhreac de dh'fhaidhlichean a thagh thu roimhe leis an "
-#~ "àithne \"Gearr\" no \"Dèan lethbhreac\" dhan pasgan seo"
-
-#~ msgid "Move this folder to the Trash"
-#~ msgstr "Gluais am pasgan seo dhan sgudal"
-
-#~ msgid "Delete this folder, without moving to the Trash"
-#~ msgstr "Sguab às am pasgan seo gun a bhith 'ga ghluasad dhan sgudal"
-
-#~ msgid "Mount the volume associated with this folder"
-#~ msgstr "Munntaich an draibh a tha co-cheangailte ris a' phasgan seo"
-
-#~ msgid "Unmount the volume associated with this folder"
-#~ msgstr "Dì-mhunntaich an draibh a tha co-cheangailte ris a' phasgan seo"
-
-#~ msgid "Eject the volume associated with this folder"
-#~ msgstr "Gluais a-mach an draibh a tha co-cheangailte ris a' phasgan seo"
-
-#~ msgid "Start the volume associated with this folder"
-#~ msgstr "Tòisich an draibh a tha co-cheangailte ris a' phasgan seo"
-
-#~ msgid "Stop the volume associated with this folder"
-#~ msgstr "Cuir stad air an draibh a tha co-cheangailte ris a' phasgan seo"
-
-#~ msgid "View or modify the properties of this folder"
-#~ msgstr "Seall no atharraich roghainnean a' phasgain seo"
-
-#~ msgid "Toggle the display of hidden files in the current window"
-#~ msgstr ""
-#~ "Toglaich taisbeanadh nam faidhlichean falaichte san uinneag làithreach"
-
-#~ msgid "Run or manage scripts"
-#~ msgstr "Ruith no stiùir sgriobtaichean"
-
-#~ msgid "Move the open folder out of the trash to “%s”"
-#~ msgstr "Gluais am pasgan fosgailte a-mach às an sgudal dha \"%s\""
-
-#~ msgid "Move the selected folder out of the trash to “%s”"
-#~ msgstr "Gluais am pasgan a thagh thu a-mach às an sgudal dha \"%s\""
-
-#~ msgid "Move the selected folders out of the trash to “%s”"
-#~ msgstr "Gluais na pasganan a thagh thu a-mach às an sgudal dha \"%s\""
-
-#~ msgid "Move the selected folder out of the trash"
-#~ msgstr "Gluais am pasgan a thagh thu a-mach às an sgudal"
-
-#~ msgid "Move the selected folders out of the trash"
-#~ msgstr "Gluais na pasganan a thagh thu a-mach às an sgudal"
-
-#~ msgid "Move the selected file out of the trash to “%s”"
-#~ msgstr "Gluais am faidhle a thagh thu a-mach às an sgudal gu \"%s\""
-
-#~ msgid "Move the selected files out of the trash to “%s”"
-#~ msgstr "Gluais na faidhlichean a thagh thu a-mach às an sgudal gu \"%s\""
-
-#~ msgid "Move the selected file out of the trash"
-#~ msgstr "Gluais am faidhle a thagh thu a-mach às an sgudal"
-
-#~ msgid "Move the selected files out of the trash"
-#~ msgstr "Gluais na faidhlichean a thagh thu a-mach às an sgudal"
-
-#~ msgid "Move the selected item out of the trash to “%s”"
-#~ msgstr "Gluais an nì a thagh thu a-mach às an sgudal dha \"%s\""
-
-#~ msgid "Move the selected items out of the trash to “%s”"
-#~ msgstr "Gluais na nithean a thagh thu a-mach às an sgudal dha \"%s\""
-
-#~ msgid "Move the selected item out of the trash"
-#~ msgstr "Gluais an nì a thagh thu a-mach às an sgudal"
-
-#~ msgid "Move the selected items out of the trash"
-#~ msgstr "Gluais na nithean a thagh thu a-mach às an sgudal"
-
-#~ msgid "Start the selected drive"
-#~ msgstr "Tòisich an draibh a thagh thu"
-
-#~ msgid "Connect to the selected drive"
-#~ msgstr "Ceangail ris an draibh a thagh thu"
-
-#~ msgid "Start the selected multi-disk drive"
-#~ msgstr "Tòisich an draibh ioma-diosgach a thagh thu"
-
-#~ msgid "Unlock the selected drive"
-#~ msgstr "Thoir a' ghlas far an draibh a thagh thu"
-
-#~ msgid "Stop the selected drive"
-#~ msgstr "Cuir stad air an draibh a thagh thu"
-
-#~ msgid "Safely remove the selected drive"
-#~ msgstr "Gluais a-mach an draibh a thagh thu gu sàbhailte"
-
-#~ msgid "Disconnect the selected drive"
-#~ msgstr "Dì-cheangail an draibh a thagh thu"
-
-#~ msgid "Stop the selected multi-disk drive"
-#~ msgstr "Cuir stad air an draibh ioma-diosgach a thagh thu"
-
-#~ msgid "Lock the selected drive"
-#~ msgstr "Glais an draibh a thagh thu"
-
-#~ msgid "Start the drive associated with the open folder"
-#~ msgstr "Tòisich an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Connect to the drive associated with the open folder"
-#~ msgstr "Ceangail an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Start the multi-disk drive associated with the open folder"
-#~ msgstr ""
-#~ "Tòisich an draibh ioma-diosgach a tha co-cheangailte ris a' phasgan "
-#~ "fhosgailte"
-
-#~ msgid "_Unlock Drive"
-#~ msgstr "_Thoir a' ghlas far an draibh"
-
-#~ msgid "Unlock the drive associated with the open folder"
-#~ msgstr ""
-#~ "Thoir a' ghlas far an draibh a tha co-cheangailte ris a' phasgan "
-#~ "fhosgailte"
-
-#~ msgid "_Stop the drive associated with the open folder"
-#~ msgstr ""
-#~ "C_uir stad air an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Safely remove the drive associated with the open folder"
-#~ msgstr ""
-#~ "Gluais a-mach an draibh a tha co-cheangailte ris a' phasgan fhosgailte gu "
-#~ "sàbhailte"
-
-#~ msgid "Disconnect the drive associated with the open folder"
-#~ msgstr ""
-#~ "Dì-cheangail an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Stop the multi-disk drive associated with the open folder"
-#~ msgstr ""
-#~ "Cuir stad air an draibh ioma-dhiosgach a tha co-cheangailte ris a' "
-#~ "phasgan fhosgailte"
-
-#~ msgid "Lock the drive associated with the open folder"
-#~ msgstr "Glais an draibh a tha co-cheangailte ris a' phasgan fhosgailte"
-
-#~ msgid "Delete the open folder permanently"
-#~ msgstr "Sguab às am pasgan fosgailte gu buan"
-
-#~ msgid "Move the open folder to the Trash"
-#~ msgstr "Gluais am pasgan fosgailte dhan sgudal"
-
-#~ msgid "_Open With %s"
-#~ msgstr "_Fosgail le %s"
-
-#~ msgid "Open in %'d New _Window"
-#~ msgid_plural "Open in %'d New _Windows"
-#~ msgstr[0] "Fosgail ann an %'d  _uinneag ùr"
-#~ msgstr[1] "Fosgail ann an %'d  _uinneag ùr"
-#~ msgstr[2] "Fosgail ann an %'d  _uinneagan ùra"
-#~ msgstr[3] "Fosgail ann an %'d  _uinneag ùr"
-
-#~ msgid "Open in %'d New _Tab"
-#~ msgid_plural "Open in %'d New _Tabs"
-#~ msgstr[0] "Fosgail ann an %'d _taba ùr"
-#~ msgstr[1] "Fosgail ann an %'d _thaba ùr"
-#~ msgstr[2] "Fosgail ann an %'d _tabaichean ùra"
-#~ msgstr[3] "Fosgail ann an %'d _taba ùr"
-
-#~ msgid "Delete all selected items permanently"
-#~ msgstr "Sguab às gach nì a thagh thu gu buan"
-
-#~ msgid "Remove each selected item from the recently used list"
-#~ msgstr "Thoir air falbh an nì o na dh'fhosgladh o chionn goirid"
-
-#~ msgid "View or modify the properties of the open folder"
-#~ msgstr "Seall no atharraich roghainnean a' phasgain fhosgailte"
-
-#~ msgid "Copyright © %Id–%Id The Files authors"
-#~ msgstr "Còir-lethbhreac © %Id–%Id Ùghdaran gleus nam faidhlichean"
-
-#~ msgid "_Close"
-#~ msgstr "_Dùin"
-
-#~ msgid "Edit Nautilus preferences"
-#~ msgstr "Deasaich roghainnean Nautilus"
-
-#~ msgid "Open _Parent"
-#~ msgstr "Fosgail am _pàrant"
-
-#~ msgid "Open the parent folder"
-#~ msgstr "Fosgail pàrant a' phasgain"
-
-#~ msgid "Stop loading the current location"
-#~ msgstr "Sguir a luchdadh an ionaid làithrich"
-
-#~ msgid "_All Topics"
-#~ msgstr "_A h-uile cuspair"
-
-#~ msgid "Display Nautilus help"
-#~ msgstr "Seall cobhair Nautilus"
-
-#~ msgid ""
-#~ "Locate files based on file name and type. Save your searches for later "
-#~ "use."
-#~ msgstr ""
-#~ "Lorg faidhlichean a-rèir ainm is seòrsa nam faidhlichean. Gabhaidh an "
-#~ "lorg a shàbhaladh airson 's gum bi e ri do làimh a-rithist às a dhèidh "
-#~ "seo."
-
-#~ msgid "Sort files and folders"
-#~ msgstr "Seòrsaich faidhlichean agus pasganan"
-
-#~ msgid "Arrange files by name, size, type, or when they were changed."
-#~ msgstr ""
-#~ "Cuir air dòigh faidhlichean a-rèir ainm, meud, seòrsa no cuin a chaidh an "
-#~ "atharrachadh."
-
-#~ msgid "Find a lost file"
-#~ msgstr "Lorg faidhle a chaidh air chall"
-
-#~ msgid ""
-#~ "Follow these tips if you can't find a file you created or downloaded."
-#~ msgstr ""
-#~ "Lean ris an stiùireadh seo ma chruthaich no ma luchdaich thu a-nuas "
-#~ "faidhle 's mur urrainn dhut a lorg a-nis."
-
-#~ msgid "Share and transfer files"
-#~ msgstr "Co-roinn is tar-aisig faidhlichean"
-
-#~ msgid ""
-#~ "Easily transfer files to your contacts and devices from the file manager."
-#~ msgstr ""
-#~ "Tha e furasta faidhlichean a chur gun luchd-aithne agad agus gu uidheaman "
-#~ "eile le manaidsear nam faidhlichean."
-
-#~ msgid "Display credits for the creators of Nautilus"
-#~ msgstr "Seall ainmean nan daoine a chruthaich Nautilus"
-
-#~ msgid "Increase the view size"
-#~ msgstr "Meudaich an sealladh"
-
-#~ msgid "Decrease the view size"
-#~ msgstr "Lùghdaich an sealladh"
-
-#~ msgid "Normal Si_ze"
-#~ msgstr "Me_ud àbhaisteach"
-
-#~ msgid "Use the normal view size"
-#~ msgstr "Seall e leis a' mheud àbhaisteach"
-
-#~ msgid "Connect to a remote computer or shared disk"
-#~ msgstr "Ceangail ri coimpiutair cèin no diosg co-roinnte"
-
-#~ msgid "_Home"
-#~ msgstr "_Dhachaigh"
-
-#~ msgid "Open your personal folder"
-#~ msgstr "Fosgail am pasgan pearsanta agad"
-
-#~ msgid "Open another Nautilus window for the displayed location"
-#~ msgstr ""
-#~ "Fosgail uinneag Nautilus eile airson an ionaid a tha 'ga shealltainn"
-
-#~ msgid "Open another tab for the displayed location"
-#~ msgstr "Fosgail taba eile airson an ionaid a tha 'ga shealltainn"
-
-#~ msgid "Close _All Windows"
-#~ msgstr "Dùin a _h-uile uinneag"
-
-#~ msgid "Close all Navigation windows"
-#~ msgstr "Dùin gach uinneag seòladaireachd"
-
-#~ msgid "_Back"
-#~ msgstr "_Air ais"
-
-#~ msgid "Go to the previous visited location"
-#~ msgstr "Rach gun ionad air an do thadhail thu roimhe"
-
-#~ msgid "Go to the next visited location"
-#~ msgstr "Rach gun ath-ionad air an do thadhail thu"
-
-#~ msgid "Specify a location to open"
-#~ msgstr "Sònraich ionad gus fhosgladh"
-
-#~ msgid "_Bookmarks…"
-#~ msgstr "Co_mharran-lìn..."
-
-#~ msgid "Display and edit bookmarks"
-#~ msgstr "Seall agus deasaich na comharran-lìn"
-
-#~ msgid "_Previous Tab"
-#~ msgstr "An taba _roimhe"
-
-#~ msgid "_Next Tab"
-#~ msgstr "A_n ath-thaba"
-
-#~ msgid "Move current tab to left"
-#~ msgstr "Gluais an taba làithreach gun taobh _chlì"
-
-#~ msgid "Move current tab to right"
-#~ msgstr "Gluais an taba làithreach gun taobh _deas"
-
-#~ msgid "Change the visibility of this window's side pane"
-#~ msgstr "Atharraich faicsinneachd leòsan-taoibh na h-uinneige seo"
-
-#~ msgid "_Search for Files…"
-#~ msgstr "_Lorg faidhlichean..."
-
-#~ msgid "List"
-#~ msgstr "Liosta"
-
-#~ msgid "View items as a list"
-#~ msgstr "Seall na nithean mar liosta"
-
-#~ msgid "View items as a grid of icons"
-#~ msgstr "Seall na nithean mar ghriod de dh'ìomhaigheagan"
-
-#~ msgid "_Up"
-#~ msgstr "_Suas"
-
-#~ msgid "--geometry cannot be used with more than one URI."
-#~ msgstr "Cha ghabh --geometry a chleachdadh le barrachd air aon URI."
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Browse the file system with the file manager"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Brabhsaich an siostam faidhle le manaidsear nam faidhlichean"
-
-#~ msgid "Could not parse arguments"
-#~ msgstr "Cha b' urrainn dhuinn na h-argamaidean a pharsadh"
-
-#~ msgid "Set as _Background"
-#~ msgstr "Suidhich mar chùlai_bh"
-
-#~ msgid "There was an error displaying help."
-#~ msgstr "Bha mearachd ann a' taisbeanadh na cobharach."
-
-#~ msgid "_Browse"
-#~ msgstr "_Brabhsaich"
-
-#~ msgid ""
-#~ "Files is free software; you can redistribute it and/or modify it under "
-#~ "the terms of the GNU General Public License as published by the Free "
-#~ "Software Foundation; either version 2 of the License, or (at your option) "
-#~ "any later version."
-#~ msgstr ""
-#~ "Tha gleus nam faidhlichean 'na bhathar-bog saor; 's urrainn dhut ath-"
-#~ "sgaoileadh agus/no atharrachadh fo theirmichean a' GNU General Public "
-#~ "License mar a chaidh fhoillseachadh leis a' Free Software Foundation; co-"
-#~ "dhiù tionndadh 2 dhen cheadachas no (ma lùigeas tu) tionndadh nas ùire "
-#~ "sam bith dheth."
-
-#~ msgid ""
-#~ "Files is distributed in the hope that it will be useful, but WITHOUT ANY "
-#~ "WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-#~ "FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-#~ "details."
-#~ msgstr ""
-#~ "Tha gleus nam faidhlichean 'ga sgaoileadh is sinne an dòchas gum bi e gu "
-#~ "feum ach 's ann as aonais barantais sam bith; fiù às aonais barantas "
-#~ "fillte a thaobh SO-MHARSANTACHD no ION-FHREAGARRACHD A CHUM FEUM SAM "
-#~ "BITH. Faic a' GNU General Public License airson barrachd fiosrachaidh."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with Nautilus; if not, write to the Free Software Foundation, Inc., 51 "
-#~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
-#~ msgstr ""
-#~ "Bu chòir gun d'fhuair thu lethbhreac dhen GNU General Public License an "
-#~ "cois gleus nam faidhlichean; mur an d'fhuair, sgrìobh gun Free Software "
-#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-#~ "Stàitean Aonaichte Aimeireaga"
-
-#~ msgid "_About Files"
-#~ msgstr "_Mu dhèidhinn nam faidhlichean"
-
-#~ msgid "Open a New Window"
-#~ msgstr "Fosgail uinneag ùr"
-
-#~ msgid "Home Folder"
-#~ msgstr "Pasgan dachaigh"
-
-#~ msgid "Input Methods"
-#~ msgstr "Dòighean ion-chuir"
-
-#~ msgid "_Icons"
-#~ msgstr "Ì_omhaigheagan"
-
-#~ msgid "The icon view encountered an error."
-#~ msgstr "Thachair an sealladh ìomhaigheagan ri mearachd."
-
-#~ msgid "The icon view encountered an error while starting up."
-#~ msgstr ""
-#~ "Thachair an sealladh ìomhaigheagan ri mearachd fhad 's a bha e a' "
-#~ "tòiseachadh."
-
-#~ msgid "Display this location with the icon view."
-#~ msgstr "Seall an t-ionad seo san t-sealladh ìomhaigheagan."
-
-#~ msgid "Don't recognize this file server type."
-#~ msgstr "Na aithnich a leithid seo a fhrithealaiche fhaidhlichean."
-
-#~ msgid "The desktop view encountered an error."
-#~ msgstr "Thachair an sealladh deasg ri mearachd."
-
-#~ msgid "The desktop view encountered an error while starting up."
-#~ msgstr ""
-#~ "Thachair an sealladh deasg ri mearachd fhad 's a bha e a' tòiseachadh."
-
-#~ msgid "_List"
-#~ msgstr "_Liosta"
-
-#~ msgid "The list view encountered an error."
-#~ msgstr "Thachair an sealladh liosta ri mearachd."
-
-#~ msgid "The list view encountered an error while starting up."
-#~ msgstr ""
-#~ "Thachair an sealladh liosta ri mearachd fhad 's a bha e a' tòiseachadh."
-
-#~ msgid "Display this location with the list view."
-#~ msgstr "Taisbean an t-ionad seo leis an t-sealladh liosta."
-
-#~ msgid "Devices"
-#~ msgstr "Uidheaman"
-
-#~ msgid "Places"
-#~ msgstr "Àitichean"
-
-#~ msgid "Recent"
-#~ msgstr "O chionn ghoirid"
-
-#~ msgid "Recent files"
-#~ msgstr "Faidhlichean o chionn ghoirid"
-
-#~ msgid "Open the contents of your desktop in a folder"
-#~ msgstr "Fosgail susbaint an deasg agad ann am pasgan"
-
-#~ msgid "Open the trash"
-#~ msgstr "Fosgail an sgudal"
-
-#~ msgid "Mount and open %s"
-#~ msgstr "Munntaich is fosgail %s"
-
-#~ msgid "Open the contents of the File System"
-#~ msgstr "Fosgail susbaint an t-siostaim fhaidhle"
-
-#~ msgid "Browse Network"
-#~ msgstr "Brabhsaich an lìonra"
-
-#~ msgid "Browse the contents of the network"
-#~ msgstr "Brabhsaich susbaint an lìonraidh"
-
-#~ msgid "_Power On"
-#~ msgstr "A' _chumhachd air"
-
-#~ msgid "_Connect Drive"
-#~ msgstr "Ceangail an draibh _ris"
-
-#~ msgid "_Disconnect Drive"
-#~ msgstr "_Bris an ceangal ris an draibh"
-
-#~ msgid "_Start Multi-disk Device"
-#~ msgstr "_Tòisich uidheam ioma-diosgach"
-
-#~ msgid "_Stop Multi-disk Device"
-#~ msgstr "C_uir stad air an uidheam ioma-diosgach"
-
-#~ msgid "Unable to start %s"
-#~ msgstr "Cha ghabh %s a thòiseachadh"
-
-#~ msgid "Unable to eject %s"
-#~ msgstr "Cha ghabh %s a ghluasad a-mach"
-
-#~ msgid "Unable to poll %s for media changes"
-#~ msgstr ""
-#~ "Chan urrainn dhuinn %s a sgrùdadh airson atharraichean nam meadhanan"
-
-#~ msgid "Unable to stop %s"
-#~ msgstr "Chan urrainn dhuinn stad a chur air %s"
-
-#~ msgid "_Add Bookmark"
-#~ msgstr "_Cuir comharra-lìn ris"
-
-#~ msgid "_Empty Document"
-#~ msgstr "Sgrìobhainn _bhàn"
-
-#~ msgid "Create a new empty document inside this folder"
-#~ msgstr "Cruthaich sgrìobhainn bhàn ùr am broinn a' phasgain seo"
-
-#~ msgid "Show Copy Dialog"
-#~ msgstr "Seall còmhradh nan lethbhreacan"
-
-#~ msgid "Cancel All In-progress Actions"
-#~ msgstr "Sguir de gach gnìomh a tha a' dol air adhart"
-
-#~ msgid "Send To..."
-#~ msgstr "Cuir gu..."
-
-#~ msgid "Change Permissions for Enclosed Files..."
-#~ msgstr "Atharraich na ceadan airson faidhlichean an seo a-staigh..."
-
-#~ msgid "Copy To..."
-#~ msgstr "Lethbhreac gu..."
-
-#~ msgid "Move To..."
-#~ msgstr "Gluais gu..."
-
-#~ msgid "Rena_me..."
-#~ msgstr "Ath-a_inmich..."
-
-#~ msgid "Enter _Location..."
-#~ msgstr "Cuir a-steach _suidheachadh..."
-
-#~ msgid "_Bookmarks..."
-#~ msgstr "_Comharran-lìn..."
-
-#~ msgid ""
-#~ "If set to true, then hidden files are shown by default in the file "
-#~ "manager. Hidden files are either dotfiles, listed in the folder's .hidden "
-#~ "file or backup files ending with a tilde (~)."
-#~ msgstr ""
-#~ "Ma thaghas tu \"true\" air a shon, thèid faidhlichean falaichte a "
-#~ "shealltainn a ghnàth ann am manaidsear am faidhlichean. Tha faidhlichean "
-#~ "falaichte 'nan dotfiles a tha 'gan stòradh ann am faidhle .hidden a' "
-#~ "chleachdaiche no lethbhreacan-glèidhidh a tha a' crìochnachadh le (~)."
-
-#~ msgid ""
-#~ "Do not manage the desktop (ignore the preference set in the preferences "
-#~ "dialog)."
-#~ msgstr ""
-#~ "Na stiùirich an deasg (leig seachad na roghainnean a chaidh a "
-#~ "shuidheachadh ann an còmhradh nan roghainnean)."
-
-#~ msgid "Resize Icon..."
-#~ msgstr "Atharraich meud na h-ìomhaigheige..."
-
-#~ msgid "Visible _Columns..."
-#~ msgstr "Colbhan a tha ri am _faicinn..."
-
-#~ msgid "Loading..."
-#~ msgstr "'Ga luchdadh..."
-
-#~ msgid "Rename..."
-#~ msgstr "Thoir ainm ùr air..."
-
-#~ msgid "Other Type..."
-#~ msgstr "Seòrsa eile..."
-
-#~ msgid "Other _Application..."
-#~ msgstr "_Aplacaid eile..."
-
-#~ msgid "Open With Other _Application..."
-#~ msgstr "Fosgail le _aplacaid eile..."
-
-#~ msgid "Select I_tems Matching..."
-#~ msgstr "Tagh n_ithean a tha a' maidseadh..."
-
-#~ msgid "Sa_ve Search As..."
-#~ msgstr "Sà_bhail an lorg mar..."
-
-#~ msgid "Searching..."
-#~ msgstr "'Ga lorg..."
-
-#~ msgid "Connect to _Server..."
-#~ msgstr "Ceangail ri _frithealaiche..."
-
-#~ msgid "_Search for Files..."
-#~ msgstr "_Lorg faidhlichean..."
-
-#~ msgid "Send files by mail, instant message..."
-#~ msgstr "Cuir faidhlichean air a' phost,  ann an grad-theachdaireachd..."
-
-#~ msgid "Send file by mail, instant message..."
-#~ msgstr "Cuir faidhle air a' phost,  ann an grad-theachdaireachd..."
