@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:48+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/endless-mobile-inc/nautilus/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "pasta;gestor;explorar;disco;sistema;ficheiros;"
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -824,7 +824,7 @@ msgstr ""
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "Última modificação"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
@@ -840,7 +840,7 @@ msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "Data de criação"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
@@ -875,15 +875,15 @@ msgstr ""
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -2528,7 +2528,7 @@ msgstr "Executar"
 
 #: src/nautilus-files-view.c:7521
 msgid "Extract Here"
-msgstr ""
+msgstr "Extrair aqui"
 
 #: src/nautilus-files-view.c:7522
 msgid "Extract to…"
@@ -3663,7 +3663,7 @@ msgstr "Detalhes: "
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr ""
+msgstr "Cancelado"
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -4044,13 +4044,13 @@ msgstr "Lixo"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "Coloque ficheiros nesta pasta para serem utilizados como modelos para novos documentos."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"Ajuda GNOME para modelos\">Saber mais…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4060,11 +4060,11 @@ msgstr "Ficheiros executáveis nesta pasta serão mostrados no menu Scripts."
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Desfazer"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_Refazer"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4451,7 +4451,7 @@ msgstr "Eliminar definitivamente"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "Cortar"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -4536,7 +4536,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "Adicionar"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
@@ -4545,7 +4545,7 @@ msgstr ""
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "Formato"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
@@ -4566,19 +4566,19 @@ msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "Metadados"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
@@ -4594,7 +4594,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "Número da faixa"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
@@ -5143,7 +5143,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "Novo separador"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5175,7 +5175,7 @@ msgstr "Abrir operações em curso"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "Reduzir"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
@@ -5183,7 +5183,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "Ampliar"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
@@ -5315,7 +5315,7 @@ msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr ""
+msgstr "smb://foo.example.com, ssh://192.168.0.1"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
@@ -5335,7 +5335,7 @@ msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
@@ -5343,30 +5343,30 @@ msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "Prefixo"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// ou ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// ou ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// ou davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Oriya (http://www.transifex.com/endless-mobile-inc/nautilus/language/or/)\n"
 "MIME-Version: 1.0\n"
@@ -4060,11 +4060,11 @@ msgstr "ଏହି ଫୋଲଡ଼ରରେ ଥିବା ସମସ୍ତ ନି�
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "ପ୍ରତିକାର କରନ୍ତୁ (_U)"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "ପୁଣି କରନ୍ତୁ (_R)"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4762,7 +4762,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "ନାମ ବଦଳାନ୍ତୁ (_m)..."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"

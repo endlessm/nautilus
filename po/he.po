@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:50+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/endless-mobile-inc/nautilus/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "הפעלת התכנה"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -72,7 +72,7 @@ msgstr "תיקייה;מנהל;עיון;סיור;כונן;מערכת קבצים;"
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -154,13 +154,13 @@ msgstr "If set to true, then Nautilus will ask for confirmation when you attempt
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
-msgstr ""
+msgstr "Whether to extract compressed files instead of opening them in another application"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
-msgstr ""
+msgstr "If set to true, then Nautilus will automatically extract compressed files instead of opening them in another application"
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -354,11 +354,11 @@ msgstr "If this is set to true, when performing a drag and drop operation the ho
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "Default format for compressing files"
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "The format that will be selected when compressing files."
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -785,12 +785,12 @@ msgstr "ה_פעלה"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "‏„%s” לא יהיה שם חדש ייחודי."
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "‏„%s” יתנגש אם קובץ קיים."
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
@@ -810,54 +810,54 @@ msgstr[1] ""
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "שם מקורי (סדר עולה)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "שם מקורי (סדר יורד)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "שונה לפני זמן רב"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "שונה לאחרונה"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "נוצר לפני זמן רב"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "נוצר לאחרונה"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "דגם המצלמה"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "תאריך היווצרות"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "מספר עונה"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "מספר פרק"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "מספר רצועה"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "שם אמן"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:382
@@ -868,23 +868,23 @@ msgstr "כותרת"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "שם אלבום"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "שם הקובץ המקורי"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -1020,15 +1020,15 @@ msgstr "דירוג רלוונטיות החיפוש"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "שם ארכיון לא יכול להכיל „/”."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "ארכיון לא יכול להיקרא „.”."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "ארכיון לא יכול להיקרא „..”."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1488,17 +1488,17 @@ msgstr "החלפה"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "שם קובץ לא יכול להכיל „/”."
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "קובץ לא יכול להיקרא „.”."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "קובץ לא יכול להיקרא „..”."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1800,19 +1800,19 @@ msgstr "שגיאה במהלך מחיקה."
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr ""
+msgstr "אירעה שגיאה בעת מחיקת התיקייה „%B“."
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr ""
+msgstr "אין לך הרשאות מספקות על מנת למחוק את התיקייה „%B”."
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr ""
+msgstr "אירעה שגיאה בעת מחיקת הקובץ „%B“."
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr ""
+msgstr "אין לך הרשאות מספקות על מנת למחוק את הקובץ „%B”."
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -1932,7 +1932,7 @@ msgstr "שגיאה במהלך העברת פריטים לאשפה."
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr ""
+msgstr "שגיאה במהלך דחיסת הקובץ."
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
@@ -2155,7 +2155,7 @@ msgstr "שגיאה בהעתקת „%B“."
 #: src/nautilus-file-operations.c:4859
 #, c-format
 msgid "Could not remove the already existing folder %F."
-msgstr ""
+msgstr "לא ניתן להסיר את התיקייה הקיימת %F."
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
@@ -2288,23 +2288,23 @@ msgstr "לא ניתן לסמן את המשגר כמהימן (קובץ הפעלה
 
 #: src/nautilus-file-operations.c:8179
 msgid "Verifying destination"
-msgstr ""
+msgstr "אימות יעד"
 
 #: src/nautilus-file-operations.c:8219
 msgid "Extracting “%B”"
-msgstr ""
+msgstr "‏„%B” מחולץ"
 
 #: src/nautilus-file-operations.c:8311
 msgid "Error extracting “%B”"
-msgstr ""
+msgstr "שגיאה בחילוץ „%B“."
 
 #: src/nautilus-file-operations.c:8315
 msgid "There was an error while extracting “%B”."
-msgstr ""
+msgstr "ארעה שגיאה בעת חילוץ „%B”."
 
 #: src/nautilus-file-operations.c:8356
 msgid "Extracted “%B” to “%B”"
-msgstr ""
+msgstr "‏„%B“ חולץ אל „%B“"
 
 #: src/nautilus-file-operations.c:8362
 msgid "Extracted %'d file to “%B”"
@@ -2314,15 +2314,15 @@ msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8395
 msgid "Preparing to extract"
-msgstr ""
+msgstr "הכנות לחילוץ"
 
 #: src/nautilus-file-operations.c:8521
 msgid "Extracting Files"
-msgstr ""
+msgstr "חילוץ קבצים"
 
 #: src/nautilus-file-operations.c:8576
 msgid "Compressing “%B” into “%B”"
-msgstr ""
+msgstr "מכווץ את ‏„%B“ לתוך „%B“"
 
 #: src/nautilus-file-operations.c:8582
 msgid "Compressing %'d file into “%B”"
@@ -2332,7 +2332,7 @@ msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8703
 msgid "Error compressing “%B” into “%B”"
-msgstr ""
+msgstr "אירעה שגיאה בכיווץ „%B” לתוך „%B”"
 
 #: src/nautilus-file-operations.c:8709
 msgid "Error compressing %'d file into “%B”"
@@ -2342,11 +2342,11 @@ msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8720
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "אירעה שגיאה במהלך כיווץ הקבצים."
 
 #: src/nautilus-file-operations.c:8740
 msgid "Compressed “%B” into “%B”"
-msgstr ""
+msgstr "‏„%B“ כווץ לתוך „%B“"
 
 #: src/nautilus-file-operations.c:8746
 msgid "Compressed %'d file into “%B”"
@@ -2356,7 +2356,7 @@ msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8837
 msgid "Compressing Files"
-msgstr ""
+msgstr "כיווץ קבצים"
 
 #: src/nautilus-files-view.c:392
 msgid "Searching…"
@@ -2487,7 +2487,7 @@ msgstr "בחירת יעד להעתקה"
 
 #: src/nautilus-files-view.c:6154
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "בחירת יעד לחילוץ"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6398
@@ -2529,11 +2529,11 @@ msgstr "הפעלה"
 
 #: src/nautilus-files-view.c:7521
 msgid "Extract Here"
-msgstr ""
+msgstr "חילוץ לכאן"
 
 #: src/nautilus-files-view.c:7522
 msgid "Extract to…"
-msgstr ""
+msgstr "חילוץ אל…"
 
 #: src/nautilus-files-view.c:7526
 msgid "Open"
@@ -2890,11 +2890,11 @@ msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:1121
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "_ביטול שינוי שם קבוצתי"
 
 #: src/nautilus-file-undo-operations.c:1122
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "_חזרה על שינוי השם הקבוצתי"
 
 #: src/nautilus-file-undo-operations.c:1334
 #, c-format
@@ -2989,11 +2989,11 @@ msgstr "_שינוי הבעלות שוב"
 
 #: src/nautilus-file-undo-operations.c:2075
 msgid "_Undo Extract"
-msgstr ""
+msgstr "ביטול ה_חילוץ"
 
 #: src/nautilus-file-undo-operations.c:2076
 msgid "_Redo Extract"
-msgstr ""
+msgstr "_חילוץ חוזר"
 
 #: src/nautilus-file-undo-operations.c:2093
 #, c-format
@@ -3005,7 +3005,7 @@ msgstr[1] ""
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract '%s'"
-msgstr ""
+msgstr "חילוץ '%s'"
 
 #: src/nautilus-file-undo-operations.c:2111
 #, c-format
@@ -3017,7 +3017,7 @@ msgstr[1] ""
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress '%s'"
-msgstr ""
+msgstr "דחיסת '%s'"
 
 #: src/nautilus-file-undo-operations.c:2266
 #, c-format
@@ -3028,11 +3028,11 @@ msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:2272
 msgid "_Undo Compress"
-msgstr ""
+msgstr "ביטול ה_דחיסה"
 
 #: src/nautilus-file-undo-operations.c:2273
 msgid "_Redo Compress"
-msgstr ""
+msgstr "_דחיסה חוזרת"
 
 #: src/nautilus-file-utilities.c:1004
 #, c-format
@@ -3479,12 +3479,12 @@ msgstr "שם תיקייה לא יכול להכיל „/”."
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:92
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "תיקייה לא יכולה להיקרא „.”."
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:103
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "תיקייה לא יכולה להיקרא „..”."
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3664,7 +3664,7 @@ msgstr "פרטים: "
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr ""
+msgstr "בוטל"
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -4045,13 +4045,13 @@ msgstr "אשפה"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "קבצים בתיקייה זו ישמשו תבניות למסמכים חדשים."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"עזרה על תבניות\">ללמוד עוד…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4061,11 +4061,11 @@ msgstr "קובצי ההפעלה בתיקייה זו יופיעו בתפריט ה
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_ביטול"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "ביצוע מ_חדש"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4452,7 +4452,7 @@ msgstr "מחיקה לצמיתות"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "גזירה"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -4529,105 +4529,105 @@ msgstr "_שינוי שם"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "שינוי שם _באמצעות תבנית"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "חיפוש והחלפת _טקסט"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "הוספה"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "מספור אוטומטי"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "תבנית"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "טקסט קיים"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "החלפה עם"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "החלפה"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "מספור אוטומטי"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "מידע על מידע"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "תאריך היווצרות"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "מספר עונה"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "מספר פרק"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "מספר רצועה"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "שם אמן"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "שם אלבום"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "שם הקובץ המקורי"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "יצירת ארכיון"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "שם ארכיון"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "תואם עם כל מערכות ההפעלה."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "ארכיון קטן אך תואם לינוקס ו־Mac בלבד."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "ארכיון קטן אך חייב להיות מותקן על Windows ו־Mac."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4763,7 +4763,7 @@ msgstr "שחזור ל_גודל המקורי של הסמל"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "_שינוי שם…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4775,15 +4775,15 @@ msgstr "הסרה מה_פריטים האחרונים"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "_חילוץ לכאן"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "חי_לוץ אל…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "_דחיסה…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -5004,11 +5004,11 @@ msgstr "הצגת פעולה למחיקת קבצים ותיקיות ל_צמיתו
 
 #: src/resources/ui/nautilus-preferences-window.ui:769
 msgid "Compressed Files"
-msgstr ""
+msgstr "קבצים דחוסים"
 
 #: src/resources/ui/nautilus-preferences-window.ui:783
 msgid "E_xtract the files on open"
-msgstr ""
+msgstr "_חילוץ קבצים בפתיחה"
 
 #: src/resources/ui/nautilus-preferences-window.ui:815
 msgid "Behavior"
@@ -5136,15 +5136,15 @@ msgstr "חיפוש בשם הקובץ בלבד"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "תיקייה חדשה"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "הוספת סימניה למיקום זה"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "לשונית חדשה"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5156,11 +5156,11 @@ msgstr "פתיחת תפריט פעולות"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "שינוי מצב תצוגה"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "מעבר בין תצוגה רשימה לתצוגת רשת"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5176,27 +5176,27 @@ msgstr "פתיחת פעולות בהתקדמות"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "התרחקות"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "איפוס התקריב"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "התקרבות"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5204,7 +5204,7 @@ msgstr "_שונה לאחרונה"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "_שונה לפני זמן רב"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5228,7 +5228,7 @@ msgstr "הצגת קבצים _נסתרים"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "ר_ענון"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5307,67 +5307,67 @@ msgstr "_ביטול עיגון"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "כתובת השרת"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "כתובת השרת מורכבת מפרוטוקול כתחילית ומכותבת. לדוגמה:"
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr ""
+msgstr "smb://foo.example.com, ssh://192.168.0.1"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "פרוטוקולים זמינים"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "פרוטוקול העברת קבצים"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "רשת מערכת קבצים"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "פרוטוקול העברת קבצים SSH"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "תחילית"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// או ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// או ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// או davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267

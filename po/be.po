@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:50+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/endless-mobile-inc/nautilus/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -2173,7 +2173,7 @@ msgstr[3] ""
 msgid ""
 "The folder “%B” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr "Вы не можаце скапіраваць папку \"%s\", бо не маеце дазволу на стварэнне яе копіі ў месцы прызначэння."
+msgstr "Вы не можаце скапіраваць папку \"%B\", бо не маеце дазволу на стварэнне яе копіі ў месцы прызначэння."
 
 #: src/nautilus-file-operations.c:4491
 msgid "There was an error creating the folder “%B”."
@@ -4206,11 +4206,11 @@ msgstr "Выканальныя файлы з гэтай папкі паказв�
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Адрабіць"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_Паўтарыць скасаванае"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4918,7 +4918,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "Пера_назваць..."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"

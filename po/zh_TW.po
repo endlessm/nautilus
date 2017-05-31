@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:50+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-mobile-inc/nautilus/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "執行軟體"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -71,7 +71,7 @@ msgstr "folder;manager;explore;disk;filesystem;資料夾;管理員;磁碟;檔案
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -153,13 +153,13 @@ msgstr "如設定為 'true'，Nautilus 會在您嘗試刪除檔案或清空回�
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
-msgstr ""
+msgstr "是否要解開壓縮檔而不是以其他應用程式開啟"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
-msgstr ""
+msgstr "如果設為 true，則 Nautilus 會自動解開壓縮檔而非以其他應用程式開啟"
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -353,11 +353,11 @@ msgstr "如設定為 'true'，則在拖放操作時，滑鼠停駐的資料夾�
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "壓縮檔案用的預設格式"
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "壓縮檔案時會選取的格式。"
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -784,104 +784,104 @@ msgstr "執行(_R)"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "「%s」的新名稱重複。"
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "「%s」和既有的檔案衝突。"
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
+msgstr[0] "重新命名 %d 個資料夾"
 
 #: src/nautilus-batch-rename-dialog.c:2133
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
+msgstr[0] "重新命名 %d 份檔案"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "原始名稱（遞增）"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "原始名稱（遞減）"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "最先修改"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "最後修改"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "最先建立"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "最後建立"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "相機型號"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "建立日期"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "季編號"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "集編號"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "曲目編號"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "演出者名稱"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:382
 #: src/nautilus-image-properties-page.c:384
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:459
 msgid "Title"
-msgstr "標題"
+msgstr "曲名"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "專輯名稱"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "原始檔名"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -1482,17 +1482,17 @@ msgstr "取代"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "檔名不可包含「/」。"
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "檔案無法命名為「.」。"
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "檔案無法命名為「..」。"
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1784,19 +1784,19 @@ msgstr "刪除時發生錯誤。"
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr ""
+msgstr "在建立「%B」資料夾時發生錯誤。"
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr ""
+msgstr "您沒有刪除「%B」資料夾所需的權限。"
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr ""
+msgstr "在刪除「%B」檔案時發生錯誤。"
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr ""
+msgstr "您沒有刪除「%B」檔案所需的權限。"
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -1891,7 +1891,7 @@ msgstr[0] "準備將 %'d 個檔案移至回收筒"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
+msgstr[0] "準備壓縮 %'d 份檔案"
 
 #: src/nautilus-file-operations.c:3121 src/nautilus-file-operations.c:4481
 #: src/nautilus-file-operations.c:4647 src/nautilus-file-operations.c:4708
@@ -1909,7 +1909,7 @@ msgstr "移動檔案至回收筒時發生錯誤。"
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr ""
+msgstr "壓縮檔案時發生錯誤。"
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
@@ -2124,7 +2124,7 @@ msgstr "複製「%B」時發生錯誤。"
 #: src/nautilus-file-operations.c:4859
 #, c-format
 msgid "Could not remove the already existing folder %F."
-msgstr ""
+msgstr "無法移除既有的 %F 資料夾。"
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
@@ -2255,7 +2255,7 @@ msgstr "無法標記啟動圖示為受信任的（可執行的）"
 
 #: src/nautilus-file-operations.c:8179
 msgid "Verifying destination"
-msgstr ""
+msgstr "正在核驗目標位置"
 
 #: src/nautilus-file-operations.c:8219
 msgid "Extracting “%B”"
@@ -2288,38 +2288,38 @@ msgstr ""
 
 #: src/nautilus-file-operations.c:8576
 msgid "Compressing “%B” into “%B”"
-msgstr ""
+msgstr "正將「%B」壓縮成「%B」"
 
 #: src/nautilus-file-operations.c:8582
 msgid "Compressing %'d file into “%B”"
 msgid_plural "Compressing %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "正將 %'d 份檔案壓縮成「%B」"
 
 #: src/nautilus-file-operations.c:8703
 msgid "Error compressing “%B” into “%B”"
-msgstr ""
+msgstr "將「%B」壓縮成「%B」"
 
 #: src/nautilus-file-operations.c:8709
 msgid "Error compressing %'d file into “%B”"
 msgid_plural "Error compressing %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "將 %'d 份檔案壓縮成 「%B」時發生錯誤"
 
 #: src/nautilus-file-operations.c:8720
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "壓縮檔案時發生錯誤。"
 
 #: src/nautilus-file-operations.c:8740
 msgid "Compressed “%B” into “%B”"
-msgstr ""
+msgstr "已將 「%B」壓縮成「%B」"
 
 #: src/nautilus-file-operations.c:8746
 msgid "Compressed %'d file into “%B”"
 msgid_plural "Compressed %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "已將 %'d 份檔案壓縮成「%B」"
 
 #: src/nautilus-file-operations.c:8837
 msgid "Compressing Files"
-msgstr ""
+msgstr "正在壓縮檔案"
 
 #: src/nautilus-files-view.c:392
 msgid "Searching…"
@@ -2824,15 +2824,15 @@ msgstr "取消復原重新命名(_R)"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
+msgstr[0] "批次重新命名 %d 份檔案"
 
 #: src/nautilus-file-undo-operations.c:1121
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "復原批次重新命名(_U)"
 
 #: src/nautilus-file-undo-operations.c:1122
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "取消復原批次重新命名(_R)"
 
 #: src/nautilus-file-undo-operations.c:1334
 #, c-format
@@ -2952,21 +2952,21 @@ msgstr[0] ""
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress '%s'"
-msgstr ""
+msgstr "壓縮「%s」"
 
 #: src/nautilus-file-undo-operations.c:2266
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
+msgstr[0] "壓縮 %d 份檔案"
 
 #: src/nautilus-file-undo-operations.c:2272
 msgid "_Undo Compress"
-msgstr ""
+msgstr "復原壓縮(_U)"
 
 #: src/nautilus-file-undo-operations.c:2273
 msgid "_Redo Compress"
-msgstr ""
+msgstr "取消復原壓縮(_R)"
 
 #: src/nautilus-file-utilities.c:1004
 #, c-format
@@ -3407,12 +3407,12 @@ msgstr "資料夾名稱不可包含「/」。"
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:92
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "資料夾無法命名為「.」。"
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:103
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "資料夾無法命名為「..」。"
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3592,7 +3592,7 @@ msgstr "詳細資訊："
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr ""
+msgstr "已取消"
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -3970,13 +3970,13 @@ msgstr "回收筒"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "所有此資料夾的檔案都會在「新增文件」選單中做為範本出現。"
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates\">了解更多…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -3986,11 +3986,11 @@ msgstr "所有此資料夾的可執行檔都會在「命令稿」選單中出現
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "復原(_U)"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "取消復原(_R)"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4372,7 +4372,7 @@ msgstr "永久刪除"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "剪下"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -4449,85 +4449,85 @@ msgstr "重新命名(_R)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "使用模板重新命名(_U)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "尋找並取代文字(_T)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "加入"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "自動標號順序"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "格式"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "原有文字"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "取代為"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "取代"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "自動編號"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "中介資料"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "建立日期"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "季編號"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "集編號"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "曲目編號"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "演出者名稱"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "專輯名稱"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "原始檔名"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
@@ -4539,7 +4539,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "和所有作業系統皆相容。"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
@@ -4683,7 +4683,7 @@ msgstr "還原圖示的大小"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "重新命名(_M)…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4703,7 +4703,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "壓縮(_O)…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -4924,7 +4924,7 @@ msgstr "顯示永久刪除檔案與資料夾的動作(_P)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:769
 msgid "Compressed Files"
-msgstr ""
+msgstr "壓縮的檔案"
 
 #: src/resources/ui/nautilus-preferences-window.ui:783
 msgid "E_xtract the files on open"
@@ -5056,15 +5056,15 @@ msgstr "只搜尋檔案名稱"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "新資料夾"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "儲存這個位置為書籤"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "新增分頁"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5076,11 +5076,11 @@ msgstr "開啟動作選單"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "切換檢視模式"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "切換方格與列表檢視"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5096,27 +5096,27 @@ msgstr "進行中的開啟操作"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "拉遠"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "重設縮放"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "拉近"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5124,7 +5124,7 @@ msgstr "修改日期(_M)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "初次修改(_F)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5148,7 +5148,7 @@ msgstr "顯示隱藏檔(_H)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "重新載入(_E)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5226,67 +5226,67 @@ msgstr "卸載"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "伺服器位址"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "伺服器位址是由協定前綴和位址所構成。例如："
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr ""
+msgstr "smb://foo.example.com、ssh://192.168.0.1"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "可用的協定"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "檔案傳輸協定"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "網路檔案協定"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "SSH 檔案傳輸協定"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "前綴"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// 或 ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// 或 ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// 或 davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267

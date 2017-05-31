@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Basque (http://www.transifex.com/endless-mobile-inc/nautilus/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Exekutatu softwarea"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -70,7 +70,7 @@ msgstr "karpeta;kudeatzailea;arakatu;diskoa;fitxategi-sistema;"
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -152,13 +152,13 @@ msgstr "Egia ezartzen bada, Nautilus-ek berrespena eskatuko du fitxategiak ezaba
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
-msgstr ""
+msgstr "Konprimitutako fitxategiak erauziko diren edo ez (hauek beste aplikazio batean ireki ordez)"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
-msgstr ""
+msgstr "'true' (egia) gisa ezartzen bada, Nautilus-ek konprimitutako fitxategiak automatikoki erauziko ditu, horiek beste aplikazio batean ireki ordez."
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -352,11 +352,11 @@ msgstr "Hemen true (egia) ezartzen bada, arrastatu eta jaregin eragiketan kurtso
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "Konprimitutako fitxategien formatu lehenetsia"
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "Fitxategiak konprimitzean hautatuko den formatua."
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -783,79 +783,79 @@ msgstr "_Exekutatu"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "'%s' ez luke izen esklusibo berri bat izan beharko."
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "'%s'(e)k gatazka izan dezake badagoen beste fitxategi batekin."
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aldatu izenez karpeta %d"
+msgstr[1] "Aldatu izenez %d karpeta"
 
 #: src/nautilus-batch-rename-dialog.c:2133
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aldatu izenez fitxategi %d"
+msgstr[1] "Aldatu izenez %d fitxategi"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "Jatorrizko izena (gorantz)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "Jatorrizko izena (beherantz)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "Aurreneko aldaketa"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "Azken aldaketa"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "Sortutako aurrena"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "Sortutako azkena"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "Kamera modeloa"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "Sorrera-data"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "Denboraldi-zenbakia"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "Kapitulu-zenbakia"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "Pista-zenbakia"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "Artistaren izena"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:382
@@ -866,23 +866,23 @@ msgstr "Titulua"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "Albumaren izena"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "Jatorrizko fitxategiaren izena"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -1018,15 +1018,15 @@ msgstr "Postuaren garrantzia bilaketan"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "Artxiboen izenek ezin dute '/' karaktererik eduki."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "Artxibo bat ezin da '.' gisa deitu."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "Artxibo bat ezin da '..' gisa deitu."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1486,17 +1486,17 @@ msgstr "Ordeztu"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "Fitxategi-izenek ezin dute '/' karaktererik eduki."
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "Fitxategia ezin da '.' gisa deitu."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "Fitxategia ezin da '..' gisa deitu."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1798,19 +1798,19 @@ msgstr "Errorea ezabatzean."
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr ""
+msgstr "Errorea gertatu da \"%B\" karpeta ezabatzean."
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr ""
+msgstr "Ez duzu behar adinako baimenik \"%B\" karpeta ezabatzeko."
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr ""
+msgstr "Errorea gertatu da \"%B\" fitxategia ezabatzean."
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr ""
+msgstr "Ez duzu behar adinako baimenik \"%B\" fitxategia ezabatzeko."
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -1911,8 +1911,8 @@ msgstr[1] "%'d fitxategi zakarrontzira botatzeko prestatzen"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d konprimitzeko prestatzen"
+msgstr[1] "%'d fitxategi konprimitzeko prestatzen"
 
 #: src/nautilus-file-operations.c:3121 src/nautilus-file-operations.c:4481
 #: src/nautilus-file-operations.c:4647 src/nautilus-file-operations.c:4708
@@ -1930,7 +1930,7 @@ msgstr "Errorea fitxategiak zakarrontzira botatzean."
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr ""
+msgstr "Errorea fitxategiak konprimitzean."
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
@@ -2153,7 +2153,7 @@ msgstr "Errorea \"%B\" kopiatzean."
 #: src/nautilus-file-operations.c:4859
 #, c-format
 msgid "Could not remove the already existing folder %F."
-msgstr ""
+msgstr "Ezin izan da existitzen den %F karpeta kendu."
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
@@ -2286,75 +2286,75 @@ msgstr "Ezin da abiarazlea fidagarri gisa markatu (exekutagarria)"
 
 #: src/nautilus-file-operations.c:8179
 msgid "Verifying destination"
-msgstr ""
+msgstr "Helburua egiaztatzen"
 
 #: src/nautilus-file-operations.c:8219
 msgid "Extracting “%B”"
-msgstr ""
+msgstr "\"%B\" erauzten"
 
 #: src/nautilus-file-operations.c:8311
 msgid "Error extracting “%B”"
-msgstr ""
+msgstr "Errorea \"%B\" erauztean"
 
 #: src/nautilus-file-operations.c:8315
 msgid "There was an error while extracting “%B”."
-msgstr ""
+msgstr "Errorea gertatu da %B erauztean."
 
 #: src/nautilus-file-operations.c:8356
 msgid "Extracted “%B” to “%B”"
-msgstr ""
+msgstr "\"%B\" hemen erauzita: \"%B\""
 
 #: src/nautilus-file-operations.c:8362
 msgid "Extracted %'d file to “%B”"
 msgid_plural "Extracted %'d files to “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d \"%B\"(e)n erauzita"
+msgstr[1] "%'d fitxategi \"%B\"(e)n erauzita"
 
 #: src/nautilus-file-operations.c:8395
 msgid "Preparing to extract"
-msgstr ""
+msgstr "Erauzteko prestatzen"
 
 #: src/nautilus-file-operations.c:8521
 msgid "Extracting Files"
-msgstr ""
+msgstr "Fitxategiak erauzten"
 
 #: src/nautilus-file-operations.c:8576
 msgid "Compressing “%B” into “%B”"
-msgstr ""
+msgstr "\"%B\" hemen konprimitzen: \"%B\""
 
 #: src/nautilus-file-operations.c:8582
 msgid "Compressing %'d file into “%B”"
 msgid_plural "Compressing %'d files into “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d \"%B\"(e)n konprimitzen"
+msgstr[1] "%'d fitxategi \"%B\"(e)n konprimitzen"
 
 #: src/nautilus-file-operations.c:8703
 msgid "Error compressing “%B” into “%B”"
-msgstr ""
+msgstr "Errorea \"%B\" hemen konprimitzean: \"%B\""
 
 #: src/nautilus-file-operations.c:8709
 msgid "Error compressing %'d file into “%B”"
 msgid_plural "Error compressing %'d files into “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Errorea fitxategi %'d \"%B\"(e)n konprimitzean"
+msgstr[1] "Errorea %'d fitxategi \"%B\"(e)n konprimitzean"
 
 #: src/nautilus-file-operations.c:8720
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "Errorea gertatu da fitxategiak konprimitzean."
 
 #: src/nautilus-file-operations.c:8740
 msgid "Compressed “%B” into “%B”"
-msgstr ""
+msgstr "\"%B\" hemen konprimituta: \"%B\""
 
 #: src/nautilus-file-operations.c:8746
 msgid "Compressed %'d file into “%B”"
 msgid_plural "Compressed %'d files into “%B”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d \"%B\"(e)n konprimituta"
+msgstr[1] "%'d fitxategi \"%B\"(e)n konprimituta"
 
 #: src/nautilus-file-operations.c:8837
 msgid "Compressing Files"
-msgstr ""
+msgstr "Fitxategiak konprimitzen"
 
 #: src/nautilus-files-view.c:392
 msgid "Searching…"
@@ -2485,7 +2485,7 @@ msgstr "Hautatu helburua kopiatzeko"
 
 #: src/nautilus-files-view.c:6154
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "Hautatu erauzketaren helburua"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6398
@@ -2527,11 +2527,11 @@ msgstr "Exekutatu"
 
 #: src/nautilus-files-view.c:7521
 msgid "Extract Here"
-msgstr ""
+msgstr "Erauzi hemen"
 
 #: src/nautilus-files-view.c:7522
 msgid "Extract to…"
-msgstr ""
+msgstr "Erauzi hona..."
 
 #: src/nautilus-files-view.c:7526
 msgid "Open"
@@ -2883,16 +2883,16 @@ msgstr "_Berregin izena aldatzea"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aldatu multzoka fitxategi %d izenez"
+msgstr[1] "Aldatu multzoka %d fitxategi izenez"
 
 #: src/nautilus-file-undo-operations.c:1121
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "_Desegin multzoka izena aldatzea"
 
 #: src/nautilus-file-undo-operations.c:1122
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "_Berregin multzoka izena aldatzea"
 
 #: src/nautilus-file-undo-operations.c:1334
 #, c-format
@@ -2987,50 +2987,50 @@ msgstr "_Berregin jabe aldaketa"
 
 #: src/nautilus-file-undo-operations.c:2075
 msgid "_Undo Extract"
-msgstr ""
+msgstr "_Desegin erauztea"
 
 #: src/nautilus-file-undo-operations.c:2076
 msgid "_Redo Extract"
-msgstr ""
+msgstr "_Berregin erauztea"
 
 #: src/nautilus-file-undo-operations.c:2093
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ezabatu erauzitako fitxategi %d"
+msgstr[1] "Ezabatu erauzitako %d fitxategi"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract '%s'"
-msgstr ""
+msgstr "Erauzi '%s'"
 
 #: src/nautilus-file-undo-operations.c:2111
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Erauzi fitxategi %d"
+msgstr[1] "Erauzi %d fitxategi"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress '%s'"
-msgstr ""
+msgstr "Konprimitu '%s'"
 
 #: src/nautilus-file-undo-operations.c:2266
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Konprimitu fitxategi %d"
+msgstr[1] "Konprimitu %d fitxategi"
 
 #: src/nautilus-file-undo-operations.c:2272
 msgid "_Undo Compress"
-msgstr ""
+msgstr "_Desegin konprimitzea"
 
 #: src/nautilus-file-undo-operations.c:2273
 msgid "_Redo Compress"
-msgstr ""
+msgstr "_Berregin konprimitzea"
 
 #: src/nautilus-file-utilities.c:1004
 #, c-format
@@ -3477,12 +3477,12 @@ msgstr "Karpeta-izenak ezin du '/' karaktererik eduki."
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:92
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "Karpeta ezin da '.' gisa deitu."
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:103
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "Karpeta ezin da '..' gisa deitu."
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3662,7 +3662,7 @@ msgstr "Xehetasunak: "
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr ""
+msgstr "Bertan behera utzita"
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -4043,13 +4043,13 @@ msgstr "Zakarrontzia"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "Jarri fitxategiak karpeta honetan dokumentu berrien txantiloi gisa erabiltzeko."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"GNOMEren laguntza txantiloientzako\">Ikasi gehiago…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4059,11 +4059,11 @@ msgstr "Karpeta honetako fitxategi exekutagarri guztiak agertuko dira Script-en 
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Desegin"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_Berregin"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4450,7 +4450,7 @@ msgstr "Ezabatu betirako"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "Ebaki"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -4527,105 +4527,105 @@ msgstr "_Aldatu izena"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "Aldatu izenez _txantiloi bat erabiliz"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "Bilatu eta _ordeztu testua"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "Gehitu"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "Zenbaketa automatikoaren ordena"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "Formatua"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "Dagoen testua"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "Ordeztu honekin"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "Ordeztu"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "Zenbaki automatikoak"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "Metadatuak"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "Sorrera-data"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "Denboraldi-zenbakia"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "Kapitulu-zenbakia"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "Pista-zenbakia"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "Artistaren izena"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "Albumaren izena"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "Jatorrizko fitxategi-izena"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "Sortu artxiboa"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "Artxiboaren izena"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "Sistema eragile guztiekin bateragarria."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "Artxibo txikiagoak (Linux eta Mac-en soilik)."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "Artxibo txikiagoak baina Windows eta Mac-en instalatu behar da."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4761,7 +4761,7 @@ msgstr "Leheneratu ikonoen jatorrizko tamaina"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "Aldatu _izena…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4773,15 +4773,15 @@ msgstr "_Kendu oraintsukoetatik"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "Erauzi _hemen"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "Erauzi _hona…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "_Konprimitu…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -5002,11 +5002,11 @@ msgstr "Erakutsi ekintza fitxategiak eta karpetak _betirako ezabatzeko"
 
 #: src/resources/ui/nautilus-preferences-window.ui:769
 msgid "Compressed Files"
-msgstr ""
+msgstr "Konprimitutako fitxategiak"
 
 #: src/resources/ui/nautilus-preferences-window.ui:783
 msgid "E_xtract the files on open"
-msgstr ""
+msgstr "E_rauzi fitxategiak irekitzean"
 
 #: src/resources/ui/nautilus-preferences-window.ui:815
 msgid "Behavior"
@@ -5134,15 +5134,15 @@ msgstr "Bilatu fitxategi-izenetan soilik"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "Karpeta berria"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "Egin kokaleku honen laster-marka"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "Fitxa berria"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5154,11 +5154,11 @@ msgstr "Ireki ekintzaren menua"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "Txandakatu ikuspegia"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "Txandakatu sareta eta zerrendaren ikuspegiaren artean"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5174,27 +5174,27 @@ msgstr "Irekitzearen eragiketak egiten ari dira"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "Txikiagotu"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "Berrezarri zooma"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "Handiagotu"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5202,7 +5202,7 @@ msgstr "A_zken aldatuak"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "_Lehen aldatuak"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5226,7 +5226,7 @@ msgstr "Erakutsi ezkutuko _fitxategiak"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "_Birkargatu"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5305,67 +5305,67 @@ msgstr "Desmuntatu"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "Zerbitzarien helbideak"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "Zerbitzarien helbideek protokoloaren aurrizki bat eta helbide bat dituzte. Adibideak:"
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr ""
+msgstr "smb://txoroa.adibidea.com, ssh://192.168.0.1"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "Protokolo erabilgarriak"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "Fitxategi-transferentziako protokoloa (FTP)"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "Sareko fitxategi-sistema (NFS)"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "SSH fitxategi-transferentziako protokoloa (FTPS)"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "Aurrizkia"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// edo ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// edo ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// edo davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267

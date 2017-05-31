@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:48+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/nautilus/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "เรียกซอฟต์แวร์ทำงาน"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -70,7 +70,7 @@ msgstr "โฟลเดอร์;เครื่องมือจัดกา�
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -152,13 +152,13 @@ msgstr "ถ้าเป็นจริง Nautilus ขอคำยืนยั�
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
-msgstr ""
+msgstr "จะแตกแฟ้มบีบอัดแทนการเปิดด้วยโปรแกรมอื่นหรือไม่"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
-msgstr ""
+msgstr "ถ้าเป็นจริง Nautilus จะแตกแฟ้มบีบอัดโดยอัตโนมัติแทนการเปิดด้วยโปรแกรมอื่น"
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -352,11 +352,11 @@ msgstr "ถ้าเป็นจริง ในการลากวาง โ�
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "ฟอร์แมตปริยายสำหรับการบีบอัดแฟ้ม"
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "ฟอร์แมตที่จะเลือกใช้เมื่อบีบอัดแฟ้ม"
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -783,53 +783,53 @@ msgstr "เ_รียกใช้"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "“%s” จะเป็นชื่อใหม่ที่ซ้ำกันหลายครั้ง"
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "“%s” จะเป็นชื่อที่ชนกับแฟ้มที่มีอยู่ก่อน"
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
+msgstr[0] "เปลี่ยนชื่อโฟลเดอร์ %d โฟลเดอร์"
 
 #: src/nautilus-batch-rename-dialog.c:2133
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
+msgstr[0] "เปลี่ยนชื่อแฟ้ม %d แฟ้ม"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "ชื่อเดิม (จากหน้าไปหลัง)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "ชื่อเดิม (จากหลังมาหน้า)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "แก้ไขแรกสุด"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "แก้ไขหลังสุด"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "สร้างแรกสุด"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "สร้างหลังสุด"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
@@ -1016,15 +1016,15 @@ msgstr "ลำดับความเกี่ยวข้องในผลก
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "ชื่อแฟ้มจัดเก็บไม่สามารถมี “/” ได้"
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "แฟ้มจัดเก็บไม่สามารถมีชื่อเป็น “.” ได้"
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "แฟ้มจัดเก็บไม่สามารถมีชื่อเป็น “..” ได้"
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1481,17 +1481,17 @@ msgstr "เขียนทับ"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "ชื่อแฟ้มไม่สามารถมี “/” ได้"
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "แฟ้มไม่สามารถมีชื่อเป็น “.” ได้"
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "แฟ้มไม่สามารถมีชื่อเป็น “..” ได้"
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1783,19 +1783,19 @@ msgstr "เกิดข้อผิดพลาดขณะลบ"
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะลบโฟลเดอร์ “%B”"
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr ""
+msgstr "คุณไม่มีสิทธิ์เพียงพอที่จะลบโฟลเดอร์ “%B”"
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะลบแฟ้ม “%B”"
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr ""
+msgstr "คุณไม่มีสิทธิ์เพียงพอที่จะลบแฟ้ม “%B”"
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -1890,7 +1890,7 @@ msgstr[0] "กำลังเตรียมย้ายแฟ้มลงถั
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
+msgstr[0] "กำลังเตรียมบีบอัดแฟ้ม %'d แฟ้ม"
 
 #: src/nautilus-file-operations.c:3121 src/nautilus-file-operations.c:4481
 #: src/nautilus-file-operations.c:4647 src/nautilus-file-operations.c:4708
@@ -1908,7 +1908,7 @@ msgstr "เกิดข้อผิดพลาดขณะย้ายแฟ้
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะบีบอัดแฟ้ม"
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
@@ -2123,7 +2123,7 @@ msgstr "เกิดข้อผิดพลาดขณะคัดลอก �
 #: src/nautilus-file-operations.c:4859
 #, c-format
 msgid "Could not remove the already existing folder %F."
-msgstr ""
+msgstr "ไม่สามารถลบโฟลเดอร์ %F ที่มีอยู่ก่อนแล้ว"
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
@@ -2254,71 +2254,71 @@ msgstr "ไม่สามารถทำเครื่องหมายตั
 
 #: src/nautilus-file-operations.c:8179
 msgid "Verifying destination"
-msgstr ""
+msgstr "กำลังตรวจสอบปลายทาง"
 
 #: src/nautilus-file-operations.c:8219
 msgid "Extracting “%B”"
-msgstr ""
+msgstr "กำลังแตก “%B”"
 
 #: src/nautilus-file-operations.c:8311
 msgid "Error extracting “%B”"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะแตก “%B”"
 
 #: src/nautilus-file-operations.c:8315
 msgid "There was an error while extracting “%B”."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะแตก “%B”"
 
 #: src/nautilus-file-operations.c:8356
 msgid "Extracted “%B” to “%B”"
-msgstr ""
+msgstr "แตก “%B” ไปยัง “%B” แล้ว"
 
 #: src/nautilus-file-operations.c:8362
 msgid "Extracted %'d file to “%B”"
 msgid_plural "Extracted %'d files to “%B”"
-msgstr[0] ""
+msgstr[0] "แตกแฟ้ม %'d แฟ้มไปยัง “%B” แล้ว"
 
 #: src/nautilus-file-operations.c:8395
 msgid "Preparing to extract"
-msgstr ""
+msgstr "กำลังเตรียมแตก"
 
 #: src/nautilus-file-operations.c:8521
 msgid "Extracting Files"
-msgstr ""
+msgstr "กำลังแตกแฟ้ม"
 
 #: src/nautilus-file-operations.c:8576
 msgid "Compressing “%B” into “%B”"
-msgstr ""
+msgstr "กำลังบีบอัด “%B” เข้าใน “%B”"
 
 #: src/nautilus-file-operations.c:8582
 msgid "Compressing %'d file into “%B”"
 msgid_plural "Compressing %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "กำลังบีบอัดแฟ้ม %'d แฟ้มเข้าใน “%B”"
 
 #: src/nautilus-file-operations.c:8703
 msgid "Error compressing “%B” into “%B”"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะบีบอัด “%B” เข้าใน “%B”"
 
 #: src/nautilus-file-operations.c:8709
 msgid "Error compressing %'d file into “%B”"
 msgid_plural "Error compressing %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "เกิดข้อผิดพลาดขณะบีบอัดแฟ้ม %'d แฟ้มเข้าใน “%B”"
 
 #: src/nautilus-file-operations.c:8720
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดขณะบีบอัดแฟ้ม"
 
 #: src/nautilus-file-operations.c:8740
 msgid "Compressed “%B” into “%B”"
-msgstr ""
+msgstr "บีบอัด “%B” เข้าใน “%B” แล้ว"
 
 #: src/nautilus-file-operations.c:8746
 msgid "Compressed %'d file into “%B”"
 msgid_plural "Compressed %'d files into “%B”"
-msgstr[0] ""
+msgstr[0] "บีบอัดแฟ้ม %'d แฟ้มเข้าใน “%B” แล้ว"
 
 #: src/nautilus-file-operations.c:8837
 msgid "Compressing Files"
-msgstr ""
+msgstr "กำลังบีบอัดแฟ้ม"
 
 #: src/nautilus-files-view.c:392
 msgid "Searching…"
@@ -2442,7 +2442,7 @@ msgstr "เลือกปลายทางที่จะคัดลอกไ
 
 #: src/nautilus-files-view.c:6154
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "เลือกปลายทางที่จะแตกแฟ้มออก"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6398
@@ -2483,11 +2483,11 @@ msgstr "เรียกทำงาน"
 
 #: src/nautilus-files-view.c:7521
 msgid "Extract Here"
-msgstr ""
+msgstr "แตกแฟ้มออกมาที่นี่"
 
 #: src/nautilus-files-view.c:7522
 msgid "Extract to…"
-msgstr ""
+msgstr "แตกออกยัง…"
 
 #: src/nautilus-files-view.c:7526
 msgid "Open"
@@ -2823,15 +2823,15 @@ msgstr "_ทำซ้ำการเปลี่ยนชื่อ"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
+msgstr[0] "เปลี่ยนชื่อกลุ่มแฟ้ม %d แฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:1121
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "เรี_ยกคืนการเปลี่ยนชื่อกลุ่มแฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:1122
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "_ทำซ้ำการเปลี่ยนชื่อกลุ่มแฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:1334
 #, c-format
@@ -2925,47 +2925,47 @@ msgstr "_ทำซ้ำการเปลี่ยนเจ้าของ"
 
 #: src/nautilus-file-undo-operations.c:2075
 msgid "_Undo Extract"
-msgstr ""
+msgstr "เรี_ยกคืนการแตกแฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:2076
 msgid "_Redo Extract"
-msgstr ""
+msgstr "_ทำซ้ำการแตกแฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:2093
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] ""
+msgstr[0] "ลบแฟ้ม %d แฟ้มที่แตกไว้"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract '%s'"
-msgstr ""
+msgstr "แตก '%s'"
 
 #: src/nautilus-file-undo-operations.c:2111
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] ""
+msgstr[0] "แตกแฟ้ม %d แฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress '%s'"
-msgstr ""
+msgstr "บีบอัด '%s'"
 
 #: src/nautilus-file-undo-operations.c:2266
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
+msgstr[0] "บีบอัดแฟ้ม %d แฟ้ม"
 
 #: src/nautilus-file-undo-operations.c:2272
 msgid "_Undo Compress"
-msgstr ""
+msgstr "เรี_ยกคืนการบีบอัด"
 
 #: src/nautilus-file-undo-operations.c:2273
 msgid "_Redo Compress"
-msgstr ""
+msgstr "_ทำซ้ำการบีบอัด"
 
 #: src/nautilus-file-utilities.c:1004
 #, c-format
@@ -3406,12 +3406,12 @@ msgstr "ชื่อโฟลเดอร์ไม่สามารถมี �
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:92
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "โฟลเดอร์ไม่สามารถมีชื่อเป็น “.” ได้"
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:103
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "โฟลเดอร์ไม่สามารถมีชื่อเป็น “..” ได้"
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3591,7 +3591,7 @@ msgstr "รายละเอียด: "
 
 #: src/nautilus-progress-info.c:317
 msgid "Canceled"
-msgstr ""
+msgstr "ยกเลิกแล้ว"
 
 #: src/nautilus-progress-info.c:383 src/nautilus-progress-info.c:404
 msgid "Preparing"
@@ -3969,13 +3969,13 @@ msgstr "ถังขยะ"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "วางแฟ้มในโฟลเดอร์นี้ เพื่อใช้เป็นแม่แบบสำหรับเอกสารใหม่"
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"คู่มือ GNOME สำหรับแฟ้มแม่แบบ\">เรียนรู้เพิ่มเติม…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -3985,11 +3985,11 @@ msgstr "แฟ้มต่างๆ ในโฟลเดอร์นี้ท�
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "เรี_ยกคืน"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_ทำซ้ำ"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4371,7 +4371,7 @@ msgstr "ลบทิ้งอย่างถาวร"
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "ตัด"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
@@ -4448,85 +4448,85 @@ msgstr "เ_ปลี่ยนชื่อ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "เปลี่ยนชื่อโ_ดยใช้แม่แบบ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "หาและแทนที่_ข้อความ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "เพิ่ม"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "เรียงตัวเลขโดยอัตโนมัติ"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "รูปแบบ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "ข้อความเดิม"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "แทนที่ด้วย"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "แทนที่"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "เลขอัตโนมัติ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "ข้อมูลกำกับ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "วันที่สร้าง"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "หมายเลขฤดูกาล"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "หมายเลขตอน"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "หมายเลขร่องเสียง"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "ชื่อศิลปิน"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "ชื่ออัลบั้ม"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "ชื่อแฟ้มเดิม"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
@@ -4534,19 +4534,19 @@ msgstr ""
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "ชื่อแฟ้มจัดเก็บ"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "ใช้ได้กับทุกระบบปฏิบัติการ"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "แฟ้มจัดเก็บขนาดเล็กกว่า แต่ใช้ได้เฉพาะกับลินุกซ์และแมค"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "แฟ้มจัดเก็บขนาดเล็กกว่า แต่ต้องติดตั้งโปรแกรมเพิ่มในวินโดวส์และแมค"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4682,7 +4682,7 @@ msgstr "กลับไปใช้ขนาดปกติของไอคอ
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "เปลี่ย_นชื่อ…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4694,15 +4694,15 @@ msgstr "_ลบออกจากรายการล่าสุด"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "แ_ตกแฟ้มออกมาที่นี่"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "แตก_ออกยัง…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "_บีบอัด…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -4923,11 +4923,11 @@ msgstr "แสดงรายการเมนูสำหรับลบแฟ
 
 #: src/resources/ui/nautilus-preferences-window.ui:769
 msgid "Compressed Files"
-msgstr ""
+msgstr "แฟ้มบีบอัด"
 
 #: src/resources/ui/nautilus-preferences-window.ui:783
 msgid "E_xtract the files on open"
-msgstr ""
+msgstr "แ_ตกแฟ้มขณะเปิด"
 
 #: src/resources/ui/nautilus-preferences-window.ui:815
 msgid "Behavior"
@@ -5055,15 +5055,15 @@ msgstr "ค้นหาเฉพาะชื่อแฟ้ม"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "โฟลเดอร์ใหม่"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "คั่นหน้าตำแหน่งนี้"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "แท็บใหม่"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5075,11 +5075,11 @@ msgstr "เปิดเมนูการกระทำ"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "สลับมุมมอง"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "สลับระหว่างมุมมองแบบตะแกรงและแบบรายชื่อ"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5095,27 +5095,27 @@ msgstr "เปิดดูการกระทำที่อยู่ระห
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "ซูมออก"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "ซูมปกติ"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "ซูมเข้า"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5123,7 +5123,7 @@ msgstr "แก้ไข_ล่าสุด"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "แก้ไขแ_รกสุด"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5147,7 +5147,7 @@ msgstr "แ_สดงแฟ้มที่ซ่อน"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "_อ่านใหม่"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5225,57 +5225,57 @@ msgstr "เลิกเมานท์"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "ที่อยู่เซิร์ฟเวอร์"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "ที่อยู่เซิร์ฟเวอร์ประกอบด้วยโพรโทคอลนำหน้า ตามด้วยที่อยู่ ตัวอย่างเช่น:"
 
 #: src/gtk/nautilusgtkplacesview.ui:57
 msgid "smb://foo.example.com, ssh://192.168.0.1"
-msgstr ""
+msgstr "smb://foo.example.com, ssh://192.168.0.1"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "โพรโทคอลที่มี"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "โพรโทคอลถ่ายโอนแฟ้ม (FTP)"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "ระบบแฟ้มเครือข่าย (NFS)"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "โพรโทคอลถ่ายโอนแฟ้ม SSH"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "คำนำหน้า"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// หรือ ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
@@ -5285,7 +5285,7 @@ msgstr ""
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// หรือ davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267

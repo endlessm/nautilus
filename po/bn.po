@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-05-31 05:56+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/nautilus/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
-msgstr "নটিলাস"
+msgstr "Nautilus"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:7
 #: data/org.gnome.Nautilus.desktop.in:4
@@ -4065,7 +4065,7 @@ msgstr "এই ফোল্ডারের সম্পন্নযোগ্য 
 #. appropriately
 #: src/nautilus-toolbar.c:884 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "পূর্বাবস্থা (_U)"
 
 #: src/nautilus-toolbar.c:887 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
