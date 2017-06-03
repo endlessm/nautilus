@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the nautilus package.
 # 
 # Translators:
+# Roddy Shuler <roddy@endlessm.com>, 2017
 # Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003
 # Sveinn í Felli <sv1@fellsnet.is>, 2009,2015-2017
 msgid ""
@@ -10,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:52+0000\n"
+"PO-Revision-Date: 2017-06-03 23:38+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/endless-mobile-inc/nautilus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -4094,7 +4095,7 @@ msgstr[1] "Fyrir %d dögum"
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "Í síðustu viku"
+msgstr[0] "Fyrir %d vikum síðan"
 msgstr[1] "Fyrir %d vikum síðan"
 
 #. months
@@ -4102,7 +4103,7 @@ msgstr[1] "Fyrir %d vikum síðan"
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "Í síðasta mánuði"
+msgstr[0] "Fyrir %d mánuðum"
 msgstr[1] "Fyrir %d mánuðum"
 
 #. years
@@ -4110,7 +4111,7 @@ msgstr[1] "Fyrir %d mánuðum"
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] "Á síðasta ári"
+msgstr[0] "Fyrir %d árum"
 msgstr[1] "Fyrir %d árum"
 
 #: src/nautilus-window.c:1406

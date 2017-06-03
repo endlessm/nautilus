@@ -7,16 +7,17 @@
 # Bogdan Mințoi <mintoi.bogdan@gmail.com>, 2014
 # Daniel Șerbănescu <cyber19rider@gmail.com>, 2010
 # Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2015
-# georgian balan <braila222@gmail.com>, 2016
+# georgian balan <braila222@gmail.com>, 2016-2017
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009-2011
 # Marius Andreiana <marius galuna.ro>, 2001-2003
 # Mugurel Tudor <mugurelu@gnome.ro>, 2003-2004, 2005-2007
+# Roddy Shuler <roddy@endlessm.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-05-31 05:40+0000\n"
+"PO-Revision-Date: 2017-06-03 23:43+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/nautilus/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +34,7 @@ msgstr "Rulează programe"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "aplicatie-x-executabila"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -75,7 +76,7 @@ msgstr "folder;manager;explore;disk;filesystem;"
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:24
 msgid "New Window"
@@ -157,13 +158,13 @@ msgstr "Dacă opțiunea este activată, Nautilus va solicita confirmare la șter
 msgid ""
 "Whether to extract compressed files instead of opening them in another "
 "application"
-msgstr ""
+msgstr "Fie că doriți să extrageți fișiere comprimate în loc să le deschideți într-o altă aplicație"
 
 #: data/org.gnome.nautilus.gschema.xml:116
 msgid ""
 "If set to true, then Nautilus will automatically extract compressed files "
 "instead of opening them in another application"
-msgstr ""
+msgstr "Dacă este setat la DA, atunci Nautilus va extrage automat fișiere comprimate în loc să le deschidă într-o altă aplicație"
 
 #: data/org.gnome.nautilus.gschema.xml:121
 msgid "When to show number of items in a folder"
@@ -357,11 +358,11 @@ msgstr "Daca este activat, atunci când se efectuează o operație de tragere ș
 
 #: data/org.gnome.nautilus.gschema.xml:219
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "Formatul implicit pentru comprimarea fișierelor"
 
 #: data/org.gnome.nautilus.gschema.xml:220
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "Formatul care va fi selectat cand se comprima fisiere."
 
 #: data/org.gnome.nautilus.gschema.xml:227
 msgid "List of possible captions on icons"
@@ -788,81 +789,81 @@ msgstr "_Execută"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "“%s” nu va fi un nume unic."
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "“%s” va fi in conflict cu un fisier existent."
 
 #: src/nautilus-batch-rename-dialog.c:2127
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Redenumeste Dosarul %d"
+msgstr[1] "Redenumeste Dosarul %d"
+msgstr[2] "Redenumeste Dosarele %d"
 
 #: src/nautilus-batch-rename-dialog.c:2133
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Redenumeste Fisierul %d"
+msgstr[1] "Redenumeste Fisierul %d"
+msgstr[2] "Redenumeste Fisierele %d"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "Numele Original (Ascendent)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "Numele Original (Descendent)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "Primul Modificat"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "Ultimul Modificat"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "Primul Creat"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "Ultimul Creat"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "Model cameră"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "Data crearii"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "Numărul sezonului"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "Numărul episodului"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "Numărul piesei"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "Numele Artistului"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:382
@@ -873,23 +874,23 @@ msgstr "Titlu"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "Numele Albumului"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "Numele original al fișierului"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:434
@@ -1025,15 +1026,15 @@ msgstr "Indicele de importanță al căutării"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "Numele arhivelor nu pot conține “/”."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "O arhiva nu poate fi numita “.”."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "O arhiva nu poate fi numita “..”."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1496,17 +1497,17 @@ msgstr "Înlocuiește"
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:85
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "Numele fișierelor nu pot conține “/”."
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:96
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "Un fișier nu poate fi numit “.”."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:107
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "Un fișier nu poate fi numit  “..”."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1818,19 +1819,19 @@ msgstr "Eroare la ștergere."
 
 #: src/nautilus-file-operations.c:1983
 msgid "There was an error deleting the folder “%B”."
-msgstr ""
+msgstr "A apărut o eroare la ştergerea dosarului „%B”."
 
 #: src/nautilus-file-operations.c:1985
 msgid "You do not have sufficient permissions to delete the folder “%B”."
-msgstr ""
+msgstr "Nu  aveti permisiunea de a sterge dosarul “%B”."
 
 #: src/nautilus-file-operations.c:1991
 msgid "There was an error deleting the file “%B”."
-msgstr ""
+msgstr "A apărut o eroare la ştergerea fisierului „%B”."
 
 #: src/nautilus-file-operations.c:1993
 msgid "You do not have sufficient permissions to delete the file “%B”."
-msgstr ""
+msgstr "Nu aveti permisiunea de a sterge fisierul “%B”."
 
 #: src/nautilus-file-operations.c:2115
 msgid "Trashing “%B”"
@@ -1937,9 +1938,9 @@ msgstr[2] "Se pregătesc %'d de fișiere pentru mutare la coșul de gunoi"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Se pregăteste pentru a comprima fișierul %d"
+msgstr[1] "Se pregăteste pentru a comprima fișierul %d"
+msgstr[2] "Se pregăteste pentru a comprima fișierele %d"
 
 #: src/nautilus-file-operations.c:3121 src/nautilus-file-operations.c:4481
 #: src/nautilus-file-operations.c:4647 src/nautilus-file-operations.c:4708
@@ -1957,7 +1958,7 @@ msgstr "Eroare în timpul mutării fișierelor la coșul de gunoi."
 
 #: src/nautilus-file-operations.c:3140
 msgid "Error while compressing files."
-msgstr ""
+msgstr "Eroare la comprimarea fisierelor."
 
 #: src/nautilus-file-operations.c:3212
 msgid ""
@@ -2188,7 +2189,7 @@ msgstr "Eroare la copierea „%B”."
 #: src/nautilus-file-operations.c:4859
 #, c-format
 msgid "Could not remove the already existing folder %F."
-msgstr ""
+msgstr "Nu sa putut sterge dosarul %F deja existent."
 
 #: src/nautilus-file-operations.c:4864
 #, c-format
@@ -4176,7 +4177,7 @@ msgstr[2] "Acum %d zile"
 msgid "Last week"
 msgid_plural "%d weeks ago"
 msgstr[0] "Saptamana trecuta"
-msgstr[1] "Saptamana trecuta"
+msgstr[1] "Acum %d saptamani"
 msgstr[2] "Acum %d saptamani"
 
 #. months
@@ -4185,7 +4186,7 @@ msgstr[2] "Acum %d saptamani"
 msgid "Last month"
 msgid_plural "%d months ago"
 msgstr[0] "Luna trecuta"
-msgstr[1] "Luna trecuta"
+msgstr[1] "Acum %d luni"
 msgstr[2] "Acum %d luni"
 
 #. years
@@ -4194,7 +4195,7 @@ msgstr[2] "Acum %d luni"
 msgid "Last year"
 msgid_plural "%d years ago"
 msgstr[0] "Anul trecut"
-msgstr[1] "Anut trecut"
+msgstr[1] "Acum %d ani"
 msgstr[2] "Acum %d ani"
 
 #: src/nautilus-window.c:1406
