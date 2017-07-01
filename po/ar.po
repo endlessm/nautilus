@@ -14,13 +14,14 @@
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2016
 # Mohammed Gamal <f2c2001@yahoo.com>, 2001
+# Roddy Shuler <roddy@endlessm.com>, 2017
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002,2004
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus\n"
 "POT-Creation-Date: 2017-05-30 22:38-0700\n"
-"PO-Revision-Date: 2017-06-25 06:14+0000\n"
+"PO-Revision-Date: 2017-07-01 07:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/nautilus/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -792,7 +793,7 @@ msgstr "_شغّل"
 #: src/nautilus-batch-rename-dialog.c:821
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr "\"٪ s\" لن يكون اسماً جديداً فريداً."
+msgstr "\"%s\" لن يكون اسماً جديداً فريداً."
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
