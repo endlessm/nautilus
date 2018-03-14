@@ -1,34 +1,31 @@
 #!/usr/bin/make -f
-
 -include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
 
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
-export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
-
-ifeq (,$(filter stage1,$(DEB_BUILD_PROFILES)))
-ENABLE_TRACKER := --enable-tracker
-else
-ENABLE_TRACKER := --disable-tracker
-endif
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,--as-needed
 
 ifeq ($(DEB_HOST_ARCH_OS),linux)
-ENABLE_SELINUX := --enable-selinux
+ENABLE_SELINUX := -Denable-selinux=true
 else
-ENABLE_SELINUX := --disable-selinux
+ENABLE_SELINUX := -Denable-selinux=false
 endif
 
 %:
-	dh $@ --with eoscontent,gir,gnome
+	dh $@ --with gir,gnome
 
 override_dh_autoreconf:
 	dh_autoreconf --as-needed
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		--disable-update-mimedb \
-		--enable-packagekit \
-		--enable-desktop \
-		--enable-introspection \
+		-Denable-packagekit=true \
+		-Denable-desktop=true \
+		-Denable-exif=true \
+		-Denable-gtk-doc=true \
+		-Denable-packagekit=true \
+		-Denable-nst-extension=true \
+		-Denable-unity=true \
+		-Denable-xmp=true \
 		$(ENABLE_SELINUX) \
 		$(ENABLE_TRACKER)
 
@@ -38,5 +35,13 @@ override_dh_strip:
 override_dh_auto_test:
 # We (will eventually) run autopkgtest instead
 
-override_dh_install:
-	dh_install --list-missing
+override_dh_makeshlibs:
+	dh_makeshlibs -- -c4
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+# Needed by Ubuntu
+override_dh_translations:
+	ninja -C obj-$(DEB_HOST_GNU_TYPE) nautilus-pot
+	dh_translations

@@ -1,3 +1,55 @@
+nautilus (3.26.2-2) unstable; urgency=medium
+
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump debhelper compat to 11
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 30 Jan 2018 09:15:42 -0500
+
+nautilus (3.26.2-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * New upstream release
+  * Update Vcs fields for conversion to git
+  * Add debian/gbp.conf
+  * Bump Standards-Version to 4.1.2
+
+  [ Michael Biebl ]
+  * Suggest nautilus-extension-brasero instead of brasero.
+
+ -- Jeremy Bicha <jbicha@debian.org>  Fri, 15 Dec 2017 20:24:22 -0500
+
+nautilus (3.26.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build-Depend on libtracker-sparql-2.0-dev instead of 1.0
+  * debian/rules
+    - Add workaround for Ubuntu translations issue
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 13 Sep 2017 14:08:03 -0400
+
+nautilus (3.25.92-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control.in:
+    - Bump minimum libgtk-3-dev to 3.22.6
+  * Drop git_desktop-remove-spaces.patch:
+    - Applied in new release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 02 Sep 2017 18:03:14 -0400
+
+nautilus (3.25.90-1) unstable; urgency=medium
+
+  * New upstream release
+  * Build with meson
+  * Tracker is now a required build-dependency
+  * debian/control.in:
+    - Build-Depend on libgnome-autoar-0-dev >= 0.2.1
+  * Add git_desktop-remove-spaces.patch:
+    - Backport commit to fix .desktop by removing spaces from MimeType line
+  * Bump Standards-Version to 4.1.0
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 30 Aug 2017 11:59:01 -0400
+
 nautilus (3.22.3-1) unstable; urgency=medium
 
   * New upstream release.
