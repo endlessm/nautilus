@@ -44,4 +44,4 @@ check_eel = executable ('check-eel',
                         'check-program.c',
                         dependencies: [eel_2, xml])
 
-test ('check-eel', check_eel)
+#test ('check-eel', check_eel)

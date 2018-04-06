@@ -307,7 +307,7 @@ nautilus = executable ('nautilus',
                        dependencies: libnautilus_dep,
                        install: true)
 
-test ('nautilus', nautilus, args: ['--check', '--g-fatal-warnings'])
+#test ('nautilus', nautilus, args: ['--check', '--g-fatal-warnings'])
 
 nautilus_autorun_software = executable ('nautilus-autorun-software',
                                         'nautilus-autorun-software.c',
