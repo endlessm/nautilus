@@ -36,6 +36,7 @@ Standards-Version: 4.1.2
 
 Package: nautilus
 Architecture: any
+XBS-Eos-Appid: org.gnome.Nautilus
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          nautilus-data (= ${source:Version}),
