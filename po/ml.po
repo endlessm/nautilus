@@ -6,6 +6,7 @@
 # Akhilan <akhilkrishnans@gmail.com>, 2013
 # Ani Peter <apeter@redhat.com>, 2006-2008,2012-2013
 # Anish A <aneesh.nl@gmail.com>, 2013
+# Anish A <aneesh.nl@gmail.com>, 2017
 # Aslam Muhammad <aslamckra@gmail.com>, 2012
 # Balasankar C <c.balasankar@gmail.com>, 2013
 # FSF-India <locale@gnu.org.in>, 2003
@@ -13,12 +14,13 @@
 # Reviewed by മണിലാല്‍ കെ.എം|Manilal K M <libregeek@gmail.com>, 2008
 # santhosh <santhosh.thottingal@gmail.com>, 2008
 # Praveen A <pravi.a@gmail.com>, 2008
+# Praveen A <pravi.a@gmail.com>, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:34+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/endless-os/nautilus/language/ml/)\n"
 "MIME-Version: 1.0\n"
@@ -35,11 +37,11 @@ msgstr "സോഫ്റ്റ്‌വെയര്‍ പ്രവര്‍ത�
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
-msgstr ""
+msgstr "നോട്ടിലസ്"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:7
 #: data/org.gnome.Nautilus.desktop.in:4
@@ -77,15 +79,15 @@ msgstr "folder;manager;explore;disk;filesystem;"
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:20
 msgid "New Window"
-msgstr ""
+msgstr "പുതിയ ജാലകം"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "ബ്രൌസര്‍ ജാലകങ്ങളില്‍ പുതുതായി തുറക്കുന്ന കിളിവാതിലുകള്‍ വയ്ക്കേണ്ടതെവിടെയെന്നു്"
 
 #: data/org.gnome.nautilus.gschema.xml:82
 msgid ""
@@ -311,7 +313,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
-msgstr ""
+msgstr "തെരയുമ്പോള്‍ ഏത് ദര്‍ശിനി ഉപയോഗിക്കണം"
 
 #: data/org.gnome.nautilus.gschema.xml:198
 msgid ""
@@ -368,7 +370,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "ഫയല്‍ ചുരുക്കാനുള്ള സ്വതവേയുള്ള രീതി"
 
 #: data/org.gnome.nautilus.gschema.xml:226
 msgid "The format that will be selected when compressing files."
@@ -516,7 +518,7 @@ msgstr "ഇതു്  ശരി എന്നു ക്രമീകരിച്�
 #: data/org.gnome.nautilus.gschema.xml:303
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "'ആസ്ഥാനം'"
 
 #: data/org.gnome.nautilus.gschema.xml:304
 msgid "Desktop home icon name"
@@ -531,7 +533,7 @@ msgstr "പണിയിടത്തിലുളള ആസ്ഥാനത്ത�
 #: data/org.gnome.nautilus.gschema.xml:308
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "'ചവറ്റുകുട്ട‌'"
 
 #: data/org.gnome.nautilus.gschema.xml:309
 msgid "Desktop Trash icon name"
@@ -643,7 +645,7 @@ msgstr "കൂടുതല്‍ _വിവരങ്ങള്‍ കാണിക
 #: src/nautilus-properties-window.c:5645 src/nautilus-search-popover.c:581
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:12
 msgid "_Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക (_C)"
 
 #: eel/eel-stock-dialogs.c:213
 msgid "You can stop this operation by clicking cancel."
@@ -683,7 +685,7 @@ msgstr "പണിയിടം"
 #: nautilus-sendto-extension/nautilus-nste.c:107
 #: nautilus-sendto-extension/nautilus-nste.c:114
 msgid "Send to…"
-msgstr ""
+msgstr "അതിലേയ്ക്ക് അയയ്ക്കുക…"
 
 #: nautilus-sendto-extension/nautilus-nste.c:108
 msgid "Send file by mail…"
@@ -696,7 +698,7 @@ msgstr "മെയിലായോ ഇന്‍സ്റ്റന്റ് മെ�
 #. Some sort of failure occurred. How 'bout we tell the user?
 #: src/nautilus-application.c:175 src/nautilus-window-slot.c:1430
 msgid "Oops! Something went wrong."
-msgstr "ഒരു പിശകുണ്ടായിരിയ്ക്കുന്നു...!!"
+msgstr "ഒരു പിശകുണ്ടായിരിയ്ക്കുന്നു..."
 
 #: src/nautilus-application.c:178
 #, c-format
@@ -765,7 +767,7 @@ msgstr "മാതൃ അറയില്‍ നിന്ന് പറഞ്ഞ UR
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -792,11 +794,11 @@ msgstr "സ്വയമായി ആരംഭിയ്ക്കുന്ന സ�
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "നിങ്ങള്‍ക്കു് ഈ സ്ഥാനത്തെപ്പറ്റി ഉറപ്പില്ലെങ്കില്‍, റദ്ദാക്കുക അമര്‍ത്തുക."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
-msgstr "നടപ്പിലാക്കുക"
+msgstr "നടപ്പിലാക്കുക (_R)"
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
@@ -828,15 +830,15 @@ msgstr ""
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ഫോള്‍ഡറിന്റെ പേര് മാറ്റുക"
+msgstr[1] "%d ഫോള്‍ഡറുകളുടെ പേര് മാറ്റുക"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ഫയലിന്റെ പേരു് മാറ്റുക"
+msgstr[1] "%d ഫയലുകളുടെ പേരു് മാറ്റുക"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -844,61 +846,61 @@ msgstr[1] ""
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ഫയലിന്റെയും ഫോള്‍ഡറിന്റെയും പേര് മാറ്റുക"
+msgstr[1] "%d ഫയലുകളുടേയും ഫോള്‍ഡറുകളുടേയും പേര് മാറ്റുക"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "ശരിയായ പേര് (ആരോഹണം)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "ശരിയായ പേര് (അവരോഹണം)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "ആദ്യം മാറ്റം വരുത്തിയത്"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "അവസാനം മാറ്റം വരുത്തിയത്"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "ആദ്യം ഉണ്ടാക്കിയത്"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "അവസാനം ഉണ്ടാക്കിയത്"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "ക്യാമറ മോഡല്‍"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "ഉണ്ടാക്കിയ തീയതി"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "സീസണ്‍ സംഖ്യ"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "എപിസോഡ് സംഖ്യ"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "ട്രാക്ക് സംഖ്യ"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "കലാകാരിയുടെ പേര്"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:383
@@ -909,28 +911,28 @@ msgstr "ശീര്‍ഷകം"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "ആല്‍ബം പേര്"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "യഥാർത്ഥ ഫയല്‍ പേര്"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:454
 msgid "Other Locations"
-msgstr ""
+msgstr "മറ്റുള്ള സ്ഥാനങ്ങള്‍"
 
 #: src/nautilus-canvas-container.c:2800
 msgid "The selection rectangle"
@@ -943,7 +945,7 @@ msgstr "സൂചക ദൃശ്യം"
 
 #: src/nautilus-column-chooser.c:432
 msgid "Reset to De_fault"
-msgstr ""
+msgstr "സ്വതേയുള്ള അവസ്ഥയിലേക്ക് (_f)"
 
 #: src/nautilus-column-chooser.c:434
 msgid "Replace the current List Columns settings with the default settings"
@@ -972,7 +974,7 @@ msgstr "തരം"
 
 #: src/nautilus-column-utilities.c:72
 msgid "The type of the file."
-msgstr "ഏതു്  തരത്തിലുളള ഫയല്‍."
+msgstr "ഏതു് തരത്തിലുളള ഫയല്‍."
 
 #: src/nautilus-column-utilities.c:78
 msgid "Modified"
@@ -984,7 +986,7 @@ msgstr "ഫയല്‍ പുതുക്കിയ തിയ്യതി"
 
 #: src/nautilus-column-utilities.c:87
 msgid "Accessed"
-msgstr ""
+msgstr "ഉപയോഗിച്ചത്"
 
 #: src/nautilus-column-utilities.c:88
 msgid "The date the file was accessed."
@@ -1020,7 +1022,7 @@ msgstr "MIME തരം"
 
 #: src/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr ""
+msgstr "ഫയലിന്റെ MIME തരാം."
 
 #: src/nautilus-column-utilities.c:129
 #: src/nautilus-image-properties-page.c:453
@@ -1069,15 +1071,15 @@ msgstr "തെരച്ചിലിനുള്ള പ്രാധാന്യ�
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "ആര്‍ക്കെവിന്റെ പേരില്‍ “/” പറ്റില്ല."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "ആര്‍ക്കെവിന്റെ പേരില്‍ “.” പറ്റില്ല."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "ആര്‍ക്കെവിന്റെ പേരില്‍ “..” പറ്റില്ല."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1268,57 +1270,57 @@ msgstr "ഫയല്‍ കണ്ടെത്താനായില്ല"
 #. Translators: Time in 24h format
 #: src/nautilus-file.c:5703
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #. Translators: Time in 12h format
 #: src/nautilus-file.c:5708
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p"
 
 #: src/nautilus-file.c:5717
 #, no-c-format
 msgid "Yesterday"
-msgstr ""
+msgstr "ഇന്നലെ"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 24h format. i.e. "Yesterday 23:04"
 #: src/nautilus-file.c:5726
 #, no-c-format
 msgid "Yesterday %H:%M"
-msgstr ""
+msgstr "ഇന്നലെ %H:%M"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 12h format. i.e. "Yesterday 9:04 PM"
 #: src/nautilus-file.c:5733
 #, no-c-format
 msgid "Yesterday %l:%M %p"
-msgstr ""
+msgstr "ഇന്നലെ %l:%M %p"
 
 #: src/nautilus-file.c:5743
 #, no-c-format
 msgid "%a"
-msgstr ""
+msgstr "%a"
 
 #. Translators: this is the name of the week day followed by
 #. * a time in 24h format. i.e. "Monday 23:04"
 #: src/nautilus-file.c:5752
 #, no-c-format
 msgid "%a %H:%M"
-msgstr ""
+msgstr "%a %H:%M"
 
 #. Translators: this is the week day name followed by
 #. * a time in 12h format. i.e. "Monday 9:04 PM"
 #: src/nautilus-file.c:5759
 #, no-c-format
 msgid "%a %l:%M %p"
-msgstr ""
+msgstr "%a %l:%M %p"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name i.e. "3 Feb"
 #: src/nautilus-file.c:5770
 #, no-c-format
 msgid "%-e %b"
-msgstr ""
+msgstr "%-e %b"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1326,7 +1328,7 @@ msgstr ""
 #: src/nautilus-file.c:5780
 #, no-c-format
 msgid "%-e %b %H:%M"
-msgstr ""
+msgstr "%-e %b %H:%M"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1334,14 +1336,14 @@ msgstr ""
 #: src/nautilus-file.c:5788
 #, no-c-format
 msgid "%-e %b %l:%M %p"
-msgstr ""
+msgstr "%-e %b %l:%M %p"
 
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
 #: src/nautilus-file.c:5799
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr ""
+msgstr "%-e %b %Y"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1349,7 +1351,7 @@ msgstr ""
 #: src/nautilus-file.c:5809
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
-msgstr ""
+msgstr "%-e %b %Y %H:%M"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1357,12 +1359,12 @@ msgstr ""
 #: src/nautilus-file.c:5817
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
-msgstr ""
+msgstr "%-e %b %Y %l:%M %p"
 
 #: src/nautilus-file.c:5829
 #, no-c-format
 msgid "%c"
-msgstr ""
+msgstr "%c"
 
 #: src/nautilus-file.c:6277
 #, c-format
@@ -1377,7 +1379,7 @@ msgstr "ഉടമസ്ഥനെ ക്രമീകരിയ്ക്കാന�
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "പറഞ്ഞിരിയ്ക്കുന്ന ഉടമസ്ഥന്‍ “%s” നിലവിലില്ല"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1387,7 +1389,7 @@ msgstr "ഗ്രൂപ്പ് ക്രമീകരിയ്ക്കാന�
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "പറഞ്ഞിരിയ്ക്കുന്ന ഗ്രൂപ്പ് “%s” നിലവിലില്ല"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1527,7 +1529,7 @@ msgstr "പുനഃസ്ഥാപിക്കുക"
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "എല്ലാ ഫയലുകള്‍ക്കും ഫോള്‍ഡറിനും ഇതേ നടപടി ചെയ്യുക"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -1549,20 +1551,20 @@ msgstr ""
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:97
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "“.” എന്ന് ഒരു ഫയലിന്റെ പേരായി ഇടാന്‍ പറ്റില്ല."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:108
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "“..” എന്ന് ഒരു ഫയലിന്റെ പേരായി ഇടാന്‍ പറ്റില്ല."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
-msgstr ""
+msgstr "ഇതേ പേരില്‍ ഒരു ഫോള്‍ഡര്‍ നിലവിലുണ്ട്."
 
 #: src/nautilus-file-name-widget-controller.c:141
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "ഇതേ പേരില്‍ ഒരു ഫോള്‍ഡര്‍ നിലവിലുണ്ട്."
 
 #: src/nautilus-file-operations.c:227
 msgid "S_kip All"
@@ -1756,7 +1758,7 @@ msgstr "(%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "നിങ്ങള്‍ക്കു് ചവറ്റുകുട്ടയില്‍ നിന്നും “%s” എന്നേക്കുമായി നീക്കം ചെയ്യണം എന്നു് ഉറപ്പാണോ?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1789,7 +1791,7 @@ msgstr "ചവറ്റുകുട്ട വെടിപ്പാക്കു�
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "താങ്കള്‍ക്കു് “%s” എന്നെന്നേക്കുമായി നീക്കം ചെയ്യണം എന്നു് ഉറപ്പുണ്ടോ?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1802,26 +1804,26 @@ msgstr[1] "%'d തിരഞ്ഞെടുത്ത വസ്തുക്കള�
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "“%s” നീക്കം ചെയ്തു"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "“%s” നീക്കം ചെയ്യുന്നു"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
 msgid "Deleted %'d file"
 msgid_plural "Deleted %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ഫയല്‍ നീക്കം ചെയ്തു"
+msgstr[1] "%'d ഫയലുകള്‍ നീക്കം ചെയ്തു"
 
 #: src/nautilus-file-operations.c:1680
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ഫയല്‍ നീക്കം ചെയ്യുന്നു"
+msgstr[1] "%'d ഫയലുകള്‍ നീക്കം ചെയ്തു"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1833,7 +1835,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8659
 #, c-format
 msgid "%'d / %'d"
-msgstr ""
+msgstr "%'d / %'d"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left (4
@@ -1845,15 +1847,15 @@ msgstr ""
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s ബാക്കിയുണ്ട്"
+msgstr[1] "%'d / %'d — %s ബാക്കിയുണ്ട്"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
 msgid "(%d file/sec)"
 msgid_plural "(%d files/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%d ഫയല്‍/സെക്കന്റ്)"
+msgstr[1] "(%d ഫയലുകള്‍/സെക്കന്റ്)"
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
@@ -1862,52 +1864,52 @@ msgstr "നീക്കം ചെയ്യുമ്പോള്‍ പിശക�
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "“%s” ഫോള്‍ഡര്‍ നീക്കം ചെയ്യാന്‍ പറ്റിയില്ല."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "നിങ്ങള്‍ക്കു് “%s” നീക്കം ചെയ്യാനുള്ള അനുവാദമില്ല."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "“%s” ഫയല്‍ നീക്കം ചെയ്യുന്നതില്‍ തകരാര്‍."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "“%s” എന്ന ഫയല്‍ നീക്കം ചെയ്യാനുള്ള അനുവാദമില്ല."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "“%s” ചവറ് കുട്ടയിലേയ്ക്ക് ഇടുന്നു."
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "“%s” ചവറ് കുട്ടയില്‍ ഇട്ടു"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ഫയല്‍ ചവറ്റുകുട്ടയിലേക്ക് നീക്കുന്നു"
+msgstr[1] "%'d ഫയലുകള്‍ ചവറ്റുകുട്ടയിലേക്ക് നീക്കുന്നു"
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ഫയല്‍ ചവറ്റുകുട്ട‌യിലേക്ക് മാറ്റി"
+msgstr[1] "%'d ഫയല്‍ലുകള്‍ ചവറ്റുകുട്ട‌യിലേക്ക് മാറ്റി"
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "“%s” ചവറ്റുകുട്ടയിലേക്കു് മാറ്റാന്‍ പറ്റില്ല. നിങ്ങള്‍ക്കു് ഇതു് ഉടന്‍ നീക്കം ചെയ്യണോ?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1924,12 +1926,12 @@ msgstr "ഫയലുകള്‍ വെട്ടി നീക്കുന്ന�
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "%s പുറത്തെടുക്കാന്‍ സാധിച്ചില്ല"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "%s അണ്‍മൌണ്ടു് ചെയ്യാന്‍ കഴിഞ്ഞില്ല"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -2068,7 +2070,7 @@ msgstr "ലക്ഷ്യസ്ഥാനത്തു്  ആവശ്യത്�
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr " ലക്ഷ്യസ്ഥാനത്തേക്ക് പകര്‍ത്തുന്നതിന് %s കൂടുതല്‍ സ്ഥലം ആവശ്യമാണ്."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2077,7 +2079,7 @@ msgstr "ലക്ഷ്യസ്ഥാനത്തുളള ഡിസ്കു�
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "“%s” നെ  “%s” ലേയ്ക്കു് മാറ്റുന്നു."
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
@@ -2641,7 +2643,7 @@ msgstr ""
 
 #: src/nautilus-files-view.c:7915
 msgid "Open"
-msgstr ""
+msgstr "തുറക്കുക"
 
 #: src/nautilus-files-view.c:7972
 #: src/resources/ui/nautilus-files-view-context-menus.ui:125
@@ -2662,7 +2664,7 @@ msgstr "ഡ്രൈവിന്റെ പൂട്ട് _തുറക്കു
 
 #: src/nautilus-files-view.c:8010
 msgid "Stop Drive"
-msgstr ""
+msgstr "ഡ്രൈവ് നിര്‍ത്തുക"
 
 #: src/nautilus-files-view.c:8016
 msgid "_Safely Remove Drive"
@@ -2801,12 +2803,12 @@ msgstr[1] "%d ഇനങ്ങള്‍ ചവറ്റുകുട്ടയി�
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "“%s” ചവറ്റുകുട്ടയിലേക്കു് തിരികെ നീക്കുക"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "“%s” ചവറ്റുകുട്ടയില്‍ നിന്ന് തിരികെ വയ്കുക"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -3331,7 +3333,7 @@ msgstr "(ഒഴിഞ്ഞ)"
 
 #: src/nautilus-list-view.c:1431
 msgid "Use Default"
-msgstr ""
+msgstr "സ്വതവേയുള്ളതു്  ഉപയോഗിക്കുക"
 
 #: src/nautilus-list-view.c:2107
 #: src/resources/ui/nautilus-preferences-window.ui:90
@@ -3359,13 +3361,13 @@ msgstr[1] "നിങ്ങള്‍ക്കു് %d സ്ഥാനങ്ങ�
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
-msgstr[0] "ഇതു്  %d വ്യത്യത്ഥ ജാലകങ്ങള്‍ തുറക്കുന്നു."
-msgstr[1] "ഇതു്  %d വ്യത്യത്ഥ ജാലകങ്ങള്‍ തുറക്കുന്നു."
+msgstr[0] "ഇതു് %d വ്യത്യത്ഥ ജാലകങ്ങള്‍ തുറക്കുന്നു."
+msgstr[1] "ഇതു് %d വ്യത്യത്ഥ ജാലകങ്ങള്‍ തുറക്കുന്നു."
 
 #: src/nautilus-mime-actions.c:103
 #: src/resources/ui/nautilus-search-popover.ui:275
 msgid "Anything"
-msgstr ""
+msgstr "എന്തും"
 
 #: src/nautilus-mime-actions.c:113 src/nautilus-properties-window.c:4588
 msgid "Folders"
@@ -3385,7 +3387,7 @@ msgstr "സംഗീതം"
 
 #: src/nautilus-mime-actions.c:159
 msgid "PDF / PostScript"
-msgstr ""
+msgstr "PDF / PostScript"
 
 #: src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -3574,26 +3576,26 @@ msgstr ""
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:93
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "“.” എന്ന പേര് ഫോള്‍ഡറിന് ഇടാന്‍ പറ്റില്ല."
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:104
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "“..” എന്ന പേര് ഫോള്‍ഡറിന് ഇടാന്‍ പറ്റില്ല."
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
 msgid "Create"
-msgstr ""
+msgstr "ഉണ്ടാക്കുക"
 
 #: src/nautilus-new-folder-dialog-controller.c:129
 #: src/nautilus-rename-file-popover-controller.c:296
 msgid "Folder name"
-msgstr ""
+msgstr "ഫോള്‍ഡര്‍ പേര്"
 
 #: src/nautilus-new-folder-dialog-controller.c:130
 msgid "New Folder"
-msgstr ""
+msgstr "പുതിയ ഫോള്‍ഡര്‍"
 
 #: src/nautilus-notebook.c:348
 msgid "Close tab"
@@ -3682,7 +3684,7 @@ msgstr "\"%s\" -ല്‍ ഇതേ പേരില്‍ മറ്റൊരു 
 
 #: src/nautilus-operations-ui-manager.c:275
 msgid "Original folder"
-msgstr ""
+msgstr "യഥാർത്ഥ ഫോള്‍ഡര്‍"
 
 #. Also set the title field here, with a trailing carriage return &
 #. * space if the value field has two lines. This is a hack to get the
@@ -3718,7 +3720,7 @@ msgstr "അവസാനം മാറ്റം വരുത്തിയത്:"
 
 #: src/nautilus-operations-ui-manager.c:307
 msgid "Merge with"
-msgstr ""
+msgstr "ഏതുമായി കൂട്ടിചേര്‍ക്കണം"
 
 #: src/nautilus-operations-ui-manager.c:307
 #: src/nautilus-operations-ui-manager.c:312
@@ -3731,12 +3733,12 @@ msgstr "കൂട്ടി ചേര്‍ക്കുക"
 
 #: src/nautilus-operations-ui-manager.c:385
 msgid "Merge Folder"
-msgstr ""
+msgstr "കൂട്ടി ചേര്‍ക്കേണ്ട ഫോള്‍ഡര്‍"
 
 #: src/nautilus-operations-ui-manager.c:386
 #: src/nautilus-operations-ui-manager.c:391
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "ഫയലുകളും ഫോള്‍ഡറുകളും തമ്മില്‍ പൊരുത്തക്കേട്"
 
 #: src/nautilus-operations-ui-manager.c:392
 msgid "File conflict"
@@ -3780,11 +3782,11 @@ msgstr "പ്രാദേശികമല്ലാത്ത ഫയലുകള�
 
 #: src/nautilus-program-choosing.c:427
 msgid "Details: "
-msgstr "വിശദവിവരങ്ങള്‍:"
+msgstr "വിശദവിവരങ്ങള്‍: "
 
 #: src/nautilus-progress-info.c:312
 msgid "Canceled"
-msgstr ""
+msgstr "റദ്ദാക്കുി"
 
 #: src/nautilus-progress-info.c:378 src/nautilus-progress-info.c:399
 msgid "Preparing"
@@ -3816,7 +3818,7 @@ msgstr "ഒരേ സമയം ഒന്നിലധികം സ്വന്ത
 
 #: src/nautilus-properties-window.c:503
 msgid "Please drop just one image to set a custom icon."
-msgstr ""
+msgstr "ഇഷ്ടത്തിനനുസരിച്ചുള്ള സൂചനാചിത്രം ക്രമീകരിക്കാന്‍ ഒരേ ഒരു ചിത്രം വലിച്ചിടുക"
 
 #: src/nautilus-properties-window.c:520
 msgid "The file that you dropped is not local."
@@ -3846,14 +3848,14 @@ msgstr "ഗുണഗണങ്ങള്‍"
 #, c-format
 msgctxt "folder"
 msgid "%s Properties"
-msgstr ""
+msgstr "%s ഗുണഗണങ്ങള്‍‌"
 
 #. To translators: %s is the name of the file.
 #: src/nautilus-properties-window.c:918
 #, c-format
 msgctxt "file"
 msgid "%s Properties"
-msgstr ""
+msgstr "%s ഗുണഗണങ്ങള്‍‌"
 
 #: src/nautilus-properties-window.c:1360
 #, c-format
@@ -3904,7 +3906,7 @@ msgstr "പൂര്‍ണ്ണ വ്യാപ്തി:"
 
 #: src/nautilus-properties-window.c:2975
 msgid "Filesystem type:"
-msgstr "ഏതു്  തരത്തിലുള്ള ഫയല്‍സിസ്റ്റം:"
+msgstr "ഏതു് തരത്തിലുള്ള ഫയല്‍സിസ്റ്റം:"
 
 #: src/nautilus-properties-window.c:3121
 msgid "Basic"
@@ -3916,7 +3918,7 @@ msgstr "ലിങ്കിന്റെ ലക്ഷ്യസ്ഥാനം:"
 
 #: src/nautilus-properties-window.c:3209
 msgid "Parent Folder:"
-msgstr ""
+msgstr "മുകളിലെ ഫോള്‍ഡര്‍:"
 
 #: src/nautilus-properties-window.c:3218
 msgid "Volume:"
@@ -3943,11 +3945,11 @@ msgstr "ഇല്ല"
 
 #: src/nautilus-properties-window.c:3990
 msgid "list"
-msgstr "പട്ടിക "
+msgstr "പട്ടിക"
 
 #: src/nautilus-properties-window.c:3994
 msgid "read"
-msgstr "വായിക്കുക "
+msgstr "വായിക്കുക"
 
 #: src/nautilus-properties-window.c:4005
 msgid "create/delete"
@@ -3955,7 +3957,7 @@ msgstr "ഉണ്ടാക്കുക/നീക്കം ചെയ്യുക"
 
 #: src/nautilus-properties-window.c:4009
 msgid "write"
-msgstr "എഴുതുക "
+msgstr "എഴുതുക"
 
 #: src/nautilus-properties-window.c:4020
 msgid "access"
@@ -4068,7 +4070,7 @@ msgstr "ഇഷ്ട സൂചനാചിത്രം തെരഞ്ഞെട�
 
 #: src/nautilus-properties-window.c:5644
 msgid "_Revert"
-msgstr ""
+msgstr "തിരിച്ചാക്കുക (_R)"
 
 #. Open item is always present
 #: src/nautilus-properties-window.c:5646 src/gtk/nautilusgtkplacesview.c:1630
@@ -4111,7 +4113,7 @@ msgstr ""
 
 #: src/nautilus-rename-file-popover-controller.c:297
 msgid "File name"
-msgstr ""
+msgstr "ഫയലിന്റെ പേര്"
 
 #: src/nautilus-search-engine.c:229
 msgid "Unable to complete the requested search"
@@ -4129,7 +4131,7 @@ msgstr ""
 #. Add the no date filter element first
 #: src/nautilus-search-popover.c:421
 msgid "Any time"
-msgstr ""
+msgstr "ഏത് സമയവും"
 
 #. Other types
 #: src/nautilus-search-popover.c:518
@@ -4138,7 +4140,7 @@ msgstr "മറ്റ് തരത്തിലുളളതു്…"
 
 #: src/nautilus-search-popover.c:578
 msgid "Select type"
-msgstr "ഏതു്  തരം എന്നു് തിരഞ്ഞെടുക്കുക"
+msgstr "ഏതു് തരം എന്നു് തിരഞ്ഞെടുക്കുക"
 
 #: src/nautilus-search-popover.c:582
 msgid "Select"
@@ -4171,11 +4173,11 @@ msgstr "സ്ക്രിപ്റ്റ്സ് പട്ടികയില�
 
 #: src/nautilus-toolbar.c:860 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_വേണ്ട"
 
 #: src/nautilus-toolbar.c:867 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "വീണ്ടും _ചെയ്യുക "
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4247,8 +4249,8 @@ msgstr[1] ""
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "കഴിഞ്ഞ വര്‍ഷം"
+msgstr[1] "%d വര്‍ഷങ്ങള്‍ക്ക് മുന്‍പ്"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
@@ -4272,17 +4274,17 @@ msgstr ""
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
-msgstr "ഗുണഗണങ്ങള്‍"
+msgstr "ഗുണഗണങ്ങള്‍ (_P)"
 
 #: src/nautilus-window.c:1477
 msgid "_Format…"
-msgstr "_ഫോര്‍മാറ്റ് ചെയ്യുക..."
+msgstr "ഫോര്‍മാറ്റ് ചെയ്യുക… (_F)"
 
 #. Translators: only one item has been deleted and %s is its name.
 #: src/nautilus-window.c:1785
 #, c-format
 msgid "“%s” deleted"
-msgstr ""
+msgstr "“%s” കളഞ്ഞ്"
 
 #. Translators: one or more items might have been deleted, and %d
 #. * is the count.
@@ -4296,7 +4298,7 @@ msgstr[1] ""
 #: src/nautilus-window.c:1915
 #, c-format
 msgid "Open %s"
-msgstr ""
+msgstr "%s തുറക്കുക"
 
 #: src/nautilus-window.c:2002
 msgid "_New Tab"
@@ -4387,52 +4389,52 @@ msgstr ""
 #: src/resources/gtk/help-overlay.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "പുതിയ ജാലകം "
 
 #: src/resources/gtk/help-overlay.ui:24
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr ""
+msgstr "കിളിവാതില്‍ അല്ലെങ്കില്‍ ടാബ് അടയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "തെരയുക"
 
 #: src/resources/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr ""
+msgstr "ഈ സ്ഥാനം അടയാളക്കുറിപ്പാക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:45
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "സഹായം കാണിക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:52
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "കുറുക്ക് വഴി"
 
 #: src/resources/gtk/help-overlay.ui:61
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr ""
+msgstr "തുറക്കുന്നു"
 
 #: src/resources/gtk/help-overlay.ui:65
 msgctxt "shortcut window"
 msgid "Open"
-msgstr ""
+msgstr "തുറക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr ""
+msgstr "പുതിയ കിളിവാതിലില്‍ തുറക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:79
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr ""
+msgstr "പുതിയ ജാലകത്തില്‍ തുറക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:86
 msgctxt "shortcut window"
@@ -4442,52 +4444,52 @@ msgstr ""
 #: src/resources/gtk/help-overlay.ui:93
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr ""
+msgstr "ഫയല്‍ തുറന്നു് ജാലകം അടയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:100
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr ""
+msgstr "സ്വതവേയുള്ള പ്രയോഗം ഉപയോഗിച്ചു് തുറക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:109
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr ""
+msgstr "കിളിവാതിലുകള്‍"
 
 #: src/resources/gtk/help-overlay.ui:113
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "പുതിയ റ്റാബ്"
 
 #: src/resources/gtk/help-overlay.ui:120
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr ""
+msgstr "മുമ്പത്തെ കിളിവാതിലിലോട്ട് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:127
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr ""
+msgstr "അടുത്ത കിളിവാതിലോട്ട് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:134
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr ""
+msgstr "കിളിവാതില്‍ തുറക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:141
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr ""
+msgstr "കിളിവാതില്‍ ഇടത്തോട്ടു് നീക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:148
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr ""
+msgstr "കിളിവാതില്‍ വലത്തോട്ടു് നീക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "കിളിവാതില്‍ പുനഃസ്ഥാപിയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4497,82 +4499,82 @@ msgstr ""
 #: src/resources/gtk/help-overlay.ui:168
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "പുറകിലേയ്ക്ക് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:175
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr ""
+msgstr "മുന്നോട്ട് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:182
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "മുകളിലോട്ട് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:189
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "താഴേയ്ക്ക് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:196
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr ""
+msgstr "പൂമുഖത്തിലോട്ട് പോവുക"
 
 #: src/resources/gtk/help-overlay.ui:203
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "സ്ഥാനം നല്‍കുക"
 
 #: src/resources/gtk/help-overlay.ui:210
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "റൂട്ട് സ്ഥാനം ഉള്ള സ്ഥാന ബാര്‍"
 
 #: src/resources/gtk/help-overlay.ui:217
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "പുമുഖ സ്ഥാനമുള്ള സ്ഥാന ബാര്‍"
 
 #: src/resources/gtk/help-overlay.ui:226
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "പ്രദര്‍ശനം"
 
 #: src/resources/gtk/help-overlay.ui:230
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "വലുതാക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:237
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "ചെറുതാക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:244
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "വലിപ്പം പുനഃസ്ഥാപിക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:251
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "കാഴ്ച വിണ്ടും എടുക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:258
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr ""
+msgstr "അദൃശ്യമായ ഫയലുകള്‍ കാണിക്കുക/മറയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:265
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "സൈഡ്ബാര്‍ കാണിയ്ക്കുക/മറയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:272
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "ആക്ഷന്‍ മെനു കാണിക്കുക/മറയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:279
 msgctxt "shortcut window"
@@ -4612,55 +4614,55 @@ msgstr ""
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "മുറിയ്കുക"
 
 #: src/resources/gtk/help-overlay.ui:334
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "പകര്‍ത്തുക"
 
 #: src/resources/gtk/help-overlay.ui:341
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "ഒട്ടിക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:348
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr ""
+msgstr "എല്ലാം തെരഞ്ഞെടുക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:355
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr ""
+msgstr "തെരഞ്ഞെടുത്തതു് തിരിയ്ക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:362
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr ""
+msgstr "പൊരുത്തമുള്ള ഇനങ്ങള്‍‌ തെരഞ്ഞെടുക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:369
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr ""
+msgstr "വേണ്ടെന്ന് വയ്കുക"
 
 #: src/resources/gtk/help-overlay.ui:376
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "ആവര്‍ത്തിക്കുക"
 
 #: src/resources/gtk/help-overlay.ui:383
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr ""
+msgstr "ഇതിന്റെ ഗുണഗണങ്ങള്‍‌ കാണിക്കുക"
 
 #: src/resources/gtk/menus.ui:6
 msgid "New _Window"
-msgstr "പുതിയ ജാലകം "
+msgstr "പുതിയ ജാലകം (_W)"
 
 #: src/resources/gtk/menus.ui:13
 msgid "Sidebar"
-msgstr ""
+msgstr "സൈഡ് ബാര്‍"
 
 #: src/resources/gtk/menus.ui:21
 msgid "Prefere_nces"
@@ -4672,20 +4674,20 @@ msgstr ""
 
 #: src/resources/gtk/menus.ui:31
 msgid "_Help"
-msgstr "സ_ഹായം"
+msgstr "സഹായം (_H)"
 
 #: src/resources/gtk/menus.ui:36
 msgid "_About"
-msgstr "_നോട്ടിലസിനെപ്പറ്റി"
+msgstr "നോട്ടിലസിനെപ്പറ്റി (_A)"
 
 #: src/resources/gtk/menus.ui:40
 msgid "_Quit"
-msgstr "പു_റത്തു് കടക്കുക"
+msgstr "പുറത്തു് കടക്കുക (_Q)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:20
 #: src/resources/ui/nautilus-rename-file-popover.ui:39
 msgid "_Rename"
-msgstr ""
+msgstr "പേരു് മാറ്റുക"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
@@ -4697,7 +4699,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "ചേര്‍ക്കുക"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
@@ -4706,7 +4708,7 @@ msgstr ""
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "രീതി"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
@@ -4719,7 +4721,7 @@ msgstr ""
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "മാറ്റി സ്ഥാപിക്കുക"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
@@ -4727,110 +4729,110 @@ msgstr ""
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "മെറ്റാഡാറ്റ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "ഉണ്ടാക്കിയ തിയതി"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "സീസണ്‍ സംഖ്യ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "എപ്പിസോഡ് സംഖ്യ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "ട്രാക്ക് സംഖ്യ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "കലാകാരിയുടെ പേര്"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "ആല്‍ബത്തിന്റെ പേര്"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "യഥാർത്ഥ ഫയല്‍ പേര്"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "ആര്‍ക്കൈവ് ഉണ്ടാക്കുക"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "ആര്‍ക്കൈവ് പേര്"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "ഏല്ലാ ഓപറേറ്റിങ്ങ് സിസ്റ്റങ്ങളുമായി പൊരുത്തപ്പെടും."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "ചെറിയ ആര്‍ക്കെവുകള്‍, പക്ഷേ ലീനക്സും മാക്കും മാത്രം."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "ചെറിയ ആര്‍ക്കെവുകള്‍, പക്ഷേ വിന്റോസും മാക്കിലും ഇന്‍സ്റ്റാള്‍ ചെയ്യണം."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
-msgstr "പുതിയ _അറ"
+msgstr "പുതിയ അറ (_F)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:10
 msgid "New _Document"
-msgstr "പുതിയ രേ_ഖ ഉണ്ടാക്കുക"
+msgstr "പുതിയ രേഖ ഉണ്ടാക്കുക (_D)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:16
 msgid "_Paste"
-msgstr ""
+msgstr "ഒട്ടിക്കുക (_P)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:22
 #: src/resources/ui/nautilus-files-view-context-menus.ui:151
 msgid "Create _Link"
-msgstr ""
+msgstr "കണ്ണി നിര്‍മ്മിക്കുക"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:29
 msgid "Select _All"
-msgstr "എല്ലാം തെരഞ്ഞെടുക്കുക"
+msgstr "എല്ലാം തെരഞ്ഞെടുക്കുക (_A)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:35
 #: src/resources/ui/nautilus-files-view-context-menus.ui:256
 #: src/resources/ui/nautilus-pathbar-context-menu.ui:18
 msgid "P_roperties"
-msgstr "ഗു_ണഗണങ്ങള്‍"
+msgstr "ഗുണഗണങ്ങള്‍ (_r)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:42
 msgid "_Keep aligned"
-msgstr ""
+msgstr "ക്രമത്തിലാക്കി വെയ്കുക (_K)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:47
 msgid "Organize _Desktop by Name"
-msgstr ""
+msgstr "പേരനുസരിച്ച് പണിയിടം ക്രമീകരിക്കുക (_D)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:54
 msgid "Change _Background"
-msgstr ""
+msgstr "പണിയിടപശ്ചാത്തലം മാറ്റുക (_B)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:72
 msgid "_Scripts"
-msgstr "സ്ക്രിപ്റ്റ്സ്"
+msgstr "സ്ക്രിപ്റ്റുകള്‍"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:77
 msgid "_Open Scripts Folder"
@@ -4923,7 +4925,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "പേരു് മാറ്റു_ക…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -5376,7 +5378,7 @@ msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.c:1117
 msgid "Computer"
-msgstr ""
+msgstr "കമ്പ്യൂട്ടര്‍"
 
 #. Restore from Cancel to Connect
 #: src/gtk/nautilusgtkplacesview.c:1246 src/gtk/nautilusgtkplacesview.ui:449
@@ -5508,7 +5510,7 @@ msgstr ""
 
 #: src/gtk/nautilusgtkplacesview.ui:439
 msgid "Connect to _Server"
-msgstr ""
+msgstr "_സര്‍വറിലേക്കു് കണക്ടു് ചെയ്യുക"
 
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"

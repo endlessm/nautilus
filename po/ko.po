@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:38+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Korean (http://www.transifex.com/endless-os/nautilus/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +84,7 @@ msgstr "찾아보기 창에서 새 탭이 열릴 위치"
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "“after-current-tab”으로 설정하면, 새 탭이 현재 탭 뒤에 들어갑니다. “end”로 설정하면, 새 탭은 탭 목록의 맨 뒤에 들어갑니다."
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
@@ -104,7 +104,7 @@ msgstr "재귀 검색을 수행할 위치"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "노틸러스가 하위 폴더에 대해 검색할 위치. 가능한 값은: “local-only”, “always”, “never”."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -157,7 +157,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "폴더 안의 항목 개수를 보여줄 때 속도 트레이드오프. “always”로 설정되면 언제나(원격 서버에 있을 경우에도) 항목 개수를 표시합니다. “local-only”는 로컬 파일 시스템의 경우에만 항목 개수를 표시합니다. “never”이면 항목 개수를 세어 보지 않습니다."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -167,7 +167,7 @@ msgstr "파일을 실행하거나 열 때 쓰는 누르기 방법"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "가능한 값으로, “single”은 한 번 누르면 파일을 실행하고, “double”은 두 번 눌러야 실행합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -179,7 +179,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "실행 가능한 텍스트 파일을(한 번 혹은 두 번 눌러) 활성화했을 때 어떻게 할지 정합니다. 가능한 값으로, “launch”는 프로그램으로 실행하고, “ask”는 대화 상자에서 물어보고, “display”는 텍스트 파일로 표시합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -204,35 +204,35 @@ msgstr "휴지통으로 옮기는 단축키가 Control + Delete에서 Delete로 
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "노틸러스 찾아보기 창에서 추가 마우스 단추 이벤트를 사용"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "“앞으로” 및 “뒤로” 단추가 있는 마우스 사용자의 경우, 이 키에 따라 이 단추를 눌렀을 때 노틸러스에서 해당 동작을 합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "찾아보기 창에서 “앞으로” 명령이 동작할 마우스 단추."
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "“앞으로” 및 “뒤로” 단추가 있는 마우스 사용자의 경우, 이 키는 “앞으로” 명령이 동작하는 단추를 지정합니다. 가능한 값은 6에서 14 사이입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "찾아보기 창에서 “뒤로” 명령이 동작할 마우스 단추."
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "“앞으로” 및 “뒤로” 단추가 있는 마우스 사용자의 경우, 이 키는 “뒤로” 명령이 동작하는 단추를 지정합니다. 가능한 값은 6에서 14 사이입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -246,7 +246,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "이미지 파일을 썸네일로 보여줄 때 속도 트레이드오프. “always”로 설정하면 파일이 원격 서버에 있을 경우에도 썸네일로 만들어 표시합니다. “local-only”는 로컬 파일 시스템에 있는 파일만 썸네일로 표시합니다. “never”이면 일반적인 아이콘을 사용합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -257,7 +257,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "이 크기(바이트 단위)보다 큰 그림은 썸네일을 만들지 않습니다. 이 설정의 목적은 큰 그림을 썸네일로 만들면 시간이 많이 걸리고 메모리를 많이 쓰기 때문입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -267,7 +267,7 @@ msgstr "기본 정렬 순서"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "아이콘 뷰에서 각 항목의 기본 정렬 순서. 가능한 값은 “name”, “size”, “type”, “mtime”입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -279,7 +279,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "참이면, 새 창에서 파일을 반대로 정렬합니다. 즉, 이름으로 정렬할 경우에 “a”부터 “z” 순서로 정렬하는 게 아니라 “z”에서 “a” 순서로 정렬합니다. 크기 순서대로 정렬하면 오름차 순이 아니라 내림차 순으로 정렬합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -290,7 +290,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "폴더를 열었을 때, 따로 특정 폴더에 대한 뷰를 선택하지 않는 한 이 뷰어를 사용합니다.  가능한 값은 “list-view”, “icon-view”입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -300,7 +300,7 @@ msgstr "숨김 파일을 보여 줄 것인지 여부"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "이 키는 사용하지 마십시오. 무시됩니다. 이제 “org.gtk.Settings.FileChooser”의 “show-hidden” 키를 대신 사용합니다."
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -338,26 +338,26 @@ msgstr "참으로 설정할 경우, 끌어 놓기 동작을 한 다음 일정 �
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "새로운 실험적인 뷰 사용"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "최신의 GTK+ 위젯을 사용하는 새로운 실험적인 뷰를 사용할지 여부. 피드백을 받고 앞으로 어떻게 할지 다듬는 용도."
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
 "Whether to have full text search enabled by default when opening a new "
 "window/tab"
-msgstr ""
+msgstr "새 창/탭을 열 때 기본값으로 본문 검색을 사용할지 여부"
 
 #: data/org.gnome.nautilus.gschema.xml:218
 msgid ""
 "If set to true, then Nautilus will also match the file contents besides the "
 "name. This toggles the default active state, which can still be overriden in"
 " the search popover"
-msgstr ""
+msgstr "참으로 설정하면, 이름 외에 파일의 내용과 일치하는지도 찾아 봅니다. 이 기능은 기본값을 토글하는 것으로, 언제든지 검색 팝업 창에서 직접 지정할 수 있습니다."
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
@@ -377,7 +377,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "아이콘 뷰와 바탕 화면에서 아이콘 밑에 들어갈 캡션 목록. 실제 캡션의 개수는 확대 수준에 따라 다릅니다. 가능한 값은: “size”, “type”, “date_modified”, “owner”, “group”, “permissions”, “mime_type” 입니다."
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -417,7 +417,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "확대/축소 단계 따라 매우 긴 파일 이름의 일부분을 말줄임표로 바꾸는 방법을 지정하는 문자열입니다. 각 목록의 항목은 “확대/축소 단계:정수”형식입니다. 각 확대/축소 단계에 대해, 0보다 큰 값이 주어지면, 파일 이름은 값 만큼의 줄까지 사용하게 됩니다. 0보다 작은 값이 주어지면, 파일 이름을 표시하는 길이에 제한이 없어집니다. 확대/축소 단계 지정 없이 “정수”의 형식으로 기본 항목을 지정할 수도 있습니다. 이 경우 지정되지 않은 확대/축소 단계에 대해 최대 줄수를 지정합니다. 예: “0” — 항상 긴 파일이름 모두 표시하기, “3” — 3줄까지 파일이름 표시하기, “smallest:5, smaller:4,0” — 가장 작은 “smallest” 확대 수준에서는 5줄까지 표시하고 조금 작은 “smaller” 확대 수준에서는 4줄까지 표시하고 그 외의 확대/축소 단계는 제한하지 않기. 사용 가능한 확대/축소 단계는 다음과 같습니다: small, standard, large."
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -758,7 +758,7 @@ msgstr "상위 폴더에서 지정한 URI를 선택합니다."
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -785,7 +785,7 @@ msgstr "“%s” 에는 자동으로 시작하도록 한 프로그램이 있습�
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "이 위치가 확실한지 믿지 못하겠다면, 취소를 누르십시오."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -803,19 +803,19 @@ msgstr "“%s”은(는) 기존 파일과 충돌합니다."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "이름을 비워둘 수 없습니다."
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "이름에는 “/”가 들어갈 수 없습니다."
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.”은 올바른 이름이 아닙니다."
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..”은 올바른 이름이 아닙니다."
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
@@ -835,7 +835,7 @@ msgstr[0] "파일 %d개 이름 바꾸기"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
+msgstr[0] "파일 및 폴더 %d개 이름 바꾸기"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -937,7 +937,7 @@ msgstr "기본값으로 초기화(_F)"
 
 #: src/nautilus-column-chooser.c:434
 msgid "Replace the current List Columns settings with the default settings"
-msgstr "현재 목록 열의 설정을 기본값으로 대체합니다"
+msgstr "현재 목록 열의 설정을 기본값으로 바꿉니다"
 
 #: src/nautilus-column-utilities.c:57 src/nautilus-list-view.c:1979
 #: src/resources/ui/nautilus-rename-file-popover.ui:14
@@ -1023,15 +1023,15 @@ msgstr "파일의 위치."
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "수정 — 시각"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "최신"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "사용자가 파일에 접근한 시각."
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1367,7 +1367,7 @@ msgstr "소유자를 설정하도록 허용되지 않았습니다"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "지정한 소유자 “%s”이(가) 없습니다"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1377,7 +1377,7 @@ msgstr "그룹을 설정하도록 허용되지 않았습니다"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "지정한 그룹 “%s”이(가) 없습니다"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1526,7 +1526,7 @@ msgstr "이름 바꾸기(_N)"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "바꾸기(_P)"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
@@ -1739,7 +1739,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "휴지통에서 “%s”을(를) 완전히 삭제하시겠습니까?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1771,7 +1771,7 @@ msgstr "휴지통 비우기(_T)"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "정말로 “%s”을(를) 완전히 삭제하시겠습니까?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1783,12 +1783,12 @@ msgstr[0] "정말로 선택한 항목 %'d개를 완전히 삭제하시겠습니�
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "“%s” 삭제함"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "“%s” 삭제중"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1824,7 +1824,7 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — %s 남음"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1839,32 +1839,32 @@ msgstr "삭제하는 중 오류."
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "“%s” 폴더를 삭제하는 중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "“%s” 폴더를 삭제하는 데 필요한 권한이 없습니다."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "“%s” 파일을 삭제하는 중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "“%s” 파일을 삭제하는 데 필요한 권한이 없습니다."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "“%s” 휴지통 버리는 중"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "“%s” 휴지통 버림"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1882,7 +1882,7 @@ msgstr[0] "파일 %'d개 휴지통 버림"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "“%s” 휴지통으로 버릴 수 없습니다. 바로 삭제하시겠습니까?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1899,12 +1899,12 @@ msgstr "파일 삭제하는 중"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "%s을(를) 꺼낼 수 없음"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "%s의 마운트를 해제할 수 없음"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1930,19 +1930,19 @@ msgstr "'%s'에 접근할 수 없습니다"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "파일 %'d개(%s) 복사 준비 중"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "파일 %'d개(%s) 옮길 준비 중"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "파일 %'d개(%s) 삭제 준비 중"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1979,43 +1979,43 @@ msgstr "파일을 압축하는 중 오류."
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "읽을 권한이 없기 때문에 “%s” 폴더 안의 파일을 처리할 수 없습니다."
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "“%s” 폴더의 파일에 대한 정보를 가져오는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "읽을 권한이 없기 때문에 “%s” 폴더를 처리할 수 없습니다."
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "“%s” 폴더를 읽는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "읽을 권한이 없기 때문에 “%s” 파일을 처리할 수 없습니다."
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "“%s”에 대한 정보를 가져오는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "“%s”(으)로 복사중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2038,7 +2038,7 @@ msgstr "대상에 남은 공간이 없습니다. 공간을 확보하려면 파�
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "대상에 복사하려면 %s에 더 많은 공간이 필요합니다."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2047,68 +2047,68 @@ msgstr "대상이 읽기 전용입니다."
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이동중"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이동함"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 복사중"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 복사함"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "“%s” 복제중"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "“%s” 복제함"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”(으)로 옮기는 중"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”(으)로 복사 중"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”(으)로 옮김"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”(으)로 복사함"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”에서 복제 중"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”에서 복제함"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2123,7 +2123,7 @@ msgstr[0] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2151,7 +2151,7 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] "%s / %s — %s 남음 (%s/초)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2163,26 +2163,26 @@ msgstr[0] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — %s 남음 (%s/초)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "대상 안에 폴더를 만들 수 있는 권한이 없기 때문에 “%s” 폴더를 복사할 수 없습니다."
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "“%s” 폴더를 만드는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "볼 권한이 없기 때문에 “%s” 폴더 내의 파일을 복사할 수 없습니다."
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2193,13 +2193,13 @@ msgstr "건너 뛰기(_S)"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "읽을 권한이 없기 때문에 “%s” 폴더를 복사할 수 없습니다."
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "“%s”을(를) 이동하는 중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2234,17 +2234,17 @@ msgstr "대상 파일이 원본 파일을 덮어 쓰게 됩니다."
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "“%s”을(를) 복사하는 중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "%s 안에 같은 이름을 가진 기존의 파일을 제거할 수 없습니다."
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "파일을 %s(으)로 복사하는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2253,7 +2253,7 @@ msgstr "파일 복사하는 중"
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "“%s”(으)로 옮길 준비 중"
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2264,7 +2264,7 @@ msgstr[0] "파일 %'d개 옮길 준비 중"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "파일을 %s(으)로 옮기는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2273,7 +2273,7 @@ msgstr "파일 옮기는 중"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "“%s”의 링크를 만드는 중"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2284,7 +2284,7 @@ msgstr[0] "파일 %'d개에 대한 링크 만드는 중"
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "%s(으)로의 링크를 만드는 중 오류."
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2292,12 +2292,12 @@ msgstr "심볼릭 링크는 로컬 파일만 지원합니다"
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "대상이 심볼릭 링크를 지원하지 않습니다."
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "%s에 심볼릭 링크를 만드는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2316,17 +2316,17 @@ msgstr "이름 없는 문서"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "%s 디렉터리를 만드는 중 오류."
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "%s 파일을 만드는 중 오류."
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "%s 안에 디렉터리를 만드는 데 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2343,33 +2343,33 @@ msgstr "대상 확인 중"
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "“%s” 압축 푸는 중"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "“%s” 압축 푸는 중에 오류"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "“%s” 압축을 푸는 중 오류가 발생했습니다."
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "%s 파일을 풀 빈 공간이 부족합니다"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "“%s” 압축을 “%s”에 풀기"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 압축을 “%s”에 풀기"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2382,24 +2382,24 @@ msgstr "파일 압축 푸는 중"
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”에 압축하는 중"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”에 압축하는 중"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”에 압축하는 중 오류"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개를 “%s”에 압축하는 중 오류"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2408,13 +2408,13 @@ msgstr "파일을 압축하는 중 오류가 발생했습니다."
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”에 압축함"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”에 압축함"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2681,13 +2681,13 @@ msgstr "최근 실행 취소한 동작 다시 실행"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
+msgstr[0] "항목 %d개를 “%s”(으)로 다시 이동"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”(으)로 옮김"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2704,12 +2704,12 @@ msgstr[0] "항목 %d개를 이동 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이동함"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 이동함"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2743,12 +2743,12 @@ msgstr[0] "항목 %d개 휴지통으로부터 복구"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "“%s”을(를) 휴지통으로 다시 옮기기"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "“%s”을(를) 휴지동으로부터 복구"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2760,7 +2760,7 @@ msgstr[0] "복사한 항목 %d개 삭제"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %d개 “%s”(으)로 복사"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2781,12 +2781,12 @@ msgstr[0] "항목 %d개 복사 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "“%s” 삭제함"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "“%s”을(를) “%s”(으)로 복사중"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2806,7 +2806,7 @@ msgstr[0] "복사한 항목 %d개 삭제"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
+msgstr[0] "파일 %'d개 “%s”에서 복제함"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2823,7 +2823,7 @@ msgstr[0] "항목 %d개 복제 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "“%s” 파일을 “%s”에서 복제함"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2848,12 +2848,12 @@ msgstr[0] "항목 %d개에 대한 링크 만들기"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "“%s”의 연결 삭제"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "“%s”에 연결 만들기"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2866,7 +2866,7 @@ msgstr "연결 만들기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "빈 파일 “%s” 만들기"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2879,7 +2879,7 @@ msgstr "빈 파일 만들기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "새 폴더 “%s” 만들기"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2892,7 +2892,7 @@ msgstr "폴더 만들기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "서식에서 새 파일 “%s” 만들기"
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2906,7 +2906,7 @@ msgstr "양식으로부터 만들기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "“%s” 이름 바꾸기: “%s”"
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2940,12 +2940,12 @@ msgstr[0] "항목 %d개 휴지통으로 이동"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "“%s” 이름 복구: “%s”"
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "“%s” 휴지통으로 이동"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -2958,12 +2958,12 @@ msgstr "버리기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "“%s”에 둘러싸인 항목의 본래 권한 복구"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "“%s”에 둘러싸인 항목 권한 설정"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -2978,22 +2978,22 @@ msgstr "권한 바꾸기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "“%s”의 본래 권한 복구"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "“%s”의 권한 설정"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "“%s”의 그룹을 복구: “%s”"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "“%s”의 그룹을 설정: “%s”"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3006,12 +3006,12 @@ msgstr "그룹 바꾸기 다시 실행(_R)"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "“%s”의 소유자 복구: “%s”"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "“%s”의 소유자 설정: “%s”"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3038,7 +3038,7 @@ msgstr[0] "압축 푼 파일 %d개 삭제"
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "“%s” 압축 풀기"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
@@ -3049,7 +3049,7 @@ msgstr[0] "파일 %d개 압축 풀기"
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "“%s” 압축"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
@@ -3336,7 +3336,7 @@ msgstr "이 링크는 대상이 없기 때문에 사용할 수 없습니다."
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "이 링크는 대상인 “%s” 파일이 없기 때문에 사용할 수 없습니다."
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3413,7 +3413,7 @@ msgstr "“%s” 프로그램 실행 아이콘은 신뢰한다고 표시하지 �
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "신뢰하고 실행(_L)"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3525,18 +3525,18 @@ msgstr "탭 닫기"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "“%s” 대상 폴더를 심볼릭 링크로 바꾸려고 하고 있습니다."
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "이렇게 하면 대상 폴더의 내용을 삭제하게 되므로 허용되지 않습니다."
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "심볼릭 링크의 일므을 바꾸거나 건너뛰기 단추를 누르십시오."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -4022,7 +4022,7 @@ msgstr "네트워크 위치만 검색"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "원격 위치 — 현재 폴더만 검색"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4117,7 +4117,7 @@ msgstr "휴지통에 있는 모든 항목을 지웁니다"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
+msgstr[0] "%d일 전"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4129,7 +4129,7 @@ msgstr[0] "%d일 전"
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
+msgstr[0] "%d주 전"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4141,7 +4141,7 @@ msgstr[0] "%d주 전"
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
+msgstr[0] "%d달 전"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4153,7 +4153,7 @@ msgstr[0] "%d달 전"
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
+msgstr[0] "%d년 전"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4163,7 +4163,7 @@ msgstr[0] "%d년 전"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "상위 폴더"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
@@ -4171,15 +4171,15 @@ msgstr "새 탭"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "현재 뷰 닫기"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "앞으로"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4241,7 +4241,7 @@ msgstr "이 폴더의 내용을 표시할 수 없습니다."
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "이 위치는 폴더로 보이지 않습니다."
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4263,7 +4263,7 @@ msgstr "요청한 위치에 접근할 수 없습니다."
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "요청할 위치에 접근하기 위한 권한이 없습니다."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4397,7 +4397,7 @@ msgstr "오른쪽으로 탭 옮기기"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "탭 복구"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4829,7 +4829,7 @@ msgstr "아이콘 크기 바꾸기…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "아이콘 원래 크기로 되돌리기"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
@@ -4861,7 +4861,7 @@ msgstr "폴더가 비었습니다"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "휴지통이 비었습니다"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4905,11 +4905,11 @@ msgstr "폴더를 늘릴 수 있게 허용(_E)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "실험적 기능"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "새 뷰 사용(_V)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
@@ -4919,7 +4919,7 @@ msgstr "아이콘 뷰 설명"
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "파일 및 폴더 이름 아래 표시할 정보를 추가합니다. 크게 확대할수록 많은 정보가 나타납니다."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
@@ -5017,11 +5017,11 @@ msgstr "하지 않기(_N)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "본문 검색:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "기본값으로 설정(_D)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
@@ -5162,7 +5162,7 @@ msgstr "검색할 파일의 종류"
 
 #: src/resources/ui/nautilus-search-popover.ui:360
 msgid "Full Text"
-msgstr "전체 텍스트"
+msgstr "본문"
 
 #: src/resources/ui/nautilus-search-popover.ui:364
 msgid "Search on the file content and name"

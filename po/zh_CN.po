@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:39+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-os/nautilus/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -688,15 +688,15 @@ msgstr "桌面"
 #: nautilus-sendto-extension/nautilus-nste.c:107
 #: nautilus-sendto-extension/nautilus-nste.c:114
 msgid "Send to…"
-msgstr "发送到..."
+msgstr "发送到…"
 
 #: nautilus-sendto-extension/nautilus-nste.c:108
 msgid "Send file by mail…"
-msgstr "通过邮件发送文件..."
+msgstr "通过邮件发送文件…"
 
 #: nautilus-sendto-extension/nautilus-nste.c:115
 msgid "Send files by mail…"
-msgstr "通过邮件发送文件..."
+msgstr "通过邮件发送文件…"
 
 #. Some sort of failure occurred. How 'bout we tell the user?
 #: src/nautilus-application.c:175 src/nautilus-window-slot.c:1430
@@ -1260,7 +1260,7 @@ msgstr "无法重命名顶级目录下的文件"
 #: src/nautilus-file.c:2159
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "文件夹内容可能是无效的桌面文件格式"
+msgstr "文件内容可能不是有效的 desktop 文件格式"
 
 #: src/nautilus-file.c:2211
 #, c-format
@@ -1526,7 +1526,7 @@ msgstr "重置"
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr "应用此操作到所有文件与文件夹"
+msgstr "应用此操作到所有文件和文件夹"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -2434,12 +2434,12 @@ msgstr "正在压缩文件"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
-msgstr "正在搜索..."
+msgstr "正在搜索…"
 
 #: src/nautilus-files-view.c:389 src/nautilus-image-properties-page.c:761
 #: src/nautilus-list-model.c:471 src/nautilus-window-slot.c:858
 msgid "Loading…"
-msgstr "正在加载..."
+msgstr "正在加载…"
 
 #: src/nautilus-files-view.c:1121 src/nautilus-mime-actions.c:949
 msgid "Are you sure you want to open all files?"
@@ -3652,7 +3652,7 @@ msgstr "最后修改时间："
 
 #: src/nautilus-operations-ui-manager.c:307
 msgid "Merge with"
-msgstr "合并"
+msgstr "合并至"
 
 #: src/nautilus-operations-ui-manager.c:307
 #: src/nautilus-operations-ui-manager.c:312
@@ -3670,7 +3670,7 @@ msgstr "合并文件夹"
 #: src/nautilus-operations-ui-manager.c:386
 #: src/nautilus-operations-ui-manager.c:391
 msgid "File and Folder conflict"
-msgstr "文件与文件夹冲突"
+msgstr "文件和文件夹冲突"
 
 #: src/nautilus-operations-ui-manager.c:392
 msgid "File conflict"
@@ -3974,7 +3974,7 @@ msgstr "安全上下文："
 
 #: src/nautilus-properties-window.c:4694
 msgid "Change Permissions for Enclosed Files…"
-msgstr "更改包含文件的权限..."
+msgstr "更改包含文件的权限…"
 
 #: src/nautilus-properties-window.c:4707
 #, c-format
@@ -4060,12 +4060,12 @@ msgstr "显示日历以选择日期"
 #. Add the no date filter element first
 #: src/nautilus-search-popover.c:421
 msgid "Any time"
-msgstr "任一时间"
+msgstr "任何时间"
 
 #. Other types
 #: src/nautilus-search-popover.c:518
 msgid "Other Type…"
-msgstr "其他类型..."
+msgstr "其他类型…"
 
 #: src/nautilus-search-popover.c:578
 msgid "Select type"
@@ -4078,7 +4078,7 @@ msgstr "选择"
 #: src/nautilus-search-popover.c:667
 #: src/resources/ui/nautilus-search-popover.ui:51
 msgid "Select Dates…"
-msgstr "选择日期..."
+msgstr "选择日期…"
 
 #. trash
 #: src/nautilus-shell-search-provider.c:320 src/nautilus-trash-bar.c:208
@@ -4135,7 +4135,7 @@ msgstr[0] ""
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "%d天前"
+msgstr[0] "%d 天前"
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
@@ -4147,7 +4147,7 @@ msgstr[0] ""
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "%d周前"
+msgstr[0] "%d 周前"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
@@ -4159,7 +4159,7 @@ msgstr[0] ""
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "%d个月前"
+msgstr[0] "%d 个月前"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
@@ -4171,7 +4171,7 @@ msgstr[0] ""
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] "%d年前"
+msgstr[0] "%d 年前"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
@@ -4199,7 +4199,7 @@ msgstr "属性(_P)"
 
 #: src/nautilus-window.c:1477
 msgid "_Format…"
-msgstr "格式化(_F)..."
+msgstr "格式化(_F)…"
 
 #. Translators: only one item has been deleted and %s is its name.
 #: src/nautilus-window.c:1785
@@ -4812,11 +4812,11 @@ msgstr "粘贴到文件夹中(_P)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:164
 msgid "Move to…"
-msgstr "移动到..."
+msgstr "移动到…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:168
 msgid "Copy to…"
-msgstr "复制到..."
+msgstr "复制到…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:179
 msgid "_Delete from Trash"
@@ -4837,7 +4837,7 @@ msgstr "从回收站中恢复(_R)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:206
 msgid "Resize Icon…"
-msgstr "缩放图标..."
+msgstr "缩放图标…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
@@ -4937,7 +4937,7 @@ msgstr ""
 #: src/resources/ui/nautilus-preferences-window.ui:316
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr "秒"
+msgstr "第二"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:331
@@ -5154,7 +5154,7 @@ msgstr "清除当前选定的日期"
 
 #: src/resources/ui/nautilus-search-popover.ui:127
 msgid "Since…"
-msgstr "从..."
+msgstr "起始日期…"
 
 #: src/resources/ui/nautilus-search-popover.ui:194
 msgid "Last _modified"
@@ -5270,7 +5270,7 @@ msgstr "删除时间(_T)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:182
 msgid "_Visible Columns…"
-msgstr "可见列(_V)..."
+msgstr "可见列(_V)…"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:190
 msgid "Show _Hidden Files"
@@ -5343,7 +5343,7 @@ msgstr "位于本机"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "%s / %s可用"
+msgstr[0] "%s / %s 可用"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"
@@ -5433,4 +5433,4 @@ msgstr "连接到服务器(_S)"
 
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"
-msgstr "输入服务器地址..."
+msgstr "输入服务器地址…"

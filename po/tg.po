@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:32+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Tajik (http://www.transifex.com/endless-os/nautilus/language/tg/)\n"
 "MIME-Version: 1.0\n"
@@ -4162,11 +4162,11 @@ msgstr "Файлҳои иҷрошавандаи ин ҷузвдон дар ме�
 
 #: src/nautilus-toolbar.c:860 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Ботил сохтан"
 
 #: src/nautilus-toolbar.c:867 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_Дубора анҷом додан"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4914,7 +4914,7 @@ msgstr ""
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "Тағйир додани _ном…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"

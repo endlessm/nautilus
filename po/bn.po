@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:37+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-os/nautilus/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -1923,7 +1923,7 @@ msgstr "ফাইল মুছে ফেলা হচ্ছে"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "%s বের করতে ব্যর্থ"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format

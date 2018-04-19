@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the nautilus package.
 # 
 # Translators:
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2008-2009,2012-2016
+# Amanpreet Singh Alam <aalam@users.sf.net>, 2008-2009,2012-2017
 # Amanpreet Singh Alam <amanliunx@netscapet.net>, 2004
 # A S Alam <aalam@users.sf.net>, 2005-2007,2009-2011
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:32+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Panjabi (Punjabi) (http://www.transifex.com/endless-os/nautilus/language/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "ਸਾਫਟਵੇਅਰ ਚਲਾਓ"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -70,21 +70,21 @@ msgstr "ਫੋਲਡਰ;ਮੈਨੇਜਰ;explore;ਡਿਸਕ;ਫਾਇਲ-ਸ
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:20
 msgid "New Window"
-msgstr ""
+msgstr "ਨਵੀਂ ਵਿੰਡੋ"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "ਬਰਾਊਜ਼ਰ ਵਿੰਡੋਜ਼ ਵਿੱਚ ਨਵੀਆਂ ਖੁਲ੍ਹੀਆਂ ਟੈਬਾਂ ਦੀ ਨੂੰ ਕਿੱਥੇ ਰੱਖਣਾ ਹੈ"
 
 #: data/org.gnome.nautilus.gschema.xml:82
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "ਜੇ \"after-current-tab\" ( ਮੌਜੂਦਾ-ਟੈਬ-ਬਾਅਦ) ਚੋਣ ਕੀਤੀ ਤਾਂ ਮੌਜੂਦਾ ਟੈਬ ਦੇ ਬਾਅਦ ਨਵੀਆਂ ਟੈਬਾਂ ਖੋਲ੍ਹੀਆਂ ਜਾਣਗੀਆਂ। ਜੇ \"end\" ਚੋਣ ਕੀਤੀ ਤਾਂ ਨਵੀਆਂ ਟੈਬਾਂ ਨੂੰ ਟੈਬ ਲਿਸਟ ਦੇ ਅੰਤ ਵਿੱਚ ਖੋਲ੍ਹਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
@@ -104,37 +104,37 @@ msgstr "ਲਗਾਤਾਰ ਅੰਦਰੂਨੀ ਖੋਜ ਕਿੱਥੇ ਕ�
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "ਕਿਹੜੇ ਟਿਕਾਣਿਆਂ ਉੱਤੇ ਨਟੀਲਸ ਨੂੰ ਸਬ-ਫੋਲਡਰਾਂ ਉੱਤੇ ਖੋਜ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ। ਉਪਲਬਧ ਮੁੱਲ “local-only” (ਕੇਵਲ ਲੋਕਲ ਹੀ), “always” (ਹਮੇਸ਼ਾਂ), “never” (ਕਦੇ ਨਹੀਂ) ਹਨ।"
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
-msgstr ""
+msgstr "ਜਾਂ ਤਾਂ ਆਖਰੀ ਵਰਤੀ ਜਾਂ ਆਖਰੀ ਸੋਧ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਖੋਜ ਮਿਤੀਆਂ ਰਾਹੀਂ ਫਿਲਟਰ ਕਰੋ"
 
 #: data/org.gnome.nautilus.gschema.xml:97
 msgid "Filter the search dates using either last used or last modified."
-msgstr ""
+msgstr "ਜਾਂ ਤਾਂ ਆਖਰੀ ਵਰਤੀ ਜਾਂ ਆਖਰੀ ਸੋਧ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਖੋਜ ਮਿਤੀਆਂ ਰਾਹੀਂ ਫਿਲਟਰ ਕਰੋ।"
 
 #: data/org.gnome.nautilus.gschema.xml:101
 msgid "Whether to show a context menu item to delete permanently"
-msgstr ""
+msgstr "ਕੀ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਉਣ ਲਈ ਪ੍ਰਸੰਗ ਮੇਨੂ ਆਈਟਮ ਨੂੰ ਵੇਖਾਉਣਾ"
 
 #: data/org.gnome.nautilus.gschema.xml:102
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
+msgstr "ਜੇ ਸੱਚ ਹੈ ਤਾਂ, ਨਟੀਲਸ ਰੱਦੀ ਨੂੰ ਛੱਡ ਕੇ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਉਣ ਵਾਲੀ ਪ੍ਰਸੰਗ ਮੀਨੂ ਨੂੰ ਦਿਖਾਏਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:106
 msgid ""
 "Whether to show context menu items to create links from copied or selected "
 "files"
-msgstr ""
+msgstr "ਕੀ ਕਾਪੀ ਕੀਤੀਆਂ ਜਾਂ ਚੁਣੀਆਂ ਫ਼ਾਈਲਾਂ ਤੋਂ ਲਿੰਕ ਬਣਾਉਣ ਲਈ ਪ੍ਰਸੰਘ ਮੇਨੂ ਆਈਟਮ ਨੂੰ ਵੇਖਾਉਣਾ ਹੈ"
 
 #: data/org.gnome.nautilus.gschema.xml:107
 msgid ""
 "If set to true, then Nautilus will show context menu items to create links "
 "from the copied or selected files."
-msgstr ""
+msgstr "ਜੇ ਸੱਚ ਹੈ ਤਾਂ, ਨਟੀਲਸ ਕਾਪੀ ਕੀਤੀਆਂ ਜਾਂ ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਤੋਂ ਲਿੰਕ ਬਣਾਉਣ ਲਈ ਪ੍ਰਸੰਗ ਮੀਨੂ ਆਈਟਮਾਂ ਨੂੰ ਦਿਖਾਏਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:111
 msgid ""
@@ -157,7 +157,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "ਫੋਲਡਰ ਵਿੱਚ ਆਈਟਮਾਂ ਦੀ ਗਿਣਤੀ ਪੇਸ਼ ਕਰਨ ਦੀ ਗਤੀ ਦੀ ਸਥਿਤੀ। ਜੇ “always“(ਹਮੇਸ਼ਾ) ਦਿੱਤਾ ਤਾਂ ਹਮੇਸ਼ਾ ਆਈਟਮਾਂ ਦੀ ਗਿਣਤੀ ਵੇਖਾਈ ਜਾਵੇਗੀ, ਭਾਵੇਂ ਕਿ ਫੋਲਡਰ ਰਿਮੋਟ ਸਰਵਰ ਉੱਤੇ ਹੋਵੋ। ਜੇਕਰ “local-only“ (ਕੇਵਲ ਲੋਕਲ) ਤਾਂ ਕੇਵਲ ਲੋਕਲ ਫੋਲਡਰਾਂ ਵਿੱਚ ਗਿਣਤੀ ਹੋਵੇਗੀ। ਜੇਕਰ “never“ (ਕਦੇ ਨਹੀਂ) ਦੀ ਚੋਣ ਕੀਤੀ ਤਾਂ ਕਿਸੇ ਵੀ ਆਈਟਮ ਦੀ ਗਿਣਤੀ ਨਹੀਂ ਹੋਵੇਗੀ।"
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -167,7 +167,7 @@ msgstr "ਫਾਇਲਾਂ ਚਾਲੂ/ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱ�
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਇਕ ਵਾਰ ਦਬਾਉ ਤੇ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਸੰਭਵ ਮੁੱਲ “ਇੱਕ-ਵਾਰ“ ਹੈ, ਜਾਂ ਦੋ ਵਾਰ ਦਬਾਉ ਤੇ ਸ਼ੁਰੂ ਕਰਨ ਲਈ “ਦੋ-ਵਾਰ“ ਕਰੋ।"
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -179,7 +179,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "ਕੀ ਕਰਨਾ ਹੈ, ਜਦੋ ਕਿ ਚੱਲਣਯੋਗ ਟੈਕਸਟ ਫਾਇਲਾਂ ਸਰਗਰਮ ਹੋਣ (ਇਕ ਜਾਂ ਦੋ ਵਾਰ ਦਬਾਉਣ ਤੋਂ)। ਉਪਲਬੱਧ ਚੋਣ ਹੈ  “ਚਲਾਉ“ -ਇਕ ਪਰੋਗਰਾਮ ਦੀ ਤਰਾਂ ਚਲਾਉਣ ਲਈ, “ਪੁੱਛੋ“ -ਡਾਈਲਾਗ ਨਾਲ ਪੁੱਛਕੇ, ਅਤੇ “ਵੇਖਾਓ“ -ਟੈਕਸਟ ਦੀ ਤਰਾਂ ਦਿਖਾਉ।"
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -189,50 +189,50 @@ msgstr "ਅਣਜਾਣ ਮਾਈਮ ਟਾਈਪਾਂ ਲਈ ਪੈਕੇਜ �
 msgid ""
 "Whether to show the user a package installer dialog in case an unknown MIME "
 "type is opened, in order to search for an application to handle it."
-msgstr ""
+msgstr "ਕੀ ਵਰਤੋਂਕਾਰ ਨੂੰ ਪੈਕੇਜ ਇੰਸਟਾਲਰ ਡਾਇਲਾਗ ਵੇਖਾਉਣਾ ਹੈ, ਜਦੋਂ ਅਣਜਾਣ MIME ਕਿਸਮ ਖੋਲ੍ਹਣੀ ਹੋਵੇ ਤਾਂ ਕਿ ਉਸ ਨੂੰ ਹੈਂਡਲ ਕਰਨ ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਖੋਜੀ ਜਾ ਸਕੇ।"
 
 #: data/org.gnome.nautilus.gschema.xml:137
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
+msgstr "ਰੱਦੀ ਵਿੱਚ ਭੇਜਣ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਸ਼ਾਰਟਕੱਟ ਬਦਲਣ ਲਈ ਚੇਤਾਵਨੀ ਡਾਈਲਾਗ ਦਿਖਾਉ"
 
 #: data/org.gnome.nautilus.gschema.xml:138
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash "
 "from Control + Delete to just Delete."
-msgstr ""
+msgstr "ਰੱਦੀ ਵਿੱਚ ਭੇਜਣ ਲਈ Control + Delete ਦੇ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਕੇਵਲ Delete ਵਜੋਂ ਬਦਲਣ ਜਾਣ ਲਈ ਚੇਤਾਵਨੀ ਬਾਕਸ ਦਿਖਾਉ।"
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "ਨਟੀਲਸ ਬਰਾਊਜ਼ਰ ਵਿੰਡੋ ਵਿੱਚ ਹੋਰ ਐਕਸਟਰਾ ਮਾਊਂਟ ਬਟਨ ਵਰਤੋਂ"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "ਮਾਊਸ ਵਾਲੇ ਵਰਤੋਂਕਾਰ ਲਈ, ਜਿੰਨ੍ਹਾਂ ਲਈ “ਅੱਗੇ“ ਅਤੇ “ਪਿੱਛੇ“ ਬਟਨ ਹਨ, ਇਹ ਕੁੰਜੀ ਤਹਿ ਕਰਦੀ ਹੈ ਕਿ ਨਟੀਲਸ ਵਿੱਚ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਦੱਬਣ ਨਾਲ ਕੋਈ ਕਾਰਵਾਈ ਹੋਵੇਗੀ ਜਾਂ ਨਹੀਂ।"
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "ਬਰਾਊਜ਼ਰ ਵਿੰਡੋ “ਅੱਗੇ“ ਕਮਾਂਡ ਨੂੰ ਐਕਟੀਵੇਟ ਕਰਨ ਲਈ ਮਾਊਸ ਬਟਨ"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "ਮਾਊਸ ਵਾਲੇ ਵਰਤੋਂਕਾਰ ਲਈ, ਜਿੰਨ੍ਹਾਂ ਲਈ “ਅੱਗੇ“ ਅਤੇ “ਪਿੱਛੇ“ ਬਟਨ ਹਨ, ਇਹ ਕੁੰਜੀ ਸੈੱਟ ਕਰਦੀ ਹੈਕ ਕਿਹੜਾ ਬਟਨ ਬਰਾਊਜ਼ਰ ਵਿੰਡੋ ਵਿੱਚ “ਅੱਗੇ“ ਕਮਾਂਡ ਐਕਟੀਵੇਟ ਕਰਦਾ ਹੈ, ਸੰਭਵ ਮੁੱਲ ਰੇਜ਼ 6 ਅਤੇ 14 ਹਨ।"
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "ਬਰਾਊਜ਼ਰ ਵਿੰਡੋ “ਪਿੱਛੇ“ ਕਮਾਂਡ ਨੂੰ ਐਕਟੀਵੇਟ ਕਰਨ ਲਈ ਮਾਊਸ ਬਟਨ"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "ਮਾਊਸ ਵਾਲੇ ਵਰਤੋਂਕਾਰ ਲਈ, ਜਿੰਨ੍ਹਾਂ ਲਈ “ਅੱਗੇ“ ਅਤੇ “ਪਿੱਛੇ“ ਬਟਨ ਹਨ, ਇਹ ਕੁੰਜੀ ਸੈੱਟ ਕਰਦੀ ਹੈਕ ਕਿਹੜਾ ਬਟਨ ਬਰਾਊਜ਼ਰ ਵਿੰਡੋ ਵਿੱਚ “ਪਿੱਛੇ“ ਕਮਾਂਡ ਐਕਟੀਵੇਟ ਕਰਦਾ ਹੈ, ਸੰਭਵ ਮੁੱਲ ਰੇਜ਼ 6 ਅਤੇ 14 ਹਨ।"
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -246,7 +246,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "ਫਾਇਲ ਦੀ ਝਲਕ ਥੰਮਨੇਲ ਪੇਸ਼ ਕਰਨ ਦੀ ਗਤੀ ਦੀ ਸਥਿਤੀ ਜਦੋਂ ਕਿ ਮਾਊਸ ਫਾਇਲ ਉੱਤੇ ਹੋਵੋ। ਜੇਕਰ “always“ (ਹਮੇਸ਼ਾ) ਦਿੱਤਾ ਤਾਂ ਹਮੇਸ਼ਾ ਛੋਟਾ ਚਿੱਤਰ ਦਿਸੇਗਾ, ਭਾਵੇਂ ਕਿ ਫਾਇਲ ਰਿਮੋਟ ਸਰਵਰ 'ਤੇ ਹੋਵੋ। ਜੇਕਰ “local-only“ (ਕੇਵਲ-ਲੋਕਲ) ਤਾਂ ਕੇਵਲ ਲੋਕਲ ਫਾਇਲ ਦੀ ਹੀ ਝਲਕ ਦਿੱਸੇਗੀ। ਜੇਕਰ “never“ (ਕਦੇ ਨਹੀਂ) ਚੋਣ ਕੀਤੀ ਤਾਂ ਥੰਮਨੇਲ ਫਾਇਲਾਂ ਦੀ ਪਰਵਾਹ ਨਹੀਂ ਕੀਤੀ ਜਾਵੇਗੀ, ਸਿਰਫ਼ ਆਈਕਾਨ ਹੀ ਵੇਖਾਇਆ ਜਾਵੇਗਾ। ਸੁਝਾਏ ਨਾਂ ਤੋਂ ਬਿਨਾਂ, ਇਹ ਕਿਵੇਂ ਝਲਕਯੋਗ ਫਾਇਲ ਕਿਸਮ ਉੱਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ।"
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -257,7 +257,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "ਇਸ ਸਾਈਜ਼ (ਬਾਈਟਾਂ 'ਚ) ਤੋਂ ਵੱਧ ਵਾਲੇ ਚਿੱਤਰਾਂ ਲਈ ਥੰਮਨੇਲ ਨਹੀਂ ਹੋਣਗੇ। ਇਹ ਸੈਟਿੰਗ ਦਾ ਮਕਸਦ ਵੱਡੇ ਚਿੱਤਰਾਂ ਦੇ ਥੰਮਨੇਲ ਤਿਆਰ ਕਰਨ ਤੋਂ ਰੋਕਣਾ ਹੈ ਜੋ ਕਿ ਲੋਡ ਲਈ ਬਹੁਤ ਸਮਾਂ ਜਾਂ ਮੈਮੋਰੀ ਲੈ ਸਕਦੇ ਹਨ।"
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -267,7 +267,7 @@ msgstr "ਡਿਫਾਲਟ ਲੜੀਬੱਧ ਕ੍ਰਮ"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "ਲਿਸਟ ਝਲਕ ਵਿੱਚ ਆਈਟਮ ਦਾ ਡਿਫਾਲਟ ਲੜੀਬੱਧ ਹੈ। ਸੰਭਵ ਮੁੱਲ “ਨਾਂ“, “ਆਕਾਰ“, “ਕਿਸਮ“, ਅਤੇ “mtime“ ਹਨ।"
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -279,7 +279,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "ਜੇ ਚੋਣ ਕੀਤੀ ਤਾਂ, ਨਵੀਂ ਵਿੰਡੋ ਵਿੱਚ ਫਾਇਲ਼ਾਂ ਉਲਟਕ੍ਰਮ ਅਨੁਸਾਰ ਹੋਣਗੀਆ। (ਜਿਵੇ ਕਿ ਨਾਂ ਅਨੁਸਾਰ ਲੜੀਬੱਧ ਕਰਨ ਤੇ ਇਹ “a“ ਤੋਂ “z“ ਨਹੀਂ, ਬਲਕਿ “z“ ਤੋਂ “a“ ਹੋਣਗੀਆਂ। ਜੇਕਰ ਆਕਾਰ ਅਨੁਸਾਰ ਕ੍ਰਮਬੱਧ ਕਰਨ ਤੇ ਵੱਧਦੇ ਆਕਾਰ ਅਨੁਸਾਰ ਨਹੀਂ, ਬਲਕਿ ਘੱਟਦੇ ਆਕਾਰ ਅਨੁਸਾਰ ਹੋਣਗੀਆਂ)"
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -290,7 +290,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "ਜਦੋਂ ਇਕ ਫੋਲਡਰ ਖੋਲ੍ਹਿਆ ਜਾਂਦਾ ਹੈ ਤਾਂ ਇਹ ਦਰਸ਼ਕ ਹੀ ਵਰਤਿਆ ਜਾਵੇਗਾ, ਜਦੋਂ ਤਕ ਕਿ ਤੁਸੀ ਕੋਈ ਹੋਰ ਦਰਸ਼ਕ ਨਹੀਂ ਚੁਣਦੇ ਹੋ। ਸੰਭਵ ਮੁੱਲ ਹਨ “list-view“ (ਲਿਸਟ ਝਲਕ) ਅਤੇ “icon-view“ (ਆਈਕਾਨ ਝਲਕ)।"
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -300,7 +300,7 @@ msgstr "ਕੀ ਲੁੱਕਵੀਆਂ ਫਾਇਲਾਂ ਵੇਖਾਈਆਂ
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "ਇਹ ਕੁੰਜੀ ਨੂੰ ਬਰਤਰਫ਼ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਅਣਡਿੱਠਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਸ ਦੀ ਬਜਾਏ ਹੁਣ “org.gtk.Settings.FileChooser“ ਤੋਂ “show-hidden“ (ਲੁਕਵੇਂ ਵੇਖੋ) ਨੂੰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -309,7 +309,7 @@ msgstr "ਖੋਜ ਕਰਨ ਦੇ ਦੌਰਾਨ ਕਿਹੜੇ ਦਰਸ਼ਕ 
 #: data/org.gnome.nautilus.gschema.xml:198
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
+msgstr "ਜਦੋਂ ਖੋਜ ਕੀਤੀ ਜਾਂਦੀ ਹੈ ਤਾਂ ਨਟੀਲਸ ਇਸ ਸੈਟਿੰਗ ਵਿੱਚ ਝਲਕ ਦੀ ਕਿਸਮ ਨੂੰ ਬਦਲੇਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:202
 msgid "Bulk rename utility"
@@ -328,23 +328,23 @@ msgstr "ਜੇ ਸੈੱਟ ਕੀਤਾ ਤਾਂ ਨਟੀਲਸ ਚੁਣੀ�
 msgid ""
 "Whether to open the hovered folder after a timeout when drag and drop "
 "operation"
-msgstr ""
+msgstr "ਕੀ ਚੱਕਣ-ਸੁੱਟਣ ਕਾਰਵਾਈ ਦੇ ਦੌਰਾਨ ਸਮਾਂ ਸਮਾਪਤ ਹੋਣ ਉੱਤੇ ਹੋਵਰ ਕੀਤੇ ਫੋਲਡਰ ਨੂੰ ਖੋਲ੍ਹਣਾ ਹੈ"
 
 #: data/org.gnome.nautilus.gschema.xml:208
 msgid ""
 "If this is set to true, when performing a drag and drop operation the "
 "hovered folder will open automatically after a timeout."
-msgstr ""
+msgstr "ਜੇ ਇਸ ਨੂੰ ਸੱਚ ਸੈੱਟ ਕੀਤਾ ਤਾਂ, ਚੱਕਣ ਅਤੇ ਸੁੱਟਣ ਕਾਰਵਾਈ ਦੇ ਦੌਰਾਨ ਹੋਵਰ ਕੀਤੇ ਫੋਲਡਰ ਨੂੰ ਸਮਾਂ-ਸਮਾਪਤ ਹੋਣ ਦੇ ਬਾਅਦ ਆਪਣੇ-ਆਪ ਖੋਲ੍ਹਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "ਨਵੀਆਂ ਤਜਰਬੇ-ਅਧੀਨ ਝਲਕਾਂ ਨੂੰ ਸਮਰੱਥ ਕਰੋ"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "ਨਵੇਂ GTK+ ਵਿਜੈੱਟਾਂ ਨਾਲ ਨਵੇਂ ਤਜਰਬੇ-ਅਧੀਨ ਝਲਕਾਂ ਨੂੰ ਵਰਤਣਾ ਹੈ ਤਾਂ ਕਿ ਸੁਝਾਅ ਦੇ ਉਹਨਾਂ ਦੇ ਭਵਿੱਖ ਤਹਿ ਕਰਨ ਲਈ ਮਦਦ ਕੀਤੀ ਜਾ ਸਕੇ।"
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
@@ -361,11 +361,11 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "ਕੰਪਰੈਸ ਕੀਤੀਆਂ ਫਾਇਲਾਂ ਲਈ ਡਿਫਾਲਟ ਫਾਰਮੈਟ"
 
 #: data/org.gnome.nautilus.gschema.xml:226
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈੱਸ ਕਰਨ ਦੇ ਦੌਰਾਨ ਫਾਰਮੈਟ ਨੂੰ ਚੁਣਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:233
 msgid "List of possible captions on icons"
@@ -377,7 +377,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "ਆਈਕਾਨ ਝਲਕ ਅਤੇ ਡੈਸਕਟਾਪ ਵਿੱਚ ਆਈਕਾਨ ਹੇਠ ਸੁਰਖੀ ਝਲਕ ਵੇਖਾਉ। ਸੁਰਖੀਆਂ ਦੀ ਗਿਣਤੀ ਜ਼ੂਮ ਦੇ ਸਾਈਜ਼ ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ। ਕੁਝ ਸੰਭਵ ਮੁੱਲ ਹਨ: “size“, “type“, “date_modified“, “owner“,“group“, “permissions“ ਅਤੇ “mime_type“"
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -395,7 +395,7 @@ msgstr "ਡਿਫਾਲਟ ਥੰਮਨੇਲ ਆਈਕਾਨ ਸਾਈਜ਼"
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
+msgstr "ਆਈਕਾਨ ਝਲਕ ਵਿੱਚ ਇੱਕ ਥੰਮਨੇਲ ਲਈ ਆਈਕਾਨ ਦਾ ਡਿਫਾਲਟ ਸਾਈਜ਼ ਹੈ, ਜਦੋਂ NAUTILUS_ICON_SIZE_STANDARD ਆਕਾਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
 
 #: data/org.gnome.nautilus.gschema.xml:248
 #: data/org.gnome.nautilus.gschema.xml:319
@@ -417,7 +417,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "ਲਾਈਨ ਦੱਸਦੀ ਹੈ ਕਿ ਬਹੁਤ ਲੰਮੇ ਫਾਇਲ ਨਾਵਾਂ ਦੇ ਭਾਗਾਂ ਨੂੰ ਕਿਵੇਂ ਵੇਖਾਇਆ ਜਾਵੇ, ਜੋ ਕਿ ਜ਼ੂਮ ਲੈਵਲ ਮੁਤਾਬਕ ਹੈ। ਹਰੇਕ ਲਿਸਟ ਐਂਟਰ “Zoom Level:Integer“ ਰੂਪ ਵਿੱਚ ਹੈ। ਹਰੇਕ ਦਿੱਤੇ ਜ਼ੂਮ ਲੈਵਲ ਲਈ, ਜੇ ਅੰਕ 0 ਤੋਂ ਵੱਡਾ ਹੈ ਤਾਂ ਫਾਇਲ ਨਾਂ ਦਿੱਤੇ ਲਾਈਨ ਨੰਬਰ ਤੋਂ ਵੱਧੇਗਾ ਨਹੀਂ। ਜੇ ਅੰਕ 0 ਜਾਂ ਛੋਟਾ ਹੈ ਤਾਂ ਦਿੱਤੇ ਜ਼ੂਮ ਲੈਵਲ ਲਈ ਕੋਈ ਵੀ ਲਿਮਟ ਨਹੀਂ ਰੱਖੀ ਜਾਵੇਗੀ। “Integer“ ਫਾਰਮ ਦੀ ਡਿਫਾਲਟ ਐਂਟਰੀ ਬਿਨਾਂ ਕਿਸੇ ਜ਼ੂਮ ਲੈਵਲ ਦਿੱਤੇ ਵੀ ਮਨਜ਼ੂਰ ਕਰਦੀ ਹੈ। ਇਹ ਸਭ ਹੋਰ ਜ਼ੂਮ ਲੈਵਲਾਂ ਲਈ ਲਾਈਨਾਂ ਦੀ ਵੱਧੋ-ਵੱਧ ਗਿਣਤੀ ਦਿੰਦੀ ਹੈ, ਜਿਵੇਂ ਕਿ: ੦ - ਹਮੇਸ਼ਾਂ ਲੰਮੇ ਫਾਇਲ ਨਾਂ ਵੇਖਾਓ; ੩ - ਫਾਇਲ ਨਾਂ ਛੋਟੇ ਕਰੋ, ਜੇ ਇਹ ਤਿੰਨ ਲਾਈਨਾਂ ਤੋਂ ਵੱਧ ਜਾਂਦੇ ਹਨ; ਸਭ ਤੋਂ ਛੋਟਾ:੫,ਬਹੁਤ ਛੋਟਾ:੪,੦ - ਫਾਇਲ ਨਾਂ ਛੋਟਾ ਕਰੋ, ਜੇ ਇਹ ਜ਼ਮੂ ਲੈਵਲ “smallest“ ਲਈ ਪੰਜ ਲਾਈਨਾਂ ਤੋਂ ਵੱਧ ਜਾਂਦੇ ਹਨ।ਫਾਇਲ ਨਾਂ ਛੋਟਾ ਕਰੋ, ਜੇ ਇਹ ਜ਼ਮੂ ਲੈਵਲ “smaller“ ਲਈ ਚਾਰ ਲਾਈਨਾਂ ਤੋਂ ਵੱਧ ਜਾਂਦੇ ਹਨ। ਹੋਰ ਜ਼ੂਮ ਲੈਵਲਾਂ ਲਈ ਫਾਇਲ ਨਾਂ ਛੋਟੇ ਨਾ ਕਰੋ। ਉਪਲੱਬਧ ਜ਼ੂਮ ਲੈਵਲ ਹਨ: ਛੋਟਾ, ਸਧਾਰਨ, ਵੱਡਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -451,7 +451,7 @@ msgstr "ਟਰੀ ਝਲਕ ਵਰਤੋਂ"
 msgid ""
 "Whether a tree should be used for list view navigation instead of a flat "
 "list."
-msgstr ""
+msgstr "ਕੀ ਸੂਚੀ ਝਲਕ ਨੇਵੀਗੇਸ਼ਨ ਲਈ ਸਮਤਲ ਸੂਚੀ ਦੀ ਬਜਾਏ ਲੜੀ (ਟਰੀ) ਨੂੰ ਵਰਤਣਾ ਹੈ।"
 
 #: data/org.gnome.nautilus.gschema.xml:278
 msgctxt "desktop-font"
@@ -484,7 +484,7 @@ msgstr "ਰੱਦੀ ਆਈਕਾਨ ਡੈਸਕਟਾਪ ਵਿੱਚ ਵੇ�
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "ਜੇ ਚੋਣ ਕੀਤੀ ਤਾਂ, ਆਈਕਾਨ ਜੋ ਕਿ ਰੱਦੀ ਨਾਲ ਲਿੰਕ ਹੈ, ਡੈਸਕਟਾਪ ਵਿੱਚ ਰੱਖਿਆ ਜਾਵੇਗਾ।"
 
 #: data/org.gnome.nautilus.gschema.xml:294
 msgid "Show mounted volumes on the desktop"
@@ -528,13 +528,13 @@ msgstr "'ਰੱਦੀ'"
 
 #: data/org.gnome.nautilus.gschema.xml:309
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "ਡੈਸਕਟਾਪ ਰੱਦੀ ਆਈਕਾਨ ਨਾਂ"
 
 #: data/org.gnome.nautilus.gschema.xml:310
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
+msgstr "ਜੇਕਰ ਤੁਸੀ ਡੈਸਕਟਾਪ ਵਿਚਲੇ ਰੱਦੀ ਦੇ ਆਈਕਾਨ ਦਾ ਨਾਂ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇਹ ਨਾਂ ਰੱਖ ਸਕਦੇ ਹੋ।"
 
 #: data/org.gnome.nautilus.gschema.xml:313
 msgctxt "network-icon-name"
@@ -571,7 +571,7 @@ msgstr "ਜੇ ਸਹੀਂ ਸੈੱਟ ਕੀਤਾ ਤਾਂ, ਨਟੀਲਸ
 
 #: data/org.gnome.nautilus.gschema.xml:333
 msgid "The geometry string for a navigation window"
-msgstr ""
+msgstr "ਨੇਵੀਗੇਸ਼ਨ ਵਿੰਡੋ ਲਈ ਜੁਮੈਟਰੀ ਲਾਈਨ ਹੈ"
 
 #: data/org.gnome.nautilus.gschema.xml:334
 msgid ""
@@ -581,7 +581,7 @@ msgstr "ਲਾਈਨ ਜੋ ਕਿ ਨੇਵੀਗੇਸ਼ਨ ਵਿੰਡੋ�
 
 #: data/org.gnome.nautilus.gschema.xml:338
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "ਕੀ ਨੇਵੀਗੇਸ਼ਨ ਵਿੰਡੋ ਨੂੰ ਵੱਧੋ-ਵੱਧ ਬਣਾਉਣਾ ਹੈ"
 
 #: data/org.gnome.nautilus.gschema.xml:339
 msgid "Whether the navigation window should be maximized by default."
@@ -758,7 +758,7 @@ msgstr "ਮੁੱਢਲੇ ਫੋਲਡਰ ਵਿੱਚ ਦਿੱਤਾ URI ਚ�
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -785,7 +785,7 @@ msgstr "”%s” ਵਿੱਚ ਸਾਫਟਵੇਅਰ ਹਨ, ਜੋ ਕਿ ਆ
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "ਜੇ ਤੁਹਾਨੂੰ ਇਹ ਟਿਕਾਣੇ ਉੱਤੇ ਭਰੋਸਾ ਨਹੀਂ ਜਾਂ ਯਕੀਨ ਨਹੀਂ ਹੈ ਤਾਂ ਰੱਦ ਕਰੋ ਦੱਬੋ।"
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -794,42 +794,42 @@ msgstr "ਚਲਾਓ(_R)"
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "“%s” ਵਿਲੱਖਣ ਨਵਾਂ ਨਾਂ ਨਹੀਂ ਹੋਵੇਗਾ।"
 
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "“%s” ਮੌਜੂਦਾ ਫਾਇਲ ਨਾਲ ਟਕਰਾਏਗਾ।"
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "ਨਾਂ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "ਨਾਂ ਵਿੱਚ “/” ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.” ਢੁੱਕਵਾਂ ਨਾਂ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..” ਢੁੱਕਵਾਂ ਨਾਂ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫੋਲਡਰ ਦਾ ਨਾਂ ਬਦਲੋੋ"
+msgstr[1] "%d ਫੋਲਡਰਾਂ ਦਾ ਨਾਂ ਬਦਲੋੋ"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫਾਇਲ ਦਾ ਨਾਂ ਬਦਲੋੋ"
+msgstr[1] "%d ਫਾਇਲਾਂ ਦਾ ਨਾਂ ਬਦਲੋੋ"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -837,61 +837,61 @@ msgstr[1] ""
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫਾਇਲ ਤੇ ਫੋਲਡਰ ਦਾ ਨਾਂ ਬਦਲੋੋ"
+msgstr[1] "%d ਫਾਇਲਾਂ ਅਤੇ ਫੋਲਡਰਾਂ ਦਾ ਨਾਂ ਬਦਲੋੋ"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "ਅਸਲੀ ਨਾਂ (ਵੱਧਦਾ ਕ੍ਰਮ)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "ਅਸਲੀ ਨਾਂ (ਘੱਟਦਾ ਕ੍ਰਮ)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "ਪਹਿਲੀ ਕੀਤੀ ਸੋਧ"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "ਆਖਰੀ ਕੀਤੀ ਸੋਧ"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "ਪਹਿਲੀ ਬਣਾਈ"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "ਆਖਰੀ ਬਣਾਈ"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "ਕੈਮਰਾ ਮਾਡਲ"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "ਬਣਾਉਣ ਮਿਤੀ"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "ਸ਼ੈਸ਼ਨ ਨੰਬਰ"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "ਕਾਂਡ ਦਾ ਨੰਬਰ"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "ਟਰੈਕ ਨੰਬਰ"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "ਕਲਾਕਾਰ ਦਾ ਨਾਂ"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:383
@@ -902,23 +902,23 @@ msgstr "ਟਾਈਟਲ"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "ਐਲਬਮ ਨਾਂ"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "ਅਸਲੀ ਫਾਇਲ ਨਾਂ"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:454
@@ -1026,15 +1026,15 @@ msgstr "ਫਾਇਲ ਦਾ ਟਿਕਾਣਾ ਹੈ।"
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "ਸੋਧ — ਸਮਾਂ"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "ਨਵਾਂਪਣ"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "ਵਰਤੋਂਕਾਰ ਵਲੋਂ ਫਾਇਲ ਨੂੰ ਖੋਲ੍ਹਣ ਦੀ ਮਿਤੀ ਹੈ।"
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1062,15 +1062,15 @@ msgstr "ਖੋਜ ਵਿੱਚ ਢੁੱਕਵਾਂ ਰੈਂਕ"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "ਅਕਾਇਵ ਨਾਂਵਾਂ ਵਿੱਚ “/” ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "ਅਕਾਇਵ ਨੂੰ “.” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "ਅਕਾਇਵ ਨੂੰ “..” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1251,7 +1251,7 @@ msgstr "ਟਾਪ-ਲੈਵਲ ਫਾਇਲਾਂ ਦਾ ਨਾਂ ਨਹੀਂ 
 #: src/nautilus-file.c:2159
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
+msgstr "ਸ਼ਾਇਦ ਫਾਇਲ ਦੀ ਸਮੱਗਰੀ  ਗ਼ਲਤ ਡੈਸਕਟਾਪ ਫਾਇਲ ਫਾਰਮੈਟ ਹੈ"
 
 #: src/nautilus-file.c:2211
 #, c-format
@@ -1370,7 +1370,7 @@ msgstr "ਓਨਰ ਸੈੱਟ ਕਰਨਾ ਮਨਜ਼ੂਰ ਨਹੀਂ ਹ�
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "ਦਿੱਤਾ ਮਾਲਕ “%s“ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1380,7 +1380,7 @@ msgstr "ਗਰੁੱਪ ਸੈੱਟ ਕਰਨਾ ਮਨਜ਼ੂਰ ਨਹੀ�
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "ਦਿੱਤਾ ਗਰੁੱਪ “%s“ ਮੌਜੂਦ ਨਹੀਂ"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1520,7 +1520,7 @@ msgstr "ਮੁੜ-ਸੈੱਟ"
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "ਇਹ ਕਾਰਵਾਈ ਸਭ ਫਾਇਲਾਂ ਅਤੇ ਫੋਲਡਰਾਂ ਉੱਤੇ ਲਾਗੂ ਕਰੋ"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -1532,22 +1532,22 @@ msgstr "ਨਾਂ ਬਦਲੋ(_n)"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "ਬਦਲੋ(_p)"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "ਫਾਇਲ ਨਾਂਵਾਂ ਵਿੱਚ “/” ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:97
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "ਫਾਇਲ ਨੂੰ “.” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:108
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "ਫਾਇਲ ਨੂੰ “..” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1749,7 +1749,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ ਰੱਦੀ ਵਿੱਚੋਂ “%s“ ਨੂੰ ਹਮੇਸ਼ਾ ਖਤਮ ਕਰਨ ਚਾਹੋਗੇ?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1782,7 +1782,7 @@ msgstr "ਰੱਦੀ ਖਾਲੀ ਕਰੋ(_T)"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "ਕੀ ਤੁਸੀਂ “%s“ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਖਤਮ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1795,12 +1795,12 @@ msgstr[1] "ਕੀ ਤੁਸੀਂ %'d ਚੁਣੀਆਂ ਆਈਟਮਾਂ ਨ�
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "“%s” ਨੂੰ ਹਟਾਇਆ"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1838,8 +1838,8 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s ਬਾਕੀ"
+msgstr[1] "%'d / %'d — %s ਬਾਕੀ"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1855,32 +1855,32 @@ msgstr "ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਨੂੰ ਹਟਾਉਣ ਦੇ ਦੌਰਾਨ ਗ਼ਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ”%s” ਫੋਲਡਰ ਨੂੰ ਹਟਾਉਣ ਲਈ ਲੋੜੀਦੇ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ।"
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "ਫਾਇਲ ”%s” ਨੂੰ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "ਤੁਹਾਨੂੰ ”%s” ਫਾਇਲ ਨੂੰ ਹਟਾਉਣ ਲਈ ਜ਼ਰੂਰੀ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ।"
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "“%s” ਰੱਦੀ 'ਚ ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "“%s” ਨੂੰ ਰੱਦੀ ਭੇਜਿਆ"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1900,7 +1900,7 @@ msgstr[1] "%'d ਫਾਇਲਾਂ ਰੱਦੀ 'ਚ ਭੇਜੀਆਂ"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਰੱਖਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ। ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਹੁਣੇ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1917,12 +1917,12 @@ msgstr "ਫਾਇਲਾਂ ਹਟਾਈਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "%s ਬਾਹਰ ਕੱਢਣ ਲਈ ਅਸਮਰੱਥ"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "%s ਅਣ-ਮਾਊਂਟ ਕਰਨ ਲਈ ਅਸਮਰੱਥ"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1948,22 +1948,22 @@ msgstr "\"%s\" ਵਰਤਣ ਲਈ ਅਸਮਰੱਥ"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ਫਾਇਲ ਕਾਪੀ ਕਰਨ ਦੀ ਤਿਆਰੀ (%s)"
+msgstr[1] "%'d ਫਾਇਲਾਂ ਕਾਪੀ ਕਰਨ ਦੀ ਤਿਆਰੀ (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ਫਾਇਲ ਭੇਜਣ ਦੀ ਤਿਆਰੀ (%s)"
+msgstr[1] "%'d ਫਾਇਲਾਂ ਭੇਜਣ ਦੀ ਤਿਆਰੀ (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ਫਾਇਲ ਹਟਾਉਣ ਦੀ ਤਿਆਰੀ (%s)"
+msgstr[1] "%'d ਫਾਇਲਾਂ ਹਟਾਉਣ ਦੀ ਤਿਆਰੀ (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1976,8 +1976,8 @@ msgstr[1] "%'d ਫਾਇਲਾਂ ਰੱਦੀ 'ਚ ਭੇਜਣ ਦੀ ਤਿ�
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d ਫਾਇਲ ਨੂੰ ਕੰਪਰੈਸ ਕਰਨ ਦੀ ਤਿਆਰੀ ਹੈ"
+msgstr[1] "%'d ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈਸ ਕਰਨ ਦੀ ਤਿਆਰੀ ਹੈ"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -1995,50 +1995,50 @@ msgstr "ਫਾਇਲਾਂ ਨੂੰ ਰੱਦੀ 'ਚ ਭੇਜਣ ਦੌਰਾ
 
 #: src/nautilus-file-operations.c:3094
 msgid "Error while compressing files."
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3169
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਵਿੱਚੋਂ ਫਾਇਲਾਂ ਨੂੰ ਹੈਂਡਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖਣ ਦਾ ਅਧਿਕਾਰ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਵਿੱਚ ਫਾਇਲਾਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਲੈਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਹੈਂਡਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਇਹ ਪੜ੍ਹਨ ਦਾ ਅਧਿਕਾਰ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਪੜ੍ਹਨ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "ਫਾਇਲ ”%s”  ਹੈਂਡਲ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ, ਕਿਉਕਿ ਤੁਹਾਨੂੰ ਇਹ ਪੜ੍ਹਨ ਦੀ ਇਜ਼ਾਜ਼ਤ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "”%s” ਬਾਰੇ ਜਾਣਕਾਰੀ ਲੈਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "”%s” 'ਤੇ ਕਾਪੀ ਕਰਨ ਵੇਲੇ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2061,7 +2061,7 @@ msgstr "ਟਿਕਾਣੇ ਉੱਤੇ ਇੰਨੀ ਥਾਂ ਖਾਲੀ ਨ�
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "ਟਿਕਾਣੇ ਉੱਤੇ ਕਾਪੀ ਕਰਨ ਲਈ %s ਹੋਰ ਥਾਂ ਚਾਹੀਦੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2070,74 +2070,74 @@ msgstr "ਟਿਕਾਣਾ ਕੇਵਲ ਪੜ੍ਹਨ ਲਈ ਹੀ ਹੈ।"
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਡੁਪਲੀਕੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਡੁਪਲੀਕੇਟ ਕੀਤਾ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿਆ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਕਾਪੀ ਕੀਤਾ"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕੀਤਾ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕੀਤਾ"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2152,7 +2152,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2180,8 +2180,8 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s — %s ਬਾਕੀ (%s/ਸਕਿੰਟ)"
+msgstr[1] "%s / %s — %s ਬਾਕੀ (%s/ਸਕਿੰਟ)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2193,27 +2193,27 @@ msgstr[1] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s ਬਾਕੀ (%s/ਸਕਿੰਟ)"
+msgstr[1] "%'d / %'d — %s ਬਾਕੀ (%s/ਸਕਿੰਟ)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "ਫੋਲਡਰ ”%s” ਕਾਪੀ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਟਿਕਾਣੇ ਉੱਤੇ ਇਹ ਬਣਾਉਣ ਦੀ ਇਜ਼ਾਜ਼ਤ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਬਣਾਉਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "ਫੋਲਡਰ ”%s” ਵਿੱਚੋਂ ਫਾਇਲਾਂ ਦੀ ਕਾਪੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ, ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਉਨ੍ਹਾਂ ਨੂੰ ਵੇਖਣ ਦੀ ਇਜ਼ਾਜ਼ਤ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2224,13 +2224,13 @@ msgstr "ਫਾਇਲਾਂ ਛੱਡੋ(_S)"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "”%s” ਫੋਲਡਰ ਦੀ ਕਾਪੀ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ, ਕਿਉਂਕਿ ਤੁਹਾਨੂੰ ਪੜ੍ਹਨ ਦੀ ਇਜ਼ਾਜਤ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "”%s” ਵਿੱਚ ਭੇਜਣ ਸਮੇਂ ਗ਼ਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2265,17 +2265,17 @@ msgstr "ਸਰੋਤ ਫਾਇਲਾਂ ਟਿਕਾਣੇ ਵਲੋਂ ਉੱ�
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "”%s” ਉੱਤੇ ਕਾਪੀ ਕਰਨ ਵੇਲੇ ਗ਼ਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "%s ਵਿੱਚ ਇਸੇ ਨਾਂ ਨਾਲ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਫਾਇਲ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ।"
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "%s ਵਿੱਚ ਫਾਇਲ ਕਾਪੀ ਕਰਨ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2284,7 +2284,7 @@ msgstr "ਫਾਇਲਾਂ ਕਾਪੀਆਂ ਕੀਤੀਆਂ ਜਾ ਰਹ�
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "”%s” ਵਿੱਚ ਭੇਜਣ ਦੀ ਤਿਆਰੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2296,7 +2296,7 @@ msgstr[1] "%'d  ਫਾਇਲਾਂ ਭੇਜਣ ਦੀ ਤਿਆਰੀ"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "%s ਵਿੱਚ ਫਾਇਲ ਭੇਜਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2305,7 +2305,7 @@ msgstr "ਫਾਇਲਾਂ ਭੇਜੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ।"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "”%s” ਵਿੱਚ ਲਿੰਕ ਬਣਾਏ ਜਾ ਰਹੇ ਹਨ"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2317,7 +2317,7 @@ msgstr[1] "%'d ਫਾਇਲਾਂ ਨਾਲ ਲਿੰਕ ਬਣਾਏ ਜਾ ਰ
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "%s ਨਾਲ ਲਿੰਕ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2325,12 +2325,12 @@ msgstr "ਸਿੰਬੋਲਿੰਕ ਕੇਵਲ ਲੋਕਲ ਫਾਇਲਾਂ
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "ਟਾਰਗੇਟ ਸਿੰਬੋਲਿਕ ਲਿੰਕਾਂ ਲਈ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "%s ਵਿੱਚ ਸਿਮ-ਲਿੰਕ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ"
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2349,17 +2349,17 @@ msgstr "ਬਿਨ-ਨਾਂ ਡੌਕੂਮੈਂਟ"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "%s ਡਾਇਰੈਕਟਰੀ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "%s ਫਾਇਲ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "%s ਵਿੱਚ ਡਾਇਰੈਕਟਰੀ ਬਣਾਉਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2371,100 +2371,100 @@ msgstr "ਲਾਂਚਰ ਨੂੰ ਭਰੋਸੇਯੋਗ ਬਣਾਉਣ ਲ�
 
 #: src/nautilus-file-operations.c:8072
 msgid "Verifying destination"
-msgstr ""
+msgstr "ਟਿਕਾਣੇ ਦੀ ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "“%s” ਨੂੰ ਖਿਲਾਰਿਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਖਿਲਾਰਨ ਵੇਲੇ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "“%s” ਨੂੰ ਖਿਲਾਰਨ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ।"
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "%s ਖਿਲਾਰਨ ਲਈ ਕਾਫ਼ੀ ਖਾਲੀ ਥਾਂ ਨਹੀਂ ਹੈ"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਖਿਲਾਰਿਆ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਖਿਲਾਰਿਆ ਗਿਆ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਖਿਲਾਰਿਆ ਗਿਆ"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
-msgstr ""
+msgstr "ਖਿਲਾਰਨ ਦੀ ਤਿਆਰੀ"
 
 #: src/nautilus-file-operations.c:8483
 msgid "Extracting Files"
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਖਿਲਾਰਿਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਵਿੱਚ ਕੰਪਰੈਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈਸ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਹੈ।"
 
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕੀਤਾ"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕੀਤਾ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਵਿੱਚ ਕੰਪਰੈੱਸ ਕੀਤਾ"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈੱਸ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
-msgstr "...ਖੋਜ ਜਾਰੀ ਹੈ"
+msgstr "…ਖੋਜ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/nautilus-files-view.c:389 src/nautilus-image-properties-page.c:761
 #: src/nautilus-list-model.c:471 src/nautilus-window-slot.c:858
 msgid "Loading…"
-msgstr "...ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr "…ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: src/nautilus-files-view.c:1121 src/nautilus-mime-actions.c:949
 msgid "Are you sure you want to open all files?"
@@ -2584,7 +2584,7 @@ msgstr "ਕਾਪੀ ਕਰਨ ਦਾ ਟਿਕਾਣਾ ਚੁਣੋ"
 
 #: src/nautilus-files-view.c:6499
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "ਖਿਲਾਰਨ ਦਾ ਟਿਕਾਣਾ ਚੁਣੋ"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6759
@@ -2626,11 +2626,11 @@ msgstr "ਚਲਾਓ"
 
 #: src/nautilus-files-view.c:7910
 msgid "Extract Here"
-msgstr ""
+msgstr "ਇੱਥੇ ਖਿਲਾਰੋ"
 
 #: src/nautilus-files-view.c:7911
 msgid "Extract to…"
-msgstr ""
+msgstr "…ਇੱਥੇ ਖਿਲਾਰੋ"
 
 #: src/nautilus-files-view.c:7915
 msgid "Open"
@@ -2643,7 +2643,7 @@ msgstr "ਸ਼ੁਰੂ(_S)"
 
 #: src/nautilus-files-view.c:7978 src/gtk/nautilusgtkplacesview.c:1685
 msgid "_Connect"
-msgstr "ਕੁਨੈਕਸ਼ਨ ਕਰੋ(_C)"
+msgstr "ਕਨੈਕਟ ਕਰੋ(_C)"
 
 #: src/nautilus-files-view.c:7984
 msgid "_Start Multi-disk Drive"
@@ -2663,7 +2663,7 @@ msgstr "ਡਰਾਇਵ ਸੁਰੱਖਿਅਤ ਹਟਾਓ(_S)"
 
 #: src/nautilus-files-view.c:8022 src/gtk/nautilusgtkplacesview.c:1675
 msgid "_Disconnect"
-msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਕਰੋ(_D)"
+msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ(_D)"
 
 #: src/nautilus-files-view.c:8028
 msgid "_Stop Multi-disk Drive"
@@ -2726,15 +2726,15 @@ msgstr "ਆਖਰੀ ਵਾਪਸ ਕੀਤੀ ਕਾਰਵਾਈ ਨੂੰ ਮ�
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਆਈਟਮ ਮੁੜ ”%s” ਵਿੱਚ ਵਾਪਸ ਭੇਜੋ"
+msgstr[1] "%d ਆਈਟਮਾਂ ਨੂੰ ਮੁੜ ”%s” ਵਿੱਚ ਵਾਪਸ ਭੇਜੋ"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਭੇਜਿਆ ਗਿਆ"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2753,12 +2753,12 @@ msgstr[1] "%d ਆਈਟਮਾਂ ਭੇਜਣ ਨੂੰ ਵਾਪਸ ਪਰਤ�
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਭੇਜੋ"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਭੇਜੋ"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2766,7 +2766,7 @@ msgstr "ਭੇਜਣਾ ਵਾਪਸ(_U)"
 
 #: src/nautilus-file-undo-operations.c:430
 msgid "_Redo Move"
-msgstr "ਭੇਜਣਾ ਪਰਤਾਉ(_R)"
+msgstr "ਭੇਜਣ ਨੂੰ ਪਰਤਾਉ(_R)"
 
 #: src/nautilus-file-undo-operations.c:435
 msgid "_Undo Restore from Trash"
@@ -2794,12 +2794,12 @@ msgstr[1] "%d ਆਈਟਮਾਂ ਨੂੰ ਰੱਦੀ ਵਿੱਚੋਂ ਮ�
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਫੇਰ ਰੱਦੀ ਵਿੱਚ ਭੇਜੋ"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "ਰੱਦੀ ਵਿੱਚੋਂ ”%s” ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2812,8 +2812,8 @@ msgstr[1] "%d ਕਾਪੀ ਕੀਤੀਆਂ ਆਈਟਮਾਂ ਹਟਾਓ"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਆਈਟਮ ਨੂੰ  ”%s” ਉੱਤੇ ਕਾਪੀ ਕਰੋ"
+msgstr[1] "%d ਆਈਟਮਾਂ ਨੂੰ ”%s” ਉੱਤੇ ਕਾਪੀ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2836,12 +2836,12 @@ msgstr[1] "%d ਆਈਟਮਾਂ ਦੀ ਕਾਪੀ ਮੁੜ ਪਰਤਾਓ(_
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "“%s” ਨੂੰ ਹਟਾਓ"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਕਾਪੀ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2862,8 +2862,8 @@ msgstr[1] "%d ਡੁਪਲੀਕੇਟ ਆਈਟਮਾਂ ਹਟਾਓ"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1$'d ਫਾਇਲ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕਰੋ"
+msgstr[1] "%1$'d ਫਾਇਲਾਂ ਨੂੰ ”%2$s” ਉੱਤੇ ਡੁਪਲੀਕੇਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2882,7 +2882,7 @@ msgstr[1] "%d ਡੁਪਲੀਕੇਟ ਆਈਟਮਾਂ ਵਾਪਸ ਪਰਤ
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "%1$s' ਵਿੱਚ ”%2$s” ਨੂੰ ਡੁਪਲੀਕੇਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2909,12 +2909,12 @@ msgstr[1] "%d ਆਈਟਮਾਂ ਨਾਲ ਲਿੰਕ ਬਣਾਓ"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "”%s” ਲਈ ਲਿੰਕ ਹਟਾਓ"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "”%s” ਲਈ ਲਿੰਕ ਬਣਾਓ"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2927,7 +2927,7 @@ msgstr "ਲਿੰਕ ਬਣਾਉਣ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "ਖਾਲੀ ਫਾਇਲ ”%s” ਬਣਾਓ"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2940,7 +2940,7 @@ msgstr "ਖਾਲੀ ਫਾਇਲ ਬਣਾਉਣ ਨੂੰ ਵਾਪਸ ਪਰ�
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "ਨਵਾਂ ਫੋਲਡਰ ”%s” ਬਣਾਓ"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2953,7 +2953,7 @@ msgstr "ਫੋਲਡਰ ਬਣਾਉਣ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "ਟੈਪਲੇਟ ਤੋਂ ਨਵੀਂ ਫਾਇਲ ”%ss” ਬਣਾਓ"
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2967,7 +2967,7 @@ msgstr "ਟੈਪਲੇਟ ਤੋਂ ਬਣਾਉਣ ਨੂੰ ਵਾਪਸ ਪ�
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਨਾਂ ”%s” ਬਦਲੋ"
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2982,16 +2982,16 @@ msgstr "ਨਾਂ ਬਦਲਣਾ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫਾਇਲ ਦਾ ਨਾਂ ਬਦਲੋ"
+msgstr[1] "%d ਫਾਇਲਾਂ ਦਾ ਇਕੱਠਾ ਨਾਂ ਬਦਲੋ"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "ਇਕੱਠੇ ਨਾਂ ਬਦਲਣ ਨੂੰ ਵਾਪਸ ਲਵੋ(_U)"
 
 #: src/nautilus-file-undo-operations.c:1119
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "ਇਕੱਠੇ ਨਾਂ ਬਦਲਣ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 
 #: src/nautilus-file-undo-operations.c:1330
 #, c-format
@@ -3003,12 +3003,12 @@ msgstr[1] "%d ਆਈਟਮਾਂ ਰੱਦੀ ਵਿੱਚ ਭੇਜੋ"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ”%s” ਉੱਤੇ ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜੋ"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -3021,12 +3021,12 @@ msgstr "ਰੱਦੀ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "”%s” ਵਿੱਚ ਮੌਜੂਦਾ ਆਈਟਮਾਂ ਦੇ ਅਸਲੀ ਅਧਿਕਾਰ ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "”%s” ਵਿੱਚ ਮੌਜੂਦ ਆਈਟਮਾਂ ਲਈ ਅਧਿਕਾਰ ਸੈੱਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -3041,22 +3041,22 @@ msgstr "ਅਧਿਕਾਰ ਬਦਲਣਾ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "”%s” ਦੇ ਅਸਲੀ ਅਧਿਕਾਰ ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "”%s” ਦੇ ਅਧਿਕਾਰ ਸੈੱਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਗਰੁੱਪ ”%s” ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਗਰੁੱਪ ”%s” ਸੈੱਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3069,12 +3069,12 @@ msgstr "ਗਰੁੱਪ ਬਦਲਣਾ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਮਾਲਕ ”%s” ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "”%s” ਦਾ ਮਾਲਕ ”%s” ਸੈੱਟ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3086,50 +3086,50 @@ msgstr "ਮਾਲਕ ਬਦਲਣਾ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 
 #: src/nautilus-file-undo-operations.c:2071
 msgid "_Undo Extract"
-msgstr ""
+msgstr "ਖਿਲਾਰਨ ਨੂੰ ਵਾਪਸ ਲਵੋ(_U)"
 
 #: src/nautilus-file-undo-operations.c:2072
 msgid "_Redo Extract"
-msgstr ""
+msgstr "ਖਿਲਾਰਨ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 
 #: src/nautilus-file-undo-operations.c:2089
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਖਿਲਾਰੀ ਫਾਇਲ ਨੂੰ ਹਟਾਓ"
+msgstr[1] "%d ਖਿਲਾਰੀਆਂ ਫਾਇਲਾਂ ਨੂੰ ਹਟਾਓ"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "“%s” ਨੂੰ ਖਿਲਾਰੋ"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫਾਇਲ ਨੂੰ ਖਿਲਾਰੋ"
+msgstr[1] "%d ਫਾਇਲਾਂ ਨੂੰ ਹਟਾਓ"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "”%s” ਨੂੰ ਕੰਪਰੈਸ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਫਾਇਲ ਨੂੰ ਕੰਪਰੈੱਸ ਕਰੋ"
+msgstr[1] "%d ਫਾਇਲਾਂ ਨੂੰ ਕੰਪਰੈੱਸ ਕਰੋ"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
-msgstr ""
+msgstr "ਕੰਪਰੈੱਸ ਕਰਨ ਨੂੰ ਵਾਪਿਸ ਲਵੋ(_U)"
 
 #: src/nautilus-file-undo-operations.c:2269
 msgid "_Redo Compress"
-msgstr ""
+msgstr "ਕੰਪਰੈੱਸ ਕਰਨ ਨੂੰ ਵਾਪਸ ਪਰਤਾਓ(_R)"
 
 #: src/nautilus-file-utilities.c:1023
 #, c-format
@@ -3405,7 +3405,7 @@ msgstr "ਇਹ ਲਿੰਕ ਵਰਤੋਂਯੋਗ ਨਹੀਂ, ਕਿਉਂ�
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "ਇਹ ਲਿੰਕ ਵਰਤੋਂਯੋਗ ਨਹੀਂ, ਕਿਉਂਕਿ ਇਸ ਦਾ ਟਾਰਗੇਟ ”%s” ਹੀ ਨਹੀਂ ਰਿਹਾ।"
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3483,7 +3483,7 @@ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ ”%s” ਨੂੰ ਭਰੋ
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "ਭਰੋਸਾ ਕਰੋ ਅਤੇ ਚਲਾਓ(_L)"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3567,12 +3567,12 @@ msgstr "ਫੋਲਡਰ ਨਾਂ ਵਿੱਚ “/” ਨਹੀਂ ਹੋ ਸ�
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:93
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "ਫੋਲਡਰ ਨੂੰ “.” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:104
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "ਫੋਲਡਰ ਨੂੰ “..” ਨਹੀਂ ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3607,7 +3607,7 @@ msgstr ""
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "ਸਿੰਬੋਲਿਕ ਲਿੰਕ ਦਾ ਨਾਂ ਬਦਲੋ ਜਾਂ ਛੱਡੋ ਬਟਨ ਨੂੰ ਦਬਾਓ।"
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -3675,7 +3675,7 @@ msgstr "”%s” ਵਿੱਚ ਇਸੇ ਨਾਂ ਨਾਲ ਹੋਰ ਫਾਇ�
 
 #: src/nautilus-operations-ui-manager.c:275
 msgid "Original folder"
-msgstr ""
+msgstr "ਅਸਲ ਫੋਲਡਰ"
 
 #. Also set the title field here, with a trailing carriage return &
 #. * space if the value field has two lines. This is a hack to get the
@@ -3711,7 +3711,7 @@ msgstr "ਆਖਰੀ ਵਾਰ ਸੋਧੀ:"
 
 #: src/nautilus-operations-ui-manager.c:307
 msgid "Merge with"
-msgstr ""
+msgstr "ਇਸ ਨਾਲ ਮਿਲਾਓ"
 
 #: src/nautilus-operations-ui-manager.c:307
 #: src/nautilus-operations-ui-manager.c:312
@@ -3724,12 +3724,12 @@ msgstr "ਮਿਲਾਉ"
 
 #: src/nautilus-operations-ui-manager.c:385
 msgid "Merge Folder"
-msgstr ""
+msgstr "ਫੋਲਡਰ ਨੂੰ ਮਿਲਾਓ"
 
 #: src/nautilus-operations-ui-manager.c:386
 #: src/nautilus-operations-ui-manager.c:391
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "ਫਾਇਲ ਅਤੇ ਫੋਲਡਰ ਟਕਰਾ"
 
 #: src/nautilus-operations-ui-manager.c:392
 msgid "File conflict"
@@ -3777,7 +3777,7 @@ msgstr "ਵੇਰਵਾ: "
 
 #: src/nautilus-progress-info.c:312
 msgid "Canceled"
-msgstr ""
+msgstr "ਰੱਦ ਕੀਤਾ"
 
 #: src/nautilus-progress-info.c:378 src/nautilus-progress-info.c:399
 msgid "Preparing"
@@ -4096,7 +4096,7 @@ msgstr "ਕੇਵਲ ਨੈੱਟਵਰਕ ਟਿਕਾਣਿਆਂ ਲਈ ਹ�
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "ਰਿਮੋਟ ਟਿਕਾਣਾ — ਕੇਵਲ ਮੌਜੂਦਾ ਫੋਲਡਰ ਵਿੱਚ ਲੱਭਿਆ ਜਾ ਰਿਹਾ ਹੈ”"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4122,7 +4122,7 @@ msgstr "ਮਿਤੀ ਚੁਣਨ ਲਈ ਕੈਲੰਡਰ ਵੇਖਾਓ"
 #. Add the no date filter element first
 #: src/nautilus-search-popover.c:421
 msgid "Any time"
-msgstr ""
+msgstr "ਕਿਸੇ ਵੀ ਸਮੇਂ"
 
 #. Other types
 #: src/nautilus-search-popover.c:518
@@ -4150,13 +4150,13 @@ msgstr "ਰੱਦੀ"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "ਫਾਇਲਾਂ ਨੂੰ ਨਵੇਂ ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਟੈਮਪਲੇਟ ਵਜੋਂ ਵਰਤਣ ਲਈ ਉਹਨਾਂ ਨੂੰ ਇਸ ਫੋਲਡਰ ਵਿੱਚ ਰੱਖੋ।"
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates\">…ਹੋਰ ਜਾਣੋ</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4164,11 +4164,11 @@ msgstr "ਇਸ ਫੋਲਡਰ ਵਿਚਲੀਆਂ ਚਲਣਯੋਗ ਫਾ�
 
 #: src/nautilus-toolbar.c:860 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "ਵਾਪਿਸ(_U)"
 
 #: src/nautilus-toolbar.c:867 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "ਪਰਤਾਓ(_R)"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4191,77 +4191,77 @@ msgstr "ਰੱਦੀ 'ਚੋਂ ਸਭ ਆਈਟਮਾਂ ਹਟਾਓ"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਦਿਨ ਪਹਿਲਾਂ"
+msgstr[1] "%d ਦਿਨ ਪਹਿਲਾਂ"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d ਦਿਨ ਪਹਿਲਾਂ"
+msgstr[1] "%d ਦਿਨ ਪਹਿਲਾਂ"
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਹਫ਼ਤੇ ਤੋਂ"
+msgstr[1] "%d ਹਫ਼ਤੇ ਪਹਿਲਾਂ ਤੋਂ"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਹਫ਼ਤੇ"
+msgstr[1] "%d ਹਫ਼ਤੇ ਪਹਿਲਾਂ"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਮਹੀਨੇ ਤੋਂ"
+msgstr[1] "%d ਮਹੀਨੇ ਪਹਿਲਾਂ ਤੋਂ"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਮਹੀਨੇ"
+msgstr[1] "%d ਮਹੀਨੇ ਪਹਿਲਾਂ"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਸਾਲ ਤੋਂ"
+msgstr[1] "%d ਸਾਲ ਪਹਿਲਾਂ ਤੋਂ"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ਪਿਛਲੇ ਸਾਲ"
+msgstr[1] "%d ਸਾਲ ਪਹਿਲਾਂ"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "ਪੇਰੈਂਟ ਫੋਲਡਰ"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "ਨਵੀਂ ਟੈਬ"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਝਲਕ ਨੂੰ ਬੰਦ ਕਰੋ"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "ਪਿੱਛੇ"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "ਅੱਗੇ"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4324,7 +4324,7 @@ msgstr "ਇਸ ਫੋਲਡਰ ਦੀ ਸਮੱਗਰੀ ਵੇਖਾਉਣ ਲ�
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "ਇਹ ਟਿਕਾਣਾ ਕੋਈ ਫੋਲਡਰ ਨਹੀਂ ਜਾਪਦਾ ਹੈ।"
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4346,7 +4346,7 @@ msgstr "ਮੰਗੇ ਟਿਕਾਣਾ ਨੂੰ ਵਰਤੋਂ ਲਈ ਅਸ�
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "ਮੰਗੇ ਗਏ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਲਈ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ।"
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4480,7 +4480,7 @@ msgstr "ਟੈਬ ਨੂੰ ਸੱਜੇ ਭੇਜੋ"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "ਟੈਬ ਬਹਾਲ ਕਰੋ"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4605,7 +4605,7 @@ msgstr "ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਹਟਾਓ"
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "ਕੱਟੋ"
 
 #: src/resources/gtk/help-overlay.ui:334
 msgctxt "shortcut window"
@@ -4682,105 +4682,105 @@ msgstr "ਨਾਂ ਬਦਲੋ(_R)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "ਟੈਪਲੇਟ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਨਾਂ ਬਦਲੋ(_u)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "ਟੈਕਸਟ ਨੂੰ ਲੱਭੋ ਤੇ ਬਦਲੋ(_t)"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "ਸ਼ਾਮਲ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "ਆਪਣੇ-ਆਪ ਗਿਣਤੀ ਕ੍ਰਮ"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "ਫਾਰਮੈਟ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ ਟੈਕਸਟ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "ਇਸ ਨਾਲ ਬਦਲੋ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "ਬਦਲੋ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "ਆਟੋਮੈਟਿਕ ਗਿਣਤੀ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "ਮੇਟਾਡਾਟਾ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "ਬਣਾਉਣ ਮਿਤੀ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "ਸ਼ੈਸ਼ਨ ਨੰਬਰ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "ਕਾਂਡ ਦਾ ਨੰਬਰ­"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "ਟਰੈਕ ਨੰਬਰ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "ਕਲਾਕਾਰ ਦਾ ਨਾਂ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "ਐਲਬਮ ਨਾਂ"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "ਅਸਲੀ ਫਾਇਲ ਨਾਂ"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "ਅਕਾਇਵ ਬਣਾਓ"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "ਅਕਾਇਵ ਦਾ ਨਾਂ"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "ਸਾਰੇ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮਾਂ ਨਾਲ ਅਨੁਕੂਲ।"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "ਛੋਟੇ ਅਕਾਇਵ, ਪਰ ਕੇਵਲ Linux ਅਤੇ Mac ਲਈ ਹੀ।"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "ਛੋਟੇ ਅਕਾਇਵ, ਪਰ Windows ਅਤੇ Mac ਉੱਤੇ ਇੰਸਟਾਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4912,11 +4912,11 @@ msgstr "...ਆਈਕਾਨ ਮੁੜ-ਆਕਾਰ"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "ਆਈਕਾਨ ਦਾ ਅਸਲੀ ਆਕਾਰ ਮੁੜ-ਸਟੋਰ ਕਰੋ"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "...ਨਾਂ ਬਦਲੋ(_m)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4928,15 +4928,15 @@ msgstr "ਤਾਜ਼ਾ ਵਿੱਚੋਂ ਹਟਾਓ(_R)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "ਇੱਥੇ ਖਿਲਾਰੋ(_E)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "…ਖਿਲਾਰੋ(_x)"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "…ਕੰਪਰੈੱਸ ਕਰੋ(_o)"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -4944,7 +4944,7 @@ msgstr "ਫੋਲਡਰ ਖਾਲੀ ਹੈ"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "ਰੱਦੀ ਖਾਲੀ ਹੈ"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4988,11 +4988,11 @@ msgstr "ਫੋਲਡਰਾਂ ਨੂੰ ਫੈਲਾਉਣ ਦੀ ਇਜ਼ਾਜ਼�
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "ਤਰਜਬੇ-ਅਧੀਨ"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "ਨਵੀਆਂ ਝਲਕਾਂ ਨੂੰ ਵਰਤੋਂ(_v)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
@@ -5002,25 +5002,25 @@ msgstr "ਆਈਕਾਨ ਝਲਕ ਸੁਰਖੀਆਂ"
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "ਫਾਇਲ ਅਤੇ ਫੋਲਡਰ ਨਾਵਾਂ ਹੇਠ ਦਿਖਾਉਣ ਲਈ ਜਾਣਕਾਰੀ ਜੋੜੋ। ਨੇੜੇ ਜ਼ੂਮ ਕਰਨ ਦੇ ਦੌਰਾਨ ਹੋਰ ਜਾਣਕਾਰੀ ਦਿਖਾਈ ਜਾਵੇਗੀ।"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr ""
+msgstr "ਦੂਜਾ"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:331
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr ""
+msgstr "ਤੀਜਾ"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:346
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr ""
+msgstr "ਪਹਿਲਾਂ"
 
 #: src/resources/ui/nautilus-preferences-window.ui:380
 msgid "Views"
@@ -5100,11 +5100,11 @@ msgstr "ਕਦੇ ਨਹੀਂ(_N)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "ਪੂਰੇ ਟੈਕਸਟ ਦੀ ਖੋਜੋ:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "ਡਿਫਾਲਟ ਵਜੋਂ ਸੈੱਟ ਕਰੋ(_d)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
@@ -5261,11 +5261,11 @@ msgstr "ਕੇਵਲ ਫਾਇਲ ਨਾਂ ਲਈ ਹੀ ਖੋਜੋ"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "ਨਵਾਂ ਫੋਲਡਰ"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "ਇਸ ਟਿਕਾਣੇ ਨੂੰ ਬੁੱਕਮਾਰਕ ਕਰੋ"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5277,11 +5277,11 @@ msgstr "ਐਕਸ਼ਨ ਮੀਨੂ ਖੋਲ੍ਹੋ"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "ਵੇਖਣ ਮੋਡ ਨੂੰ ਬਦਲੋ"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "ਗਰਿੱਡ ਅਤੇ ਸੂਚੀ ਝਲਕ ਵਿਚਾਲੇ ਬਦਲੋ"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5297,27 +5297,27 @@ msgstr "ਖੋਲ੍ਹਣ ਕਾਰਵਾਈਆਂ ਜਾਰੀ ਹਨ"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "ਜ਼ੂਮ ਆਉਟ"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "ਜ਼ੂਮ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "ਜ਼ੂਮ ਇਨ"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5325,7 +5325,7 @@ msgstr "ਆਖਰੀ ਵਾਰ ਸੋਧੀ(_M)ੇ"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "ਪਹਿਲੀ ਸੋਧ(_F)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5349,7 +5349,7 @@ msgstr "ਲੁੱਕਵੀਆਂ ਫਾਇਲਾਂ ਵੇਖੋ(_H)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "ਮੁੜ-ਲੋਡ(_e)"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5374,7 +5374,7 @@ msgstr "ਕੰਪਿਊਟਰ"
 #. Restore from Cancel to Connect
 #: src/gtk/nautilusgtkplacesview.c:1246 src/gtk/nautilusgtkplacesview.ui:449
 msgid "Con_nect"
-msgstr "ਕੁਨੈਕਟ ਕਰੋ(_n)"
+msgstr "ਕਨੈਕਟ ਕਰੋ(_n)"
 
 #. if it wasn't cancelled show a dialog
 #: src/gtk/nautilusgtkplacesview.c:1366
@@ -5414,12 +5414,12 @@ msgstr "ਇਸ ਕੰਪਿਊਟਰ ਉੱਤੇ"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s ਉਪਲਬਧ"
+msgstr[1] "%s / %s ਉਪਲਬਧ"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"
-msgstr "ਡਿਸ-ਕੁਨੈਕਟ ਕਰੋ"
+msgstr "ਡਿਸ-ਕਨੈਕਟ ਕਰੋ"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 #: src/gtk/nautilusgtkplacesviewrow.ui:72
@@ -5428,63 +5428,63 @@ msgstr "ਅਣ-ਮਾਊਂਟ ਕਰੋ"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "ਸਰਵਰ ਐਡਰੈਸ"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "ਸਰਵਰ ਸਿਰਨਾਵਾਂ ਪਰੋਟੋਕਾਲ ਅਗੇਤਰ ਅਤੇ ਸਿਰਨਾਵੇਂ ਨੂੰ ਮਿਲਾ ਕੇ ਬਣਦਾ ਹੈ। ਜਿਵੇਂ ਕਿ:"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "ਉਪਲਬਧ ਪਰੋਟੋਕਾਲ"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "ਫਾਇਲ ਟਰਾਂਸਫਰ ਪਰੋਟੋਕਾਲ"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "ਨੈੱਟਵਰਕ ਫਾਇਲ ਸਿਸਟਮ"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "ਸਾਂਬਾ"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "SSH ਫਾਇਲ ਟਰਾਂਸਫਰ ਪਰੋਟੋਕਾਲ"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "ਪ੍ਰੀਫਿਕਸ"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// ਜਾਂ ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// ਜਾਂ ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// ਜਾਂ davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267
@@ -5501,7 +5501,7 @@ msgstr "ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਲੱਭੇ"
 
 #: src/gtk/nautilusgtkplacesview.ui:439
 msgid "Connect to _Server"
-msgstr "ਸਰਵਰ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ(_S)"
+msgstr "ਸਰਵਰ ਨਾਲ ਕਨੈਕਟ ਕਰੋ(_S)"
 
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"

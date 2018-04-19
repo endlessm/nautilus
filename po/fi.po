@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the nautilus package.
 # 
 # Translators:
-# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012-2016
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012-2017
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011,2013
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:38+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/endless-os/nautilus/language/fi/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Suorita ohjelmisto"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
@@ -70,7 +70,7 @@ msgstr "folder;manager;explore;disk;filesystem;kansio;tiedostoselain;levy;tiedos
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:20
 msgid "New Window"
@@ -78,7 +78,7 @@ msgstr "Uusi ikkuna"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "Mihin uudet välilehdet sijoitetaan selainikkunoissa"
 
 #: data/org.gnome.nautilus.gschema.xml:82
 msgid ""
@@ -98,13 +98,13 @@ msgstr "Jos tosi, Nautiluksen selausikkunat käyttävät aina tekstimuotoista sy
 
 #: data/org.gnome.nautilus.gschema.xml:91
 msgid "Where to perform recursive search"
-msgstr "Missä rekursiivinen haku suoritetaan"
+msgstr "Missä rekursiivista hakua käytetään"
 
 #: data/org.gnome.nautilus.gschema.xml:92
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "Missä sijainneissa Nautiluksen tulisi etsiä alikansioista. Mahdolliset arvot ovat “local-only” (vain paikallisesti), “always” (aina), “never” (ei koskaan)."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "Näytä pakettiasennin tuntemattomille MIME-tyypeille"
 
 #: data/org.gnome.nautilus.gschema.xml:133
 msgid ""
@@ -210,22 +210,22 @@ msgstr ""
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "Jos käyttäjän hiiressä on “Eteenpäin”- ja “Taaksepäin”-napit, tämä avain määrittää mitä Nautiluksessa tapahtuu painettaessa näitä nappeja."
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "Selainikkunassa “Eteenpäin”-toiminnon käynnistävä hiiren nappi"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "Jos käyttäjän hiiressä on “Eteenpäin”- ja “Taaksepäin”-napit, tämä avain määrittää mikä nappi käynnistää ”Eteenpäin”-komennon selainikkunassa. Mahdolliset arvot ovat väliltä 6-14."
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "Selainikkunassa “Takaisin”-toiminnon käynnistävä hiiren nappi"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
@@ -300,7 +300,7 @@ msgstr "Näkyvätkö piilotiedostot"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "Tämä avain on vanhennettu, eikä sitä enää huomioida. Käytä sen sijaan “show-hidden”-avainta polussa “org.gtk.Settings.FileChooser”."
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -338,7 +338,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "Käytä uusia kokeellisia näkymiä"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
@@ -361,11 +361,11 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "Oletusmuoto tiedostoja pakatessa"
 
 #: data/org.gnome.nautilus.gschema.xml:226
 msgid "The format that will be selected when compressing files."
-msgstr ""
+msgstr "Tiedostojen pakkauksessa käytettävä tiedostomuoto."
 
 #: data/org.gnome.nautilus.gschema.xml:233
 msgid "List of possible captions on icons"
@@ -456,7 +456,7 @@ msgstr ""
 #: data/org.gnome.nautilus.gschema.xml:278
 msgctxt "desktop-font"
 msgid "''"
-msgstr ""
+msgstr "''"
 
 #: data/org.gnome.nautilus.gschema.xml:279
 msgid "Desktop font"
@@ -484,7 +484,7 @@ msgstr "Roskakori näkyy työpöydällä"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "Jos tosi, roskakorin kuvake näkyy työpöydällä."
 
 #: data/org.gnome.nautilus.gschema.xml:294
 msgid "Show mounted volumes on the desktop"
@@ -509,7 +509,7 @@ msgstr "Jos tosi, näytetään työpöydällä kuvake, joka avattaessa näyttä�
 #: data/org.gnome.nautilus.gschema.xml:303
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "'Home'"
 
 #: data/org.gnome.nautilus.gschema.xml:304
 msgid "Desktop home icon name"
@@ -524,11 +524,11 @@ msgstr "Tämän nimen voi asettaa, jos haluaa vaihtaa työpöydän koti-kuvakkee
 #: data/org.gnome.nautilus.gschema.xml:308
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "'Trash'"
 
 #: data/org.gnome.nautilus.gschema.xml:309
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "Roskakori-työpöytäkuvakkeen nimi"
 
 #: data/org.gnome.nautilus.gschema.xml:310
 msgid ""
@@ -539,7 +539,7 @@ msgstr ""
 #: data/org.gnome.nautilus.gschema.xml:313
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr ""
+msgstr "'Network Servers'"
 
 #: data/org.gnome.nautilus.gschema.xml:314
 msgid "Network servers icon name"
@@ -571,17 +571,17 @@ msgstr "Jos tosi, Nautilus vaihtaa työpöydän taustan häivytysefektillä."
 
 #: data/org.gnome.nautilus.gschema.xml:333
 msgid "The geometry string for a navigation window"
-msgstr ""
+msgstr "Selausikkunan geometriamerkkijono"
 
 #: data/org.gnome.nautilus.gschema.xml:334
 msgid ""
 "A string containing the saved geometry and coordinates string for navigation"
 " windows."
-msgstr "Selausikkunoiden tallennetun geometrian ja koordinaatit sisältä merkkijono."
+msgstr "Selausikkunoiden tallennetun geometrian ja koordinaatit sisältävä merkkijono."
 
 #: data/org.gnome.nautilus.gschema.xml:338
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "Suurennetaanko selausikkuna"
 
 #: data/org.gnome.nautilus.gschema.xml:339
 msgid "Whether the navigation window should be maximized by default."
@@ -758,7 +758,7 @@ msgstr ""
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -781,11 +781,11 @@ msgstr "Hups, ohjelmaa suorittaessa tapahtui virhe."
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr "\"%s\" sisältää ohjelmiston, joka on tarkoitettu automaattisesti käynnistyväksi. Haluatko suorittaa sen?</b></big>"
+msgstr "\"%s\" sisältää ohjelmiston, joka on tarkoitettu automaattisesti käynnistyväksi. Haluatko suorittaa sen?"
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "Jos et luota tähän sijaintiin tai olet muuten epävarma, paina Peru."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -794,42 +794,42 @@ msgstr "_Suorita"
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "“%s” ei olisi yksilöllinen uusi nimi."
 
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "“%s” olisi ristiriidassa olemassa olevan tiedoston kanssa."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Nimi ei voi olla tyhjä."
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "Nimi ei voi sisältää merkkiä “/”."
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.” ei ole kelvollinen nimi."
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..” ei ole kelvollinen nimi."
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nimeä %d kansio uudelleen"
+msgstr[1] "Nimeä %d kansiota uudelleen"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nimeä %d tiedosto uudelleen"
+msgstr[1] "Nimeä %d tiedostoa uudelleen"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -837,61 +837,61 @@ msgstr[1] ""
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Nimeä %d tiedosto ja kansio uudelleen"
+msgstr[1] "Nimeä %d tiedostoa ja kansiota uudelleen"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "Alkuperäinen nimi (nouseva)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "Alkuperäinen nimi (laskeva)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "Ensin muokattu"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "Viimeksi muokattu"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "Ensin luotu"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "Viimeksi luotu"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "Kameran malli"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "Luontipäivä"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "Kausinumero"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "Jaksonumero"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "Kappalenumero"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "Esittäjän nimi"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:383
@@ -902,23 +902,23 @@ msgstr "Nimi"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "Albumin nimi"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "Alkuperäinen tiedostonimi"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:454
@@ -1026,15 +1026,15 @@ msgstr "Tiedoston sijainti."
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "Muokattu — Aika"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "Viimeaikaisuus"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "Hetki, jona käyttäjä viimeksi käytti tiedostoa."
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1062,15 +1062,15 @@ msgstr "Relevanssiasema hauissa"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "Arkiston nimi ei voi sisältää merkkiä “/”."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "Arkiston nimi ei voi olla “.”."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "Arkiston nimi ei voi olla “..”."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1251,7 +1251,7 @@ msgstr "Päätason tiedostoja ei voi nimetä uudestaan"
 #: src/nautilus-file.c:2159
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "Tämän tiedoston sisältö on luultavasti virheellistä työpöytätiedostomuotoa"
+msgstr "Tiedoston sisältö on luultavasti virheellisessä desktop-tiedostomuodossa"
 
 #: src/nautilus-file.c:2211
 #, c-format
@@ -1370,7 +1370,7 @@ msgstr "Et saa asettaa omistajaa"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "Määritettyä omistajaa “%s” ei ole olemassa"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1380,7 +1380,7 @@ msgstr "Et saa asettaa ryhmää"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "Määritettyä ryhmää “%s” ei ole olemassa"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1520,7 +1520,7 @@ msgstr "Nollaa"
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr "Toteuta tämä toiminto kaikille tiedostoille ja kansioille"
+msgstr "Käytä samaa toimintoa kaikille tiedostoille ja kansioille"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -1532,22 +1532,22 @@ msgstr "_Nimeä uudelleen"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "Kor_vaa"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "Tiedostojen nimi ei voi sisältää merkkiä “/”."
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:97
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "Tiedoston nimi ei voi olla “.”."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:108
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "Tiedoston nimi ei voi olla “..”."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
@@ -1749,7 +1749,7 @@ msgstr " (%'d."
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kohteen “%s” roskakorista pysyvästi?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1782,7 +1782,7 @@ msgstr "Tyhjennä _roskakori"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "Haluatko varmasti poistaa kohteen “%s” pysyvästi?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1795,12 +1795,12 @@ msgstr[1] "Haluatko varmasti poistaa %'d valittua kohdetta?"
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "Poistettu “%s”"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "Poistetaan “%s”"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1838,8 +1838,8 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s jäljellä"
+msgstr[1] "%'d / %'d — %s jäljellä"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1855,32 +1855,32 @@ msgstr "Virhe poistaessa."
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "Virhe kansiota “%s” poistaessa."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "Käyttöoikeutesi eivät riitä kansion “%s” poistamiseen."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "Virhe tiedostoa “%s” poistaessa."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "Käyttöoikeutesi eivät riitä tiedoston “%s” poistamiseen."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "Viedään roskakoriin “%s”"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "Viety roskakoriin “%s”"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1900,7 +1900,7 @@ msgstr[1] "Vietiin roskakoriin %'d tiedostoa"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "Kohdetta “%s” ei voi siirtää roskakoriin. Haluatko poistaa sen heti?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1917,12 +1917,12 @@ msgstr "Poistetaan tiedostoja"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "Asemaa %s ei voi avata"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "Osiota %s ei voi irrottaa"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1948,22 +1948,22 @@ msgstr "Kohteen \"%s\" käsittely ei onnistu"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Valmistellaan %'d tiedoston kopiointia (%s)"
+msgstr[1] "Valmistellaan %'d tiedoston kopiointia (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Valmistellaan %'d tiedoston siirtämistä (%s)"
+msgstr[1] "Valmistellaan %'d tiedoston siirtämistä (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Valmistellaan %'d tiedoston poistamista (%s)"
+msgstr[1] "Valmistellaan %'d tiedoston poistamista (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1976,8 +1976,8 @@ msgstr[1] "Valmistellaan %'d tiedoston siirtämistä roskakoriin"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Valmistaudutaan pakkamaan %'d tiedosto"
+msgstr[1] "Valmistaudutaan pakkamaan %'d tiedostoa"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -1995,50 +1995,50 @@ msgstr "Siirto roskakoriin epäonnistui."
 
 #: src/nautilus-file-operations.c:3094
 msgid "Error while compressing files."
-msgstr ""
+msgstr "Virhe tiedostoja pakatessa."
 
 #: src/nautilus-file-operations.c:3169
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Tiedostoja kansiossa “%s” ei voi käsitellä, koska sinulla ei ole oikeutta nähdä niitä."
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "Virhe haettaessa tietoja tiedostoista kansiossa “%s”."
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "Kansiota “%s” ei voi käsitellä, koska sinulla ei ole oikeutta lukea sitä."
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "Virhe luettaessa kansiota “%s”."
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "Tiedostoa “%s” ei voi käsitellä, koska sinulla ei ole oikeutta lukea sitä."
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "Virhe haettaessa tietoja kohteesta “%s”."
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "Virhe kohteeseen “%s” kopioitaessa."
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2061,7 +2061,7 @@ msgstr "Kohteessa ei ole tarpeeksi levytilaa jäljellä. Yritä tehdä tilaa poi
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "Kohteeseen kopioimiseksi vaaditaan %s lisätilaa."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2070,74 +2070,74 @@ msgstr "Kohdetta voi vain lukea."
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "Siirretään “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "Siirretty “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "Kopioidaan “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "Kopioitiin “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "Kahdennetaan “%s”"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "Kahdennettiin “%s”"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siirretään %'d tiedosto sijaintiin “%s”"
+msgstr[1] "Siirretään %'d tiedostoa sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopioidaan %'d tiedosto sijaintiin “%s”"
+msgstr[1] "Kopioidaan %'d tiedostoa sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siirrettiin %'d tiedosto sijaintiin “%s”"
+msgstr[1] "Siirrettiin %'d tiedostoa sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopioitiin %'d tiedosto sijaintiin “%s”"
+msgstr[1] "Kopioitiin %'d tiedostoa sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kahdennetaan %'d tiedosto sijainnissa “%s”"
+msgstr[1] "Kahdennetaan %'d tiedostoa sijainnissa “%s”"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kahdennettiin %'d tiedosto sijainnissa “%s”"
+msgstr[1] "Kahdennettiin %'d tiedostoa sijainnissa “%s”"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2152,7 +2152,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2180,8 +2180,8 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s — %s jäljellä (%s/s)"
+msgstr[1] "%s / %s — %s jäljellä (%s/s)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2193,27 +2193,27 @@ msgstr[1] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s jäljellä (%s/s)"
+msgstr[1] "%'d / %'d — %s jäljellä (%s/s)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "Kansiota “%s” ei voida kopioida, koska sinulla ei ole oikeutta luoda sitä kohteeseen."
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "Virhe luotaessa kansiota “%s”."
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Tiedostoja kansiossa “%s” ei voi kopioida, koska sinulla ei ole oikeutta nähdä niitä."
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2224,13 +2224,13 @@ msgstr "_Ohita tiedostot"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "Kansiota “%s” ei voi kopioida, koska sinulla ei ole oikeutta sen lukemiseen."
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "Virhe siirrettäessä “%s”."
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2265,17 +2265,17 @@ msgstr "Kohde kirjoittaisi lähdetiedoston päälle."
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "Virhe kopioitaessa “%s”."
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "Sijainnissa %s jo olemassa olevan samannimisen tiedoston poistaminen epäonnistui."
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "Virhe kopioitaessa tiedostoa sijaintiin %s."
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2284,7 +2284,7 @@ msgstr "Kopioidaan tiedostoja"
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "Valmistellaan siirtämään “%s”"
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2296,7 +2296,7 @@ msgstr[1] "Valmistellaan %'d tiedoston siirtoa"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "Tapahtui virhe siirrettäessä tiedostoa sijaintiin %s."
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2305,7 +2305,7 @@ msgstr "Siirretään tiedostoja"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "Luodaan linkkejä sijainnissa “%s”"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2317,7 +2317,7 @@ msgstr[1] "Luodaan linkki %'d tiedostoon"
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "Virhe luotaessa linkkiä kohteeseen %s."
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2325,12 +2325,12 @@ msgstr "Paikallisia linkkejä voi käyttää vain paikallisten tiedostojen kanss
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "Kohde ei tue symbolisia linkkejä."
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "Virhe luotaessa symbolista linkkiä sijainnissa %s."
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2349,17 +2349,17 @@ msgstr "Nimetön asiakirja"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "Virhe luotaessa kansiota %s."
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "Virhe luotaessa tiedostoa %s."
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "Virhe luotaessa kansiota sijainnissa %s."
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2371,91 +2371,91 @@ msgstr "Suoritettavaa käynnistintä ei voi merkitä luotetuksi"
 
 #: src/nautilus-file-operations.c:8072
 msgid "Verifying destination"
-msgstr ""
+msgstr "Vahvistetaan kohde"
 
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "Puretaan “%s”"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "Virhe purettaessa “%s”"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "Tapahtui virhe purettaessa “%s”."
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "Ei riittävästi vapaata tilaa, jotta %s olisi mahdollista purkaa"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "Purettiin “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Purettiin %'d tiedosto sijaintiin “%s”"
+msgstr[1] "Purettiin %'d tiedostoa sijaintiin “%s”"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
-msgstr ""
+msgstr "Valmistellaan purkamista"
 
 #: src/nautilus-file-operations.c:8483
 msgid "Extracting Files"
-msgstr ""
+msgstr "Puretaan tiedostoja"
 
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "Pakataan “%s” arkistoksi “%s”"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pakataan %'d tiedosto arkistoon “%s”"
+msgstr[1] "Pakataan %'d tiedostoa arkistoon “%s”"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "Virhe pakattaessa “%s” arkistoon “%s”"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Virhe pakattaessa %'d tiedosto arkistoon “%s”"
+msgstr[1] "Virhe pakattaessa %'d tiedostoa arkistoon “%s”"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "Virhe tiedostoja pakattaessa."
 
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "Pakattiin “%s” arkistoon “%s”"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pakattiin %'d tiedosto arkistoon “%s”"
+msgstr[1] "Pakattiin %'d tiedostoa arkistoon “%s”"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
-msgstr ""
+msgstr "Pakataan tiedostoja"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
@@ -2584,7 +2584,7 @@ msgstr "Valitse kopioinnin sijainti"
 
 #: src/nautilus-files-view.c:6499
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "Valitse mihin arkisto puretaan"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6759
@@ -2626,11 +2626,11 @@ msgstr "Suorita"
 
 #: src/nautilus-files-view.c:7910
 msgid "Extract Here"
-msgstr ""
+msgstr "Pura tänne"
 
 #: src/nautilus-files-view.c:7911
 msgid "Extract to…"
-msgstr ""
+msgstr "Pura…"
 
 #: src/nautilus-files-view.c:7915
 msgid "Open"
@@ -2726,15 +2726,15 @@ msgstr "Tee uudelleen viimeisin kumottu toiminto"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siirrä %d kohde takaisin sijaintiin “%s”"
+msgstr[1] "Siirrä %d kohdetta takaisin sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siirrä %d kohde sijaintiin “%s”"
+msgstr[1] "Siirrä %d kohdetta sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2753,12 +2753,12 @@ msgstr[1] "_Tee uudelleen %d kohteen siirto"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "Siirrä “%s” takaisin sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "Siirrä “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2794,12 +2794,12 @@ msgstr[1] "Palauta %d kohdetta roskakorista"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "Siirrä “%s” takaisin roskakoriin"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "Palauta “%s” roskakorista"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2812,8 +2812,8 @@ msgstr[1] "Poista %d kopioitua kohdetta"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopioi %d kohde sijaintiin “%s”"
+msgstr[1] "Kopioi %d kohdetta sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2836,12 +2836,12 @@ msgstr[1] "_Tee uudelleen %d kohteen kopiointi"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "Poista “%s”"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "Kopioi “%s” sijaintiin “%s”"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2862,8 +2862,8 @@ msgstr[1] "Poista %d kahdennettua kohdetta"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kahdenna %d kohde sijainnissa “%s”"
+msgstr[1] "Kahdenna %d kohdetta sijainnissa “%s”"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2882,7 +2882,7 @@ msgstr[1] "_Tee uudelleen%d kohteen kahdennus"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "Kahdenna “%s” sijainnissa “%s”"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2909,12 +2909,12 @@ msgstr[1] "Luo linkit %d kohteeseen"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "Poista linkki kohteeseen “%s”"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "Luo linkki kohteeseen “%s”"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2927,7 +2927,7 @@ msgstr "_Tee uudelleen linkin luonti"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "Luo tyhjä tiedosto “%s”"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2940,7 +2940,7 @@ msgstr "_Tee uudelleen tyhjän tiedoston luonti"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "Luo uusi kansio “%s”"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2953,7 +2953,7 @@ msgstr "_Tee uudelleen uuden kansion luonti"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "Luo uusi tiedosto “%s” asiakirjamallista "
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2967,7 +2967,7 @@ msgstr "_Tee uudelleen mallista luonti"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "Nimeä “%s” muotoon “%s”"
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2982,16 +2982,16 @@ msgstr "_Tee uudelleen nimenmuutos"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Massanimeä %d tiedosto"
+msgstr[1] "Massanimeä %d tiedostoa"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "_Kumoa massanimeäminen"
 
 #: src/nautilus-file-undo-operations.c:1119
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "_Tee uudelleen massanimeäminen"
 
 #: src/nautilus-file-undo-operations.c:1330
 #, c-format
@@ -3003,12 +3003,12 @@ msgstr[1] "Siirrä %d kohdetta roskakoriin"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "Nimetään kohde “%s” kohteeksi “%s”."
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "Siirrä “%s” roskakoriin"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -3021,12 +3021,12 @@ msgstr "_Siirrä uudelleen roskakoriin"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Palauta kohteen “%s” sisällä olevien tiedostojen alkuperäiset oikeudet"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Aseta kohteen “%s” sisällä olevien tiedostojen oikeudet"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -3041,22 +3041,22 @@ msgstr "_Tee uudelleen oikeuksien muutos"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "Palauta kohteen “%s” alkuperäiset käyttöoikeudet"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "Aseta kohteen “%s” oikeudet"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "Palauta kohteen “%s” ryhmäksi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "Aseta kohteen “%s” ryhmäksi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3069,12 +3069,12 @@ msgstr "_Tee uudelleen ryhmän muutos"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "Palauta kohteen “%s” omistajaksi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "Aseta kohteen “%s” omistajaksi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3086,50 +3086,50 @@ msgstr "_Tee uudelleen omistajan muutos"
 
 #: src/nautilus-file-undo-operations.c:2071
 msgid "_Undo Extract"
-msgstr ""
+msgstr "_Kumoa purkaminen"
 
 #: src/nautilus-file-undo-operations.c:2072
 msgid "_Redo Extract"
-msgstr ""
+msgstr "_Tee uudelleen purkaminen"
 
 #: src/nautilus-file-undo-operations.c:2089
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Poista %d purettu tiedosto"
+msgstr[1] "Poista %d purettua tiedostoa"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "Pura “%s”"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pura %d tiedosto"
+msgstr[1] "Pura %d tiedostoa"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "Pakkaa ”%s”"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pakkaa %d tiedosto"
+msgstr[1] "Pakkaa %d tiedostoa"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
-msgstr ""
+msgstr "_Kumoa pakkaaminen"
 
 #: src/nautilus-file-undo-operations.c:2269
 msgid "_Redo Compress"
-msgstr ""
+msgstr "_Tee uudelleen pakkaaminen"
 
 #: src/nautilus-file-utilities.c:1023
 #, c-format
@@ -3405,7 +3405,7 @@ msgstr "Tätä linkkiä ei voi käyttää, koska sillä ei ole kohdetta."
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "Tätä linkkiä ei voi käyttää, koska kohdetta “%s” ei ole olemassa."
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3483,7 +3483,7 @@ msgstr "Sovelluksen käynnistintä ”%s” ei ole merkitty luotetuksi. Jos et t
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "Luota ja k_äynnistä"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3567,12 +3567,12 @@ msgstr "Kansion nimi ei voi sisältää merkkiä \"/\"."
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:93
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "Kansion nimi ei voi olla “.”."
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:104
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "Kansion nimi ei voi olla “..”."
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
@@ -3596,18 +3596,18 @@ msgstr "Sulje välilehti"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "Yrität korvata kohdekansion “%s” symbolisella linkillä."
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "Tämä ei ole sallittua, koska siten vältetään kohdekansion sisällön poistaminen."
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "Nimeä symbolinen linkki uudelleen tai napsauta Ohita-painiketta."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -3711,12 +3711,12 @@ msgstr "Viimeksi muokattu:"
 
 #: src/nautilus-operations-ui-manager.c:307
 msgid "Merge with"
-msgstr "Yhdistä tämän kanssa"
+msgstr "Yhdistä kohteen kanssa"
 
 #: src/nautilus-operations-ui-manager.c:307
 #: src/nautilus-operations-ui-manager.c:312
 msgid "Replace with"
-msgstr "Alkuperäisen korvaava tiedosto"
+msgstr "Korvaa käyttäen"
 
 #: src/nautilus-operations-ui-manager.c:361
 msgid "Merge"
@@ -3777,7 +3777,7 @@ msgstr "Lisätiedot: "
 
 #: src/nautilus-progress-info.c:312
 msgid "Canceled"
-msgstr ""
+msgstr "Peruttu"
 
 #: src/nautilus-progress-info.c:378 src/nautilus-progress-info.c:399
 msgid "Preparing"
@@ -4092,11 +4092,11 @@ msgstr "Etsitään vain laitteilta"
 
 #: src/nautilus-query-editor.c:143
 msgid "Searching network locations only"
-msgstr "Etsitään vain verkkosijainneista"
+msgstr "Etsitään vain verkkosijanneista"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "Etäsijainti — etsitään vain nykyisestä kansiosta"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4112,12 +4112,12 @@ msgstr "Pyydetyn haun toteutus epäonnistui"
 
 #: src/nautilus-search-popover.c:301
 msgid "Show a list to select the date"
-msgstr "Näytä luettelo päivän valintaa varten"
+msgstr "Näytä luettelo valitaksesi päivän"
 
 #: src/nautilus-search-popover.c:307
 #: src/resources/ui/nautilus-search-popover.ui:96
 msgid "Show a calendar to select the date"
-msgstr "Näytä kalenteri päivän valintaa varten"
+msgstr "Näytä kalenteri valitaksesi päivän"
 
 #. Add the no date filter element first
 #: src/nautilus-search-popover.c:421
@@ -4140,7 +4140,7 @@ msgstr "Valitse"
 #: src/nautilus-search-popover.c:667
 #: src/resources/ui/nautilus-search-popover.ui:51
 msgid "Select Dates…"
-msgstr "Valitse ajankohta…"
+msgstr "Valitse päivät…"
 
 #. trash
 #: src/nautilus-shell-search-provider.c:320 src/nautilus-trash-bar.c:208
@@ -4150,13 +4150,13 @@ msgstr "Roskakori"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "Aseta tiedostoja tähän kansioon käyttääksesi niitä malleina uusille asiakirjoille."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"Gnomen ohje malliasiakirjoista\">Lisätietoja…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4164,11 +4164,11 @@ msgstr "Tässä kansiossa olevat suoritettavat tiedostot näkyvät skriptivaliko
 
 #: src/nautilus-toolbar.c:860 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Kumoa"
 
 #: src/nautilus-toolbar.c:867 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "_Tee uudelleen"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4191,8 +4191,8 @@ msgstr "Poista kaikki roskakorin sisältö"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d päivä sitten"
+msgstr[1] "%d päivää sitten"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4205,36 +4205,36 @@ msgstr[1] "%d päivää sitten"
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viikko sitten"
+msgstr[1] "%d viikkoa sitten"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] "Viime viikolla"
+msgstr[0] "Viikko sitten"
 msgstr[1] "%d viikkoa sitten"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kuukausi sitten"
+msgstr[1] "%d kuukautta sitten"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] "Viime kuussa"
+msgstr[0] "Kuukausi sitten"
 msgstr[1] "%d kuukautta sitten"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viime vuonna"
+msgstr[1] "%d vuotta sitten"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4245,23 +4245,23 @@ msgstr[1] "%d vuotta sitten"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "Ylätason kansio"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "Uusi välilehti"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "Sulje nykyinen näkymä"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "Eteenpäin"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4316,7 +4316,7 @@ msgstr "Käsittele ja järjestä tiedostoja"
 #. * box to give credit to the translator(s).
 #: src/nautilus-window.c:3094
 msgid "translator-credits"
-msgstr "Ilkka Tuohela, 2005-2009\nTimo Jyrinki, 2008\nPauli Virtanen, 2000-2005\nVille-Pekka Vainio, 2011, 2013\nJiri Grönroos, 2011-2016\n\nhttps://l10n.gnome.org/teams/fi/\n\nLaunchpad Contributions:\n  Christian Hellberg https://launchpad.net/~christian-hellberg\n  Ilkka Tuohela https://launchpad.net/~hile-hut\n  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n  Jussi Aalto https://launchpad.net/~jtaalto\n  Lazy https://launchpad.net/~ubuntu-bugs-oittaa\n  Timo Jyrinki https://launchpad.net/~timo-jyrinki\n  Tomi Juntunen https://launchpad.net/~tojuntu\n  Tommi Saira https://launchpad.net/~tommisaira"
+msgstr "Jiri Grönroos, 2011-2017\nVille-Pekka Vainio, 2011, 2013\nIlkka Tuohela, 2005-2009\nTimo Jyrinki, 2008\nPauli Virtanen, 2000-2005\n\nhttps://l10n.gnome.org/teams/fi/\n\nLaunchpad Contributions:\n  Christian Hellberg https://launchpad.net/~christian-hellberg\n  Ilkka Tuohela https://launchpad.net/~hile-hut\n  Jiri Grönroos https://launchpad.net/~jiri-gronroos\n  Jussi Aalto https://launchpad.net/~jtaalto\n  Lazy https://launchpad.net/~ubuntu-bugs-oittaa\n  Timo Jyrinki https://launchpad.net/~timo-jyrinki\n  Tomi Juntunen https://launchpad.net/~tojuntu\n  Tommi Saira https://launchpad.net/~tommisaira"
 
 #: src/nautilus-window-slot.c:1436
 msgid "Unable to display the contents of this folder."
@@ -4324,7 +4324,7 @@ msgstr "Kansion sisällön näyttäminen epäonnistui."
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "Tämä sijainti ei vaikuta olevan kansio."
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4346,7 +4346,7 @@ msgstr "Ei pääsyä sijaintiin"
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "Käyttöoikeutesi eivät riitä pyydetyn sijainnin esittämiseen."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4390,7 +4390,7 @@ msgstr "Sulje ikkuna tai välilehti"
 #: src/resources/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Etsi"
+msgstr "Haku"
 
 #: src/resources/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
@@ -4480,7 +4480,7 @@ msgstr "Siirrä välilehteä oikealle"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "Palauta välilehti"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4490,12 +4490,12 @@ msgstr "Liikkuminen"
 #: src/resources/gtk/help-overlay.ui:168
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr "Siirry takas"
+msgstr "Siirry taaksepäin"
 
 #: src/resources/gtk/help-overlay.ui:175
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr "Siirry eteen"
+msgstr "Siirry eteenpäin"
 
 #: src/resources/gtk/help-overlay.ui:182
 msgctxt "shortcut window"
@@ -4605,7 +4605,7 @@ msgstr "Poista pysyvästi"
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "Leikkaa"
 
 #: src/resources/gtk/help-overlay.ui:334
 msgctxt "shortcut window"
@@ -4682,105 +4682,105 @@ msgstr "_Nimeä uudelleen"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "Nimeä uudelleen _mallista"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "Etsi ja korvaa _teksti"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "Lisää"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "Automaattinen numerojärjestys"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "Muoto"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "Olemassa oleva teksti"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "Korvaa tekstillä"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "Korvaa"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "Automaattiset numerot"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "Luontipäivä"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "Kausinumero"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "Jaksonumero"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "Kappalenumero"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "Esittäjän nimi"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "Albumin nimi"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "Alkuperäinen tiedostonimi"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "Luo arkisto"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "Arkiston nimi"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "Yhteensopiva kaikkien käyttöjärjestelmien kanssa."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "Pienemmät arkistot, mutta tuki vain Linuxilla ja Macilla."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "Pienemmät arkistot, mutta tulee asentaa Windowsille ja Macille."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4912,11 +4912,11 @@ msgstr "Muuta kuvakkeen kokoa…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "Palauta kuvakkeen alkuperäinen koko"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "Nime_ä uudelleen…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4928,15 +4928,15 @@ msgstr "P_oista viimeisimmistä"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "_Pura tänne"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "P_ura…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "Pa_kkaa…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -4944,7 +4944,7 @@ msgstr "Kansio on tyhjä"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "Roskakori on tyhjä"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4984,25 +4984,25 @@ msgstr "_Kansiot ennen tiedostoja"
 
 #: src/resources/ui/nautilus-preferences-window.ui:104
 msgid "Allow folders to be _expanded"
-msgstr "Salli kansioiden _laajennus"
+msgstr "Salli kansioi_den laajentaminen"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "Kokeellinen"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "Käytä uusia näk_ymiä"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
-msgstr "Kuvakenäkymän tekstit"
+msgstr "Kuvakenäkymän lisätiedot"
 
 #: src/resources/ui/nautilus-preferences-window.ui:198
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "Lisää tietoja näytettäväksi tiedostojen ja kansioiden nimien alle. Mitä enemmän lähennät näkymää, sitä enemmän tietoja näytetään."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
@@ -5028,7 +5028,7 @@ msgstr "Näkymät"
 
 #: src/resources/ui/nautilus-preferences-window.ui:403
 msgid "Open Action"
-msgstr "Avaustoiminto"
+msgstr "Avaamisen toiminto"
 
 #: src/resources/ui/nautilus-preferences-window.ui:417
 msgid "_Single click to open items"
@@ -5040,11 +5040,11 @@ msgstr "Avaa kohteet _kaksoisnapsautuksella"
 
 #: src/resources/ui/nautilus-preferences-window.ui:468
 msgid "Link Creation"
-msgstr "Linkkien luominen"
+msgstr "Linkin luominen"
 
 #: src/resources/ui/nautilus-preferences-window.ui:482
 msgid "Show action to create symbolic _links"
-msgstr "Näytä toiminto sym_bolisten linkkien luomiseksi"
+msgstr "Näytä toiminto, jolla luodaan sym_bolisia linkkejä"
 
 #: src/resources/ui/nautilus-preferences-window.ui:514
 msgid "Executable Text Files"
@@ -5064,11 +5064,11 @@ msgstr "_Kysy mitä tehdään"
 
 #: src/resources/ui/nautilus-preferences-window.ui:611
 msgid "Ask before _emptying the Trash"
-msgstr "Kysy vahvistus ennen roskakorin _tyhjennystä"
+msgstr "Kysy ennen roskakorin _tyhjennystä"
 
 #: src/resources/ui/nautilus-preferences-window.ui:628
 msgid "Show action to _permanently delete files and folders"
-msgstr "Näytä valikossa viite poistaa tiedostoja ja kansioita _pysyvästi"
+msgstr "Näytä toiminto, jolla poistetaan tiedostoja ja kansioita pysyvästi"
 
 #: src/resources/ui/nautilus-preferences-window.ui:660
 msgid "Behavior"
@@ -5088,7 +5088,7 @@ msgstr "Etsi alikansioista:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:779
 msgid "_On this computer only"
-msgstr "_Vain tältä koneelta"
+msgstr "_Vain tältä tietokoneelta"
 
 #: src/resources/ui/nautilus-preferences-window.ui:796
 msgid "_All locations"
@@ -5100,11 +5100,11 @@ msgstr "_Ei koskaan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "Koko tekstin haku:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "Aseta o_letukseksi"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
@@ -5116,15 +5116,15 @@ msgstr "Näytä pienoiskuvat:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:902
 msgid "_Files on this computer only"
-msgstr "_Vain tämän koneen tiedostoista"
+msgstr "Vai_n tämän tietokoneen tiedostoista"
 
 #: src/resources/ui/nautilus-preferences-window.ui:919
 msgid "A_ll files"
-msgstr "_Kaikista tiedostoista"
+msgstr "Kaiki_sta tiedostoista"
 
 #: src/resources/ui/nautilus-preferences-window.ui:936
 msgid "N_ever"
-msgstr "_Ei koskaan"
+msgstr "Ei k_oskaan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:960
 msgid "Onl_y for files smaller than:"
@@ -5136,19 +5136,19 @@ msgstr "Tiedostojen lukumäärä"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1026
 msgid "Count number of files in folders:"
-msgstr "Laske kansioissa olevien tiedostojen määrä:"
+msgstr "Laske tiedostojen lukumäärät:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1037
 msgid "F_olders in this computer only"
-msgstr "Vain t_ämän koneen kansioista"
+msgstr "Vain t_ämän tietokoneen kansioista"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1054
 msgid "All folder_s"
-msgstr "Kaikista ka_nsioista"
+msgstr "Kaikis_ta tiedostoista"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1071
 msgid "Ne_ver"
-msgstr "_Ei koskaan"
+msgstr "Ei kosk_aan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1103
 msgid "Search & Preview"
@@ -5213,7 +5213,7 @@ msgstr "Roskakoriin siirron päivämäärän mukaan"
 
 #: src/resources/ui/nautilus-search-popover.ui:18
 msgid "When"
-msgstr "Milloin"
+msgstr "Ajankohta"
 
 #: src/resources/ui/nautilus-search-popover.ui:45
 msgid "Select a date"
@@ -5225,7 +5225,7 @@ msgstr "Tyhjennä parhaillaan valittuna oleva päivä"
 
 #: src/resources/ui/nautilus-search-popover.ui:127
 msgid "Since…"
-msgstr "Lähtien…"
+msgstr "Mistä lähtien…"
 
 #: src/resources/ui/nautilus-search-popover.ui:194
 msgid "Last _modified"
@@ -5257,15 +5257,15 @@ msgstr "Tiedoston nimi"
 
 #: src/resources/ui/nautilus-search-popover.ui:383
 msgid "Search only on the file name"
-msgstr "Etsi vain tiedostonimestä"
+msgstr "Etsi vain tiedostojen nimistä"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "Uusi kansio"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "Lisää sijainti kirjanmerkkeihin"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
@@ -5277,11 +5277,11 @@ msgstr "Avaa toimintovalikko"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "Näkymätilan vuorottelu"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "Vuorottele ruudukko- ja luettelonäkymän välillä"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
@@ -5289,7 +5289,7 @@ msgstr "Etsi tiedostoja"
 
 #: src/resources/ui/nautilus-toolbar.ui:176
 msgid "Operations in progress"
-msgstr "Toiminto meneillään"
+msgstr "Toimintoja meneillään"
 
 #: src/resources/ui/nautilus-toolbar.ui:177
 msgid "Open operations in progress"
@@ -5297,27 +5297,27 @@ msgstr "Avaa meneillään olevat toiminnot"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "Loitonna"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "Palauta mittakaava"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "Lähennä"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Ö"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Ö-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
@@ -5325,7 +5325,7 @@ msgstr "Viimeksi _muokattu"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "_Ensin muokattu"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
@@ -5349,7 +5349,7 @@ msgstr "Näytä _piilotiedostot"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "Päi_vitä"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
@@ -5428,68 +5428,68 @@ msgstr "Irrota"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "Palvelinten osoitteet"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "Palvelinten osoitteet muodostuvat protokollan etuliitteestä ja osoitteesta. Esimerkkejä:"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "Käytettävissä olevat protokollat"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "File Transfer Protocol (FTP)"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "Network File System (NFS)"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "SSH File Transfer Protocol"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "Etuliite"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// tai ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// tai ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// tai davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267
 msgid "No recent servers found"
-msgstr "Ei viimeksi käytettyjä palvelimia"
+msgstr "Viimeisimpiä palvelimia ei löytynyt"
 
 #: src/gtk/nautilusgtkplacesview.ui:290
 msgid "Recent Servers"
@@ -5505,4 +5505,4 @@ msgstr "Yhdistä _palvelimeen"
 
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"
-msgstr "Anna palvelimen _osoite…"
+msgstr "Anna palvelimen osoite…"

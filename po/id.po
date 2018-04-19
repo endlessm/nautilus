@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:35+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-os/nautilus/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "Di mana memposisikan tab yang baru dibuka pada jendela peramban"
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "Bila diisi \"after-current-tab\", maka tab baru akan disisipkan setelah tab kini. Bila diisi \"end\", maka tab baru akan ditambahkan di akhir daftar tab."
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
@@ -109,7 +109,7 @@ msgstr "Di mana melaksanakan pencarian rekursif"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "Di lokasi mana Nautilus mesti mencari pada subfolder. Nilai yang tersedia adalah \"local-only\" (hanya lokal), \"always\" (selalu), \"never\" (tidak pernah)."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -162,7 +162,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "Kompromi kecepatan saat menghitung jumlah objek dalam sebuah direktori. Jika diset \"always\" maka objek selalu dihitung meskipun lokasinya di server jarak jauh atau komputer lain. Jika diset ke \"local-only\" maka hanya menghitung objek untuk sistem berkas lokal atau di komputer ini. Jika diset ke \"never\" maka jumlah objek tidak akan dihitung."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -172,7 +172,7 @@ msgstr "Jenis klik untuk membuka/mengeksekusi berkas"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "Nilai yang dapat digunakan adalah \"single\" untuk membuka berkas dengan sekali klik, atau \"double\" untuk dua kali klik."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -184,7 +184,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "Apa yang harus dilakukan terhadap berkas teks yang dapat dieksekusi (skrip) ketika diaktifkan (baik dengan klik tunggal atau ganda). Nilai yang mungkin adalah \"launch\" untuk menjalankannya sebagai program, \"ask\" untuk menanyakan apa yang harus dilakukan, dan \"display\" untuk menampilkannya sebagai berkas teks."
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -209,35 +209,35 @@ msgstr "Tampilkan suatu dialog peringatan bagi perubahan pintasan untuk memindah
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "Memakai kejadian atau event ekstra tombol tetikus dalam jendela peramban Nautilus"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan apakah aksi yang sesuai akan dilaksanakan oleh Nautilis apabila salah satu tombol tersebut ditekan."
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "Tombol tetikus untuk mengaktifkan fungsi \"Maju\" pada jendela peramban"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan tombol mana yang membuat perintah \"Maju\" menjadi aktif dalam jendela peramban. Nilai yang mungkin antara 6 dan 14."
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "Tombol tetikus untuk mengaktifkan fungsi \"Balik\" pada jendela peramban"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "Bagi pengguna dengan tetikus yang memiliki tombol \"Maju\" serta \"Mundur\", kunci ini akan menentukan tombol mana yang membuat perintah \"Mundur\" menjadi aktif dalam jendela peramban. Nilai yang mungkin antara 6 dan 14."
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -251,7 +251,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "Kompromi kecepatan ketika membuat miniatur berkas. Jika diset \"always\" maka miniatur selalu dibuat meskipun lokasinya di server jarak jauh atau komputer lain. Jika diset ke \"local-only\" maka hanya menampilkan miniatur untuk sistem berkas lokal atau di komputer ini. Jika diset ke \"never\" maka miniatur tidak akan dibuat, dan hanya ikon biasa yang ditampilkan. Opsi ini berlaku bagi semua tipe berkas yang dapat dipratinjau."
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -262,7 +262,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "Gambar yang ukurannya lebih besar dari ini (dalam bita) tidak akan dibuat miniaturnya. Tujuannya adalah untuk menghindari membuat miniatur gambar yang terlalu besar yang mungkin memakan waktu lama untuk dimuat atau menggunakan banyak memori."
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -272,7 +272,7 @@ msgstr "Urutan baku"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "Baku pengurutan objek pada tampilan ikon. Nilai yang mungkin adalah \"name\", \"size\", \"type\", dan \"mtime\"."
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -284,7 +284,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "Apabila bernilai true, berkas pada jendela baru akan diurut terbalik. Yaitu, apabila diurutkan berdasar nama, ketimbang diurutkan dari \"a\" sampai \"z\", berkas-berkas itu diurutkan dari \"z\" ke \"a\"; apabila diurutkan berdasar ukuran berkas, bukan diurut dari naik tapi turun."
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -295,7 +295,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "Program penampil ini digunakan saat membuka folder ini, kecuali Anda memilih tampilan lain untuk folder tersebut. Nilai yang mungkin adalah \"list-view\" dan \"icon-view\"."
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -305,7 +305,7 @@ msgstr "Menentukan untuk menampilkan berkas tersembunyi"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "Kunci ini telah usang dan diabaikan. Kunci \"show-hidden\" dari \"org.gtk.Settings.FileChooser\" yang kini digunakan."
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -343,34 +343,34 @@ msgstr "Apabila bernilai true, ketika melakukan operasi seret dan jatuhkan, fold
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "Aktifkan tampilan eksperimental baru"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "Apakah akan menggunakan tampilan eksperimental baru menggunakan GTK+ widget terbaru untuk membantu memberikan umpan balik dan membentuk masa depannya."
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
 "Whether to have full text search enabled by default when opening a new "
 "window/tab"
-msgstr ""
+msgstr "Apakah pencarian teks lengkap akan diaktifkan secara bawaan saat membuka jendela/tab baru"
 
 #: data/org.gnome.nautilus.gschema.xml:218
 msgid ""
 "If set to true, then Nautilus will also match the file contents besides the "
 "name. This toggles the default active state, which can still be overriden in"
 " the search popover"
-msgstr ""
+msgstr "Jika diatur ke true, maka Nautilus juga akan mencocokkan dengan isi berkas disamping namanya. Ini akan menjungkitkan status aktif bawaan, yang masih dapat diganti dalam pencarian popover"
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
-msgstr "Format standar untuk mengompres file"
+msgstr "Format bawaan untuk mengompresi berkas"
 
 #: data/org.gnome.nautilus.gschema.xml:226
 msgid "The format that will be selected when compressing files."
-msgstr "Format yang akan digunakan ketika mengompres file"
+msgstr "Format yang akan dipilih ketika mengompresi berkas."
 
 #: data/org.gnome.nautilus.gschema.xml:233
 msgid "List of possible captions on icons"
@@ -382,7 +382,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "Daftar teks keterangan yang tampil pada bagian bawah ikon dan desktop. Banyaknya teks keterangan yang ditampilkan bergantung pada faktor zum atau tingkat perbesaran yang aktif. Nilai yang mungkin adalah: “size”, “type”, “date_modified”, “owner”, “group”, “permissions”, dan “mime_type”."
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -422,7 +422,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "String yang menyatakan bagaimana bagian dari nama berkas yang terlalu panjang mesti diganti dengan elipsis, bergantung kepada tingkat perbesaran. Setiap entri daftar adalah dalam bentuk \"Tingkat Perbesaran:Bilangan Bulat\". Untuk setiap tingkat perbesaran, bila bilangan bulat yang diberikan lebih dari 0, nama berkas tidak akan melampaui cacah baris yang dinyatakan. Bila bilangan bulat adalah 0 atau kurang, tidak ada batas yang dipaksakan pada tingkat perbesaran yang dinyatakan. Entri baku dengan bentuk \"Bilangan Bulat\" tanpa menyatakan tingkat perbesaran juga diperbolehkan. Itu mendefinisikan cacah baris maksimum bagi semua tingkat perbesaran lainnya. Contoh: 0 — selalu tampilkan nama berkas panjang; 3 — pendekkan nama berkas apabila melebihi 3 baris; smallest:5,smaller:4,0 — pendekkan nama berkas apabila melebihi lima baris pada tingkat perbesaran \"smallest\". Pendekkan nama berkas apabila melebihi empat baris pada tingkat perbesaran \"smaller\". Jangan menyingkat nama berkas pada tingkat perbesaran lain. Tingkat perbesaran yang tersedia: small, standard, large"
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -763,7 +763,7 @@ msgstr "Pilih URI yang ditentukan pada folder induk."
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -790,7 +790,7 @@ msgstr "\"%s\" memuat perangkat lunak yang sedianya berjalan otomatis. Jalankan?
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "Jika Anda tidak percaya atau tidak yakin pada lokasi ini, tekan Batal."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -799,40 +799,40 @@ msgstr "_Jalankan"
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr "\"%s\" bukan nama baru yang unik"
+msgstr "\"%s\" tidak akan menjadi nama baru yang unik."
 
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr "\"%s\" akan menjadi konflik dengan file yang telah ada"
+msgstr "“%s” akan bertentangan dengan berkas yang ada."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Nama tak boleh kosong."
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "Nama tak boleh memuat \"/\"."
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.” bukan suatu nama yang valid."
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..” bukan suatu nama yang valid."
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] "Ubah nama %d folder"
+msgstr[0] "Ubah Nama %d Folder"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] "Ubah nama %d file"
+msgstr[0] "Ubah Nama %d Berkas"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -840,48 +840,48 @@ msgstr[0] "Ubah nama %d file"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
+msgstr[0] "Ubah Nama %d Berkas dan Folder"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr "Nama asli (urutan a-z)"
+msgstr "Nama Asli (Berurut Naik)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr "Nama asli (urutan z-a)"
+msgstr "Nama Asli (Berurut Turun)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr "Pertama diubah"
+msgstr "Pertama Diubah"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr "Terakhir diubah"
+msgstr "Terakhir Diubah"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr "Pertama dibuat"
+msgstr "Pertama Dibuat"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr "Terakhir dibuat"
+msgstr "Pertama Dibuat"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr "Model kamera"
+msgstr "Model Kamera"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr "Tanggal dibuat"
+msgstr "Tanggal Pembuatan"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr "Nomor season"
+msgstr "Nomor musim"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
@@ -893,7 +893,7 @@ msgstr "Nomor trek"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr "Nama artis"
+msgstr "Nama Artis"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:383
@@ -904,11 +904,11 @@ msgstr "Judul"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr "Nama album"
+msgstr "Nama Album"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr "Nama asli file"
+msgstr "Nama Berkas Asli"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
@@ -1028,15 +1028,15 @@ msgstr "Lokasi berkas."
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "Diubah — Waktu"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "Kebaruan"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "Tanggal berkas terakhir diakses oleh pengguna."
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1064,15 +1064,15 @@ msgstr "Tingkat relevansi pencarian"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr "Nama arsip tidak boleh ada \"/\"."
+msgstr "Nama arsip tak boleh memuat \"/\"."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr "Nama arsip tidak boleh ada \".\"."
+msgstr "Sebuah arsip tak bisa dinamai \".\"."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr "Nama arsip tidak boleh ada \"..\"."
+msgstr "Sebuah arsip tak bisa dinamai \"..\"."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1372,7 +1372,7 @@ msgstr "Tak diizinkan menata pengguna"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "Pemilik “%s” tidak ada"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1382,7 +1382,7 @@ msgstr "Tak diizinkan menata kelompok"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "Kelompok “%s” tidak ada"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1531,7 +1531,7 @@ msgstr "Ubah _Nama"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "_Ganti"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
@@ -1744,7 +1744,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "Yakin akan menghapus permanen \"%s\" dari tempat sampah?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1776,7 +1776,7 @@ msgstr "Kosongkan _Tempat Sampah"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "Yakin akan menghapus permanen \"%s\"?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1788,12 +1788,12 @@ msgstr[0] "Yakin akan menghapus permanen %'d objek yang dipilih?"
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "Dihapus \"%s\""
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "Menghapus \"%s\""
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1829,7 +1829,7 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — tersisa %s"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1844,32 +1844,32 @@ msgstr "Galat sewaktu menghapus."
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "Galat sewaktu menghapus folder \"%s\"."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "Anda tidak punya cukup hak untuk menghapus folder \"%s\"."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "Galat sewaktu menghapus berkas \"%s\"."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "Anda tidak punya cukup hak untuk menghapus berkas \"%s\"."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "Membuang \"%s\""
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "\"%s\" Dibuang"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1887,7 +1887,7 @@ msgstr[0] "%'d berkas dibuang"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "\"%s\" tidak dapat dipindahkan ke tempat sampah, hapus permanen?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1904,12 +1904,12 @@ msgstr "Menghapus Berkas"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "Tak dapat mengeluarkan %s"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "Tak dapat melepaskan %s"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1935,19 +1935,19 @@ msgstr "Tak bisa mengakses \"%s\""
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "Bersiap menyalin %'d berkas (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "Bersiap memindahkan %'d berkas (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "Bersiap menghapus %'d berkas (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1959,7 +1959,7 @@ msgstr[0] "Bersiap memindahkan %'d berkas ke tempat sampah"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] "Persiapan untuk mengompres file %'d"
+msgstr[0] "Bersiap mengompres %'d berkas"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -1977,50 +1977,50 @@ msgstr "Galat sewaktu memindahkan berkas ke tempat sampah."
 
 #: src/nautilus-file-operations.c:3094
 msgid "Error while compressing files."
-msgstr "Terjadi kesalahan saat mengompres file"
+msgstr "Galat sewaktu mengompres berkas."
 
 #: src/nautilus-file-operations.c:3169
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Berkas di dalam folder \"%s\" tidak dapat ditangani, karena Anda tidak berhak melihatnya."
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "Galat sewaktu mengambil informasi berkas pada folder \"%s\"."
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "Folder \"%s\" tidak dapat ditangani, karena Anda tidak berhak untuk membacanya."
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "Galat sewaktu membaca folder \"%s\"."
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "Berkas \"%s\" tidak dapat ditangani, karena Anda tidak berhak untuk membacanya."
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "Galat sewaktu mengambil informasi tentang \"%s\"."
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "Galat sewaktu menyalin ke “%s”."
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2043,7 +2043,7 @@ msgstr "Media yang dituju tidak memiliki ruang yang cukup. Cobalah untuk menghap
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "Perlu %s ruang kosong lagi untuk dapat menyalin ke lokasi yang dituju."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2052,68 +2052,68 @@ msgstr "Yang dituju hanya dapat dibaca."
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "Memindahkan “%s” ke “%s”"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "Dipindah “%s” ke “%s”"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "Menyalin “%s” ke “%s”"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "Disalin “%s” ke “%s”"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "Menggandakan “%s”"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "Digandakan “%s”"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "Memindah %'d berkas ke “%s”"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "Menyalin %'d berkas ke “%s”"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "Dipindah %'d berkas ke “%s”"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "Disalin %'d berkas ke “%s”"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "Menggandakan %'d berkas di “%s”"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "Digandakan %'d berkas di “%s”"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2128,7 +2128,7 @@ msgstr[0] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2156,7 +2156,7 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] "%s / %s — tersisa %s (%s/det)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2168,26 +2168,26 @@ msgstr[0] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — tersisa %s (%s/det)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "Folder \"%s\" tidak dapat disalin, karena Anda tidak berhak untuk membuatnya pada lokasi yang dituju."
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "Galat sewaktu membuat folder \"%s\"."
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Berkas di dalam folder \"%s\" tidak dapat disalin, karena Anda tidak berhak melihatnya."
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2198,13 +2198,13 @@ msgstr "_Lewatkan berkas"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "Folder \"%s\" tidak dapat disalin, karena Anda tidak berhak untuk membacanya."
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "Galat sewaktu memindahkan “%s”."
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2239,17 +2239,17 @@ msgstr "Berkas sumber akan ditimpa."
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "Galat sewaktu menyalin “%s”."
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "Tak dapat menghapus berkas yang sudah ada dengan nama yang sama dalam %s."
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "Galat sewaktu menyalin berkas ke %s."
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2258,7 +2258,7 @@ msgstr "Menyalin Berkas"
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "Bersiap memindahkan ke \"%s\""
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2269,7 +2269,7 @@ msgstr[0] "Bersiap memindahkan %'d berkas"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "Galat sewaktu memindahkan berkas ke %s."
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2278,7 +2278,7 @@ msgstr "Memindahkan Berkas"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "Membuat taut di \"%s."
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2289,7 +2289,7 @@ msgstr[0] "Membuat taut menuju %'d berkas"
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "Galat sewaktu membuat taut menuju %s."
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2297,12 +2297,12 @@ msgstr "Taut simbolik hanya didukung untuk berkas lokal"
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "Target tidak mendukung taut simbolik."
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "Galat sewaktu membuat taut simbolik pada %s."
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2321,17 +2321,17 @@ msgstr "Dokumen Tanpa Judul"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "Galat sewaktu membuat direktori %s."
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "Galat sewaktu membuat berkas %s."
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "Galat sewaktu membuat direktori di %s."
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2343,87 +2343,87 @@ msgstr "Tak dapat menandai peluncur sebagai dipercaya (dapat dieksekusi)"
 
 #: src/nautilus-file-operations.c:8072
 msgid "Verifying destination"
-msgstr "Memverifikasi lokasi tujuan"
+msgstr "Memverifikasi tujuan"
 
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "Mengekstrak “%s”"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "Galat mengekstrak “%s”"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "Galat sewaktu mengekstrak “%s”."
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "Tidak cukup ruang kosong untuk mengekstrak %s"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "Ekstrak “%s” ke “%s”"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "Ekstrak %'d berkas ke “%s”"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
-msgstr "Persiapan untuk mengekstrak"
+msgstr "Bersiap untuk mengekstrak"
 
 #: src/nautilus-file-operations.c:8483
 msgid "Extracting Files"
-msgstr "Sedang mengekstrak file"
+msgstr "Mengekstrak Berkas"
 
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "Mengompres “%s” ke dalam “%s”"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "Mengompres %'d berkas ke dalam “%s”"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "Galat mengompres “%s” ke dalam “%s”"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "Galat mengompres %'d berkas ke dalam  “%s”"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
-msgstr "Terjadi kesalahan saat mengompres file"
+msgstr "Galat sewaktu mengompres berkas."
 
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "Kompres “%s” ke dalam “%s”"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "Kompres %'d berkas ke dalam “%s” dikompres"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
-msgstr "Sedang mengompres file"
+msgstr "Mengompres Berkas"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
@@ -2545,7 +2545,7 @@ msgstr "Pilih Tujuan Salin"
 
 #: src/nautilus-files-view.c:6499
 msgid "Select Extract Destination"
-msgstr "Pilih destinasi ekstrak"
+msgstr "Pilih Tujuan Ekstrak"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6759
@@ -2586,7 +2586,7 @@ msgstr "Jalankan"
 
 #: src/nautilus-files-view.c:7910
 msgid "Extract Here"
-msgstr "Ekstrak di sini"
+msgstr "Ekstrak Di Sini"
 
 #: src/nautilus-files-view.c:7911
 msgid "Extract to…"
@@ -2686,13 +2686,13 @@ msgstr "Mengulang aksi yang telah dibatalkan"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
+msgstr[0] "Memindahkan %d item kembali ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "Memindahkan %d item ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2709,12 +2709,12 @@ msgstr[0] "_Jadi Lagi Memindahkan %d item"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "Memindahkan “%s” kembali ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "Memindahkan “%s” ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2748,12 +2748,12 @@ msgstr[0] "Mengembalikan %d item dari tempat sampah"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "Memindahkan “%s” kembali ke tempat sampah"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "Mengembalikan “%s” dari tempat sampah"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2765,7 +2765,7 @@ msgstr[0] "Menghapus %d item yang telah disalin"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "Menyalin %d item ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2786,12 +2786,12 @@ msgstr[0] "_Jadi Lagi Menyalin %d item"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "Menghapus “%s”"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "Menyalin “%s” ke “%s”"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2811,7 +2811,7 @@ msgstr[0] "Menghapus %d item yang telah digandakan"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
+msgstr[0] "Menggandakan %d item dalam “%s”"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2828,7 +2828,7 @@ msgstr[0] "_Jadi Lagi Menggandakan %d item"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "Menggandakan “%s” dalam “%s”"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2853,12 +2853,12 @@ msgstr[0] "Membuat tautan pada %d item"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "Menghapus tautan menuju “%s”"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "Membuat tautan menuju “%s”"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2871,7 +2871,7 @@ msgstr "_Jadi Lagi Membuat Tautan"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "Membuat berkas kosong “%s”"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2884,7 +2884,7 @@ msgstr "Jadi Lagi Membuat Be_rkas Kosong"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "Membuat folder baru “%s”"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2897,7 +2897,7 @@ msgstr "Jadi Lagi Membuat Folde_r"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "Membuat berkas baru “%s” dari templat "
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2911,7 +2911,7 @@ msgstr "Jadi Lagi Membuat da_ri Palet"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "Mengubah nama \"%s\" menjadi \"%s\"."
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2926,15 +2926,15 @@ msgstr "_Jadi Lagi Mengubah Nama"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] "Ubah nama kelompok untuk %d file"
+msgstr[0] "Mengubah nama batch %d berkas"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
-msgstr "Batalkan Pengubahan Nama Kelompok"
+msgstr "Tak Jadi Meng_ubah Nama"
 
 #: src/nautilus-file-undo-operations.c:1119
 msgid "_Redo Batch Rename"
-msgstr "Kembalikan Pengubahan Nama Kelompok"
+msgstr "_Jadi Lagi Mengubah Nama"
 
 #: src/nautilus-file-undo-operations.c:1330
 #, c-format
@@ -2945,12 +2945,12 @@ msgstr[0] "Memindahkan %d item ke tempat sampah"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "Mengembalikan  \"%s\" menjadi \"%s\"."
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "Memindahkan “%s” ke tempat sampah"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -2963,12 +2963,12 @@ msgstr "_Jadi Lagi Membuat ke Tempat Sampah"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Mengembalikan hak akses asli semua item pada “%s”"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Mengatur hak akses semua item pada \"%s\""
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -2983,22 +2983,22 @@ msgstr "_Jadi Lagi Mengubah Hak Akses"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "Mengembalikan hak akses asli pada “%s”"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "Mengatur hak akses “%s”"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "Mengembalikan kelompok dari “%s” menjadi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "Mengatur kelompok dari “%s” menjadi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3011,12 +3011,12 @@ msgstr "_Jadi Lagi Mengubah Kelompok"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "Mengembalikan pemilik dari “%s” menjadi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "Mengatur pemilik dari “%s” menjadi “%s”"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3028,47 +3028,47 @@ msgstr "_Jadi Lagi Mengubah Pemilik"
 
 #: src/nautilus-file-undo-operations.c:2071
 msgid "_Undo Extract"
-msgstr "Batalkan Ekstrak"
+msgstr "_Tak Jadi Ekstrak"
 
 #: src/nautilus-file-undo-operations.c:2072
 msgid "_Redo Extract"
-msgstr "Kembalikan Ekstrak"
+msgstr "_Jadi Lagi Ekstrak"
 
 #: src/nautilus-file-undo-operations.c:2089
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] "Hapus %d file ekstrak"
+msgstr[0] "Menghapus %d berkas yang diekstrak"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "Ekstrak “%s”"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] "Ekstrak %d file"
+msgstr[0] "Ekstrak %d berkas"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "Kompres “%s”"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] "Kompress %d file"
+msgstr[0] "Kompres %d berkas"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
-msgstr "Batalkan Kompres"
+msgstr "_Tak Jadi Mengompres"
 
 #: src/nautilus-file-undo-operations.c:2269
 msgid "_Redo Compress"
-msgstr "Kembalikan Kompres"
+msgstr "_Jadi Lagi Mengompres"
 
 #: src/nautilus-file-utilities.c:1023
 #, c-format
@@ -3341,7 +3341,7 @@ msgstr "Taut ini tidak dapat dipakai, karena tidak memiliki target."
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "Taut ini tidak dapat dipakai, karena \"%s\" yang dituju tidak lagi ada."
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3418,7 +3418,7 @@ msgstr "Peluncur aplikasi \"%s\" belum ditandai sebagai dipercaya. Apabila Anda 
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "Percayai dan _Luncurkan"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3530,18 +3530,18 @@ msgstr "Menutup tab"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "Anda mencoba mengganti folder tujuan \"%s\" dengan taut simbolik."
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "Hal ini tidak diperbolehkan untuk menghindari penghapusan isi folder tujuan."
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "Silahkan ubah nama taut simbolik atau tekan tombol skip."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -4027,7 +4027,7 @@ msgstr "Mencari lokasi jaringan saja"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "Lokasi jauh — hanya mencari folder saat ini"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4122,7 +4122,7 @@ msgstr "Menghapus semua objek di dalam Tempat Sampah"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
+msgstr[0] "Sejak %d hari yang lalu"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4134,7 +4134,7 @@ msgstr[0] "%d hari yang lalu"
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
+msgstr[0] "Sejak %d minggu yang lalu"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4146,7 +4146,7 @@ msgstr[0] "%d minggu yang lalu"
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
+msgstr[0] "Sejak %d bulan yang lalu"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4158,7 +4158,7 @@ msgstr[0] "%d bulan yang lalu"
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
+msgstr[0] "Sejak %d tahun yang lalu"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4168,7 +4168,7 @@ msgstr[0] "%d tahun yang lalu"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "Folder induk"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
@@ -4176,15 +4176,15 @@ msgstr "Tab baru"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "Tutup tampilan saat ini"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "Maju"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4238,7 +4238,7 @@ msgstr "Mengakses dan mengelola berkas Anda."
 #. * box to give credit to the translator(s).
 #: src/nautilus-window.c:3094
 msgid "translator-credits"
-msgstr "Yohanes Nugroho <yohanes@opensource.or.id>, 2003.\nMohammad DAMT <mdamt@bisnisweb.com>, 2004, 2005.\nAhmad Riza H Nst <rizahnst@gnome.org>, 2006.\nHuda Toriq <hudatoriq@gmail.com>, 2007.\nAndika Triwidada <andika@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.\nDirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.\n\nKontribusi Launchpad:\n  Andika Triwidada https://launchpad.net/~andika\n  Andy Apdhani https://launchpad.net/~imtheface\n  Huda Toriq https://launchpad.net/~hudas-mail\n  Mohammad DAMT https://launchpad.net/~mdamt\n  Nur Kholis Majid https://launchpad.net/~kholis\n  Rahman Yusri Aftian https://launchpad.net/~aftian\n  Wisnu Manupraba https://launchpad.net/~inoex135"
+msgstr "Yohanes Nugroho <yohanes@opensource.or.id>, 2003.\nMohammad DAMT <mdamt@bisnisweb.com>, 2004, 2005.\nAhmad Riza H Nst <rizahnst@gnome.org>, 2006.\nHuda Toriq <hudatoriq@gmail.com>, 2007.\nAndika Triwidada <andika@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.\nDirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.\nKukuh Syafaat <syafaatkukuh@gmail.com>, 2017.\n\nKontribusi Launchpad:\n  Andika Triwidada https://launchpad.net/~andika\n  Andy Apdhani https://launchpad.net/~imtheface\n  Huda Toriq https://launchpad.net/~hudas-mail\n  Mohammad DAMT https://launchpad.net/~mdamt\n  Nur Kholis Majid https://launchpad.net/~kholis\n  Rahman Yusri Aftian https://launchpad.net/~aftian\n  Wisnu Manupraba https://launchpad.net/~inoex135"
 
 #: src/nautilus-window-slot.c:1436
 msgid "Unable to display the contents of this folder."
@@ -4246,7 +4246,7 @@ msgstr "Tak dapat menampilkan isi folder ini."
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "Lokasi ini sepertinya bukanlah folder."
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4268,7 +4268,7 @@ msgstr "Tak dapat mengakses lokasi yang dituju."
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "Tak memiliki hak untuk mengakses folder yang dituju."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4402,7 +4402,7 @@ msgstr "Pindahkan tab ke kanan"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "Kembalikan tab"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4604,7 +4604,7 @@ msgstr "Ubah _Nama"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr "_Ubah nama menggunakan templat"
+msgstr "Ubah nama mengg_unakan templat"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
@@ -4616,7 +4616,7 @@ msgstr "Tambah"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr "Penomoran Otomatis"
+msgstr "Urutan Penomoran Otomatis"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
@@ -4625,16 +4625,16 @@ msgstr "Format"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr "Teks yang telah ada"
+msgstr "Text yang Ada"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr "Ganti Dengan"
+msgstr "Timpa Dengan"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr "Ganti"
+msgstr "Timpa"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
@@ -4658,11 +4658,11 @@ msgstr "Metadata"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr "Tanggal Dibuat"
+msgstr "Tanggal Pembuatan"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr "Nomor Season"
+msgstr "Nomor Musim"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
@@ -4682,7 +4682,7 @@ msgstr "Nama Album"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr "Nama Asli File"
+msgstr "Nama Berkas Asli"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
@@ -4698,11 +4698,11 @@ msgstr "Kompatibel dengan semua sistem operasi."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr "Arsip yang lebih kecil, tetapi hanya untuk Linux dan Mac."
+msgstr "Arsip lebih kecil tetapi Linux dan Mac saja."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr "Arsip yang lebih kecil, tetapi harus diinstal di Windows dan Mac"
+msgstr "Arsip lebih kecil tetapi harus dipasang pada Windows dan Mac."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4834,11 +4834,11 @@ msgstr "Ubah Ukuran Ikon…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "Kembalikan Ukuran Asli Ikon"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr "Ubah Na_ma"
+msgstr "Ubah Na_ma…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
@@ -4850,15 +4850,15 @@ msgstr "Hapus dari Ba_ru-baru Ini"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr "_Ekstrak di sini"
+msgstr "_Ekstrak Di Sini"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr "E_kstrak ke"
+msgstr "E_kstrak ke…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr "K_ompres"
+msgstr "K_ompres…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
@@ -4866,7 +4866,7 @@ msgstr "Folder Kosong"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "Tong Sampah Kosong"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4910,11 +4910,11 @@ msgstr "Ijinkan folder dik_embangkan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "Eksperimental"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "Gunakan _tampilan baru"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
@@ -4924,7 +4924,7 @@ msgstr "Kapsi Tilikan Ikon"
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "Tambahkan informasi yang akan ditampilkan di bawah nama folder dan berkas. Informasi yang lebih rinci akan muncul saat lebih diperbesar."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
@@ -5022,11 +5022,11 @@ msgstr "Janga_n pernah"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "Pencarian Teks Lengkap:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "Ja_dikan bawaan"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
@@ -5400,7 +5400,7 @@ msgstr "smb://"
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr "sftp:// or ssh://"
+msgstr "sftp:// atau ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227

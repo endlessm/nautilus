@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:39+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Low German (http://www.transifex.com/endless-os/nautilus/language/nds/)\n"
 "MIME-Version: 1.0\n"
@@ -1915,7 +1915,7 @@ msgstr "Dateien löschen"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "Künn %s nich utwarfen"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format

@@ -4,13 +4,14 @@
 # 
 # Translators:
 # F Wolff <friedel@translate.org.za>, 2008,2013
+# Pieter Schalk Schoeman <pieter@sonbesie.co.za>, 2017
 # Zuza Software Foundation <info@translate.org.za>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:35+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/endless-os/nautilus/language/af/)\n"
 "MIME-Version: 1.0\n"
@@ -27,23 +28,23 @@ msgstr "Laat sagteware loop"
 #. file name)!
 #: data/nautilus-autorun-software.desktop.in:7
 msgid "application-x-executable"
-msgstr ""
+msgstr "application-x-executable"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:6
 msgid "Nautilus"
-msgstr ""
+msgstr "Nautilus"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:7
 #: data/org.gnome.Nautilus.desktop.in:4
 msgid "Access and organize files"
-msgstr ""
+msgstr "Besoek/Deurblaai en organiseer lêers"
 
 #: data/org.gnome.Nautilus.appdata.xml.in:9
 msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr ""
+msgstr "Nautilus, ook bekend as lêers, is die verstek lêerbestuurder van GNOME. Dit bied 'n eenvoudige en geïntegreerde manier om jou lêers te bestuur en deur jou lêerstelsel te blaai."
 
 #: data/org.gnome.Nautilus.appdata.xml.in:13
 msgid ""
@@ -52,7 +53,7 @@ msgid ""
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr ""
+msgstr "Nautilus ondersteun al die basiese funksies van 'n lêerbestuurder en nog vele meer. Dit kan jou lêers en gidse plaaslik of deur die netwerk deursoek en bestuur, data na en van verwyderbare media skryf, skripte uitvoer en programme begin. Dit het drie aansigte: Ikoonrooster, Ikoon Lys, en Boom Lys. Die funksies kan uitgebrei word met inproppe en skripte."
 
 #: data/org.gnome.Nautilus.desktop.in:3 src/nautilus-mime-actions.c:107
 #: src/nautilus-properties-window.c:4586 src/nautilus-window.c:3082
@@ -63,31 +64,31 @@ msgstr "Lêers"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Nautilus.desktop.in:6
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "folder;manager;explore;disk;filesystem;gids;bestuurder;ontdek;skyf;lêerstelsel;leer;"
+msgstr "gids;bestuurder;ontdek;skyf;lêerstelsel;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
 #: data/org.gnome.Nautilus.desktop.in:9
 msgid "org.gnome.Nautilus"
-msgstr ""
+msgstr "org.gnome.Nautilus"
 
 #: data/org.gnome.Nautilus.desktop.in:20
 msgid "New Window"
-msgstr ""
+msgstr "Nuwe venster"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid "Where to position newly open tabs in browser windows"
-msgstr ""
+msgstr "Waar om pas geopende oortjies te posisioneer in blaaiervensters"
 
 #: data/org.gnome.nautilus.gschema.xml:82
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "Indien gestel na \"after-current-tab\", sal nuwe oortjies na die huidige oortjie ingevoeg word. Indien gestel na \"end\" sal nuwe oortjies aan die einde van die oortjie lys gevoeg word."
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
-msgstr ""
+msgstr "Gebruik altyd die ligginginskrywing, in plaas van die padbalk"
 
 #: data/org.gnome.nautilus.gschema.xml:87
 msgid ""
@@ -97,13 +98,13 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:91
 msgid "Where to perform recursive search"
-msgstr ""
+msgstr "Waar om 'n rekursiewe soektog te doen"
 
 #: data/org.gnome.nautilus.gschema.xml:92
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "In watter liggings moet Nautilus deur subgidse soek. Beskikbare waardes is “local-only”, “always”, “never”."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -121,7 +122,7 @@ msgstr ""
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr ""
+msgstr "As dit waar gestel is, sal Nautilus 'n verwydering van permanente konteks kieslysitem wys om die asblik te omseil."
 
 #: data/org.gnome.nautilus.gschema.xml:106
 msgid ""
@@ -138,7 +139,7 @@ msgstr ""
 #: data/org.gnome.nautilus.gschema.xml:111
 msgid ""
 "Whether to ask for confirmation when deleting files, or emptying the Trash"
-msgstr ""
+msgstr "Of daar bevestig moet word voor lêers geskrap of die asblik leeggemaak word"
 
 #: data/org.gnome.nautilus.gschema.xml:112
 msgid ""
@@ -156,7 +157,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "Spoedkompromis vir die vertoon van die aantal lêers in 'n gids. Indien \"always\", sal die aantal lêers altyd getoon word, selfs al is die gids op 'n afgeleë bediener. Indien \"local-only\", sal lêertellings slegs vir plaaslike lêerstelsels vertoon word. Indien \"never\", sal lêers nooit getel word nie."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -166,7 +167,7 @@ msgstr "Soort klik wat gebruik word om lêers te lanseer/open"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "Moontlike waardes is \"single\" om lêers te lanseer met 'n enkelklik, of \"double\" om hulle met 'n dubbelklik te lanseer."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -178,11 +179,11 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "Wat met uitvoerbare tekslêers gedoen moet word wanneer hulle geaktiveer word (enkel- of dubbelklik). Moontlike waardes is \"launch\" om hulle as programme te lanseer, \"ask\" om via 'n dialoog te vra wat daarmee doen moet word, en \"display\" om hulle tekslêers te vertoon."
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
-msgstr ""
+msgstr "Wys die pakket installeerder vir onbekende MIME-tipes"
 
 #: data/org.gnome.nautilus.gschema.xml:133
 msgid ""
@@ -193,7 +194,7 @@ msgstr ""
 #: data/org.gnome.nautilus.gschema.xml:137
 msgid ""
 "Show a warning dialog for the change of the shortcut for move to the Trash"
-msgstr ""
+msgstr "Wys 'n waarskuwingsdialoog vir die verandering van die kortpad om na die asblik te skuif"
 
 #: data/org.gnome.nautilus.gschema.xml:138
 msgid ""
@@ -235,7 +236,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
-msgstr ""
+msgstr "Wanneer duimnaelsketse van lêers vertoon moet word"
 
 #: data/org.gnome.nautilus.gschema.xml:159
 msgid ""
@@ -245,7 +246,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "Spoedkompromis vir die vertoon van 'n lêer as 'n duimnaelskets. Indien \"always\", sal duimnaelsketse altyd getoon word, selfs al is die gids op 'n afgeleë bediener. Indien \"local-only\", sal duimnaelsketse slegs vir plaaslike lêerstelsels vertoon word. Indien \"never\", sal duimnaelsketse nooit vertoon word nie, slegs 'n generiese ikoon. Ten spyte van die naam is hierdie van toepassing op enige lêertipe met 'n voorskou."
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -256,7 +257,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "Beelde wat groter as hierdie grootte is (in bisse) sal nie as duimnaelsketse getoon word nie. Die doel van hierdie instelling is om die duimnaelsketsing van groot beelde te voorkom aangesien dit lank mag neem om te laai of baie geheue mag opneem."
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -266,7 +267,7 @@ msgstr "Verstek sorteervolgorde"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "Die verstek-sorteervolgorde vir items in die lysaangesig. Moontlike waardes is \"name\", \"size\", \"type\", en \"mtime\"."
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -278,7 +279,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "Indien waar, sal lêers in nuwe vensters in omgekeerde volgorde gelys word, m.a.w. as daar volgens naam gesorteer is, sal die lêers van \"z\" na \"a\" gesorteer word in plaas van \"a\" na \"z\". Indien daar volgens grootte gesorteer is, sal die lêers dus in dalende in plaas van stygende volgorde getoon word."
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -289,7 +290,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "Wanneer 'n gids besoek word, word hierdie aangesig gebruik tensy u 'n ander aansig vir die betrokke gids gekies het. Moontlike waardes is \"list-view\" en \"icon-view\"."
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -303,7 +304,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
-msgstr ""
+msgstr "Watter vertoner tydens 'n soektog gebruik moet word"
 
 #: data/org.gnome.nautilus.gschema.xml:198
 msgid ""
@@ -312,7 +313,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:202
 msgid "Bulk rename utility"
-msgstr ""
+msgstr "Groep hernoem gereedskap"
 
 #: data/org.gnome.nautilus.gschema.xml:203
 msgid ""
@@ -337,7 +338,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "Aktiveer eksperimentele aansigte"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
@@ -360,7 +361,7 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
-msgstr ""
+msgstr "Verstek formaat vir die saampers van lêers"
 
 #: data/org.gnome.nautilus.gschema.xml:226
 msgid "The format that will be selected when compressing files."
@@ -376,7 +377,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "'n Lys opskrifte onder 'n ikoon in die ikoonaangesig en die werkarea. Die werklike aantal opskrifte wat getoon word hang van die zoemvlak af. Moontlike waardes is: “size”, “type”, “date_modified”, “owner”, “group”, “permissions”, and “mime_type”."
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -388,18 +389,18 @@ msgstr "Verstek zoemvlak gebruik deur die ikoonaangesig."
 
 #: data/org.gnome.nautilus.gschema.xml:243
 msgid "Default Thumbnail Icon Size"
-msgstr ""
+msgstr "Verstek duimnael ikoon grootte"
 
 #: data/org.gnome.nautilus.gschema.xml:244
 msgid ""
 "The default size of an icon for a thumbnail in the icon view when using "
 "NAUTILUS_ICON_SIZE_STANDARD size."
-msgstr ""
+msgstr "Die verstek grootte vir 'n ikoon van 'n duimnael in die ikoonaansig, as NAUTILUS_ICON_SIZE_STANDARD gebruik word."
 
 #: data/org.gnome.nautilus.gschema.xml:248
 #: data/org.gnome.nautilus.gschema.xml:319
 msgid "Text Ellipsis Limit"
-msgstr ""
+msgstr "Teks ellips limiet"
 
 #: data/org.gnome.nautilus.gschema.xml:249
 msgid ""
@@ -444,7 +445,7 @@ msgstr "Verstek kolomvolgorde in lysaangesig."
 
 #: data/org.gnome.nautilus.gschema.xml:271
 msgid "Use tree view"
-msgstr ""
+msgstr "Gebruik boomaansig"
 
 #: data/org.gnome.nautilus.gschema.xml:272
 msgid ""
@@ -455,7 +456,7 @@ msgstr ""
 #: data/org.gnome.nautilus.gschema.xml:278
 msgctxt "desktop-font"
 msgid "''"
-msgstr ""
+msgstr "''"
 
 #: data/org.gnome.nautilus.gschema.xml:279
 msgid "Desktop font"
@@ -463,7 +464,7 @@ msgstr "Werkarea-font"
 
 #: data/org.gnome.nautilus.gschema.xml:280
 msgid "The font description used for the icons on the desktop."
-msgstr ""
+msgstr "Die fontbeskrywing wat vir ikone op die werkskerm gebruik word."
 
 #: data/org.gnome.nautilus.gschema.xml:284
 msgid "Home icon visible on desktop"
@@ -483,7 +484,7 @@ msgstr "Asblikikoon sigbaar op werkarea"
 msgid ""
 "If this is set to true, an icon linking to the Trash will be put on the "
 "desktop."
-msgstr ""
+msgstr "Indien waar, sal 'n ikoon wat na die asblik verwys op die werkskerm geplaas word."
 
 #: data/org.gnome.nautilus.gschema.xml:294
 msgid "Show mounted volumes on the desktop"
@@ -493,26 +494,26 @@ msgstr "Wys gehegte volumes op die werkskerm"
 msgid ""
 "If this is set to true, icons linking to mounted volumes will be put on the "
 "desktop."
-msgstr ""
+msgstr "Indien waar, sal ikone wat na gehegte volumes verwys op die werkarea geplaas word."
 
 #: data/org.gnome.nautilus.gschema.xml:299
 msgid "Network Servers icon visible on the desktop"
-msgstr ""
+msgstr "Netwerkbedieners ikoon sigbaar op die werkskerm"
 
 #: data/org.gnome.nautilus.gschema.xml:300
 msgid ""
 "If this is set to true, an icon linking to the Network Servers view will be "
 "put on the desktop."
-msgstr ""
+msgstr "Indien waar, sal 'n ikoon wat na netwerkbedieners verwys op die werkarea geplaas word."
 
 #: data/org.gnome.nautilus.gschema.xml:303
 msgctxt "home-icon-name"
 msgid "'Home'"
-msgstr ""
+msgstr "'Tuis'"
 
 #: data/org.gnome.nautilus.gschema.xml:304
 msgid "Desktop home icon name"
-msgstr "Naam van werkarea-tuisknop"
+msgstr "Werkskerm tuis ikoon naam"
 
 #: data/org.gnome.nautilus.gschema.xml:305
 msgid ""
@@ -523,32 +524,32 @@ msgstr "Hierdie naam kan gestel word as jy 'n doelgemaakte naam vir die tuisikoo
 #: data/org.gnome.nautilus.gschema.xml:308
 msgctxt "trash-icon-name"
 msgid "'Trash'"
-msgstr ""
+msgstr "'Asblik'"
 
 #: data/org.gnome.nautilus.gschema.xml:309
 msgid "Desktop Trash icon name"
-msgstr ""
+msgstr "Werkskerm asblik ikoon naam"
 
 #: data/org.gnome.nautilus.gschema.xml:310
 msgid ""
 "This name can be set if you want a custom name for the Trash icon on the "
 "desktop."
-msgstr ""
+msgstr "Hierdie naam kan gestel word as jy 'n doelgemaakte naam vir die asblikikoon op die werkarea verkies."
 
 #: data/org.gnome.nautilus.gschema.xml:313
 msgctxt "network-icon-name"
 msgid "'Network Servers'"
-msgstr ""
+msgstr "'Netwerkbedieners'"
 
 #: data/org.gnome.nautilus.gschema.xml:314
 msgid "Network servers icon name"
-msgstr ""
+msgstr "Werkskerm netwerkbedieners ikoon naam"
 
 #: data/org.gnome.nautilus.gschema.xml:315
 msgid ""
 "This name can be set if you want a custom name for the network servers icon "
 "on the desktop."
-msgstr ""
+msgstr "Hierdie naam kan gestel word as jy 'n doelgemaakte naam vir die netwerkbedienersikoon op die werkskerm verkies."
 
 #: data/org.gnome.nautilus.gschema.xml:320
 msgid ""
@@ -560,13 +561,13 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:324
 msgid "Fade the background on change"
-msgstr ""
+msgstr "Vervaag die agtergrond op verandering"
 
 #: data/org.gnome.nautilus.gschema.xml:325
 msgid ""
 "If set to true, then Nautilus will use a fade effect to change the desktop "
 "background."
-msgstr ""
+msgstr "Indien waar, sal Nautilus die vervaag effek gebruik om die werkskermagtergrond te verander."
 
 #: data/org.gnome.nautilus.gschema.xml:333
 msgid "The geometry string for a navigation window"
@@ -580,11 +581,11 @@ msgstr ""
 
 #: data/org.gnome.nautilus.gschema.xml:338
 msgid "Whether the navigation window should be maximized"
-msgstr ""
+msgstr "Of die navigasie venster gemaksimeer moet wees"
 
 #: data/org.gnome.nautilus.gschema.xml:339
 msgid "Whether the navigation window should be maximized by default."
-msgstr ""
+msgstr "Of die navigasie venster by verstek gemaksimeer moet wees."
 
 #: data/org.gnome.nautilus.gschema.xml:343
 msgid "Width of the side pane"
@@ -639,7 +640,7 @@ msgstr "_Kanselleer"
 
 #: eel/eel-stock-dialogs.c:213
 msgid "You can stop this operation by clicking cancel."
-msgstr ""
+msgstr "Die operasie kan gestop word deur kanselleer te klik."
 
 #: eel/eel-vfs-extensions.c:106
 msgid " (invalid Unicode)"
@@ -675,7 +676,7 @@ msgstr "Werkarea"
 #: nautilus-sendto-extension/nautilus-nste.c:107
 #: nautilus-sendto-extension/nautilus-nste.c:114
 msgid "Send to…"
-msgstr ""
+msgstr "Stuur na…"
 
 #: nautilus-sendto-extension/nautilus-nste.c:108
 msgid "Send file by mail…"
@@ -757,7 +758,7 @@ msgstr "Kies gespesifiseerde URI in ouer-gids."
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -784,7 +785,7 @@ msgstr "“%s” bevat sagteware wat bedoel is om outomaties laat loop te word. 
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "Indien u onseker is of nie die ligging vertrou nie, druk Kanselleer."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -793,42 +794,42 @@ msgstr "_Laat loop"
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr ""
+msgstr "\"%s\" sal nie 'n unieke nuwe naam wees nie."
 
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr ""
+msgstr "\"%s\" sal in konflik met 'n bestaande lêer wees."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Naam kan nie leeg wees nie."
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "Naam kan nie \"/\" bevat nie."
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "\".\" is nie 'n geldige naam nie."
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "\"..\" is nie 'n geldige naam nie."
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoem %d gids"
+msgstr[1] "Hernoem %d gidse"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoem %d lêer"
+msgstr[1] "Hernoem %d lêers"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -836,61 +837,61 @@ msgstr[1] ""
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoem %d lêer en gids"
+msgstr[1] "Hernoem %d lêers en gidse"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr ""
+msgstr "Oorspronklike naam (Stygende)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr ""
+msgstr "Oorspronklike naam (Dalende)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
 msgid "First Modified"
-msgstr ""
+msgstr "Eerste gewysig"
 
 #: src/nautilus-batch-rename-dialog.h:103
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:503
 msgid "Last Modified"
-msgstr ""
+msgstr "Laaste gewysig"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr ""
+msgstr "Eerste geskep"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr ""
+msgstr "Laaste geskep"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr ""
+msgstr "Kameramodel"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr ""
+msgstr "Skeppingsdatum"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr ""
+msgstr "Seisoen nommer"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr ""
+msgstr "Episode nommer"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
-msgstr ""
+msgstr "Snit nommer"
 
 #: src/nautilus-batch-rename-dialog.h:157
 msgid "Artist name"
-msgstr ""
+msgstr "Kunstenaar naam"
 
 #: src/nautilus-batch-rename-dialog.h:164
 #: src/nautilus-image-properties-page.c:383
@@ -901,28 +902,28 @@ msgstr "Titel"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "Album naam"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "Oorspronklike lêernaam"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:454
 msgid "Other Locations"
-msgstr ""
+msgstr "Ander liggings"
 
 #: src/nautilus-canvas-container.c:2800
 msgid "The selection rectangle"
@@ -935,11 +936,11 @@ msgstr "Ikoonaangesig"
 
 #: src/nautilus-column-chooser.c:432
 msgid "Reset to De_fault"
-msgstr ""
+msgstr "Stel terug na _verstekwaardes"
 
 #: src/nautilus-column-chooser.c:434
 msgid "Replace the current List Columns settings with the default settings"
-msgstr ""
+msgstr "Vervang die huidige lys kolom instellings met hul verstek waardes"
 
 #: src/nautilus-column-utilities.c:57 src/nautilus-list-view.c:1979
 #: src/resources/ui/nautilus-rename-file-popover.ui:14
@@ -1012,7 +1013,7 @@ msgstr "MIME-tipe"
 
 #: src/nautilus-column-utilities.c:122
 msgid "The MIME type of the file."
-msgstr ""
+msgstr "Die MIME lêer tipe."
 
 #: src/nautilus-column-utilities.c:129
 #: src/nautilus-image-properties-page.c:453
@@ -1025,15 +1026,15 @@ msgstr "Die ligging van die lêer."
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "Gewysig — Tyd"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "Resentheid"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "Die datum waarop die lêer deur die gebruiker oopgemaak is."
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1061,15 +1062,15 @@ msgstr "Relevansierang vir soek"
 
 #: src/nautilus-compress-dialog-controller.c:59
 msgid "Archive names cannot contain “/”."
-msgstr ""
+msgstr "Argief name mag nie \"/\" bevat nie."
 
 #: src/nautilus-compress-dialog-controller.c:63
 msgid "An archive cannot be called “.”."
-msgstr ""
+msgstr "'n Argief kan nie \".\" genoem word nie."
 
 #: src/nautilus-compress-dialog-controller.c:67
 msgid "An archive cannot be called “..”."
-msgstr ""
+msgstr "'n Argief kan nie \"..\" genoem word nie."
 
 #: src/nautilus-desktop-item-properties.c:442
 #: src/nautilus-desktop-item-properties.c:454
@@ -1250,7 +1251,7 @@ msgstr "Hoëvlak-lêers kan nie hernoem word nie"
 #: src/nautilus-file.c:2159
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr ""
+msgstr "Die inhoud van die lêer is waarskynlik 'n ongeldige werkskerm lêer formaat"
 
 #: src/nautilus-file.c:2211
 #, c-format
@@ -1260,57 +1261,57 @@ msgstr "Lêer nie gevind nie"
 #. Translators: Time in 24h format
 #: src/nautilus-file.c:5703
 msgid "%H:%M"
-msgstr ""
+msgstr "%H:%M"
 
 #. Translators: Time in 12h format
 #: src/nautilus-file.c:5708
 msgid "%l:%M %p"
-msgstr ""
+msgstr "%l:%M %p"
 
 #: src/nautilus-file.c:5717
 #, no-c-format
 msgid "Yesterday"
-msgstr ""
+msgstr "Gister"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 24h format. i.e. "Yesterday 23:04"
 #: src/nautilus-file.c:5726
 #, no-c-format
 msgid "Yesterday %H:%M"
-msgstr ""
+msgstr "Gister %H:%M"
 
 #. Translators: this is the word Yesterday followed by
 #. * a time in 12h format. i.e. "Yesterday 9:04 PM"
 #: src/nautilus-file.c:5733
 #, no-c-format
 msgid "Yesterday %l:%M %p"
-msgstr ""
+msgstr "Gister %l:%M %p"
 
 #: src/nautilus-file.c:5743
 #, no-c-format
 msgid "%a"
-msgstr ""
+msgstr "%a"
 
 #. Translators: this is the name of the week day followed by
 #. * a time in 24h format. i.e. "Monday 23:04"
 #: src/nautilus-file.c:5752
 #, no-c-format
 msgid "%a %H:%M"
-msgstr ""
+msgstr "%a %H:%M"
 
 #. Translators: this is the week day name followed by
 #. * a time in 12h format. i.e. "Monday 9:04 PM"
 #: src/nautilus-file.c:5759
 #, no-c-format
 msgid "%a %l:%M %p"
-msgstr ""
+msgstr "%a %l:%M %p"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name i.e. "3 Feb"
 #: src/nautilus-file.c:5770
 #, no-c-format
 msgid "%-e %b"
-msgstr ""
+msgstr "%-e %b"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1318,7 +1319,7 @@ msgstr ""
 #: src/nautilus-file.c:5780
 #, no-c-format
 msgid "%-e %b %H:%M"
-msgstr ""
+msgstr "%-e %b %H:%M"
 
 #. Translators: this is the day of the month followed
 #. * by the abbreviated month name followed by a time in
@@ -1326,14 +1327,14 @@ msgstr ""
 #: src/nautilus-file.c:5788
 #, no-c-format
 msgid "%-e %b %l:%M %p"
-msgstr ""
+msgstr "%-e %b %l:%M %p"
 
 #. Translators: this is the day of the month followed by the abbreviated
 #. * month name followed by the year i.e. "3 Feb 2015"
 #: src/nautilus-file.c:5799
 #, no-c-format
 msgid "%-e %b %Y"
-msgstr ""
+msgstr "%-e %b %Y"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1341,7 +1342,7 @@ msgstr ""
 #: src/nautilus-file.c:5809
 #, no-c-format
 msgid "%-e %b %Y %H:%M"
-msgstr ""
+msgstr "%-e %b %Y %H:%M"
 
 #. Translators: this is the day number followed
 #. * by the abbreviated month name followed by the year followed
@@ -1349,12 +1350,12 @@ msgstr ""
 #: src/nautilus-file.c:5817
 #, no-c-format
 msgid "%-e %b %Y %l:%M %p"
-msgstr ""
+msgstr "%-e %b %Y %l:%M %p"
 
 #: src/nautilus-file.c:5829
 #, no-c-format
 msgid "%c"
-msgstr ""
+msgstr "%c"
 
 #: src/nautilus-file.c:6277
 #, c-format
@@ -1369,7 +1370,7 @@ msgstr "Mag nie eienaar stel nie"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "Die gegewe eienaar \"%s\" bestaan nie"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1379,13 +1380,13 @@ msgstr "Mag nie groep stel nie"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "Die gegewe groep \"%s\" bestaan nie"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
 #: src/nautilus-file.c:7065
 msgid "Me"
-msgstr ""
+msgstr "Ek"
 
 #: src/nautilus-file.c:7097
 #, c-format
@@ -1450,7 +1451,7 @@ msgstr "Argief"
 
 #: src/nautilus-file.c:7656
 msgid "Markup"
-msgstr ""
+msgstr "Opmerkteks"
 
 #: src/nautilus-file.c:7657 src/nautilus-file.c:7658
 msgid "Text"
@@ -1519,7 +1520,7 @@ msgstr "Stel terug"
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr ""
+msgstr "Pas dié aksie toe op alle lêers en gidse"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -1531,30 +1532,30 @@ msgstr "Her_noem"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "Ve_rvang"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
 msgid "File names cannot contain “/”."
-msgstr ""
+msgstr "Lêername kan nie \"/\" bevat nie."
 
 #: src/nautilus-file-name-widget-controller.c:110
 #: src/nautilus-rename-file-popover-controller.c:97
 msgid "A file cannot be called “.”."
-msgstr ""
+msgstr "'n Lêer kan nie \".\" genoem word nie."
 
 #: src/nautilus-file-name-widget-controller.c:114
 #: src/nautilus-rename-file-popover-controller.c:108
 msgid "A file cannot be called “..”."
-msgstr ""
+msgstr "'n Lêer kan nie \"..\" genoem word nie."
 
 #: src/nautilus-file-name-widget-controller.c:136
 msgid "A folder with that name already exists."
-msgstr ""
+msgstr "'n Gids met die naam bestaan reeds."
 
 #: src/nautilus-file-name-widget-controller.c:141
 msgid "A file with that name already exists."
-msgstr ""
+msgstr "'n Lêer met die naam bestaan reeds."
 
 #: src/nautilus-file-operations.c:227
 msgid "S_kip All"
@@ -1748,7 +1749,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "Is u seker u wil \"%s\" permanent uit die asblik skrap?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1758,8 +1759,8 @@ msgid ""
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
-msgstr[0] "Wil u definitief die %'d gekose item permanent uit die asblik skrap?"
-msgstr[1] "Wil u definitief die %'d gekose items permanent uit die asblik skrap?"
+msgstr[0] "Is u seker u wil die %'d gekose item permanent uit die asblik skrap?"
+msgstr[1] "Is u seker u wil die %'d gekose items permanent uit die asblik skrap?"
 
 #: src/nautilus-file-operations.c:1532 src/nautilus-file-operations.c:1607
 msgid "If you delete an item, it will be permanently lost."
@@ -1781,39 +1782,39 @@ msgstr "Maak _asblik leeg"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "Is u seker u wil \"%s\" permanent uitvee?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
-msgstr[0] "Wil u definitief die %'d gekose item permanent skrap?"
-msgstr[1] "Wil u definitief die %'d gekose items permanent skrap?"
+msgstr[0] "Is u seker u wil die %'d gekose item permanent skrap?"
+msgstr[1] "Is u seker u wil die %'d gekose items permanent skrap?"
 
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "“%s” geskrap"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "Skrap tans “%s”"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
 msgid "Deleted %'d file"
 msgid_plural "Deleted %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer geskrap"
+msgstr[1] "%'d lêers geskrap"
 
 #: src/nautilus-file-operations.c:1680
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Skrap tans %'d lêer"
+msgstr[1] "Skrap tans %'d lêers"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1825,7 +1826,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8659
 #, c-format
 msgid "%'d / %'d"
-msgstr ""
+msgstr "%'d / %'d"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left (4
@@ -1837,15 +1838,15 @@ msgstr ""
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s oor"
+msgstr[1] "%'d / %'d — %s oor"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
 msgid "(%d file/sec)"
 msgid_plural "(%d files/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "(%d lêer/s)"
+msgstr[1] "(%d lêers/s)"
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
@@ -1854,52 +1855,52 @@ msgstr "Fout tydens skrapping."
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "Daar was 'n fout met die skrap van die gids “%s”."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "U het nie die nodige regte om die gids “%s” te skrap nie."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "Daar was 'n fout met die skrap van die lêer \"%s\"."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "U het nie die nodige regte om die lêer “%s” te skrap nie."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "Stuur tans \"%s\" na asblik"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "“%s” is na asblik geskuif"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Gooi tans %'d lêer in asblik"
+msgstr[1] "Gooi tans %'d lêers in asblik"
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d Lêer in asblik gegooi"
+msgstr[1] "%'d Lêers in asblik gegooi"
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "“%s” kan nie na die asblik geskuif word nie. Wil u hom onmiddellik skrap?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1907,21 +1908,21 @@ msgstr "Hierdie afgeleë ligging ondersteun nie die werking van die asblik nie."
 
 #: src/nautilus-file-operations.c:2487
 msgid "Trashing Files"
-msgstr ""
+msgstr "Stuur tans lêers na asblik"
 
 #: src/nautilus-file-operations.c:2491
 msgid "Deleting Files"
-msgstr ""
+msgstr "Skrap tans lêers"
 
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "Kan nie %s uitskiet nie"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "Kon nie %s ontheg nie"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1947,22 +1948,22 @@ msgstr "Kan nie toegang tot “%s” kry nie"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Berei voor om %'d lêer te kopieer (%s)"
+msgstr[1] "Berei voor om %'d lêers te kopieer (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Berei voor om %'d lêer te skuif (%s)"
+msgstr[1] "Berei voor om %'d lêers te skuif (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Berei voor om %'d lêer te skrap (%s)"
+msgstr[1] "Berei voor om %'d lêers te skrap (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1975,8 +1976,8 @@ msgstr[1] "Berei voor om %'d lêers na asblik te skuif"
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Berei voor om %'d lêer saam te pers"
+msgstr[1] "Berei voor om %'d lêers saam te pers"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -1994,50 +1995,50 @@ msgstr "Fout tydens die skuif van items na die asblik."
 
 #: src/nautilus-file-operations.c:3094
 msgid "Error while compressing files."
-msgstr ""
+msgstr "Fout tydens die saampers van lêers."
 
 #: src/nautilus-file-operations.c:3169
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Lêers in die gids “%s” kan nie hanteer word nie omdat u nie die regte het om dit te sien nie."
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "Kon nie inligting kry oor die lêers in die gids “%s” nie."
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "Die gids “%s” kan nie hanteer word nie omdat u nie die regte het om dit te lees nie."
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "Daar was 'n fout met die lees van die gids “%s”."
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "Die lêer “%s” kan nie hanteer word nie omdat u nie die regte het om dit te lees nie."
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "Kon nie inligting oor \"%s\" kry nie."
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "Fout tydens die kopiëring na \"%s\"."
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2060,7 +2061,7 @@ msgstr "Daar is nie genoeg spasie op die bestemming nie. Probeer om lêers te sk
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "%s meer ruimte is nodig om na die bestemming te kopieer."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2069,74 +2070,74 @@ msgstr "Die bestemming is lees-alleen."
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "Skuif tans “%s\" na “%s”"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "\"%s\" is na \"%s\" geskuif"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "Kopieer tans “%s” na “%s”"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "\"%s\" is na \"%s\" gekopieer"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "Dupliseer tans “%s”"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "\"%s\" is gedupliseer"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Skuif tans %'d lêer na \"%s\""
+msgstr[1] "Skuif tans %'d lêers na \"%s\""
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopieer tans %'d lêer na “%s”"
+msgstr[1] "Kopieer tans %'d lêers na “%s”"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer na \"%s\" geskuif"
+msgstr[1] "%'d lêers na \"%s\" geskuif"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer na \"%s\" gekopieer"
+msgstr[1] "%'d lêers na \"%s\" gekopieer"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dupliseer tans %'d lêer in \"%s\""
+msgstr[1] "Dupliseer tans %'d lêers in \"%s\""
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer is in “%s” gedupliseer"
+msgstr[1] "%'d lêers is in “%s” gedupliseer"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2151,7 +2152,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2179,8 +2180,8 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s — %s oor (%s/s)"
+msgstr[1] "%s / %s — %s oor (%s/s)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2192,27 +2193,27 @@ msgstr[1] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s oor (%s/s)"
+msgstr[1] "%'d / %'d — %s oor (%s/s)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "Die gids “%s” kan nie gekopieer word nie omdat u nie die regte het om dit by die bestemming te skep nie."
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "Daar was 'n fout met die skep van die gids “%s”."
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Lêers in die gids “%s” kan nie gekopieer word nie omdat u nie die regte het om hulle te sien nie."
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2223,13 +2224,13 @@ msgstr "_Slaan lêers oor"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "Die gids “%s” kan nie gekopieer word nie omdat u nie die regte het om dit te lees nie."
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "Fout met die skuif van “%s”."
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2251,11 +2252,11 @@ msgstr "Die bestemde gids is binne-in die brongids."
 #. the run_warning() frees all strings passed in automatically
 #: src/nautilus-file-operations.c:5174
 msgid "You cannot move a file over itself."
-msgstr "Mens kan nie 'n lêer oor homself skuif nie."
+msgstr "Jy kan nie 'n lêer oor homself skuif nie."
 
 #: src/nautilus-file-operations.c:5175
 msgid "You cannot copy a file over itself."
-msgstr "Mens kan nie 'n lêer oor homself kopieer nie."
+msgstr "Jy kan nie 'n lêer oor homself kopieer nie."
 
 #: src/nautilus-file-operations.c:5176
 msgid "The source file would be overwritten by the destination."
@@ -2264,26 +2265,26 @@ msgstr "Die bronlêer sal deur die bestemming oorskryf word."
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "Fout met die kopiëring van “%s”."
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "Kon nie die reeds bestaande lêer met dieselfde naam in %s skrap nie."
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "Daar was 'n fout met die kopiëring van die lêer in “%s” in."
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
-msgstr ""
+msgstr "Kopieer tans lêers"
 
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "Berei tans voor om te skuif na \"%s\""
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2295,28 +2296,28 @@ msgstr[1] "Berei voor om %'d lêers te skuif"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "Daar was 'n fout met die skuif van die lêer in “%s” in."
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
-msgstr ""
+msgstr "Skuif tans lêers"
 
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "Skep tans skakels in “%s”"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
-msgstr[0] "Skep skakel na %'d lêer"
-msgstr[1] "Skep skakel na %'d lêers"
+msgstr[0] "Skep tans skakel na %'d lêer"
+msgstr[1] "Skep tans skakel na %'d lêers"
 
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "Fout tydens skep van skakel na %s."
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2324,16 +2325,16 @@ msgstr "Simboliese skakels word slegs op plaaslike lêers ondersteun"
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "Hierdie teiken ondersteun nie simboliese skakels nie."
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "Daar was 'n fout met die skep van die simboliese skakel in %s."
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
-msgstr ""
+msgstr "Stel tans regte"
 
 #. localizers: the initial name of a new folder
 #: src/nautilus-file-operations.c:7311
@@ -2348,113 +2349,113 @@ msgstr "Naamlose dokument"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "Fout tydens skep van gids %s."
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "Fout tydens skep van lêer %s."
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "Daar was 'n fout met die skep van die gids in %s."
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
-msgstr ""
+msgstr "Maak tans asblik leeg"
 
 #: src/nautilus-file-operations.c:7970
 msgid "Unable to mark launcher trusted (executable)"
-msgstr ""
+msgstr "Nie in staat om lanseerder as vertroud (uitvoerbaar) te merk nie"
 
 #: src/nautilus-file-operations.c:8072
 msgid "Verifying destination"
-msgstr ""
+msgstr "Verifieer tans bestemming"
 
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "Pak tans “%s” uit"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "Fout tydens die uitpak van \"%s\""
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "Daar was 'n fout tydens die uitpak van \"%s\"."
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "Nie genoeg oop spasie om %s uit te pak nie"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "“%s” is na “%s” uitgepak"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer is na \"%s\" uitgepak"
+msgstr[1] "%'d lêers is na \"%s\" uitgepak"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
-msgstr ""
+msgstr "Berei tans voor om uit te pak"
 
 #: src/nautilus-file-operations.c:8483
 msgid "Extracting Files"
-msgstr ""
+msgstr "Pak tans lêers uit"
 
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "\"%s\" word in \"%s\" saamgepers"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer word tans in \"%s\" saamgepers"
+msgstr[1] "%'d lêers word tans in \"%s\" saamgepers"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "Fout met die saampers van \"%s\" in \"%s\""
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fout met die saampers van %'d lêer in \"%s\""
+msgstr[1] "Fout met die saampers van %'d lêers in \"%s\""
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
-msgstr ""
+msgstr "Daar was 'n fout met die saampers van lêers."
 
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "\"%s\" is in \"%s\" saamgepers"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d lêer is in \"%s\" saamgepers"
+msgstr[1] "%'d lêers is in \"%s\" saamgepers"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
-msgstr ""
+msgstr "Pers tans lêers saam"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
@@ -2467,7 +2468,7 @@ msgstr "Laai tans…"
 
 #: src/nautilus-files-view.c:1121 src/nautilus-mime-actions.c:949
 msgid "Are you sure you want to open all files?"
-msgstr "Wil u definitief al die lêers oopmaak?"
+msgstr "Is u seker u wil al die lêers oopmaak?"
 
 #: src/nautilus-files-view.c:1124
 #, c-format
@@ -2575,21 +2576,21 @@ msgstr "%s %s, %s %s"
 
 #: src/nautilus-files-view.c:5986
 msgid "Select Move Destination"
-msgstr ""
+msgstr "Kies skuif bestemming"
 
 #: src/nautilus-files-view.c:5990
 msgid "Select Copy Destination"
-msgstr ""
+msgstr "Kies kopieer bestemming"
 
 #: src/nautilus-files-view.c:6499
 msgid "Select Extract Destination"
-msgstr ""
+msgstr "Kies uitpak bestemming"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6759
 #, c-format
 msgid "Unable to remove “%s”"
-msgstr "Kon nie “%s” skrap nie"
+msgstr "Kon nie “%s” verwyder nie"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6787
@@ -2599,7 +2600,7 @@ msgstr "Kan nie “%s” uitskiet nie"
 
 #: src/nautilus-files-view.c:6810
 msgid "Unable to stop drive"
-msgstr ""
+msgstr "Kan nie skyf stop nie"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-files-view.c:6922
@@ -2621,19 +2622,19 @@ msgstr "Open met %s"
 
 #: src/nautilus-files-view.c:7905
 msgid "Run"
-msgstr ""
+msgstr "Laat loop"
 
 #: src/nautilus-files-view.c:7910
 msgid "Extract Here"
-msgstr ""
+msgstr "Pak hier uit"
 
 #: src/nautilus-files-view.c:7911
 msgid "Extract to…"
-msgstr ""
+msgstr "Pak uit na…"
 
 #: src/nautilus-files-view.c:7915
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: src/nautilus-files-view.c:7972
 #: src/resources/ui/nautilus-files-view-context-menus.ui:125
@@ -2646,19 +2647,19 @@ msgstr "K_oppel"
 
 #: src/nautilus-files-view.c:7984
 msgid "_Start Multi-disk Drive"
-msgstr ""
+msgstr "_Begin multi-skyf-aandrywer"
 
 #: src/nautilus-files-view.c:7990
 msgid "U_nlock Drive"
-msgstr ""
+msgstr "_Ontsluit aandrywer"
 
 #: src/nautilus-files-view.c:8010
 msgid "Stop Drive"
-msgstr ""
+msgstr "Stop aandrywer"
 
 #: src/nautilus-files-view.c:8016
 msgid "_Safely Remove Drive"
-msgstr ""
+msgstr "_Verwyder skyf veilig"
 
 #: src/nautilus-files-view.c:8022 src/gtk/nautilusgtkplacesview.c:1675
 msgid "_Disconnect"
@@ -2666,11 +2667,11 @@ msgstr "O_ntkoppel"
 
 #: src/nautilus-files-view.c:8028
 msgid "_Stop Multi-disk Drive"
-msgstr ""
+msgstr "_Stop multi-skyf-aandrywer"
 
 #: src/nautilus-files-view.c:8034
 msgid "_Lock Drive"
-msgstr ""
+msgstr "_Sluit aandrywer"
 
 #: src/nautilus-files-view.c:9717
 msgid "Content View"
@@ -2725,15 +2726,15 @@ msgstr "Herdoen die laaste aksie"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Skuif %d item terug na “%s”"
+msgstr[1] "Skuif %d items terug na “%s”"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Skuif %d item na “%s”"
+msgstr[1] "Skuif %d items na “%s”"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2752,12 +2753,12 @@ msgstr[1] "He_rdoen die skuif van %d items"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "Skuif \"%s\" terug na \"%s\""
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "Skuif \"%s\" na \"%s\""
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2769,11 +2770,11 @@ msgstr "He_rdoen skuif"
 
 #: src/nautilus-file-undo-operations.c:435
 msgid "_Undo Restore from Trash"
-msgstr ""
+msgstr "_Ontdoen herstel vanuit asblik"
 
 #: src/nautilus-file-undo-operations.c:436
 msgid "_Redo Restore from Trash"
-msgstr ""
+msgstr "He_rdoen herstel vanuit asblik"
 
 #: src/nautilus-file-undo-operations.c:440
 #, c-format
@@ -2793,12 +2794,12 @@ msgstr[1] "Herstel %d items vanuit die asblik"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "Skuif “%s” terug na die asblik"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "Herstel “%s” vanuit die asblik"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2811,8 +2812,8 @@ msgstr[1] "Skrap %d gekopieerde items"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopieer %d item na “%s”"
+msgstr[1] "Kopieer %d items na “%s”"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2835,12 +2836,12 @@ msgstr[1] "He_rdoen die kopieer van %d items"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "Skrap “%s”"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "Kopieer “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2861,8 +2862,8 @@ msgstr[1] "Skrap %d gedupliseerde items"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dupliseer %d item in “%s”"
+msgstr[1] "Dupliseer %d items in “%s”"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2881,7 +2882,7 @@ msgstr[1] "He_rdoen die dupliseer van %d items"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "Dupliseer “%s” in “%s”"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2908,12 +2909,12 @@ msgstr[1] "Skep skakel na %d items"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "Skrap skakel na “%s”"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "Skep skakel na “%s”"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2926,7 +2927,7 @@ msgstr "He_rdoen die skep van skakel"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "Skep 'n leë lêer “%s”"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2939,7 +2940,7 @@ msgstr "He_rdoen skep van leë lêer"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "Skep 'n nuwe gids “%s”"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2952,7 +2953,7 @@ msgstr "He_rdoen skep van gids"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "Skep nuwe lêer “%s” vanaf sjabloon "
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2966,7 +2967,7 @@ msgstr "He_rdoen skep vanaf sjabloon"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "Hernoem “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2981,16 +2982,16 @@ msgstr "He_rdoen hernoem"
 #, c-format
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Hernoem %d lêer"
+msgstr[1] "Hernoem %d lêers"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
-msgstr ""
+msgstr "_Ontdoen groep hernoem"
 
 #: src/nautilus-file-undo-operations.c:1119
 msgid "_Redo Batch Rename"
-msgstr ""
+msgstr "He_rdoen groep hernoem"
 
 #: src/nautilus-file-undo-operations.c:1330
 #, c-format
@@ -3002,12 +3003,12 @@ msgstr[1] "Skuif %d items na die asblik"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "Herstel “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "Skuif “%s” na die asblik"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -3020,12 +3021,12 @@ msgstr "He_rdoen skuif na asblik"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Herstel oorspronklike toegangsregte van items in “%s”"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Stel toegangsregte van items in “%s”"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -3040,22 +3041,22 @@ msgstr "He_rdoen verandering van toegangsregte"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "Herstel oorspronklike toegangsregte van “%s”"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "Stel toegangsregte van “%s”"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "Herstel groep van “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "Stel groep van “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3068,12 +3069,12 @@ msgstr "He_rdoen verandering van groep"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "Herstel eienaar van “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "Stel eienaar van “%s” na “%s”"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3085,55 +3086,55 @@ msgstr "He_rdoen verandering van eienaar"
 
 #: src/nautilus-file-undo-operations.c:2071
 msgid "_Undo Extract"
-msgstr ""
+msgstr "_Ontdoen uitpak"
 
 #: src/nautilus-file-undo-operations.c:2072
 msgid "_Redo Extract"
-msgstr ""
+msgstr "He_rdoen uitpak"
 
 #: src/nautilus-file-undo-operations.c:2089
 #, c-format
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Skrap %d uitgepakte item"
+msgstr[1] "Skrap %d uitgepakte items"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "Pak “%s” uit"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pak %d lêer uit"
+msgstr[1] "Pak %d lêers uit"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "Pers “%s” saam"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pers %d lêer saam"
+msgstr[1] "Pers %d lêers saam"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
-msgstr ""
+msgstr "_Ontdoen saampersing"
 
 #: src/nautilus-file-undo-operations.c:2269
 msgid "_Redo Compress"
-msgstr ""
+msgstr "He_rdoen saampersing"
 
 #: src/nautilus-file-utilities.c:1023
 #, c-format
 msgid "Could not determine original location of “%s” "
-msgstr "Kon nie die oorspronklike ligging van “%s” bepaal nie"
+msgstr "Kon nie die oorspronklike ligging van “%s” bepaal nie "
 
 #: src/nautilus-file-utilities.c:1027
 msgid "The item cannot be restored from trash"
@@ -3204,8 +3205,8 @@ msgstr "Beeldtipe"
 #, c-format
 msgid "%d pixel"
 msgid_plural "%d pixels"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d beeldpunt"
+msgstr[1] "%d beeldpunte"
 
 #: src/nautilus-image-properties-page.c:362
 msgid "Width"
@@ -3237,7 +3238,7 @@ msgstr "Geskep deur"
 #. * the metadata of an image
 #: src/nautilus-image-properties-page.c:398
 msgid "Disclaimer"
-msgstr ""
+msgstr "Vrywaring"
 
 #: src/nautilus-image-properties-page.c:399
 msgid "Warning"
@@ -3263,7 +3264,7 @@ msgstr "Datum geneem"
 
 #: src/nautilus-image-properties-page.c:424
 msgid "Date Digitized"
-msgstr ""
+msgstr "Datum gedigitaliseer"
 
 #: src/nautilus-image-properties-page.c:426
 msgid "Date Modified"
@@ -3344,7 +3345,7 @@ msgstr "Kies die volgorde van inligting wat in hierdie gids moet verskyn:"
 #, c-format
 msgid "Do you want to view %d location?"
 msgid_plural "Do you want to view %d locations?"
-msgstr[0] "Wil u %d ligging bekyk?"
+msgstr[0] "Wil u %d ligging vertoon?"
 msgstr[1] "Wil u %d liggings bekyk?"
 
 #: src/nautilus-location-entry.c:271 src/nautilus-mime-actions.c:957
@@ -3357,7 +3358,7 @@ msgstr[1] "Dit sal %d afsonderlike vensters oopmaak."
 #: src/nautilus-mime-actions.c:103
 #: src/resources/ui/nautilus-search-popover.ui:275
 msgid "Anything"
-msgstr ""
+msgstr "Enigiets"
 
 #: src/nautilus-mime-actions.c:113 src/nautilus-properties-window.c:4588
 msgid "Folders"
@@ -3377,7 +3378,7 @@ msgstr "Musiek"
 
 #: src/nautilus-mime-actions.c:159
 msgid "PDF / PostScript"
-msgstr ""
+msgstr "PDF / PostScript"
 
 #: src/nautilus-mime-actions.c:166
 msgid "Picture"
@@ -3404,7 +3405,7 @@ msgstr "Dié skakel kan nie gebruik word nie want dit het nie 'n teiken nie."
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "Dié skakel kan nie gebruik word nie want sy teiken “%s” bestaan nie."
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3467,7 +3468,7 @@ msgstr "Kan nie vir toepassing soek nie"
 msgid ""
 "There is no application installed for “%s” files.\n"
 "Do you want to search for an application to open this file?"
-msgstr "Daar is geen toepassing geïnstalleer vir “%s”-lêers nie.\nWil u soek vir 'n toepassing om dié lêer mee te open?"
+msgstr "Daar is geen toepassing geïnstalleer vir “%s”-lêers nie.\nWil u vir 'n toepassing soek om dié lêer mee te open?"
 
 #: src/nautilus-mime-actions.c:1494
 msgid "Untrusted application launcher"
@@ -3482,7 +3483,7 @@ msgstr "Die toepassinglanseerder “%s” is nie as vertroud gemerk nie. As u ni
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "Vertrou en _lanseer"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3561,31 +3562,31 @@ msgstr "Stel as verstek"
 #: src/nautilus-new-folder-dialog-controller.c:52
 #: src/nautilus-rename-file-popover-controller.c:82
 msgid "Folder names cannot contain “/”."
-msgstr ""
+msgstr "Gids name kan nie “/” bevat nie."
 
 #: src/nautilus-new-folder-dialog-controller.c:56
 #: src/nautilus-rename-file-popover-controller.c:93
 msgid "A folder cannot be called “.”."
-msgstr ""
+msgstr "'n gids kan nie “.” genoem word nie."
 
 #: src/nautilus-new-folder-dialog-controller.c:60
 #: src/nautilus-rename-file-popover-controller.c:104
 msgid "A folder cannot be called “..”."
-msgstr ""
+msgstr "'n Gids kan nie “..” genoem word nie."
 
 #: src/nautilus-new-folder-dialog-controller.c:128
 #: src/resources/ui/nautilus-compress-dialog.ui:173
 msgid "Create"
-msgstr ""
+msgstr "Skep"
 
 #: src/nautilus-new-folder-dialog-controller.c:129
 #: src/nautilus-rename-file-popover-controller.c:296
 msgid "Folder name"
-msgstr ""
+msgstr "Gidsnaam"
 
 #: src/nautilus-new-folder-dialog-controller.c:130
 msgid "New Folder"
-msgstr ""
+msgstr "Nuwe gids"
 
 #: src/nautilus-notebook.c:348
 msgid "Close tab"
@@ -3595,18 +3596,18 @@ msgstr "Sluit oortjie"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "Jy probeer die gids \"%s\" in die bestemming met 'n simboliese skakel vervang."
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "Om te verhoed dat die inhoud van die bestemmingsgids geskrap word, word dit nie toegelaat nie."
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "Hernoem die simboliese skakel of druk die skip knoppie."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -3674,7 +3675,7 @@ msgstr "'n Ander lêer met die selfde naam bestaan reeds in “%s”."
 
 #: src/nautilus-operations-ui-manager.c:275
 msgid "Original folder"
-msgstr ""
+msgstr "Oorspronklike lêer"
 
 #. Also set the title field here, with a trailing carriage return &
 #. * space if the value field has two lines. This is a hack to get the
@@ -3710,7 +3711,7 @@ msgstr "Laas gewysig:"
 
 #: src/nautilus-operations-ui-manager.c:307
 msgid "Merge with"
-msgstr ""
+msgstr "Voeg saam met"
 
 #: src/nautilus-operations-ui-manager.c:307
 #: src/nautilus-operations-ui-manager.c:312
@@ -3723,12 +3724,12 @@ msgstr "Voeg saam"
 
 #: src/nautilus-operations-ui-manager.c:385
 msgid "Merge Folder"
-msgstr ""
+msgstr "Voeg gids saam"
 
 #: src/nautilus-operations-ui-manager.c:386
 #: src/nautilus-operations-ui-manager.c:391
 msgid "File and Folder conflict"
-msgstr ""
+msgstr "Lêer en gids konflik"
 
 #: src/nautilus-operations-ui-manager.c:392
 msgid "File conflict"
@@ -3744,7 +3745,7 @@ msgstr "Geen"
 
 #: src/nautilus-program-choosing.c:337
 msgid "Sorry, but you cannot execute commands from a remote site."
-msgstr "Jammer, maar mens kan nie bevele vanaf 'n afgeleë plek uitvoer nie."
+msgstr "Jammer, maar jy kan nie bevele vanaf 'n afgeleë plek uitvoer nie."
 
 #: src/nautilus-program-choosing.c:339
 msgid "This is disabled due to security considerations."
@@ -3776,7 +3777,7 @@ msgstr "Besonderhede: "
 
 #: src/nautilus-progress-info.c:312
 msgid "Canceled"
-msgstr ""
+msgstr "Gekanselleer"
 
 #: src/nautilus-progress-info.c:378 src/nautilus-progress-info.c:399
 msgid "Preparing"
@@ -3804,11 +3805,11 @@ msgstr "Alle lêeroperasies is suksesvol voltooi"
 
 #: src/nautilus-properties-window.c:502
 msgid "You cannot assign more than one custom icon at a time!"
-msgstr "Mens kan nie meer as een pasgemaakte ikoon op 'n keer toeken nie."
+msgstr "Jy kan nie meer as een pasgemaakte ikoon op 'n slag toeken nie!"
 
 #: src/nautilus-properties-window.c:503
 msgid "Please drop just one image to set a custom icon."
-msgstr ""
+msgstr "Los asseblief net een beeld om 'n pasgemaakte ikoon te stel."
 
 #: src/nautilus-properties-window.c:520
 msgid "The file that you dropped is not local."
@@ -3816,7 +3817,7 @@ msgstr "Die lêer wat u laat los het is nie plaaslik nie."
 
 #: src/nautilus-properties-window.c:521 src/nautilus-properties-window.c:528
 msgid "You can only use local images as custom icons."
-msgstr "Mens kan slegs plaaslike beelde as pasgemaakte ikone gebruik."
+msgstr "Jy kan slegs plaaslike beelde as pasgemaakte ikone gebruik."
 
 #: src/nautilus-properties-window.c:527
 msgid "The file that you dropped is not an image."
@@ -3838,14 +3839,14 @@ msgstr "Eienskappe"
 #, c-format
 msgctxt "folder"
 msgid "%s Properties"
-msgstr ""
+msgstr "%s Eienskappe"
 
 #. To translators: %s is the name of the file.
 #: src/nautilus-properties-window.c:918
 #, c-format
 msgctxt "file"
 msgid "%s Properties"
-msgstr ""
+msgstr "%s Eienskappe"
 
 #: src/nautilus-properties-window.c:1360
 #, c-format
@@ -3908,7 +3909,7 @@ msgstr "Skakelteiken:"
 
 #: src/nautilus-properties-window.c:3209
 msgid "Parent Folder:"
-msgstr ""
+msgstr "Ouergids:"
 
 #: src/nautilus-properties-window.c:3218
 msgid "Volume:"
@@ -3931,7 +3932,7 @@ msgstr "Oop spasie:"
 #: src/nautilus-properties-window.c:3986 src/nautilus-properties-window.c:4001
 #: src/nautilus-properties-window.c:4018
 msgid "no "
-msgstr ""
+msgstr "geen "
 
 #: src/nautilus-properties-window.c:3990
 msgid "list"
@@ -4083,27 +4084,27 @@ msgstr "Soek vir “%s”"
 
 #: src/nautilus-query-editor.c:134
 msgid "Searching locations only"
-msgstr ""
+msgstr "Soek slegs in liggings"
 
 #: src/nautilus-query-editor.c:139
 msgid "Searching devices only"
-msgstr ""
+msgstr "Soek slegs in toestelle"
 
 #: src/nautilus-query-editor.c:143
 msgid "Searching network locations only"
-msgstr ""
+msgstr "Soek slegs in netwerk liggings"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "Afgeleë ligging — soek slegs in die huidige gids"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
-msgstr ""
+msgstr "Soek slegs in huidige gids"
 
 #: src/nautilus-rename-file-popover-controller.c:297
 msgid "File name"
-msgstr ""
+msgstr "Lêernaam"
 
 #: src/nautilus-search-engine.c:229
 msgid "Unable to complete the requested search"
@@ -4111,17 +4112,17 @@ msgstr "Kon nie die versoekte soektog voltooi nie"
 
 #: src/nautilus-search-popover.c:301
 msgid "Show a list to select the date"
-msgstr ""
+msgstr "Wys 'n lys om die datum te kies"
 
 #: src/nautilus-search-popover.c:307
 #: src/resources/ui/nautilus-search-popover.ui:96
 msgid "Show a calendar to select the date"
-msgstr ""
+msgstr "Wys 'n kalender om die datum te kies"
 
 #. Add the no date filter element first
 #: src/nautilus-search-popover.c:421
 msgid "Any time"
-msgstr ""
+msgstr "Enige tyd"
 
 #. Other types
 #: src/nautilus-search-popover.c:518
@@ -4139,7 +4140,7 @@ msgstr "Kies"
 #: src/nautilus-search-popover.c:667
 #: src/resources/ui/nautilus-search-popover.ui:51
 msgid "Select Dates…"
-msgstr ""
+msgstr "Kies datums…"
 
 #. trash
 #: src/nautilus-shell-search-provider.c:320 src/nautilus-trash-bar.c:208
@@ -4149,13 +4150,13 @@ msgstr "Asblik"
 
 #: src/nautilus-special-location-bar.c:56
 msgid "Put files in this folder to use them as templates for new documents."
-msgstr ""
+msgstr "Plaas lêers in die gids om hulle as template vir nuwe dokumente te gebruik."
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
 "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
 "templates\">Learn more…</a>"
-msgstr ""
+msgstr "<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates\">Vind meer uit…</a>"
 
 #: src/nautilus-special-location-bar.c:63
 msgid "Executable files in this folder will appear in the Scripts menu."
@@ -4163,11 +4164,11 @@ msgstr "Uitvoerbare lêers in dié gids sal in die Skripte-kieslys verskyn."
 
 #: src/nautilus-toolbar.c:860 src/resources/ui/nautilus-toolbar-menu.ui:103
 msgid "_Undo"
-msgstr ""
+msgstr "_Ontdoen"
 
 #: src/nautilus-toolbar.c:867 src/resources/ui/nautilus-toolbar-menu.ui:111
 msgid "_Redo"
-msgstr ""
+msgstr "He_rdoen"
 
 #: src/nautilus-trash-bar.c:216
 msgid "_Restore"
@@ -4180,7 +4181,7 @@ msgstr "Herstel gekose items se oorspronklike grootte"
 #. Translators: "Empty" is an action (for the trash) , not a state
 #: src/nautilus-trash-bar.c:223
 msgid "_Empty"
-msgstr ""
+msgstr "_Maak leeg"
 
 #: src/nautilus-trash-bar.c:226
 msgid "Delete all items in the Trash"
@@ -4190,77 +4191,77 @@ msgstr "Skrap alle items in die asblik"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sedert %d dag gelede"
+msgstr[1] "Sedert %d dae gelede"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d dag gelede"
+msgstr[1] "%d dae gelede"
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sedert verlede week"
+msgstr[1] "Sedert %d weke gelede"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verlede week"
+msgstr[1] "%d weke gelede"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sedert verlede maand"
+msgstr[1] "Sedert %d maande gelede"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verlede maand"
+msgstr[1] "%d maande gelede"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Sedert verlede jaar"
+msgstr[1] "Sedert %d jare gelede"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Verlede jaar"
+msgstr[1] "%d jare gelede"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "Ouer gids"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
-msgstr ""
+msgstr "Nuwe oortjie"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "Sluit huidige aansig"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "Vorentoe"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4268,13 +4269,13 @@ msgstr "_Eienskappe"
 
 #: src/nautilus-window.c:1477
 msgid "_Format…"
-msgstr ""
+msgstr "_Formaat…"
 
 #. Translators: only one item has been deleted and %s is its name.
 #: src/nautilus-window.c:1785
 #, c-format
 msgid "“%s” deleted"
-msgstr ""
+msgstr "\"%s\" geskrap"
 
 #. Translators: one or more items might have been deleted, and %d
 #. * is the count.
@@ -4282,13 +4283,13 @@ msgstr ""
 #, c-format
 msgid "%d file deleted"
 msgid_plural "%d files deleted"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d lêer geskrap"
+msgstr[1] "%d lêers geskrap"
 
 #: src/nautilus-window.c:1915
 #, c-format
 msgid "Open %s"
-msgstr ""
+msgstr "Open %s"
 
 #: src/nautilus-window.c:2002
 msgid "_New Tab"
@@ -4308,14 +4309,14 @@ msgstr "_Sluit oortjie"
 
 #: src/nautilus-window.c:3084
 msgid "Access and organize your files."
-msgstr ""
+msgstr "Kry toegang tot en organiseer jou lêers."
 
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
 #. * box to give credit to the translator(s).
 #: src/nautilus-window.c:3094
 msgid "translator-credits"
-msgstr "Friedel Wolff\nTranslate.org.za"
+msgstr "Friedel Wolff\nPieter Schoeman"
 
 #: src/nautilus-window-slot.c:1436
 msgid "Unable to display the contents of this folder."
@@ -4323,7 +4324,7 @@ msgstr "Kan nie die inhoud van dié gids vertoon nie."
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "Die ligging blyk nie 'n gids te wees nie."
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4345,7 +4346,7 @@ msgstr "Kan nie toegang kry tot die aangevraagde ligging nie."
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "U het nie toegangsregte vir die aangevraagde gids nie."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4374,277 +4375,277 @@ msgstr "Open met:"
 #: src/resources/gtk/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Algemeen"
 
 #: src/resources/gtk/help-overlay.ui:17
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Nuwe venster"
 
 #: src/resources/gtk/help-overlay.ui:24
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr ""
+msgstr "Sluit venster of oortjie"
 
 #: src/resources/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Search"
-msgstr ""
+msgstr "Soek"
 
 #: src/resources/gtk/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Bookmark current location"
-msgstr ""
+msgstr "Boekmerk huidige ligging"
 
 #: src/resources/gtk/help-overlay.ui:45
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr ""
+msgstr "Wys hulp"
 
 #: src/resources/gtk/help-overlay.ui:52
 msgctxt "shortcut window"
 msgid "Shortcuts"
-msgstr ""
+msgstr "Kortpaaie"
 
 #: src/resources/gtk/help-overlay.ui:61
 msgctxt "shortcut window"
 msgid "Opening"
-msgstr ""
+msgstr "Open tans"
 
 #: src/resources/gtk/help-overlay.ui:65
 msgctxt "shortcut window"
 msgid "Open"
-msgstr ""
+msgstr "Open"
 
 #: src/resources/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr ""
+msgstr "Open in nuwe oortjie"
 
 #: src/resources/gtk/help-overlay.ui:79
 msgctxt "shortcut window"
 msgid "Open in new window"
-msgstr ""
+msgstr "Open in nuwe venster"
 
 #: src/resources/gtk/help-overlay.ui:86
 msgctxt "shortcut window"
 msgid "Open item location (search and recent only)"
-msgstr ""
+msgstr "Open item ligging (slegs soek en onlangs)"
 
 #: src/resources/gtk/help-overlay.ui:93
 msgctxt "shortcut window"
 msgid "Open file and close window"
-msgstr ""
+msgstr "Open lêer en sluit venster"
 
 #: src/resources/gtk/help-overlay.ui:100
 msgctxt "shortcut window"
 msgid "Open with default application"
-msgstr ""
+msgstr "Open met verstek toepassing"
 
 #: src/resources/gtk/help-overlay.ui:109
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr ""
+msgstr "Oortjies"
 
 #: src/resources/gtk/help-overlay.ui:113
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr ""
+msgstr "Nuwe oortjie"
 
 #: src/resources/gtk/help-overlay.ui:120
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr ""
+msgstr "Gaan na vorige oortjie"
 
 #: src/resources/gtk/help-overlay.ui:127
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr ""
+msgstr "Gaan na volgende oortjie"
 
 #: src/resources/gtk/help-overlay.ui:134
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr ""
+msgstr "Open oortjie"
 
 #: src/resources/gtk/help-overlay.ui:141
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr ""
+msgstr "Skuif oortjie links"
 
 #: src/resources/gtk/help-overlay.ui:148
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr ""
+msgstr "Skuif oortjie regs"
 
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "Herstel oortjie"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr ""
+msgstr "Navigasie"
 
 #: src/resources/gtk/help-overlay.ui:168
 msgctxt "shortcut window"
 msgid "Go back"
-msgstr ""
+msgstr "Gaan terug"
 
 #: src/resources/gtk/help-overlay.ui:175
 msgctxt "shortcut window"
 msgid "Go forward"
-msgstr ""
+msgstr "Gaan vorentoe"
 
 #: src/resources/gtk/help-overlay.ui:182
 msgctxt "shortcut window"
 msgid "Go up"
-msgstr ""
+msgstr "Gaan op"
 
 #: src/resources/gtk/help-overlay.ui:189
 msgctxt "shortcut window"
 msgid "Go down"
-msgstr ""
+msgstr "Gaan af"
 
 #: src/resources/gtk/help-overlay.ui:196
 msgctxt "shortcut window"
 msgid "Go to home folder"
-msgstr ""
+msgstr "Gaan na persoonlike gids"
 
 #: src/resources/gtk/help-overlay.ui:203
 msgctxt "shortcut window"
 msgid "Enter location"
-msgstr ""
+msgstr "Voer ligging in"
 
 #: src/resources/gtk/help-overlay.ui:210
 msgctxt "shortcut window"
 msgid "Location bar with root location"
-msgstr ""
+msgstr "Liggingbalk met wortel ligging"
 
 #: src/resources/gtk/help-overlay.ui:217
 msgctxt "shortcut window"
 msgid "Location bar with home location"
-msgstr ""
+msgstr "Liggingbalk met tuis ligging"
 
 #: src/resources/gtk/help-overlay.ui:226
 msgctxt "shortcut window"
 msgid "View"
-msgstr ""
+msgstr "Bekyk"
 
 #: src/resources/gtk/help-overlay.ui:230
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr ""
+msgstr "Zoem in"
 
 #: src/resources/gtk/help-overlay.ui:237
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr ""
+msgstr "Zoem uit"
 
 #: src/resources/gtk/help-overlay.ui:244
 msgctxt "shortcut window"
 msgid "Reset zoom"
-msgstr ""
+msgstr "Herstel zoem"
 
 #: src/resources/gtk/help-overlay.ui:251
 msgctxt "shortcut window"
 msgid "Refresh view"
-msgstr ""
+msgstr "Verfris aansig"
 
 #: src/resources/gtk/help-overlay.ui:258
 msgctxt "shortcut window"
 msgid "Show/hide hidden files"
-msgstr ""
+msgstr "Vertoon/versteek verborge lêers"
 
 #: src/resources/gtk/help-overlay.ui:265
 msgctxt "shortcut window"
 msgid "Show/hide sidebar"
-msgstr ""
+msgstr "Vertoon/versteek kantbalk"
 
 #: src/resources/gtk/help-overlay.ui:272
 msgctxt "shortcut window"
 msgid "Show/hide action menu"
-msgstr ""
+msgstr "Vertoon/versteek aksie kieslys"
 
 #: src/resources/gtk/help-overlay.ui:279
 msgctxt "shortcut window"
 msgid "List view"
-msgstr ""
+msgstr "Lysaangesig"
 
 #: src/resources/gtk/help-overlay.ui:286
 msgctxt "shortcut window"
 msgid "Grid view"
-msgstr ""
+msgstr "Roosteraansig"
 
 #: src/resources/gtk/help-overlay.ui:295
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr ""
+msgstr "Redigering"
 
 #: src/resources/gtk/help-overlay.ui:299
 msgctxt "shortcut window"
 msgid "Create folder"
-msgstr ""
+msgstr "Skep gids"
 
 #: src/resources/gtk/help-overlay.ui:306
 msgctxt "shortcut window"
 msgid "Rename"
-msgstr ""
+msgstr "Hernoem"
 
 #: src/resources/gtk/help-overlay.ui:313
 msgctxt "shortcut window"
 msgid "Move to trash"
-msgstr ""
+msgstr "Skuif na asblik"
 
 #: src/resources/gtk/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Delete permanently"
-msgstr ""
+msgstr "Skrap permanent"
 
 #: src/resources/gtk/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Cut"
-msgstr ""
+msgstr "Knip"
 
 #: src/resources/gtk/help-overlay.ui:334
 msgctxt "shortcut window"
 msgid "Copy"
-msgstr ""
+msgstr "Kopieer"
 
 #: src/resources/gtk/help-overlay.ui:341
 msgctxt "shortcut window"
 msgid "Paste"
-msgstr ""
+msgstr "Plak"
 
 #: src/resources/gtk/help-overlay.ui:348
 msgctxt "shortcut window"
 msgid "Select all"
-msgstr ""
+msgstr "Merk alles"
 
 #: src/resources/gtk/help-overlay.ui:355
 msgctxt "shortcut window"
 msgid "Invert selection"
-msgstr ""
+msgstr "Keer seleksie om"
 
 #: src/resources/gtk/help-overlay.ui:362
 msgctxt "shortcut window"
 msgid "Select items matching"
-msgstr ""
+msgstr "Kies passende items"
 
 #: src/resources/gtk/help-overlay.ui:369
 msgctxt "shortcut window"
 msgid "Undo"
-msgstr ""
+msgstr "Ontdoen"
 
 #: src/resources/gtk/help-overlay.ui:376
 msgctxt "shortcut window"
 msgid "Redo"
-msgstr ""
+msgstr "Herdoen"
 
 #: src/resources/gtk/help-overlay.ui:383
 msgctxt "shortcut window"
 msgid "Show item properties"
-msgstr ""
+msgstr "Wys item eienskappe"
 
 #: src/resources/gtk/menus.ui:6
 msgid "New _Window"
@@ -4652,7 +4653,7 @@ msgstr "Nuwe _venster"
 
 #: src/resources/gtk/menus.ui:13
 msgid "Sidebar"
-msgstr ""
+msgstr "Kantbalk"
 
 #: src/resources/gtk/menus.ui:21
 msgid "Prefere_nces"
@@ -4660,7 +4661,7 @@ msgstr "Voor_keure"
 
 #: src/resources/gtk/menus.ui:27
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Sleutelbordkortpaaie"
 
 #: src/resources/gtk/menus.ui:31
 msgid "_Help"
@@ -4677,109 +4678,109 @@ msgstr "_Sluit af"
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:20
 #: src/resources/ui/nautilus-rename-file-popover.ui:39
 msgid "_Rename"
-msgstr ""
+msgstr "He_rnoem"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:54
 msgid "Rename _using a template"
-msgstr ""
+msgstr "Hernoem _met templaat"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:65
 msgid "Find and replace _text"
-msgstr ""
+msgstr "Vind en vervang _teks"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:138
 msgid "Add"
-msgstr ""
+msgstr "Voeg by"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:168
 msgid "Automatic Numbering Order"
-msgstr ""
+msgstr "Outomatiese nommer orde"
 
 #. Translators: This is a noun, not a verb
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:213
 msgid "Format"
-msgstr ""
+msgstr "Formateer"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:228
 msgid "Existing Text"
-msgstr ""
+msgstr "Bestaande teks"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:257
 msgid "Replace With"
-msgstr ""
+msgstr "Vervang met"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:284
 msgctxt "title"
 msgid "Replace"
-msgstr ""
+msgstr "Vervang"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:412
 msgid "Automatic Numbers"
-msgstr ""
+msgstr "Outomatiese nommers"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:414
 msgid "1, 2, 3, 4"
-msgstr ""
+msgstr "1, 2, 3, 4"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:418
 msgid "01, 02, 03, 04"
-msgstr ""
+msgstr "01, 02, 03, 04"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:422
 msgid "001, 002, 003, 004"
-msgstr ""
+msgstr "001, 002, 003, 004"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:427
 msgid "Metadata"
-msgstr ""
+msgstr "Metadatum"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:429
 msgid "Creation Date"
-msgstr ""
+msgstr "Skeppingsdatum"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:439
 msgid "Season Number"
-msgstr ""
+msgstr "Seisoen nommer"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:444
 msgid "Episode Number"
-msgstr ""
+msgstr "Episode nommer"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:449
 msgid "Track Number"
-msgstr ""
+msgstr "Snit nommer"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:454
 msgid "Artist Name"
-msgstr ""
+msgstr "Kunstenaar naam"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:464
 msgid "Album Name"
-msgstr ""
+msgstr "Album naam"
 
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:471
 msgid "Original File Name"
-msgstr ""
+msgstr "Oorspronklike lêernaam"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:5
 msgid "Create Archive"
-msgstr ""
+msgstr "Skep argief"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:22
 msgid "Archive name"
-msgstr ""
+msgstr "Argief naam"
 
 #: src/resources/ui/nautilus-compress-dialog.ui:118
 msgid "Compatible with all operating systems."
-msgstr ""
+msgstr "Versoenbaar met alle bedryfstelsels."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:131
 msgid "Smaller archives but Linux and Mac only."
-msgstr ""
+msgstr "Kleiner argiewe maar slegs Linux en Mac."
 
 #: src/resources/ui/nautilus-compress-dialog.ui:144
 msgid "Smaller archives but must be installed on Windows and Mac."
-msgstr ""
+msgstr "Kleiner argiewe maar moet op Windows en Mac geïnstalleer word."
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
@@ -4796,7 +4797,7 @@ msgstr "_Plak"
 #: src/resources/ui/nautilus-files-view-context-menus.ui:22
 #: src/resources/ui/nautilus-files-view-context-menus.ui:151
 msgid "Create _Link"
-msgstr ""
+msgstr "Skep _skakel"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:29
 msgid "Select _All"
@@ -4810,15 +4811,15 @@ msgstr "_Eienskappe"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:42
 msgid "_Keep aligned"
-msgstr ""
+msgstr "_Hou belyn"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:47
 msgid "Organize _Desktop by Name"
-msgstr ""
+msgstr "_Organiseer werkskerm volgens naam"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:54
 msgid "Change _Background"
-msgstr ""
+msgstr "Verander _werkarea-agtergrond"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:72
 msgid "_Scripts"
@@ -4830,21 +4831,21 @@ msgstr "_Open Skripte-gids"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:85
 msgid "_Open Item Location"
-msgstr ""
+msgstr "Open _itemligging"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:90
 #: src/resources/ui/nautilus-pathbar-context-menu.ui:6
 msgid "Open In New _Tab"
-msgstr ""
+msgstr "Open in nuwe oor_tjie"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:95
 #: src/resources/ui/nautilus-pathbar-context-menu.ui:11
 msgid "Open In New _Window"
-msgstr ""
+msgstr "Open in nuwe _venster"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:102
 msgid "Open With Other _Application"
-msgstr ""
+msgstr "Open met ander _toepassing"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:110
 #: src/gtk/nautilusgtkplacesview.c:1685
@@ -4882,15 +4883,15 @@ msgstr "_Plak in gids"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:164
 msgid "Move to…"
-msgstr ""
+msgstr "Skuif na…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:168
 msgid "Copy to…"
-msgstr ""
+msgstr "Kopieer na…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:179
 msgid "_Delete from Trash"
-msgstr ""
+msgstr "_Skrap uit Asblik"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:184
 #: src/resources/ui/nautilus-files-view-context-menus.ui:189
@@ -4903,7 +4904,7 @@ msgstr "Maak asblik leeg"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:199
 msgid "_Restore From Trash"
-msgstr ""
+msgstr "He_rstel vanuit asblik"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:206
 msgid "Resize Icon…"
@@ -4911,71 +4912,71 @@ msgstr "Hervergroot ikoon…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "Herstel ikoon se oorspronklike gr_ootte"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
-msgstr ""
+msgstr "He_rnoem…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:224
 msgid "Set As Wallpaper"
-msgstr ""
+msgstr "Stel as werkskermagtergrond"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:231
 msgid "_Remove from Recent"
-msgstr ""
+msgstr "Verwy_der van onlangs"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:239
 msgid "_Extract Here"
-msgstr ""
+msgstr "_Pak hier uit"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:244
 msgid "E_xtract to…"
-msgstr ""
+msgstr "_Pak uit na…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:249
 msgid "C_ompress…"
-msgstr ""
+msgstr "_Pers saam…"
 
 #: src/resources/ui/nautilus-folder-is-empty.ui:30
 msgid "Folder is Empty"
-msgstr ""
+msgstr "Gids is leeg"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "Asblik is leeg"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
-msgstr ""
+msgstr "Skrap kortpad het verander"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:12
 msgid ""
 "With the latest version of Files, you no longer need to hold Ctrl to delete "
 "— the Delete key will work when pressed on its own."
-msgstr ""
+msgstr "Met die nuutste weergawe van Lêers, is dit nie meer nodig om Ctrl te druk om te skrap nie — die skrap sleutel sal werk as dit alleen gedruk word."
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:15
 msgid "Got it"
-msgstr ""
+msgstr "Het dit"
 
 #: src/resources/ui/nautilus-no-search-results.ui:30
 msgid "No Results Found"
-msgstr ""
+msgstr "Geen resultate gevind nie"
 
 #: src/resources/ui/nautilus-no-search-results.ui:44
 #: src/gtk/nautilusgtkplacesview.ui:406
 msgid "Try a different search"
-msgstr ""
+msgstr "Probeer 'n ander soektog"
 
 #: src/resources/ui/nautilus-preferences-window.ui:13
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeure"
 
 #: src/resources/ui/nautilus-preferences-window.ui:44
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:98
 msgid "Sort"
-msgstr ""
+msgstr "Sorteer"
 
 #: src/resources/ui/nautilus-preferences-window.ui:58
 msgid "Sort _folders before files"
@@ -4983,43 +4984,43 @@ msgstr "Sorteer _gidse vóór lêers"
 
 #: src/resources/ui/nautilus-preferences-window.ui:104
 msgid "Allow folders to be _expanded"
-msgstr ""
+msgstr "Laat toe dat gidse uitgebrei word"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "Eksperimenteel"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "Gebruik die nuwe _aansigte"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
-msgstr ""
+msgstr "Ikoonaangesig opskrifte"
 
 #: src/resources/ui/nautilus-preferences-window.ui:198
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "Voeg inligting wat onder die name van lêers en gidse vertoon word by. Meer inligting sal verskyn wanneer 'n jy inzoem."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
 msgctxt "the n-th position of an icon caption"
 msgid "Second"
-msgstr ""
+msgstr "Tweede"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:331
 msgctxt "the n-th position of an icon caption"
 msgid "Third"
-msgstr ""
+msgstr "Derde"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:346
 msgctxt "the n-th position of an icon caption"
 msgid "First"
-msgstr ""
+msgstr "Eerste"
 
 #: src/resources/ui/nautilus-preferences-window.ui:380
 msgid "Views"
@@ -5027,7 +5028,7 @@ msgstr "Aansigte"
 
 #: src/resources/ui/nautilus-preferences-window.ui:403
 msgid "Open Action"
-msgstr ""
+msgstr "Open aksie"
 
 #: src/resources/ui/nautilus-preferences-window.ui:417
 msgid "_Single click to open items"
@@ -5039,11 +5040,11 @@ msgstr "_Dubbelklik om items te open"
 
 #: src/resources/ui/nautilus-preferences-window.ui:468
 msgid "Link Creation"
-msgstr ""
+msgstr "Skakel skepping"
 
 #: src/resources/ui/nautilus-preferences-window.ui:482
 msgid "Show action to create symbolic _links"
-msgstr ""
+msgstr "Vertoon aksie om simboliese _skakels te skep"
 
 #: src/resources/ui/nautilus-preferences-window.ui:514
 msgid "Executable Text Files"
@@ -5051,23 +5052,23 @@ msgstr "Uitvoerbare tekslêers"
 
 #: src/resources/ui/nautilus-preferences-window.ui:528
 msgid "_Display them"
-msgstr ""
+msgstr "_Vertoon hulle"
 
 #: src/resources/ui/nautilus-preferences-window.ui:546
 msgid "_Run them"
-msgstr ""
+msgstr "_Laat hulle loop"
 
 #: src/resources/ui/nautilus-preferences-window.ui:564
 msgid "_Ask what to do"
-msgstr ""
+msgstr "_Vra wat om te doen"
 
 #: src/resources/ui/nautilus-preferences-window.ui:611
 msgid "Ask before _emptying the Trash"
-msgstr ""
+msgstr "Vra voor asblik l_eeggemaak word"
 
 #: src/resources/ui/nautilus-preferences-window.ui:628
 msgid "Show action to _permanently delete files and folders"
-msgstr ""
+msgstr "Wys aksie om lêers en gidse permanent te skrap"
 
 #: src/resources/ui/nautilus-preferences-window.ui:660
 msgid "Behavior"
@@ -5083,75 +5084,75 @@ msgstr "Lys kolomme"
 
 #: src/resources/ui/nautilus-preferences-window.ui:768
 msgid "Search in subfolders:"
-msgstr ""
+msgstr "Soek in subgidse:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:779
 msgid "_On this computer only"
-msgstr ""
+msgstr "Slegs _op die rekenaar"
 
 #: src/resources/ui/nautilus-preferences-window.ui:796
 msgid "_All locations"
-msgstr ""
+msgstr "_Alle liggings"
 
 #: src/resources/ui/nautilus-preferences-window.ui:813
 msgid "_Never"
-msgstr ""
+msgstr "_Nooit"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "Vol teks soektog:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "Stel as _verstek"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
-msgstr ""
+msgstr "Duimnaels"
 
 #: src/resources/ui/nautilus-preferences-window.ui:891
 msgid "Show thumbnails:"
-msgstr ""
+msgstr "Vertoon duimnaels:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:902
 msgid "_Files on this computer only"
-msgstr ""
+msgstr "_Lêers slegs op die rekenaar"
 
 #: src/resources/ui/nautilus-preferences-window.ui:919
 msgid "A_ll files"
-msgstr ""
+msgstr "A_lle lêers"
 
 #: src/resources/ui/nautilus-preferences-window.ui:936
 msgid "N_ever"
-msgstr ""
+msgstr "_Nooit"
 
 #: src/resources/ui/nautilus-preferences-window.ui:960
 msgid "Onl_y for files smaller than:"
-msgstr ""
+msgstr "_Slegs vir lêers kleiner as:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1010
 msgid "File count"
-msgstr ""
+msgstr "Lêer aantal"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1026
 msgid "Count number of files in folders:"
-msgstr ""
+msgstr "Tel aantal lêers in gidse:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1037
 msgid "F_olders in this computer only"
-msgstr ""
+msgstr "_Gidse slegs op die rekenaar"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1054
 msgid "All folder_s"
-msgstr ""
+msgstr "Alle gid_se"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1071
 msgid "Ne_ver"
-msgstr ""
+msgstr "No_oit"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1103
 msgid "Search & Preview"
-msgstr ""
+msgstr "Soek en voorskou"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1125
 #: src/resources/ui/nautilus-preferences-window.ui:1173
@@ -5174,17 +5175,17 @@ msgstr "Nooit"
 #: src/resources/ui/nautilus-preferences-window.ui:1142
 #: src/resources/ui/nautilus-preferences-window.ui:1216
 msgid "Small"
-msgstr ""
+msgstr "Klein"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1145
 #: src/resources/ui/nautilus-preferences-window.ui:1219
 msgid "Standard"
-msgstr ""
+msgstr "Standaard"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1148
 #: src/resources/ui/nautilus-preferences-window.ui:1222
 msgid "Large"
-msgstr ""
+msgstr "Groot"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1190
 msgid "By Name"
@@ -5204,143 +5205,143 @@ msgstr "Volgens wysigingsdatum"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1202
 msgid "By Access Date"
-msgstr "Volgens toegangsdatum"
+msgstr "Volgens toeg"
 
 #: src/resources/ui/nautilus-preferences-window.ui:1205
 msgid "By Trashed Date"
-msgstr "Volgens datum na die asblik geskuif"
+msgstr "Volgens skrapdatum"
 
 #: src/resources/ui/nautilus-search-popover.ui:18
 msgid "When"
-msgstr ""
+msgstr "Wanneer"
 
 #: src/resources/ui/nautilus-search-popover.ui:45
 msgid "Select a date"
-msgstr ""
+msgstr "Kies 'n datum"
 
 #: src/resources/ui/nautilus-search-popover.ui:67
 msgid "Clear the currently selected date"
-msgstr ""
+msgstr "Maak die huidig geselekteerde datum skoon"
 
 #: src/resources/ui/nautilus-search-popover.ui:127
 msgid "Since…"
-msgstr ""
+msgstr "Sedert…"
 
 #: src/resources/ui/nautilus-search-popover.ui:194
 msgid "Last _modified"
-msgstr ""
+msgstr "Laaste _gewysig"
 
 #: src/resources/ui/nautilus-search-popover.ui:211
 msgid "Last _used"
-msgstr ""
+msgstr "Laaste _gebruik"
 
 #: src/resources/ui/nautilus-search-popover.ui:240
 msgid "What"
-msgstr ""
+msgstr "Wat"
 
 #: src/resources/ui/nautilus-search-popover.ui:264
 msgid "Which file types will be searched"
-msgstr ""
+msgstr "Watter lêer tipes deursoek moet word"
 
 #: src/resources/ui/nautilus-search-popover.ui:360
 msgid "Full Text"
-msgstr ""
+msgstr "Vol teks"
 
 #: src/resources/ui/nautilus-search-popover.ui:364
 msgid "Search on the file content and name"
-msgstr ""
+msgstr "Soek volgens lêerinhoud en naam"
 
 #: src/resources/ui/nautilus-search-popover.ui:379
 msgid "File Name"
-msgstr ""
+msgstr "Lêernaam"
 
 #: src/resources/ui/nautilus-search-popover.ui:383
 msgid "Search only on the file name"
-msgstr ""
+msgstr "Soek slegs volgens lêernaam"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:23
 msgid "New folder"
-msgstr ""
+msgstr "Nuwe gids"
 
 #: src/resources/ui/nautilus-toolbar-menu.ui:42
 msgid "Bookmark this location"
-msgstr ""
+msgstr "Boekmerk dié ligging"
 
 #: src/resources/ui/nautilus-toolbar.ui:92
 msgid "Action menu"
-msgstr ""
+msgstr "Aksie kieslys"
 
 #: src/resources/ui/nautilus-toolbar.ui:93
 msgid "Open action menu"
-msgstr ""
+msgstr "Open aksie kieslys"
 
 #: src/resources/ui/nautilus-toolbar.ui:117
 msgid "View mode toggle"
-msgstr ""
+msgstr "Vertoon modus wisselaar"
 
 #: src/resources/ui/nautilus-toolbar.ui:118
 msgid "Toggle between grid and list view"
-msgstr ""
+msgstr "Wissel tussen rooster en lys aansig"
 
 #: src/resources/ui/nautilus-toolbar.ui:144
 msgid "Search files"
-msgstr ""
+msgstr "Soek lêers"
 
 #: src/resources/ui/nautilus-toolbar.ui:176
 msgid "Operations in progress"
-msgstr ""
+msgstr "Bedrywighede"
 
 #: src/resources/ui/nautilus-toolbar.ui:177
 msgid "Open operations in progress"
-msgstr ""
+msgstr "Bedrywighede tans aan die gang"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:21
 msgid "Zoom out"
-msgstr ""
+msgstr "Zoem uit"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:40
 msgid "Reset zoom"
-msgstr ""
+msgstr "Stel zoem terug"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:58
 msgid "Zoom in"
-msgstr ""
+msgstr "Zoem in"
 
 #. This is used to sort by name in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:109
 msgctxt "Sort Criterion"
 msgid "_A-Z"
-msgstr ""
+msgstr "_A-Z"
 
 #. This is used to sort by name, in descending order in the toolbar view menu
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:118
 msgctxt "Sort Criterion"
 msgid "_Z-A"
-msgstr ""
+msgstr "_Z-A"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:127
 msgid "Last _Modified"
-msgstr ""
+msgstr "Laaste _gewysig"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:136
 msgid "_First Modified"
-msgstr ""
+msgstr "_Eerste gewysig"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:145
 msgid "_Size"
-msgstr ""
+msgstr "_Grootte"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:154
 msgid "_Type"
-msgstr ""
+msgstr "_Tipe"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:163
 msgid "Last _Trashed"
-msgstr ""
+msgstr "Laas na _asblik geskuif"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:182
 msgid "_Visible Columns…"
-msgstr ""
+msgstr "_Sigbare kolomme…"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:190
 msgid "Show _Hidden Files"
@@ -5348,42 +5349,42 @@ msgstr "Vertoon _verborge lêers"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:198
 msgid "R_eload"
-msgstr ""
+msgstr "H_erlaai"
 
 #: src/resources/ui/nautilus-toolbar-view-menu.ui:206
 msgid "St_op"
-msgstr ""
+msgstr "St_op"
 
 #: src/resources/ui/nautilus-window.ui:5
 msgid "_Files"
-msgstr ""
+msgstr "_Lêers"
 
 #: src/gtk/nautilusgtkplacesview.c:893
 msgid "Searching for network locations"
-msgstr ""
+msgstr "Soek tans vir netwerk liggings"
 
 #: src/gtk/nautilusgtkplacesview.c:900
 msgid "No network locations found"
-msgstr ""
+msgstr "Geen netwerk liggings gevind nie"
 
 #: src/gtk/nautilusgtkplacesview.c:1117
 msgid "Computer"
-msgstr ""
+msgstr "Rekenaar"
 
 #. Restore from Cancel to Connect
 #: src/gtk/nautilusgtkplacesview.c:1246 src/gtk/nautilusgtkplacesview.ui:449
 msgid "Con_nect"
-msgstr ""
+msgstr "K_oppel"
 
 #. if it wasn't cancelled show a dialog
 #: src/gtk/nautilusgtkplacesview.c:1366
 msgid "Unable to unmount volume"
-msgstr ""
+msgstr "Kon nie volume ontheg nie"
 
 #. Allow to cancel the operation
 #: src/gtk/nautilusgtkplacesview.c:1467
 msgid "Cance_l"
-msgstr ""
+msgstr "Kanse_lleer"
 
 #: src/gtk/nautilusgtkplacesview.c:1640
 msgid "Open in New _Tab"
@@ -5395,15 +5396,15 @@ msgstr "Open in nuwe _venster"
 
 #: src/gtk/nautilusgtkplacesview.c:1826
 msgid "Unable to get remote server location"
-msgstr ""
+msgstr "Nie in staat om afgeleë bediener ligging te kry nie"
 
 #: src/gtk/nautilusgtkplacesview.c:1965 src/gtk/nautilusgtkplacesview.c:1974
 msgid "Networks"
-msgstr ""
+msgstr "Netwerke"
 
 #: src/gtk/nautilusgtkplacesview.c:1965 src/gtk/nautilusgtkplacesview.c:1974
 msgid "On This Computer"
-msgstr ""
+msgstr "Op die rekenaar"
 
 #. Translators: respectively, free and total space of the drive. The plural
 #. form
@@ -5413,95 +5414,95 @@ msgstr ""
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s beskikbaar"
+msgstr[1] "%s / %s beskikbaar"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"
-msgstr ""
+msgstr "Ontkoppel"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 #: src/gtk/nautilusgtkplacesviewrow.ui:72
 msgid "Unmount"
-msgstr ""
+msgstr "Ontheg"
 
 #: src/gtk/nautilusgtkplacesview.ui:30
 msgid "Server Addresses"
-msgstr ""
+msgstr "Bedieneradres"
 
 #: src/gtk/nautilusgtkplacesview.ui:43
 msgid ""
 "Server addresses are made up of a protocol prefix and an address. Examples:"
-msgstr ""
+msgstr "Bedieneradresse bestaan uit 'n protokol voorvoegsel en 'n adres. Voorbeelde:"
 
 #: src/gtk/nautilusgtkplacesview.ui:78
 msgid "Available Protocols"
-msgstr ""
+msgstr "Beskikbare protokolle"
 
 #: src/gtk/nautilusgtkplacesview.ui:92
 msgid "AppleTalk"
-msgstr ""
+msgstr "AppleTalk"
 
 #: src/gtk/nautilusgtkplacesview.ui:103
 msgid "File Transfer Protocol"
-msgstr ""
+msgstr "Lêer oordrag protokol"
 
 #: src/gtk/nautilusgtkplacesview.ui:114
 msgid "Network File System"
-msgstr ""
+msgstr "Netwerk lêerstelsel"
 
 #: src/gtk/nautilusgtkplacesview.ui:125
 msgid "Samba"
-msgstr ""
+msgstr "Samba"
 
 #: src/gtk/nautilusgtkplacesview.ui:136
 msgid "SSH File Transfer Protocol"
-msgstr ""
+msgstr "SSH lêer oordrag protokol"
 
 #: src/gtk/nautilusgtkplacesview.ui:147
 msgid "WebDAV"
-msgstr ""
+msgstr "WebDAV"
 
 #: src/gtk/nautilusgtkplacesview.ui:158
 msgid "Prefix"
-msgstr ""
+msgstr "Voorvoegsel"
 
 #. Translators: do not translate ftp:// and ftps://
 #: src/gtk/nautilusgtkplacesview.ui:183
 msgid "ftp:// or ftps://"
-msgstr ""
+msgstr "ftp:// or ftps://"
 
 #: src/gtk/nautilusgtkplacesview.ui:205
 msgid "smb://"
-msgstr ""
+msgstr "smb://"
 
 #. Translators: do not translate sftp:// and ssh://
 #: src/gtk/nautilusgtkplacesview.ui:216
 msgid "sftp:// or ssh://"
-msgstr ""
+msgstr "sftp:// or ssh://"
 
 #. Translators: do not translate dav:// and davs://
 #: src/gtk/nautilusgtkplacesview.ui:227
 msgid "dav:// or davs://"
-msgstr ""
+msgstr "dav:// or davs://"
 
 #. Translators: Server as any successfully connected network address
 #: src/gtk/nautilusgtkplacesview.ui:267
 msgid "No recent servers found"
-msgstr ""
+msgstr "Geen onlangse bedieners gevind nie"
 
 #: src/gtk/nautilusgtkplacesview.ui:290
 msgid "Recent Servers"
-msgstr ""
+msgstr "Onlangse bedieners"
 
 #: src/gtk/nautilusgtkplacesview.ui:393
 msgid "No results found"
-msgstr ""
+msgstr "Geen resultate gevind nie"
 
 #: src/gtk/nautilusgtkplacesview.ui:439
 msgid "Connect to _Server"
-msgstr ""
+msgstr "Koppel aan _bediener"
 
 #: src/gtk/nautilusgtkplacesview.ui:472
 msgid "Enter server address…"
-msgstr ""
+msgstr "Voer bedieneradres in…"

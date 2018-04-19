@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2006,2008-2016
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2006,2008-2017
 # julen, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:20+0000\n"
+"PO-Revision-Date: 2018-04-19 22:35+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Basque (http://www.transifex.com/endless-os/nautilus/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +84,7 @@ msgstr "Arakatzailearen leihoetan ireki berri diren fitxak non kokatu"
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "“after-current-tab“ gisa ezartzen bada, fitxa berriak uneko fitxaren ondoren txertatuko dira. “end“ gisa ezartzen bada, fitxa berriak fitxen zerrendaren amaieran erantsiko dira."
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
@@ -104,7 +104,7 @@ msgstr "Bilaketa errekurtsiboa landuko den ala ez"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "Nautilus-ek zer kokalekuan bilatu behar duen azpikarpetak. Balio erabilgarriak: “local-only“ (lokalean soilik), “always“ (beti), “never“ (inoiz ere ez)."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -157,7 +157,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "Abiadura-erlazioa direktorioko elementu kopurua erakutsi behar denerako. “always“ (beti) ezartzen bada, beti erakutsiko da elementu kopurua, baita direktorioa urruneko zerbitzari batean badago ere. “local-only“ (lokalak bakarrik) ezartzen bada, fitxategi-sistema lokaletakoak bakarrik kontatzen ditu. “never“ (inoiz ez) ezartzen bada, ez ditu inoiz elementuak kontatuko."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -167,7 +167,7 @@ msgstr "Fitxategiak abiarazteko/irekitzeko erabiliko den klik mota"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "Balio posibleak “single“ (bakarra) eta “double“ (bikoitza) dira, fitxategiak klik bakarrez edo klik bikoitzez abiarazteko, hurrenez hurren."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -179,7 +179,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "Zer egin testu-fitxategi exekutagarriekin aktibatzen direnean (klik bakarrez edo bikoitzez). Balio posibleak hauek dira: “launch“ (abiarazi) programa gisa abiarazteko, “ask“ (galdetu) zer egin galdetzeko elkarrizketa-koadro baten bidez eta “display“ (bistaratu) testu-fitxategi gisa bistaratzeko."
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -204,35 +204,35 @@ msgstr "Erakutsi abisuaren elkarrizketa-koadroa Zakarrontzira botatzeko laster-t
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "Erabili saguaren botoi gehigarriaren gertaerak Nautilus-eko arakatzailearen leihoan"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "“Aurrera“ eta “Atzera“ botoidun saguak dituzten erabiltzaileentzako, gako honek zehaztuko du Nautilus barruan ekintzarik landuko den botoi hauetariko bat sakatzean."
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "Saguaren botoia “Aurrera“ komandoa aktibatzeko arakatzailearen leihoan"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "“Aurrera“ eta “Atzera“ botoidun saguak dituzten erabiltzaileentzako, gako honek “Aurrera“ komandoa zein botoik aktibatuko duen arakatzailearen leihoan zehazten du. Balio erabilgarriak 6 eta 14 artekoa dira."
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "Saguaren botoia “Atzera“ komandoa aktibatzeko arakatzailearen leihoan"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "“Aurrera“ eta “Atzera“ botoidun saguak dituzten erabiltzaileentzako, gako honek “Atzera“ komandoa zein botoik aktibatuko duen arakatzailearen leihoan zehazten du. Balio erabilgarriak 6 eta 14 artekoa dira."
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -246,7 +246,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "Abiadura-erlazioa fitxategi bat koadro txiki moduan erakutsi behar denerako. “always“ (beti) ezartzen bada, beti sartuko da koadro txikian, baita direktorioa urruneko zerbitzarian badago ere. “local-only“ (lokalak bakarrik) ezarriz gero, fitxategi-sistema lokalen koadro txikiak bakarrik erakusten ditu. “never“ (inoiz ez) ezarriz gero, ez ditu inoiz fitxategiak koadro txikian sartuko, ikono generiko bat erabiliko du. Izenak adieraz dezakeen arren, aurrebista eduki dezaketen edozein fitxategi motei eragiten die."
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -257,7 +257,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "Tamaina hau baino handiagoko irudiak (bytetan) ez dira koadro txikian sartuko. Ezarpen horren helburua hauxe da: kargatzen luzaro irauten duten edo memoria asko erabiltzen duten irudi handiak koadro txikian sartzea."
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -267,7 +267,7 @@ msgstr "Ordena lehenetsia"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "Ikono-ikuspegiko elementuen ordena lehenetsia. Balio posibleak hauek dira: “name“ (izena), “size“ (tamaina), “type“ (mota) eta “mtime“ (aldatze-ordua)."
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -279,7 +279,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "Egia bada, leiho berrietako fitxategiak alderantzizko ordenan ordenatuko dira. Adibidez, izenaren arabera antolatuz gero, fitxategiak “a“-tik “z“-ra ordenatu beharrean “z“-tik “a“-ra ordenatuko dira; tamainaren arabera ordenatuz gero, txikitik handira ordenatu beharrean handitik txikira ordenatuko dira."
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -290,7 +290,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "Karpeta bat bisitatzean ikustaile hau erabiltzen da, karpeta jakin horretarako beste ikuspegi bat hautatu ezean. Balio posibleak hauek dira: “list-view“ (zerrenda-ikuspegia) eta “icon-view“ (ikono-ikuspegia)."
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -300,7 +300,7 @@ msgstr "Fitxategi ezkutuak erakutsiko diren ala ez"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "Gako hau zaharkituta dago eta ezikusia egiten zaio. Horren ordez “org.gtk.Settings.FileChoose“-eko “show-hidden“ gakoa erabiliko da."
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -338,26 +338,26 @@ msgstr "Hemen true (egia) ezartzen bada, arrastatu eta jaregin eragiketan kurtso
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "Gaitu ikuspegi esperimental berriak"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "Azken GTK+ liburutegiko  trepetak erabiltzean, ikuspegi esperimental berriak erabiliko diren edo ez, haiei buruzko iritziak ematen laguntzeko eta haien etorkizuna zehazteko ."
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
 "Whether to have full text search enabled by default when opening a new "
 "window/tab"
-msgstr ""
+msgstr "Lehenetsi gisa testu osoaren bilaketa gaituta edukitzea edo ez leiho/fitxa berria irekitzean"
 
 #: data/org.gnome.nautilus.gschema.xml:218
 msgid ""
 "If set to true, then Nautilus will also match the file contents besides the "
 "name. This toggles the default active state, which can still be overriden in"
 " the search popover"
-msgstr ""
+msgstr "True (egia) gisa ezartzean, Nautilus-ek fitxategien izenez gain haien edukietan ere begiratuko du. Honek egoera aktibo lehenetsia txandakatzen du, hala ere laster-leihoan gainidatz daiteke."
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
@@ -377,7 +377,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "Ikono-ikuspegiko eta mahaigaineko ikonoen azpiko epigrafe-zerrenda. Erakusten diren epigrafe-kopurua zoom-mailaren araberakoa da. Hauek dira balio erabilgarri batzuk: “size“ (tamaina), “type“ (mota), “date_modified“ (aldatze-data), “owner“ (jabea), “group“ (taldea), “permissions“ (baimenak) eta “mime_type“ (mime mota)."
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -417,7 +417,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "Kate bat fitxategi-izen luzeen zati bat elipsiekin ordezteko mahaigainean (zoomaren mailaren arabera). Zerrendako sarrera bakoitza “Zooma Maila:Osokoa“ formakoa da. Zehaztutako zoomaren maila bakoitzagatik, emandako zenbaki osokoa 0 baino handiagoa bada, fitxategi-izenak ez da emandako lerroak baino gehiago izango. Zenbakia 0 edo txikiagoa bada, ez zaio mugarik jarriko bistaratutako lerro kopuruari zoomaren mailan. “Osokoa“ erako sarrera lehenetsia (zoom mailarik zehaztu gabe) ere onartuta dago. Honek beste zoomen maila guztietan erabiliko den gehieneko lerro kopurua zehazten du. Adibidez: 0 — beti bistaratu fitxategi-izen luzeak; 3 — hiru lerro baino luzeagoak diren fitxategi-izenak laburtuko ditu. smallest:5,smaller:4,0 — laburtu zoomaren “smallest“ mailan 5 lerro baino luzeagoak diren fitxategi-izenak, eta “smaller“ mailan 4 lerro baino luzeagokoak (ez ditu zoomaren beste mailetan laburtuko). Zoomaren maila erabilgarriak: small (txikia), standard (arrunta), large (handia)"
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -758,7 +758,7 @@ msgstr "Hautatu zehaztutako URIa guraso karpetan."
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URIa…]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -785,7 +785,7 @@ msgstr "\"%s\"(e)k automatikoki abiarazi izateko softwarea du. Exekutatzea nahi 
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "Kokaleku honetaz ez bazara fio, edo ziur ez bazaude, sakatu Utzi."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -794,7 +794,7 @@ msgstr "_Exekutatu"
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
 msgid "“%s” would not be a unique new name."
-msgstr "'%s' ez luke izen esklusibo berri bat izan beharko."
+msgstr "“%s“(e)k ez luke izen esklusibo berri bat izan beharko."
 
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
@@ -803,19 +803,19 @@ msgstr "'%s'(e)k gatazka izan dezake badagoen beste fitxategi batekin."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Izena ezin da hutsik egon."
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "Izenak ezin du “/” karaktererik eduki."
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.” ez da baliozko izena."
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..” ez da baliozko izena."
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
@@ -837,8 +837,8 @@ msgstr[1] "Aldatu izenez %d fitxategi"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aldatu izenez fitxategi eta karpeta %d"
+msgstr[1] "Aldatu izenez %d fitxategi eta karpeta"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -1026,15 +1026,15 @@ msgstr "Fitxategiaren kokalekua."
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "Aldatuta — Ordua"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "Oraintsukoa"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "Erabiltzaileak fitxategia atzitu zueneko data."
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1370,7 +1370,7 @@ msgstr "Jabea ezartzea ez dago baimendua"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "Zehaztutako “%s“ jabea ez da existitzen"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1380,7 +1380,7 @@ msgstr "Taldea ezartzea ez dago baimendua"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "Zehaztutako “%s“ taldea ez da existitzen"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1532,7 +1532,7 @@ msgstr "Al_datu izena"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "_Ordeztu"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
@@ -1749,7 +1749,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "Ziur zaude “%s“ zakarrontzitik behin betiko ezabatu nahi duzula?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1782,7 +1782,7 @@ msgstr "Hustu _zakarrontzia"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "Ziur zaude “%s“ behin betiko ezabatu nahi duzula?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1795,12 +1795,12 @@ msgstr[1] "Ziur zaude hautatutako %'d elementuak betiko ezabatu nahi dituzula?"
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "“%s“ ezabatuta"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "“%s“ ezabatzen"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1838,8 +1838,8 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s falta"
+msgstr[1] "%'d / %'d — %s falta"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1855,32 +1855,32 @@ msgstr "Errorea ezabatzean."
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ karpeta ezabatzean."
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "Ez duzu behar adinako baimenik “%s“ karpeta ezabatzeko."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ fitxategia ezabatzean."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "Ez duzu behar adinako baimenik “%s“ fitxategia ezabatzeko."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "“%s“ zakarrontzira botatzen"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "“%s“ zakarrontzira botata"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1900,7 +1900,7 @@ msgstr[1] "%'d fitxategi zakarrontzira botata"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "Ezin da “%s“ zakarrontzira bota. Berehala ezabatu nahi duzu?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1917,12 +1917,12 @@ msgstr "Fitxategiak ezabatzen"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "Ezin da %s egotzi"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "Ezin da %s desmuntatu"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1948,22 +1948,22 @@ msgstr "Ezin da \"%s\" atzitu"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d kopiatzeko prestatzen (%s)"
+msgstr[1] "%'d fitxategi kopiatzeko prestatzen (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d lekuz aldatzeko prestatzen (%s)"
+msgstr[1] "%'d fitxategi lekuz aldatzeko prestatzen (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d ezabatzeko prestatzen (%s)"
+msgstr[1] "%'d fitxategi ezabatzeko prestatzen (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -2002,43 +2002,43 @@ msgstr "Errorea fitxategiak konprimitzean."
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Ezin dira “%s“ karpetako fitxategiak kudeatu, hauek ikusteko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ karpetako fitxategien informazioa eskuratzean."
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "Ezin da “%s“ karpeta kudeatu, irakurtzeko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ karpeta irakurtzean."
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "Ezin da “%s“ fitxategia kudeatu, irakurtzeko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“(r)en informazioa lortzean."
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "Errorea “%s“(e)n kopiatzean."
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2061,7 +2061,7 @@ msgstr "Ez dago nahikoa leku erabilgarri helburuan. Saiatu fitxategiak ezabatzea
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "%s leku gehiago behar da helburuan kopiatzeko."
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2070,74 +2070,74 @@ msgstr "Helburua irakurtzeko soilik da."
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hona eramaten: “%s“"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hona eramanda: “%s“"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hemen kopiatzen: “%s“"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hemen kopiatuta: “%s“"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "“%s“ bikoizten"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "“%s“ bikoiztuta"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)ra eramaten"
+msgstr[1] "%'d fitxategi “%s“(e)ra eramaten"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n kopiatzen"
+msgstr[1] "%'d fitxategi “%s“(e)n kopiatzen"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)ra eramanda"
+msgstr[1] "%'d fitxategi “%s“(e)ra eramanda"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n kopiatuta"
+msgstr[1] "%'d fitxategi “%s“(e)n kopiatuta"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n bikoizten"
+msgstr[1] "%'d fitxategi “%s“(e)n bikoizten"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n bikoiztuta"
+msgstr[1] "%'d fitxategi “%s“(e)n bikoiztuta"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2152,7 +2152,7 @@ msgstr[1] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2180,8 +2180,8 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s / %s — %s falta (%s/seg)"
+msgstr[1] "%s / %s — %s falta (%s/seg)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2193,27 +2193,27 @@ msgstr[1] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%'d / %'d — %s falta (%s/seg)"
+msgstr[1] "%'d / %'d — %s falta (%s/seg)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "Ezin da “%s“ karpeta kopiatu, helburuan karpeta hau sortzeko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ karpeta sortzean."
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "Ezin dira “%s“ karpetako fitxategiak kopiatu, hauek ikusteko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2224,13 +2224,13 @@ msgstr "_Saltatu fitxategiak"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "Ezin da “%s“ karpeta kopiatu, irakurtzeko baimenik ez duzulako."
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "Errorea “%s“ lekuz aldatzean."
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2265,17 +2265,17 @@ msgstr "Iturburuko fitxategia helburukoarekin gainidatziko da."
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "Errorea “%s“ kopiatzean."
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "Ezin izan da existitzen den “%s“(r)en izen berdina duen fitxategia ezabatu."
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "Errorea gertatu da fitxategia “%s“(e)n kopiatzean."
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2284,7 +2284,7 @@ msgstr "Fitxategiak kopiatzen"
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "“%s“(e)ra eramateko prestatzen"
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2296,7 +2296,7 @@ msgstr[1] "%'d fitxategi lekuz aldatzeko prestatzen"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "Errorea gertatu da fitxategia “%s“(e)ra eramatean."
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2305,7 +2305,7 @@ msgstr "Fitxategiak lekuz aldatzen"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "“%s“(e)n estekak sortzen"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2317,7 +2317,7 @@ msgstr[1] "%'d fitxategietarako estekak sortzen"
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "Errorea “%s“(e)rako esteka sortzean."
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2325,12 +2325,12 @@ msgstr "Lokaleko fitxategien esteka sinbolikoak soilik onartzen dira"
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "Helburuak ez du esteka sinbolikorik onartzen."
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "Errorea gertatu da esteka sinbolikoa sortzean “%s“(e)n."
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2349,17 +2349,17 @@ msgstr "Izenik gabeko dokumentua"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "Errorea “%s“ direktorioa sortzean."
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "Errorea “%s“ fitxategia sortzean."
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "Errorea gertatu da direktorioa sortzean “%s“(e)n."
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2376,34 +2376,34 @@ msgstr "Helburua egiaztatzen"
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "“%s“ erauzten"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "Errorea “%s“ erauztean"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "Errorea gertatu da “%s“ erauztean."
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "Ez dago nahiko leku “%s” erauzteko"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hemen erauzita: “%s“"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n erauzita"
+msgstr[1] "%'d fitxategi “%s“(e)n erauzita"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2416,26 +2416,26 @@ msgstr "Fitxategiak erauzten"
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "“%s“ hemen konprimitzen: “%s“"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n konprimitzen"
+msgstr[1] "%'d fitxategi “%s“(e)n konprimitzen"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "Errorea “%s“ hemen konprimitzean: “%s“"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Errorea fitxategi %'d “%s“(e)n konprimitzean"
+msgstr[1] "Errorea %'d fitxategi “%s“(e)n konprimitzean"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2444,14 +2444,14 @@ msgstr "Errorea gertatu da fitxategiak konprimitzean."
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "“%s“ hemen konprimituta: “%s“"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %'d “%s“(e)n konprimituta"
+msgstr[1] "%'d fitxategi “%s“(e)n konprimituta"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2726,15 +2726,15 @@ msgstr "Desegin den azken ekintza berregiten du"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Itzuli elementu %d “%s“(e)ra"
+msgstr[1] "Itzuli %d elementu “%s“(e)ra"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %d “%s“(e)ra eramanda"
+msgstr[1] "%d fitxategi “%s“(e)ra eramanda"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2753,12 +2753,12 @@ msgstr[1] "_Berregin %d elementu lekuz aldatzea"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "“%s“ hona eramanda: “%s“"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hona eramanda: “%s“"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2794,12 +2794,12 @@ msgstr[1] "Berreskuratu %d elementu zakarrontzitik"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "Bota “%s“ zakarrontzira berriro"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "Berreskuratu “%s“ zakarrontzitik"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2812,8 +2812,8 @@ msgstr[1] "Ezabatu kopiatutako %d elementu"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kopiatu elementu %d “%s“(e)n"
+msgstr[1] "Kopiatu %d elementu “%s“(e)n"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2836,12 +2836,12 @@ msgstr[1] "_Berregin %d elementu kopiatzea"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "“%s“ ezabatuta"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ hemen kopiatzen: “%s“"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2862,8 +2862,8 @@ msgstr[1] "Ezabatu bikoiztutako %d elementu"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fitxategi %d “%s“(e)n bikoiztuta"
+msgstr[1] "%d fitxategi “%s“(e)n bikoiztuta"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2882,7 +2882,7 @@ msgstr[1] "_Berregin %d elementu bikoiztea"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "“%s” “%s“(e)n bikoiztuta"
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2909,12 +2909,12 @@ msgstr[1] "Sortu %d elementuren estekak"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "Ezabatu “%s“(r)en estekak"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "Sortu “%s“(r)en estekak"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2927,7 +2927,7 @@ msgstr "_Berregin esteka sortzea"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "Sortu “%s“ fitxategi hutsa"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2940,7 +2940,7 @@ msgstr "_Berregin fitxategi hutsa sortzea"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "Sortu “%s“ karpeta berria"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2953,7 +2953,7 @@ msgstr "_Berregin karpeta sortzea"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "Sortu “%s“ fitxategi berria txantiloitik "
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2967,7 +2967,7 @@ msgstr "_Berregin txantiloitik sortzea"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "“%s“ izenaren ordez “%s“ jarriko da."
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -3003,12 +3003,12 @@ msgstr[1] "Bota %d elementu zakarrontzira"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ izenaren ordez “%s“ jarriko da."
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "Bota “%s“ zakarrontzira"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -3021,12 +3021,12 @@ msgstr "_Berregin zakarrontzira"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Leheneratu “%s“(e)ko elementuen jatorrizko baimenak"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "Ezarri “%s“(e)ko elementuen baimenak"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -3041,22 +3041,22 @@ msgstr "_Berregin baimen aldaketak"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "Leheneratu “%s“ jatorrizko baimenak"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "Ezarri “%s“(r)en baimenak"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "Leheneratu “%s“(r)en taldea “%s“(e)ra"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ izenaren ordez “%s“ jarriko da."
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3069,12 +3069,12 @@ msgstr "_Berregin talde aldaketa"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "Leheneratu “%s“(r)en jabea “%s“(e)ra"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "“%s“ izenaren ordez “%s“ jarriko da."
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3102,7 +3102,7 @@ msgstr[1] "Ezabatu erauzitako %d fitxategi"
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "“%s“ erauzten"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
@@ -3114,7 +3114,7 @@ msgstr[1] "Erauzi %d fitxategi"
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "Konprimitu “%s“"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
@@ -3405,7 +3405,7 @@ msgstr "Esteka hori ezin da erabili, helbururik ez duelako."
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "Esteka hori ezin da erabili, bere “%s“ helburua ez dagoelako."
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3483,7 +3483,7 @@ msgstr "\"%s\" aplikazio abiarazlea ez da fidagarri gisa markatu. Fitxategi horr
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "Fidatu eta _abiarazi"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3596,18 +3596,18 @@ msgstr "Itxi fitxa"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "Helburuko “%s” karpeta esteka sinboliko batekin ordeztea saiatzen ari zara."
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "Hori ez dago baimenduta, helburuko karpetaren edukia ezabatzea saihesteko."
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "Aldatu esteka sinbolikoa edo sakatu saltatzeko botoia."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -4096,7 +4096,7 @@ msgstr "Soilik sareko kokalekuak bilatzen"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "Urruneko kokalekua — soilik uneko karpeta bilatzen"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4191,8 +4191,8 @@ msgstr "Ezabatu zakarrontziko elementu guztiak"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Duela egun %d-etik"
+msgstr[1] "Duela %d egunetik"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4205,8 +4205,8 @@ msgstr[1] "duela %d egun"
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aurreko astetik"
+msgstr[1] "Duela %d asteetatik"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4219,8 +4219,8 @@ msgstr[1] "duela %d aste"
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aurreko hilabetetik"
+msgstr[1] "Duela %d hilabeteetatik"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4233,8 +4233,8 @@ msgstr[1] "duela %d hilabete"
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Iaztik"
+msgstr[1] "Duela %d urteetatik"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4245,7 +4245,7 @@ msgstr[1] "duela %d urte"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "Karpeta gurasoa"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
@@ -4253,15 +4253,15 @@ msgstr "Fitxa berria"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "Itxi uneko ikuspegia"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "Atzera"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "Aurrera"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4324,7 +4324,7 @@ msgstr "Ezin da karpeta honen edukia bistaratu."
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "Ez dirudi kokaleku hau karpeta bat denik."
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4346,7 +4346,7 @@ msgstr "Ezin da eskatutako kokalekua atzitu."
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "Ez duzu eskatutako kokalekua atzitzeko baimenik."
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4480,7 +4480,7 @@ msgstr "Eraman fitxa eskuinera"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "Berrezarri fitxa"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4912,7 +4912,7 @@ msgstr "Aldatu ikonoaren tamaina…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "Leheneratu ikonoen jatorrizko tamaina"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
@@ -4944,7 +4944,7 @@ msgstr "Karpeta hutsik dago"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "Zakarrontzia hutsik dago"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4988,11 +4988,11 @@ msgstr "Baimendu karpetak _zabaltzea"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "Esperimentala"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "Erabili _ikuspegi berriak"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
@@ -5002,7 +5002,7 @@ msgstr "Ikonoen ikuspegien epigrafeak"
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "Gehitu informazioa fitxategien eta karpeten izenen azpian bistaratzeko. Zooma handiagotzean informazio gehiago agertuko da."
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
@@ -5100,11 +5100,11 @@ msgstr "_Inoiz ere ez"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "Testu osoaren bilaketa:"
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "Ezarri _lehenetsi gisa"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"
