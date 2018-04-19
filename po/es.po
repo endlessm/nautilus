@@ -14,12 +14,13 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2007-2008,2010-2012
 # Juanje Ojeda Croissier <jojeda@emergya.es>, 2009
 # Nuritzi Sanchez <ns@endlessm.com>, 2017
+# Roddy Shuler <roddy@endlessm.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:36+0000\n"
+"PO-Revision-Date: 2018-04-19 22:47+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-os/nautilus/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -789,7 +790,7 @@ msgstr "Hubo un problema al ejecutar este programa."
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr "«%s» contiene software pensado para iniciarse automáticamente. ¿Quiere ejecutarlo?"
+msgstr "«%s» contiene software pensado para iniciarse automáticamente. ¿Quieres ejecutarlo?"
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
