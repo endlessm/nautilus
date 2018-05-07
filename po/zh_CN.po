@@ -7,6 +7,7 @@
 # Cheng Lu <chenglu1990@gmail.com>, 2012
 # chenzibing <chenzibing_endless@126.com>, 2016
 # Dz Chen <wsxy162@gmail.com>, 2016
+# e2f_cn c9 <e2f_cn_c9@outlook.com>, 2018
 # Funda Wang <fundawang@gmail.com>, 2003,2009
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015-2016
 # Lele Long <schemacs@gmail.com>, 2011
@@ -23,8 +24,8 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:39+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2018-05-02 11:29+0000\n"
+"Last-Translator: e2f_cn c9 <e2f_cn_c9@outlook.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-os/nautilus/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,7 +97,7 @@ msgstr "在浏览器窗口中应如何放置新打开的标签页"
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr ""
+msgstr "如果设置到 “after-current-tab”，那么新标签页就插入在当前标签页之后。如果设置为 “end”，那么新标签页将出现在标签页列表的末尾。"
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
@@ -116,7 +117,7 @@ msgstr "是否进行递归搜索"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "Nautilus 应在哪些位置搜索子文件夹。可用值为 “local-only”，“always”，“never”。"
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -169,7 +170,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "根据速度考虑是否显示文件夹中的项目数。如果设为“always”，即使文件夹位于远程服务器上，也将会总是显示项目计数。如果设为“local-only”，则只会对本地文件系统上的文件显示计数。如果设为“never”，则不统计项目数。"
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -179,7 +180,7 @@ msgstr "启动/打开文件的点击方式"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "可供选择的值是“single”点击启动文件，或是“double”双击启动文件。"
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -191,7 +192,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "（单击或双击）激活可执行的文本文件时应如何操作。可供选择的值有，“launch”可其作为程序启动，“ask”将显示对话框询问操作，“display”将其作为文本文件显示。"
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -216,35 +217,35 @@ msgstr "显示一个警告对话框，提示移动到回收站的快捷键已从
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "在 Nautilus 浏览器窗口中使用额外鼠标按键事件"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "对于使用有“前进”和“后退”键的鼠标用户，此按键将确定在按下任一按钮时是否在 Nautilus 内部执行操作。"
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "激活浏览器窗口 “前进”命令的鼠标按键"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "对于使用有“前进”和“后退”键的鼠标用户，此键将设置哪一按键激活浏览器窗口的“前进”命令。取值范围是 6 到 14。"
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "激活浏览器窗口 “后退”命令的鼠标按键"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "对于使用有“前进”和“后退”键的鼠标用户，此键将设置哪一按键激活浏览器窗口的“后退”命令。取值范围是 6 到 14。"
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -258,7 +259,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "根据速度考虑何时显示文件缩略图。如果设为“always”，即使文件夹位于远程服务器上，也将始终显示缩略图，。如果设为“local-only”，则只会对本地文件系统上的文件创建缩略图。如果设为“never”，则不预览文件，而使用通用图标。缩略图会应用到任何可预览的文件类型上，与键值的含义无关。"
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -269,7 +270,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "超过此大小（字节数）的图像将不会生成缩略图。此设置的目的是避免处理大图像的缩略图，因为加载所花的时间太长，占用的内存也太多。"
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -279,7 +280,7 @@ msgstr "默认排序依据"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "图标视图中项目的默认排序依据。可供选择的值有“name”（名称）、“size”（大小）、“type”（类型）和“modification_date”（修改日期）。"
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -291,7 +292,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "如果正确，新窗口中的文件将以逆序排序。即如果按照名称排序，则将“z”排在最前面，将“a”排在最后面；如果按照大小排序，则将最大的文件排在最前面，将最小的文件排在最后面。"
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -302,7 +303,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "访问文件夹将使用此视图，除非您为该文件夹选择了其他视图。可供选择的值有“list-view”（列表视图）和“icon-view”（图标视图）。"
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -312,7 +313,7 @@ msgstr "是否显示隐藏文件"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "此键已作废并忽略。现在使用的是“org.gtk.Settings.FileChooser”中的“show-hidden”键。"
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -350,26 +351,26 @@ msgstr "如果设为 true，则执行拖拽操作超过一段时间后，被拖�
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "启用新实验视图"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "是否使用最新的实验视图及最新的 GTK +小部件来帮助提供反馈并塑造其未来。"
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
 "Whether to have full text search enabled by default when opening a new "
 "window/tab"
-msgstr ""
+msgstr "打开新窗口/标签时是否默认启用全文搜索"
 
 #: data/org.gnome.nautilus.gschema.xml:218
 msgid ""
 "If set to true, then Nautilus will also match the file contents besides the "
 "name. This toggles the default active state, which can still be overriden in"
 " the search popover"
-msgstr ""
+msgstr "如果设置为 true，则 Nautilus 还将匹配除名称之外的文件内容。这将切换默认的活动状态，该状态仍然可以在搜索弹出窗口中被覆盖"
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
@@ -389,7 +390,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "图标视图和桌面中在图标下方显示的一系列选项。实际显示的标题数取决于缩放级别。可供选择的值是：“size”（大小）、“type”（类型）、“date_modified”（修改日期）、“owner”（所有者）、“group”（组）、“permissions”（权限）和“mime_type”（MIME 类型）。"
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -429,7 +430,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "一个字符串，指定超长文件名的多余部分如何通过省略号取代，具体取决于缩放级别。每个列表的条目形式均为“缩放级别：整数”。对于每个指定缩放级别，如果给定的整数大于 0，则文件名称将不会超过给定的行数。如果此整数为 0 或者小于 0 ，则在指定的缩放级别上没有限制。也允许在没有任何指定缩放级别的情况下使用表单“整数”的默认条目。它定义了所有其他缩放级别的最大行数。例如：0 -总是显示超长文件名称；3 - 如果文件名称超过 3 行则缩短文件名；最小:5；较小:4；0 - 如果文件名称在缩放级别“最小”下超过 5 行，则缩短文件名。如果文件名称在缩放级别“比较小”下超过 4 行，则缩短文件名。对于其他缩放级别不缩短文件名称。可用的缩放级别：small（小）、standard（标准）、large（大）。"
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -770,7 +771,7 @@ msgstr "在上级文件夹中选择指定的 URI。"
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[URI......]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
@@ -797,7 +798,7 @@ msgstr "“%s”包含打算自动启动的软件。您是否想要运行它？"
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr ""
+msgstr "如果您不信任此位置或不确定，请按取消。"
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
@@ -815,19 +816,19 @@ msgstr "“%s”将会跟一个现有文件冲突。"
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "名称不能为空。"
 
 #: src/nautilus-batch-rename-dialog.c:1434
 msgid "Name cannot contain “/”."
-msgstr ""
+msgstr "名称不能包含“/”。"
 
 #: src/nautilus-batch-rename-dialog.c:1440
 msgid "“.” is not a valid name."
-msgstr ""
+msgstr "“.”为无效名称。"
 
 #: src/nautilus-batch-rename-dialog.c:1446
 msgid "“..” is not a valid name."
-msgstr ""
+msgstr "“..”为无效名称。"
 
 #: src/nautilus-batch-rename-dialog.c:2161
 #, c-format
@@ -847,7 +848,7 @@ msgstr[0] "重命名 %d 个文件"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] ""
+msgstr[0] "重命名 %d 文件和文件夹"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -1035,15 +1036,15 @@ msgstr "文件的位置。"
 
 #: src/nautilus-column-utilities.c:137
 msgid "Modified — Time"
-msgstr ""
+msgstr "已更改—时间"
 
 #: src/nautilus-column-utilities.c:146
 msgid "Recency"
-msgstr ""
+msgstr "时间"
 
 #: src/nautilus-column-utilities.c:147
 msgid "The date the file was accessed by the user."
-msgstr ""
+msgstr "用户访问文件的日期。"
 
 #: src/nautilus-column-utilities.c:192
 msgid "Trashed On"
@@ -1379,7 +1380,7 @@ msgstr "不允许设置所有者"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr ""
+msgstr "指定的所有者“%s”不存在"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1389,7 +1390,7 @@ msgstr "不允许设置组"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr ""
+msgstr "指定群组“%s”不存在"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
@@ -1538,7 +1539,7 @@ msgstr "重命名(_N)"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
-msgstr ""
+msgstr "替换"
 
 #: src/nautilus-file-name-widget-controller.c:106
 #: src/nautilus-rename-file-popover-controller.c:86
@@ -1751,7 +1752,7 @@ msgstr "(第 %'d 个"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr ""
+msgstr "您确定要将“%s”从回收站中永久删除吗？"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1783,7 +1784,7 @@ msgstr "清空回收站(_T)"
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr ""
+msgstr "您确定要永久删除 “%s” 吗？"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
@@ -1795,12 +1796,12 @@ msgstr[0] "您确定要永久删除这 %'d 个选中项目吗？"
 #: src/nautilus-file-operations.c:1659
 #, c-format
 msgid "Deleted “%s”"
-msgstr ""
+msgstr "已删除 “%s”"
 
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr ""
+msgstr "正在删除 “%s”"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1836,7 +1837,7 @@ msgstr "%'d / %'d"
 #, c-format
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — 剩余%s"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1851,32 +1852,32 @@ msgstr "删除时发生错误。"
 #: src/nautilus-file-operations.c:1908
 #, c-format
 msgid "There was an error deleting the folder “%s”."
-msgstr ""
+msgstr "删除文件夹“%s”时出错。"
 
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr ""
+msgstr "您没有足够权限删除文件夹“%s”。"
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr ""
+msgstr "删除文件“%s”时出错。"
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr ""
+msgstr "您没有足够权限来删除文件“%s”。"
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr ""
+msgstr "正在移动“%s”到回收站"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
 msgid "Trashed “%s”"
-msgstr ""
+msgstr "已移动“%s”到回收站"
 
 #: src/nautilus-file-operations.c:2063
 #, c-format
@@ -1894,7 +1895,7 @@ msgstr[0] "已移动 %'d 个文件到回收站"
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr ""
+msgstr "无法将“%s”移动到回收站。您要立即删除它吗？"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
@@ -1911,12 +1912,12 @@ msgstr "正在删除文件"
 #: src/nautilus-file-operations.c:2584
 #, c-format
 msgid "Unable to eject %s"
-msgstr ""
+msgstr "无法弹出%s"
 
 #: src/nautilus-file-operations.c:2589
 #, c-format
 msgid "Unable to unmount %s"
-msgstr ""
+msgstr "无法卸载%s"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
@@ -1942,19 +1943,19 @@ msgstr "无法访问 %s"
 #, c-format
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "准备复制 %'d 个文件 （%s）"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "准备移动 %'d 个文件 （%s）"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
-msgstr[0] ""
+msgstr[0] "准备删除 %'d 个文件 （%s）"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1991,43 +1992,43 @@ msgstr "压缩文件时出错。"
 msgid ""
 "Files in the folder “%s” cannot be handled because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "无法处理文件夹“%s”中的文件，因为您没有查看它们的权限。"
 
 #: src/nautilus-file-operations.c:3175 src/nautilus-file-operations.c:4715
 #, c-format
 msgid ""
 "There was an error getting information about the files in the folder “%s”."
-msgstr ""
+msgstr "获取文件夹 “%s” 中的文件相关信息时出错。"
 
 #: src/nautilus-file-operations.c:3227
 #, c-format
 msgid ""
 "The folder “%s” cannot be handled because you do not have permissions to "
 "read it."
-msgstr ""
+msgstr "无法处理文件夹“%s”，因为您没有读取它的权限。"
 
 #: src/nautilus-file-operations.c:3233 src/nautilus-file-operations.c:4781
 #, c-format
 msgid "There was an error reading the folder “%s”."
-msgstr ""
+msgstr "读取文件夹“%s”时出错。"
 
 #: src/nautilus-file-operations.c:3338
 #, c-format
 msgid ""
 "The file “%s” cannot be handled because you do not have permissions to read "
 "it."
-msgstr ""
+msgstr "无法处理文件“%s”，因为您没有读取它的权限。"
 
 #: src/nautilus-file-operations.c:3343
 #, c-format
 msgid "There was an error getting information about “%s”."
-msgstr ""
+msgstr "获取关于 “%s” 的信息时出错。"
 
 #: src/nautilus-file-operations.c:3469 src/nautilus-file-operations.c:3531
 #: src/nautilus-file-operations.c:3578 src/nautilus-file-operations.c:3622
 #, c-format
 msgid "Error while copying to “%s”."
-msgstr ""
+msgstr "获取关于 “%s” 的信息时出错。"
 
 #: src/nautilus-file-operations.c:3474
 msgid "You do not have permissions to access the destination folder."
@@ -2050,7 +2051,7 @@ msgstr "目标位置没有足够空间。请试着移除一些文件以便释放
 #: src/nautilus-file-operations.c:3583
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
+msgstr "要复制到目标位置还需要“%s”空间。"
 
 #: src/nautilus-file-operations.c:3623
 msgid "The destination is read-only."
@@ -2059,68 +2060,68 @@ msgstr "目标是只读的。"
 #: src/nautilus-file-operations.c:3700
 #, c-format
 msgid "Moving “%s” to “%s”"
-msgstr ""
+msgstr "正在将“%s” 移动到“%s”"
 
 #: src/nautilus-file-operations.c:3704
 #, c-format
 msgid "Moved “%s” to “%s”"
-msgstr ""
+msgstr "已将“%s” 移动到 “%s”"
 
 #: src/nautilus-file-operations.c:3711
 #, c-format
 msgid "Copying “%s” to “%s”"
-msgstr ""
+msgstr "正在将“%s”复制到“%s”"
 
 #: src/nautilus-file-operations.c:3715
 #, c-format
 msgid "Copied “%s” to “%s”"
-msgstr ""
+msgstr "已将 “%s” 复制到“%s”"
 
 #: src/nautilus-file-operations.c:3749
 #, c-format
 msgid "Duplicating “%s”"
-msgstr ""
+msgstr "正在复制“%s”"
 
 #: src/nautilus-file-operations.c:3753
 #, c-format
 msgid "Duplicated “%s”"
-msgstr ""
+msgstr "已复制 “%s”"
 
 #: src/nautilus-file-operations.c:3772
 #, c-format
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "正在将 %'d 个文件移动到 “%s”"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "正在将 %'d 个文件复制到“%s”"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "已将 %'d 个文件移动到“%s”"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "已将 %'d 个文件复制到“%s”"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "正在复制“%s”中的 %'d 个文件"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
-msgstr[0] ""
+msgstr[0] "已复制 “%s” 中的 %'d 个文件"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2135,7 +2136,7 @@ msgstr[0] ""
 #: src/nautilus-file-operations.c:8586 src/nautilus-file-operations.c:8629
 #, c-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a
 #. time duration like
@@ -2163,7 +2164,7 @@ msgstr ""
 #, c-format
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] " %s/ %s  — 剩余%s（%s/秒）"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2175,26 +2176,26 @@ msgstr[0] ""
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
-msgstr[0] ""
+msgstr[0] "%'d / %'d — 剩余%s（%s/秒）"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to "
 "create it in the destination."
-msgstr ""
+msgstr "无法复制文件夹“%s”，因为您没有在目标位置创建它的权限。"
 
 #: src/nautilus-file-operations.c:4544
 #, c-format
 msgid "There was an error creating the folder “%s”."
-msgstr ""
+msgstr "创建文件夹“%s”时出错。"
 
 #: src/nautilus-file-operations.c:4710
 #, c-format
 msgid ""
 "Files in the folder “%s” cannot be copied because you do not have "
 "permissions to see them."
-msgstr ""
+msgstr "无法复制文件夹 “%s” 中的文件，因为您没有查看文件夹内容的权限。"
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
@@ -2205,13 +2206,13 @@ msgstr "跳过文件(_S)"
 msgid ""
 "The folder “%s” cannot be copied because you do not have permissions to read"
 " it."
-msgstr ""
+msgstr "无法复制文件夹“%s”，因为您没有读取它的权限。"
 
 #: src/nautilus-file-operations.c:4839 src/nautilus-file-operations.c:5459
 #: src/nautilus-file-operations.c:6182
 #, c-format
 msgid "Error while moving “%s”."
-msgstr ""
+msgstr "移动 “%s” 时出错。"
 
 #: src/nautilus-file-operations.c:4840
 msgid "Could not remove the source folder."
@@ -2246,17 +2247,17 @@ msgstr "源文件将会被目标覆盖。"
 #: src/nautilus-file-operations.c:5463 src/nautilus-file-operations.c:5550
 #, c-format
 msgid "Error while copying “%s”."
-msgstr ""
+msgstr "复制“%s”时出错。"
 
 #: src/nautilus-file-operations.c:5466
 #, c-format
 msgid "Could not remove the already existing file with the same name in %s."
-msgstr ""
+msgstr "无法移除%s中已有的同名文件。"
 
 #: src/nautilus-file-operations.c:5552
 #, c-format
 msgid "There was an error copying the file into %s."
-msgstr ""
+msgstr "将文件复制到%s时出错。"
 
 #: src/nautilus-file-operations.c:5807 src/nautilus-file-operations.c:5845
 msgid "Copying Files"
@@ -2265,7 +2266,7 @@ msgstr "正在复制文件"
 #: src/nautilus-file-operations.c:5877
 #, c-format
 msgid "Preparing to move to “%s”"
-msgstr ""
+msgstr "正在准备移动到“%s”"
 
 #: src/nautilus-file-operations.c:5881
 #, c-format
@@ -2276,7 +2277,7 @@ msgstr[0] "准备移动 %'d 个文件"
 #: src/nautilus-file-operations.c:6184
 #, c-format
 msgid "There was an error moving the file into %s."
-msgstr ""
+msgstr "将文件移动到%s时出错。"
 
 #: src/nautilus-file-operations.c:6466
 msgid "Moving Files"
@@ -2285,7 +2286,7 @@ msgstr "正在移动文件"
 #: src/nautilus-file-operations.c:6507
 #, c-format
 msgid "Creating links in “%s”"
-msgstr ""
+msgstr "正在“%s”中创建链接"
 
 #: src/nautilus-file-operations.c:6511
 #, c-format
@@ -2296,7 +2297,7 @@ msgstr[0] "正在创建 %'d 个文件的链接"
 #: src/nautilus-file-operations.c:6670
 #, c-format
 msgid "Error while creating link to %s."
-msgstr ""
+msgstr "在创建到%s的链接时出错。"
 
 #: src/nautilus-file-operations.c:6674
 msgid "Symbolic links only supported for local files"
@@ -2304,12 +2305,12 @@ msgstr "符号链接只支持本地文件"
 
 #: src/nautilus-file-operations.c:6679
 msgid "The target doesn’t support symbolic links."
-msgstr ""
+msgstr "目标不支持符号链接。"
 
 #: src/nautilus-file-operations.c:6687
 #, c-format
 msgid "There was an error creating the symlink in %s."
-msgstr ""
+msgstr "在%s中创建符号链接时出错。"
 
 #: src/nautilus-file-operations.c:7030
 msgid "Setting permissions"
@@ -2328,17 +2329,17 @@ msgstr "无标题文档"
 #: src/nautilus-file-operations.c:7618
 #, c-format
 msgid "Error while creating directory %s."
-msgstr ""
+msgstr "创建目录 %s 时出错。"
 
 #: src/nautilus-file-operations.c:7623
 #, c-format
 msgid "Error while creating file %s."
-msgstr ""
+msgstr "创建文件%s时出错。"
 
 #: src/nautilus-file-operations.c:7627
 #, c-format
 msgid "There was an error creating the directory in %s."
-msgstr ""
+msgstr "在 %s中创建目录出错。"
 
 #: src/nautilus-file-operations.c:7905
 msgid "Emptying Trash"
@@ -2355,33 +2356,33 @@ msgstr "正在验证目标"
 #: src/nautilus-file-operations.c:8116
 #, c-format
 msgid "Extracting “%s”"
-msgstr ""
+msgstr "正在提取 “%s”"
 
 #: src/nautilus-file-operations.c:8220 src/nautilus-file-operations.c:8282
 #, c-format
 msgid "Error extracting “%s”"
-msgstr ""
+msgstr "提取“%s”时出错"
 
 #: src/nautilus-file-operations.c:8224
 #, c-format
 msgid "There was an error while extracting “%s”."
-msgstr ""
+msgstr "提取“%s”时出错。"
 
 #: src/nautilus-file-operations.c:8285
 #, c-format
 msgid "Not enough free space to extract %s"
-msgstr ""
+msgstr "没有足够可用空间来提取%s"
 
 #: src/nautilus-file-operations.c:8315
 #, c-format
 msgid "Extracted “%s” to “%s”"
-msgstr ""
+msgstr "已将 “%s”提取到“%s”"
 
 #: src/nautilus-file-operations.c:8321
 #, c-format
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
-msgstr[0] ""
+msgstr[0] "已将 %'d 个文件提取到“%s” "
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2394,24 +2395,24 @@ msgstr "正在提取文件"
 #: src/nautilus-file-operations.c:8542
 #, c-format
 msgid "Compressing “%s” into “%s”"
-msgstr ""
+msgstr "正在将“%s”压缩为 “%s”"
 
 #: src/nautilus-file-operations.c:8548
 #, c-format
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "正在将 %'d 个文件压缩为“%s”"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
 msgid "Error compressing “%s” into “%s”"
-msgstr ""
+msgstr "压缩 “%s” 为 “%s”时出错"
 
 #: src/nautilus-file-operations.c:8702
 #, c-format
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "压缩 %'d 个文件为 “%s”时出错"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2420,13 +2421,13 @@ msgstr "压缩文件时出错。"
 #: src/nautilus-file-operations.c:8737
 #, c-format
 msgid "Compressed “%s” into “%s”"
-msgstr ""
+msgstr "已将“%s” 压缩为 “%s”"
 
 #: src/nautilus-file-operations.c:8743
 #, c-format
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
-msgstr[0] ""
+msgstr[0] "已将 %'d 个文件压缩为“%s”"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2693,13 +2694,13 @@ msgstr "重做最近撤消的操作"
 #, c-format
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
-msgstr[0] ""
+msgstr[0] "将 %d 个项目移回 “%s”"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "将 %d 个文件移动到“%s”"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2716,12 +2717,12 @@ msgstr[0] "重做移动 %d 项(_R)"
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
 msgid "Move “%s” back to “%s”"
-msgstr ""
+msgstr "将“%s”移回“%s”"
 
 #: src/nautilus-file-undo-operations.c:427
 #, c-format
 msgid "Move “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”移动到“%s”"
 
 #: src/nautilus-file-undo-operations.c:429
 msgid "_Undo Move"
@@ -2755,12 +2756,12 @@ msgstr[0] "从回收站恢复 %d 项"
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
 msgid "Move “%s” back to trash"
-msgstr ""
+msgstr "将 “%s”移回回收站"
 
 #: src/nautilus-file-undo-operations.c:450
 #, c-format
 msgid "Restore “%s” from trash"
-msgstr ""
+msgstr "从回收站中恢复“%s”"
 
 #: src/nautilus-file-undo-operations.c:457
 #, c-format
@@ -2772,7 +2773,7 @@ msgstr[0] "删除 %d 个复制的项目"
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
-msgstr[0] ""
+msgstr[0] "将 %d 项复制到“%s”"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2793,12 +2794,12 @@ msgstr[0] "重做复制 %d 项(_R)"
 #: src/nautilus-file-undo-operations.c:2247
 #, c-format
 msgid "Delete “%s”"
-msgstr ""
+msgstr "删除“%s”"
 
 #: src/nautilus-file-undo-operations.c:474
 #, c-format
 msgid "Copy “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”复制到“%s”"
 
 #: src/nautilus-file-undo-operations.c:476
 msgid "_Undo Copy"
@@ -2818,7 +2819,7 @@ msgstr[0] "删除 %d 个重复项目"
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
-msgstr[0] ""
+msgstr[0] "复制 “%s”中的%d 个项目"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2835,7 +2836,7 @@ msgstr[0] "重做就地复制 %d 项(_R)"
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
 msgid "Duplicate “%s” in “%s”"
-msgstr ""
+msgstr "复制“%s” 中的 “%s” "
 
 #: src/nautilus-file-undo-operations.c:504
 msgid "_Undo Duplicate"
@@ -2860,12 +2861,12 @@ msgstr[0] "创建到 %d 项的链接"
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
 msgid "Delete link to “%s”"
-msgstr ""
+msgstr "删除到“%s”的链接"
 
 #: src/nautilus-file-undo-operations.c:522
 #, c-format
 msgid "Create link to “%s”"
-msgstr ""
+msgstr "创建到“%s”的链接"
 
 #: src/nautilus-file-undo-operations.c:524
 msgid "_Undo Create Link"
@@ -2878,7 +2879,7 @@ msgstr "重做创建链接(_R)"
 #: src/nautilus-file-undo-operations.c:779
 #, c-format
 msgid "Create an empty file “%s”"
-msgstr ""
+msgstr "创建一个空文件“%s”"
 
 #: src/nautilus-file-undo-operations.c:781
 msgid "_Undo Create Empty File"
@@ -2891,7 +2892,7 @@ msgstr "重做创建空文件(_R)"
 #: src/nautilus-file-undo-operations.c:786
 #, c-format
 msgid "Create a new folder “%s”"
-msgstr ""
+msgstr "创建一个新文件夹“%s”"
 
 #: src/nautilus-file-undo-operations.c:788
 msgid "_Undo Create Folder"
@@ -2904,7 +2905,7 @@ msgstr "重做创建文件夹(_R)"
 #: src/nautilus-file-undo-operations.c:793
 #, c-format
 msgid "Create new file “%s” from template "
-msgstr ""
+msgstr "根据模板创建新文件“%s”"
 
 #: src/nautilus-file-undo-operations.c:795
 msgid "_Undo Create from Template"
@@ -2918,7 +2919,7 @@ msgstr "重做根据模版创建(_R)"
 #: src/nautilus-file-undo-operations.c:991
 #, c-format
 msgid "Rename “%s” as “%s”"
-msgstr ""
+msgstr "将“%s”重命名为“%s”"
 
 #: src/nautilus-file-undo-operations.c:993
 msgid "_Undo Rename"
@@ -2952,12 +2953,12 @@ msgstr[0] "将 %d 项移动到回收站"
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
 msgid "Restore “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”恢复到“%s”"
 
 #: src/nautilus-file-undo-operations.c:1351
 #, c-format
 msgid "Move “%s” to trash"
-msgstr ""
+msgstr "将“%s”移动到回收站"
 
 #: src/nautilus-file-undo-operations.c:1356
 msgid "_Undo Trash"
@@ -2970,12 +2971,12 @@ msgstr "重做丢弃(_R)"
 #: src/nautilus-file-undo-operations.c:1652
 #, c-format
 msgid "Restore original permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "恢复“%s”中项目的原始权限"
 
 #: src/nautilus-file-undo-operations.c:1653
 #, c-format
 msgid "Set permissions of items enclosed in “%s”"
-msgstr ""
+msgstr "设置“%s”中项目的权限"
 
 #: src/nautilus-file-undo-operations.c:1655
 #: src/nautilus-file-undo-operations.c:1809
@@ -2990,22 +2991,22 @@ msgstr "重做更改权限(_R)"
 #: src/nautilus-file-undo-operations.c:1806
 #, c-format
 msgid "Restore original permissions of “%s”"
-msgstr ""
+msgstr "恢复“%s”的原始权限"
 
 #: src/nautilus-file-undo-operations.c:1807
 #, c-format
 msgid "Set permissions of “%s”"
-msgstr ""
+msgstr "设置“%s”的权限"
 
 #: src/nautilus-file-undo-operations.c:1919
 #, c-format
 msgid "Restore group of “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”的群组恢复为“%s”"
 
 #: src/nautilus-file-undo-operations.c:1921
 #, c-format
 msgid "Set group of “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”的群组设置为“%s”"
 
 #: src/nautilus-file-undo-operations.c:1924
 msgid "_Undo Change Group"
@@ -3018,12 +3019,12 @@ msgstr "重做更改组(_R)"
 #: src/nautilus-file-undo-operations.c:1929
 #, c-format
 msgid "Restore owner of “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”的所有者恢复为“%s”"
 
 #: src/nautilus-file-undo-operations.c:1931
 #, c-format
 msgid "Set owner of “%s” to “%s”"
-msgstr ""
+msgstr "将“%s”的所有者设置为“%s”"
 
 #: src/nautilus-file-undo-operations.c:1934
 msgid "_Undo Change Owner"
@@ -3050,7 +3051,7 @@ msgstr[0] "删除 %d 个提取的文件"
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
 msgid "Extract “%s”"
-msgstr ""
+msgstr "提取 “%s”"
 
 #: src/nautilus-file-undo-operations.c:2107
 #, c-format
@@ -3061,7 +3062,7 @@ msgstr[0] "提取 %d 个文件"
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
 msgid "Compress “%s”"
-msgstr ""
+msgstr "压缩 “%s”"
 
 #: src/nautilus-file-undo-operations.c:2262
 #, c-format
@@ -3348,7 +3349,7 @@ msgstr "无法使用此链接，因为它没有目标。"
 #: src/nautilus-mime-actions.c:562
 #, c-format
 msgid "This link cannot be used because its target “%s” doesn’t exist."
-msgstr ""
+msgstr "无法使用此链接，因为其目标“%s”不存在。"
 
 #: src/nautilus-mime-actions.c:573
 #: src/resources/ui/nautilus-files-view-context-menus.ui:174
@@ -3425,7 +3426,7 @@ msgstr "应用程序启动器 “%s“ 还没有被标记为 信任。如果您�
 
 #: src/nautilus-mime-actions.c:1519
 msgid "Trust and _Launch"
-msgstr ""
+msgstr "信任和创建"
 
 #. if it wasn't cancelled show a dialog
 #: src/nautilus-mime-actions.c:1901 src/nautilus-mime-actions.c:2196
@@ -3537,18 +3538,18 @@ msgstr "关闭标签页"
 #, c-format
 msgid ""
 "You are trying to replace the destination folder “%s” with a symbolic link."
-msgstr ""
+msgstr "您正试图用符号链接替换目标文件夹“%s”。"
 
 #: src/nautilus-operations-ui-manager.c:145
 #, c-format
 msgid ""
 "This is not allowed in order to avoid the deletion of the destination "
 "folder’s contents."
-msgstr ""
+msgstr "不允许此操作，以避免删除目标文件夹的内容。"
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
+msgstr "请重命名符号链接或按跳过按钮。"
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -4034,7 +4035,7 @@ msgstr "仅搜索网络位置"
 
 #: src/nautilus-query-editor.c:149
 msgid "Remote location — only searching the current folder"
-msgstr ""
+msgstr "远程位置 — 只搜索当前文件夹"
 
 #: src/nautilus-query-editor.c:154
 msgid "Only searching the current folder"
@@ -4129,7 +4130,7 @@ msgstr "删除回收站中的所有项目"
 #, c-format
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
-msgstr[0] ""
+msgstr[0] "自%d 天前"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4141,7 +4142,7 @@ msgstr[0] "%d 天前"
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
-msgstr[0] ""
+msgstr[0] "自%d 周前"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4153,7 +4154,7 @@ msgstr[0] "%d 周前"
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
-msgstr[0] ""
+msgstr[0] "自%d 个月前"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4165,7 +4166,7 @@ msgstr[0] "%d 个月前"
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
-msgstr[0] ""
+msgstr[0] "自%d 年前"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4175,7 +4176,7 @@ msgstr[0] "%d 年前"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
-msgstr ""
+msgstr "父文件夹"
 
 #: src/nautilus-window.c:189 src/resources/ui/nautilus-toolbar-menu.ui:61
 msgid "New tab"
@@ -4183,15 +4184,15 @@ msgstr "新建标签页"
 
 #: src/nautilus-window.c:190
 msgid "Close current view"
-msgstr ""
+msgstr "关闭当前视图"
 
 #: src/nautilus-window.c:191
 msgid "Back"
-msgstr ""
+msgstr "后退"
 
 #: src/nautilus-window.c:192
 msgid "Forward"
-msgstr ""
+msgstr "前进"
 
 #: src/nautilus-window.c:1465
 msgid "_Properties"
@@ -4253,7 +4254,7 @@ msgstr "无法显示该文件夹的内容。"
 
 #: src/nautilus-window-slot.c:1440
 msgid "This location doesn’t appear to be a folder."
-msgstr ""
+msgstr "此位置似乎不是文件夹。"
 
 #: src/nautilus-window-slot.c:1449
 msgid ""
@@ -4275,7 +4276,7 @@ msgstr "无法访问请求的位置。"
 
 #: src/nautilus-window-slot.c:1477
 msgid "Don’t have permission to access the requested location."
-msgstr ""
+msgstr "没有访问所要求文件夹的权限。"
 
 #. This case can be hit for user-typed strings like "foo" due to
 #. * the code that guesses web addresses when there's no initial "/".
@@ -4409,7 +4410,7 @@ msgstr "右移标签页"
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr ""
+msgstr "还原标签"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -4841,7 +4842,7 @@ msgstr "缩放图标…"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:211
 msgid "Restore Icon’s Original Size"
-msgstr ""
+msgstr "还原图标的初始大小"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:218
 msgid "Rena_me…"
@@ -4873,7 +4874,7 @@ msgstr "文件夹为空"
 
 #: src/resources/ui/nautilus-trash-is-empty.ui:30
 msgid "Trash is Empty"
-msgstr ""
+msgstr "回收站为空"
 
 #: src/resources/ui/nautilus-move-to-trash-shortcut-changed.ui:11
 msgid "Delete Shortcuts Have Changed"
@@ -4917,11 +4918,11 @@ msgstr "所有文件夹均可展开(_E)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:136
 msgid "Experimental"
-msgstr ""
+msgstr "实验性"
 
 #: src/resources/ui/nautilus-preferences-window.ui:150
 msgid "Use the new _views"
-msgstr ""
+msgstr "使用新视图"
 
 #: src/resources/ui/nautilus-preferences-window.ui:182
 msgid "Icon View Captions"
@@ -4931,7 +4932,7 @@ msgstr "图标视图标题"
 msgid ""
 "Add information to be displayed beneath file and folder names. More "
 "information will appear when zooming closer."
-msgstr ""
+msgstr "添加显示于文件和文件夹名称下的信息。信息量会随着缩放级别变化。"
 
 #. Translators: This is an ordinal number
 #: src/resources/ui/nautilus-preferences-window.ui:316
@@ -5029,11 +5030,11 @@ msgstr "从不(_N)"
 
 #: src/resources/ui/nautilus-preferences-window.ui:832
 msgid "Full Text Search:"
-msgstr ""
+msgstr "全文搜索："
 
 #: src/resources/ui/nautilus-preferences-window.ui:843
 msgid "Set as _default"
-msgstr ""
+msgstr "设为默认"
 
 #: src/resources/ui/nautilus-preferences-window.ui:875
 msgid "Thumbnails"

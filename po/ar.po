@@ -14,6 +14,7 @@
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
 # Khaled Hosny <khaledhosny@eglug.org>, 2006-2017
 # Mohammed Gamal <f2c2001@yahoo.com>, 2001
+# Oussama Nehar <nehardido@gmail.com>, 2018
 # Roddy Shuler <roddy@endlessm.com>, 2017
 # Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002,2004
 msgid ""
@@ -21,7 +22,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:35+0000\n"
+"PO-Revision-Date: 2018-04-29 03:14+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/nautilus/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +115,7 @@ msgstr "أين يجب إجراء بحث متكرر"
 msgid ""
 "In which locations Nautilus should search on subfolders. Available values "
 "are “local-only”, “always”, “never”."
-msgstr ""
+msgstr "في أي المواقع يجب على Nautilus البحث في المجلدات الفرعية. القيم المتاحة هي \"محلي-فقط\" و\"دائمًا\" و\"أبدًا\"."
 
 #: data/org.gnome.nautilus.gschema.xml:96
 msgid "Filter the search dates using either last used or last modified"
@@ -167,7 +168,7 @@ msgid ""
 "“always” then always show item counts, even if the folder is on a remote "
 "server. If set to “local-only” then only show counts for local file systems."
 " If set to “never” then never bother to compute item counts."
-msgstr ""
+msgstr "سرعة المقايضة، لتحديد الوقت المناسب لإظهار عدد العناصر في المجلد. إذا تم ضبط القيمة لتكون \"دائماً\"، فهذا يعني إظهار أعداد العناصر دائماً، حتى إن كان المجلد موجوداً على خادم بعيد. إذا تم ضبط القيمة لتكون \"محلي فقط\"، فستظهر أعداد ملفات النظام المحلية فقط. إذا تم ضبط القيمة لتكون (مطلقاً)، فلا داعي لقراءة أعداد العناصر."
 
 #: data/org.gnome.nautilus.gschema.xml:122
 msgid "Type of click used to launch/open files"
@@ -177,7 +178,7 @@ msgstr "نوع النقر المستخدم لبدأ/فتح الملفات"
 msgid ""
 "Possible values are “single” to launch files on a single click, or “double” "
 "to launch them on a double click."
-msgstr ""
+msgstr "القيم المحتملة \"مفردة\" لتشغيل الملفات بنقرة واحدة، أو \"مزدوجة\" لإطلاقها بنقرة مزدوجة."
 
 #: data/org.gnome.nautilus.gschema.xml:127
 msgid "What to do with executable text files when activated"
@@ -189,7 +190,7 @@ msgid ""
 "double clicked). Possible values are “launch” to launch them as programs, "
 "“ask” to ask what to do via a dialog, and “display” to display them as text "
 "files."
-msgstr ""
+msgstr "ماذا نفعل بالملفات النصية التنفيذية عندما يتم تنشيطها (بنقرة واحدة أو نقرة مزدوجة). القيم المقبولة هي \"تشغيل\" لتشغيلها كبرامج، و\"السؤال\" لنسأل ماذا نفعل من خلال حوار، و\"عرض\" لعرضها كملفات نصية."
 
 #: data/org.gnome.nautilus.gschema.xml:132
 msgid "Show the package installer for unknown MIME types"
@@ -214,35 +215,35 @@ msgstr "عرض المربع الحواري التحذيري لتغيير الا�
 
 #: data/org.gnome.nautilus.gschema.xml:142
 msgid "Use extra mouse button events in Nautilus’ browser window"
-msgstr ""
+msgstr "استخدم مزيداً من أحداث أزرار الماوس في نافذة مستعرض Nautilus"
 
 #: data/org.gnome.nautilus.gschema.xml:143
 msgid ""
 "For users with mice that have “Forward” and “Back” buttons, this key will "
 "determine if any action is taken inside of Nautilus when either is pressed."
-msgstr ""
+msgstr "بالنسبة للمستخدمين الذين لديهم أزرار \"التقدم للأمام\" و \"العودة\"، سيُحدِّد هذا المفتاح ما إذا كان هناك إجراء سيُتَّخَذ داخل Nautilus عند الضغط على أي منهما."
 
 #: data/org.gnome.nautilus.gschema.xml:147
 msgid "Mouse button to activate the “Forward” command in browser window"
-msgstr ""
+msgstr "الضغط على زر الماوس لتنشيط أمر \"التوجه للأمام\" في نافذة المستعرض"
 
 #: data/org.gnome.nautilus.gschema.xml:148
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Forward” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "بالنسبة للمستخدمين الذين لديهم ماوس به أزرار \"التقدم للأمام\" و\"العودة\"، سيقوم هذا المفتاح بتحديد الزر الذي يقوم بتنشيط أمر \"التقدم للأمام\" في نافذة المستعرض. تتراوح القيم المقبولة بين 6 و14."
 
 #: data/org.gnome.nautilus.gschema.xml:152
 msgid "Mouse button to activate the “Back” command in browser window"
-msgstr ""
+msgstr "الضغط على زر الماوس لتنشيط أمر \"العودة\" في نافذة المستعرض"
 
 #: data/org.gnome.nautilus.gschema.xml:153
 msgid ""
 "For users with mice that have buttons for “Forward” and “Back”, this key "
 "will set which button activates the “Back” command in a browser window. "
 "Possible values range between 6 and 14."
-msgstr ""
+msgstr "بالنسبة للمستخدمين الذين لديهم ماوس به أزرار \"التقدم للأمام\" و\"العودة\"، سيقوم هذا المفتاح بتحديد الزر الذي يقوم بتنشيط أمر \"العودة\" في نافذة المستعرض. تتراوح القيم المقبولة بين 6 و14."
 
 #: data/org.gnome.nautilus.gschema.xml:158
 msgid "When to show thumbnails of files"
@@ -256,7 +257,7 @@ msgid ""
 "“never” then never bother to thumbnail files, just use a generic icon. "
 "Despite what the name may suggest, this applies to any previewable file "
 "type."
-msgstr ""
+msgstr "سرعة المقايضة، لتحديد الوقت المناسب لإظهار الملف في هيئة صورة مصغّرة. إذا تم ضبط القيمة لتكون \"دائماً\"، فهذا يعني إنشاء صورة مصغّرة دائماً، حتى إن كان المجلد موجوداً على خادم بعيد. إذا تم ضبط القيمة لتكون \"محلي فقط\"، فسيجعل هذا ظهور الصور المصغرة مقصوراً على ملفات النظام المحلية فقط. إذا تم ضبط القيمة لتكون \"أبداً\"، فلن يتم الاهتمام بعرض ملفات الصور المصغرة، وسيتم استخدام أيقونات عامة فقط. بصرف النظر عن نوع الملف الذي يوشي به الاسم، تنطبق هذه القاعدة على أي نوع من أنواع الملفات التي يمكن عمل عرض مسبق لها."
 
 #: data/org.gnome.nautilus.gschema.xml:163
 msgid "Maximum image size for thumbnailing"
@@ -267,7 +268,7 @@ msgid ""
 "Images over this size (in bytes) won’t be thumbnailed. The purpose of this "
 "setting is to avoid thumbnailing large images that may take a long time to "
 "load or use lots of memory."
-msgstr ""
+msgstr "لن يتم إنشاء الصورة المصغرة للصور التي تتخطى هذا الحجم (بالـ بايت). الغرض من هذه الإعدادات هو تفادي إنشاء صور مصغرة للصور الضخمة، الأمر الذي قد يستغرق وقتاً طويلاً، أو يستهلك الكثير من الذاكرة."
 
 #: data/org.gnome.nautilus.gschema.xml:171
 msgid "Default sort order"
@@ -277,7 +278,7 @@ msgstr "ترتيب التصنيف المبدئي"
 msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type” and “mtime”."
-msgstr ""
+msgstr "ترتيب الفرز الافتراضي للعناصر أثناء رؤيتها في وضع العرض باستخدام الرموز. القيم المقبولة هي \"الاسم\"، \"الحجم\"، \"النوع\"، \"وقت التعديل\"."
 
 #: data/org.gnome.nautilus.gschema.xml:176
 msgid "Reverse sort order in new windows"
@@ -289,7 +290,7 @@ msgid ""
 "sorted by name, then instead of sorting the files from “a” to “z”, they will"
 " be sorted from “z” to “a”; if sorted by size, instead of being "
 "incrementally they will be sorted decrementally."
-msgstr ""
+msgstr "إذا تم ضبط القيمة لتكون (صحيح)، فسيتم فرز الملفات في النافذة الجديدة بترتيب معكوس. بمعنى، أنه إذا كانت الملفات مفروزة على الاسم، فبدلاً من ترتيب الملفات من \"a\" وصولاً إلى \"z\" فسيتم فرزها من \"z\" وصولاً إلى \"a\"، وإذا كانت مفروزة بالحجم، فبدلاً من أن يتم ترتيبها تصاعدياً، سيتم ترتيبها تنازلياً."
 
 #: data/org.gnome.nautilus.gschema.xml:187
 msgid "Default folder viewer"
@@ -300,7 +301,7 @@ msgid ""
 "When a folder is visited this viewer is used unless you have selected "
 "another view for that particular folder. Possible values are “list-view”, "
 "and “icon-view”."
-msgstr ""
+msgstr "عند زيارة مجلد ما، يتم استخدام هذا المستعرض إلا إذا قمتَ بتحديد طريقة عرض أخرى لهذا المجلد بعينه. القيم المحتملة هي \"عرض-القائمة\" و\"عرض-الرمز\"."
 
 #: data/org.gnome.nautilus.gschema.xml:192
 msgid "Whether to show hidden files"
@@ -310,7 +311,7 @@ msgstr "فيما إذا ستعرض الملفات المخفية"
 msgid ""
 "This key is deprecated and ignored. The “show-hidden” key from "
 "“org.gtk.Settings.FileChooser” is now used instead."
-msgstr ""
+msgstr "هذا المفتاح مهمل وتم تجاهله. يتم الآن استخدام مفتاح \"عرض-المخفي\" من “org.gtk.Settings.FileChooser” بدلاً منه."
 
 #: data/org.gnome.nautilus.gschema.xml:197
 msgid "What viewer should be used when searching"
@@ -348,26 +349,26 @@ msgstr "إذا تم تعيين هذا صحيح، عند إجراء عملية ا
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr ""
+msgstr "تمكين طرق العرض التجريبية الجديدة"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr ""
+msgstr "لتحديد ما إذا كنت ستستخدم طرق العرض التجريبية الجديدة باستخدام أحدث إصدار أدوات +GTK للمساعدة في الإمداد بالتعليقات وبناء مستقبلهم."
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
 "Whether to have full text search enabled by default when opening a new "
 "window/tab"
-msgstr ""
+msgstr "تحديد ما إذا كانت ميزة البحث عن نص كامل تكون مُمَكَّنة افتراضياً عند فتح نافذة/تبويب جديد"
 
 #: data/org.gnome.nautilus.gschema.xml:218
 msgid ""
 "If set to true, then Nautilus will also match the file contents besides the "
 "name. This toggles the default active state, which can still be overriden in"
 " the search popover"
-msgstr ""
+msgstr "إذا تم الضبط على قيمة (صحيح)، فسيقوم Nautilus بمطابقة محتويات الملف أيضاً بالإضافة إلى الاسم. وسيقوم هذا بتبديل الحالة النشطة الافتراضية، التي سيظل من الممكن تجاوزها من خلال نافذة البحث المنبثقة مع مرور مؤشر الماوس"
 
 #: data/org.gnome.nautilus.gschema.xml:225
 msgid "Default format for compressing files"
@@ -387,7 +388,7 @@ msgid ""
 "actual number of captions shown depends on the zoom level. Some possible "
 "values are: “size”, “type”, “date_modified”, “owner”, “group”, "
 "“permissions”, and “mime_type”."
-msgstr ""
+msgstr "قائمة التسميات التوضيحية أسفل الأيقونة في عرض الأيقونة وسطح المكتب. يعتمد العدد الفعلي للتسميات التوضيحية المعروضة على مستوى التكبير / التصغير. بعض القيم المحتملة هي: \"الحجم\" و \"النوع\" و \"date_modified\" و \"المالك\" و \"المجموعة\" و \"الأذونات\" و \"mime_type\"."
 
 #: data/org.gnome.nautilus.gschema.xml:238
 msgid "Default icon zoom level"
@@ -427,7 +428,7 @@ msgid ""
 "names if they exceed four lines for zoom level “smaller”. Do not shorten "
 "file names for other zoom levels. Available zoom levels: small, standard, "
 "large."
-msgstr ""
+msgstr "سلسلة تحدد الطريقة التي ينبغي بها استبدال أجزاء أسماء الملفات زائدة الطول بعلامات حذفٍ، حسب مستوى التكبير/التصغير. كل مُدخل من مدخلات القائمة يكون بصيغة \"مستوى التكبير/التصغير:عدد صحيح\". في كل مستوى تكبير/تصغير يتم تحديده، إذا كان الرقم المُدخل أكبر من 0، فلن يتجاوز طول اسم الملف عدد الأسطر المُحَدَّدة. إذا كان العدد 0 أو أصغر، فلن يتم فرض حد معين على مستوى التكبير/التصغير المُحدَّد. مسموح أيضاً بالمدخلات بصيغة \"عدد صحيح\" دون تحديد مستوى تكبير/تصغير. وهذا يحدد أكبر عدد من الأسطر لجميع مستويات التكبير/التصغير. أمثلة: القيمة 0 - تعرض دائماً أسماء الملفات زائدة الطول، 3 – تختصر أسماء الملفات إذا تعدت ثلاثة أسطر، أما القيم الأصغر:5,أصغر: 4,0  - تختصر أسماء الملفات إذا تخطت خمسة أسطر لمستوى التكبير/التصغير \"الأصغر\". تختصر أسماء الملفات إذا تجاوزت أربعة أسطر لمستوى التكبير/التصغير \"أصغر\". لا تختصر أسماء الملفات لجميع مستويات التكبير/التصغير الأخرى. مستويات التكبير/التصغير المتاحة: صغير، قياسي، كبير."
 
 #: data/org.gnome.nautilus.gschema.xml:256
 msgid "Default list zoom level"
@@ -768,7 +769,7 @@ msgstr "اختيار معرف الموارد الموحد المحدد في ال
 
 #: src/nautilus-application.c:957
 msgid "[URI…]"
-msgstr ""
+msgstr "[رابط ...]"
 
 #: src/nautilus-autorun-software.c:158 src/nautilus-autorun-software.c:161
 #, c-format
