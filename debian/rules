@@ -10,7 +10,7 @@ ENABLE_SELINUX := -Dselinux=false
 endif
 
 %:
-	dh $@ --with gir,gnome
+	dh $@ --with gir,gnome,eoscontent
 
 override_dh_autoreconf:
 	dh_autoreconf --as-needed

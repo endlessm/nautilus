@@ -20,6 +20,7 @@ Build-Depends: appstream-util <!nocheck>,
                libgnome-desktop-3-dev (>= 3.10),
                libgtk-3-dev (>= 3.22.27),
                libgtk-3-doc,
+               eos-shell-content-dev,
                libseccomp-dev [linux-any],
                libselinux1-dev (>= 2.0) [linux-any],
                libtracker-sparql-2.0-dev,
@@ -42,6 +43,7 @@ Vcs-Git: https://salsa.debian.org/gnome-team/nautilus.git
 Standards-Version: 4.2.1
 
 Package: nautilus
+XBS-Eos-Appid: org.gnome.Nautilus
 Architecture: any
 Depends: bubblewrap [linux-any],
          desktop-file-utils (>= 0.7),
