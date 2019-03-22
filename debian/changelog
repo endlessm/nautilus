@@ -1,3 +1,9 @@
+nautilus (3.32.0-0endless1) eos; urgency=medium
+
+  * Bump release version to match it up with upstream
+
+ -- Umang Jain <umang@endlessm.com>  Fri, 22 Mar 2019 19:09:38 +0530
+
 nautilus (3.31.90-1) experimental; urgency=medium
 
   * New upstream development release
