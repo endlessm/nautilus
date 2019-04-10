@@ -7,6 +7,7 @@
 # Dirk-Jan C. Binnema <dirkjan@gnome.org>, 2001
 # Elros Cyriatan <cyriatan@fastmail.fm>, 2004
 # Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2014-2017
+# Heimen Stoffels <vistausss@outlook.com>, 2019
 # Jordi Bosveld <jotti@jotti.dhs.org>, 2002
 # Justin van Steijn <justin.vansteijn@ziggo.nl>, 2015-2016
 # Justin van Steijn <jvs@fsfe.org>, 2015-2017
@@ -22,8 +23,8 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:36+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2019-02-14 13:39+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/endless-os/nautilus/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +56,7 @@ msgid ""
 "Nautilus, also known as Files, is the default file manager of the GNOME "
 "desktop. It provides a simple and integrated way of managing your files and "
 "browsing your file system."
-msgstr "Nautilus, ook bekend onder de naam Bestanden, is het standaard bestandsbeheerprogramma voor de Gnome-werkomgeving. Op een eenvoudige en geïntegreerde wijze kunt u hiermee uw bestanden beheren en uw bestandssysteem verkennen."
+msgstr "Nautilus, ook wel bekend als 'Bestanden', is de standaard bestandsbeheerder van de GNOME-werkomgeving. Op eenvoudige en geïntegreerde wijze kun je hiermee je bestanden beheren en je bestandssysteem verkennen."
 
 #: data/org.gnome.Nautilus.appdata.xml.in:13
 msgid ""
@@ -64,7 +65,7 @@ msgid ""
 "read and write data to and from removable media, run scripts, and launch "
 "applications. It has three views: Icon Grid, Icon List, and Tree List. Its "
 "functions can be extended with plugins and scripts."
-msgstr "Nautilus ondersteunt alle basisfuncties van een bestandsbeheerprogramma en meer. U kunt uw bestanden en mappen doorzoeken en beheren, zowel lokaal als op een netwerk, gegevens lezen van en schrijven naar verwijderbare media, scripts uitvoeren, en toepassingen starten. Er zijn drie vormen van weergave: pictogrammenraster, pictogrammenlijst en boomstructuurlijst. De functies kunnen worden uitgebreid via plug-ins en scripts."
+msgstr "Nautilus ondersteunt alle basisfuncties van een bestandsbeheerder en meer. Je kunt je bestanden en mappen doorzoeken en beheren, zowel lokaal als op een netwerk, gegevens uitlezen van en wegschrijven naar externe media, scripts uitvoeren, en toepassingen starten. Er zijn drie weergaven: pictogrammenraster, pictogrammenlijst en boomstructuurlijst. De functies kunnen worden uitgebreid via plug-ins en scripts."
 
 #: data/org.gnome.Nautilus.desktop.in:3 src/nautilus-mime-actions.c:107
 #: src/nautilus-properties-window.c:4586 src/nautilus-window.c:3082
@@ -75,7 +76,7 @@ msgstr "Bestanden"
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Nautilus.desktop.in:6
 msgid "folder;manager;explore;disk;filesystem;"
-msgstr "folder;manager;explore;disk;filesystem;map;beheer;verkenner;schijf;bestandssysteem;"
+msgstr "map;beheer;verkenner;schijf;bestandssysteem;"
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon
 #. file name)!
@@ -89,23 +90,23 @@ msgstr "Nieuw venster"
 
 #: data/org.gnome.nautilus.gschema.xml:81
 msgid "Where to position newly open tabs in browser windows"
-msgstr "Waar nieuwe tabbladen gepositioneerd worden in browservensters."
+msgstr "Waar nieuwe tabbladen gepositioneerd worden in vensters"
 
 #: data/org.gnome.nautilus.gschema.xml:82
 msgid ""
 "If set to “after-current-tab”, then new tabs are inserted after the current "
 "tab. If set to “end”, then new tabs are appended to the end of the tab list."
-msgstr "Indien ingesteld op ‘after_current_tab’ worden nieuwe tabbladen ingevoegd na het huidige tabblad. Indien ingesteld op ‘end’ worden nieuwe tabbladen toegevoegd aan het eind van de tabbladenlijst."
+msgstr "Als je dit instelt op ‘after_current_tab’, dan worden nieuwe tabbladen ingevoegd na het huidige. Als je dit instelt op ‘end’, dan worden nieuwe tabbladen toegevoegd aan het eind van de lijst."
 
 #: data/org.gnome.nautilus.gschema.xml:86
 msgid "Always use the location entry, instead of the pathbar"
-msgstr "Altijd het locatieveld gebruiken in plaats van de pad-balk"
+msgstr "Altijd het locatieveld gebruiken in plaats van de padbalk"
 
 #: data/org.gnome.nautilus.gschema.xml:87
 msgid ""
 "If set to true, then Nautilus browser windows will always use a textual "
 "input entry for the location toolbar, instead of the pathbar."
-msgstr "Indien ingeschakeld gebruiken Nautilusvensters altijd een tekstueel invoerveld voor de locatie-werkbalk, in plaats van de pad-balk."
+msgstr "Als je dit inschakelt, dan gebruiken Nautilusvensters altijd een tekstueel invoerveld voor de locatiewerkbalk, in plaats van de padbalk."
 
 #: data/org.gnome.nautilus.gschema.xml:91
 msgid "Where to perform recursive search"
@@ -127,13 +128,13 @@ msgstr "Filter de zoekdatums op laatst gebruikt of laatst gewijzigd."
 
 #: data/org.gnome.nautilus.gschema.xml:101
 msgid "Whether to show a context menu item to delete permanently"
-msgstr "Of er een contextmenu wordt getoond om het item definitief te verwijderen"
+msgstr "Of er een rechtermuisknopitem moet worden getoond om het item definitief te verwijderen"
 
 #: data/org.gnome.nautilus.gschema.xml:102
 msgid ""
 "If set to true, then Nautilus will show a delete permanently context menu "
 "item to bypass the Trash."
-msgstr "Indien ingeschakeld laat Nautilus een definitief verwijderen contextmenu-item zien om de prullenbak te omzeilen."
+msgstr "Als je dit inschakelt, dan toont Nautilus een rechtermuisknopmenu-item voor definitief verwijderen om de prullenbak te omzeilen."
 
 #: data/org.gnome.nautilus.gschema.xml:106
 msgid ""
@@ -349,13 +350,13 @@ msgstr "Indien ingeschakeld zal de map waarover gezweefd wordt tijdens een slepe
 
 #: data/org.gnome.nautilus.gschema.xml:212
 msgid "Enable new experimental views"
-msgstr "Nieuwe experimentele weergaven aanzetten"
+msgstr "Nieuwe, experimentele weergaven gebruiken"
 
 #: data/org.gnome.nautilus.gschema.xml:213
 msgid ""
 "Whether to use the new experimental views using the latest GTK+ widgets to "
 "help giving feedback and shaping their future."
-msgstr "Of de nieuwe experimentele weergaven worden gebruikt met de nieuwste GTK+-widgets om feedback te helpen geven en de toekomst ervan vorm te geven."
+msgstr "Of de nieuwe, experimentele weergaven worden gebruikt met de nieuwste GTK+-widgets om feedback te helpen geven en de toekomst ervan vorm te geven."
 
 #: data/org.gnome.nautilus.gschema.xml:217
 msgid ""
@@ -633,7 +634,7 @@ msgstr "Y"
 
 #: eel/eel-gtk-extensions.c:308
 msgid "Show more _details"
-msgstr "Meer _details weergeven"
+msgstr "Meer _informatie tonen"
 
 #. Put up the timed wait window.
 #. Add buttons
@@ -651,7 +652,7 @@ msgstr "_Annuleren"
 
 #: eel/eel-stock-dialogs.c:213
 msgid "You can stop this operation by clicking cancel."
-msgstr "U kunt deze operatie stoppen door op annuleren te klikken."
+msgstr "Je kunt deze operatie afbreken door op annuleren te klikken."
 
 #: eel/eel-vfs-extensions.c:106
 msgid " (invalid Unicode)"
@@ -669,7 +670,7 @@ msgstr "op het bureaublad"
 #: nautilus-desktop/nautilus-desktop-icon-file.c:436
 #, c-format
 msgid "Unable to rename desktop icon"
-msgstr "Niet in staat werkbladpictogram te hernoemen"
+msgstr "Kan naam van bureaubladpictogram niet wijzigen"
 
 #: nautilus-desktop/nautilus-desktop-link.c:142 src/nautilus-bookmark.c:116
 #: src/nautilus-file-utilities.c:304 src/nautilus-list-view.c:1732
@@ -700,44 +701,44 @@ msgstr "Bestanden versturen via e-mail…"
 #. Some sort of failure occurred. How 'bout we tell the user?
 #: src/nautilus-application.c:175 src/nautilus-window-slot.c:1430
 msgid "Oops! Something went wrong."
-msgstr "Oeps! Er ging iets mis."
+msgstr "Oeps! Er is iets misgegaan."
 
 #: src/nautilus-application.c:178
 #, c-format
 msgid ""
 "Unable to create a required folder. Please create the following folder, or set permissions such that it can be created:\n"
 "%s"
-msgstr "Niet in staat een vereiste map aan te maken. Gelieve de volgende map te maken, of de rechten zodanig in te stellen dat deze kan worden aangemaakt:\n%s"
+msgstr "Kan één van de vereiste mappen niet creëren. Creëer de volgende map of stel de rechten zodanig in dat deze kan worden gecreëerd:\n%s"
 
 #: src/nautilus-application.c:185
 #, c-format
 msgid ""
 "Unable to create required folders. Please create the following folders, or set permissions such that they can be created:\n"
 "%s"
-msgstr "Niet in staat de vereiste mappen aan te maken. Gelieve de volgende mappen te maken, of de rechten zodanig in te stellen dat deze kunnen worden aangemaakt:\n%s"
+msgstr "Kan de vereiste mappen niet creëren. Creëer de volgende mappen of stel de rechten zodanig in dat deze kunnen worden gecreëerd:\n%s"
 
 #: src/nautilus-application.c:629
 msgid "--check cannot be used with other options."
-msgstr "--check kan niet gebruik worden met andere opties."
+msgstr "--check kan niet worden gebruik i.c.m. andere opties."
 
 #: src/nautilus-application.c:637
 msgid "--quit cannot be used with URIs."
-msgstr "--quit kan niet gebruikt worden met URI's."
+msgstr "--quit kan niet worden gebruikt i.c.m. URI's."
 
 #: src/nautilus-application.c:646
 msgid "--select must be used with at least an URI."
-msgstr "--select moet worden gebruikt met tenminste één URI."
+msgstr "--select moet worden gebruikt i.c.m. minimaal één URI."
 
 #: src/nautilus-application.c:787
 #, c-format
 msgid ""
 "There was an error displaying help: \n"
 "%s"
-msgstr "Er is een fout opgetreden bij het weergeven van de hulptekst:\n%s"
+msgstr "Er is een fout opgetreden bij het tonen van de hulptekst:\n%s"
 
 #: src/nautilus-application.c:937
 msgid "Perform a quick set of self-check tests."
-msgstr "Enkele snelle zelf-tests uitvoeren."
+msgstr "Voer enkele snelle zelfcontroles uit."
 
 #: src/nautilus-application.c:946
 msgid "Create the initial window with the given geometry."
@@ -776,31 +777,31 @@ msgstr "[URI…]"
 msgid ""
 "Unable to start the program:\n"
 "%s"
-msgstr "Niet in staat het programma te starten:\n%s"
+msgstr "Kan het programma starten:\n%s"
 
 #: src/nautilus-autorun-software.c:164
 #, c-format
 msgid "Unable to locate the program"
-msgstr "Niet in staat het programma te vinden"
+msgstr "Kan het programma niet vinden"
 
 #: src/nautilus-autorun-software.c:190
 msgid "Oops! There was a problem running this software."
-msgstr "Oeps! Er was een probleem met het starten van deze software."
+msgstr "Oeps! Er is een probleem bij het starten van deze software."
 
 #: src/nautilus-autorun-software.c:220
 #, c-format
 msgid ""
 "“%s” contains software intended to be automatically started. Would you like "
 "to run it?"
-msgstr "‘%s’ bevat software bedoeld om automatisch te starten. Wilt u het uitvoeren?"
+msgstr "‘%s’ bevat software bedoeld om automatisch te starten. Wil je het uitvoeren?"
 
 #: src/nautilus-autorun-software.c:224
 msgid "If you don’t trust this location or aren’t sure, press Cancel."
-msgstr "Als u deze locatie niet vertrouwt of het niet zeker weet, drukt u op Annuleren."
+msgstr "Als je deze locatie niet vertrouwt of het niet zeker weet, druk dan op Annuleren."
 
 #: src/nautilus-autorun-software.c:255 src/nautilus-mime-actions.c:656
 msgid "_Run"
-msgstr "_Uitvoeren"
+msgstr "Uitvoe_ren"
 
 #: src/nautilus-batch-rename-dialog.c:827
 #, c-format
@@ -810,7 +811,7 @@ msgstr "‘%s’ is geen unieke nieuwe naam."
 #: src/nautilus-batch-rename-dialog.c:833
 #, c-format
 msgid "“%s” would conflict with an existing file."
-msgstr "‘%s’ heeft een conflict met een bestaand bestand."
+msgstr "‘%s’ conflicteert met een bestaand bestand."
 
 #: src/nautilus-batch-rename-dialog.c:1428
 msgid "Name cannot be empty."
@@ -832,15 +833,15 @@ msgstr "‘..’ is geen geldige naam."
 #, c-format
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
-msgstr[0] "%d map hernoemen"
-msgstr[1] "%d mappen hernoemen"
+msgstr[0] "%d mapnaam wijzigen"
+msgstr[1] "%d mapnamen wijzigen"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
-msgstr[0] "%d bestand hernoemen"
-msgstr[1] "%d bestanden hernoemen"
+msgstr[0] "%d bestandsnaam wijzigen"
+msgstr[1] "%d bestandsnamen wijzigen"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -848,19 +849,19 @@ msgstr[1] "%d bestanden hernoemen"
 #, c-format
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
-msgstr[0] "%d map en bestand hernoemen"
-msgstr[1] "%d mappen en bestanden hernoemen"
+msgstr[0] "%d map- en bestandsnaam wijzigen"
+msgstr[1] "%d mappen- en bestandsnamen wijzigen"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:488
 msgid "Original Name (Ascending)"
-msgstr "Originele naam (oplopend)"
+msgstr "Oorspronkelijke naam (oplopend)"
 
 #: src/nautilus-batch-rename-dialog.h:93
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:493
 msgid "Original Name (Descending)"
-msgstr "Originele naam (aflopend)"
+msgstr "Oorspronkelijke naam (aflopend)"
 
 #: src/nautilus-batch-rename-dialog.h:98
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:498
@@ -874,27 +875,27 @@ msgstr "Laatst gewijzigd"
 
 #: src/nautilus-batch-rename-dialog.h:108
 msgid "First Created"
-msgstr "Eerst gemaakt"
+msgstr "Eerst gecreëerd"
 
 #: src/nautilus-batch-rename-dialog.h:113
 msgid "Last Created"
-msgstr "Laatst gemaakt"
+msgstr "Laatst gecreëerd"
 
 #: src/nautilus-batch-rename-dialog.h:122
 msgid "Camera model"
-msgstr "Model camera"
+msgstr "Cameramodel"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr "Aanmaakdatum"
+msgstr "Creatiedatum"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr "Nummer van seizoen"
+msgstr "Seizoensnummer"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr "Nummer van episode"
+msgstr "Afleveringsnummer"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
@@ -976,7 +977,7 @@ msgstr "Type"
 
 #: src/nautilus-column-utilities.c:72
 msgid "The type of the file."
-msgstr "Het type van het bestand"
+msgstr "Het type bestand."
 
 #: src/nautilus-column-utilities.c:78
 msgid "Modified"
@@ -1061,7 +1062,7 @@ msgstr "Oorspronkelijke locatie"
 
 #: src/nautilus-column-utilities.c:201
 msgid "Original location of file before moved to the Trash"
-msgstr "Oorspronkelijke locatie van het bestand voordat het naar de prullenbak verplaatst werd"
+msgstr "Oorspronkelijke locatie van het bestand voordat het naar de prullenbak werd verplaatst"
 
 #: src/nautilus-column-utilities.c:219
 msgid "Relevance"
@@ -1087,7 +1088,7 @@ msgstr "Een archief kan niet ‘..’ worden genoemd."
 #: src/nautilus-desktop-item-properties.c:454
 #: src/nautilus-image-properties-page.c:401
 msgid "Comment"
-msgstr "Commentaar"
+msgstr "Opmerking"
 
 #: src/nautilus-desktop-item-properties.c:445
 msgid "URL"
@@ -1131,7 +1132,7 @@ msgstr "Annuleren"
 #, c-format
 msgid ""
 "You do not have the permissions necessary to view the contents of “%s”."
-msgstr "U hebt niet de benodigde rechten om de inhoud van ‘%s’ te bekijken."
+msgstr "Je beschikt niet over de benodigde rechten om de inhoud van ‘%s’ te bekijken."
 
 #: src/nautilus-error-reporting.c:79
 #, c-format
@@ -1141,50 +1142,50 @@ msgstr "‘%s’ is niet gevonden. Misschien is het onlangs verwijderd."
 #: src/nautilus-error-reporting.c:85
 #, c-format
 msgid "Sorry, could not display all the contents of “%s”: %s"
-msgstr "Het weergeven van de inhoud van ‘%s’ is mislukt: %s"
+msgstr "Het tonen van de inhoud van ‘%s’ is mislukt: %s"
 
 #: src/nautilus-error-reporting.c:94
 msgid "This location could not be displayed."
-msgstr "Deze locatie kon niet weergeven worden."
+msgstr "Deze locatie kan niet worden getoond."
 
 #: src/nautilus-error-reporting.c:122
 #, c-format
 msgid "You do not have the permissions necessary to change the group of “%s”."
-msgstr "U hebt de benodigde rechten niet om de groep van ‘%s’ te wijzigen."
+msgstr "Je beschikt niet over de benodigde rechten niet om de groep van ‘%s’ te wijzigen."
 
 #. fall through
 #: src/nautilus-error-reporting.c:140
 #, c-format
 msgid "Sorry, could not change the group of “%s”: %s"
-msgstr "Kon de groep van ‘%s’ niet wijzigen: %s"
+msgstr "Kan de groep van ‘%s’ niet wijzigen: %s"
 
 #: src/nautilus-error-reporting.c:145
 msgid "The group could not be changed."
-msgstr "De groep kon niet gewijzigd worden."
+msgstr "De groep kan niet worden gewijzigd."
 
 #: src/nautilus-error-reporting.c:166
 #, c-format
 msgid "Sorry, could not change the owner of “%s”: %s"
-msgstr "Kon de eigenaar van ‘%s’ niet wijzigen: %s"
+msgstr "Kan de eigenaar van ‘%s’ niet wijzigen: %s"
 
 #: src/nautilus-error-reporting.c:168
 msgid "The owner could not be changed."
-msgstr "De eigenaar kon niet gewijzigd worden."
+msgstr "De eigenaar kan niet worden gewijzigd."
 
 #: src/nautilus-error-reporting.c:189
 #, c-format
 msgid "Sorry, could not change the permissions of “%s”: %s"
-msgstr "Kon de rechten van ‘%s’ niet wijzigen: %s"
+msgstr "Kan de rechten van ‘%s’ niet wijzigen: %s"
 
 #: src/nautilus-error-reporting.c:191
 msgid "The permissions could not be changed."
-msgstr "De rechten konden niet gewijzigd worden."
+msgstr "De rechten kunnen niet worden gewijzigd."
 
 #: src/nautilus-error-reporting.c:230
 #, c-format
 msgid ""
 "The name “%s” is already used in this location. Please use a different name."
-msgstr "De naam ‘%s’ is al in gebruik in deze locatie. Kies alstublieft een andere naam."
+msgstr "De naam ‘%s’ wordt al gebruikt op deze locatie. Kies een andere naam."
 
 #: src/nautilus-error-reporting.c:238
 #, c-format
@@ -1195,39 +1196,39 @@ msgstr "Er is geen ‘%s’ in deze map. Misschien is het kort geleden verplaats
 #: src/nautilus-error-reporting.c:246
 #, c-format
 msgid "You do not have the permissions necessary to rename “%s”."
-msgstr "U hebt niet de benodigde rechten om ‘%s’ te hernoemen."
+msgstr "Je beschikt niet over de benodigde rechten om de naam van ‘%s’ te wijzigen."
 
 #: src/nautilus-error-reporting.c:255
 #, c-format
 msgid ""
 "The name “%s” is not valid because it contains the character “/”. Please use"
 " a different name."
-msgstr "De naam ‘%s’ is ongeldig, omdat hij het teken ‘/’ bevat. Kies alstublieft een andere naam."
+msgstr "De naam ‘%s’ is ongeldig, omdat deze het teken ‘/’ bevat. Kies een andere naam."
 
 #: src/nautilus-error-reporting.c:261
 #, c-format
 msgid "The name “%s” is not valid. Please use a different name."
-msgstr "De naam ‘%s’ is ongeldig. Kies alstublieft een andere naam."
+msgstr "De naam ‘%s’ is ongeldig. Kies een andere naam."
 
 #: src/nautilus-error-reporting.c:270
 #, c-format
 msgid "The name “%s” is too long. Please use a different name."
-msgstr "De naam ‘%s’ is te lang. Kies alstublieft een andere naam."
+msgstr "De naam ‘%s’ is te lang. Kies een andere naam."
 
 #. fall through
 #: src/nautilus-error-reporting.c:289
 #, c-format
 msgid "Sorry, could not rename “%s” to “%s”: %s"
-msgstr "Kon ‘%s’ niet hernoemen naar ‘%s’: %s"
+msgstr "Kan de naam van ‘%s’ niet wijzigen in ‘%s’: %s"
 
 #: src/nautilus-error-reporting.c:297
 msgid "The item could not be renamed."
-msgstr "Het item kon niet hernoemd worden."
+msgstr "De itemnaam kan niet worden gewijzigd."
 
 #: src/nautilus-error-reporting.c:405
 #, c-format
 msgid "Renaming “%s” to “%s”."
-msgstr "Hernoemen van ‘%s’ naar ‘%s’."
+msgstr "Bezig met naamswijziging van ‘%s’ naar ‘%s’."
 
 #: src/nautilus-file.c:1332 src/nautilus-vfs-file.c:423
 msgid "This file cannot be mounted"
@@ -1257,12 +1258,12 @@ msgstr "Schuine strepen zijn niet toegestaan in bestandsnamen"
 #: src/nautilus-file.c:2124
 #, c-format
 msgid "Toplevel files cannot be renamed"
-msgstr "Topniveau-bestanden kunnen niet hernoemd worden"
+msgstr "Bestanden op het bovenste niveau kunnen niet van naam worden gewijzigd"
 
 #: src/nautilus-file.c:2159
 #, c-format
 msgid "Probably the content of the file is an invalid desktop file format"
-msgstr "De inhoud van het bestand is waarschijnlijk in een ongeldig bestandsformaat"
+msgstr "De inhoud van het bestand is waarschijnlijk een ongeldig bestandsformaat"
 
 #: src/nautilus-file.c:2211
 #, c-format
@@ -1381,7 +1382,7 @@ msgstr "Eigenaar instellen niet toegestaan"
 #: src/nautilus-file.c:6619
 #, c-format
 msgid "Specified owner “%s” doesn’t exist"
-msgstr "Gespecificeerde eigenaar ‘%s’ bestaat niet"
+msgstr "Opgegeven eigenaar ‘%s’ bestaat niet"
 
 #: src/nautilus-file.c:6904
 #, c-format
@@ -1391,13 +1392,13 @@ msgstr "Groep instellen niet toegestaan"
 #: src/nautilus-file.c:6923
 #, c-format
 msgid "Specified group “%s” doesn’t exist"
-msgstr "Gespecificeerde groep ‘%s’ bestaat niet"
+msgstr "Opgegeven groep ‘%s’ bestaat niet"
 
 #. Translators: "Me" is used to indicate the file is owned by me (the current
 #. user)
 #: src/nautilus-file.c:7065
 msgid "Me"
-msgstr "Mij"
+msgstr "Ik"
 
 #: src/nautilus-file.c:7097
 #, c-format
@@ -1474,7 +1475,7 @@ msgstr "Video"
 
 #: src/nautilus-file.c:7661
 msgid "Contacts"
-msgstr "Contacten"
+msgstr "Contactpersonen"
 
 #: src/nautilus-file.c:7662
 msgid "Calendar"
@@ -1490,7 +1491,7 @@ msgstr "Presentatie"
 
 #: src/nautilus-file.c:7665 src/nautilus-mime-actions.c:192
 msgid "Spreadsheet"
-msgstr "Spreadsheet"
+msgstr "Werkblad"
 
 #: src/nautilus-file.c:7719
 msgid "Binary"
@@ -1516,7 +1517,7 @@ msgstr "Verwijzing naar %s"
 
 #: src/nautilus-file.c:7787 src/nautilus-file.c:7803
 msgid "Link (broken)"
-msgstr "Verwijzing (gebroken)"
+msgstr "Verwijzing (kapot)"
 
 #. Setup the expander for the rename action
 #: src/nautilus-file-conflict-dialog.c:291
@@ -1526,12 +1527,12 @@ msgstr "_Geef het doel een nieuwe naam"
 #: src/nautilus-file-conflict-dialog.c:306
 #: src/nautilus-mime-application-chooser.c:336
 msgid "Reset"
-msgstr "Beginwaarden"
+msgstr "Standaardwaarden"
 
 #. Setup the checkbox to apply the action to all files
 #: src/nautilus-file-conflict-dialog.c:317
 msgid "Apply this action to all files and folders"
-msgstr "Deze actie op alle mappen en bestanden toepassen"
+msgstr "Deze actie toepassen op alle mappen en bestanden"
 
 #: src/nautilus-file-conflict-dialog.c:328 src/nautilus-file-operations.c:226
 msgid "_Skip"
@@ -1539,7 +1540,7 @@ msgstr "Over_slaan"
 
 #: src/nautilus-file-conflict-dialog.c:332
 msgid "Re_name"
-msgstr "Her_noemen"
+msgstr "_Naam wijzigen"
 
 #: src/nautilus-file-conflict-dialog.c:337
 msgid "Re_place"
@@ -1602,7 +1603,7 @@ msgstr "Alles sa_menvoegen"
 
 #: src/nautilus-file-operations.c:235
 msgid "Copy _Anyway"
-msgstr "_Toch kopiëren"
+msgstr "_Tóch kopiëren"
 
 #: src/nautilus-file-operations.c:331
 #, c-format
@@ -1760,7 +1761,7 @@ msgstr " (%'d"
 #: src/nautilus-file-operations.c:1517
 #, c-format
 msgid "Are you sure you want to permanently delete “%s” from the trash?"
-msgstr "Weet u zeker dat u ‘%s’ definitief wilt verwijderen uit de prullenbak?"
+msgstr "Weet je zeker dat je ‘%s’ definitief wilt verwijderen uit de prullenbak?"
 
 #: src/nautilus-file-operations.c:1522
 #, c-format
@@ -1770,38 +1771,38 @@ msgid ""
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
-msgstr[0] "Weet u zeker dat u het geselecteerde item definitief wilt verwijderen uit de prullenbak?"
-msgstr[1] "Weet u zeker dat u de %'d geselecteerde items definitief wilt verwijderen uit de prullenbak?"
+msgstr[0] "Weet je zeker dat je het geselecteerde item definitief wilt verwijderen uit de prullenbak?"
+msgstr[1] "Weet je zeker dat je de %'d geselecteerde items definitief wilt verwijderen uit de prullenbak?"
 
 #: src/nautilus-file-operations.c:1532 src/nautilus-file-operations.c:1607
 msgid "If you delete an item, it will be permanently lost."
-msgstr "Als u een item verwijdert, zal het definitief verloren gaan."
+msgstr "Als je een item verwijdert, is het niet meer terug te halen."
 
 #: src/nautilus-file-operations.c:1553
 msgid "Empty all items from Trash?"
-msgstr "Alle objecten uit de prullenbak weggooien?"
+msgstr "Alle items uit de prullenbak weggooien?"
 
 #: src/nautilus-file-operations.c:1557
 msgid "All items in the Trash will be permanently deleted."
-msgstr "Alle objecten in de prullenbak zullen definitief worden verwijderd."
+msgstr "Alle items in de prullenbak worden definitief verwijderd."
 
 #: src/nautilus-file-operations.c:1560 src/nautilus-file-operations.c:2772
 #: src/nautilus-window.c:1446
 msgid "Empty _Trash"
-msgstr "_Prullenbak legen"
+msgstr "_Prullenbak leegmaken"
 
 #: src/nautilus-file-operations.c:1593
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
-msgstr "Weet u zeker dat u ‘%s’ definitief wilt verwijderen?"
+msgstr "Weet je zeker dat je ‘%s’ definitief wilt verwijderen?"
 
 #: src/nautilus-file-operations.c:1598
 #, c-format
 msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
-msgstr[0] "Weet u zeker dat u het geselecteerde item definitief wilt verwijderen?"
-msgstr[1] "Weet u zeker dat u de %'d geselecteerde items definitief wilt verwijderen?"
+msgstr[0] "Weet jezeker dat je het geselecteerde item definitief wilt verwijderen?"
+msgstr[1] "Weet je zeker dat je de %'d geselecteerde items definitief wilt verwijderen?"
 
 #: src/nautilus-file-operations.c:1659
 #, c-format
@@ -1811,7 +1812,7 @@ msgstr "‘%s’ verwijderd"
 #: src/nautilus-file-operations.c:1663
 #, c-format
 msgid "Deleting “%s”"
-msgstr "‘%s’ verwijderen"
+msgstr "Bezig met verwijderen van ‘%s’"
 
 #: src/nautilus-file-operations.c:1674
 #, c-format
@@ -1824,8 +1825,8 @@ msgstr[1] "Bestanden %'d verwijderd"
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
-msgstr[0] "Bezig met verwijderen van %'d-bestand"
-msgstr[1] "Bezig met verwijderen van %'d-bestanden"
+msgstr[0] "Bezig met verwijderen van %'d bestand"
+msgstr[1] "Bezig met verwijderen van %'d bestanden"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1861,7 +1862,7 @@ msgstr[1] "(%d bestanden/sec)"
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
-msgstr "Fout tijdens het verwijderen."
+msgstr "Fout tijdens verwijderen."
 
 #: src/nautilus-file-operations.c:1908
 #, c-format
@@ -1871,22 +1872,22 @@ msgstr "Er is een fout opgetreden bij het verwijderen van de map ‘%s’."
 #: src/nautilus-file-operations.c:1911
 #, c-format
 msgid "You do not have sufficient permissions to delete the folder “%s”."
-msgstr "U hebt niet de benodigde rechten om de map ‘%s’ te verwijderen."
+msgstr "Je beschikt niet over de benodigde rechten om de map ‘%s’ te verwijderen."
 
 #: src/nautilus-file-operations.c:1918
 #, c-format
 msgid "There was an error deleting the file “%s”."
-msgstr "Er is een fout opgetreden bij het verwijderen van bestand ‘%s’."
+msgstr "Er is een fout opgetreden bij het verwijderen van het bestand ‘%s’."
 
 #: src/nautilus-file-operations.c:1921
 #, c-format
 msgid "You do not have sufficient permissions to delete the file “%s”."
-msgstr "U hebt niet de benodigde rechten om het bestand ‘%s’ te verwijderen."
+msgstr "Je beschikt niet over de benodigde rechten om het bestand ‘%s’ te verwijderen."
 
 #: src/nautilus-file-operations.c:2048
 #, c-format
 msgid "Trashing “%s”"
-msgstr "Weggooien van ‘%s’"
+msgstr "Bezig met weggooien van ‘%s’"
 
 #: src/nautilus-file-operations.c:2052
 #, c-format
@@ -1897,33 +1898,33 @@ msgstr "‘%s’ weggegooid"
 #, c-format
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
-msgstr[0] "%'d Bestand naar de prullenbak verplaatsen"
-msgstr[1] "%'d Bestanden naar de prullenbak verplaatsen"
+msgstr[0] "Bezig met verplaatsen van %'d bestand naar de prullenbak"
+msgstr[1] "Bezig met verplaatsen van %'d bestanden naar de prullenbak"
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
-msgstr[0] "%'d Bestand naar de prullenbak verplaatst"
-msgstr[1] "%'d Bestanden naar de prullenbak verplaatst"
+msgstr[0] "%'d bestand is naar de prullenbak verplaatst"
+msgstr[1] "%'d bestanden zijn naar de prullenbak verplaatst"
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
 #, c-format
 msgid "“%s” can’t be put in the trash. Do you want to delete it immediately?"
-msgstr "‘%s’ kan niet naar de prullenbak worden verplaatst. Wilt u het direct verwijderen?"
+msgstr "‘%s’ kan niet naar de prullenbak worden verplaatst. Wil je het direct verwijderen?"
 
 #: src/nautilus-file-operations.c:2229
 msgid "This remote location does not support sending items to the trash."
-msgstr "Deze externe locatie biedt geen ondersteuning voor het in de prullenbak gooien van items."
+msgstr "Deze externe locatie ondersteunt niet het verplaatsen van items naar de prullenbak."
 
 #: src/nautilus-file-operations.c:2487
 msgid "Trashing Files"
-msgstr "Bestanden in prullenbak gooien"
+msgstr "Bezig met verplaatsen naar prullenbak"
 
 #: src/nautilus-file-operations.c:2491
 msgid "Deleting Files"
-msgstr "Bestanden wissen"
+msgstr "Bezig met wissen van bestanden"
 
 #: src/nautilus-file-operations.c:2584
 #, c-format
@@ -1937,23 +1938,23 @@ msgstr "Kan %s niet ontkoppelen"
 
 #: src/nautilus-file-operations.c:2762
 msgid "Do you want to empty the trash before you unmount?"
-msgstr "Wilt u de prullenbak legen vóór het ontkoppelen?"
+msgstr "Wil je de prullenbak leegmaken vóór het ontkoppelen?"
 
 #: src/nautilus-file-operations.c:2764
 msgid ""
 "In order to regain the free space on this volume the trash must be emptied. "
 "All trashed items on the volume will be permanently lost."
-msgstr "Om de vrije ruimte op dit apparaat terug te winnen, dient de prullenbak geleegd te worden. Alle weggegooide objecten op het volumen zullen definitief verloren gaan."
+msgstr "Om de vrije ruimte op dit apparaat terug te winnen, dient de prullenbak geleegd te worden. Alle weggegooide items op het volume zijn niet meer terug te halen."
 
 #: src/nautilus-file-operations.c:2770
 msgid "Do _not Empty Trash"
-msgstr "Prullenbak _niet legen"
+msgstr "Prullenbak _niet leegmaken"
 
 #. Translators: %s is a file name formatted for display
 #: src/nautilus-file-operations.c:2914 src/nautilus-files-view.c:6731
 #, c-format
 msgid "Unable to access “%s”"
-msgstr "Niet in staat ‘%s’ te benaderen"
+msgstr "Kan ‘%s’ niet benaderen"
 
 #: src/nautilus-file-operations.c:2998
 #, c-format
@@ -2470,12 +2471,12 @@ msgstr "Bestanden inpakken"
 
 #: src/nautilus-files-view.c:389
 msgid "Searching…"
-msgstr "Zoeken…"
+msgstr "Bezig met zoeken..."
 
 #: src/nautilus-files-view.c:389 src/nautilus-image-properties-page.c:761
 #: src/nautilus-list-model.c:471 src/nautilus-window-slot.c:858
 msgid "Loading…"
-msgstr "Laden…"
+msgstr "Bezig met laden..."
 
 #: src/nautilus-files-view.c:1121 src/nautilus-mime-actions.c:949
 msgid "Are you sure you want to open all files?"
@@ -2498,7 +2499,7 @@ msgstr[1] "Dit zal %'d afzonderlijke vensters openen."
 #: src/nautilus-files-view.c:1133 src/nautilus-location-entry.c:282
 #: src/nautilus-mime-actions.c:961 src/nautilus-mime-actions.c:1147
 msgid "_OK"
-msgstr "_OK"
+msgstr "_Oké"
 
 #: src/nautilus-files-view.c:1660
 msgid "Select Items Matching"
