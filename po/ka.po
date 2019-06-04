@@ -14,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
 "PO-Revision-Date: 2018-04-19 22:38+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>\n"
 "Language-Team: Georgian (http://www.transifex.com/endless-os/nautilus/language/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ka\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: data/nautilus-autorun-software.desktop.in:3
 msgid "Run Software"
@@ -824,12 +824,14 @@ msgstr ""
 msgid "Rename %d Folder"
 msgid_plural "Rename %d Folders"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
 msgid "Rename %d File"
 msgid_plural "Rename %d Files"
 msgstr[0] ""
+msgstr[1] ""
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -838,6 +840,7 @@ msgstr[0] ""
 msgid "Rename %d File and Folder"
 msgid_plural "Rename %d Files and Folders"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -1392,18 +1395,21 @@ msgstr ""
 msgid "%'u item"
 msgid_plural "%'u items"
 msgstr[0] "%'u ელემენტი"
+msgstr[1] "%'u ელემენტი"
 
 #: src/nautilus-file.c:7098
 #, c-format
 msgid "%'u folder"
 msgid_plural "%'u folders"
 msgstr[0] "%'u დასტა"
+msgstr[1] "%'u დასტა"
 
 #: src/nautilus-file.c:7099
 #, c-format
 msgid "%'u file"
 msgid_plural "%'u files"
 msgstr[0] "%u ფაილი"
+msgstr[1] "%u ფაილი"
 
 #. This means no contents at all were readable
 #: src/nautilus-file.c:7574
@@ -1594,24 +1600,28 @@ msgstr ""
 msgid "%'d second"
 msgid_plural "%'d seconds"
 msgstr[0] "%'d წამი"
+msgstr[1] "%'d წამი"
 
 #: src/nautilus-file-operations.c:337 src/nautilus-file-operations.c:349
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
 msgstr[0] "%'d წუთი"
+msgstr[1] "%'d წუთი"
 
 #: src/nautilus-file-operations.c:348
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
 msgstr[0] "%'d საათი"
+msgstr[1] "%'d საათი"
 
 #: src/nautilus-file-operations.c:356
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
 msgstr[0] "მიახლოებით %'d საათი"
+msgstr[1] "მიახლოებით %'d საათი"
 
 #. appended to new link file
 #: src/nautilus-file-operations.c:458
@@ -1752,6 +1762,7 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items from the "
 "trash?"
 msgstr[0] "დარწმუნებული ბრძანდებით რომ გნებავთ მონიშნული %'d ელემენტის სანაგვე ყუთიდან სამუდამოდ წაშლა?"
+msgstr[1] "დარწმუნებული ბრძანდებით რომ გნებავთ მონიშნული %'d ელემენტის სანაგვე ყუთიდან სამუდამოდ წაშლა?"
 
 #: src/nautilus-file-operations.c:1532 src/nautilus-file-operations.c:1607
 msgid "If you delete an item, it will be permanently lost."
@@ -1781,6 +1792,7 @@ msgid "Are you sure you want to permanently delete the %'d selected item?"
 msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "ნამდვილად გნებავთ მონიშნული %'d ელემენტის სამუდამოდ წაშლა ?"
+msgstr[1] "ნამდვილად გნებავთ მონიშნული %'d ელემენტის სამუდამოდ წაშლა ?"
 
 #: src/nautilus-file-operations.c:1659
 #, c-format
@@ -1797,12 +1809,14 @@ msgstr ""
 msgid "Deleted %'d file"
 msgid_plural "Deleted %'d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:1680
 #, c-format
 msgid "Deleting %'d file"
 msgid_plural "Deleting %'d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1827,12 +1841,14 @@ msgstr ""
 msgid "%'d / %'d — %s left"
 msgid_plural "%'d / %'d — %s left"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
 msgid "(%d file/sec)"
 msgid_plural "(%d files/sec)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
@@ -1873,12 +1889,14 @@ msgstr ""
 msgid "Trashing %'d file"
 msgid_plural "Trashing %'d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
 msgid "Trashed %'d file"
 msgid_plural "Trashed %'d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
@@ -1933,30 +1951,35 @@ msgstr ""
 msgid "Preparing to copy %'d file (%s)"
 msgid_plural "Preparing to copy %'d files (%s)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
 msgid "Preparing to move %'d file (%s)"
 msgid_plural "Preparing to move %'d files (%s)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
 msgid "Preparing to delete %'d file (%s)"
 msgid_plural "Preparing to delete %'d files (%s)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
 msgid "Preparing to trash %'d file"
 msgid_plural "Preparing to trash %'d files"
 msgstr[0] "სანაგვე ყუთში გადასატანად მზადდება %'d"
+msgstr[1] "სანაგვე ყუთში გადასატანად მზადდება %'d"
 
 #: src/nautilus-file-operations.c:3042
 #, c-format
 msgid "Preparing to compress %'d file"
 msgid_plural "Preparing to compress %'d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -2081,36 +2104,42 @@ msgstr ""
 msgid "Moving %'d file to “%s”"
 msgid_plural "Moving %'d files to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
 msgid "Copying %'d file to “%s”"
 msgid_plural "Copying %'d files to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
 msgid "Moved %'d file to “%s”"
 msgid_plural "Moved %'d files to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
 msgid "Copied %'d file to “%s”"
 msgid_plural "Copied %'d files to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
 msgid "Duplicating %'d file in “%s”"
 msgid_plural "Duplicating %'d files in “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
 msgid "Duplicated %'d file in “%s”"
 msgid_plural "Duplicated %'d files in “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2154,6 +2183,7 @@ msgstr ""
 msgid "%s / %s — %s left (%s/sec)"
 msgid_plural "%s / %s — %s left (%s/sec)"
 msgstr[0] ""
+msgstr[1] ""
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2166,6 +2196,7 @@ msgstr[0] ""
 msgid "%'d / %'d — %s left (%s/sec)"
 msgid_plural "%'d / %'d — %s left (%s/sec)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
@@ -2262,6 +2293,7 @@ msgstr ""
 msgid "Preparing to move %'d file"
 msgid_plural "Preparing to move %'d files"
 msgstr[0] "მიმდინარეობს მზადება %'d ფაილების გადასატანად"
+msgstr[1] "მიმდინარეობს მზადება %'d ფაილების გადასატანად"
 
 #: src/nautilus-file-operations.c:6184
 #, c-format
@@ -2282,6 +2314,7 @@ msgstr ""
 msgid "Making link to %'d file"
 msgid_plural "Making links to %'d files"
 msgstr[0] "იქმნება ბმული %'d ფაილზე"
+msgstr[1] "იქმნება ბმული %'d ფაილზე"
 
 #: src/nautilus-file-operations.c:6670
 #, c-format
@@ -2372,6 +2405,7 @@ msgstr ""
 msgid "Extracted %'d file to “%s”"
 msgid_plural "Extracted %'d files to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2391,6 +2425,7 @@ msgstr ""
 msgid "Compressing %'d file into “%s”"
 msgid_plural "Compressing %'d files into “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
@@ -2402,6 +2437,7 @@ msgstr ""
 msgid "Error compressing %'d file into “%s”"
 msgid_plural "Error compressing %'d files into “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2417,6 +2453,7 @@ msgstr ""
 msgid "Compressed %'d file into “%s”"
 msgid_plural "Compressed %'d files into “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2440,12 +2477,14 @@ msgstr "ნამდვილად გნებავთ ყველა ფა
 msgid "This will open %'d separate tab."
 msgid_plural "This will open %'d separate tabs."
 msgstr[0] "ეს %d-ს ცალკე დაფაში გახსნის."
+msgstr[1] "ეს %d-ს ცალკე დაფაში გახსნის."
 
 #: src/nautilus-files-view.c:1129
 #, c-format
 msgid "This will open %'d separate window."
 msgid_plural "This will open %'d separate windows."
 msgstr[0] "ეს %d-ს ცალკე ფანჯარაში გახსნის."
+msgstr[1] "ეს %d-ს ცალკე ფანჯარაში გახსნის."
 
 #: src/nautilus-files-view.c:1133 src/nautilus-location-entry.c:282
 #: src/nautilus-mime-actions.c:961 src/nautilus-mime-actions.c:1147
@@ -2485,12 +2524,14 @@ msgstr ""
 msgid "%'d folder selected"
 msgid_plural "%'d folders selected"
 msgstr[0] "%d მონიშნული დასტა"
+msgstr[1] "%d მონიშნული დასტა"
 
 #: src/nautilus-files-view.c:3349
 #, c-format
 msgid "(containing %'d item)"
 msgid_plural "(containing %'d items)"
 msgstr[0] ""
+msgstr[1] ""
 
 #. translators: this is preceded with a string of form 'N folders' (N more
 #. than 1)
@@ -2499,12 +2540,14 @@ msgstr[0] ""
 msgid "(containing a total of %'d item)"
 msgid_plural "(containing a total of %'d items)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-files-view.c:3383
 #, c-format
 msgid "%'d item selected"
 msgid_plural "%'d items selected"
 msgstr[0] "%d მონიშნული ელემენტი"
+msgstr[1] "%d მონიშნული ელემენტი"
 
 #. Folders selected also, use "other" terminology
 #: src/nautilus-files-view.c:3392
@@ -2512,6 +2555,7 @@ msgstr[0] "%d მონიშნული ელემენტი"
 msgid "%'d other item selected"
 msgid_plural "%'d other items selected"
 msgstr[0] "%d სხვა მონიშნული ელემენტი"
+msgstr[1] "%d სხვა მონიშნული ელემენტი"
 
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
@@ -2571,6 +2615,7 @@ msgstr ""
 msgid "New Folder with Selection (%'d Item)"
 msgid_plural "New Folder with Selection (%'d Items)"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-files-view.c:7893
 #, c-format
@@ -2684,24 +2729,28 @@ msgstr ""
 msgid "Move %d item back to “%s”"
 msgid_plural "Move %d items back to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
 msgid "Move %d item to “%s”"
 msgid_plural "Move %d items to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
 msgid "_Undo Move %d item"
 msgid_plural "_Undo Move %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:420
 #, c-format
 msgid "_Redo Move %d item"
 msgid_plural "_Redo Move %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
@@ -2734,6 +2783,7 @@ msgstr ""
 msgid "Move %d item back to trash"
 msgid_plural "Move %d items back to trash"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:443
 #: src/nautilus-file-undo-operations.c:1327
@@ -2741,6 +2791,7 @@ msgstr[0] ""
 msgid "Restore %d item from trash"
 msgid_plural "Restore %d items from trash"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
@@ -2757,24 +2808,28 @@ msgstr ""
 msgid "Delete %d copied item"
 msgid_plural "Delete %d copied items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:460
 #, c-format
 msgid "Copy %d item to “%s”"
 msgid_plural "Copy %d items to “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
 msgid "_Undo Copy %d item"
 msgid_plural "_Undo Copy %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:467
 #, c-format
 msgid "_Redo Copy %d item"
 msgid_plural "_Redo Copy %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:473
 #: src/nautilus-file-undo-operations.c:500
@@ -2803,24 +2858,28 @@ msgstr ""
 msgid "Delete %d duplicated item"
 msgid_plural "Delete %d duplicated items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:487
 #, c-format
 msgid "Duplicate %d item in “%s”"
 msgid_plural "Duplicate %d items in “%s”"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
 msgid "_Undo Duplicate %d item"
 msgid_plural "_Undo Duplicate %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:494
 #, c-format
 msgid "_Redo Duplicate %d item"
 msgid_plural "_Redo Duplicate %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
@@ -2840,12 +2899,14 @@ msgstr ""
 msgid "Delete links to %d item"
 msgid_plural "Delete links to %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:515
 #, c-format
 msgid "Create links to %d item"
 msgid_plural "Create links to %d items"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
@@ -2924,6 +2985,7 @@ msgstr ""
 msgid "Batch rename %d file"
 msgid_plural "Batch rename %d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
@@ -2938,6 +3000,7 @@ msgstr ""
 msgid "Move %d item to trash"
 msgid_plural "Move %d items to trash"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
@@ -3036,6 +3099,7 @@ msgstr ""
 msgid "Delete %d extracted file"
 msgid_plural "Delete %d extracted files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
@@ -3047,6 +3111,7 @@ msgstr ""
 msgid "Extract %d file"
 msgid_plural "Extract %d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
@@ -3058,6 +3123,7 @@ msgstr ""
 msgid "Compress %d file"
 msgid_plural "Compress %d files"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
@@ -3142,6 +3208,7 @@ msgstr ""
 msgid "%d pixel"
 msgid_plural "%d pixels"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-image-properties-page.c:362
 msgid "Width"
@@ -3281,12 +3348,14 @@ msgstr "სიურ ხედში მონაცემთა გამოჩ
 msgid "Do you want to view %d location?"
 msgid_plural "Do you want to view %d locations?"
 msgstr[0] "გნებავთ %d მდებარეობის დათვალიერება?"
+msgstr[1] "გნებავთ %d მდებარეობის დათვალიერება?"
 
 #: src/nautilus-location-entry.c:271 src/nautilus-mime-actions.c:957
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
 msgstr[0] "ეს %d-ს ცალკე ფანჯარაში გახსნის."
+msgstr[1] "ეს %d-ს ცალკე ფანჯარაში გახსნის."
 
 #: src/nautilus-mime-actions.c:103
 #: src/resources/ui/nautilus-search-popover.ui:275
@@ -3368,6 +3437,7 @@ msgstr "_გამოსახვა"
 msgid "This will open %d separate tab."
 msgid_plural "This will open %d separate tabs."
 msgstr[0] "ეს %d-ს ცალკე დაფაში გახსნის."
+msgstr[1] "ეს %d-ს ცალკე დაფაში გახსნის."
 
 #: src/nautilus-mime-actions.c:1024
 #, c-format
@@ -3437,6 +3507,7 @@ msgstr ""
 msgid "Opening %d item."
 msgid_plural "Opening %d items."
 msgstr[0] "იხსნება %d ელემენტი"
+msgstr[1] "იხსნება %d ელემენტი"
 
 #: src/nautilus-mime-application-chooser.c:85
 #, c-format
@@ -3728,6 +3799,7 @@ msgstr ""
 msgid "%'d file operation active"
 msgid_plural "%'d file operations active"
 msgstr[0] "ფაილებზე %'d ოპერაცია მიმდინარეობს"
+msgstr[1] "ფაილებზე %'d ოპერაცია მიმდინარეობს"
 
 #: src/nautilus-progress-persistence-handler.c:149
 msgid "All file operations have been successfully completed"
@@ -3757,6 +3829,7 @@ msgstr "თქვენს მიერ გადათრეული ფაი
 msgid "_Name:"
 msgid_plural "_Names:"
 msgstr[0] "_სახელწოდება:"
+msgstr[1] "_სახელწოდება:"
 
 #: src/nautilus-properties-window.c:900
 #, c-format
@@ -3804,6 +3877,7 @@ msgstr "წაუკითხვადი"
 msgid "%'d item, with size %s"
 msgid_plural "%'d items, totalling %s"
 msgstr[0] "%d ელემენტი, ზომით %s"
+msgstr[1] "%d ელემენტი, ზომით %s"
 
 #: src/nautilus-properties-window.c:2355
 msgid "(some contents unreadable)"
@@ -4120,48 +4194,56 @@ msgstr "სანაგვედან ყველა ელემენტი�
 msgid "Since %d day ago"
 msgid_plural "Since %d days ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
 msgid "Since last week"
 msgid_plural "Since %d weeks ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
 msgid "Last week"
 msgid_plural "%d weeks ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
 msgid "Since last month"
 msgid_plural "Since %d months ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
 msgid "Last month"
 msgid_plural "%d months ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
 msgid "Since last year"
 msgid_plural "Since %d years ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
 msgid "Last year"
 msgid_plural "%d years ago"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
@@ -4204,6 +4286,7 @@ msgstr ""
 msgid "%d file deleted"
 msgid_plural "%d files deleted"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/nautilus-window.c:1915
 #, c-format
@@ -5334,6 +5417,7 @@ msgstr ""
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
 msgstr[0] ""
+msgstr[1] ""
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"

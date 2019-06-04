@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2019-04-01 09:31+0000\n"
+"PO-Revision-Date: 2019-04-29 19:07+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/endless-os/nautilus/language/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -897,32 +897,32 @@ msgstr ""
 #: src/nautilus-image-properties-page.c:385
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:459
 msgid "Title"
-msgstr ""
+msgstr "Titulli"
 
 #: src/nautilus-batch-rename-dialog.h:171
 msgid "Album name"
-msgstr ""
+msgstr "Emri albumit"
 
 #: src/nautilus-batch-rename-dialog.h:178
 msgid "Original file name"
-msgstr ""
+msgstr "Emri skedarit origjinal"
 
 #: src/nautilus-batch-rename-dialog.h:189
 msgid "1, 2, 3"
-msgstr ""
+msgstr "1, 2, 3"
 
 #: src/nautilus-batch-rename-dialog.h:196
 msgid "01, 02, 03"
-msgstr ""
+msgstr "01, 02, 03"
 
 #: src/nautilus-batch-rename-dialog.h:203
 msgid "001, 002, 003"
-msgstr ""
+msgstr "001, 002, 003"
 
 #: src/nautilus-bookmark.c:112 src/nautilus-file-utilities.c:323
 #: src/nautilus-pathbar.c:454
 msgid "Other Locations"
-msgstr ""
+msgstr "Vendndodhje t'tjera"
 
 #: src/nautilus-canvas-container.c:2800
 msgid "The selection rectangle"
@@ -948,7 +948,7 @@ msgstr "Emri"
 
 #: src/nautilus-column-utilities.c:58
 msgid "The name and icon of the file."
-msgstr "Emri dhe ikona e file."
+msgstr "Emri dhe ikona e skedarit."
 
 #: src/nautilus-column-utilities.c:64
 msgid "Size"
@@ -956,7 +956,7 @@ msgstr "Madhësia"
 
 #: src/nautilus-column-utilities.c:65
 msgid "The size of the file."
-msgstr "Madhësia e file."
+msgstr "Madhësia e skedarit."
 
 #: src/nautilus-column-utilities.c:71
 msgid "Type"
@@ -964,11 +964,11 @@ msgstr "Lloji"
 
 #: src/nautilus-column-utilities.c:72
 msgid "The type of the file."
-msgstr "Lloji i file."
+msgstr "Lloji i skedarit."
 
 #: src/nautilus-column-utilities.c:78
 msgid "Modified"
-msgstr ""
+msgstr "Ndryshuar"
 
 #: src/nautilus-column-utilities.c:79 src/nautilus-column-utilities.c:138
 msgid "The date the file was modified."
@@ -976,7 +976,7 @@ msgstr "Data në të cilën është ndryshuar për herë të fundit."
 
 #: src/nautilus-column-utilities.c:87
 msgid "Accessed"
-msgstr ""
+msgstr "Qasjet"
 
 #: src/nautilus-column-utilities.c:88
 msgid "The date the file was accessed."
@@ -988,7 +988,7 @@ msgstr "Pronari"
 
 #: src/nautilus-column-utilities.c:98
 msgid "The owner of the file."
-msgstr "Pronari i file."
+msgstr "Pronari i skedarit."
 
 #: src/nautilus-column-utilities.c:105
 msgid "Group"
@@ -996,7 +996,7 @@ msgstr "Grupi"
 
 #: src/nautilus-column-utilities.c:106
 msgid "The group of the file."
-msgstr "Grupi i file."
+msgstr "Grupi i skedarit."
 
 #: src/nautilus-column-utilities.c:113 src/nautilus-properties-window.c:4647
 msgid "Permissions"
@@ -1004,7 +1004,7 @@ msgstr "Autorizimet"
 
 #: src/nautilus-column-utilities.c:114
 msgid "The permissions of the file."
-msgstr "Të drejtat e file."
+msgstr "Të drejtat e skedarit."
 
 #: src/nautilus-column-utilities.c:121
 msgid "MIME Type"
@@ -2216,7 +2216,7 @@ msgstr ""
 
 #: src/nautilus-file-operations.c:4726
 msgid "_Skip files"
-msgstr "_Kapërce file"
+msgstr "_Kapërce skedarë"
 
 #: src/nautilus-file-operations.c:4776
 #, c-format
@@ -3916,7 +3916,7 @@ msgstr "Volumi:"
 
 #: src/nautilus-properties-window.c:3228
 msgid "Accessed:"
-msgstr "Hyrja e fundit:"
+msgstr "Qasje:"
 
 #: src/nautilus-properties-window.c:3232
 msgid "Modified:"
@@ -3951,7 +3951,7 @@ msgstr "shkrim"
 
 #: src/nautilus-properties-window.c:4020
 msgid "access"
-msgstr "futja"
+msgstr "qasje"
 
 #: src/nautilus-properties-window.c:4091
 msgid "List files only"
@@ -3959,7 +3959,7 @@ msgstr "Shfaq vetëm listën e file"
 
 #: src/nautilus-properties-window.c:4097
 msgid "Access files"
-msgstr "Hyrje në file"
+msgstr "Qasje skedarësh"
 
 #: src/nautilus-properties-window.c:4103
 msgid "Create and delete files"
@@ -3975,7 +3975,7 @@ msgstr "Lexim dhe shkrim"
 
 #: src/nautilus-properties-window.c:4155
 msgid "Access:"
-msgstr "Hyrja:"
+msgstr "Qasje:"
 
 #: src/nautilus-properties-window.c:4159
 msgid "Folder access:"
@@ -3983,7 +3983,7 @@ msgstr "Hyrja në kartelë:"
 
 #: src/nautilus-properties-window.c:4163
 msgid "File access:"
-msgstr "Hyrja në file:"
+msgstr "Qasje në skedarë:"
 
 #: src/nautilus-properties-window.c:4259
 msgid "_Owner:"

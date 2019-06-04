@@ -14,13 +14,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
 "PO-Revision-Date: 2018-04-19 22:32+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/endless-os/nautilus/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: data/nautilus-autorun-software.desktop.in:3
 msgid "Run Software"
@@ -826,6 +826,7 @@ msgid_plural "Rename %d Folders"
 msgstr[0] "Pervadinti %d aplanką"
 msgstr[1] "Pervadinti %d aplankus"
 msgstr[2] "Pervadinti %d aplankų"
+msgstr[3] "Pervadinti %d aplankų"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
@@ -834,6 +835,7 @@ msgid_plural "Rename %d Files"
 msgstr[0] "Pervadinti %d failą"
 msgstr[1] "Pervadinti %d failus"
 msgstr[2] "Pervadinti %d failų"
+msgstr[3] "Pervadinti %d failų"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -844,6 +846,7 @@ msgid_plural "Rename %d Files and Folders"
 msgstr[0] "Pervadinti %d aplanką"
 msgstr[1] "Pervadinti %d aplankus"
 msgstr[2] "Pervadinti %d aplankų"
+msgstr[3] "Pervadinti %d aplankų"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -1400,6 +1403,7 @@ msgid_plural "%'u items"
 msgstr[0] "%'u elementas"
 msgstr[1] "%'u elementai"
 msgstr[2] "%'u elementų"
+msgstr[3] "%'u elementų"
 
 #: src/nautilus-file.c:7098
 #, c-format
@@ -1408,6 +1412,7 @@ msgid_plural "%'u folders"
 msgstr[0] "%'u aplankas"
 msgstr[1] "%'u aplankai"
 msgstr[2] "%'u aplankų"
+msgstr[3] "%'u aplankų"
 
 #: src/nautilus-file.c:7099
 #, c-format
@@ -1416,6 +1421,7 @@ msgid_plural "%'u files"
 msgstr[0] "%'u failas"
 msgstr[1] "%'u failų"
 msgstr[2] "%'u failų"
+msgstr[3] "%'u failų"
 
 #. This means no contents at all were readable
 #: src/nautilus-file.c:7574
@@ -1608,6 +1614,7 @@ msgid_plural "%'d seconds"
 msgstr[0] "%'d sekundė"
 msgstr[1] "%'d sekundės"
 msgstr[2] "%'d sekundžių"
+msgstr[3] "%'d sekundžių"
 
 #: src/nautilus-file-operations.c:337 src/nautilus-file-operations.c:349
 #, c-format
@@ -1616,6 +1623,7 @@ msgid_plural "%'d minutes"
 msgstr[0] "%'d minutė"
 msgstr[1] "%'d minutės"
 msgstr[2] "%'d minučių"
+msgstr[3] "%'d minučių"
 
 #: src/nautilus-file-operations.c:348
 #, c-format
@@ -1624,6 +1632,7 @@ msgid_plural "%'d hours"
 msgstr[0] "%'d valanda"
 msgstr[1] "%'d valandos"
 msgstr[2] "%'d valandų"
+msgstr[3] "%'d valandų"
 
 #: src/nautilus-file-operations.c:356
 #, c-format
@@ -1632,6 +1641,7 @@ msgid_plural "approximately %'d hours"
 msgstr[0] "apytiksliai %'d valanda"
 msgstr[1] "apytiksliai %'d valandos"
 msgstr[2] "apytiksliai %'d valandų"
+msgstr[3] "apytiksliai %'d valandų"
 
 #. appended to new link file
 #: src/nautilus-file-operations.c:458
@@ -1774,6 +1784,7 @@ msgid_plural ""
 msgstr[0] "Ar tikrai norite visiškai ištrinti %'d pasirinktą elementą iš šiukšlinės?"
 msgstr[1] "Ar tikrai norite visiškai ištrinti %'d pasirinktus elementus iš šiukšlinės?"
 msgstr[2] "Ar tikrai norite visiškai ištrinti %'d pasirinktų elementų iš šiukšlinės?"
+msgstr[3] "Ar tikrai norite visiškai ištrinti %'d pasirinktų elementų iš šiukšlinės?"
 
 #: src/nautilus-file-operations.c:1532 src/nautilus-file-operations.c:1607
 msgid "If you delete an item, it will be permanently lost."
@@ -1805,6 +1816,7 @@ msgid_plural ""
 msgstr[0] "Ar tikrai norite visiškai ištrinti %'d pažymėtą elementą?"
 msgstr[1] "Ar tikrai norite visiškai ištrinti %'d pažymėtus elementus?"
 msgstr[2] "Ar tikrai norite visiškai ištrinti %'d pažymėtų elementų?"
+msgstr[3] "Ar tikrai norite visiškai ištrinti %'d pažymėtų elementų?"
 
 #: src/nautilus-file-operations.c:1659
 #, c-format
@@ -1823,6 +1835,7 @@ msgid_plural "Deleted %'d files"
 msgstr[0] "Ištrintas %'d failas"
 msgstr[1] "Ištrinti %'d failai"
 msgstr[2] "Ištrinta %'d failų"
+msgstr[3] "Ištrinta %'d failų"
 
 #: src/nautilus-file-operations.c:1680
 #, c-format
@@ -1831,6 +1844,7 @@ msgid_plural "Deleting %'d files"
 msgstr[0] "Trinamas %'d failas"
 msgstr[1] "Trinami %'d failai"
 msgstr[2] "Trinama %'d failų"
+msgstr[3] "Trinama %'d failų"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1857,6 +1871,7 @@ msgid_plural "%'d / %'d — %s left"
 msgstr[0] "%'d / %'d — %s liko"
 msgstr[1] "%'d / %'d — %s liko"
 msgstr[2] "%'d / %'d — %s liko"
+msgstr[3] "%'d / %'d — %s liko"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1865,6 +1880,7 @@ msgid_plural "(%d files/sec)"
 msgstr[0] "(%d failas/sek)"
 msgstr[1] "(%d failai/sek)"
 msgstr[2] "(%d failų/sek)"
+msgstr[3] "(%d failų/sek)"
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
@@ -1907,6 +1923,7 @@ msgid_plural "Trashing %'d files"
 msgstr[0] "Išmetamas %'d failas"
 msgstr[1] "Išmetami %'d failai"
 msgstr[2] "Išmetama %'d failų"
+msgstr[3] "Išmetama %'d failų"
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
@@ -1915,6 +1932,7 @@ msgid_plural "Trashed %'d files"
 msgstr[0] "Išmestas %'d failas"
 msgstr[1] "Išmesti %'d failai"
 msgstr[2] "Išmesta %'d failų"
+msgstr[3] "Išmesta %'d failų"
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
@@ -1971,6 +1989,7 @@ msgid_plural "Preparing to copy %'d files (%s)"
 msgstr[0] "Ruošiamasi kopijuoti %'d failą (%s)"
 msgstr[1] "Ruošiamasi kopijuoti %'d failus (%s)"
 msgstr[2] "Ruošiamasi kopijuoti %'d failų (%s)"
+msgstr[3] "Ruošiamasi kopijuoti %'d failų (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
@@ -1979,6 +1998,7 @@ msgid_plural "Preparing to move %'d files (%s)"
 msgstr[0] "Ruošiamasi perkelti %'d failą (%s)"
 msgstr[1] "Ruošiamasi perkelti %'d failus (%s)"
 msgstr[2] "Ruošiamasi perkelti %'d failų (%s)"
+msgstr[3] "Ruošiamasi perkelti %'d failų (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
@@ -1987,6 +2007,7 @@ msgid_plural "Preparing to delete %'d files (%s)"
 msgstr[0] "Ruošiamasi ištrinti %'d failą (%s)"
 msgstr[1] "Ruošiamasi ištrinti %'d failus (%s)"
 msgstr[2] "Ruošiamasi ištrinti %'d failų (%s)"
+msgstr[3] "Ruošiamasi ištrinti %'d failų (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -1995,6 +2016,7 @@ msgid_plural "Preparing to trash %'d files"
 msgstr[0] "Ruošiamasi perkelti į šiukšlinę %'d failą"
 msgstr[1] "Ruošiamasi perkelti į šiukšlinę %'d failus"
 msgstr[2] "Ruošiamasi perkelti į šiukšlinę %'d failų"
+msgstr[3] "Ruošiamasi perkelti į šiukšlinę %'d failų"
 
 #: src/nautilus-file-operations.c:3042
 #, c-format
@@ -2003,6 +2025,7 @@ msgid_plural "Preparing to compress %'d files"
 msgstr[0] "Ruošiamasi suspausti %'d failą"
 msgstr[1] "Ruošiamasi suspausti %'d failus"
 msgstr[2] "Ruošiamasi suspausti %'d failų"
+msgstr[3] "Ruošiamasi suspausti %'d failų"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -2129,6 +2152,7 @@ msgid_plural "Moving %'d files to “%s”"
 msgstr[0] "Perkeliamas %'d failas į „%s“"
 msgstr[1] "Perkeliami %'d failai į „%s“"
 msgstr[2] "Perkeliama %'d failų į „%s“"
+msgstr[3] "Perkeliama %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
@@ -2137,6 +2161,7 @@ msgid_plural "Copying %'d files to “%s”"
 msgstr[0] "Kopijuojamas %'d failas į „%s“"
 msgstr[1] "Kopijuojami %'d failai į „%s“"
 msgstr[2] "Kopijuojama %'d failų į „%s“"
+msgstr[3] "Kopijuojama %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
@@ -2145,6 +2170,7 @@ msgid_plural "Moved %'d files to “%s”"
 msgstr[0] "Perkeltas %'d failas į „%s“"
 msgstr[1] "Perkelti %'d failai į „%s“"
 msgstr[2] "Perkelta %'d failų į „%s“"
+msgstr[3] "Perkelta %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
@@ -2153,6 +2179,7 @@ msgid_plural "Copied %'d files to “%s”"
 msgstr[0] "Nukopijuotas %'d failas į „%s“"
 msgstr[1] "Nukopijuoti %'d failai į „%s“"
 msgstr[2] "Nukopijuota %'d failų į „%s“"
+msgstr[3] "Nukopijuota %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
@@ -2161,6 +2188,7 @@ msgid_plural "Duplicating %'d files in “%s”"
 msgstr[0] "Kuriama %'d failo kopija „%s“ viduje"
 msgstr[1] "Kuriamos %'d failų kopijos „%s“ viduje"
 msgstr[2] "Kuriamos %'d failų kopijos „%s“ viduje"
+msgstr[3] "Kuriamos %'d failų kopijos „%s“ viduje"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
@@ -2169,6 +2197,7 @@ msgid_plural "Duplicated %'d files in “%s”"
 msgstr[0] "Sukurta %'d failo kopija „%s“ viduje"
 msgstr[1] "Sukurtos %'d failų kopijos „%s“ viduje"
 msgstr[2] "Sukurtos %'d failų kopijos „%s“ viduje"
+msgstr[3] "Sukurtos %'d failų kopijos „%s“ viduje"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2214,6 +2243,7 @@ msgid_plural "%s / %s — %s left (%s/sec)"
 msgstr[0] "%s / %s — liko %s (%s/sek)"
 msgstr[1] "%s / %s — liko %s (%s/sek)"
 msgstr[2] "%s / %s — liko %s (%s/sek)"
+msgstr[3] "%s / %s — liko %s (%s/sek)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2228,6 +2258,7 @@ msgid_plural "%'d / %'d — %s left (%s/sec)"
 msgstr[0] "%'d / %'d — liko %s (%s/sek)"
 msgstr[1] "%'d / %'d — liko %s (%s/sek)"
 msgstr[2] "%'d / %'d — liko %s (%s/sek)"
+msgstr[3] "%'d / %'d — liko %s (%s/sek)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
@@ -2326,6 +2357,7 @@ msgid_plural "Preparing to move %'d files"
 msgstr[0] "Ruošiamasi perkelti %'d failą"
 msgstr[1] "Ruošiamasi perkelti %'d failus"
 msgstr[2] "Ruošiamasi perkelti %'d failų"
+msgstr[3] "Ruošiamasi perkelti %'d failų"
 
 #: src/nautilus-file-operations.c:6184
 #, c-format
@@ -2348,6 +2380,7 @@ msgid_plural "Making links to %'d files"
 msgstr[0] "Kuriama nuoroda į %'d failą"
 msgstr[1] "Kuriamos nuorodos į %'d failus"
 msgstr[2] "Kuriamos nuorodos į %'d failų"
+msgstr[3] "Kuriamos nuorodos į %'d failų"
 
 #: src/nautilus-file-operations.c:6670
 #, c-format
@@ -2440,6 +2473,7 @@ msgid_plural "Extracted %'d files to “%s”"
 msgstr[0] "Išskleistas %'d failas į „%s“"
 msgstr[1] "Išskleisti %'d failai į „%s“"
 msgstr[2] "Išskleista %'d failų į „%s“"
+msgstr[3] "Išskleista %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2461,6 +2495,7 @@ msgid_plural "Compressing %'d files into “%s”"
 msgstr[0] "Suspaudžiamas %'d failas į „%s“"
 msgstr[1] "Suspaudžiami %'d failai į „%s“"
 msgstr[2] "Suspaudžiama %'d failų į „%s“"
+msgstr[3] "Suspaudžiama %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
@@ -2474,6 +2509,7 @@ msgid_plural "Error compressing %'d files into “%s”"
 msgstr[0] "Klaida suspaudžiant %'d failą į „%s“"
 msgstr[1] "Klaida suspaudžiant %'d failus į „%s“"
 msgstr[2] "Klaida suspaudžiant %'d failų į „%s“"
+msgstr[3] "Klaida suspaudžiant %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2491,6 +2527,7 @@ msgid_plural "Compressed %'d files into “%s”"
 msgstr[0] "Suspaustas %'d failas į „%s“"
 msgstr[1] "Suspausti %'d failai į „%s“"
 msgstr[2] "Suspausta %'d failų į „%s“"
+msgstr[3] "Suspausta %'d failų į „%s“"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2516,6 +2553,7 @@ msgid_plural "This will open %'d separate tabs."
 msgstr[0] "Bus atverta %'d atskira kortelė."
 msgstr[1] "Bus atvertos %'d atskiros kortelės."
 msgstr[2] "Bus atverta %'d atskirų kortelių."
+msgstr[3] "Bus atverta %'d atskirų kortelių."
 
 #: src/nautilus-files-view.c:1129
 #, c-format
@@ -2524,6 +2562,7 @@ msgid_plural "This will open %'d separate windows."
 msgstr[0] "Bus atvertas %'d atskiras langas."
 msgstr[1] "Bus atverti %'d atskiri langai."
 msgstr[2] "Bus atverta %'d atskirų langų."
+msgstr[3] "Bus atverta %'d atskirų langų."
 
 #: src/nautilus-files-view.c:1133 src/nautilus-location-entry.c:282
 #: src/nautilus-mime-actions.c:961 src/nautilus-mime-actions.c:1147
@@ -2565,6 +2604,7 @@ msgid_plural "%'d folders selected"
 msgstr[0] "Pasirinktas %'d aplankas"
 msgstr[1] "Pasirinkti %'d aplankai"
 msgstr[2] "Pasirinkta %'d aplankų"
+msgstr[3] "Pasirinkta %'d aplankų"
 
 #: src/nautilus-files-view.c:3349
 #, c-format
@@ -2573,6 +2613,7 @@ msgid_plural "(containing %'d items)"
 msgstr[0] "(kuriame yra %'d elementas)"
 msgstr[1] "(kuriuose yra %'d elementai)"
 msgstr[2] "(kuriuose yra %'d elementų)"
+msgstr[3] "(kuriuose yra %'d elementų)"
 
 #. translators: this is preceded with a string of form 'N folders' (N more
 #. than 1)
@@ -2583,6 +2624,7 @@ msgid_plural "(containing a total of %'d items)"
 msgstr[0] "(kuriuose yra iš viso %'d elementas)"
 msgstr[1] "(kuriuose yra iš viso %'d elementai)"
 msgstr[2] "(kuriuose yra iš viso %'d elementų)"
+msgstr[3] "(kuriuose yra iš viso %'d elementų)"
 
 #: src/nautilus-files-view.c:3383
 #, c-format
@@ -2591,6 +2633,7 @@ msgid_plural "%'d items selected"
 msgstr[0] "Pasirinktas %'d elementas"
 msgstr[1] "Pasirinkti %'d elementai"
 msgstr[2] "Pasirinkta %'d elementų"
+msgstr[3] "Pasirinkta %'d elementų"
 
 #. Folders selected also, use "other" terminology
 #: src/nautilus-files-view.c:3392
@@ -2600,6 +2643,7 @@ msgid_plural "%'d other items selected"
 msgstr[0] "Pasirinktas %'d kitas elementas"
 msgstr[1] "Pasirinkti %'d kiti elementai"
 msgstr[2] "Pasirinkta %'d kitų elementų"
+msgstr[3] "Pasirinkta %'d kitų elementų"
 
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
@@ -2661,6 +2705,7 @@ msgid_plural "New Folder with Selection (%'d Items)"
 msgstr[0] "Naujas aplankas su pažymėjimu (%'d elementas)"
 msgstr[1] "Naujas aplankas su pažymėjimu (%'d elementai)"
 msgstr[2] "Naujas aplankas su pažymėjimu (%'d elementų)"
+msgstr[3] "Naujas aplankas su pažymėjimu (%'d elementų)"
 
 #: src/nautilus-files-view.c:7893
 #, c-format
@@ -2776,6 +2821,7 @@ msgid_plural "Move %d items back to “%s”"
 msgstr[0] "Perkelti %d elementą atgal į „%s“"
 msgstr[1] "Perkelti %d elementus atgal į „%s“"
 msgstr[2] "Perkelti %d elementų atgal į „%s“"
+msgstr[3] "Perkelti %d elementų atgal į „%s“"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
@@ -2784,6 +2830,7 @@ msgid_plural "Move %d items to “%s”"
 msgstr[0] "Perkeltas %'d failas į „%s“"
 msgstr[1] "Perkelti %'d failai į „%s“"
 msgstr[2] "Perkelta %'d failų į „%s“"
+msgstr[3] "Perkelta %'d failų į „%s“"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2792,6 +2839,7 @@ msgid_plural "_Undo Move %d items"
 msgstr[0] "Atšaukti %d elemento perkėlimą"
 msgstr[1] "Atšaukti %d elementų perkėlimą"
 msgstr[2] "Atšaukti %d elementų perkėlimą"
+msgstr[3] "Atšaukti %d elementų perkėlimą"
 
 #: src/nautilus-file-undo-operations.c:420
 #, c-format
@@ -2800,6 +2848,7 @@ msgid_plural "_Redo Move %d items"
 msgstr[0] "Paka_rtoti %d elemento perkėlimą"
 msgstr[1] "Paka_rtoti %d elementų perkėlimą"
 msgstr[2] "Paka_rtoti %d elementų perkėlimą"
+msgstr[3] "Paka_rtoti %d elementų perkėlimą"
 
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
@@ -2834,6 +2883,7 @@ msgid_plural "Move %d items back to trash"
 msgstr[0] "Perkelti %d elementą atgal į šiukšlinę"
 msgstr[1] "Perkelti %d elementus atgal į šiukšlinę"
 msgstr[2] "Perkelti %d elementų atgal į šiukšlinę"
+msgstr[3] "Perkelti %d elementų atgal į šiukšlinę"
 
 #: src/nautilus-file-undo-operations.c:443
 #: src/nautilus-file-undo-operations.c:1327
@@ -2843,6 +2893,7 @@ msgid_plural "Restore %d items from trash"
 msgstr[0] "Atkurti %d elementą iš šiukšlinės"
 msgstr[1] "Atkurti %d elementus iš šiukšlinės"
 msgstr[2] "Atkurti %d elementų iš šiukšlinės"
+msgstr[3] "Atkurti %d elementų iš šiukšlinės"
 
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
@@ -2861,6 +2912,7 @@ msgid_plural "Delete %d copied items"
 msgstr[0] "Ištrinti %d nukopijuotą elementą"
 msgstr[1] "Ištrinti %d nukopijuotus elementus"
 msgstr[2] "Ištrinti %d nukopijuotų elementų"
+msgstr[3] "Ištrinti %d nukopijuotų elementų"
 
 #: src/nautilus-file-undo-operations.c:460
 #, c-format
@@ -2869,6 +2921,7 @@ msgid_plural "Copy %d items to “%s”"
 msgstr[0] "Kopijuoti %d elementą į „%s“"
 msgstr[1] "Kopijuoti %d elementus į „%s“"
 msgstr[2] "Kopijuoti %d elementų į „%s“"
+msgstr[3] "Kopijuoti %d elementų į „%s“"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2877,6 +2930,7 @@ msgid_plural "_Undo Copy %d items"
 msgstr[0] "_Atšaukti %d elemento nukopijavimą"
 msgstr[1] "_Atšaukti %d elementų nukopijavimą"
 msgstr[2] "_Atšaukti %d elementų nukopijavimą"
+msgstr[3] "_Atšaukti %d elementų nukopijavimą"
 
 #: src/nautilus-file-undo-operations.c:467
 #, c-format
@@ -2885,6 +2939,7 @@ msgid_plural "_Redo Copy %d items"
 msgstr[0] "Paka_rtoti %d elemento nukopijavimą"
 msgstr[1] "Paka_rtoti %d elementų nukopijavimą"
 msgstr[2] "Paka_rtoti %d elementų nukopijavimą"
+msgstr[3] "Paka_rtoti %d elementų nukopijavimą"
 
 #: src/nautilus-file-undo-operations.c:473
 #: src/nautilus-file-undo-operations.c:500
@@ -2915,6 +2970,7 @@ msgid_plural "Delete %d duplicated items"
 msgstr[0] "Pašalinti %d dubliuotą elementą"
 msgstr[1] "Pašalinti %d dubliuotus elementus"
 msgstr[2] "Pašalinti %d dubliuotų elementų"
+msgstr[3] "Pašalinti %d dubliuotų elementų"
 
 #: src/nautilus-file-undo-operations.c:487
 #, c-format
@@ -2923,6 +2979,7 @@ msgid_plural "Duplicate %d items in “%s”"
 msgstr[0] "Sukurti %d elemento kopiją „%s“ viduje"
 msgstr[1] "Sukurti %d elementų kopijas „%s“ viduje"
 msgstr[2] "Sukurti %d elementų kopijas „%s“ viduje"
+msgstr[3] "Sukurti %d elementų kopijas „%s“ viduje"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2931,6 +2988,7 @@ msgid_plural "_Undo Duplicate %d items"
 msgstr[0] "_Atšaukti %d elemento kopijos sukūrimą"
 msgstr[1] "_Atšaukti %d elementų kopijų sukūrimą"
 msgstr[2] "_Atšaukti %d elementų kopijų sukūrimą"
+msgstr[3] "_Atšaukti %d elementų kopijų sukūrimą"
 
 #: src/nautilus-file-undo-operations.c:494
 #, c-format
@@ -2939,6 +2997,7 @@ msgid_plural "_Redo Duplicate %d items"
 msgstr[0] "Paka_rtoti %d elemento kopijos sukūrimą"
 msgstr[1] "Paka_rtoti %d elementų kopijų sukūrimą"
 msgstr[2] "Paka_rtoti %d elementų kopijų sukūrimą"
+msgstr[3] "Paka_rtoti %d elementų kopijų sukūrimą"
 
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
@@ -2960,6 +3019,7 @@ msgid_plural "Delete links to %d items"
 msgstr[0] "Pašalinti nuorodas į %d elementą"
 msgstr[1] "Pašalinti nuorodas į %d elementus"
 msgstr[2] "Pašalinti nuorodas į %d elementų"
+msgstr[3] "Pašalinti nuorodas į %d elementų"
 
 #: src/nautilus-file-undo-operations.c:515
 #, c-format
@@ -2968,6 +3028,7 @@ msgid_plural "Create links to %d items"
 msgstr[0] "Sukurti nuorodą į %d elementą"
 msgstr[1] "Sukurti nuorodas į %d elementus"
 msgstr[2] "Sukurti nuorodas į %d elementų"
+msgstr[3] "Sukurti nuorodas į %d elementų"
 
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
@@ -3048,6 +3109,7 @@ msgid_plural "Batch rename %d files"
 msgstr[0] "Masiškai pervadinti %d failą"
 msgstr[1] "Masiškai pervadinti %d failus"
 msgstr[2] "Masiškai pervadinti %d failų"
+msgstr[3] "Masiškai pervadinti %d failų"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
@@ -3064,6 +3126,7 @@ msgid_plural "Move %d items to trash"
 msgstr[0] "Perkelti %d elementą į šiukšlinę"
 msgstr[1] "Perkelti %d elementus į šiukšlinę"
 msgstr[2] "Perkelti %d elementų į šiukšlinę"
+msgstr[3] "Perkelti %d elementų į šiukšlinę"
 
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
@@ -3164,6 +3227,7 @@ msgid_plural "Delete %d extracted files"
 msgstr[0] "Ištrinti %d išskleistą failą"
 msgstr[1] "Ištrinti %d išskleistus failus"
 msgstr[2] "Ištrinti %d išskleistų failų"
+msgstr[3] "Ištrinti %d išskleistų failų"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
@@ -3177,6 +3241,7 @@ msgid_plural "Extract %d files"
 msgstr[0] "Išskleisti %'d failą"
 msgstr[1] "Išskleisti %'d failus"
 msgstr[2] "Išskleisti %'d failų"
+msgstr[3] "Išskleisti %'d failų"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
@@ -3190,6 +3255,7 @@ msgid_plural "Compress %d files"
 msgstr[0] "Suspausti %'d failą"
 msgstr[1] "Suspausti %'d failus"
 msgstr[2] "Suspausti %'d failų"
+msgstr[3] "Suspausti %'d failų"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
@@ -3276,6 +3342,7 @@ msgid_plural "%d pixels"
 msgstr[0] "%d pikselis"
 msgstr[1] "%d pikseliai"
 msgstr[2] "%d pikselių"
+msgstr[3] "%d pikselių"
 
 #: src/nautilus-image-properties-page.c:362
 msgid "Width"
@@ -3417,6 +3484,7 @@ msgid_plural "Do you want to view %d locations?"
 msgstr[0] "Ar norite peržiūrėti %d vietą?"
 msgstr[1] "Ar norite peržiūrėti %d vietas?"
 msgstr[2] "Ar norite peržiūrėti %d vietų?"
+msgstr[3] "Ar norite peržiūrėti %d vietų?"
 
 #: src/nautilus-location-entry.c:271 src/nautilus-mime-actions.c:957
 #, c-format
@@ -3425,6 +3493,7 @@ msgid_plural "This will open %d separate windows."
 msgstr[0] "Bus atvertas %d atskiras langas."
 msgstr[1] "Bus atverti %d atskiri langai."
 msgstr[2] "Bus atverta %d atskirų langų."
+msgstr[3] "Bus atverta %d atskirų langų."
 
 #: src/nautilus-mime-actions.c:103
 #: src/resources/ui/nautilus-search-popover.ui:275
@@ -3508,6 +3577,7 @@ msgid_plural "This will open %d separate tabs."
 msgstr[0] "Bus atverta %d atskira kortelė."
 msgstr[1] "Bus atvertos %d atskiros kortelės."
 msgstr[2] "Bus atverta %d atskirų kortelių."
+msgstr[3] "Bus atverta %d atskirų kortelių."
 
 #: src/nautilus-mime-actions.c:1024
 #, c-format
@@ -3579,6 +3649,7 @@ msgid_plural "Opening %d items."
 msgstr[0] "Atveriamas %d elementas."
 msgstr[1] "Atveriami %d elementai."
 msgstr[2] "Atveriama %d elementų."
+msgstr[3] "Atveriama %d elementų."
 
 #: src/nautilus-mime-application-chooser.c:85
 #, c-format
@@ -3872,6 +3943,7 @@ msgid_plural "%'d file operations active"
 msgstr[0] "Aktyvi %'d failų operacija"
 msgstr[1] "Aktyvios %'d failų operacijos"
 msgstr[2] "Aktyvios %'d failų operacijos"
+msgstr[3] "Aktyvios %'d failų operacijos"
 
 #: src/nautilus-progress-persistence-handler.c:149
 msgid "All file operations have been successfully completed"
@@ -3903,6 +3975,7 @@ msgid_plural "_Names:"
 msgstr[0] "_Pavadinimas:"
 msgstr[1] "_Pavadinimai:"
 msgstr[2] "_Pavadinimų:"
+msgstr[3] "_Pavadinimų:"
 
 #: src/nautilus-properties-window.c:900
 #, c-format
@@ -3952,6 +4025,7 @@ msgid_plural "%'d items, totalling %s"
 msgstr[0] "%'d elementas, dydis %s"
 msgstr[1] "%'d elementai, iš viso %s"
 msgstr[2] "%'d elementų, iš viso %s"
+msgstr[3] "%'d elementų, iš viso %s"
 
 #: src/nautilus-properties-window.c:2355
 msgid "(some contents unreadable)"
@@ -4270,6 +4344,7 @@ msgid_plural "Since %d days ago"
 msgstr[0] "Prieš %d dieną"
 msgstr[1] "Prieš %d dienas"
 msgstr[2] "Prieš %d dienų"
+msgstr[3] "Prieš %d dienų"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4278,6 +4353,7 @@ msgid_plural "%d days ago"
 msgstr[0] "Prieš %d dieną"
 msgstr[1] "Prieš %d dienas"
 msgstr[2] "Prieš %d dienų"
+msgstr[3] "Prieš %d dienų"
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
@@ -4286,6 +4362,7 @@ msgid_plural "Since %d weeks ago"
 msgstr[0] "Prieš %d savaitę"
 msgstr[1] "Prieš %d savaites"
 msgstr[2] "Prieš %d savaičių"
+msgstr[3] "Prieš %d savaičių"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4294,6 +4371,7 @@ msgid_plural "%d weeks ago"
 msgstr[0] "Prieš %d savaitę"
 msgstr[1] "Prieš %d savaites"
 msgstr[2] "Prieš %d savaičių"
+msgstr[3] "Prieš %d savaičių"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
@@ -4302,6 +4380,7 @@ msgid_plural "Since %d months ago"
 msgstr[0] "Prieš %d mėnesį"
 msgstr[1] "Prieš %d mėnesius"
 msgstr[2] "Prieš %d mėnesių"
+msgstr[3] "Prieš %d mėnesių"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4310,6 +4389,7 @@ msgid_plural "%d months ago"
 msgstr[0] "Prieš %d mėnesį"
 msgstr[1] "Prieš %d mėnesius"
 msgstr[2] "Prieš %d mėnesių"
+msgstr[3] "Prieš %d mėnesių"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
@@ -4318,6 +4398,7 @@ msgid_plural "Since %d years ago"
 msgstr[0] "Prieš %d metus"
 msgstr[1] "Prieš %d metus"
 msgstr[2] "Prieš %d metų"
+msgstr[3] "Prieš %d metų"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4326,6 +4407,7 @@ msgid_plural "%d years ago"
 msgstr[0] "Prieš %d metus"
 msgstr[1] "Prieš %d metus"
 msgstr[2] "Prieš %d metų"
+msgstr[3] "Prieš %d metų"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
@@ -4370,6 +4452,7 @@ msgid_plural "%d files deleted"
 msgstr[0] "Ištrintas %d failas"
 msgstr[1] "Ištrinti %d failai"
 msgstr[2] "Ištrinta %d failų"
+msgstr[3] "Ištrinta %d failų"
 
 #: src/nautilus-window.c:1915
 #, c-format
@@ -5502,6 +5585,7 @@ msgid_plural "%s / %s available"
 msgstr[0] "Prieinama %s / %s"
 msgstr[1] "Prieinama %s / %s"
 msgstr[2] "Prieinama %s / %s"
+msgstr[3] "Prieinama %s / %s"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"

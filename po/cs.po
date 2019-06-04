@@ -21,13 +21,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
 "PO-Revision-Date: 2018-04-19 22:31+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Last-Translator: Roddy Shuler <roddy@stanfordalumni.org>\n"
 "Language-Team: Czech (http://www.transifex.com/endless-os/nautilus/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: data/nautilus-autorun-software.desktop.in:3
 msgid "Run Software"
@@ -833,6 +833,7 @@ msgid_plural "Rename %d Folders"
 msgstr[0] "Přejmenovat %d složku"
 msgstr[1] "Přejmenovat %d složky"
 msgstr[2] "Přejmenovat %d složek"
+msgstr[3] "Přejmenovat %d složek"
 
 #: src/nautilus-batch-rename-dialog.c:2169
 #, c-format
@@ -841,6 +842,7 @@ msgid_plural "Rename %d Files"
 msgstr[0] "Přejmenovat %d soubor"
 msgstr[1] "Přejmenovat %d soubory"
 msgstr[2] "Přejmenovat %d souborů"
+msgstr[3] "Přejmenovat %d souborů"
 
 #. To translators: %d is the total number of files and folders.
 #. * Singular case of the string is never used
@@ -851,6 +853,7 @@ msgid_plural "Rename %d Files and Folders"
 msgstr[0] "Přejmenovat %d soubor a složku"
 msgstr[1] "Přejmenovat %d soubory a složky"
 msgstr[2] "Přejmenovat %d souborů a složek"
+msgstr[3] "Přejmenovat %d souborů a složek"
 
 #: src/nautilus-batch-rename-dialog.h:88
 #: src/resources/ui/nautilus-batch-rename-dialog.ui:186
@@ -1407,6 +1410,7 @@ msgid_plural "%'u items"
 msgstr[0] "%'u položka"
 msgstr[1] "%'u položky"
 msgstr[2] "%'u položek"
+msgstr[3] "%'u položek"
 
 #: src/nautilus-file.c:7098
 #, c-format
@@ -1415,6 +1419,7 @@ msgid_plural "%'u folders"
 msgstr[0] "%'u složka"
 msgstr[1] "%'u složky"
 msgstr[2] "%'u složek"
+msgstr[3] "%'u složek"
 
 #: src/nautilus-file.c:7099
 #, c-format
@@ -1423,6 +1428,7 @@ msgid_plural "%'u files"
 msgstr[0] "%'u soubor"
 msgstr[1] "%'u soubory"
 msgstr[2] "%'u souborů"
+msgstr[3] "%'u souborů"
 
 #. This means no contents at all were readable
 #: src/nautilus-file.c:7574
@@ -1615,6 +1621,7 @@ msgid_plural "%'d seconds"
 msgstr[0] "%'d sekunda"
 msgstr[1] "%'d sekundy"
 msgstr[2] "%'d sekund"
+msgstr[3] "%'d sekund"
 
 #: src/nautilus-file-operations.c:337 src/nautilus-file-operations.c:349
 #, c-format
@@ -1623,6 +1630,7 @@ msgid_plural "%'d minutes"
 msgstr[0] "%'d minuta"
 msgstr[1] "%'d minuty"
 msgstr[2] "%'d minut"
+msgstr[3] "%'d minut"
 
 #: src/nautilus-file-operations.c:348
 #, c-format
@@ -1631,6 +1639,7 @@ msgid_plural "%'d hours"
 msgstr[0] "%'d hodina"
 msgstr[1] "%'d hodiny"
 msgstr[2] "%'d hodin"
+msgstr[3] "%'d hodin"
 
 #: src/nautilus-file-operations.c:356
 #, c-format
@@ -1639,6 +1648,7 @@ msgid_plural "approximately %'d hours"
 msgstr[0] "přibližně %'d hodina"
 msgstr[1] "přibližně %'d hodiny"
 msgstr[2] "přibližně %'d hodin"
+msgstr[3] "přibližně %'d hodin"
 
 #. appended to new link file
 #: src/nautilus-file-operations.c:458
@@ -1781,6 +1791,7 @@ msgid_plural ""
 msgstr[0] "Jste si jisti, že chcete z koše trvale smazat %'d vybranou položku?"
 msgstr[1] "Jste si jisti, že chcete z koše trvale smazat %'d vybrané položky?"
 msgstr[2] "Jste si jisti, že chcete z koše trvale smazat %'d vybraných položek?"
+msgstr[3] "Jste si jisti, že chcete z koše trvale smazat %'d vybraných položek?"
 
 #: src/nautilus-file-operations.c:1532 src/nautilus-file-operations.c:1607
 msgid "If you delete an item, it will be permanently lost."
@@ -1812,6 +1823,7 @@ msgid_plural ""
 msgstr[0] "Jste si jisti, že chcete trvale smazat %'d vybranou položku?"
 msgstr[1] "Jste si jisti, že chcete trvale smazat %'d vybrané položky?"
 msgstr[2] "Jste si jisti, že chcete trvale smazat %'d vybraných položek?"
+msgstr[3] "Jste si jisti, že chcete trvale smazat %'d vybraných položek?"
 
 #: src/nautilus-file-operations.c:1659
 #, c-format
@@ -1830,6 +1842,7 @@ msgid_plural "Deleted %'d files"
 msgstr[0] "Smazán %'d soubor"
 msgstr[1] "Smazány %'d soubory"
 msgstr[2] "Smazáno %'d souborů"
+msgstr[3] "Smazáno %'d souborů"
 
 #: src/nautilus-file-operations.c:1680
 #, c-format
@@ -1838,6 +1851,7 @@ msgid_plural "Deleting %'d files"
 msgstr[0] "Maže se %'d soubor"
 msgstr[1] "Mažou se %'d soubory"
 msgstr[2] "Maže se %'d souborů"
+msgstr[3] "Maže se %'d souborů"
 
 #. To translators: %'d is the number of files completed for the operation,
 #. * so it will be something like 2/14.
@@ -1864,6 +1878,7 @@ msgid_plural "%'d / %'d — %s left"
 msgstr[0] "%'d / %'d — zbývá %s"
 msgstr[1] "%'d / %'d — zbývají %s"
 msgstr[2] "%'d / %'d — zbývá %s"
+msgstr[3] "%'d / %'d — zbývá %s"
 
 #: src/nautilus-file-operations.c:1738 src/nautilus-file-operations.c:2127
 #, c-format
@@ -1872,6 +1887,7 @@ msgid_plural "(%d files/sec)"
 msgstr[0] "(%d soubor/s)"
 msgstr[1] "(%d soubory/s)"
 msgstr[2] "(%d souborů/s)"
+msgstr[3] "(%d souborů/s)"
 
 #: src/nautilus-file-operations.c:1897 src/nautilus-file-operations.c:3085
 msgid "Error while deleting."
@@ -1914,6 +1930,7 @@ msgid_plural "Trashing %'d files"
 msgstr[0] "Vyhazuje se %'d soubor do koše"
 msgstr[1] "Vyhazují se %'d soubory do koše"
 msgstr[2] "Vyhazuje se %'d souborů do koše"
+msgstr[3] "Vyhazuje se %'d souborů do koše"
 
 #: src/nautilus-file-operations.c:2069
 #, c-format
@@ -1922,6 +1939,7 @@ msgid_plural "Trashed %'d files"
 msgstr[0] "Vyhozen %'d soubor do koše"
 msgstr[1] "Vyhozeny %'d soubory do koše"
 msgstr[2] "Vyhozeno %'d souborů do koše"
+msgstr[3] "Vyhozeno %'d souborů do koše"
 
 #. Translators: %s is a file name
 #: src/nautilus-file-operations.c:2217
@@ -1978,6 +1996,7 @@ msgid_plural "Preparing to copy %'d files (%s)"
 msgstr[0] "Připravuje se kopírování %'d souboru (%s)"
 msgstr[1] "Připravuje se kopírování %'d souborů (%s)"
 msgstr[2] "Připravuje se kopírování %'d souborů (%s)"
+msgstr[3] "Připravuje se kopírování %'d souborů (%s)"
 
 #: src/nautilus-file-operations.c:3011
 #, c-format
@@ -1986,6 +2005,7 @@ msgid_plural "Preparing to move %'d files (%s)"
 msgstr[0] "Připravuje se přesun %'d souboru (%s)"
 msgstr[1] "Připravuje se přesun %'d souborů (%s)"
 msgstr[2] "Připravuje se přesun %'d souborů (%s)"
+msgstr[3] "Připravuje se přesun %'d souborů (%s)"
 
 #: src/nautilus-file-operations.c:3024
 #, c-format
@@ -1994,6 +2014,7 @@ msgid_plural "Preparing to delete %'d files (%s)"
 msgstr[0] "Připravuje se smazání %'d souboru (%s)"
 msgstr[1] "Připravuje se smazání %'d souborů (%s)"
 msgstr[2] "Připravuje se smazání %'d souborů (%s)"
+msgstr[3] "Připravuje se smazání %'d souborů (%s)"
 
 #: src/nautilus-file-operations.c:3034
 #, c-format
@@ -2002,6 +2023,7 @@ msgid_plural "Preparing to trash %'d files"
 msgstr[0] "Připravuje se přesun %'d souboru do koše"
 msgstr[1] "Připravuje se přesun %'d souborů do koše"
 msgstr[2] "Připravuje se přesun %'d souborů do koše"
+msgstr[3] "Připravuje se přesun %'d souborů do koše"
 
 #: src/nautilus-file-operations.c:3042
 #, c-format
@@ -2010,6 +2032,7 @@ msgid_plural "Preparing to compress %'d files"
 msgstr[0] "Připravuje se komprimace %'d souboru"
 msgstr[1] "Připravuje se komprimace %'d souborů"
 msgstr[2] "Připravuje se komprimace %'d souborů"
+msgstr[3] "Připravuje se komprimace %'d souborů"
 
 #: src/nautilus-file-operations.c:3075 src/nautilus-file-operations.c:4532
 #: src/nautilus-file-operations.c:4703 src/nautilus-file-operations.c:4769
@@ -2136,6 +2159,7 @@ msgid_plural "Moving %'d files to “%s”"
 msgstr[0] "Přesouvá se %'d soubor do „%s“"
 msgstr[1] "Přesouvají se %'d soubory do „%s“"
 msgstr[2] "Přesouvá se %'d souborů do „%s“"
+msgstr[3] "Přesouvá se %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:3778
 #, c-format
@@ -2144,6 +2168,7 @@ msgid_plural "Copying %'d files to “%s”"
 msgstr[0] "Kopíruje se %'d soubor do „%s“"
 msgstr[1] "Kopírují se %'d soubory do „%s“"
 msgstr[2] "Kopíruje se %'d souborů do „%s“"
+msgstr[3] "Kopíruje se %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:3797
 #, c-format
@@ -2152,6 +2177,7 @@ msgid_plural "Moved %'d files to “%s”"
 msgstr[0] "Přesunut %'d soubor do „%s“"
 msgstr[1] "Přesunuty %'d soubory do „%s“"
 msgstr[2] "Přesunuto %'d souborů do „%s“"
+msgstr[3] "Přesunuto %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:3803
 #, c-format
@@ -2160,6 +2186,7 @@ msgid_plural "Copied %'d files to “%s”"
 msgstr[0] "Zkopírován %'d soubor do „%s“"
 msgstr[1] "Zkopírovány %'d soubory do „%s“"
 msgstr[2] "Zkopírováno %'d souborů do „%s“"
+msgstr[3] "Zkopírováno %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:3826
 #, c-format
@@ -2168,6 +2195,7 @@ msgid_plural "Duplicating %'d files in “%s”"
 msgstr[0] "Duplikuje se %'d soubor v „%s“"
 msgstr[1] "Duplikuje se %'d soubory v „%s“"
 msgstr[2] "Duplikuje se %'d souborů v „%s“"
+msgstr[3] "Duplikuje se %'d souborů v „%s“"
 
 #: src/nautilus-file-operations.c:3836
 #, c-format
@@ -2176,6 +2204,7 @@ msgid_plural "Duplicated %'d files in “%s”"
 msgstr[0] "Zduplikován %'d soubor v „%s“"
 msgstr[1] "Zduplikovány %'d soubory v „%s“"
 msgstr[2] "Zduplikováno %'d souborů v „%s“"
+msgstr[3] "Zduplikováno %'d souborů v „%s“"
 
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so
 #. something like "4 kb / 4 MB"
@@ -2221,6 +2250,7 @@ msgid_plural "%s / %s — %s left (%s/sec)"
 msgstr[0] "%s / %s — zbývá %s (%s/s)"
 msgstr[1] "%s / %s — zbývají %s (%s/s)"
 msgstr[2] "%s / %s — zbývá %s (%s/s)"
+msgstr[3] "%s / %s — zbývá %s (%s/s)"
 
 #. To translators: %s will expand to a time duration like "2 minutes".
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left
@@ -2235,6 +2265,7 @@ msgid_plural "%'d / %'d — %s left (%s/sec)"
 msgstr[0] "%'d / %'d — zbývá %s (%s/s)"
 msgstr[1] "%'d / %'d — zbývají %s (%s/s)"
 msgstr[2] "%'d / %'d — zbývá %s (%s/s)"
+msgstr[3] "%'d / %'d — zbývá %s (%s/s)"
 
 #: src/nautilus-file-operations.c:4538
 #, c-format
@@ -2333,6 +2364,7 @@ msgid_plural "Preparing to move %'d files"
 msgstr[0] "Připravuje se přesun %'d souboru"
 msgstr[1] "Připravuje se přesun %'d souborů"
 msgstr[2] "Připravuje se přesun %'d souborů"
+msgstr[3] "Připravuje se přesun %'d souborů"
 
 #: src/nautilus-file-operations.c:6184
 #, c-format
@@ -2355,6 +2387,7 @@ msgid_plural "Making links to %'d files"
 msgstr[0] "Vytváří se odkaz k %'d souboru"
 msgstr[1] "Vytváří se odkazy k %'d souborům"
 msgstr[2] "Vytváří se odkazy k %'d souborům"
+msgstr[3] "Vytváří se odkazy k %'d souborům"
 
 #: src/nautilus-file-operations.c:6670
 #, c-format
@@ -2447,6 +2480,7 @@ msgid_plural "Extracted %'d files to “%s”"
 msgstr[0] "%'d soubor byl rozbalen do „%s“"
 msgstr[1] "%'d soubory byly rozbaleny do „%s“"
 msgstr[2] "%'d souborů bylo rozbaleno do „%s“"
+msgstr[3] "%'d souborů bylo rozbaleno do „%s“"
 
 #: src/nautilus-file-operations.c:8355
 msgid "Preparing to extract"
@@ -2468,6 +2502,7 @@ msgid_plural "Compressing %'d files into “%s”"
 msgstr[0] "Komprimuje se %'d soubor do „%s“"
 msgstr[1] "Komprimují se %'d soubory do „%s“"
 msgstr[2] "Komprimuje se %'d souborů do „%s“"
+msgstr[3] "Komprimuje se %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:8696
 #, c-format
@@ -2481,6 +2516,7 @@ msgid_plural "Error compressing %'d files into “%s”"
 msgstr[0] "Chyba při komprimaci %'d souboru do „%s“"
 msgstr[1] "Chyba při komprimaci %'d souborů do „%s“"
 msgstr[2] "Chyba při komprimaci %'d souborů do „%s“"
+msgstr[3] "Chyba při komprimaci %'d souborů do „%s“"
 
 #: src/nautilus-file-operations.c:8712
 msgid "There was an error while compressing files."
@@ -2498,6 +2534,7 @@ msgid_plural "Compressed %'d files into “%s”"
 msgstr[0] "%'d soubor byl zkomprimován do „%s“"
 msgstr[1] "%'d soubory byly zkomprimovány do „%s“"
 msgstr[2] "%'d souborů bylo zkomprimováno do „%s“"
+msgstr[3] "%'d souborů bylo zkomprimováno do „%s“"
 
 #: src/nautilus-file-operations.c:8834
 msgid "Compressing Files"
@@ -2523,6 +2560,7 @@ msgid_plural "This will open %'d separate tabs."
 msgstr[0] "Toto otevře %'d oddělenou kartu."
 msgstr[1] "Toto otevře %'d oddělené karty."
 msgstr[2] "Toto otevře %'d oddělených karet."
+msgstr[3] "Toto otevře %'d oddělených karet."
 
 #: src/nautilus-files-view.c:1129
 #, c-format
@@ -2531,6 +2569,7 @@ msgid_plural "This will open %'d separate windows."
 msgstr[0] "Toto otevře %'d samostatné okno."
 msgstr[1] "Toto otevře %'d samostatná okna."
 msgstr[2] "Toto otevře %'d samostatných oken."
+msgstr[3] "Toto otevře %'d samostatných oken."
 
 #: src/nautilus-files-view.c:1133 src/nautilus-location-entry.c:282
 #: src/nautilus-mime-actions.c:961 src/nautilus-mime-actions.c:1147
@@ -2572,6 +2611,7 @@ msgid_plural "%'d folders selected"
 msgstr[0] "Vybrána %'d složka"
 msgstr[1] "Vybrány %'d složky"
 msgstr[2] "Vybráno %'d složek"
+msgstr[3] "Vybráno %'d složek"
 
 #: src/nautilus-files-view.c:3349
 #, c-format
@@ -2580,6 +2620,7 @@ msgid_plural "(containing %'d items)"
 msgstr[0] "(obsahuje %'d položku)"
 msgstr[1] "(obsahuje %'d položky)"
 msgstr[2] "(obsahuje %'d položek)"
+msgstr[3] "(obsahuje %'d položek)"
 
 #. translators: this is preceded with a string of form 'N folders' (N more
 #. than 1)
@@ -2590,6 +2631,7 @@ msgid_plural "(containing a total of %'d items)"
 msgstr[0] "(obsahují celkem %'d položku)"
 msgstr[1] "(obsahují celkem %'d položky)"
 msgstr[2] "(obsahují celkem %'d položek)"
+msgstr[3] "(obsahují celkem %'d položek)"
 
 #: src/nautilus-files-view.c:3383
 #, c-format
@@ -2598,6 +2640,7 @@ msgid_plural "%'d items selected"
 msgstr[0] "Vybrána %'d položka"
 msgstr[1] "Vybrány %'d položky"
 msgstr[2] "Vybráno %'d položek"
+msgstr[3] "Vybráno %'d položek"
 
 #. Folders selected also, use "other" terminology
 #: src/nautilus-files-view.c:3392
@@ -2607,6 +2650,7 @@ msgid_plural "%'d other items selected"
 msgstr[0] "vybrána %'d další položka"
 msgstr[1] "vybrány %'d další položky"
 msgstr[2] "vybráno %'d dalších položek"
+msgstr[3] "vybráno %'d dalších položek"
 
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
@@ -2668,6 +2712,7 @@ msgid_plural "New Folder with Selection (%'d Items)"
 msgstr[0] "Nová složka s vybranou %'d položkou"
 msgstr[1] "Nová složka s vybranými %'d položkami"
 msgstr[2] "Nová složka s vybranými %'d položkami"
+msgstr[3] "Nová složka s vybranými %'d položkami"
 
 #: src/nautilus-files-view.c:7893
 #, c-format
@@ -2783,6 +2828,7 @@ msgid_plural "Move %d items back to “%s”"
 msgstr[0] "Přesunout %d položku zpět do „%s“"
 msgstr[1] "Přesunout %d položky zpět do „%s“"
 msgstr[2] "Přesunout %d položek zpět do „%s“"
+msgstr[3] "Přesunout %d položek zpět do „%s“"
 
 #: src/nautilus-file-undo-operations.c:413
 #, c-format
@@ -2791,6 +2837,7 @@ msgid_plural "Move %d items to “%s”"
 msgstr[0] "Přesunout %d položku do „%s“"
 msgstr[1] "Přesunout %d položky do „%s“"
 msgstr[2] "Přesunout %d položek do „%s“"
+msgstr[3] "Přesunout %d položek do „%s“"
 
 #: src/nautilus-file-undo-operations.c:417
 #, c-format
@@ -2799,6 +2846,7 @@ msgid_plural "_Undo Move %d items"
 msgstr[0] "_Vrátit přesun %d položky"
 msgstr[1] "_Vrátit přesun %d položek"
 msgstr[2] "_Vrátit přesun %d položek"
+msgstr[3] "_Vrátit přesun %d položek"
 
 #: src/nautilus-file-undo-operations.c:420
 #, c-format
@@ -2807,6 +2855,7 @@ msgid_plural "_Redo Move %d items"
 msgstr[0] "_Opakovat přesun %d položky"
 msgstr[1] "_Opakovat přesun %d položek"
 msgstr[2] "_Opakovat přesun %d položek"
+msgstr[3] "_Opakovat přesun %d položek"
 
 #: src/nautilus-file-undo-operations.c:426
 #, c-format
@@ -2841,6 +2890,7 @@ msgid_plural "Move %d items back to trash"
 msgstr[0] "Přesunout %d položku zpět do koše"
 msgstr[1] "Přesunout %d položky zpět do koše"
 msgstr[2] "Přesunout %d položek zpět do koše"
+msgstr[3] "Přesunout %d položek zpět do koše"
 
 #: src/nautilus-file-undo-operations.c:443
 #: src/nautilus-file-undo-operations.c:1327
@@ -2850,6 +2900,7 @@ msgid_plural "Restore %d items from trash"
 msgstr[0] "Obnovit %d položku z koše"
 msgstr[1] "Obnovit %d položky z koše"
 msgstr[2] "Obnovit %d položek z koše"
+msgstr[3] "Obnovit %d položek z koše"
 
 #: src/nautilus-file-undo-operations.c:449
 #, c-format
@@ -2868,6 +2919,7 @@ msgid_plural "Delete %d copied items"
 msgstr[0] "Smazat %d zkopírovanou položku"
 msgstr[1] "Smazat %d zkopírované položky"
 msgstr[2] "Smazat %d zkopírovaných položek"
+msgstr[3] "Smazat %d zkopírovaných položek"
 
 #: src/nautilus-file-undo-operations.c:460
 #, c-format
@@ -2876,6 +2928,7 @@ msgid_plural "Copy %d items to “%s”"
 msgstr[0] "Kopírovat %d položku do „%s“"
 msgstr[1] "Kopírovat %d položky do „%s“"
 msgstr[2] "Kopírovat %d položek do „%s“"
+msgstr[3] "Kopírovat %d položek do „%s“"
 
 #: src/nautilus-file-undo-operations.c:464
 #, c-format
@@ -2884,6 +2937,7 @@ msgid_plural "_Undo Copy %d items"
 msgstr[0] "_Vrátit kopírování %d položky"
 msgstr[1] "_Vrátit kopírování %d položek"
 msgstr[2] "_Vrátit kopírování %d položek"
+msgstr[3] "_Vrátit kopírování %d položek"
 
 #: src/nautilus-file-undo-operations.c:467
 #, c-format
@@ -2892,6 +2946,7 @@ msgid_plural "_Redo Copy %d items"
 msgstr[0] "_Opakovat kopírování %d položky"
 msgstr[1] "_Opakovat kopírování %d položek"
 msgstr[2] "_Opakovat kopírování %d položek"
+msgstr[3] "_Opakovat kopírování %d položek"
 
 #: src/nautilus-file-undo-operations.c:473
 #: src/nautilus-file-undo-operations.c:500
@@ -2922,6 +2977,7 @@ msgid_plural "Delete %d duplicated items"
 msgstr[0] "Smazat %d zdvojenou položku"
 msgstr[1] "Smazat %d zdvojené položky"
 msgstr[2] "Smazat %d zdvojených položek"
+msgstr[3] "Smazat %d zdvojených položek"
 
 #: src/nautilus-file-undo-operations.c:487
 #, c-format
@@ -2930,6 +2986,7 @@ msgid_plural "Duplicate %d items in “%s”"
 msgstr[0] "Zdvojit %d položku v „%s“"
 msgstr[1] "Zdvojit %d položky v „%s“"
 msgstr[2] "Zdvojit %d položek v „%s“"
+msgstr[3] "Zdvojit %d položek v „%s“"
 
 #: src/nautilus-file-undo-operations.c:491
 #, c-format
@@ -2938,6 +2995,7 @@ msgid_plural "_Undo Duplicate %d items"
 msgstr[0] "_Vrátit zdvojení %d položky"
 msgstr[1] "_Vrátit zdvojení %d položek"
 msgstr[2] "_Vrátit zdvojení %d položek"
+msgstr[3] "_Vrátit zdvojení %d položek"
 
 #: src/nautilus-file-undo-operations.c:494
 #, c-format
@@ -2946,6 +3004,7 @@ msgid_plural "_Redo Duplicate %d items"
 msgstr[0] "_Opakovat zdvojení %d položky"
 msgstr[1] "_Opakovat zdvojení %d položek"
 msgstr[2] "_Opakovat zdvojení %d položek"
+msgstr[3] "_Opakovat zdvojení %d položek"
 
 #: src/nautilus-file-undo-operations.c:501
 #, c-format
@@ -2967,6 +3026,7 @@ msgid_plural "Delete links to %d items"
 msgstr[0] "Smazat odkazy na %d položku"
 msgstr[1] "Smazat odkazy na %d položky"
 msgstr[2] "Smazat odkazy na %d položek"
+msgstr[3] "Smazat odkazy na %d položek"
 
 #: src/nautilus-file-undo-operations.c:515
 #, c-format
@@ -2975,6 +3035,7 @@ msgid_plural "Create links to %d items"
 msgstr[0] "Vytvořit odkazy na %d položku"
 msgstr[1] "Vytvořit odkazy na %d položky"
 msgstr[2] "Vytvořit odkazy na %d položek"
+msgstr[3] "Vytvořit odkazy na %d položek"
 
 #: src/nautilus-file-undo-operations.c:521
 #, c-format
@@ -3055,6 +3116,7 @@ msgid_plural "Batch rename %d files"
 msgstr[0] "Dávkově přejmenovat %d soubor"
 msgstr[1] "Dávkově přejmenovat %d soubory"
 msgstr[2] "Dávkově přejmenovat %d souborů"
+msgstr[3] "Dávkově přejmenovat %d souborů"
 
 #: src/nautilus-file-undo-operations.c:1118
 msgid "_Undo Batch Rename"
@@ -3071,6 +3133,7 @@ msgid_plural "Move %d items to trash"
 msgstr[0] "Přesunout %d položku do koše"
 msgstr[1] "Přesunout %d položky do koše"
 msgstr[2] "Přesunout %d položek do koše"
+msgstr[3] "Přesunout %d položek do koše"
 
 #: src/nautilus-file-undo-operations.c:1344
 #, c-format
@@ -3171,6 +3234,7 @@ msgid_plural "Delete %d extracted files"
 msgstr[0] "Smazat %d rozbalený soubor"
 msgstr[1] "Smazat %d rozbalené soubory"
 msgstr[2] "Smazat %d rozbalených souborů"
+msgstr[3] "Smazat %d rozbalených souborů"
 
 #: src/nautilus-file-undo-operations.c:2103
 #, c-format
@@ -3184,6 +3248,7 @@ msgid_plural "Extract %d files"
 msgstr[0] "Rozbalit %d soubor"
 msgstr[1] "Rozbalit %d soubory"
 msgstr[2] "Rozbalit %d souborů"
+msgstr[3] "Rozbalit %d souborů"
 
 #: src/nautilus-file-undo-operations.c:2258
 #, c-format
@@ -3197,6 +3262,7 @@ msgid_plural "Compress %d files"
 msgstr[0] "Komprimovat %d soubor"
 msgstr[1] "Komprimovat %d soubory"
 msgstr[2] "Komprimovat %d souborů"
+msgstr[3] "Komprimovat %d souborů"
 
 #: src/nautilus-file-undo-operations.c:2268
 msgid "_Undo Compress"
@@ -3283,6 +3349,7 @@ msgid_plural "%d pixels"
 msgstr[0] "%d pixel"
 msgstr[1] "%d pixely"
 msgstr[2] "%d pixelů"
+msgstr[3] "%d pixelů"
 
 #: src/nautilus-image-properties-page.c:362
 msgid "Width"
@@ -3424,6 +3491,7 @@ msgid_plural "Do you want to view %d locations?"
 msgstr[0] "Chcete zobrazit toto %d umístění?"
 msgstr[1] "Chcete zobrazit tyto %d umístění?"
 msgstr[2] "Chcete zobrazit těchto %d umístění?"
+msgstr[3] "Chcete zobrazit těchto %d umístění?"
 
 #: src/nautilus-location-entry.c:271 src/nautilus-mime-actions.c:957
 #, c-format
@@ -3432,6 +3500,7 @@ msgid_plural "This will open %d separate windows."
 msgstr[0] "Toto otevře %d samostatné okno."
 msgstr[1] "Toto otevře %d samostatná okna."
 msgstr[2] "Toto otevře %d samostatných oken."
+msgstr[3] "Toto otevře %d samostatných oken."
 
 #: src/nautilus-mime-actions.c:103
 #: src/resources/ui/nautilus-search-popover.ui:275
@@ -3515,6 +3584,7 @@ msgid_plural "This will open %d separate tabs."
 msgstr[0] "Toto otevře %d oddělenou kartu."
 msgstr[1] "Toto otevře %d oddělené karty."
 msgstr[2] "Toto otevře %d oddělených karet."
+msgstr[3] "Toto otevře %d oddělených karet."
 
 #: src/nautilus-mime-actions.c:1024
 #, c-format
@@ -3586,6 +3656,7 @@ msgid_plural "Opening %d items."
 msgstr[0] "Otevírá se %d položka."
 msgstr[1] "Otevírají se %d položky."
 msgstr[2] "Otevírá se %d položek."
+msgstr[3] "Otevírá se %d položek."
 
 #: src/nautilus-mime-application-chooser.c:85
 #, c-format
@@ -3879,6 +3950,7 @@ msgid_plural "%'d file operations active"
 msgstr[0] "%'d aktivní operace se soubory"
 msgstr[1] "%'d aktivní operace se soubory"
 msgstr[2] "%'d aktivních operací se soubory"
+msgstr[3] "%'d aktivních operací se soubory"
 
 #: src/nautilus-progress-persistence-handler.c:149
 msgid "All file operations have been successfully completed"
@@ -3910,6 +3982,7 @@ msgid_plural "_Names:"
 msgstr[0] "_Název:"
 msgstr[1] "_Názvy:"
 msgstr[2] "_Názvy:"
+msgstr[3] "_Názvy:"
 
 #: src/nautilus-properties-window.c:900
 #, c-format
@@ -3959,6 +4032,7 @@ msgid_plural "%'d items, totalling %s"
 msgstr[0] "%'d položka s velikostí %s"
 msgstr[1] "%'d položky s celkovou velikostí %s"
 msgstr[2] "%'d položek s celkovou velikostí %s"
+msgstr[3] "%'d položek s celkovou velikostí %s"
 
 #: src/nautilus-properties-window.c:2355
 msgid "(some contents unreadable)"
@@ -4277,6 +4351,7 @@ msgid_plural "Since %d days ago"
 msgstr[0] "Za poslední den"
 msgstr[1] "Za poslední %d dny"
 msgstr[2] "Za posledních %d dní"
+msgstr[3] "Za posledních %d dní"
 
 #: src/nautilus-ui-utilities.c:308
 #, c-format
@@ -4285,6 +4360,7 @@ msgid_plural "%d days ago"
 msgstr[0] "Před %d dnem"
 msgstr[1] "Před %d dny"
 msgstr[2] "Před %d dny"
+msgstr[3] "Před %d dny"
 
 #: src/nautilus-ui-utilities.c:314
 #, c-format
@@ -4293,6 +4369,7 @@ msgid_plural "Since %d weeks ago"
 msgstr[0] "Od minulého týdne"
 msgstr[1] "Za poslední %d týdny"
 msgstr[2] "Za posledních %d týdnů"
+msgstr[3] "Za posledních %d týdnů"
 
 #: src/nautilus-ui-utilities.c:315
 #, c-format
@@ -4301,6 +4378,7 @@ msgid_plural "%d weeks ago"
 msgstr[0] "Minulý týden"
 msgstr[1] "Poslední %d týdny"
 msgstr[2] "Posledních %d týdnů"
+msgstr[3] "Posledních %d týdnů"
 
 #: src/nautilus-ui-utilities.c:321
 #, c-format
@@ -4309,6 +4387,7 @@ msgid_plural "Since %d months ago"
 msgstr[0] "Od minulého měsíce"
 msgstr[1] "Za poslední %d měsíce"
 msgstr[2] "Za posledních %d měsíců"
+msgstr[3] "Za posledních %d měsíců"
 
 #: src/nautilus-ui-utilities.c:322
 #, c-format
@@ -4317,6 +4396,7 @@ msgid_plural "%d months ago"
 msgstr[0] "Minulý měsíc"
 msgstr[1] "Poslední %d měsíce"
 msgstr[2] "Posledních %d měsíců"
+msgstr[3] "Posledních %d měsíců"
 
 #: src/nautilus-ui-utilities.c:327
 #, c-format
@@ -4325,6 +4405,7 @@ msgid_plural "Since %d years ago"
 msgstr[0] "Za minulý rok"
 msgstr[1] "Za poslední %d roky"
 msgstr[2] "Za posledních %d let"
+msgstr[3] "Za posledních %d let"
 
 #: src/nautilus-ui-utilities.c:328
 #, c-format
@@ -4333,6 +4414,7 @@ msgid_plural "%d years ago"
 msgstr[0] "Loni"
 msgstr[1] "Poslední %d roky"
 msgstr[2] "Posledních %d let"
+msgstr[3] "Posledních %d let"
 
 #: src/nautilus-window.c:187
 msgid "Parent folder"
@@ -4377,6 +4459,7 @@ msgid_plural "%d files deleted"
 msgstr[0] "Byl smazán %d soubor"
 msgstr[1] "Byly smazány %d soubory"
 msgstr[2] "Bylo smazáno %d souborů"
+msgstr[3] "Bylo smazáno %d souborů"
 
 #: src/nautilus-window.c:1915
 #, c-format
@@ -5509,6 +5592,7 @@ msgid_plural "%s / %s available"
 msgstr[0] "%s / %s k dispozici"
 msgstr[1] "%s / %s k dispozici"
 msgstr[2] "%s / %s k dispozici"
+msgstr[3] "%s / %s k dispozici"
 
 #: src/gtk/nautilusgtkplacesviewrow.c:483
 msgid "Disconnect"

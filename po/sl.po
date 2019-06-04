@@ -5,13 +5,14 @@
 # Translators:
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2000
 # Alneja <m@owca.info>, 2006
+# Shaddai, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-19 15:14-0700\n"
-"PO-Revision-Date: 2018-04-19 22:39+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"PO-Revision-Date: 2019-01-13 02:00+0000\n"
+"Last-Translator: Shaddai\n"
 "Language-Team: Slovenian (http://www.transifex.com/endless-os/nautilus/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -688,7 +689,7 @@ msgstr "Pošlji datoteke kot elektronsko pošto ..."
 #. Some sort of failure occurred. How 'bout we tell the user?
 #: src/nautilus-application.c:175 src/nautilus-window-slot.c:1430
 msgid "Oops! Something went wrong."
-msgstr "Ops! Pri je do nepričakovane napake."
+msgstr "Ops! Nekaj je šlo po zlu."
 
 #: src/nautilus-application.c:178
 #, c-format
@@ -880,15 +881,15 @@ msgstr "Model fotoaparata"
 
 #: src/nautilus-batch-rename-dialog.h:129
 msgid "Creation date"
-msgstr "Datum ustvarjanja"
+msgstr "Datum nastanka"
 
 #: src/nautilus-batch-rename-dialog.h:136
 msgid "Season number"
-msgstr "Sezona\t"
+msgstr "Številka Sezone\t"
 
 #: src/nautilus-batch-rename-dialog.h:143
 msgid "Episode number"
-msgstr "Epizoda"
+msgstr "Številka Epizode"
 
 #: src/nautilus-batch-rename-dialog.h:150
 msgid "Track number"
